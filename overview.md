@@ -25,6 +25,7 @@ All entities (except root) are affiliated with one or more parent entities of a 
 
 Any individual accessing content hosted on the site will require an *account*: for the initial release there will be no anonymous access.
 However, not all entities will have active accounts.  
+The total population of potential users of the site is estimated to be in the thousands.
 
 There will be multiple *levels* of accounts:
 * Unverified users, who are not associated with an entity, do not belong to any class, and as such will have only limited access to publicly available data (if any)
@@ -134,7 +135,7 @@ Studies will have the following components:
 
 #### Experiment?
 
-Occasionally experiments can involve more than one procedure, e.g., longitudinal experiments, pilot studies, control studies, or other cases when between-subjects conditions involve different procedures or amounts of data.
+Occasionally experiments can involve more than one procedure, e.g., longitudinal experiments, pilot studies, control studies, or other cases when between-subjects conditions involve different procedures or quantities of data.
 There may be scenarios where these procedures are so significantly different so as to require a new organization structure combining multiple studies into an *experiment*.
 Longitudinal studies in particular are a good use-case to think about for a lot of assumptions here.
 Requires further investigation.
@@ -190,9 +191,27 @@ Additionally, there will be more specific "advanced" searches for objects of par
 
 ## I/O
 
-How data moves into and out of the system.
+How data move into and out of the system.
 
 ### Data entry
+
+Our goal is to have data (and metadata in particular) entered into the system early and with minimal interaction.
+The earlier data get into the system, the less risk there is for it to be lost, converted, processed, or forgotten.
+The less burden there is on the researcher when uploading data the more likely for them to follow through.
+We would rather have them upload a video and permissions setting with no other information than get nothing at all.  
+
+Labnanny provides the best-case scenario, wherein it acts as the sole repository and resource for an experimenter to collect and organize everything the produce and collect during a study.
+In this case, all relevant data and metadata can be extracted directly from Labnanny with no further interaction with the user necessary.
+In many labs this information is currently spread across a wide array of file servers, disks, spreadsheets, text files, pieces of paper, and even emails.
+The better we can accommodate researchers' ways of working with Labnanny, the more of these data we can collect.
+However, we must still be prepared both to allow users to upload and enter data from other sources and for any or all of it to be missing.  
+
+Spreadsheets likely provide the best and most comfortable metaphor for data entry and representation, and we should make use of this wherever possible.
+For example, a study can be presented as rows of acquisitions with columns for scalar metadata and objects.
+Clicking cells may open further pages for details about individual objects.  
+
+There may also be need for importing data from off-line sources.
+This may be eased by providing template spreadsheets for off-line collection that can be more easily processed.
 
 ### Uploading
 
@@ -213,6 +232,11 @@ This may involve special processing for certain objects, e.g., watermarking or e
 # Community
 
 ## Tags
+
+Users should be able to add free-form tag keywords to objects at most levels.
+Tagging may provide an important resource for searching and browsing.
+However, it is important to remember that the number of users will be quite small compared to many other tagging communities, and so aggregate information across may be more noisy and less reliable.
+On the other hand, tagging by users is likely to be more accurate, and so the primary concern will be tagset normalization (i.e., collapsing different tags representing identical concepts).
 
 ## Comments
 
