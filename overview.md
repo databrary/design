@@ -1,10 +1,14 @@
-This document includes *defined terms* and many open questions.
+This is an informal, high-level, functional description of the project.
+The primary goal of this document is breadth: to identify the full range of features currently planned to provide a complete product.
+A secondary goal is to define a consistent set of *terms* or vocabulary that can be used to internally describe parts of the system.
+It also may occasionally make design recommendations.
 
 # Scope
 
 This project consists of two aspects which may be more-or-less integrated or separate: Databrary and Labnanny.
 Databrary will be a centrally-hosted website, while Labnanny may be a desktop application, web appliance, part of Databrary, or some combination thereof.
 It seems likely that the majority of the Labnanny functionality will be provided in some way by the Databrary website, perhaps in addition to other interfaces, so this distinction will largely be ignored and the project referred to as *the site*.
+Similarly, Datavyu, while it will likely be integrated with the site via APIs, is considered a separate project for these purposes and will not be described here.
 
 # User management
 
@@ -51,6 +55,7 @@ To do this, users must identify the parent entity they wish to be affiliated wit
 * For institutions, this affiliation with root (or a particular administrator) will have to be setup on demand or manually by site administrators.
 * For institute administrators and PIs, this means selecting an institution (which may be an "unaffiliated" meta-institution)
 * For students and research staff, this means selecting a PI.
+
 A form allowing some kind of efficient searching for entities will be provided.
 This may require providing additional details, for example university-provided account information (e.g., NYU NetID).
 
@@ -88,23 +93,8 @@ Becoming a contributor involves accepting a contributor agreement, and may requi
 # Data
 
 The types of objects and associations between them that may be entered into the site are broad and diverse.
-These may include:
-- Video, audio, EEG and other multi-dimensional time-series objects
-- Coding data (associated with one or more time-series objects)
-- Written scholarly research, including PDFs of technical notes and links (DOI) to published articles (referencing one or more study or more specific dataset)
-- A *study* or protocol, representing concurrently an research paradigm and a set of data objects collected under this paradigm
-- Lab notebooks, stimuli, and other research *materials* (associated with a study)
-- Subject metadata, including age, gender, demographics, etc. (associated with one or more data objects)
-- Tabular or other structured data
-- Analysis or experiment programs and code
-- Arbitrary opaque files of unknown format
-
-The possible relationships, only briefly highlighted above, may be potentially unlimited, and arbitrary many-to-many relationships may be required.
-However, there are specific groupings that are of primary importance and will each have individual pages on the site:
-- Data objects into an *acquisition* representing part of a study, e.g., a single subject or session
-- Acquisitions made within a study and materials associated with that study
-- Studies performed by researchers
-- Articles produced by researchers
+These may be files with known formats, arbitrary opaque files of unknown format, and structured matadata.
+The possible relationships may be potentially unlimited, and arbitrary many-to-many relationships may be required.
 
 ## Storage
 
@@ -117,11 +107,81 @@ New objects may be created by an explicit user upload, or by offline processing 
 
 Each object may be associated with some amount of metadata stored in the database.
 Much of this metadata will be extracted from the object itself via processing specific to the object's format.
-This includes:
+This includes (but is not limited to):
 - object size, date, ownership, history
 - video length, format, resolution
 - full-text indices of all textual data
 - ...
+
+## Organizational units
+
+There are specific groupings and relationships that are of primary importance and will be represented by individual pages on the site.
+
+### Study
+
+Perhaps the central organizational unit for the site is the concept of a *study*, or project, or experimental protocol, representing concurrently an research paradigm and a set of data objects collected under this paradigm.
+In particular, this is likely to be the first object the user enters in the system, either when preparing to upload a set of data to Databrary or when starting a new project in Labnanny.
+While not all data associated with a study will have the same sharing or read permissions, they will all have the same write permissions.  
+
+Studies will have the following components:
+- Some number of entity *owners*, usually the users who collected the data and have full access to create and modify associated data
+- A designated *principal* owner, likely a PI user, who has long-term stewardship of the data
+- A schema for what information and data will be collected for each acquisition in the study, which may be determined explicitly through user interrogation or implicitly as acquisitions are added
+- A heterogeneous collection of *materials* describing the research procedures, including:
+   - lab notebooks describing procedures, goals, etc. (usually documents)
+   - stimuli that are presented to participants (consent forms, instruction documents, images, or videos)
+   - analysis or experiment *programs* or code (so-named to distinguish them from coding data)
+
+#### Experiment?
+
+Occasionally experiments can involve more than one procedure, e.g., longitudinal experiments, pilot studies, control studies, or other cases when between-subjects conditions involve different procedures or amounts of data.
+There may be scenarios where these procedures are so significantly different so as to require a new organization structure combining multiple studies into an *experiment*.
+Longitudinal studies in particular are a good use-case to think about for a lot of assumptions here.
+Requires further investigation.
+
+### Acquisition
+
+A study consists of some number of *acquisitions*.
+These acquisitions are usually individual participant or sessions of the experiment.
+Importantly, each acquisition in a study involved the same experimental procedures for collecting data.
+However, not all acquisitions will necessarily have the same set of objects, as some may be missing for various reasons.  
+
+An acquisition can include both raw data collected at the time of the experiment and summary data that has been extracted from these objects later by researchers or programs.
+These may include:
+- Acquisition date
+- Permissions collected from the participant, including sharing rights and consent forms, which apply (at least) to all raw (non-anonymized?) data
+- Information collected about the participant(s) involved, including age/birthdate, gender, demographics, etc.
+- Video, audio, eye-tracking, motion-tracking, skin conductance, EEG, and other multi-dimensional *time-series* objects each with known (fixed?) temporal resolution
+- Temporal synchronization relationships between time-series objects, in the form of sync points
+- Coding data from Datavyu or similar programs that provide structured annotations about temporal regions of one or more synchronized time-series object
+- Tabular or other array-structured data made either during the experiment or from analyses of other data
+
+Of these, only a sharing permission is required (though of course pointless without at least one other object).
+
+### Participant?
+
+In general participants are treated as anonymous entities associated with a single acquisition.
+However, for the purpose of Labnanny, there may be a desire to explicitly keep track of non-anonymous participants to help with recruiting and scheduling.
+This raises a number of potential privacy concerns, however.  
+
+The best practice would be to completely separate the concept of participant for Labnanny from those participants in acquisitions, so that there are no links between them.
+A best case would if Labnanny information is stored in a local application or appliance, that this is never sent to Databrary.
+Participant data from Labnanny may be used, carefully and selectively, to automatically fill in participant acquisition data, but this must be limited to gender, age/birthdate, demographic information.  
+
+Longitudinal experiments may also wish to explicitly maintain the association between identical participants in different acquisitions (studies?).
+
+### Researcher
+
+Each entity may have a page on the site that includes:
+- Studies owned by that researcher
+- Written scholarly research, including PDFs and links ([DOI](http://www.doi.org/)) to published articles
+- Other profile information from an associated account
+
+### Article?
+
+We may also want to keep more explicit track of written articles themselves, including the studies and researchers that contributed to them.
+However, the primary motivation for articles is to allow expanded searching of studies.
+We should not over-build any article management beyond simple external references as there are numerous other sites with this information.
 
 ## Searching
 
@@ -149,3 +209,11 @@ This may also involve partial access, for example to metadata for an object but 
 
 Some objects will be available for direct download.
 This may involve special processing for certain objects, e.g., watermarking or explicit permission verification of some kind.
+
+# Community
+
+## Tags
+
+## Comments
+
+Some pages may have comment sections open to authorized accounts.
