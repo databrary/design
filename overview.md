@@ -40,7 +40,7 @@ Potential users will be required to register an account and provide:
 - An email address, to be verified with token-based email confirmation
 - A real name, perhaps with some first/last structure, similar to journal standards (but please [think this through](http://www.kalzumeus.com/2010/06/17/falsehoods-programmers-believe-about-names/))
 - Possibly a captcha if unverified users are allowed to post comments, but probably this will not be allowed
-- Other optional user details (URL, personal/profile stuff, ...)
+- Other optional user details which may be set and changed later (timezone, URL, personal/profile stuff, ...)
 
 Successful registration results in an unverified account.
 
