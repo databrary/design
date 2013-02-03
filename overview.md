@@ -114,31 +114,33 @@ This includes (but is not limited to):
 - full-text indices of all textual data
 - ...
 
+**[CF: I think this section should be broken down and put amongst the relevant organizational units]**
+
 ## Organizational units
 
 There are specific groupings and relationships that are of primary importance and will be represented by individual pages on the site.
 
 ### Study
 
-Perhaps the central organizational unit for the site is the concept of a *study*, or project, or experimental protocol, representing concurrently an research paradigm and a set of data objects collected under this paradigm.
+The central organizational unit for the site is the concept of a *study*, or project, or experimental protocol, representing concurrently an research paradigm and a set of data objects collected under this paradigm.
+
 In particular, this is likely to be the first object the user enters in the system, either when preparing to upload a set of data to Databrary or when starting a new project in Labnanny.
-While not all data associated with a study will have the same sharing or read permissions, they will all have the same write permissions.  
 
-Studies will have the following components:
-- Some number of entity *owners*, usually the users who collected the data and have full access to create and modify associated data
-- A designated *principal* owner, likely a PI user, who has long-term stewardship of the data
-- A schema for what information and data will be collected for each acquisition in the study, which may be determined explicitly through user interrogation or implicitly as acquisitions are added
-- A heterogeneous collection of *materials* describing the research procedures, including:
-   - lab notebooks describing procedures, goals, etc. (usually documents)
-   - stimuli that are presented to participants (consent forms, instruction documents, images, or videos)
-   - analysis or experiment *programs* or code (so-named to distinguish them from coding data)
+While not all data associated with a study will have the same sharing or read permissions, they will all have the same write permissions. Studies will be comprised of the following components / metadata:
 
-#### Experiment?
+* One designated *principal owner*, likely a PI user, who has long-term stewardship of the data **[CF: Does it make sense for a study to have more than one principal owner?]**.
+* Zero or many *team members* **[CF: Better / more relevant term??]**, which will usually be the students, grads and post grads who collected the data and have full access to create and modify everything associated with the study. **[CF: How is this going to be maintained over the long term? Is it expected that once you have participated in the collection of data, you will be will have access forever? Or is it expected that the PI will have to manage and maintain this list of team members as people enter and leave their lab?]**
 
-Occasionally experiments can involve more than one procedure, e.g., longitudinal experiments, pilot studies, control studies, or other cases when between-subjects conditions involve different procedures or quantities of data.
-There may be scenarios where these procedures are so significantly different so as to require a new organization structure combining multiple studies into an *experiment*.
-Longitudinal studies in particular are a good use-case to think about for a lot of assumptions here.
-Requires further investigation.
+* A schema for what information and data will be collected for each acquisition in the study, which may be determined explicitly through user interrogation or implicitly as acquisitions are added **[CF: Personally I think this schema should be implicit and defined by LabNanny or the Databrary equivalent.]** This will be a heterogeneous collection of *materials* describing the research procedures, including:
+   * **[CF: We need to tighten this sub-list up considerably. In addition to Karen and Ricks lab, I think we need to source a bunch of these sorts of documents from around the place.]**
+   * lab notebooks describing procedures, goals, etc. (usually documents)
+   * stimuli that are presented to participants (consent forms, instruction documents, images, or videos)
+   * analysis or experiment *programs* or code (so-named to distinguish them from coding data)
+
+
+* **[CF: I think we also need studies to be bound to traditional academic artefacts / publications - both in terms of them citing data, and vice-versa]:**
+	* Link/citation to the final output of the study, i.e. This should be a link to the full text of a published manuscript in a journal / conference.
+	* A copy of the abstract from the published manuscript. 
 
 ### Acquisition
 
@@ -158,6 +160,13 @@ These may include:
 - Tabular or other array-structured data made either during the experiment or from analyses of other data
 
 Of these, only a sharing permission is required (though of course pointless without at least one other object).
+
+#### Experiment?
+
+Occasionally experiments can involve more than one procedure, e.g., longitudinal experiments, pilot studies, control studies, or other cases when between-subjects conditions involve different procedures or quantities of data.
+There may be scenarios where these procedures are so significantly different so as to require a new organization structure combining multiple studies into an *experiment*.
+Longitudinal studies in particular are a good use-case to think about for a lot of assumptions here.
+Requires further investigation.
 
 ### Participant?
 
