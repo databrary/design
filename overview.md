@@ -104,18 +104,6 @@ Objects that are represented by files will be assigned IDs via the database, and
 
 New objects may be created by an explicit user upload, or by offline processing of other objects (e.g., transcoding).
 
-## Metadata
-
-Each object may be associated with some amount of metadata stored in the database.
-Much of this metadata will be extracted from the object itself via processing specific to the object's format.
-This includes (but is not limited to):
-- object size, date, ownership, history
-- video length, format, resolution
-- full-text indices of all textual data
-- ...
-
-**[CF: I think this section should be broken down and put amongst the relevant organizational units]**
-
 ## Organizational units
 
 There are specific groupings and relationships that are of primary importance and will be represented by individual pages on the site.
@@ -123,28 +111,32 @@ There are specific groupings and relationships that are of primary importance an
 ### Study
 
 The central organizational unit for the site is the concept of a *study*, or project, or experimental protocol, representing concurrently an research paradigm and a set of data objects collected under this paradigm.
+In particular, this is likely to be the first object the user enters in the system, either when preparing to upload a set of data to Databrary or when starting a new project in Labnanny.  
 
-In particular, this is likely to be the first object the user enters in the system, either when preparing to upload a set of data to Databrary or when starting a new project in Labnanny.
+While not all objects associated with a study will have the same sharing or read permissions, they will all have the same write permissions.
+Studies will be comprised of the following components / metadata:
+* One or more designated *principal owners*, likely a PI users, who have long-term stewardship of the data
+* Zero or more study *members*, who must be affiliated with and maintained by the principal owner, and will usually be the students, grads and post grads who collected the data and have full access to create and modify everything associated with the study
+* A schema for what information and data will be collected for each acquisition in the study, which may be determined explicitly through user interrogation or, preferably, implicitly derived from the materials or built as acquisitions are added
+* A heterogeneous collection of *materials* describing the research procedures, usually created before data collection starts
+* A set of acquisitions represented the collected data
+* Any number of *articles* that incorporate data from this study
 
-While not all data associated with a study will have the same sharing or read permissions, they will all have the same write permissions. Studies will be comprised of the following components / metadata:
-
-* One designated *principal owner*, likely a PI user, who has long-term stewardship of the data **[CF: Does it make sense for a study to have more than one principal owner?]**.
-* Zero or many *team members* **[CF: Better / more relevant term??]**, which will usually be the students, grads and post grads who collected the data and have full access to create and modify everything associated with the study. **[CF: How is this going to be maintained over the long term? Is it expected that once you have participated in the collection of data, you will be will have access forever? Or is it expected that the PI will have to manage and maintain this list of team members as people enter and leave their lab?]**
-
-* A schema for what information and data will be collected for each acquisition in the study, which may be determined explicitly through user interrogation or implicitly as acquisitions are added **[CF: Personally I think this schema should be implicit and defined by LabNanny or the Databrary equivalent.]** This will be a heterogeneous collection of *materials* describing the research procedures, including:
-   * **[CF: We need to tighten this sub-list up considerably. In addition to Karen and Ricks lab, I think we need to source a bunch of these sorts of documents from around the place.]**
+Collecting example materials from a broad set of labs will inform how studies and acquisitions should be structured, but are expected to include:
    * lab notebooks describing procedures, goals, etc. (usually documents)
    * stimuli that are presented to participants (consent forms, instruction documents, images, or videos)
    * analysis or experiment *programs* or code (so-named to distinguish them from coding data)
 
+#### Experiment?
 
-* **[CF: I think we also need studies to be bound to traditional academic artefacts / publications - both in terms of them citing data, and vice-versa]:**
-	* Link/citation to the final output of the study, i.e. This should be a link to the full text of a published manuscript in a journal / conference.
-	* A copy of the abstract from the published manuscript. 
+Occasionally experiments can involve more than one procedure, e.g., longitudinal experiments, pilot studies, control studies, or other cases when between-subjects conditions involve different procedures or quantities of data.
+There may be scenarios where these procedures are so significantly different so as to require a new organization structure combining multiple studies into an *experiment*.
+Longitudinal studies in particular are a good use-case to think about for a lot of assumptions here.
+Requires further investigation.
 
-### Acquisition
+#### Acquisition
 
-A study consists of some number of *acquisitions*.
+A study consists of some number of *acquisitions* ("collections" may be a better term, but has other connotations).
 These acquisitions are usually individual participant or sessions of the experiment.
 Importantly, each acquisition in a study involved the same experimental procedures for collecting data.
 However, not all acquisitions will necessarily have the same set of objects, as some may be missing for various reasons.  
@@ -161,14 +153,7 @@ These may include:
 
 Of these, only a sharing permission is required (though of course pointless without at least one other object).
 
-#### Experiment?
-
-Occasionally experiments can involve more than one procedure, e.g., longitudinal experiments, pilot studies, control studies, or other cases when between-subjects conditions involve different procedures or quantities of data.
-There may be scenarios where these procedures are so significantly different so as to require a new organization structure combining multiple studies into an *experiment*.
-Longitudinal studies in particular are a good use-case to think about for a lot of assumptions here.
-Requires further investigation.
-
-### Participant?
+#### Participant?
 
 In general participants are treated as anonymous entities associated with a single acquisition.
 However, for the purpose of Labnanny, there may be a desire to explicitly keep track of non-anonymous participants to help with recruiting and scheduling.
@@ -180,22 +165,45 @@ Participant data from Labnanny may be used, carefully and selectively, to automa
 
 Longitudinal experiments may also wish to explicitly maintain the association between identical participants in different acquisitions (studies?).
 
+#### Object and metadata
+
+Each data object in an acquisition is associated with some amount of metadata stored in the database.
+Much of this metadata will be extracted from the object itself via processing specific to the object's format.
+This includes (but is not limited to):
+- object size, date, ownership, history
+- video length, format, resolution
+- related, synchronized, and derived objects 
+- ...
+
+A page representing any object (which may also form a part of its containing study page) should include this information, along with a generated preview or summary of the data (if available) and a download link (depending on permissions).
+Conversions between formats (when uploading or downloading) may also be available for some objects.
+
 ### Researcher
 
 Each entity may have a page on the site that includes:
 - Studies owned by that researcher
-- Written scholarly research, including PDFs and links ([DOI](http://www.doi.org/)) to published articles
+- Articles to which they contributed
 - Other profile information from an associated account
 
-### Article?
+#### Article
 
-We may also want to keep more explicit track of written articles themselves, including the studies and researchers that contributed to them.
-However, the primary motivation for articles is to allow expanded searching of studies.
+While not serving as a central repository by any means, we will also keep track of relevant written scholarly research, primarily to allow expanded searching of studies.
 We should not over-build any article management beyond simple external references as there are numerous other sites with this information.
+
+At the minimum, however, articles will include:
+* A link or citation ([DOI](http://www.doi.org/)) to the full text of a manuscript, usually as published in a journal or conference
+* The text of the abstract
+* The set of author entities, or at least those which exist in the system (this may have to be inferred with some manual intervention by users)
+* Any studies which contain data contributing to the article
+
+We may additionally wish to store:
+* Publication date
+* A PDF or text content of the article to allow for searching
+* An optional annotation on each study link described how the study contributed to the article
 
 ## Searching
 
-All textual materials, articles, documents, code, and really anything at all passable should be available to a full-text search.
+All textual objects, materials, articles, documents, code, and really anything at all that can be parsed should be available to a full-text search.
 Additionally, there will be more specific "advanced" searches for objects of particular types with appropriate metadata conditions.
 
 ## I/O
