@@ -115,14 +115,16 @@ In particular, this is likely to be the first object the user enters in the syst
 
 While not all objects associated with a study will have the same sharing or read permissions, they will all have the same write permissions.
 Studies will be comprised of the following components / metadata:
+
 * One or more designated *principal owners*, likely a PI users, who have long-term stewardship of the data
 * Zero or more study *members*, who must be affiliated with and maintained by the principal owner, and will usually be the students, grads and post grads who collected the data and have full access to create and modify everything associated with the study
 * A schema for what information and data will be collected for each acquisition in the study, which may be determined explicitly through user interrogation or, preferably, implicitly derived from the materials or built as acquisitions are added
 * A heterogeneous collection of *materials* describing the research procedures, usually created before data collection starts
-* A set of acquisitions represented the collected data
-* Any number of *articles* that incorporate data from this study
+* Zero or many *articles* that represent the scholarly output from data contained within this study.
+* Zero or many *acquisitions* represented the collected data
 
 Collecting example materials from a broad set of labs will inform how studies and acquisitions should be structured, but are expected to include:
+
    * lab notebooks describing procedures, goals, etc. (usually documents)
    * stimuli that are presented to participants (consent forms, instruction documents, images, or videos)
    * analysis or experiment *programs* or code (so-named to distinguish them from coding data)
@@ -134,24 +136,31 @@ There may be scenarios where these procedures are so significantly different so 
 Longitudinal studies in particular are a good use-case to think about for a lot of assumptions here.
 Requires further investigation.
 
+** CF: I think an experiment will be better abstracted as a study containing a set of other studies. (composite pattern). I think we should broaden the definition of an acquisition to either directly contain media objects or to contain references to other studies. The end-user would be presented with leaf media objects from the 'study tree', essentially allowing researchers to 'fork' and combine existing research data into new studies. I.e. I don't think it is wise to have a separate 'experiment' organisational unit, as it can be inferred from our existing units. **
+
+
 #### Acquisition
 
-A study consists of some number of *acquisitions* ("collections" may be a better term, but has other connotations).
-These acquisitions are usually individual participant or sessions of the experiment.
-Importantly, each acquisition in a study involved the same experimental procedures for collecting data.
-However, not all acquisitions will necessarily have the same set of objects, as some may be missing for various reasons.  
+A study consists of some number of *acquisitions* (alternatives for this term: "clips", "trials", "collections", "session"). These acquisitions are usually individual participant or sessions of the experiment.
 
-An acquisition can include both raw data collected at the time of the experiment and summary data that has been extracted from these objects later by researchers or programs.
-These may include:
-- Acquisition date
-- Permissions collected from the participant, including sharing rights and consent forms, which apply (at least) to all raw (non-anonymized?) data
-- Information collected about the participant(s) involved, including age/birthdate, gender, demographics, etc.
-- Video, audio, eye-tracking, motion-tracking, skin conductance, EEG, and other multi-dimensional *time-series* objects each with known (fixed?) temporal resolution
-- Temporal synchronization relationships between time-series objects, in the form of sync points
-- Coding data from Datavyu or similar programs that provide structured annotations about temporal regions of one or more synchronized time-series object
-- Tabular or other array-structured data made either during the experiment or from analyses of other data
+Importantly, each acquisition in a study involved the same experimental procedures for collecting data. However, not all acquisitions will necessarily have the same set of objects, as some may be missing for various reasons.  
 
-Of these, only a sharing permission is required (though of course pointless without at least one other object).
+An acquisition can include both raw data collected at the time of the experiment and summary data that has been extracted from these objects later by researchers or programs. These may include:
+
+* Acquisition date
+* Permissions collected from the participant, including sharing rights and consent forms, which apply (at least) to all raw (non-anonymized?) data.
+* Participant demographic information:
+	* age/birthdate
+	* gender
+	* ethnicity
+* One or many Video, audio, eye-tracking, motion-tracking, skin conductance, EEG, and other multi-dimensional *time-series* objects. 
+* Zero or one associated markup or *coding data* metadata files from Datavyu. 
+
+
+**CF: Initially I don't think we really want databrary to have an in-depth understanding of datavyu files. I think databrary should just hold a collection of media objects and associated datavyu files.**
+
+
+
 
 #### Participant?
 
@@ -187,19 +196,27 @@ Each entity may have a page on the site that includes:
 
 #### Article
 
-While not serving as a central repository by any means, we will also keep track of relevant written scholarly research, primarily to allow expanded searching of studies.
-We should not over-build any article management beyond simple external references as there are numerous other sites with this information.
+While not serving as a central repository by any means, we also want to keep simple references between research data and corresponding written scholarly research. 
 
 At the minimum, however, articles will include:
-* A link or citation ([DOI](http://www.doi.org/)) to the full text of a manuscript, usually as published in a journal or conference
-* The text of the abstract
+
+* Only one link or citation ([DOI](http://www.doi.org/)) to the full text of a manuscript, usually as published in a journal or conference.
+
+From this link, Databrary will automatically populate the following:
+
+* The abstract for the article.
+* The article title 
 * The set of author entities, or at least those which exist in the system (this may have to be inferred with some manual intervention by users)
-* Any studies which contain data contributing to the article
 
 We may additionally wish to store:
 * Publication date
 * A PDF or text content of the article to allow for searching
-* An optional annotation on each study link described how the study contributed to the article
+* An optional annotation on each study link described how the study contributed to the article.
+
+## Citing Research Data
+
+** TODO: How people will cite research data held in databrary from publications. **
+
 
 ## Searching
 
