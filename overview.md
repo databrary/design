@@ -24,8 +24,9 @@ Entities can belong to the following *classes*:
 All entities (except root) are affiliated with one or more parent entities of a higher class.  
 
 Any individual accessing content hosted on the site will require an *account*: for the initial release there will be no anonymous access.
-However, not all entities will have active accounts.  
-The total population of potential users of the site is estimated to be in the thousands.
+However, not all entities will have active accounts. 
+ 
+The total population of potential users of the site is estimated to be in the thousands. This estimate comes from the fact that The Society for Research in Child Development (SRCD) has 5,500 members in various disciplines.
 
 There will be multiple *levels* of accounts:
 * Unverified users, who are not associated with an entity, do not belong to any class, and as such will have only limited access to publicly available data (if any)
