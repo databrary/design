@@ -1,5 +1,5 @@
 This is an informal, high-level, functional description of the project.
-The primary goal of this document is breadth: to identify the full range of features currently planned to provide a complete product.
+The primary goal of this document is breadth: to identify the full range of features currently planned that provide a complete product.
 A secondary goal is to define a consistent set of *terms* or vocabulary that can be used to internally describe parts of the system.
 It also may occasionally make design recommendations.
 
@@ -40,7 +40,7 @@ Are entities and account details public?
 Potential users will be required to register an account and provide:
 - An email address, to be verified with token-based email confirmation
 - A real name, perhaps with some first/last structure, similar to journal standards (but please [think this through](http://www.kalzumeus.com/2010/06/17/falsehoods-programmers-believe-about-names/))
-- Possibly a captcha if unverified users are allowed to post comments, but probably this will not be allowed
+- Possibly a captcha if unverified users are allowed to post comments, but probably this will not be necessary
 - Other optional user details which may be set and changed later (timezone, URL, personal/profile stuff, ...)
 
 Successful registration results in an unverified account.
@@ -51,19 +51,19 @@ Authorization verifies, establishes, and maintains the affiliation between an en
 
 ### Requesting
 
-The list of classes above naturally sets up a hierarchy of authority.
+The list of entity classes above naturally sets up a hierarchy of authority.
 Users may additionally complete one or more authorization steps that, if successful, will result in creation of their entity and affiliation with another entity.
 To do this, users must identify the parent entity they wish to be affiliated with.  
 * For institutions, this affiliation with root (or a particular administrator) will have to be setup on demand or manually by site administrators.
-* For institute administrators and PIs, this means selecting an institution (which may be an "unaffiliated" meta-institution)
+* For institute administrators and PIs, this means selecting an institution (which may be an "unaffiliated" meta-institution).
 * For students and research staff, this means selecting a PI.
 
-A form allowing some kind of efficient searching for entities will be provided.
-This may require providing additional details, for example university-provided account information (e.g., NYU NetID).
+Searching for potential parent entities can be done hierarchically: by geographical region, to institute, to PI.
+This may also require providing additional details, for example university-provided account information (e.g., NYU NetID).
 
 ### Granting
 
-This request will generate a request to the selected parent entity.
+This request will notify the selected parent entity.
 If an account is associated with that entity, that user will be able to authorize the affiliation, and also select a level (below their own).
 If no account is associated with an entity, an appropriate delegate account may instead do the authorization (i.e., a university administrator for a university, or a site administrator).
 A page for each such parent account or delegate will be available listing all children and requests.
@@ -75,7 +75,6 @@ How are delegates established?
 Authorizing an affiliation indicates that the authorizing agent has confirmed that the identity of the account matches the (possibly new) entity, and establishes some level responsibility for that account.
 Other details may be required during the authorization:
 - Specific role of the account (IRB, PI, post-doc, grad student, staff, undergrad, etc.)
-- What else?
 
 ## Authentication
 
@@ -83,9 +82,9 @@ Various options here:
 * Standard passwords with good strength, hashing, and salting standards (should not unnecessarily restrict special characters or length)
 * [OpenIDs](http://wiki.openid.net/w/page/12995211/OpenID_Authentication_2) supplied by users
 * Multifactor something
-* Delegation to university authentication systems
+* Delegation to university authentication systems (not a complete solution)
 
-Authentication should not be overly burdensome, while still ensuring secure.
+Authentication should not be overly burdensome, while still ensuring security.
 Entities (universities in particular) may be able to establish additional restrictions, for example restricting access of descendant accounts to particular IP subnets.
 
 ## Contributor agreements
@@ -101,7 +100,7 @@ The possible relationships may be potentially unlimited, and arbitrary many-to-m
 ## Storage
 
 Primary storage consists of a structured database.
-Objects that are represented by files will be assigned IDs via the database, and then stored as files such (by ID?) on a filesystem of some kind and treated as opaque data for most purposes (i.e., no on-line searching, only atomic downloading).  
+Objects that are represented by files will be assigned IDs via the database, and then stored as blobs (objects, files, by ID?) on a filesystem of some kind and treated as opaque data for most purposes (i.e., no on-line searching, only atomic downloading).  
 
 New objects may be created by an explicit user upload, or by offline processing of other objects (e.g., transcoding).
 
@@ -123,6 +122,7 @@ Studies will be comprised of the following components / metadata:
 * A heterogeneous collection of *materials* describing the research procedures, usually created before data collection starts
 * Zero or many *articles* that represent the scholarly output from data contained within this study.
 * Zero or many *acquisitions* represented the collected data
+* Zero or more other studies that provide data to this study, e.g., for meta-analyses, longitudinal studies, or other more complex experiments involving multiple protocols  
 
 Collecting example materials from a broad set of labs will inform how studies and acquisitions should be structured, but are expected to include:
 
@@ -130,38 +130,24 @@ Collecting example materials from a broad set of labs will inform how studies an
    * stimuli that are presented to participants (consent forms, instruction documents, images, or videos)
    * analysis or experiment *programs* or code (so-named to distinguish them from coding data)
 
-#### Experiment?
-
-Occasionally experiments can involve more than one procedure, e.g., longitudinal experiments, pilot studies, control studies, or other cases when between-subjects conditions involve different procedures or quantities of data.
-There may be scenarios where these procedures are so significantly different so as to require a new organization structure combining multiple studies into an *experiment*.
-Longitudinal studies in particular are a good use-case to think about for a lot of assumptions here.
-Requires further investigation.
-
-** CF: I think an experiment will be better abstracted as a study containing a set of other studies. (composite pattern). I think we should broaden the definition of an acquisition to either directly contain media objects or to contain references to other studies. The end-user would be presented with leaf media objects from the 'study tree', essentially allowing researchers to 'fork' and combine existing research data into new studies. I.e. I don't think it is wise to have a separate 'experiment' organisational unit, as it can be inferred from our existing units. **
-
-
 #### Acquisition
 
-A study consists of some number of *acquisitions* (alternatives for this term: "clips", "trials", "collections", "session"). These acquisitions are usually individual participant or sessions of the experiment.
+A study consists of some number of *acquisitions* (alternatives for this term: "clips", "trials", "collections", "session-").
+These acquisitions are usually individual participants or sessions of the experiment.
 
 Importantly, each acquisition in a study involved the same experimental procedures for collecting data. However, not all acquisitions will necessarily have the same set of objects, as some may be missing for various reasons.  
 
 An acquisition can include both raw data collected at the time of the experiment and summary data that has been extracted from these objects later by researchers or programs. These may include:
-
 * Acquisition date
-* Permissions collected from the participant, including sharing rights and consent forms, which apply (at least) to all raw (non-anonymized?) data.
-* Participant demographic information:
+* Permissions collected from the participant, including sharing rights and consent forms, which apply (at least) to all raw (non-anonymized?) data
+* Demographic information for participant(s):
 	* age/birthdate
 	* gender
 	* ethnicity
-* One or many Video, audio, eye-tracking, motion-tracking, skin conductance, EEG, and other multi-dimensional *time-series* objects. 
-* Zero or one associated markup or *coding data* metadata files from Datavyu. 
-
+* One or many video, audio, eye-tracking, motion-tracking, skin conductance, EEG, and other multi-dimensional *time-series* objects
+* Zero or one associated markup or *coding data* metadata files from Datavyu  
 
 **CF: Initially I don't think we really want databrary to have an in-depth understanding of datavyu files. I think databrary should just hold a collection of media objects and associated datavyu files.**
-
-
-
 
 #### Participant?
 
@@ -200,11 +186,9 @@ Each entity may have a page on the site that includes:
 While not serving as a central repository by any means, we also want to keep simple references between research data and corresponding written scholarly research. 
 
 At the minimum, however, articles will include:
-
 * Only one link or citation ([DOI](http://www.doi.org/)) to the full text of a manuscript, usually as published in a journal or conference.
 
 From this link, Databrary will automatically populate the following:
-
 * The abstract for the article.
 * The article title 
 * The set of author entities, or at least those which exist in the system (this may have to be inferred with some manual intervention by users)
@@ -212,12 +196,13 @@ From this link, Databrary will automatically populate the following:
 We may additionally wish to store:
 * Publication date
 * A PDF or text content of the article to allow for searching
-* An optional annotation on each study link described how the study contributed to the article.
+* An optional annotation on each study link describing how the study contributed to the article.
 
 ## Citing Research Data
 
-** TODO: How people will cite research data held in databrary from publications. **
-
+Databrary will provide stable URIs ("perma-links") for its various aspects which can be used for citations.
+This should include at least studies, but should probably apply to all other levels of representation.
+Standardization and appropriate user documentation describing these citations will be provided.
 
 ## Searching
 
@@ -275,4 +260,10 @@ On the other hand, tagging by users is likely to be more accurate, and so the pr
 
 ## Comments
 
-Some pages may have comment sections open to authorized accounts.
+Some pages, including data objects and studies, have comment sections open to authorized accounts.
+
+## Flagging
+
+Ideally there will be limited curational involvement by site administrators in data and content as the population is limited and generally trustworthy.
+However, there still should be a method for people to bring moderational attention to questionable content.
+This may simply be an email/feedback interface that allows referencing specific pages.
