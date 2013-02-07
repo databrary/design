@@ -138,13 +138,15 @@ These acquisitions are usually individual participants or sessions of the experi
 Importantly, each acquisition in a study involved the same experimental procedures for collecting data. However, not all acquisitions will necessarily have the same set of objects, as some may be missing for various reasons.  
 
 An acquisition can include both raw data collected at the time of the experiment and summary data that has been extracted from these objects later by researchers or programs. These may include:
+
 * Acquisition date
 * Permissions collected from the participant, including sharing rights and consent forms, which apply (at least) to all raw (non-anonymized?) data
 * Demographic information for participant(s):
 	* age/birthdate
 	* gender
 	* ethnicity
-* One or many video, audio, eye-tracking, motion-tracking, skin conductance, EEG, and other multi-dimensional *time-series* objects
+* Zero or many video, audio, eye-tracking, motion-tracking, skin conductance, EEG, and other multi-dimensional *time-series* objects
+* Zero or many references to other studies. This will allow researchers to copy, combine and extend existing datasets so that they can be used in longitudinal, pilot and control studies.
 * Zero or one associated markup or *coding data* metadata files from Datavyu  
 
 **CF: Initially I don't think we really want databrary to have an in-depth understanding of datavyu files. I think databrary should just hold a collection of media objects and associated datavyu files.**
