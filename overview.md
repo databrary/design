@@ -13,25 +13,22 @@ Similarly, Datavyu, while it will likely be integrated with the site via APIs, i
 # User management
 
 Various *entities* representing real world identities may be associated with the site.
-Entities can belong to the following *classes*:
+Entities can belong to the following *levels*:
 
 1. Site administrators (root)
+2. IRB members and administrators managing one (or more) institution
 2. Institutional entities representing various organizations, universities, or governments
-2. IRB members and administrators belonging to an institution
-3. Principal Investigators (PI) engaged in collecting research data either from or for the site
+3. Contributors: PIs who accepted the contributor agreement and have IRB-approved studies that can contribute data to the site
+3. Principal Investigators (PI) who are not collecting contributing data to the site (but may be using data from it)
 4. Students and research staff responsible to PIs
+5. Other users who have not yet completed the authorization process (see below)  
 
-All entities (except root) are affiliated with one or more parent entities of a higher class.  
+All entities (except root) are affiliated with one or more parent entities of a higher level.  
 
 Any individual accessing content hosted on the site will require an *account*: for the initial release there will be no anonymous access.
 However, not all entities will have active accounts. 
  
 The total population of potential users of the site is estimated to be in the thousands. This estimate comes from the fact that The Society for Research in Child Development (SRCD) has 5,500 members in various disciplines.
-
-There will be multiple *levels* of accounts:
-* Unverified users, who are not associated with an entity, do not belong to any class, and as such will have only limited access to publicly available data (if any)
-* Authorized entities, who have full access to all data shared with them or users of their class
-* Contributors, who have accepted the contributor agreement and have IRB-approved studies that can contribute data to the site.  This may only include PI users.
 
 Are entities and account details public?
 
@@ -51,11 +48,11 @@ Authorization verifies, establishes, and maintains the affiliation between an en
 
 ### Requesting
 
-The list of entity classes above naturally sets up a hierarchy of authority.
+The list of entity levels above naturally sets up a hierarchy of authority.
 Users may additionally complete one or more authorization steps that, if successful, will result in creation of their entity and affiliation with another entity.
 To do this, users must identify the parent entity they wish to be affiliated with.  
-* For institutions, this affiliation with root (or a particular administrator) will have to be setup on demand or manually by site administrators.
-* For institute administrators and PIs, this means selecting an institution (which may be an "unaffiliated" meta-institution).
+* For institutions and administrators, this affiliation (with root or an administrator) will have to be created on demand or manually by site administrators.
+* For PIs, this means selecting an institution (which may be an "unaffiliated" meta-institution).
 * For students and research staff, this means selecting a PI.
 
 Searching for potential parent entities can be done hierarchically: by geographical region, to institute, to PI.
@@ -118,6 +115,7 @@ Studies will be comprised of the following components / metadata:
 
 * One or more designated *principal owners*, likely a PI users, who have long-term stewardship of the data
 * Zero or more study *members*, who must be affiliated with and maintained by the principal owner, and will usually be the students, grads and post grads who collected the data and have full access to create and modify everything associated with the study
+* Title, abstract-level description text, creation date
 * A schema for what information and data will be collected for each acquisition in the study, which may be determined explicitly through user interrogation or, preferably, implicitly derived from the materials or built as acquisitions are added
 * A heterogeneous collection of *materials* describing the research procedures, usually created before data collection starts
 * Zero or many *articles* that represent the scholarly output from data contained within this study.
@@ -145,11 +143,8 @@ An acquisition can include both raw data collected at the time of the experiment
 	* age/birthdate
 	* gender
 	* ethnicity
-* Zero or many video, audio, eye-tracking, motion-tracking, skin conductance, EEG, and other multi-dimensional *time-series* objects
-* Zero or many references to other studies. This will allow researchers to copy, combine and extend existing datasets so that they can be used in longitudinal, pilot and control studies.
-* Zero or one associated markup or *coding data* metadata files from Datavyu  
-
-**CF: Initially I don't think we really want databrary to have an in-depth understanding of datavyu files. I think databrary should just hold a collection of media objects and associated datavyu files.**
+* Zero or more video, audio, eye-tracking, motion-tracking, skin conductance, EEG, and other multi-dimensional *time-series* objects
+* Zero or more associated markup or *coding data* metadata files from Datavyu, treated (at least initially) as opaque objects
 
 #### Participant?
 
@@ -218,7 +213,7 @@ How data move into and out of the system.
 ### Data entry
 
 Our goal is to have data (and metadata in particular) entered into the system early and with minimal interaction.
-The earlier data get into the system, the less risk there is for it to be lost, converted, processed, or forgotten.
+The more easily data get into the system, the less risk there is for it to be lost, converted, processed, or forgotten.
 The less burden there is on the researcher when uploading data the more likely for them to follow through.
 We would rather have them upload a video and permissions setting with no other information than get nothing at all.  
 

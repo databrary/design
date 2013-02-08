@@ -1,0 +1,109 @@
+This is a high-level schema description representing logical data and
+relationships.  These will not (necessarily) map to individual tables.
+
+Formatting suggestions welcome.  I'm just making things up for now and trying
+to be consistent with syntax, but hopefully it's at least understandable.
+
+See overview.md for descriptions.
+
+Legend:
+	Types (mostly postgres-like):
+		id:		unique identifier primary key, most likely integer (implicit on all tables)
+		long-text:	multi-line text, unlimited, possibly with some markup formatting?
+		set:		shorthand for one-to-many table including current table's primary key and some unique constraints
+	Keywords:
+		user:		comes from the user by explicit prompting
+		optional:	not required to be specified to allow submission
+		public:		no restrictions except those inherited from containing objects
+		internal:	never exposed to users
+	'|':	subject to the following constraints
+	'--':	comment follows
+	':':	inherits from
+
+entity table
+	name text public
+	parent set
+		parent entity unique public | parent.level < level
+	level enum public
+		ROOT
+		ADMIN
+		INSTITUTION
+		CONTRIBUTOR -- only faculty can be contributors?
+		FACULTY
+		MEMBER -- students, staff, peons
+		UNKNOWN -- not yet authorized (implies no parents)
+	address text user -- should perhaps be broken down
+
+account table
+	creation timestamp
+	username text
+	entity unique
+	email text
+	timezone timezone -- for display
+
+account_request table internal
+	creation timestamp
+	username text user
+	email text user
+	token text -- long random string
+
+authorize_request table internal
+	creation timestamp
+	user entity
+	parent entity
+
+study table
+	creation timestamp
+	title text user public
+	description long-text user optional public
+	owner set public
+		owner entity unique
+		type enum
+			OWNER
+			MANAGER
+	inclusion set public
+		study study
+		-- ...
+	release timestamp optional user -- study may be available to non-owners after this date
+
+acquisition table
+	creation timestamp internal
+	study study
+	index text optional user -- subject id or something
+	acquisition date public user
+	consent -- permissions, TBD
+	participant set
+		id text optional user
+		gender enum optional
+		birthdate date-range optional -- range for approximate ages
+		-- other demographic info?
+	session set -- if (timeseries) data were collected discontinuously
+
+object table -- file blobs in storage
+	creation timestamp internal
+	content-type text/enum -- mimetype? PDF, video format, datavyu, etc.
+	name text user public -- filename perhaps?
+	description text user optional public
+	date date user optional public
+	supersedes object user
+
+material table : object
+	study study
+
+data table : object
+	acquisiton acquisition
+	session optional
+
+timeseries table : data
+	resolution float -- Hz
+	length interval
+	offset interval optional -- starting point within acquisition session, for synchronization
+
+audit table -- log of all modification activity
+	when timestamp
+	user account
+	target oid
+	-- ...?
+
+-- tags, comments: on study, acqusition, object?
+-- modification, revision control features?
