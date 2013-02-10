@@ -99,11 +99,33 @@ timeseries table : data
 	length interval
 	offset interval optional -- starting point within acquisition session, for synchronization
 
+tag table public -- the set of possible tags
+	name text unique -- [a-z -]+
+
+tag_description table public
+	creation timestamp
+	tag tag -- unique for replaced is null
+	description text user
+	replaces tag_description optional
+
+tag_item table
+	creation timestamp
+	tag tag
+	user account
+
+tag_study table : tag_item
+	study study
+
+tag_acquisition table : tag_item
+	acquisition acquisition
+
+tag_object table : tag_item
+	object object
+
 audit table -- log of all modification activity
 	when timestamp
 	user account
 	target oid
 	-- ...?
 
--- tags, comments: on study, acqusition, object?
 -- modification, revision control features?
