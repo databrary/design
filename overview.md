@@ -10,6 +10,21 @@ Databrary will be a centrally-hosted website, while Labnanny may be a desktop ap
 It seems likely that the majority of the Labnanny functionality will be provided in some way by the Databrary website, perhaps in addition to other interfaces, so this distinction will largely be ignored and the project referred to as *the site*.
 Similarly, Datavyu, while it will likely be integrated with the site via APIs, is considered a separate project for these purposes and will not be described here.
 
+## Inspiration
+
+The following sites or projects provide approaches and interfaces that may be worth learning from.
+Feel free to add more.  
+
+Science:
+* [OSF](http://openscienceframework.org/project/4znZP/) provides a file repository, RCS features, tagging, wiki.  Under development, will be open sourced?
+* [Dataverse](http://dvn-demo.iq.harvard.edu/dvn/) provides a site-deployable web site for sharing tabular data, highly structured representation of publications, data, analyses.  Open source.
+
+Non-science:
+* [Last.fm](http://www.last.fm/home) is a public music exploration site that includes complex, implicitly derived item relationships, tagging, commenting, search, similarity, minimal curation, [APIs](http://www.last.fm/api), was once open-source but is no longer.
+  Personally I think this is a well-done site that has added a lot of depth while keeping a fairly simple interface and is worth emulating.
+* [MusicBrainz](http://musicbrainz.org/) at the other end of the spectrum is a music metadata site with highly complex metadata structure explicitly entered by users, moderation, APIs, fully open source.
+  While this site is more satisfying from a database perspective, it scares many casual users off and has developed a wikipedia-like culture of perfectionist editors.
+
 # User management
 
 Various *entities* representing real world identities may be associated with the site.
@@ -233,7 +248,10 @@ This may be eased by providing template spreadsheets for off-line collection tha
 ### Uploading
 
 Users will be able upload objects and specify their associations through web forms or via special applications via an API.
-Some objects may be quite large, and an rsync-like interface (which may be rsync itself) should be provided.
+Some objects may be quite large, and an rsync-like interface (which may be rsync itself) should be provided.  
+
+Owners and automated processes may replace objects with new versions, to fix errors, update with new data, or change formats.
+Previous versions of superseded objects will be kept for at least some period of time.
 
 ### Sharing
 
@@ -250,10 +268,24 @@ This may involve special processing for certain objects, e.g., watermarking or e
 
 ## Tags
 
-Users should be able to add free-form tag keywords to objects at most levels.
-Tagging may provide an important resource for searching and browsing.
+Users can add *tags* or keywords to studies, acquisitions, data objects, materials, and articles.
+Tagging provides an important resource for searching and browsing.
 However, it is important to remember that the number of users will be quite small compared to many other tagging communities, and so aggregate information across may be more noisy and less reliable.
-On the other hand, tagging by users is likely to be more accurate, and so the primary concern will be tagset normalization (i.e., collapsing different tags representing identical concepts).
+On the other hand, tagging by users is likely to be more accurate, and so the primary concern will be tagset normalization (i.e., collapsing different tags representing identical concepts).  
+
+A tag consists of:
+* A short keyword, comprised only of lower-case letters, hyphens, and spaces
+* A free-form description of the various ways this tag may be used.
+
+The site will keep track of each unique (tag, item, user) tuple, and this information will be public.
+
+### Adding
+
+Any authorized account can add a tag to an item.
+When adding a tag, a full-text search of existing tags and descriptions will be available.
+If a user adds a tag that has never been used before, they will be required to also write a description of how the tag may be used.
+Other users may later edit this tag description, but will be encouraged only to correct errors and expand the scope of the description, rather than removing existing uses.
+A history of description changes will be kept and presented to users for possible flagging.
 
 ## Comments
 
