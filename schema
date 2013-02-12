@@ -17,13 +17,14 @@ Legend:
 		public:		no restrictions except those inherited from containing objects
 		internal:	never exposed to users
 	'|':	subject to the following constraints
-	'--':	comment follows
 	':':	inherits from
+	'--':	comment follows
 
 entity table
 	name text public
 	parent set
 		parent entity unique public | parent.level < level
+		authorized timestamp
 	level enum public
 		ROOT
 		ADMIN
@@ -35,9 +36,9 @@ entity table
 	address text user -- should perhaps be broken down
 
 account table
+	entity unique
 	creation timestamp
 	username text
-	entity unique
 	email text
 	timezone timezone -- for display
 
@@ -81,9 +82,10 @@ acquisition table
 
 object table -- file blobs in storage
 	creation timestamp internal
+	creator account
 	content-type text/enum -- mimetype? PDF, video format, datavyu, etc.
 	name text user public -- filename perhaps?
-	description text user optional public
+	description long-text user optional public
 	date date user optional public
 	supersedes object user
 
@@ -98,6 +100,17 @@ timeseries table : data
 	resolution float -- Hz
 	length interval
 	offset interval optional -- starting point within acquisition session, for synchronization
+
+article table -- : object if PDF
+	author set
+		author entity
+	doi text optional
+	title text -- or object.name
+	abstract long-text -- or object.description
+
+study_article table
+	study study
+	article article
 
 tag table public -- the set of possible tags
 	name text unique -- [a-z -]+
