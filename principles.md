@@ -10,7 +10,7 @@ This ensures that Databrary will be discoverable and easy to link externally, wh
 
 ### Automated Curation
 
-The amount of centralized manual moderation needs to be minimised to ensure long term sustainability of Databrary. Wherever possible 'social' techniques should be employed to distribute curation tasks amongst the user community. For example:
+The amount of centralized manual moderation needs to be minimized to ensure long term sustainability of Databrary. Wherever possible 'social' techniques should be employed to distribute curation tasks amongst the user community. For example:
 
 * Avoiding strict ontologies that require many fields correctly filled for all datasets in order for some features to work correctly (search, browsing, etc).
 * Metadata and object relationships should be derived from existing, available sources as much as possible, without burdening the researcher with excessive constraints.
@@ -31,8 +31,7 @@ Follow good web design practices:
 * Follow standards whenever possible (HTML5, CSS3, etc)
 * The design should be 'responsive', and scale to suit many form factors and platforms.
 * Use unobtrusive Javascript, or better yet [Coffeescript][3]
-Don't make assumptions about platforms, cookies, plugins, or user agents.
-Use unobtrusive JavaScript and follow open standards whenever possible.
+* Don't make assumptions about platforms, cookies, plugins, or user agents.
 
 ### Database
 
@@ -52,9 +51,12 @@ Use an existing web-development framework such as [Rails][4], [Django][5] or sim
 
 Default SSL to always on for serving Databrary and related pages.
 
-Use industry standard configuration management tools such as chef or puppet to maintain and restrict access to production servers (really only one account is needed to deploy code to production servers). 
-
-Notoriously difficult to secure services like email and ftp should be avoided from being installed on production servers.
+Production server security:
+* Use industry standard configuration management tools such as chef or puppet to maintain and restrict access to production servers (really only one account is needed to deploy code to production servers). 
+* Notoriously difficult to secure services like wordpress, sendmail, and ftp should be avoided from being installed.
+* Privileged access should be tightly managed with sudo or similar, and direct remote root logins should never be allowed.
+* Firewalls (e.g., iptables) should always be used to restrict access to all but essential ports.
+* Non-public services like ssh should either be IP-restricted or use unpublished ports.
 
 Use basic change management procedures such as the use of a staging server, TDD, BDD and code reviews to vet and test code changes before they reach the production servers. Use automated deploy tools such as Capistrano[6] to automate the process of pushing changes from development, to staging to production.
 

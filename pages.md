@@ -1,5 +1,5 @@
 List of individual Databrary web pages or interfaces and their contents.
-Many of these will have stable, linkable URIs of a form like "http://databrary.org/TYPE/ID/ignored-stuff" or "http://databrary.org/TYPE?id=ID".
+Many of these will have stable, linkable URIs of a form like "http://databrary.org/TYPE/ID/ignored-stuff".
 Others may just be tabs within other areas of the site.
 Things that are not explicitly addressed here:
 - URI link format specifications
