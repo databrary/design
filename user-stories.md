@@ -24,14 +24,18 @@ I want to be able to ensure that all data is stored and collected in accordance 
 * Does labnanny manage IRB protocols, expirations dates, etc. that can be added to a study?
 
 As an investigator,
-I want to be able to create collection protocols (procedures) and coding manuals. 
+I want to be able to create collection protocols (procedures) and coding manuals.
+
 1. Go to study page
-3. Upload materials, consent forms, manuals
+2. Upload materials, consent forms, manuals
 3. (Optional, unknown) Describe study schema, layout, interview questions, data types  
     * Drag-and-drop interface to describe "all the information that will be collected for each acquisition/subject/session"
     * Add data "containers" for participant information, video data, interview questions, measurements
     * Add analysis "containers" for coding spreadsheets
 
+As an investigator, 
+I want members of my research team to receive notifications when there are changes in my study protocol. 
+Those reminders might also prompt me to consider whether I need to revise my formal IRB protocol.
 
 ### Work day to day collecting data.
 
@@ -59,6 +63,8 @@ I want to automatically create and download everything I need to start coding a 
 As an undergraduate student,
 I want to be able to submit my coded data to be stored alongside the rest of a study.
 
+As a principal investigator, graduate, and undergraduate student
+I want the coding activities of my lab members tracked and recorded so I can monitor progress of a study.
 
 ### Publish
 
