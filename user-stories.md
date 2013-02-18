@@ -44,43 +44,53 @@ Those reminders might also prompt me to consider whether I need to revise my for
 
 As an investigator,
 I want to be able to refine collection protocols (procedures), based on experience and pilot studies / participants. 
+* This may involve editing study materials (documents) or design
 
-As a graduate or undergraduate student,
+As a experimenter,
 I want to be able to add data for a new trial in a particular study. Adding details about consent, any demographic information as well as the raw video and sensor data.
 
-As a graduate or undergraduate student,
-I want to be able to be able to perform any post-processing (quad mixing, etc) to create completed datasets that need to be coded or marked up.
+1. Go to study page
+2. Add acquisition
+3. Fill in fields, automatically derived from study design and/or previous acquisitions
+4. Upload data files, by web form or syncing application
 
+As an experimenter,
+I want to be able to be able to perform any post-processing (quad mixing, etc) to create completed datasets that need to be coded or marked up.
+* Does this happen entirely in Datavyu?
 
 ### Work day to day coding study.
 
-As a principal investigator, graduate and undergraduate student,
+As an experimenter,
 I want to be able to refine coding manuals, based on experience, ambiguities and inter-rater reliability of trials that have already been coded.
 
-As an undergraduate student,
+As a coder,
 I want to be able to see what trials need to be coded (marked up) using datavyu.
 
-As an undergraduate student,
+As a coder,
 I want to automatically create and download everything I need to start coding a new trial within a study.
 
-As an undergraduate student,
+1. Go to study page
+2. Select acquisition
+3. Download automatically-generated archive of all data
+
+As a coder,
 I want to be able to submit my coded data to be stored alongside the rest of a study.
 
-As a principal investigator, graduate, and undergraduate student
+As an investigator,
 I want the coding activities of my lab members tracked and recorded so I can monitor progress of a study.
 
 ### Publish
 
-As a principal investigator or graduate student,
+As a researcher,
 I want to publish written articles based on data collected for the study.
 
-As a principal investigator or graduate student,
+As an investigator,
 I want to publish (share) datasets that are referenced in published articles. 
 
 1. Go to study page
 2. "Flip switch" to give public access  
 
-As a principal investigator or graduate student,
+As an investigator
 I want to be able to cite datasets that have been shared with the wider community.
 
 1. Find study

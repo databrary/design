@@ -145,10 +145,10 @@ Collecting example materials from a broad set of labs will inform how studies an
 
 #### Acquisition
 
-A study consists of some number of *acquisitions* (alternatives for this term: "clips", "trials", "collections", "session-").
+A study consists of some number of *acquisitions* (alternatives for this term: "clips", "trials", "collections", "sessions").
 These acquisitions are usually individual participants or sessions of the experiment.
 
-Importantly, each acquisition in a study involved the same experimental procedures for collecting data. However, not all acquisitions will necessarily have the same set of objects, as some may be missing for various reasons.  
+Importantly, each acquisition in a study involves the same experimental procedures for collecting data. However, not all acquisitions will necessarily have the same set of objects, as some may be missing for various reasons.  
 
 An acquisition can include both raw data collected at the time of the experiment and summary data that has been extracted from these objects later by researchers or programs. These may include:
 
