@@ -173,6 +173,11 @@ Participant data from Labnanny may be used, carefully and selectively, to automa
 
 Longitudinal experiments may also wish to explicitly maintain the association between identical participants in different acquisitions (studies?).
 
+#### IRB protocol?
+
+We may also want to allow researchers to manage their IRB *protocols*, including the actual protocol documents, the expiration date of the protocol and any renewals, and studies using them.
+Protocols should be associated with PIs, expiration dates, and any number of studies which use them.
+
 #### Object and metadata
 
 Each data object in an acquisition is associated with some amount of metadata stored in the database.
@@ -259,10 +264,23 @@ There will be a complex permissions system specifying which objects may be share
 Various permissions documents will establish specifications for these.
 This may also involve partial access, for example to metadata for an object but not its content, or to a restricted portion of a video.
 
+#### Excerpts
+
+Acquisitions which have appropriately granted participant permissions allow the data owner to specify excerpts.
+Excerpts may be still images, a few seconds from a video, or some other spatially or temporally restricted part of a data object.
+Each excerpts should be derived from an existing object in the database, a process which may be done on-demand or provided through separately uploaded files.
+These excerpts may have broader availability than the original data, and in particular are the only (non-anonymized) participant data that may ever be public.
+
 ### Downloading
 
 Some objects will be available for direct download.
 This may involve special processing for certain objects, e.g., watermarking or explicit permission verification of some kind.
+
+#### Time-series data
+
+Time-series data, which primarily includes videos (and Datavyu spreadsheets) should allow on-the-fly sub-selection for downloading specific temporal ranges of them.
+For example, a user may wish to download only a one-minute portion of an hour-long video.
+This feature may also be useful for generating excerpts.
 
 # Community
 
@@ -296,3 +314,4 @@ Some pages, including data objects and studies, have comment sections open to au
 Ideally there will be limited curational involvement by site administrators in data and content as the population is limited and generally trustworthy.
 However, there still should be a method for people to bring moderational attention to questionable content.
 This may simply be an email/feedback interface that allows referencing specific pages.
+

@@ -46,7 +46,7 @@ As an investigator,
 I want to be able to refine collection protocols (procedures), based on experience and pilot studies / participants. 
 * This may involve editing study materials (documents) or design
 
-As a experimenter,
+As an experimenter,
 I want to be able to add data for a new trial in a particular study. Adding details about consent, any demographic information as well as the raw video and sensor data.
 
 1. Go to study page
