@@ -64,21 +64,21 @@ study table
 			MANAGER
 			VIEWER
 		recursive boolean | type != OWNER OR NOT recursive -- applies to all descendents
+		effective timestamp -- effective as of this date (possibly future)
 		-- e.g, (ROOT, VIEWER, TRUE) means "shared"
 	inclusion set public
 		study study
 		-- ...
-	release timestamp optional user -- study may be available to non-owners after this date
 
 acquisition table
 	creation timestamp internal
 	study study
 	index text optional user -- subject id or something
 	acquisition date public user
-	consent enum
-		NONE
-		DATABRARY
-		EXCEPRTS
+	consent enum -- these are intersected with study.users permissions
+		NONE -- never honor VIEWERS
+		DATABRARY -- at most authorized users
+		EXCEPRTS -- additionally make excerpt objects (TBD) public
 	participant set
 		id text optional user
 		gender enum optional
