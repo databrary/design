@@ -101,3 +101,24 @@ I want to be able to cite datasets that have been shared with the wider communit
 
 
 
+### User Authentication and Authorization
+
+As an Investigator,
+I want to authenticate using my home institution's identity provider 
+so that I don't have to remember another set of credentials.
+
+As an Investigator,
+I want to delegate authority to one of my Graduate Assistants 
+so that they can perform tasks on my behalf.
+
+As an Investigator,
+I want to change the access level on one of my studies.
+
+
+
+### Preservation
+
+As the Preservation Subsystem,
+I want to enact preservation workflows on the incoming Databrary submission information packages
+so that the content can remain accessible for the foreseeable future.
+
