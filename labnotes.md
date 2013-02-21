@@ -15,3 +15,4 @@ Obviously an extreme case.
 - Detailed coding standards included in procedures, coding manual (doc, docx)
 - Much metadata is kept in unnamed tuples in the "id" field in OpenSHAPA, described in the coding manual
 - Often need tristate values (Maybe (Maybe a)), especially with dates, e.g. to differentiate between "unknown/unavailable" and "no/never", currently using special designated values outside normal range
+- Use a custom-built (PHP, mysql) participant recruiting/scheduling database with lots of metadata

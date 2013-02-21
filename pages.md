@@ -26,6 +26,10 @@ This may be a user's own entity page if they're logged in.
 
 # Search
 
+## Study search
+
+## Tag cloud
+
 # Data view
 
 ## study
@@ -84,6 +88,25 @@ This may be a user's own entity page if they're logged in.
 * written articles, link:article
 
 # Data input
+
+Input pages largely parallel data view pages.
+
+## study
+
+## Study design
+
+## acquisition
+
+## Access control
+
+For studies and possibly other objects with permissions,
+a control allowing the owner to view and set the list of allow users as their permissions.
+
+A table with columns:
+* user group: "everyone", "Databrary users", specific user, specific user and their delegates/descendants/lab members
+* permission: "view only", "edit", "owner"
+
+Note: Only databrary users will be able to view videos and other sensitive participant data, and only if the participant consent permissions allows it.
 
 # User management
 

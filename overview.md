@@ -165,8 +165,7 @@ An acquisition can include both raw data collected at the time of the experiment
 #### Participant?
 
 In general participants are treated as anonymous entities associated with a single acquisition.
-However, for the purpose of Labnanny, there may be a desire to explicitly keep track of non-anonymous participants to help with recruiting and scheduling.
-This raises a number of potential privacy concerns, however.  
+Eventually, Labnanny may wish to provide more recruiting and scheduling functionality, however this is potentially a very complex component that would should avoid for the time being.
 
 The best practice would be to completely separate the concept of participant for Labnanny from those participants in acquisitions, so that there are no links between them.
 A best case would if Labnanny information is stored in a local application or appliance, that this is never sent to Databrary.
@@ -176,8 +175,8 @@ Longitudinal experiments may also wish to explicitly maintain the association be
 
 #### IRB protocol?
 
-We may also want to allow researchers to manage their IRB *protocols*, including the actual protocol documents, the expiration date of the protocol and any renewals, and studies using them.
-Protocols should be associated with PIs, expiration dates, and any number of studies which use them.
+We may also want to allow researchers to manage their IRB *protocols*, including the actual protocol documents, renewals, and affected studies.
+Protocols should be associated with PIs, additional listed entities, expiration dates, and any number of studies which use them.
 
 #### Object and metadata
 

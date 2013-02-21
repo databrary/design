@@ -114,7 +114,9 @@ so that they can perform tasks on my behalf.
 As an Investigator,
 I want to change the access level on one of my studies.
 
-
+1. Go to access controls for study
+2. Select or search for databrary user(s) to apply to
+3. Add or remove allowed user groups
 
 ### Preservation
 
