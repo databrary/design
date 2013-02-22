@@ -108,8 +108,15 @@ I want to authenticate using my home institution's identity provider
 so that I don't have to remember another set of credentials.
 
 As an Investigator,
-I want to delegate authority to one of my Graduate Assistants 
+I want to delegate authority to one of my students
 so that they can perform tasks on my behalf.
+
+1. Student applies for and obtains account
+2. Student goes to authorization request page
+3. Student searches for and finds PI
+4. Student requests membership under PI
+5. PI goes to authorization review page
+6. Selects student request, selects appropriate user level, and approves
 
 As an Investigator,
 I want to change the access level on one of my studies.

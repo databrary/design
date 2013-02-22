@@ -92,7 +92,8 @@ Other details may be required during the authorization:
 
 Various options here:
 * Standard passwords with good strength, hashing, and salting standards (should not unnecessarily restrict special characters or length)
-* [OpenIDs](http://wiki.openid.net/w/page/12995211/OpenID_Authentication_2) supplied by users
+* [OpenID](http://wiki.openid.net/w/page/12995211/OpenID_Authentication_2) provided by users
+* [BrowserID](https://browserid.org/)
 * Multifactor something
 * Delegation to university authentication systems (not a complete solution)
 
@@ -315,3 +316,10 @@ Ideally there will be limited curational involvement by site administrators in d
 However, there still should be a method for people to bring moderational attention to questionable content.
 This may simply be an email/feedback interface that allows referencing specific pages.
 
+# Interface
+
+## I18n
+
+Users should be able to configure their own timezone and time/date format.
+
+Do we need to support any other translations?
