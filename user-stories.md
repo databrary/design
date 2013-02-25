@@ -1,5 +1,27 @@
 # User Stories
 
+## Storyboard Priorities
+
+These are extended narratives composed of the user-stories below that we should prioritize for demonstration.
+
+### Contribution
+
+0. Apply, sign contributor agreement...?
+1. Create new study, enter title, details, members
+2. Create new acquisition, enter participant demographics
+3. Upload video file
+
+### Navigation
+
+1. Search page: Search for some terms
+2. Search results: View list of matching studies and select one
+3. Study page: View study details and list of participants/data files (acquisitions)
+3. Request access to study? Switch to non-public view?
+4. Data page: View acquired data for one participant and select video data
+5. Video page: Preview/download video
+
+## Content
+
 ### Create supporting files for a study.
 
 As an investigator (PI, postdoc, graduate student),
@@ -140,4 +162,5 @@ I want to renew my annual access to the library each year.
 As the Preservation Subsystem,
 I want to enact preservation workflows on the incoming Databrary submission information packages
 so that the content can remain accessible for the foreseeable future.
+
 
