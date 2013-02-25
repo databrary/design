@@ -104,6 +104,12 @@ I want to be able to cite datasets that have been shared with the wider communit
 ### User Authentication and Authorization
 
 As an Investigator,
+I want to sign up to access data held within databrary.
+
+As an Investigator,
+I want to sign up to share data with databrary.
+
+As an Investigator,
 I want to authenticate using my home institution's identity provider 
 so that I don't have to remember another set of credentials.
 
@@ -124,6 +130,10 @@ I want to change the access level on one of my studies.
 1. Go to access controls for study
 2. Select or search for databrary user(s) to apply to
 3. Add or remove allowed user groups
+
+As an authorised member of databrary,
+I want to renew my annual access to the library each year.
+
 
 ### Preservation
 
