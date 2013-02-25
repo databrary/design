@@ -46,7 +46,7 @@ As an investigator,
 I want to be able to refine collection protocols (procedures), based on experience and pilot studies / participants. 
 * This may involve editing study materials (documents) or design
 
-As a experimenter,
+As an experimenter,
 I want to be able to add data for a new trial in a particular study. Adding details about consent, any demographic information as well as the raw video and sensor data.
 
 1. Go to study page
@@ -100,4 +100,34 @@ I want to be able to cite datasets that have been shared with the wider communit
 ### Discovery
 
 
+
+### User Authentication and Authorization
+
+As an Investigator,
+I want to authenticate using my home institution's identity provider 
+so that I don't have to remember another set of credentials.
+
+As an Investigator,
+I want to delegate authority to one of my students
+so that they can perform tasks on my behalf.
+
+1. Student applies for and obtains account
+2. Student goes to authorization request page
+3. Student searches for and finds PI
+4. Student requests membership under PI
+5. PI goes to authorization review page
+6. Selects student request, selects appropriate user level, and approves
+
+As an Investigator,
+I want to change the access level on one of my studies.
+
+1. Go to access controls for study
+2. Select or search for databrary user(s) to apply to
+3. Add or remove allowed user groups
+
+### Preservation
+
+As the Preservation Subsystem,
+I want to enact preservation workflows on the incoming Databrary submission information packages
+so that the content can remain accessible for the foreseeable future.
 

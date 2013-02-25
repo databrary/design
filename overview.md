@@ -92,7 +92,8 @@ Other details may be required during the authorization:
 
 Various options here:
 * Standard passwords with good strength, hashing, and salting standards (should not unnecessarily restrict special characters or length)
-* [OpenIDs](http://wiki.openid.net/w/page/12995211/OpenID_Authentication_2) supplied by users
+* [OpenID](http://wiki.openid.net/w/page/12995211/OpenID_Authentication_2) provided by users
+* [BrowserID](https://browserid.org/)
 * Multifactor something
 * Delegation to university authentication systems (not a complete solution)
 
@@ -130,6 +131,7 @@ Studies will be comprised of the following components / metadata:
 
 * One or more designated *principal owners*, likely a PI users, who have long-term stewardship of the data
 * Zero or more study *members*, who must be affiliated with and maintained by the principal owner, and will usually be the students, grads and post grads who collected the data and have full access to create and modify everything associated with the study
+* An owner-specified sharing level, one of: owners only, lab only (all descendants of owners), all databrary users, public; along with a set of additional users that have access
 * Title, abstract-level description text, creation date
 * A schema for what information and data will be collected for each acquisition in the study, which may be determined explicitly through user interrogation or, preferably, implicitly derived from the materials or built as acquisitions are added
 * A heterogeneous collection of *materials* describing the research procedures, usually created before data collection starts
@@ -164,14 +166,18 @@ An acquisition can include both raw data collected at the time of the experiment
 #### Participant?
 
 In general participants are treated as anonymous entities associated with a single acquisition.
-However, for the purpose of Labnanny, there may be a desire to explicitly keep track of non-anonymous participants to help with recruiting and scheduling.
-This raises a number of potential privacy concerns, however.  
+Eventually, Labnanny may wish to provide more recruiting and scheduling functionality, however this is potentially a very complex component that would should avoid for the time being.
 
 The best practice would be to completely separate the concept of participant for Labnanny from those participants in acquisitions, so that there are no links between them.
 A best case would if Labnanny information is stored in a local application or appliance, that this is never sent to Databrary.
 Participant data from Labnanny may be used, carefully and selectively, to automatically fill in participant acquisition data, but this must be limited to gender, age/birthdate, demographic information.  
 
 Longitudinal experiments may also wish to explicitly maintain the association between identical participants in different acquisitions (studies?).
+
+#### IRB protocol?
+
+We may also want to allow researchers to manage their IRB *protocols*, including the actual protocol documents, renewals, and affected studies.
+Protocols should be associated with PIs, additional listed entities, expiration dates, and any number of studies which use them.
 
 #### Object and metadata
 
@@ -259,10 +265,23 @@ There will be a complex permissions system specifying which objects may be share
 Various permissions documents will establish specifications for these.
 This may also involve partial access, for example to metadata for an object but not its content, or to a restricted portion of a video.
 
+#### Excerpts
+
+Acquisitions which have appropriately granted participant permissions allow the data owner to specify excerpts.
+Excerpts may be still images, a few seconds from a video, or some other spatially or temporally restricted part of a data object.
+Each excerpts should be derived from an existing object in the database, a process which may be done on-demand or provided through separately uploaded files.
+These excerpts may have broader availability than the original data, and in particular are the only (non-anonymized) participant data that may ever be public.
+
 ### Downloading
 
 Some objects will be available for direct download.
 This may involve special processing for certain objects, e.g., watermarking or explicit permission verification of some kind.
+
+#### Time-series data
+
+Time-series data, which primarily includes videos (and Datavyu spreadsheets) should allow on-the-fly sub-selection for downloading specific temporal ranges of them.
+For example, a user may wish to download only a one-minute portion of an hour-long video.
+This feature may also be useful for generating excerpts.
 
 # Community
 
@@ -296,3 +315,11 @@ Some pages, including data objects and studies, have comment sections open to au
 Ideally there will be limited curational involvement by site administrators in data and content as the population is limited and generally trustworthy.
 However, there still should be a method for people to bring moderational attention to questionable content.
 This may simply be an email/feedback interface that allows referencing specific pages.
+
+# Interface
+
+## I18n
+
+Users should be able to configure their own timezone and time/date format.
+
+Do we need to support any other translations?
