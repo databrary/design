@@ -13,6 +13,12 @@ This may be a user's own entity page if they're logged in.
 * Owned studies, sort:rev by date
 * New relevant stuff
 
+# Participant pages
+
+Some pages targeted at participants whose data may be in the library.
+
+Mainly a "Bill of Rights" with information about what Databrary is and what participants' rights are whose data may be in Databrary.
+
 # Common components
 
 ## Top navigation bar

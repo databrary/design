@@ -117,6 +117,8 @@ Studies will be comprised of the following components / metadata:
 * One or more designated *principal owners*, likely a PI users, who have long-term stewardship of the data
 * Zero or more study *members*, who must be affiliated with and maintained by the principal owner, and will usually be the students, grads and post grads who collected the data and have full access to create and modify everything associated with the study
 * An owner-specified sharing level, one of: owners only, lab only (all descendants of owners), all databrary users, public; along with a set of additional users that have access
+* An owner-specified metadata identification data for non-identifiable data: de-identified (still mappable to identified data somewhere, even if not on datarbrary) or anonymized (no way to connect to identified data at all, not subject to HS rules)
+* A collection status: ongoing, exempt (completed/shelved)
 * Title, abstract-level description text, creation date
 * A schema for what information and data will be collected for each acquisition in the study, which may be determined explicitly through user interrogation or, preferably, implicitly derived from the materials or built as acquisitions are added
 * A heterogeneous collection of *materials* describing the research procedures, usually created before data collection starts
