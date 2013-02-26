@@ -1,4 +1,4 @@
-# User Stories
+ # User Stories
 
 ## Storyboard Priorities
 
@@ -120,6 +120,16 @@ I want to be able to cite datasets that have been shared with the wider communit
 
 
 ### Discovery
+
+As a User,
+I want to find studies tagged by a particular Researcher.
+
+As a User,
+I want to find studies with a particular tag or tags.
+
+As a User,
+I want to search by various attributes, 
+see list [here](https://github.com/databrary/design/blob/master/pages.md#data-view)
 
 
 
