@@ -10,21 +10,6 @@ Databrary will be a centrally-hosted website, while Labnanny may be a desktop ap
 It seems likely that the majority of the Labnanny functionality will be provided in some way by the Databrary website, perhaps in addition to other interfaces, so this distinction will largely be ignored and the project referred to as *the site*.
 Similarly, Datavyu, while it will likely be integrated with the site via APIs, is considered a separate project for these purposes and will not be described here.
 
-## Inspiration
-
-The following sites or projects provide approaches and interfaces that may be worth learning from.
-Feel free to add more.  
-
-Science:
-* [OSF](http://openscienceframework.org/project/4znZP/) provides a file repository, RCS features, tagging, wiki.  Under development, will be open sourced?
-* [Dataverse](http://dvn-demo.iq.harvard.edu/dvn/) provides a site-deployable web site for sharing tabular data, highly structured representation of publications, data, analyses.  Open source.
-
-Non-science:
-* [Last.fm](http://www.last.fm/home) is a public music exploration site that includes complex, implicitly derived item relationships, tagging, commenting, search, similarity, minimal curation, [APIs](http://www.last.fm/api), was once open-source but is no longer.
-  Personally I think this is a well-done site that has added a lot of depth while keeping a fairly simple interface and is worth emulating.
-* [MusicBrainz](http://musicbrainz.org/) at the other end of the spectrum is a music metadata site with highly complex metadata structure explicitly entered by users, moderation, APIs, fully open source.
-  While this site is more satisfying from a database perspective, it scares many casual users off and has developed a wikipedia-like culture of perfectionist editors.
-
 # User management
 
 Various *entities* representing real world identities may be associated with the site.
@@ -51,7 +36,7 @@ Are entities and account details public?
 
 Potential users will be required to register an account and provide:
 - An email address, to be verified with token-based email confirmation
-- A real name, perhaps with some first/last structure, similar to journal standards (but please [think this through](http://www.kalzumeus.com/2010/06/17/falsehoods-programmers-believe-about-names/))
+- A real name, perhaps with some first/last structure, similar to journal standards
 - Possibly a captcha if unverified users are allowed to post comments, but probably this will not be necessary
 - Other optional user details which may be set and changed later (timezone, URL, personal/profile stuff, ...)
 
