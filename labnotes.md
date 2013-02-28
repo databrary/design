@@ -16,3 +16,13 @@ Obviously an extreme case.
 - Much metadata is kept in unnamed tuples in the "id" field in OpenSHAPA, described in the coding manual
 - Often need tristate values (Maybe (Maybe a)), especially with dates, e.g. to differentiate between "unknown/unavailable" and "no/never", currently using special designated values outside normal range
 - Use a custom-built (PHP, mysql) participant recruiting/scheduling database with lots of metadata
+
+# 2012/02/28
+
+- One directory per top-study, sub-directories per procedural study
+- Strict organization within study folder: intro file (abstract), documentation (instructions, procedures), videos (mixed and encoded, low bit rate), data
+- Strict file naming includes: subject id, subject initials, file class (coding data, counterbalance, etc.), last modification date, last modification user initials
+- Manual file versioning, progress, mutexes
+- Most data in excel
+- Subject info, demographics, inventories, all on paper (ask: ipad app)
+- Processed videos contain intro slide with subject id, DOB, initials, etc.
