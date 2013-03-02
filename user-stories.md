@@ -8,7 +8,7 @@
 As an investigator (PI, postdoc, graduate student),
 I want to be able to create and manage studies. Assigning graduate students and undergrads to collect and code data.
 
-**Scenario steps:**
+**Steps:**
 
 Given that I am signed in as a study lead (PI, postdoc or GradStudent) and I am on my personal profile (home) page.
 
@@ -27,7 +27,7 @@ Then I will be on the study overview page that contains the specified title and 
 As an investigator,
 I want to be able to at a glance see how progress is being made towards completing a particular study.
 
-**Scenario steps:**
+**Steps:**
 
 Given that I am signed in, and looking at specific study overview page.
 
@@ -47,7 +47,7 @@ When all trials in a study reach the 'completed' status, collection and analysis
 As a principal investigator,
 I want to be able to manage the accounts for all the people who work in my lab and have access to the data.
 
-**Scenario steps:**
+**Steps:**
 
 Given than I am signed in, and on my personal profile (home) page.
 
@@ -68,43 +68,89 @@ Actions that a PI will be able to perform per member:
 * disable access.
 
 ---
-
+**Story:**
 
 As a principal investigator,
-I want to be able to ensure that all data is stored and collected in accordance with IRB rules and regulations. 
+I want to be able to ensure that all data is stored and collected in accordance with IRB rules and regulations.
+
+**Steps:**
+
 * Does labnanny manage IRB protocols, expirations dates, etc. that can be added to a study?
+
+---
+
+**Story:**
 
 As an investigator,
 I want to be able to create collection protocols (procedures) and coding manuals.
 
-1. Go to study page
-2. Upload materials, consent forms, manuals
-3. (Optional, unknown) Describe study schema, layout, interview questions, data types  
-    * Drag-and-drop interface to describe "all the information that will be collected for each acquisition/subject/session"
-    * Add data "containers" for participant information, video data, interview questions, measurements
-    * Add analysis "containers" for coding spreadsheets
+**Steps:**
+
+Given that I am signed in, have permissions to see a study and I am on my personal profile (home) page.
+
+When I follow the link to the study from my profile page.
+
+Then I should be able to refine the study by:
+* adding a collection protocol.
+* adding a coding manual / dictionary / schema.
+* adding stimuli. 
+
+
+Not quite sure how to integrate the following just yet. Perhaps as part of day to day collection?
+
+* Drag-and-drop interface to describe "all the information that will be collected for each acquisition/subject/session"
+* Add data "containers" for participant information, video data, interview questions, measurements
+* Add analysis "containers" for coding spreadsheets
+
+---
 
 As an investigator, 
 I want members of my research team to receive notifications when there are changes in my study protocol. 
+
 Those reminders might also prompt me to consider whether I need to revise my formal IRB protocol.
+
 
 ### Work day to day collecting data.
 
+---
+
+** Story: **
+
 As an investigator,
 I want to be able to refine collection protocols (procedures), based on experience and pilot studies / participants. 
-* This may involve editing study materials (documents) or design
+
+** Steps: **
+
+Given I am signed in, have permissions to see a study and I am on my personal profile (home) page.
+
+When I follow the link to the study from my profile page.
+
+Then I should be able to edit the study by:
+* editing the collection protocol.
+* editing the coding manual.
+* editing the stimuli.
+
+This should also track which of the acquisitions/trials were collected and under what version of the protocol/coding manual. 
+
+---
+
+** Story: **
 
 As an experimenter,
 I want to be able to add data for a new trial in a particular study. Adding details about consent, any demographic information as well as the raw video and sensor data.
 
-1. Go to study page
-2. Add acquisition
-3. Fill in fields, automatically derived from study design and/or previous acquisitions
-4. Upload data files, by web form or syncing application
+** Steps: **
 
-As an experimenter,
-I want to be able to be able to perform any post-processing (quad mixing, etc) to create completed datasets that need to be coded or marked up.
-* Does this happen entirely in Datavyu?
+Given I am signed in, have permissions to see a study and I am on my personal profile (home) page.
+
+When I follow the link to the study from my profile page.
+
+Then I should be able to add a trial to the study. Specifying:
+
+* Uploading one or many acquisitions (data files, video, etc) via web form or syncing application.
+* Filling in relevant demographic information as well as nominating a permissions / level of sharing consent. 
+
+---
 
 ### Work day to day coding study.
 
