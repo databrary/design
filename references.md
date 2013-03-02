@@ -17,6 +17,7 @@ If nothing else, a dumping ground for interesting things we should check out.
   Personally I think this is a well-done site that has added a lot of depth while keeping a fairly simple interface and is worth emulating.
 * [MusicBrainz](http://musicbrainz.org/) at the other end of the spectrum is a music metadata site with highly complex metadata structure explicitly entered by users, moderation, APIs, fully open source.
   While this site is more satisfying from a database perspective, it scares many casual users off and has developed a wikipedia-like culture of perfectionist editors.
+* [MediaMonkey](http://www.mediamonkey.com/) This is a desktop tool that has extraordinarily powerful metadata editing tools. They made it very easy to batch clean, repair and structure music metadata.
 
 ## Technologies
 

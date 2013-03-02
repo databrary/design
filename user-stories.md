@@ -1,44 +1,55 @@
- # User Stories
+# Databrary User Stories
 
-## Storyboard Priorities
+## Create supporting files for a study.
 
-These are extended narratives composed of the user-stories below that we should prioritize for demonstration.
-
-### Contribution
-
-0. Apply, sign contributor agreement...?
-1. Create new study, enter title, details, members
-2. Create new acquisition, enter participant demographics
-3. Upload video file
-
-### Navigation
-
-1. Search page: Search for some terms
-2. Search results: View list of matching studies and select one
-3. Study page: View study details and list of participants/data files (acquisitions)
-3. Request access to study? Switch to non-public view?
-4. Data page: View acquired data for one participant and select video data
-5. Video page: Preview/download video
-
-## Content
-
-### Create supporting files for a study.
+---
+**Story:**
 
 As an investigator (PI, postdoc, graduate student),
 I want to be able to create and manage studies. Assigning graduate students and undergrads to collect and code data.
 
-1. Create new study (this may often be done by a student/postdoc study lead)
-2. Enter title, description
-2. Add additional members (automatically added: user, PI parent as owner)  
+**Scenario steps:**
+
+Given that I am signed in as a study lead (PI, postdoc or GradStudent) and I am on my personal profile (home) page
+
+When I
+
+1. Create a new study
+2. Enter a title and abstract for the study.
+3. And add additional members to the study 
+
+Then I will be on the study overview page that contains the specified title and abstract. It will otherwise be 'empty', and contain no trials (acquisitions). The members I nominated will be listed has having read/write access as will the user and PI parent.
+
+---
+
+**Story:**
 
 As an investigator,
 I want to be able to at a glance see how progress is being made towards completing a particular study.
 
-1. Go to study page, linked from front page/dashboard to all owned studies (sort by date rev)
-2. Displays acquisitions/subjects, ...  
+**Scenario steps:**
+
+Given that I am signed in, and looking at specific study overview page.
+
+Then I should be able to see all the trials collected for the study, grouped by progress (or status):
+
+* scheduled. (participant due to come on certain day)
+* collected. (acquisition collected and uploaded to system)
+* coded. (additional metadata )
+* completed. (any additional post processing or analysis has been performed.)
+
+When all trials in a study reach the 'completed' status, collection and analysis is complete and the study is ready for writing.   
+
+---
+
+**Story:**
 
 As a principal investigator,
 I want to be able to manage the accounts for all the people who work in my lab and have access to the data.
+
+**Scenario steps:**
+
+
 
 1. Go to member authorization page
 2. Displays (nested) list of members, account renewal dates, and new requests for membership
@@ -141,6 +152,8 @@ I want to sign up to access data held within databrary.
 As an Investigator,
 I want to sign up to share data with databrary.
 
+
+
 As an Investigator,
 I want to authenticate using my home institution's identity provider 
 so that I don't have to remember another set of credentials.
@@ -155,6 +168,9 @@ so that they can perform tasks on my behalf.
 4. Student requests membership under PI
 5. PI goes to authorization review page
 6. Selects student request, selects appropriate user level, and approves
+
+
+
 
 As an Investigator,
 I want to change the access level on one of my studies.
@@ -172,5 +188,27 @@ I want to renew my annual access to the library each year.
 As the Preservation Subsystem,
 I want to enact preservation workflows on the incoming Databrary submission information packages
 so that the content can remain accessible for the foreseeable future.
+
+
+
+## Extended demonstration scenarios
+
+### Contribution
+
+0. Apply, sign contributor agreement...?
+1. Create new study, enter title, details, members
+2. Create new acquisition, enter participant demographics
+3. Upload video file
+
+
+### Discovery
+
+1. Search page: Search for some terms
+2. Search results: View list of matching studies and select one
+3. Study page: View study details and list of participants/data files (acquisitions)
+3. Request access to study? Switch to non-public view?
+4. Data page: View acquired data for one participant and select video data
+5. Video page: Preview/download video
+
 
 
