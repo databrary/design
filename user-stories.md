@@ -10,7 +10,7 @@ I want to be able to create and manage studies. Assigning graduate students and 
 
 **Scenario steps:**
 
-Given that I am signed in as a study lead (PI, postdoc or GradStudent) and I am on my personal profile (home) page
+Given that I am signed in as a study lead (PI, postdoc or GradStudent) and I am on my personal profile (home) page.
 
 When I
 
@@ -49,11 +49,26 @@ I want to be able to manage the accounts for all the people who work in my lab a
 
 **Scenario steps:**
 
+Given than I am signed in, and on my personal profile (home) page.
 
+I should be able see a list of 'sponsored members', who I have granted access too. Each sponsored member has details about:
 
-1. Go to member authorization page
-2. Displays (nested) list of members, account renewal dates, and new requests for membership
-3. ...  
+* Name / Email.
+* Renewal date.
+* Status (requested, active, disabled).
+
+The list will be grouped by status. 
+* pending requests /renewals first.
+* active users
+* disabled users last.
+
+Actions that a PI will be able to perform per member:
+
+* approve membership request or access renewal.
+* disable access.
+
+---
+
 
 As a principal investigator,
 I want to be able to ensure that all data is stored and collected in accordance with IRB rules and regulations. 
