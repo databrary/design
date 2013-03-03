@@ -154,24 +154,91 @@ Then I should be able to add a trial to the study. Specifying:
 
 ### Work day to day coding study.
 
+---
+
+**Story:**
+
 As an experimenter,
 I want to be able to refine coding manuals, based on experience, ambiguities and inter-rater reliability of trials that have already been coded.
+
+**Steps:**
+
+Given I am signed in, have permissions to see a study and I am on my personal profile page.
+
+When I follow the link to the study from profile page
+
+Then I should be able to edit the study by:
+
+* editing the coding manual.
+
+---
+
+**Story:**
 
 As a coder,
 I want to be able to see what trials need to be coded (marked up) using datavyu.
 
+**Steps:**
+
+Given that I am signed in, have permissions to see a study and I am on my personal profile page.
+
+When I follow the link to the study from the profile page.
+
+Then I should be able to see which trials/acquisitions have been completed and those which are still in a 'collected' but uncoded state.
+
+---
+
+**Story:**
+
 As a coder,
 I want to automatically create and download everything I need to start coding a new trial within a study.
 
-1. Go to study page
-2. Select acquisition
-3. Download automatically-generated archive of all data
+**Steps:**
+
+Given then I am signed in, have permissions to see a study and I am on my personal profile (home) page.
+
+When I follow the link to the study from the profile page.
+
+Then I should be able to see a list of all the trials, each with a download button/action. Pressing download pulls down:
+
+* All associated acquisitions (video, other datafilee)
+* Prepared Datavyu spreadsheet.
+* Any datavyu scripts.
+* All zipped into as a sensible project folder structure. 
+
+---
+
+**Story:**
 
 As a coder,
 I want to be able to submit my coded data to be stored alongside the rest of a study.
 
+**Steps:**
+
+Given that I am signed in, have permissions to see a study and I am on my personal profile (home) page.
+
+When I follow the link to the study from the profile page.
+
+Then I should be able to see a list of all the trials, with a upload button / action. Pressing upload allows:
+
+* The user to select the folder on their desktop containing the project folder structure. Which automatically uploads and updates the trial.
+
+* We will probably also want sync tools or functionality built into datavyu.
+
+---
+
+**Story:**
+
 As an investigator,
 I want the coding activities of my lab members tracked and recorded so I can monitor progress of a study.
+
+**Steps:**
+
+Given that I am signed in, have permissions to see a study and I am on my personal profile (home) page.
+
+When I follow the link to the study from the profile page.
+
+Then I should be able to see a list of all the trials, their status (scheduled, collected, coded, completed). If I click on a trial to view more details I should be able to see a change log of who has done what to the trial since it was added to the system.
 
 ### Publish
 
