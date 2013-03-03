@@ -78,11 +78,12 @@ acquisition table
 	consent enum -- these are intersected with study.users permissions
 		NONE -- never honor VIEWERS
 		DATABRARY -- at most authorized users
-		EXCEPRTS -- additionally make excerpt objects (TBD) public
+		EXCERPTS -- additionally make excerpt objects (TBD) public
 	participant set
 		id text optional user
 		gender enum optional
 		birthdate date-range optional -- range for approximate ages
+		-- consent here? (actually but not logically)
 		-- other demographic info?
 	session set -- if (timeseries) data were collected discontinuously
 
