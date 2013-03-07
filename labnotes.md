@@ -26,3 +26,15 @@ Obviously an extreme case.
 - Most data in excel
 - Subject info, demographics, inventories, all on paper (ask: ipad app)
 - Processed videos contain intro slide with subject id, DOB, initials, etc.
+
+# 2012/03/07
+
+- Possible seed data
+- 250 children, 9 ages, 20-60 min continuous video each, 10MB/min, around 1TB
+- some videos split into descriptive segments, partially consistent
+- earlier ages on "external" storage somewhere
+- videos named by ETHNICITYID-AGEID-SUBJID, sometimes coded by ETHNICITYID\*1000+SUBJID
+- non-video data (all documents, XLS, SPSS, some video clips) on separate space
+- metadata spreadsheet with DOB, visit progress; other metadata spread out, more difficult to track down
+- interview sheets (mother and child) per visit, lots of information, unknown standardization, possible scans
+- transcriptions and coding per video, unknown format/location
