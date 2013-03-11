@@ -15,7 +15,7 @@ Similarly, Datavyu, while it will likely be integrated with the site via APIs, i
 Various *entities* representing real world identities may be associated with the site.
 Entities can belong to the following *levels*:
 
-1. Site administrators (root)
+1. Site administrators (under root, which is level 0)
 2. IRB members and administrators managing one (or more) institution
 2. Institutional entities representing various organizations, universities, or governments
 3. Contributors: PIs who accepted the contributor agreement and have IRB-approved studies that can contribute data to the site
@@ -45,6 +45,9 @@ Successful registration results in an unverified account.
 ## Entity Authorization
 
 Authorization verifies, establishes, and maintains the affiliation between an entity and a parent entity, and possibly the association between that child entity and an account.
+Entity relationships establish a "web of trust" wherein by authorizing another entity as a child represents a trust relationship.
+Any user with a trust path from root is considered "authorized."
+Only entities at the level of PI or above can authorize other entities.
 
 ### Requesting
 
