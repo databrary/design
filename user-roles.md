@@ -35,7 +35,14 @@ If the appropriate entity is not found, the user is provided a link to request i
 
 In the authorization area, users are presented with a list of users who have requested or been granted authorization by them or their descendants (recursive tree, so root sees everything).
 From here they can change any status, level, grant and remove authorizations, and also search for other entities to add.
-Users may only set levels below their own level.
+Users may only set levels below their own level, and must set permissions inheritance for each child to one of:
+- None: no permissions are inherited, but the user is still authorized to use the site.
+- Read: any data viewable by the parent can be viewed by the child.
+- Admin: the child can perform any operation the parent can (including modifying studies and user authorization, but excluding account administration).
+
+> Do we want to make the Admin inheritance level generally available?
+> It seems preferable over e.g., having PIs give their password to members.
+> It is also useful for institute administrators (depending on which direction the administrator - institute relationship goes).
 
 ### Authorized user
 

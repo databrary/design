@@ -16,8 +16,8 @@ Various *entities* representing real world identities may be associated with the
 Entities can belong to the following *levels*:
 
 1. Site administrators (under root, which is level 0)
-2. IRB members and administrators managing one (or more) institution
 2. Institutional entities representing various organizations, universities, or governments
+2. IRB members and administrators managing one (or more) institution
 3. Contributors: PIs who accepted the contributor agreement and have IRB-approved studies that can contribute data to the site
 3. Principal Investigators (PI) who are not collecting contributing data to the site (but may be using data from it)
 4. Students and research staff responsible to PIs

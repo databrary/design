@@ -22,21 +22,27 @@ Legend:
 
 entity table
 	name text public
-	parent set
-		parent entity unique public | parent.level < level
-		authorized timestamp
 	level enum public
-		ROOT
-		ADMIN
+		ROOT/ADMIN
 		INSTITUTION
+		ADMINISTRATOR
 		CONTRIBUTOR -- only faculty can be contributors?
-		FACULTY
+		FACULTY -- may be the same as contributor
 		MEMBER -- students, staff, peons
-		UNKNOWN -- not yet authorized (implies no parents)
+		UNKNOWN/NULL -- not yet authorized (implies no parents)
 	address text user -- should perhaps be broken down
 
+trust table
+	parent entity
+	child entity unique(parent,child) | parent.level < child.level
+	inheritance enum
+		NONE
+		READ -- default
+		ADMIN
+	authorized timestamp
+
 account table
-	entity unique
+	entity id unique
 	creation timestamp
 	username text
 	email text
@@ -63,8 +69,8 @@ study table
 			OWNER
 			MANAGER
 			VIEWER
-		recursive boolean | type != OWNER OR NOT recursive -- applies to all descendents
-		effective timestamp -- effective as of this date (possibly future)
+		inherited boolean | type != OWNER OR NOT inherited -- applies to all descendents
+		effective timestamp -- effective as of this date (possibly future?)
 		-- e.g, (ROOT, VIEWER, TRUE) means "shared"
 	inclusion set public
 		study study
