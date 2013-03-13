@@ -19,7 +19,7 @@ This may be a user's own entity page if they're logged in.
 
 Some pages targeted at participants whose data may be in the library.
 
-Mainly a "Bill of Rights" with information about what Databrary is and what participants' rights are whose data may be in Databrary.
+Mainly a ["Bill of Rights"](https://github.com/databrary/policies/blob/master/bill-of-rights.md) with information about what Databrary is and what participants' rights are whose data may be in Databrary.
 
 # Common components
 
