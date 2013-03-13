@@ -23,12 +23,7 @@ Registered users get access to the same content as anonymous users, plus an auth
 #### Authorization request
 
 In the authorization area, users may search for a parent entity to request authorization from.
-This page presents the following options:
-- I am an administrator at a university, IRB, or other research institute.  This presents a search for the institute, and generates a request to the site administrators to establish the appropriate relationships.
-- I am a PI (or eligible to be a PI) at a university or other research institute.  This presents a search for the institute, and generates a request to the institute administrator.
-- I work with a PI as a student, postdoc, staff, RA, or other researcher.  This presents a search for the PI (possibly by institute) and generates a request to them.
-- I am an independent researcher.  This generates a request to the site administrators.
-
+See authorization request [page](pages.md), which generates a request to the responsible users.
 If the appropriate entity is not found, the user is provided a link to request it, generating a request to the site administrators.
 
 #### Authorization granting

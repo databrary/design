@@ -11,6 +11,8 @@ Things that are not explicitly addressed here:
 This may be a user's own entity page if they're logged in.
 
 * Owned studies, sort:rev by date
+* Create new study link (if allowed)
+* Authorizations link (if allowed)
 * New relevant stuff
 
 # Participant pages
@@ -96,6 +98,7 @@ Mainly a "Bill of Rights" with information about what Databrary is and what part
 # Data input
 
 Input pages largely parallel data view pages.
+In fact, they may be identical, with edit in-place/links for those with appropriate permissions.
 
 ## study
 
@@ -109,7 +112,7 @@ For studies and possibly other objects with permissions,
 a control allowing the owner to view and set the list of allow users as their permissions.
 
 A table with columns:
-* user group: "everyone", "Databrary users", specific user, specific user and their delegates/descendants/lab members
+* user/group, select from: "general public", "Databrary users", specific user (search), specific user and their delegates/descendants/lab members
 * permission: "view only", "edit", "owner"
 
 Note: Only databrary users will be able to view videos and other sensitive participant data, and only if the participant consent permissions allows it.
@@ -129,7 +132,35 @@ Note: Only databrary users will be able to view videos and other sensitive parti
 
 ## Authorization request
 
+Select from:
+- Administrator: I am an administrator at a university, IRB, or other research institute.
+- PI: I am a PI (or eligible to be a PI) at a university or other research institute.
+- Member: I work with a PI as a student, postdoc, staff, RA, or other researcher.
+- Independent: I am an independent researcher.
+
+### Administrator
+
+- search for institute
+- add new institute 
+
+Both generate a request to the site administrators to establish the appropriate relationships.
+
+### PI
+
+- search for institute: generates request to institute administrator
+- add new institute: generates request to site administrator
+
+### Member
+
+1. search by institute
+2. search by name
+3. not found: "Please ask your PI to create an account first."
+
+These generate a request to the PI.
+
+### Independent
+
 ## Authorization review
 
-* expandable tree of existing children, with actions (remove, renew, set level)
-* expandable tree of requests, with actions (deny, approve, set level)
+* expandable tree of existing children, with actions (remove, renew, select permissions)
+* expandable tree of requests, with actions (deny, approve, select permissions)
