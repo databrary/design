@@ -13,23 +13,32 @@ Similarly, Datavyu, while it will likely be integrated with the site via APIs, i
 # User management
 
 Various *entities* representing real world identities may be associated with the site.
-Entities can belong to the following *levels*:
 
-1. Site administrators (under root, which is level 0)
-2. Institutional entities representing various organizations, universities, or governments
-2. IRB members and administrators managing one (or more) institution
-3. Contributors: PIs who accepted the contributor agreement and have IRB-approved studies that can contribute data to the site
-3. Principal Investigators (PI) who are not collecting contributing data to the site (but may be using data from it)
-4. Students and research staff responsible to PIs
-5. Other users who have not yet completed the authorization process (see below)  
+The total population of potential users of the site is estimated to be in the thousands. This estimate comes from the fact that The Society for Research in Child Development (SRCD) has 5,500 members in various disciplines.
 
-All entities (except root) are affiliated with one or more parent entities of a higher level.  
+## Entity permissions
+
+Each entity (except root) may be associated with one or more parent entities of a higher level.
+Each association represents a trust relationship from parent to child, called an *authorization*, and is associated with a set of inherited permissions:
+- Admin: the child can perform any operation the parent can including changing authorizations and permissions (excepting perhaps some personal account details, passwords, etc.)
+- Authorize: the child can authorize (grand-)children (of its own) if the parent can
+- Contribute: the child can create and edit any studies owner by the parent
+- Access: the child can access any data shared with the parent
+- Site: the child can access the site including generally shared data if the parent can
+
+The entity-parent relationship forms a DAG: no authorizations that would form a loop are permitted.
+An entity is said to have X permission over entity Y if there exists a path up through parents to entity Y, all with the X permission.
+(All entities have X permissions over themselves.)
+An entity is said to have X permission (in general) if it has X permission over root.
+
+These levels allow arbitrary and flexible relationships between entities, and thus account permissions.
+However, in practice there will only be a small number of [roles](user-roles.md) with pre-defined relationships.
+
+## Accounts
 
 Any individual accessing content hosted on the site will require an *account*: for the initial release there will be no anonymous access.
 However, not all entities will have active accounts. 
  
-The total population of potential users of the site is estimated to be in the thousands. This estimate comes from the fact that The Society for Research in Child Development (SRCD) has 5,500 members in various disciplines.
-
 Are entities and account details public?
 
 ## Account Registration
@@ -46,8 +55,7 @@ Successful registration results in an unverified account.
 
 Authorization verifies, establishes, and maintains the affiliation between an entity and a parent entity, and possibly the association between that child entity and an account.
 Entity relationships establish a "web of trust" wherein by authorizing another entity as a child represents a trust relationship.
-Any user with a trust path from root is considered "authorized."
-Only entities at the level of PI or above can authorize other entities.
+Only entities with a global Authorize permission can authorize other entities.
 
 ### Requesting
 
@@ -63,14 +71,11 @@ This may also require providing additional details, for example university-provi
 
 ### Granting
 
-This request will notify the selected parent entity.
-If an account is associated with that entity, that user will be able to authorize the affiliation, and also select a level (below their own).
-If no account is associated with an entity, an appropriate delegate account may instead do the authorization (i.e., a university administrator for a university, or a site administrator).
-A page for each such parent account or delegate will be available listing all children and requests.
+This request will notify all accounts with Admin permission over the selected parent.
+Each account will have access to an authorization page, showing an (expandable) tree rooted at the highest entities over which they have Admin control.
+This page will include all descendants of those entities, as well as all requested descendants.
+From here, users may add or remove authorizations or permissions on these authorizations.
 Periodic reauthorization may be necessary for continued affiliation, according to the policies established by some higher entity.  
-
-University affiliation may be able to be automated by authentication with university account details.
-How are delegates established?  
 
 Authorizing an affiliation indicates that the authorizing agent has confirmed that the identity of the account matches the (possibly new) entity, and establishes some level responsibility for that account.
 Other details may be required during the authorization:
@@ -128,6 +133,8 @@ Studies will be comprised of the following components / metadata:
 * Zero or many *articles* that represent the scholarly output from data contained within this study.
 * Zero or many *acquisitions* represented the collected data
 * Zero or more other studies that provide data to this study, e.g., for meta-analyses, longitudinal studies, or other more complex experiments involving multiple protocols  
+
+Note that study permissions assigned to members are in addition to (ORed with) permissions granted by parents.
 
 Collecting example materials from a broad set of labs will inform how studies and acquisitions should be structured, but are expected to include:
 

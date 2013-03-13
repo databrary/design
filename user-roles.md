@@ -35,20 +35,58 @@ If the appropriate entity is not found, the user is provided a link to request i
 
 In the authorization area, users are presented with a list of users who have requested or been granted authorization by them or their descendants (recursive tree, so root sees everything).
 From here they can change any status, level, grant and remove authorizations, and also search for other entities to add.
-Users may only set levels below their own level, and must set permissions inheritance for each child to one of:
-- None: no permissions are inherited, but the user is still authorized to use the site.
-- Read: any data viewable by the parent can be viewed by the child.
-- Admin: the child can perform any operation the parent can (including modifying studies and user authorization, but excluding account administration).
-
-> Do we want to make the Admin inheritance level generally available?
-> It seems preferable over e.g., having PIs give their password to members.
-> It is also useful for institute administrators (depending on which direction the administrator - institute relationship goes).
 
 ### Authorized user
 
 Once a user has been appropriately authorized by another entity, and there exists a path from root to their entity, they are considered authorized.
 Authorized users can get access to all data shared publicly or specifically with them or one of their parents (if so marked).
-Each authorized user has a [level](overview.md#user-management) as set by their authorizing user.
+Each authorized user has [permissions](overview.md#user-management) as set by their authorizing user.
+
+## Specific roles
+
+This section describes how specific roles relate to the entity permissions structure described in the [overview](overview.md).
+While all authorized users have entities, not all entities are associated with accounts.
+
+### Root
+
+A special, singleton entity called "root" has no parents and no associated account, but full, unrestricted access to all aspects of the site.
+
+### Site Administrators
+
+Individuals responsible for administering Databrary itself are children of root with the Admin permission, granting them equivalent access to managing users and authorizations as root itself.
+
+### Institutions
+
+Schools, universities, governments, and other organizations may have entities of their own, without associated accounts.
+Any such entity with an institutional agreement with Databrary must have such an entity, which is a child of root with all permissions except Admin (Authorize, Contribute, Access, Site).
+These entities and relationships are generally setup by Site Administrators.
+
+### Administrators
+
+Individuals responsible for administering Institutions, which may include IRB members and university administrators, are children of that Institution with Admin permission.
+This allows them to authorize new users with that Institution, granting them appropriate permissions.
+
+Administrators will not usually need Contribute permission or perform any research activities.
+
+### Principal Investigators, Contributors
+
+PI-eligible individuals wishing to participate in databrary must first obtain authorization from an authorized Institution.
+As such, they will be children of an Institution with all permissions except Admin (Authorize, Contribute, Access, Site).
+
+PIs may primarily create studies, and thus own studies and assign membership.
+They may also perform all other research activities.
+
+### Members
+
+Students, postdocs, and research staff responsible to PIs may be authorized by PIs.
+The PI may choose the exact permissions granted to members.
+They will automatically be granted Site permission, giving the access to generally shared data.
+They will often be granted Access permission, giving them read access to all studies owned or shared with the PI.
+They may be granted Contribute permission, allowing them to create studies of their own and manage studies owned by the PI.
+They may not be granted Authorize permission.
+
+> Do we want to make the Admin permission available as well?
+> It seems preferable over e.g., having PIs give their password to members.
 
 ## Roles mentioned in user stories
 
