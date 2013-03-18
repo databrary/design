@@ -336,16 +336,35 @@ so that the content can remain accessible for the foreseeable future.
 2. Search results: View list of matching studies and select one (ds: provide list of studies)
 3. Study page: View study details and list of participants/data files (acquisitions)
 4. (walk through tabs: ds: provide tab content details, documents tab, data tab go to next step)
-5. (click on data row -> go to pop up : authenticate / register)
-5. Apply, sign user agreement...?
-6. (Databrary authorizes user)
-7. (user notified that they've been approved)
+5. (click on data row -> go to pop up : login / register)
 8. user logs in
-9. Data page: View acquired data for one participant and select video data
+9. Data page: View acquired data for one participant and select video data (ds: list whats on page (folder view with icon))
 10. Video page: Preview/download video
+
+
+### Login
+
+1. Home page (contains link to "Create new study")
+
 
 ### Contribution
 
-1. Create new study, enter title, details, members
-2. Create new acquisition, enter participant demographics
-3. Upload video file
+1. Blank study page (manage access link)
+2. Create new study, enter title, details, members
+3. Create new acquisition, enter participant demographics
+4. Upload video file page
+ 
+
+### Registration
+
+1. Apply, sign user agreement...?
+2. (Databrary authorizes user)
+3. (user notified via e-mail that they've been approved)
+
+
+### Access Management Page
+(two wireframes: 1: study-level, 2: my authorizations)
+
+1. Study view (ds: list available permissions)
+2. User view (ds: list available permissions)
+
