@@ -328,20 +328,24 @@ so that the content can remain accessible for the foreseeable future.
 
 ## Extended demonstration scenarios
 
-### Contribution
-
-0. Apply, sign contributor agreement...?
-1. Create new study, enter title, details, members
-2. Create new acquisition, enter participant demographics
-3. Upload video file
 
 
 ### Discovery
 
-1. Search page: Search for some terms
-2. Search results: View list of matching studies and select one
+1. Search page: Search for some terms, e.g., walking, Adolph
+2. Search results: View list of matching studies and select one (ds: provide list of studies)
 3. Study page: View study details and list of participants/data files (acquisitions)
-3. Request access to study? Switch to non-public view?
-4. Data page: View acquired data for one participant and select video data
-5. Video page: Preview/download video
+4. (walk through tabs: ds: provide tab content details, documents tab, data tab go to next step)
+5. (click on data row -> go to pop up : authenticate / register)
+5. Apply, sign user agreement...?
+6. (Databrary authorizes user)
+7. (user notified that they've been approved)
+8. user logs in
+9. Data page: View acquired data for one participant and select video data
+10. Video page: Preview/download video
 
+### Contribution
+
+1. Create new study, enter title, details, members
+2. Create new acquisition, enter participant demographics
+3. Upload video file
