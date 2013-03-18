@@ -100,11 +100,7 @@ Mainly a ["Bill of Rights"](https://github.com/databrary/policies/blob/master/bi
 Input pages largely parallel data view pages.
 In fact, they may be identical, with edit in-place/links for those with appropriate permissions.
 
-## study
-
 ## Study design
-
-## acquisition
 
 ## Access control
 
