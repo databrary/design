@@ -2,7 +2,7 @@
   <controls>
     <control controlID="0" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="76" y="3" w="964" h="946" measuredW="450" measuredH="400" zOrder="0" locked="false" isInGroup="-1">
       <controlProperties>
-        <text>Databrary%20-%20Search%0Ahttp%3A//databrary.org/search%3Fq%3DAdolph</text>
+        <text>Databrary%20-%20Search%0Ahttps%3A//databrary.org/search%3Fq%3DAdolph</text>
       </controlProperties>
     </control>
     <control controlID="23" controlTypeID="com.balsamiq.mockups::Canvas" x="76" y="75" w="964" h="32" measuredW="100" measuredH="70" zOrder="1" locked="false" isInGroup="-1">
@@ -372,6 +372,12 @@
     <control controlID="122" controlTypeID="com.balsamiq.mockups::CheckBox" x="92" y="334" w="-1" h="-1" measuredW="74" measuredH="22" zOrder="45" locked="false" isInGroup="-1">
       <controlProperties>
         <text>Excerpts</text>
+      </controlProperties>
+    </control>
+    <control controlID="123" controlTypeID="com.balsamiq.mockups::Icon" x="937" y="34" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="46" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>0</color>
+        <icon>LockIcon%7Cxsmall</icon>
       </controlProperties>
     </control>
   </controls>
