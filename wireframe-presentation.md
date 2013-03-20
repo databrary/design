@@ -1,5 +1,9 @@
 ## list of wireframes and flow for presentation
 
+### General Questions
+- [ ]: what to use for "User contributions licensed under ???"
+- [ ]: do we need a "logged-in" view of various pages? if so, which ones?
+
 ### Discovery/Browsing
 
 CREATED : Databrary home page (add search box, full color)
@@ -8,20 +12,28 @@ CREATED : Databrary home page (add search box, full color)
 - search box
 - login/register link
 
+
 UPDATED: Search results page
 
 - search for "walking" and/or "Adolph"
 - refine by: age/race/ethnicity of participant, excerpts available, number of participants (range)
 - example results: http://scholar.google.com/scholar?q=adolph+walking
-- [ ]:ds: could you provide a list of sample data set names, or should I just use paper titles?
+-- [ ]:ds: could you provide a list of sample data set names, or should I just use paper titles?
 
-CHANGE: Study page
+
+UPDATED: Study page
 
 - Documents tab: Study manual, IRB protocol, Blank consent form, Coding manual
 - Data tab: Table of participants: participant ID, age at test, # videos, # data files
 - comment/tagging template
+  - [ ]: sign-in to tag / comment
+  - [ ]: comment/tagging granularity? at study level, or data/file level?
+- [ ]: does "request access" workflow via e-mail still hold? or should user sign-in first?
+- [ ]: is "collection details" the correct term?
+- [ ]: logged-in view: make filenames "links" for download, and also add "download all documents as zip file" link.
 
-NEW : Login/Register page
+CREATED : Login/Register page
+
 
 NEW : Study:Participant page
 
@@ -33,6 +45,7 @@ NEW : Study:Participant page
 - coding spreadsheet "Datavyu"
 - download all as zip file
 - comment/tagging template
+
 
 NEW : Video page (viewer, download link)
 
@@ -46,12 +59,14 @@ NEW : Dashboard (post login)
 - search
 - user authorization
 
+
 NEW : Blank study page (base on Study page)
 
 - same as study page with blank fields, edit links
 - Documents tab: "new document"
 - Data tab: "new participant"
 - link to access management
+
 
 NEW : Blank participant page
 

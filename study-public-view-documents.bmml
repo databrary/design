@@ -1,4 +1,4 @@
-<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="1107" measuredH="949" mockupW="1031" mockupH="946">
+<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="1040" measuredH="949" mockupW="964" mockupH="946">
   <controls>
     <control controlID="0" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="76" y="3" w="964" h="946" measuredW="450" measuredH="400" zOrder="0" locked="false" isInGroup="-1">
       <controlProperties>
@@ -133,10 +133,9 @@
                 </control>
               </groupChildrenDescriptors>
             </control>
-            <control controlID="1" controlTypeID="com.balsamiq.mockups::SearchBox" x="129" y="0" w="193" h="-1" measuredW="120" measuredH="25" zOrder="1" locked="false" isInGroup="3">
+            <control controlID="1" controlTypeID="com.balsamiq.mockups::SearchBox" x="129" y="0" w="193" h="-1" measuredW="127" measuredH="25" zOrder="1" locked="false" isInGroup="3">
               <controlProperties>
-                <color>0</color>
-                <text>Adolph%20walking</text>
+                <text>search%20Databrary</text>
               </controlProperties>
             </control>
           </groupChildrenDescriptors>
@@ -229,15 +228,6 @@
       <controlProperties>
         <borderColor>6710886</borderColor>
         <text>email%20address</text>
-      </controlProperties>
-    </control>
-    <control controlID="57" controlTypeID="com.balsamiq.mockups::Arrow" x="957" y="90" w="-1" h="-1" measuredW="150" measuredH="100" zOrder="23" locked="false" isInGroup="-1">
-      <controlProperties>
-        <color>10027263</color>
-        <direction>top</direction>
-        <leftArrow>true</leftArrow>
-        <rightArrow>false</rightArrow>
-        <text/>
       </controlProperties>
     </control>
   </controls>
