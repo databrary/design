@@ -269,7 +269,35 @@ As a User,
 I want to search by various attributes, 
 see list [here](https://github.com/databrary/design/blob/master/pages.md#data-view)
 
+### Story
 
+As a User I want to be able to find the data sets that have been browsed, downloaded, or cited the most.
+> Change User to Investigator across stories?
+
+### Story
+
+As a User, I want to be able to subscribe (via RSS feed?) to other Users or Topic feeds so that I am notified about new
+or revised data sets in my area(s) of interest.
+
+### Story
+
+As a User, I want to be able to find video/audio exerpts for teaching and demonstration purposes.
+
+## Citation and Use Metrics
+
+### Story
+
+As a User, I want to be able to have Databrary generate a full citation for any resource I want to use. I want to be 
+able to copy that citation to my reference manager or to the clipboard.
+
+### Story
+
+As a User, I want Databrary to generate a permanent URL for all of the resources I deposit so that I can cite and link to my own contributions.
+
+
+### Story
+
+As a User, I would like Databrary to link to a list of my publications (via Google Scholar search, smart extraction from my CV, interface with ResearchGate). From this list, I want to be able to add links to Databrary resources that support my publications.
 
 ## User Authentication and Authorization
 
