@@ -2,17 +2,18 @@
 
 ### Discovery/Browsing
 
-NEW : Databrary home page (add search box, full color)
+CREATED : Databrary home page (add search box, full color)
 
 - ala current databrary.org
 - search box
 - login/register link
 
-HAVE: Search results page
+UPDATED: Search results page
 
 - search for "walking" and/or "Adolph"
 - refine by: age/race/ethnicity of participant, excerpts available, number of participants (range)
 - example results: http://scholar.google.com/scholar?q=adolph+walking
+- [ ]:ds: could you provide a list of sample data set names, or should I just use paper titles?
 
 CHANGE: Study page
 
