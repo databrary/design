@@ -26,10 +26,10 @@ UPDATED: Study page
 - Documents tab: Study manual, IRB protocol, Blank consent form, Coding manual
 - Data tab: Table of participants: participant ID, age at test, # videos, # data files
 - comment/tagging template
-  - [ ]: sign-in to tag / comment
-  - [ ]: comment/tagging granularity? at study level, or data/file level?
-- [ ]: does "request access" workflow via e-mail still hold? or should user sign-in first?
-- [ ]: is "collection details" the correct term?
+  - [x]: sign-in to tag / comment: Yes.
+  - [x]: comment/tagging granularity? at study level, or data/file level?: For now, separate comments/tags at both levels.
+- [x]: does "request access" workflow via e-mail still hold? or should user sign-in first?: Let's require logins
+- [x]: is "collection details" the correct term?: I think we can use the word "study"; perhaps "study contents"
 - [ ]: logged-in view: make filenames "links" for download, and also add "download all documents as zip file" link.
 
 CREATED : Login/Register page
