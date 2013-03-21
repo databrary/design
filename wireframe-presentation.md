@@ -1,8 +1,9 @@
 ## list of wireframes and flow for presentation
 
 ### General Questions
-- [ ]: what to use for "User contributions licensed under ???"
-- [ ]: do we need a "logged-in" view of various pages? if so, which ones?
+- [ ]:?: what to use for "User contributions licensed under ???"
+- [ ]:?: do we need a "logged-in" view of various pages? if so, which ones?
+- [ ]:?: what username to use for logged-in view?, e.g, Karen Adolph, Rick Gilmore 
 
 ### Discovery/Browsing
 
@@ -15,7 +16,8 @@ CREATED : Databrary home page (add search box, full color)
 
 
 UPDATED: Search results page
-
+   [image](./search-basic-results.png)
+   
 - search for "walking" and/or "Adolph"
 - refine by: age/race/ethnicity of participant, excerpts available, number of participants (range)
 - example results: http://scholar.google.com/scholar?q=adolph+walking
@@ -25,13 +27,16 @@ UPDATED: Search results page
 UPDATED: Study page
 
 - Documents tab: Study manual, IRB protocol, Blank consent form, Coding manual
+   [image](./study-public-view-documents.png)
 - Data tab: Table of participants: participant ID, age at test, # videos, # data files
+   [image](./study-public-view-data.png)
+
 - comment/tagging template
-  - [x]: sign-in to tag / comment: Yes.
-  - [x]: comment/tagging granularity? at study level, or data/file level?: For now, separate comments/tags at both levels.
-- [x]: does "request access" workflow via e-mail still hold? or should user sign-in first?: Let's require logins
-- [x]: is "collection details" the correct term?: I think we can use the word "study"; perhaps "study contents"
-- [ ]: logged-in view: make filenames "links" for download, and also add "download all documents as zip file" link.
+  - [x]:?: sign-in to tag / comment: Yes.
+  - [x]:?: comment/tagging granularity? at study level, or data/file level?: For now, separate comments/tags at both levels.
+- [x]:?: does "request access" workflow via e-mail still hold? or should user sign-in first?: Let's require logins
+- [x]:?: is "collection details" the correct term?: I think we can use the word "study"; perhaps "study contents"
+- [ ]:jgp: logged-in view: make filenames "links" for download, and also add "download all documents as zip file" link.
 
 CREATED : Login/Register page
 

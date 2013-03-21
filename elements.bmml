@@ -436,5 +436,21 @@
         </control>
       </groupChildrenDescriptors>
     </control>
+    <control controlID="11" controlTypeID="__group__" x="621" y="600" w="252" h="39" measuredW="252" measuredH="39" zOrder="9" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::IconLabel" x="0" y="0" w="-1" h="-1" measuredW="24" measuredH="39" zOrder="0" locked="false" isInGroup="11">
+          <controlProperties>
+            <icon>DownloadIcon%7Csmall</icon>
+            <text>%20</text>
+          </controlProperties>
+        </control>
+        <control controlID="1" controlTypeID="com.balsamiq.mockups::Label" x="31" y="1" w="-1" h="-1" measuredW="221" measuredH="22" zOrder="1" locked="false" isInGroup="11">
+          <controlProperties>
+            <size>14</size>
+            <text>download%20all%20documents%20as%20.zip%20file</text>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
   </controls>
 </mockup>
