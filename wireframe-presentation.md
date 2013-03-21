@@ -35,7 +35,7 @@ UPDATED: Study page (Public View)
 
 UPDATED: Study page (Authorized View)
 
-- Documents tab: Study manual, IRB protocol, Blank consent form, Coding manual   
+- Documents tab: Study manual, IRB protocol, Blank consent form, Coding manual, Video display
   - [image: study, authorized view, documents tab active](./study-authorized-view-documents.png)
 - Data tab: Table of participants: participant ID, age at test, # videos, # data files   
   - [ ]:?: labels for participants?
@@ -44,7 +44,8 @@ UPDATED: Study page (Authorized View)
 
 - comment/tagging template
   - [x]:?: sign-in to tag / comment: Yes.
-  - [x]:?: comment/tagging granularity? at study level, or data/file level?: For now, separate comments/tags at both levels.
+  - [x]:?: comment/tagging granularity? at study level, or data/file level?: For now, separate comments/tags at both levels, but the only need to visible on each page.
+  - So: the study page, participant page, and video/datafile page each have their own tags and comments, but they don't need to visible from elsewhere; we may want to consolidate later, but we don't have to decide that now.
 - [x]:?: does "request access" workflow via e-mail still hold? or should user sign-in first?: Let's require logins
 - [x]:?: is "collection details" the correct term?: I think we can use the word "study"; perhaps "study contents"
 - [x]:jgp: logged-in view: make filenames "links" for download, and also add "download all documents as zip file" link.
