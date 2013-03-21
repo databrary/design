@@ -1,4 +1,4 @@
-<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="1040" measuredH="949" mockupW="964" mockupH="946">
+<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="1040" measuredH="949" mockupW="965" mockupH="946">
   <controls>
     <control controlID="0" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="76" y="3" w="964" h="946" measuredW="450" measuredH="400" zOrder="0" locked="false" isInGroup="-1">
       <controlProperties>
@@ -58,91 +58,15 @@
         <text>Adolph%2C%20KE%202000%2C%20Infants%20Navigating%20Risky%20Gaps%2C%20Databrary%2C%20accessed%2012%20Feburary%202013%2C%3Chttp%3A//databrary.org/study/143/infants-navigating-risky-gaps%3E</text>
       </controlProperties>
     </control>
-    <control controlID="35" controlTypeID="com.balsamiq.mockups::Canvas" x="76" y="889" w="964" h="32" measuredW="100" measuredH="70" zOrder="11" locked="false" isInGroup="-1">
-      <controlProperties>
-        <color>0</color>
-      </controlProperties>
-    </control>
-    <control controlID="36" controlTypeID="com.balsamiq.mockups::Label" x="709" y="895" w="-1" h="-1" measuredW="200" measuredH="21" zOrder="12" locked="false" isInGroup="-1">
-      <controlProperties>
-        <color>16777215</color>
-        <text>User%20contributions%20licensed%20under</text>
-      </controlProperties>
-    </control>
-    <control controlID="37" controlTypeID="com.balsamiq.mockups::Label" x="900" y="895" w="-1" h="-1" measuredW="22" measuredH="21" zOrder="13" locked="false" isInGroup="-1">
-      <controlProperties>
-        <color>16777215</color>
-        <text>%3F%3F%3F</text>
-        <underline>true</underline>
-      </controlProperties>
-    </control>
-    <control controlID="40" controlTypeID="com.balsamiq.mockups::HRule" x="151" y="633" w="779" h="-1" measuredW="100" measuredH="10" zOrder="15" locked="false" isInGroup="-1"/>
-    <control controlID="41" controlTypeID="com.balsamiq.mockups::HRule" x="152" y="717" w="779" h="-1" measuredW="100" measuredH="10" zOrder="16" locked="false" isInGroup="-1"/>
-    <control controlID="46" controlTypeID="com.balsamiq.mockups::Icon" x="932" y="38" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="17" locked="false" isInGroup="-1">
+    <control controlID="40" controlTypeID="com.balsamiq.mockups::HRule" x="151" y="633" w="779" h="-1" measuredW="100" measuredH="10" zOrder="11" locked="false" isInGroup="-1"/>
+    <control controlID="41" controlTypeID="com.balsamiq.mockups::HRule" x="152" y="717" w="779" h="-1" measuredW="100" measuredH="10" zOrder="12" locked="false" isInGroup="-1"/>
+    <control controlID="46" controlTypeID="com.balsamiq.mockups::Icon" x="932" y="38" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="13" locked="false" isInGroup="-1">
       <controlProperties>
         <color>0</color>
         <icon>LockIcon%7Cxsmall</icon>
       </controlProperties>
     </control>
-    <control controlID="49" controlTypeID="__group__" x="76" y="75" w="964" h="32" measuredW="964" measuredH="32" zOrder="18" locked="false" isInGroup="-1">
-      <groupChildrenDescriptors>
-        <control controlID="0" controlTypeID="com.balsamiq.mockups::Canvas" x="0" y="0" w="964" h="32" measuredW="100" measuredH="70" zOrder="0" locked="false" isInGroup="49">
-          <controlProperties>
-            <color>0</color>
-          </controlProperties>
-        </control>
-        <control controlID="1" controlTypeID="__group__" x="15" y="4" w="98" h="24" measuredW="98" measuredH="24" zOrder="1" locked="false" isInGroup="49">
-          <groupChildrenDescriptors>
-            <control controlID="0" controlTypeID="com.balsamiq.mockups::Image" x="0" y="0" w="28" h="24" measuredW="28" measuredH="24" zOrder="0" locked="false" isInGroup="1">
-              <controlProperties>
-                <src>./assets/databrary-logo-small.png</src>
-              </controlProperties>
-            </control>
-            <control controlID="1" controlTypeID="com.balsamiq.mockups::Label" x="26" y="0" w="-1" h="-1" measuredW="72" measuredH="24" zOrder="1" locked="false" isInGroup="1">
-              <controlProperties>
-                <color>16777215</color>
-                <size>16</size>
-                <text>Databrary</text>
-              </controlProperties>
-            </control>
-          </groupChildrenDescriptors>
-        </control>
-        <control controlID="3" controlTypeID="__group__" x="634" y="3" w="322" h="25" measuredW="322" measuredH="25" zOrder="2" locked="false" isInGroup="49">
-          <groupChildrenDescriptors>
-            <control controlID="0" controlTypeID="__group__" x="0" y="2" w="114" h="21" measuredW="114" measuredH="21" zOrder="0" locked="false" isInGroup="3">
-              <groupChildrenDescriptors>
-                <control controlID="0" controlTypeID="com.balsamiq.mockups::Label" x="63" y="0" w="-1" h="-1" measuredW="51" measuredH="21" zOrder="0" locked="false" isInGroup="0">
-                  <controlProperties>
-                    <color>16777215</color>
-                    <text>Register</text>
-                    <underline>true</underline>
-                  </controlProperties>
-                </control>
-                <control controlID="1" controlTypeID="com.balsamiq.mockups::Label" x="0" y="0" w="-1" h="-1" measuredW="43" measuredH="21" zOrder="1" locked="false" isInGroup="0">
-                  <controlProperties>
-                    <color>16777215</color>
-                    <text>Sign%20In</text>
-                    <underline>true</underline>
-                  </controlProperties>
-                </control>
-                <control controlID="2" controlTypeID="com.balsamiq.mockups::Label" x="51" y="0" w="10" h="-1" measuredW="10" measuredH="21" zOrder="2" locked="false" isInGroup="0">
-                  <controlProperties>
-                    <color>16777215</color>
-                    <text>/</text>
-                  </controlProperties>
-                </control>
-              </groupChildrenDescriptors>
-            </control>
-            <control controlID="1" controlTypeID="com.balsamiq.mockups::SearchBox" x="129" y="0" w="193" h="-1" measuredW="127" measuredH="25" zOrder="1" locked="false" isInGroup="3">
-              <controlProperties>
-                <text>search%20Databrary</text>
-              </controlProperties>
-            </control>
-          </groupChildrenDescriptors>
-        </control>
-      </groupChildrenDescriptors>
-    </control>
-    <control controlID="50" controlTypeID="com.balsamiq.mockups::DataGrid" x="151" y="416" w="772" h="176" measuredW="453" measuredH="141" zOrder="19" locked="false" isInGroup="-1">
+    <control controlID="50" controlTypeID="com.balsamiq.mockups::DataGrid" x="151" y="416" w="772" h="176" measuredW="453" measuredH="141" zOrder="14" locked="false" isInGroup="-1">
       <controlProperties>
         <align>left</align>
         <alternateRowColor>16777215</alternateRowColor>
@@ -150,7 +74,7 @@
         <text>Description%20%5E%2C%20File%20Name%20%5Ev%2C%20File%20Size%20%5Ev%2C%20Modified%20Date%20%20%5Ev%0ABlank%20Consent%20Form%2C%20consent-template.doc%2C%20534%20kB%2C%202010-11-28%0ACoding%20Manual%2C%20code_man.doc%2C%20534%20kB%2C%202010-11-28%0AIRB%20Protocol%2C%20%202010-irb.doc%2C%20987%20kB%2C%202010-07-19%0AStudy%20Manual%2C%20%20study_man.doc%2C%20127%20kB%2C%202011-09-27%0A%7B65L%2C%200R%2C%2035%2C%200C%7D</text>
       </controlProperties>
     </control>
-    <control controlID="52" controlTypeID="__group__" x="150" y="134" w="800" h="194" measuredW="800" measuredH="194" zOrder="14" locked="false" isInGroup="-1">
+    <control controlID="52" controlTypeID="__group__" x="150" y="134" w="800" h="194" measuredW="800" measuredH="194" zOrder="10" locked="false" isInGroup="-1">
       <groupChildrenDescriptors>
         <control controlID="0" controlTypeID="com.balsamiq.mockups::Title" x="0" y="0" w="599" h="-1" measuredW="274" measuredH="23" zOrder="0" locked="false" isInGroup="52">
           <controlProperties>
@@ -181,47 +105,33 @@
         </control>
       </groupChildrenDescriptors>
     </control>
-    <control controlID="53" controlTypeID="__group__" x="778" y="343" w="144" h="50" measuredW="144" measuredH="50" zOrder="10" locked="false" isInGroup="-1">
-      <groupChildrenDescriptors>
-        <control controlID="0" controlTypeID="com.balsamiq.mockups::Canvas" x="0" y="0" w="144" h="50" measuredW="100" measuredH="70" zOrder="0" locked="false" isInGroup="53">
-          <controlProperties>
-            <color>15658734</color>
-          </controlProperties>
-        </control>
-        <control controlID="1" controlTypeID="com.balsamiq.mockups::Label" x="50" y="6" w="-1" h="-1" measuredW="60" measuredH="21" zOrder="1" locked="false" isInGroup="53">
-          <controlProperties>
-            <href>karen-profile%26bm%3Bkaren-profile.bmml%26bm%3Bkaren-profile.bmml%26bm%3Bkaren-profile.bmml</href>
-            <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22752%2C346%2C812%2C367%22%20href%3D%22karen-profile.bmml%22%20alt%3D%22karen-profile%22%20id%3D%221%22/%3E</map>
-            <text>KE%20Adolph</text>
-            <underline>true</underline>
-          </controlProperties>
-        </control>
-        <control controlID="2" controlTypeID="com.balsamiq.mockups::Image" x="6" y="6" w="34" h="36" measuredW="250" measuredH="253" zOrder="2" locked="false" isInGroup="53">
-          <controlProperties>
-            <src>./assets/karen-adolph.jpg</src>
-            <text/>
-          </controlProperties>
-        </control>
-        <control controlID="3" controlTypeID="com.balsamiq.mockups::Label" x="50" y="25" w="-1" h="-1" measuredW="91" measuredH="18" zOrder="3" locked="false" isInGroup="53">
-          <controlProperties>
-            <size>10</size>
-            <text>New%20York%20University</text>
-            <underline>true</underline>
-          </controlProperties>
-        </control>
-      </groupChildrenDescriptors>
-    </control>
-    <control controlID="54" controlTypeID="com.balsamiq.mockups::Label" x="159" y="654" w="-1" h="-1" measuredW="682" measuredH="21" zOrder="20" locked="false" isInGroup="-1">
+    <control controlID="54" controlTypeID="com.balsamiq.mockups::Label" x="159" y="654" w="-1" h="-1" measuredW="682" measuredH="21" zOrder="15" locked="false" isInGroup="-1">
       <controlProperties>
         <text>This%20dataset%20contains%20the%20identities%20of%20children%20and%20infants%2C%20video%20can%20be%20used%20for%20research%20under%20certain%20conditions.</text>
       </controlProperties>
     </control>
-    <control controlID="55" controlTypeID="com.balsamiq.mockups::Button" x="159" y="675" w="-1" h="-1" measuredW="240" measuredH="27" zOrder="21" locked="false" isInGroup="-1">
+    <control controlID="55" controlTypeID="com.balsamiq.mockups::Button" x="159" y="675" w="-1" h="-1" measuredW="240" measuredH="27" zOrder="16" locked="false" isInGroup="-1">
       <controlProperties>
         <color>14540253</color>
         <href>study-public-request%26bm%3Bstudy-public-request.bmml%26bm%3Bstudy-public-request.bmml%26bm%3Bstudy-public-request.bmml</href>
-        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%2283%2C672%2C323%2C699%22%20href%3D%22study-public-request.bmml%22%20alt%3D%22study-public-request%22%20id%3D%2255%22/%3E</map>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%2284%2C672%2C324%2C699%22%20href%3D%22study-public-request.bmml%22%20alt%3D%22study-public-request%22%20id%3D%2255%22/%3E</map>
         <text>Please%20sign%20in%20to%20Access%20Documents</text>
+      </controlProperties>
+    </control>
+    <control controlID="56" controlTypeID="com.balsamiq.mockups::Component" x="76" y="75" w="964" h="32" measuredW="964" measuredH="32" zOrder="17" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>./assets/elements.bmml#header-pre_authn</src>
+      </controlProperties>
+    </control>
+    <control controlID="57" controlTypeID="com.balsamiq.mockups::Component" x="779" y="345" w="144" h="50" measuredW="144" measuredH="50" zOrder="18" locked="false" isInGroup="-1">
+      <controlProperties>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22754%2C348%2C814%2C369%22%20href%3D%22karen-profile.bmml%22%20alt%3D%22karen-profile%22%20id%3D%221%22/%3E%3Carea%20shape%3D%22rect%22%20coords%3D%22754%2C348%2C814%2C369%22%20href%3D%22karen-profile.bmml%22%20alt%3D%22karen-profile%22%20id%3D%221%22/%3E%3Carea%20shape%3D%22rect%22%20coords%3D%22753%2C348%2C813%2C369%22%20href%3D%22karen-profile.bmml%22%20alt%3D%22karen-profile%22%20id%3D%221%22/%3E%3Carea%20shape%3D%22rect%22%20coords%3D%22753%2C348%2C813%2C369%22%20href%3D%22karen-profile.bmml%22%20alt%3D%22karen-profile%22%20id%3D%221%22/%3E%3Carea%20shape%3D%22rect%22%20coords%3D%22753%2C348%2C813%2C369%22%20href%3D%22karen-profile.bmml%22%20alt%3D%22karen-profile%22%20id%3D%221%22/%3E%3Carea%20shape%3D%22rect%22%20coords%3D%22753%2C348%2C813%2C369%22%20href%3D%22karen-profile.bmml%22%20alt%3D%22karen-profile%22%20id%3D%221%22/%3E</map>
+        <src>./assets/elements.bmml#badge-adolph</src>
+      </controlProperties>
+    </control>
+    <control controlID="58" controlTypeID="com.balsamiq.mockups::Component" x="75" y="890" w="964" h="32" measuredW="964" measuredH="32" zOrder="19" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>./assets/elements.bmml#footer</src>
       </controlProperties>
     </control>
   </controls>

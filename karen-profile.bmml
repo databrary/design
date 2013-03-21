@@ -1,42 +1,11 @@
-<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="1040" measuredH="949" mockupW="964" mockupH="946">
+<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="1041" measuredH="949" mockupW="968" mockupH="946">
   <controls>
-    <control controlID="0" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="76" y="3" w="964" h="946" measuredW="450" measuredH="400" zOrder="0" locked="false" isInGroup="-1">
-      <controlProperties>
-        <text>Databrary%20-%20Infants%20Navigating%20Risky%20Gaps%0Ahttp%3A//databrary.org/study/143/infants-navigating-risky-gaps</text>
-      </controlProperties>
-    </control>
-    <control controlID="4" controlTypeID="com.balsamiq.mockups::Title" x="151" y="119" w="599" h="-1" measuredW="100" measuredH="28" zOrder="1" locked="false" isInGroup="-1">
-      <controlProperties>
-        <align>left</align>
-        <bold>true</bold>
-        <size>20</size>
-        <text>KE%20Adolph</text>
-      </controlProperties>
-    </control>
-    <control controlID="11" controlTypeID="com.balsamiq.mockups::Label" x="151" y="373" w="-1" h="-1" measuredW="16" measuredH="21" zOrder="2" locked="false" isInGroup="-1">
+    <control controlID="11" controlTypeID="com.balsamiq.mockups::Label" x="151" y="373" w="-1" h="-1" measuredW="10" measuredH="21" zOrder="0" locked="false" isInGroup="-1">
       <controlProperties>
         <text>1.</text>
       </controlProperties>
     </control>
-    <control controlID="19" controlTypeID="com.balsamiq.mockups::Label" x="151" y="349" w="-1" h="-1" measuredW="130" measuredH="24" zOrder="3" locked="false" isInGroup="-1">
-      <controlProperties>
-        <bold>true</bold>
-        <size>16</size>
-        <text>Shared%20data%20sets</text>
-      </controlProperties>
-    </control>
-    <control controlID="23" controlTypeID="com.balsamiq.mockups::Canvas" x="76" y="75" w="964" h="32" measuredW="100" measuredH="70" zOrder="4" locked="false" isInGroup="-1">
-      <controlProperties>
-        <color>0</color>
-      </controlProperties>
-    </control>
-    <control controlID="24" controlTypeID="com.balsamiq.mockups::SearchBox" x="786" y="79" w="165" h="-1" measuredW="120" measuredH="25" zOrder="5" locked="false" isInGroup="-1"/>
-    <control controlID="25" controlTypeID="com.balsamiq.mockups::Image" x="151" y="75" w="31" h="32" measuredW="268" measuredH="268" zOrder="6" locked="false" isInGroup="-1">
-      <controlProperties>
-        <src>./assets/databrary-logo.png</src>
-      </controlProperties>
-    </control>
-    <control controlID="27" controlTypeID="com.balsamiq.mockups::Label" x="182" y="78" w="-1" h="-1" measuredW="88" measuredH="26" zOrder="7" locked="false" isInGroup="-1">
+    <control controlID="27" controlTypeID="com.balsamiq.mockups::Label" x="182" y="78" w="-1" h="-1" measuredW="85" measuredH="26" zOrder="1" locked="false" isInGroup="-1">
       <controlProperties>
         <bold>true</bold>
         <color>16777215</color>
@@ -44,78 +13,95 @@
         <text>Databrary</text>
       </controlProperties>
     </control>
-    <control controlID="29" controlTypeID="com.balsamiq.mockups::Label" x="740" y="81" w="-1" h="-1" measuredW="39" measuredH="21" zOrder="8" locked="false" isInGroup="-1">
+    <control controlID="29" controlTypeID="com.balsamiq.mockups::Label" x="740" y="81" w="-1" h="-1" measuredW="40" measuredH="21" zOrder="3" locked="false" isInGroup="-1">
       <controlProperties>
         <color>16777215</color>
         <text>sign%20in</text>
         <underline>true</underline>
       </controlProperties>
     </control>
-    <control controlID="32" controlTypeID="com.balsamiq.mockups::Image" x="151" y="159" w="130" h="130" measuredW="250" measuredH="253" zOrder="9" locked="false" isInGroup="-1">
-      <controlProperties>
-        <src>./assets/karen-adolph.jpg</src>
-        <text/>
-      </controlProperties>
-    </control>
-    <control controlID="35" controlTypeID="com.balsamiq.mockups::Canvas" x="76" y="889" w="964" h="32" measuredW="100" measuredH="70" zOrder="10" locked="false" isInGroup="-1">
-      <controlProperties>
-        <color>0</color>
-      </controlProperties>
-    </control>
-    <control controlID="36" controlTypeID="com.balsamiq.mockups::Label" x="709" y="895" w="-1" h="-1" measuredW="191" measuredH="21" zOrder="11" locked="false" isInGroup="-1">
-      <controlProperties>
-        <color>16777215</color>
-        <text>User%20contributions%20licensed%20under</text>
-      </controlProperties>
-    </control>
-    <control controlID="37" controlTypeID="com.balsamiq.mockups::Label" x="900" y="895" w="-1" h="-1" measuredW="30" measuredH="21" zOrder="12" locked="false" isInGroup="-1">
-      <controlProperties>
-        <color>16777215</color>
-        <text>%3F%3F%3F</text>
-        <underline>true</underline>
-      </controlProperties>
-    </control>
-    <control controlID="43" controlTypeID="com.balsamiq.mockups::Icon" x="270" y="83" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="13" locked="false" isInGroup="-1">
+    <control controlID="43" controlTypeID="com.balsamiq.mockups::Icon" x="270" y="83" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="4" locked="false" isInGroup="-1">
       <controlProperties>
         <borderStyle>none</borderStyle>
         <color>16777215</color>
         <icon>DownFillTriangleIcon%7Cxsmall</icon>
       </controlProperties>
     </control>
-    <control controlID="45" controlTypeID="com.balsamiq.mockups::HRule" x="152" y="143" w="793" h="-1" measuredW="100" measuredH="10" zOrder="14" locked="false" isInGroup="-1"/>
-    <control controlID="46" controlTypeID="com.balsamiq.mockups::Link" x="750" y="123" w="-1" h="-1" measuredW="193" measuredH="21" zOrder="15" locked="false" isInGroup="-1">
+    <control controlID="54" controlTypeID="com.balsamiq.mockups::Component" x="76" y="76" w="964" h="32" measuredW="964" measuredH="32" zOrder="6" locked="false" isInGroup="-1">
       <controlProperties>
-        <text>http%3A//www.psych.nyu.edu/adolph/</text>
+        <src>./assets/elements.bmml#header-pre_authn</src>
       </controlProperties>
     </control>
-    <control controlID="48" controlTypeID="com.balsamiq.mockups::Link" x="258" y="121" w="-1" h="-1" measuredW="121" measuredH="21" zOrder="16" locked="false" isInGroup="-1">
+    <control controlID="55" controlTypeID="__group__" x="150" y="135" w="800" h="273" measuredW="800" measuredH="273" zOrder="5" locked="false" isInGroup="-1">
       <controlProperties>
-        <text>New%20York%20University</text>
+        <controlName>profile-adolph</controlName>
       </controlProperties>
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::Title" x="1" y="0" w="599" h="-1" measuredW="96" measuredH="23" zOrder="0" locked="false" isInGroup="55">
+          <controlProperties>
+            <align>left</align>
+            <bold>true</bold>
+            <size>20</size>
+            <text>KE%20Adolph</text>
+          </controlProperties>
+        </control>
+        <control controlID="1" controlTypeID="com.balsamiq.mockups::Label" x="1" y="230" w="-1" h="-1" measuredW="132" measuredH="24" zOrder="1" locked="false" isInGroup="55">
+          <controlProperties>
+            <bold>true</bold>
+            <size>16</size>
+            <text>Shared%20data%20sets</text>
+          </controlProperties>
+        </control>
+        <control controlID="2" controlTypeID="com.balsamiq.mockups::Image" x="1" y="40" w="130" h="130" measuredW="250" measuredH="253" zOrder="2" locked="false" isInGroup="55">
+          <controlProperties>
+            <src>./assets/karen-adolph.jpg</src>
+            <text/>
+          </controlProperties>
+        </control>
+        <control controlID="3" controlTypeID="com.balsamiq.mockups::HRule" x="2" y="24" w="793" h="-1" measuredW="100" measuredH="10" zOrder="3" locked="false" isInGroup="55"/>
+        <control controlID="4" controlTypeID="com.balsamiq.mockups::Link" x="600" y="4" w="-1" h="-1" measuredW="200" measuredH="19" zOrder="4" locked="false" isInGroup="55">
+          <controlProperties>
+            <text>http%3A//www.psych.nyu.edu/adolph/</text>
+          </controlProperties>
+        </control>
+        <control controlID="5" controlTypeID="com.balsamiq.mockups::Link" x="108" y="2" w="-1" h="-1" measuredW="118" measuredH="19" zOrder="5" locked="false" isInGroup="55">
+          <controlProperties>
+            <text>New%20York%20University</text>
+          </controlProperties>
+        </control>
+        <control controlID="6" controlTypeID="com.balsamiq.mockups::HRule" x="0" y="216" w="793" h="-1" measuredW="100" measuredH="10" zOrder="6" locked="false" isInGroup="55"/>
+        <control controlID="7" controlTypeID="com.balsamiq.mockups::TextArea" x="136" y="38" w="651" h="174" measuredW="200" measuredH="140" zOrder="7" locked="false" isInGroup="55">
+          <controlProperties>
+            <borderColor>16777215</borderColor>
+            <color>14540253</color>
+            <text>I%20use%20motor%20skill%20acquisition%20as%20a%20model%20system%20to%20investigate%20learning%20and%20development.%20My%20research%20focuses%20on%20behavioral%20flexibility%u2013how%20infants%2C%20children%2C%20and%20adults%20adapt%20to%20novel%20and%20challenging%20situations.%20Perceptual%2C%20motor%2C%20cognitive%2C%20and%20social%20skills%20must%20be%20sufficiently%20flexible%20to%20cope%20with%20the%20variable%20demands%20of%20everyday%20life.%20In%20my%20laboratory%2C%20we%20challenge%20people%20with%20novel%20predicaments%2C%20such%20as%20reaching%2C%20crawling%2C%20and%20walking%20through%20apertures%2C%20swinging%20along%20monkey%20bars%2C%20navigating%20narrow%20bridges%2C%20and%20descending%20cliffs%2C%20to%20observe%20how%20they%20adapt%20to%20potentially%20risky%20conditions.%20In%20some%20cases%2C%20caregivers%20provide%20varying%20types%20of%20social%20information.%20We%20use%20video%20tracking%2C%20motion%20tracking%2C%20head-mounted%20eye%20tracking%2C%20acoustic%20analyses%2C%20and%20instrumented%20carpets%20and%20apparatuses%20to%20observe%20the%20behavioral%20mechanisms%20that%20underlie%20adaptive%20responding.%20To%20better%20understand%20how%20people%20learn%20to%20cope%20with%20a%20changeable%20body%20in%20a%20variable%20world%2C%20our%20investigations%20cross%20traditionally%20disparate%20domains%20of%20psychology%u2014motor%2C%20perceptual%2C%20cognitive%2C%20and%20social%20development.</text>
+          </controlProperties>
+        </control>
+        <control controlID="8" controlTypeID="com.balsamiq.mockups::Label" x="101" y="2" w="-1" h="-1" measuredW="10" measuredH="21" zOrder="8" locked="false" isInGroup="55">
+          <controlProperties>
+            <text>%28</text>
+          </controlProperties>
+        </control>
+        <control controlID="9" controlTypeID="com.balsamiq.mockups::Label" x="225" y="2" w="-1" h="-1" measuredW="10" measuredH="21" zOrder="9" locked="false" isInGroup="55">
+          <controlProperties>
+            <text>%29</text>
+          </controlProperties>
+        </control>
+        <control controlID="10" controlTypeID="com.balsamiq.mockups::Link" x="17" y="254" w="-1" h="-1" measuredW="286" measuredH="19" zOrder="10" locked="false" isInGroup="55">
+          <controlProperties>
+            <href>study-public-view%26bm%3Bstudy-public-view.bmml%26bm%3Bstudy-public-view.bmml%26bm%3Bstudy-public-view.bmml</href>
+            <map>%3Carea%20shape%3D%22rect%22%20coords%3D%2294%2C386%2C380%2C405%22%20href%3D%22study-public-view.bmml%22%20alt%3D%22study-public-view%22%20id%3D%2210%22/%3E</map>
+            <text>Adolph%2C%20KE%202000%2C%20Infants%20Navigating%20Risky%20Gaps</text>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
     </control>
-    <control controlID="49" controlTypeID="com.balsamiq.mockups::HRule" x="150" y="335" w="793" h="-1" measuredW="100" measuredH="10" zOrder="17" locked="false" isInGroup="-1"/>
-    <control controlID="50" controlTypeID="com.balsamiq.mockups::TextArea" x="286" y="157" w="651" h="174" measuredW="200" measuredH="140" zOrder="18" locked="false" isInGroup="-1">
+    <control controlID="57" controlTypeID="com.balsamiq.mockups::Component" x="73" y="3" w="968" h="946" measuredW="968" measuredH="946" zOrder="2" locked="false" isInGroup="-1">
       <controlProperties>
-        <borderColor>16777215</borderColor>
-        <color>14540253</color>
-        <text>I%20use%20motor%20skill%20acquisition%20as%20a%20model%20system%20to%20investigate%20learning%20and%20development.%20My%20research%20focuses%20on%20behavioral%20flexibility%u2013how%20infants%2C%20children%2C%20and%20adults%20adapt%20to%20novel%20and%20challenging%20situations.%20Perceptual%2C%20motor%2C%20cognitive%2C%20and%20social%20skills%20must%20be%20sufficiently%20flexible%20to%20cope%20with%20the%20variable%20demands%20of%20everyday%20life.%20In%20my%20laboratory%2C%20we%20challenge%20people%20with%20novel%20predicaments%2C%20such%20as%20reaching%2C%20crawling%2C%20and%20walking%20through%20apertures%2C%20swinging%20along%20monkey%20bars%2C%20navigating%20narrow%20bridges%2C%20and%20descending%20cliffs%2C%20to%20observe%20how%20they%20adapt%20to%20potentially%20risky%20conditions.%20In%20some%20cases%2C%20caregivers%20provide%20varying%20types%20of%20social%20information.%20We%20use%20video%20tracking%2C%20motion%20tracking%2C%20head-mounted%20eye%20tracking%2C%20acoustic%20analyses%2C%20and%20instrumented%20carpets%20and%20apparatuses%20to%20observe%20the%20behavioral%20mechanisms%20that%20underlie%20adaptive%20responding.%20To%20better%20understand%20how%20people%20learn%20to%20cope%20with%20a%20changeable%20body%20in%20a%20variable%20world%2C%20our%20investigations%20cross%20traditionally%20disparate%20domains%20of%20psychology%u2014motor%2C%20perceptual%2C%20cognitive%2C%20and%20social%20development.</text>
-      </controlProperties>
-    </control>
-    <control controlID="51" controlTypeID="com.balsamiq.mockups::Label" x="251" y="121" w="-1" h="-1" measuredW="11" measuredH="21" zOrder="19" locked="false" isInGroup="-1">
-      <controlProperties>
-        <text>%28</text>
-      </controlProperties>
-    </control>
-    <control controlID="52" controlTypeID="com.balsamiq.mockups::Label" x="375" y="121" w="-1" h="-1" measuredW="11" measuredH="21" zOrder="20" locked="false" isInGroup="-1">
-      <controlProperties>
-        <text>%29</text>
-      </controlProperties>
-    </control>
-    <control controlID="53" controlTypeID="com.balsamiq.mockups::Link" x="167" y="373" w="-1" h="-1" measuredW="276" measuredH="21" zOrder="21" locked="false" isInGroup="-1">
-      <controlProperties>
-        <href>study-public-view%26bm%3Bstudy-public-view.bmml%26bm%3Bstudy-public-view.bmml%26bm%3Bstudy-public-view.bmml</href>
-        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%2291%2C370%2C367%2C391%22%20href%3D%22study-public-view.bmml%22%20alt%3D%22study-public-view%22%20id%3D%2253%22/%3E</map>
-        <text>Adolph%2C%20KE%202000%2C%20Infants%20Navigating%20Risky%20Gaps</text>
+        <override controlID="4:0:0">
+          <text>Databrary%20-%20Profile%20%3A%20Adolph%2C%20Karen%0Ahttps%3A//databrary.org/profiles/adolph-ke</text>
+        </override>
+        <src>./assets/elements.bmml#window-https</src>
       </controlProperties>
     </control>
   </controls>
