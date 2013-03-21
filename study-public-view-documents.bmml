@@ -39,7 +39,7 @@
         <text>Collection%20details</text>
       </controlProperties>
     </control>
-    <control controlID="20" controlTypeID="com.balsamiq.mockups::TabBar" x="151" y="393" w="772" h="227" measuredW="189" measuredH="100" zOrder="7" locked="false" isInGroup="-1">
+    <control controlID="20" controlTypeID="com.balsamiq.mockups::TabBar" x="151" y="393" w="772" h="183" measuredW="189" measuredH="100" zOrder="7" locked="false" isInGroup="-1">
       <controlProperties>
         <selectedIndex>0</selectedIndex>
         <text>Documents%2C%20Data</text>
@@ -142,7 +142,7 @@
         </control>
       </groupChildrenDescriptors>
     </control>
-    <control controlID="50" controlTypeID="com.balsamiq.mockups::DataGrid" x="151" y="416" w="772" h="204" measuredW="453" measuredH="141" zOrder="19" locked="false" isInGroup="-1">
+    <control controlID="50" controlTypeID="com.balsamiq.mockups::DataGrid" x="151" y="416" w="772" h="176" measuredW="453" measuredH="141" zOrder="19" locked="false" isInGroup="-1">
       <controlProperties>
         <align>left</align>
         <alternateRowColor>16777215</alternateRowColor>
@@ -216,12 +216,12 @@
         <text>This%20dataset%20contains%20the%20identities%20of%20children%20and%20infants%2C%20video%20can%20be%20used%20for%20research%20under%20certain%20conditions.</text>
       </controlProperties>
     </control>
-    <control controlID="55" controlTypeID="com.balsamiq.mockups::Button" x="159" y="675" w="-1" h="-1" measuredW="223" measuredH="27" zOrder="21" locked="false" isInGroup="-1">
+    <control controlID="55" controlTypeID="com.balsamiq.mockups::Button" x="159" y="675" w="-1" h="-1" measuredW="240" measuredH="27" zOrder="21" locked="false" isInGroup="-1">
       <controlProperties>
         <color>14540253</color>
         <href>study-public-request%26bm%3Bstudy-public-request.bmml%26bm%3Bstudy-public-request.bmml%26bm%3Bstudy-public-request.bmml</href>
-        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%2283%2C672%2C306%2C699%22%20href%3D%22study-public-request.bmml%22%20alt%3D%22study-public-request%22%20id%3D%2255%22/%3E</map>
-        <text>Please%20sign%20in%20to%20Request%20Access</text>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%2283%2C672%2C323%2C699%22%20href%3D%22study-public-request.bmml%22%20alt%3D%22study-public-request%22%20id%3D%2255%22/%3E</map>
+        <text>Please%20sign%20in%20to%20Access%20Documents</text>
       </controlProperties>
     </control>
   </controls>

@@ -360,9 +360,9 @@
             </control>
           </groupChildrenDescriptors>
         </control>
-        <control controlID="4" controlTypeID="__group__" x="639" y="4" w="322" h="25" measuredW="322" measuredH="25" zOrder="4" locked="false" isInGroup="9">
+        <control controlID="4" controlTypeID="__group__" x="639" y="4" w="320" h="25" measuredW="320" measuredH="25" zOrder="4" locked="false" isInGroup="9">
           <groupChildrenDescriptors>
-            <control controlID="2" controlTypeID="__group__" x="0" y="0" w="322" h="25" measuredW="322" measuredH="25" zOrder="0" locked="false" isInGroup="4">
+            <control controlID="2" controlTypeID="__group__" x="0" y="0" w="320" h="25" measuredW="320" measuredH="25" zOrder="0" locked="false" isInGroup="4">
               <groupChildrenDescriptors>
                 <control controlID="0" controlTypeID="__group__" x="0" y="2" w="114" h="21" measuredW="114" measuredH="21" zOrder="0" locked="false" isInGroup="2">
                   <groupChildrenDescriptors>
@@ -388,7 +388,7 @@
                     </control>
                   </groupChildrenDescriptors>
                 </control>
-                <control controlID="1" controlTypeID="com.balsamiq.mockups::SearchBox" x="129" y="0" w="193" h="-1" measuredW="127" measuredH="25" zOrder="1" locked="false" isInGroup="2">
+                <control controlID="1" controlTypeID="com.balsamiq.mockups::SearchBox" x="127" y="0" w="193" h="-1" measuredW="127" measuredH="25" zOrder="1" locked="false" isInGroup="2">
                   <controlProperties>
                     <text>search%20Databrary</text>
                   </controlProperties>
@@ -449,6 +449,72 @@
             <size>14</size>
             <text>download%20all%20documents%20as%20.zip%20file</text>
           </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="12" controlTypeID="__group__" x="443" y="511" w="964" h="32" measuredW="964" measuredH="32" zOrder="10" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::Canvas" x="0" y="0" w="964" h="32" measuredW="100" measuredH="70" zOrder="0" locked="false" isInGroup="12">
+          <controlProperties>
+            <color>0</color>
+          </controlProperties>
+        </control>
+        <control controlID="1" controlTypeID="__group__" x="15" y="4" w="98" h="24" measuredW="98" measuredH="24" zOrder="1" locked="false" isInGroup="12">
+          <groupChildrenDescriptors>
+            <control controlID="0" controlTypeID="com.balsamiq.mockups::Image" x="0" y="0" w="28" h="24" measuredW="28" measuredH="24" zOrder="0" locked="false" isInGroup="1">
+              <controlProperties>
+                <src>./assets/databrary-logo-small.png</src>
+              </controlProperties>
+            </control>
+            <control controlID="1" controlTypeID="com.balsamiq.mockups::Label" x="26" y="0" w="-1" h="-1" measuredW="72" measuredH="24" zOrder="1" locked="false" isInGroup="1">
+              <controlProperties>
+                <color>16777215</color>
+                <size>16</size>
+                <text>Databrary</text>
+              </controlProperties>
+            </control>
+          </groupChildrenDescriptors>
+        </control>
+        <control controlID="3" controlTypeID="__group__" x="664" y="3" w="292" h="25" measuredW="292" measuredH="25" zOrder="2" locked="false" isInGroup="12">
+          <groupChildrenDescriptors>
+            <control controlID="0" controlTypeID="__group__" x="0" y="1" w="84" h="22" measuredW="84" measuredH="22" zOrder="0" locked="false" isInGroup="3">
+              <groupChildrenDescriptors>
+                <control controlID="1" controlTypeID="com.balsamiq.mockups::Label" x="0" y="0" w="-1" h="-1" measuredW="84" measuredH="22" zOrder="0" locked="false" isInGroup="0">
+                  <controlProperties>
+                    <color>16777215</color>
+                    <size>14</size>
+                    <text>Karen%20Adolph</text>
+                    <underline>true</underline>
+                  </controlProperties>
+                </control>
+              </groupChildrenDescriptors>
+            </control>
+            <control controlID="1" controlTypeID="com.balsamiq.mockups::SearchBox" x="99" y="0" w="193" h="-1" measuredW="127" measuredH="25" zOrder="1" locked="false" isInGroup="3">
+              <controlProperties>
+                <text>search%20Databrary</text>
+              </controlProperties>
+            </control>
+          </groupChildrenDescriptors>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="16" controlTypeID="__group__" x="621" y="639" w="252" h="27" measuredW="252" measuredH="27" zOrder="11" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="3" controlTypeID="__group__" x="0" y="0" w="252" h="27" measuredW="252" measuredH="39" zOrder="0" locked="false" isInGroup="16">
+          <groupChildrenDescriptors>
+            <control controlID="0" controlTypeID="com.balsamiq.mockups::IconLabel" x="0" y="0" w="24" h="-1" measuredW="24" measuredH="39" zOrder="0" locked="false" isInGroup="3">
+              <controlProperties>
+                <icon>DownloadIcon%7Csmall</icon>
+                <text>%20</text>
+              </controlProperties>
+            </control>
+            <control controlID="1" controlTypeID="com.balsamiq.mockups::Link" x="31" y="2" w="-1" h="-1" measuredW="221" measuredH="20" zOrder="1" locked="false" isInGroup="3">
+              <controlProperties>
+                <size>14</size>
+                <text>download%20all%20documents%20as%20.zip%20file</text>
+              </controlProperties>
+            </control>
+          </groupChildrenDescriptors>
         </control>
       </groupChildrenDescriptors>
     </control>

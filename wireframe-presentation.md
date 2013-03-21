@@ -4,32 +4,43 @@
 - [ ]:?: what to use for "User contributions licensed under ???"
 - [ ]:?: do we need a "logged-in" view of various pages? if so, which ones?
 - [ ]:?: what username to use for logged-in view?, e.g, Karen Adolph, Rick Gilmore 
+- [ ]:?: do we still need "study-public-request" wireframe/image?
 
 ### Discovery/Browsing
 
-CREATED : Databrary home page (add search box, full color)
-   [image](./home-page.png)
-
+CREATED : Databrary home page (add search box, full color)   
 - ala current databrary.org
 - search box
 - login/register link
+- [image](./home-page.png)
 
 
-UPDATED: Search results page
-   [image](./search-basic-results.png)
-   
+
+UPDATED: Search results page   
 - search for "walking" and/or "Adolph"
 - refine by: age/race/ethnicity of participant, excerpts available, number of participants (range)
 - example results: http://scholar.google.com/scholar?q=adolph+walking
 -- [ ]:ds: could you provide a list of sample data set names, or should I just use paper titles?
+- [image](./search-basic-results.png)
+   
 
 
-UPDATED: Study page
+UPDATED: Study page (Public View)
 
-- Documents tab: Study manual, IRB protocol, Blank consent form, Coding manual
-   [image](./study-public-view-documents.png)
-- Data tab: Table of participants: participant ID, age at test, # videos, # data files
-   [image](./study-public-view-data.png)
+- Documents tab: Study manual, IRB protocol, Blank consent form, Coding manual   
+- [image](./study-public-view-documents.png)
+- Data tab: Table of participants: participant ID, age at test, # videos, # data files   
+- [image](./study-public-view-data.png)
+
+
+UPDATED: Study page (Authorized View)
+
+- Documents tab: Study manual, IRB protocol, Blank consent form, Coding manual   
+  - [image](./study-authorized-view-documents.png)
+- Data tab: Table of participants: participant ID, age at test, # videos, # data files   
+  - [ ]:?: labels for participants?
+  - [image](./study-authorized-view-data.png)
+
 
 - comment/tagging template
   - [x]:?: sign-in to tag / comment: Yes.
@@ -39,6 +50,8 @@ UPDATED: Study page
 - [ ]:jgp: logged-in view: make filenames "links" for download, and also add "download all documents as zip file" link.
 
 CREATED : Login/Register page
+  - [sign-in image](./sign-in.png)
+  - [register image](./register.png)
 
 
 NEW : Study:Participant page

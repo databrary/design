@@ -147,7 +147,7 @@
         <align>left</align>
         <alternateRowColor>16777215</alternateRowColor>
         <bold>false</bold>
-        <text>Participant%20ID%20%5E%2C%20Age%20at%20Test%20%5Ev%2C%20%23%20of%20Video%20Files%20%5Ev%2C%20%23%20of%20Data%20Files%20%20%5Ev%0A1%2C%20292%20days%2C%204%2C%207%0A2%2C%20281%20days%2C%206%2C%2010%0A3%2C%20287%20days%2C%205%2C%208%0A...%2C...%2C...%2C...%0A%7B65L%2C%200R%2C%2035%2C%200C%7D</text>
+        <text>Participant%20ID%20%5E%2C%20Age%20at%20Test%20%5Ev%2C%20%23%20of%20Video%20Files%20%5Ev%2C%20%23%20of%20Data%20Files%20%20%5Ev%0A1%2C%20292%20days%2C%204%2C%207%0A2%2C%20281%20days%2C%206%2C%2010%0A3%2C%20287%20days%2C%205%2C%208%0A...%2C...%2C...%2C...%0A%7B0C%2C%200C%2C%200R%2C%200C%7D</text>
       </controlProperties>
     </control>
     <control controlID="52" controlTypeID="__group__" x="150" y="134" w="800" h="194" measuredW="800" measuredH="194" zOrder="14" locked="false" isInGroup="-1">
@@ -216,18 +216,12 @@
         <text>This%20dataset%20contains%20the%20identities%20of%20children%20and%20infants%2C%20video%20can%20be%20used%20for%20research%20under%20certain%20conditions.</text>
       </controlProperties>
     </control>
-    <control controlID="55" controlTypeID="com.balsamiq.mockups::Button" x="449" y="681" w="147" h="27" measuredW="120" measuredH="27" zOrder="21" locked="false" isInGroup="-1">
+    <control controlID="59" controlTypeID="com.balsamiq.mockups::Button" x="159" y="675" w="-1" h="-1" measuredW="201" measuredH="27" zOrder="21" locked="false" isInGroup="-1">
       <controlProperties>
         <color>14540253</color>
         <href>study-public-request%26bm%3Bstudy-public-request.bmml%26bm%3Bstudy-public-request.bmml%26bm%3Bstudy-public-request.bmml</href>
-        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22373%2C678%2C520%2C705%22%20href%3D%22study-public-request.bmml%22%20alt%3D%22study-public-request%22%20id%3D%2255%22/%3E</map>
-        <text>Request%20Access</text>
-      </controlProperties>
-    </control>
-    <control controlID="56" controlTypeID="com.balsamiq.mockups::TextInput" x="159" y="681" w="282" h="-1" measuredW="97" measuredH="27" zOrder="22" locked="false" isInGroup="-1">
-      <controlProperties>
-        <borderColor>6710886</borderColor>
-        <text>email%20address</text>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%2283%2C672%2C284%2C699%22%20href%3D%22study-public-request.bmml%22%20alt%3D%22study-public-request%22%20id%3D%2259%22/%3E</map>
+        <text>Please%20sign%20in%20to%20Access%20Data</text>
       </controlProperties>
     </control>
   </controls>
