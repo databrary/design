@@ -7,6 +7,7 @@
 ### Discovery/Browsing
 
 CREATED : Databrary home page (add search box, full color)
+   [image](./home-page.png)
 
 - ala current databrary.org
 - search box
