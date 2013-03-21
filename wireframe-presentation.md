@@ -12,7 +12,7 @@ CREATED : Databrary home page (add search box, full color)
 - ala current databrary.org
 - search box
 - login/register link
-- [image](./home-page.png)
+- [image: home page](./home-page.png)
 
 
 
@@ -21,25 +21,25 @@ UPDATED: Search results page
 - refine by: age/race/ethnicity of participant, excerpts available, number of participants (range)
 - example results: http://scholar.google.com/scholar?q=adolph+walking
 -- [ ]:ds: could you provide a list of sample data set names, or should I just use paper titles?
-- [image](./search-basic-results.png)
+- [image: basic search results](./search-basic-results.png)
    
 
 
 UPDATED: Study page (Public View)
 
 - Documents tab: Study manual, IRB protocol, Blank consent form, Coding manual   
-- [image](./study-public-view-documents.png)
+- [image: study, public view, documents tab active](./study-public-view-documents.png)
 - Data tab: Table of participants: participant ID, age at test, # videos, # data files   
-- [image](./study-public-view-data.png)
+- [image: study, public view, data tab active](./study-public-view-data.png)
 
 
 UPDATED: Study page (Authorized View)
 
 - Documents tab: Study manual, IRB protocol, Blank consent form, Coding manual   
-  - [image](./study-authorized-view-documents.png)
+  - [image: study, authorized view, documents tab active](./study-authorized-view-documents.png)
 - Data tab: Table of participants: participant ID, age at test, # videos, # data files   
   - [ ]:?: labels for participants?
-  - [image](./study-authorized-view-data.png)
+  - [image: study, authorized view, data tab active](./study-authorized-view-data.png)
 
 
 - comment/tagging template
@@ -50,8 +50,8 @@ UPDATED: Study page (Authorized View)
 - [ ]:jgp: logged-in view: make filenames "links" for download, and also add "download all documents as zip file" link.
 
 CREATED : Login/Register page
-  - [sign-in image](./sign-in.png)
-  - [register image](./register.png)
+  - [image: sign-in](./sign-in.png)
+  - [image: registration page](./register.png)
 
 
 NEW : Study:Participant page
