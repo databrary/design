@@ -1,10 +1,26 @@
+## critical user stories
+
+Full citation, permanent URL, download, citing.
+
+Access statistics: # of views/downloads, most viewed, most cited, etc.
+
+Grant access to new lab member, add to study.
+
+Searching by keywords, attributes.
+
+Find out how a previous study was done, viewing stimuli and videos.
+
+Recode/expand coding spreadsheet for existing video.
+
+Find excerpts to use in presentations, classes.
+
 ## list of wireframes and flow for presentation
 
 ### General Questions
-- [ ]:?: what to use for "User contributions licensed under ???"
-- [ ]:?: do we need a "logged-in" view of various pages? if so, which ones?
-- [ ]:?: what username to use for logged-in view?, e.g, Karen Adolph, Rick Gilmore 
-- [ ]:?: do we still need "study-public-request" wireframe/image?
+- [x]:?: what to use for "User contributions licensed under ???": can we leave this out for now?
+- [x]:?: do we need a "logged-in" view of various pages? if so, which ones?: only study needs both views, everything else is either agnostic or logged-in only
+- [x]:?: what username to use for logged-in view?: Karen Adolph
+- [ ]:?: do we still need "study-public-request" wireframe/image?: we might want something like it, "pending investigator authorization", but I think we can leave it out for now.
 
 ### Discovery/Browsing
 
@@ -20,7 +36,7 @@ UPDATED: Search results page
 - search for "walking" and/or "Adolph"
 - refine by: age/race/ethnicity of participant, excerpts available, number of participants (range)
 - example results: http://scholar.google.com/scholar?q=adolph+walking
--- [ ]:ds: could you provide a list of sample data set names, or should I just use paper titles?
+- [ ]:ds: could you provide a list of sample data set names, or should I just use paper titles?: if you can copy the google scholar abstract excerpts that's probably sufficient, and maybe add some random details about # of participants, videos, etc. (random numbers 10~50)
 - [image: basic search results](./search-basic-results.png)
    
 
@@ -31,6 +47,7 @@ UPDATED: Study page (Public View)
 - [image: study, public view, documents tab active](./study-public-view-documents.png)
 - Data tab: Table of participants: participant ID, age at test, # videos, # data files   
 - [image: study, public view, data tab active](./study-public-view-data.png)
+- [ ]: citation format, instructions, download in RIS/bibtex/etc.
 
 
 UPDATED: Study page (Authorized View)
@@ -38,7 +55,7 @@ UPDATED: Study page (Authorized View)
 - Documents tab: Study manual, IRB protocol, Blank consent form, Coding manual, Video display
   - [image: study, authorized view, documents tab active](./study-authorized-view-documents.png)
 - Data tab: Table of participants: participant ID, age at test, # videos, # data files   
-  - [ ]:?: labels for participants?
+  - [x]:?: labels for participants?: labels like tags? not on this view (see below). labels like names? 1, 2, 3, is fine.
   - [image: study, authorized view, data tab active](./study-authorized-view-data.png)
 
 
