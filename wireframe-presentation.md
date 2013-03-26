@@ -72,7 +72,7 @@ CREATED : Login/Register page
   - [image: registration page](./register.png)
 
 
-NEW : Study:Participant page
+CREATED : Study:Participant page
 
 - age at test/race/ethnicity
 - acquisition date
@@ -82,6 +82,9 @@ NEW : Study:Participant page
 - coding spreadsheet "Datavyu"
 - download all as zip file
 - comment/tagging template
+- [image: study-participant](./study-participant.png)
+  
+
 
 
 NEW : Video page (viewer, download link)
