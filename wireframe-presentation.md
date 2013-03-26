@@ -1,18 +1,27 @@
 ## critical user stories
 
 Full citation, permanent URL, download, citing.
+- study page, citation section
 
 Access statistics: # of views/downloads, most viewed, most cited, etc.
+- add statistics to study page
+- dashboard lists top
 
 Grant access to new lab member, add to study.
+- dashboard: shows request, links to...
+- user authorization page
 
 Searching by keywords, attributes.
+- search results page, options on sidebar
 
 Find out how a previous study was done, viewing stimuli and videos.
+- study page, documents tab
 
 Recode/expand coding spreadsheet for existing video.
+- participant page, example of this having been done already
 
 Find excerpts to use in presentations, classes.
+- search results page, excerpts option
 
 ## list of wireframes and flow for presentation
 
@@ -20,7 +29,7 @@ Find excerpts to use in presentations, classes.
 - [x]:?: what to use for "User contributions licensed under ???": can we leave this out for now?
 - [x]:?: do we need a "logged-in" view of various pages? if so, which ones?: only study needs both views, everything else is either agnostic or logged-in only
 - [x]:?: what username to use for logged-in view?: Karen Adolph
-- [ ]:?: do we still need "study-public-request" wireframe/image?: we might want something like it, "pending investigator authorization", but I think we can leave it out for now.
+- [x]:?: do we still need "study-public-request" wireframe/image?: we might want something like it, "pending investigator authorization", but I think we can leave it out for now.
 
 ### Discovery/Browsing
 
@@ -48,6 +57,8 @@ UPDATED: Study page (Public View)
 - Data tab: Table of participants: participant ID, age at test, # videos, # data files   
 - [image: study, public view, data tab active](./study-public-view-data.png)
 - [ ]: citation format, instructions, download in RIS/bibtex/etc.
+- [ ]: change "Shared on November 2000" to "Shared November 2011"
+- [ ]: reduce # video file to 1 each participant, data files to 2
 
 
 UPDATED: Study page (Authorized View)
@@ -68,9 +79,10 @@ UPDATED: Study page (Authorized View)
 - [x]:jgp: logged-in view: make filenames "links" for download, and also add "download all documents as zip file" link.
 
 CREATED : Login/Register page
-  - [image: sign-in](./sign-in.png)
-  - [image: registration page](./register.png)
 
+- [image: sign-in](./sign-in.png)
+- [image: registration page](./register.png)
+- [ ]: fields on registration page: "Full Name", "Institution" (search/dropdown/other), "Postal address", "Email", "Phone #", password, continue button is "View User Agreement"
 
 CREATED : Study:Participant page
 
