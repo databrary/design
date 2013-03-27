@@ -135,7 +135,7 @@ NEW : Upload page
 
 ### Access management
 
-NEW : Study view: Access management
+CREATED : Study view: Access management
 
 - expandable tree with columns: "Name" (text/textbox), "Permissions" (dropdown), "Individual only" (checkbox)
 - "All Databrary Users", "View Only", unchecked, with brace on right covering all entries
@@ -154,6 +154,8 @@ NEW : Study view: Access management
   - Member: can edit and upload data
   - Owner: full access and responsibility for study
   - Individual only: should only this person be granted access, or everyone in the group?
+- [image: study permissions tree](./study-permissions-tree.png)
+
 
 NEW : User view : Access management
 

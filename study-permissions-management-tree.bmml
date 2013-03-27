@@ -1,0 +1,55 @@
+<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="1039" measuredH="948" mockupW="964" mockupH="946">
+  <controls>
+    <control controlID="0" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="75" y="2" w="964" h="946" measuredW="450" measuredH="400" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Databrary%20-%20Infants%20Navigating%20Risky%20Gaps%20-%20Permissions%0Ahttps%3A//databrary.org/study/143/permissions</text>
+      </controlProperties>
+    </control>
+    <control controlID="46" controlTypeID="com.balsamiq.mockups::Icon" x="932" y="38" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>0</color>
+        <icon>LockIcon%7Cxsmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="63" controlTypeID="com.balsamiq.mockups::Component" x="75" y="74" w="964" h="32" measuredW="964" measuredH="32" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>./assets/elements.bmml#header-post_authn</src>
+      </controlProperties>
+    </control>
+    <control controlID="64" controlTypeID="com.balsamiq.mockups::Component" x="75" y="891" w="964" h="32" measuredW="964" measuredH="32" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>./assets/elements.bmml#footer</src>
+      </controlProperties>
+    </control>
+    <control controlID="76" controlTypeID="com.balsamiq.mockups::Title" x="138" y="133" w="599" h="-1" measuredW="494" measuredH="23" zOrder="4" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>left</align>
+        <bold>true</bold>
+        <size>20</size>
+        <text>%5BInfants%20Navigating%20Risky%20Gaps%5D%20%3A%20Manage%20Permissions</text>
+      </controlProperties>
+    </control>
+    <control controlID="78" controlTypeID="com.balsamiq.mockups::Component" x="151" y="581" w="766" h="233" measuredW="766" measuredH="233" zOrder="5" locked="false" isInGroup="-1">
+      <controlProperties>
+        <override controlID="0" x="0" y="32" w="766" h="201"/>
+        <override controlID="1" x="0" y="0" w="207" h="24"/>
+        <src>./assets/elements.bmml#study-access-level-key</src>
+      </controlProperties>
+    </control>
+    <control controlID="80" controlTypeID="com.balsamiq.mockups::Component" x="157" y="175" w="765" h="221" measuredW="765" measuredH="221" zOrder="6" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>./assets/elements.bmml#permissions-current</src>
+      </controlProperties>
+    </control>
+    <control controlID="81" controlTypeID="com.balsamiq.mockups::Component" x="156" y="428" w="762" h="109" measuredW="762" measuredH="109" zOrder="7" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>./assets/elements.bmml#permission-grant</src>
+      </controlProperties>
+    </control>
+    <control controlID="82" controlTypeID="com.balsamiq.mockups::StickyNote" x="829" y="215" w="195" h="123" measuredW="109" measuredH="123" zOrder="8" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>How%20do%20we%20want%20to%20update%20permissions%3F%0AClick%20on%20name%20to%20change%3F</text>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>
