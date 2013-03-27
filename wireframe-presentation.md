@@ -154,7 +154,7 @@ CREATED : Study view: Access management
   - Member: can edit and upload data
   - Owner: full access and responsibility for study
   - Individual only: should only this person be granted access, or everyone in the group?
-- [image: study permissions tree](./study-permissions-tree.png)
+- [image: study permissions tree](./study-permissions-management-tree.png)
 
 
 NEW : User view : Access management
