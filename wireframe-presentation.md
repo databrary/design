@@ -61,6 +61,7 @@ UPDATED: Study page (Public View)
 - [x]: citation format, instructions, download in RIS/bibtex/etc.
 - [x]: change "Shared on November 2000" to "Shared November 2011"
 - [x]: reduce # video file to 1 each participant, data files to 2
+- [ ] Excerpts tag with a couple videos, description, view
 
 
 UPDATED: Study page (Authorized View)
@@ -99,6 +100,7 @@ CREATED : Study:Participant page
 - download all as zip file
 - comment/tagging template
 - [ ] breadcrumbs on top back to study
+- [ ] change "preview" to "view"
 - [image: study-participant](./study-participant.png)
   
 
@@ -108,6 +110,7 @@ NEW : Video page (viewer, download link)
 
 - comment/tagging template
 - breadcrumbs back to participant, study
+- representative still frame
 
 ### Contribution
 
