@@ -68,7 +68,8 @@ UPDATED: Study page (Authorized View)
 - Documents tab: Study manual, IRB protocol, Blank consent form, Coding manual, Video display
   - [image: study, authorized view, documents tab active](./study-authorized-view-documents.png)
 - Data tab: Table of participants: participant ID, age at test, # videos, # data files   
-  - [x]:?: labels for participants?: labels like tags? not on this view (see below). labels like names? 1, 2, 3, is fine.
+  - [ ] remove labels/comments from participant list
+  - [ ] add comments/tag template on bottom of page (maybe just cut off top)
   - [image: study, authorized view, data tab active](./study-authorized-view-data.png)
 
 
@@ -79,6 +80,7 @@ UPDATED: Study page (Authorized View)
 - [x]:?: does "request access" workflow via e-mail still hold? or should user sign-in first?: Let's require logins
 - [x]:?: is "collection details" the correct term?: I think we can use the word "study"; perhaps "study contents"
 - [x]:jgp: logged-in view: make filenames "links" for download, and also add "download all documents as zip file" link.
+- [ ] rename "label" to "tag"
 
 CREATED : Login/Register page
 
@@ -138,21 +140,22 @@ NEW : Upload page
 CREATED : Study view: Access management
 
 - expandable tree with columns: "Name" (text/textbox), "Permissions" (dropdown), "Individual only" (checkbox)
-- "All Databrary Users", "View Only", unchecked, with brace on right covering all entries
-  - "NYU", blank, blank
-    - "Me", "Owner", checked (no brace)
-      - "Jane Postdoc", "Member", unchecked
-      - "Mary Gradstudent", "Member", checked
-      - "Pete Undergrad", blank, blank
-  - "PSU", blank, blank
-    - "Rick Gilmore", "Share Data", unchecked
+- each row color-coded by (greatest inherited) permission
+- "All Databrary Users", "View Only", unchecked (green)
+  - "NYU", blank, blank (green)
+    - "Me", "Owner", checked (purple)
+      - "Jane Postdoc", "Member", unchecked (red)
+      - "Mary Gradstudent", "Member", checked (red)
+      - "Pete Undergrad", blank, blank (green)
+  - "PSU", blank, blank (green)
+    - "Rick Gilmore", "Share Data", unchecked (yellow)
   - Search box with add button, blank, blank
 - Key at bottom with permissions:
-  - No Access: cannot see this study
-  - View Only: can see the study but no data
-  - Share Data: can see the entire study and data, unless participant permissions specify otherwise
-  - Member: can edit and upload data
-  - Owner: full access and responsibility for study
+  - No Access: cannot see this study (white/none)
+  - View Only: can see the study but no data (green)
+  - Share Data: can see the entire study and data, unless participant permissions specify otherwise (yellow)
+  - Member: can edit and upload data (red)
+  - Owner: full access and responsibility for study (purple)
   - Individual only: should only this person be granted access, or everyone in the group?
 - [image: study permissions tree](./study-permissions-management-tree.png)
 
@@ -160,15 +163,18 @@ CREATED : Study view: Access management
 IN PROGRESS : User view : Access management
 
 - expandable tree with columns: "Name" (text/textbox), "Expiration", "Permissions", "Action"
-- "Databrary", blank
-  - "NYU", "2 years", "Full", reapply
-    - "Me"
+- two sections:
+  - Permissions granted to me:
+    - "Databrary", blank
+      - "NYU", "2 years", "Full", reapply
+    - Search box with request button
+  - Permissions granted by me:
       - "Joe Labmanager", "1 year", "Admin", renew/remove
       - "Jane Postdoc", "1 year", "Contribute", renew/remove
       - "Mary Gradstudent", "8 months", "Contribute", renew/remove
       - "Pete Undergrad", "2 weeks", "Browse", renew/remove
       - "New Gradstudent", "requested", none, accept/reject
-      - Search box with add button
+    - Search box with grant button
 - Key at bottom with permissions:
   - Browse: standard access to Databrary, but no access to my data
   - Access: view any studies I have access to
