@@ -1,27 +1,27 @@
 ## critical user stories
 
-Full citation, permanent URL, download, citing.
-- study page, citation section
-
-Access statistics: # of views/downloads, most viewed, most cited, etc.
-- add statistics to study page
-- dashboard lists top
-
-Grant access to new lab member, add to study.
-- dashboard: shows request, links to...
-- user authorization page
-
 Searching by keywords, attributes.
 - search results page, options on sidebar
+
+Find excerpts to use in presentations, classes.
+- search results page, excerpts option
 
 Find out how a previous study was done, viewing stimuli and videos.
 - study page, documents tab
 
+Full citation, permanent URL, download, citing.
+- study page, citation section
+
+Access statistics: # of views/downloads, most viewed, most cited, etc.
+- statistics on study page
+- dashboard lists top
+
 Recode/expand coding spreadsheet for existing video.
 - participant page, example of this having been done already
 
-Find excerpts to use in presentations, classes.
-- search results page, excerpts option
+Grant access to new lab member, add to study.
+- dashboard: shows request, links to...
+- user authorization page
 
 ## list of wireframes and flow for presentation
 
