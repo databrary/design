@@ -98,6 +98,7 @@ CREATED : Study:Participant page
 - coding spreadsheet "Datavyu"
 - download all as zip file
 - comment/tagging template
+- [ ] breadcrumbs on top back to study
 - [image: study-participant](./study-participant.png)
   
 
@@ -106,6 +107,7 @@ CREATED : Study:Participant page
 NEW : Video page (viewer, download link)
 
 - comment/tagging template
+- breadcrumbs back to participant, study
 
 ### Contribution
 
