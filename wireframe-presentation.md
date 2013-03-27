@@ -38,7 +38,7 @@ CREATED : Databrary home page (add search box, full color)
 - search box
 - login/register link
 - [image: home page](./home-page.png)
-- [ ]: fix NSF link with grant #
+- [x]: fix NSF link with grant #
 
 
 
@@ -46,7 +46,8 @@ UPDATED: Search results page
 - search for "walking" and/or "Adolph"
 - refine by: age/race/ethnicity of participant, excerpts available, number of participants (range)
 - example results: http://scholar.google.com/scholar?q=adolph+walking
-- [ ]:ds: could you provide a list of sample data set names, or should I just use paper titles?: if you can copy the google scholar abstract excerpts that's probably sufficient, and maybe add some random details about # of participants, videos, etc. (random numbers 10~50)
+- [x]:ds: could you provide a list of sample data set names, or should I just use paper titles?: if you can copy the google scholar abstract excerpts that's probably sufficient
+- [ ]:stretch goal: and maybe add some random details about # of participants, videos, etc. (random numbers 10~50)
 - [image: basic search results](./search-basic-results.png)
    
 
@@ -57,9 +58,9 @@ UPDATED: Study page (Public View)
 - [image: study, public view, documents tab active](./study-public-view-documents.png)
 - Data tab: Table of participants: participant ID, age at test, # videos, # data files   
 - [image: study, public view, data tab active](./study-public-view-data.png)
-- [ ]: citation format, instructions, download in RIS/bibtex/etc.
-- [ ]: change "Shared on November 2000" to "Shared November 2011"
-- [ ]: reduce # video file to 1 each participant, data files to 2
+- [x]: citation format, instructions, download in RIS/bibtex/etc.
+- [x]: change "Shared on November 2000" to "Shared November 2011"
+- [x]: reduce # video file to 1 each participant, data files to 2
 
 
 UPDATED: Study page (Authorized View)
@@ -74,7 +75,7 @@ UPDATED: Study page (Authorized View)
 - comment/tagging template
   - [x]:?: sign-in to tag / comment: Yes.
   - [x]:?: comment/tagging granularity? at study level, or data/file level?: For now, separate comments/tags at both levels, but the only need to visible on each page.
-  - So: the study page, participant page, and video/datafile page each have their own tags and comments, but they don't need to visible from elsewhere; we may want to consolidate later, but we don't have to decide that now.
+  - [ ]:jgp: So: the study page, participant page, and video/datafile page each have their own tags and comments, but they don't need to visible from elsewhere; we may want to consolidate later, but we don't have to decide that now.
 - [x]:?: does "request access" workflow via e-mail still hold? or should user sign-in first?: Let's require logins
 - [x]:?: is "collection details" the correct term?: I think we can use the word "study"; perhaps "study contents"
 - [x]:jgp: logged-in view: make filenames "links" for download, and also add "download all documents as zip file" link.
@@ -83,7 +84,7 @@ CREATED : Login/Register page
 
 - [image: sign-in](./sign-in.png)
 - [image: registration page](./register.png)
-- [ ]: fields on registration page: "Full Name", "Institution" (search/dropdown/other), "Postal address", "Email", "Phone #", password, continue button is "View User Agreement"
+- [x]: fields on registration page: "Full Name", "Institution" (search/dropdown/other), "Postal address", "Email", "Phone #", password, continue button is "View User Agreement"
 
 CREATED : Study:Participant page
 

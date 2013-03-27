@@ -24,50 +24,18 @@
       </controlProperties>
     </control>
     <control controlID="41" controlTypeID="com.balsamiq.mockups::HRule" x="151" y="791" w="779" h="-1" measuredW="100" measuredH="10" zOrder="4" locked="false" isInGroup="-1"/>
-    <control controlID="56" controlTypeID="com.balsamiq.mockups::SubTitle" x="319" y="194" w="122" h="-1" measuredW="107" measuredH="21" zOrder="6" locked="false" isInGroup="-1">
+    <control controlID="56" controlTypeID="com.balsamiq.mockups::SubTitle" x="319" y="194" w="122" h="-1" measuredW="107" measuredH="21" zOrder="7" locked="false" isInGroup="-1">
       <controlProperties>
         <size>18</size>
         <text>123%20Results...</text>
       </controlProperties>
     </control>
-    <control controlID="64" controlTypeID="__group__" x="319" y="538" w="706" h="85" measuredW="706" measuredH="85" zOrder="16" locked="false" isInGroup="-1">
-      <groupChildrenDescriptors>
-        <control controlID="1" controlTypeID="com.balsamiq.mockups::TextArea" x="52" y="56" w="646" h="29" measuredW="200" measuredH="140" zOrder="1" locked="false" isInGroup="64">
-          <controlProperties>
-            <borderColor>16777215</borderColor>
-            <text>%2C%20KE%202003%2C%20Culpa%20qui%20officia%20deserunt%2C%20</text>
-            <underline>false</underline>
-          </controlProperties>
-        </control>
-        <control controlID="2" controlTypeID="com.balsamiq.mockups::TextArea" x="0" y="56" w="60" h="29" measuredW="200" measuredH="140" zOrder="2" locked="false" isInGroup="64">
-          <controlProperties>
-            <bold>true</bold>
-            <borderColor>16777215</borderColor>
-            <color>16776960</color>
-            <text>Adolph</text>
-            <underline>false</underline>
-          </controlProperties>
-        </control>
-        <control controlID="3" controlTypeID="com.balsamiq.mockups::Link" x="292" y="61" w="-1" h="-1" measuredW="330" measuredH="19" zOrder="3" locked="false" isInGroup="64">
-          <controlProperties>
-            <text>http%3A//databrary.org/study/97/culpa-qui-officia-deserunt</text>
-          </controlProperties>
-        </control>
-        <control controlID="4" controlTypeID="com.balsamiq.mockups::TextArea" x="0" y="0" w="706" h="79" measuredW="200" measuredH="140" zOrder="0" locked="false" isInGroup="64">
-          <controlProperties>
-            <borderColor>16777215</borderColor>
-            <text>Nine-month-old%20infants%20were%20tested%20at%20the%20precipice%20of%20safe%20and%20risky%20gaps%20in%20the%20surface%20of%20support.%20Their%20reaching%20and%20avoidance%20responses%20were%20compared%20in%20two%20postures%2C%20an%20experienced%20sitting%20posture%20and%20a%20less%20familiar%20crawling%20posture.%20...%20</text>
-            <underline>false</underline>
-          </controlProperties>
-        </control>
-      </groupChildrenDescriptors>
-    </control>
-    <control controlID="78" controlTypeID="com.balsamiq.mockups::TextInput" x="317" y="137" w="455" h="-1" measuredW="102" measuredH="27" zOrder="11" locked="false" isInGroup="-1">
+    <control controlID="78" controlTypeID="com.balsamiq.mockups::TextInput" x="317" y="137" w="455" h="-1" measuredW="102" measuredH="27" zOrder="8" locked="false" isInGroup="-1">
       <controlProperties>
         <text>Adolph%20walking</text>
       </controlProperties>
     </control>
-    <control controlID="80" controlTypeID="__group__" x="447" y="754" w="194" h="22" measuredW="194" measuredH="22" zOrder="21" locked="false" isInGroup="-1">
+    <control controlID="80" controlTypeID="__group__" x="447" y="754" w="194" h="22" measuredW="194" measuredH="22" zOrder="11" locked="false" isInGroup="-1">
       <groupChildrenDescriptors>
         <control controlID="0" controlTypeID="com.balsamiq.mockups::Link" x="21" y="3" w="-1" h="-1" measuredW="10" measuredH="19" zOrder="0" locked="false" isInGroup="80">
           <controlProperties>
@@ -111,169 +79,40 @@
         </control>
       </groupChildrenDescriptors>
     </control>
-    <control controlID="81" controlTypeID="com.balsamiq.mockups::HRule" x="238" y="181" w="779" h="-1" measuredW="100" measuredH="10" zOrder="22" locked="false" isInGroup="-1">
+    <control controlID="81" controlTypeID="com.balsamiq.mockups::HRule" x="238" y="181" w="779" h="-1" measuredW="100" measuredH="10" zOrder="12" locked="false" isInGroup="-1">
       <controlProperties>
         <backgroundAlpha>0.5</backgroundAlpha>
       </controlProperties>
     </control>
-    <control controlID="95" controlTypeID="com.balsamiq.mockups::Image" x="244" y="340" w="-1" h="-1" measuredW="77" measuredH="79" zOrder="23" locked="false" isInGroup="-1">
+    <control controlID="110" controlTypeID="com.balsamiq.mockups::TextArea" x="319" y="642" w="655" h="79" measuredW="200" measuredH="140" zOrder="9" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderColor>16777215</borderColor>
+        <text>Motor%20development%20refers%20to%20changes%20in%20children%27s%20ability%20to%20control%20their%20body%27s%20movements%2C%20from%20infants%27%20first%20spontaneous%20waving%20and%20kicking%20movements%20to%20the%20adaptive%20control%20of%20reaching%2C%20locomotion%2C%20and%20complex%20sport%20skills.</text>
+        <underline>false</underline>
+      </controlProperties>
+    </control>
+    <control controlID="114" controlTypeID="com.balsamiq.mockups::Link" x="327" y="721" w="-1" h="-1" measuredW="296" measuredH="19" zOrder="10" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>http%3A//databrary.org/study/147/motor-development</text>
+      </controlProperties>
+    </control>
+    <control controlID="115" controlTypeID="com.balsamiq.mockups::Image" x="244" y="648" w="-1" h="-1" measuredW="77" measuredH="79" zOrder="24" locked="false" isInGroup="-1">
       <controlProperties>
         <text/>
       </controlProperties>
     </control>
-    <control controlID="97" controlTypeID="com.balsamiq.mockups::TextArea" x="371" y="390" w="646" h="29" measuredW="200" measuredH="140" zOrder="8" locked="false" isInGroup="-1">
-      <controlProperties>
-        <borderColor>16777215</borderColor>
-        <text>%2C%20KE%202005%2C%20Consectetur%20adipisicing%20elit%2C%20</text>
-        <underline>false</underline>
-      </controlProperties>
-    </control>
-    <control controlID="98" controlTypeID="com.balsamiq.mockups::TextArea" x="319" y="390" w="60" h="29" measuredW="200" measuredH="140" zOrder="9" locked="false" isInGroup="-1">
-      <controlProperties>
-        <bold>true</bold>
-        <borderColor>16777215</borderColor>
-        <color>16776960</color>
-        <text>Adolph</text>
-        <underline>false</underline>
-      </controlProperties>
-    </control>
-    <control controlID="99" controlTypeID="com.balsamiq.mockups::Link" x="629" y="395" w="-1" h="-1" measuredW="338" measuredH="19" zOrder="10" locked="false" isInGroup="-1">
-      <controlProperties>
-        <text>http%3A//databrary.org/study/423/consectetur-adipisicing-elit</text>
-      </controlProperties>
-    </control>
-    <control controlID="100" controlTypeID="com.balsamiq.mockups::TextArea" x="319" y="334" w="706" h="79" measuredW="200" measuredH="140" zOrder="7" locked="false" isInGroup="-1">
-      <controlProperties>
-        <borderColor>16777215</borderColor>
-        <text>Consectetur%20adipisicing%20elit%2C%20sed%20do%20eiusmod%20tempor%20incididunt%20ut%20labore%20et%20dolore%20magna%20aliqua.%20Ut%20enim%20ad%20minim%20veniam%2C%20quis%20nostrud.%20Duis%20aute%20irure%20dolor%20in%20reprehenderit%20in%20voluptate%20velit%20esse%20cillum%20dolore%20eu%20fugiat%20nulla%20pariatur.%20Excepteur%20sint%20occaecat%20cupidatat%20non%20proident...</text>
-        <underline>false</underline>
-      </controlProperties>
-    </control>
-    <control controlID="103" controlTypeID="com.balsamiq.mockups::TextArea" x="371" y="492" w="646" h="29" measuredW="200" measuredH="140" zOrder="13" locked="false" isInGroup="-1">
-      <controlProperties>
-        <borderColor>16777215</borderColor>
-        <text>%2C%20KE%202001%2C%20a%20different%20title%2C%20</text>
-        <underline>false</underline>
-      </controlProperties>
-    </control>
-    <control controlID="104" controlTypeID="com.balsamiq.mockups::TextArea" x="319" y="492" w="60" h="29" measuredW="200" measuredH="140" zOrder="14" locked="false" isInGroup="-1">
-      <controlProperties>
-        <bold>true</bold>
-        <borderColor>16777215</borderColor>
-        <color>16776960</color>
-        <text>Adolph</text>
-        <underline>false</underline>
-      </controlProperties>
-    </control>
-    <control controlID="105" controlTypeID="com.balsamiq.mockups::Link" x="538" y="497" w="-1" h="-1" measuredW="273" measuredH="19" zOrder="15" locked="false" isInGroup="-1">
-      <controlProperties>
-        <text>http%3A//databrary.org/study/143/a-different-title</text>
-      </controlProperties>
-    </control>
-    <control controlID="106" controlTypeID="com.balsamiq.mockups::TextArea" x="319" y="436" w="706" h="79" measuredW="200" measuredH="140" zOrder="12" locked="false" isInGroup="-1">
-      <controlProperties>
-        <borderColor>16777215</borderColor>
-        <text>Nine-month-old%20infants%20were%20tested%20at%20the%20precipice%20of%20safe%20and%20risky%20gaps%20in%20the%20surface%20of%20support.%20Their%20reaching%20and%20avoidance%20responses%20were%20compared%20in%20two%20postures%2C%20an%20experienced%20sitting%20posture%20and%20a%20less%20familiar%20crawling%20posture.%20...%20</text>
-        <underline>false</underline>
-      </controlProperties>
-    </control>
-    <control controlID="108" controlTypeID="com.balsamiq.mockups::Image" x="244" y="437" w="-1" h="-1" measuredW="77" measuredH="79" zOrder="24" locked="false" isInGroup="-1">
-      <controlProperties>
-        <text/>
-      </controlProperties>
-    </control>
-    <control controlID="109" controlTypeID="com.balsamiq.mockups::Image" x="244" y="541" w="-1" h="-1" measuredW="77" measuredH="79" zOrder="26" locked="false" isInGroup="-1">
-      <controlProperties>
-        <text/>
-      </controlProperties>
-    </control>
-    <control controlID="110" controlTypeID="com.balsamiq.mockups::TextArea" x="319" y="640" w="706" h="79" measuredW="200" measuredH="140" zOrder="17" locked="false" isInGroup="-1">
-      <controlProperties>
-        <borderColor>16777215</borderColor>
-        <text>lorem%20ipsum%20dolor%20sit%20amet%2C%20consectetur%20adipisicing%20elit%2C%20sed%20do%20eiusmod%20tempor%20incididunt%20ut%20labore%20et%20dolore%20magna%20aliqua.%20Ut%20enim%20ad%20minim%20veniam%2C%20quis%20nostrud%20exercitation%20ullamco%20laboris%20nisi%20ut%20aliquip%20ex%20ea%20commodo%20consequat.%20Duis%20aute%20irure%20dolor%20in%20reprehenderit%20in%20voluptate%20velit%20esse%20cillum%20dolore%20eu%20fugiat%20nulla%20pariatur.%20</text>
-        <underline>false</underline>
-      </controlProperties>
-    </control>
-    <control controlID="112" controlTypeID="com.balsamiq.mockups::TextArea" x="371" y="696" w="613" h="29" measuredW="200" measuredH="140" zOrder="18" locked="false" isInGroup="-1">
-      <controlProperties>
-        <borderColor>16777215</borderColor>
-        <text>%2C%20KE%201996%2C%20lorem%20ipsum%20dolor%20sit%20amet%2C%20</text>
-        <underline>false</underline>
-      </controlProperties>
-    </control>
-    <control controlID="113" controlTypeID="com.balsamiq.mockups::TextArea" x="319" y="696" w="60" h="29" measuredW="200" measuredH="140" zOrder="19" locked="false" isInGroup="-1">
-      <controlProperties>
-        <bold>true</bold>
-        <borderColor>16777215</borderColor>
-        <color>16776960</color>
-        <text>Adolph</text>
-        <underline>false</underline>
-      </controlProperties>
-    </control>
-    <control controlID="114" controlTypeID="com.balsamiq.mockups::Link" x="609" y="701" w="-1" h="-1" measuredW="336" measuredH="19" zOrder="20" locked="false" isInGroup="-1">
-      <controlProperties>
-        <text>http%3A//databrary.org/study/273/lorem-ipsum-dolor-sit-amet%20</text>
-      </controlProperties>
-    </control>
-    <control controlID="115" controlTypeID="com.balsamiq.mockups::Image" x="244" y="640" w="-1" h="-1" measuredW="77" measuredH="79" zOrder="27" locked="false" isInGroup="-1">
-      <controlProperties>
-        <text/>
-      </controlProperties>
-    </control>
-    <control controlID="116" controlTypeID="com.balsamiq.mockups::Link" x="871" y="151" w="-1" h="-1" measuredW="111" measuredH="19" zOrder="28" locked="false" isInGroup="-1">
+    <control controlID="116" controlTypeID="com.balsamiq.mockups::Link" x="871" y="151" w="-1" h="-1" measuredW="111" measuredH="19" zOrder="25" locked="false" isInGroup="-1">
       <controlProperties>
         <text>Advanced%20Search...</text>
       </controlProperties>
     </control>
-    <control controlID="123" controlTypeID="com.balsamiq.mockups::Icon" x="930" y="37" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="29" locked="false" isInGroup="-1">
+    <control controlID="123" controlTypeID="com.balsamiq.mockups::Icon" x="930" y="37" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="26" locked="false" isInGroup="-1">
       <controlProperties>
         <color>0</color>
         <icon>LockIcon%7Cxsmall</icon>
       </controlProperties>
     </control>
-    <control controlID="134" controlTypeID="__group__" x="250" y="230" w="777" h="87" measuredW="777" measuredH="87" zOrder="5" locked="false" isInGroup="-1">
-      <groupChildrenDescriptors>
-        <control controlID="0" controlTypeID="__group__" x="0" y="0" w="771" h="83" measuredW="771" measuredH="83" zOrder="0" locked="false" isInGroup="134">
-          <groupChildrenDescriptors>
-            <control controlID="0" controlTypeID="com.balsamiq.mockups::TextArea" x="78" y="2" w="693" h="79" measuredW="200" measuredH="140" zOrder="0" locked="false" isInGroup="0">
-              <controlProperties>
-                <borderColor>16777215</borderColor>
-                <text>Nine-month-old%20infants%20were%20tested%20at%20the%20precipice%20of%20safe%20and%20risky%20gaps%20in%20the%20surface%20of%20support.%20Their%20reaching%20and%20avoidance%20responses%20were%20compared%20in%20two%20postures%2C%20an%20experienced%20sitting%20posture%20and%20a%20less%20familiar%20crawling%20posture.%20...%20</text>
-                <underline>false</underline>
-              </controlProperties>
-            </control>
-            <control controlID="1" controlTypeID="com.balsamiq.mockups::Image" x="0" y="0" w="76" h="83" measuredW="470" measuredH="482" zOrder="1" locked="false" isInGroup="0">
-              <controlProperties>
-                <src>./assets/navigating-gaps.gif</src>
-                <text/>
-              </controlProperties>
-            </control>
-          </groupChildrenDescriptors>
-        </control>
-        <control controlID="1" controlTypeID="com.balsamiq.mockups::TextArea" x="131" y="58" w="646" h="29" measuredW="200" measuredH="140" zOrder="1" locked="false" isInGroup="134">
-          <controlProperties>
-            <borderColor>16777215</borderColor>
-            <text>%2C%20KE%202000%2C%20Infants%20Navigating%20Risky%20Gaps%2C%20</text>
-            <underline>false</underline>
-          </controlProperties>
-        </control>
-        <control controlID="2" controlTypeID="com.balsamiq.mockups::TextArea" x="79" y="58" w="60" h="29" measuredW="200" measuredH="140" zOrder="2" locked="false" isInGroup="134">
-          <controlProperties>
-            <bold>true</bold>
-            <borderColor>16777215</borderColor>
-            <color>16776960</color>
-            <text>Adolph</text>
-            <underline>false</underline>
-          </controlProperties>
-        </control>
-        <control controlID="3" controlTypeID="com.balsamiq.mockups::Link" x="391" y="63" w="-1" h="-1" measuredW="356" measuredH="19" zOrder="3" locked="false" isInGroup="134">
-          <controlProperties>
-            <text>http%3A//databrary.org/study/143/infants-navigating-risky-gaps</text>
-          </controlProperties>
-        </control>
-      </groupChildrenDescriptors>
-    </control>
-    <control controlID="144" controlTypeID="__group__" x="88" y="78" w="100" h="24" measuredW="100" measuredH="24" zOrder="30" locked="false" isInGroup="-1">
+    <control controlID="144" controlTypeID="__group__" x="88" y="78" w="100" h="24" measuredW="100" measuredH="24" zOrder="27" locked="false" isInGroup="-1">
       <groupChildrenDescriptors>
         <control controlID="2" controlTypeID="__group__" x="0" y="0" w="100" h="24" measuredW="100" measuredH="24" zOrder="0" locked="false" isInGroup="144">
           <groupChildrenDescriptors>
@@ -293,7 +132,7 @@
         </control>
       </groupChildrenDescriptors>
     </control>
-    <control controlID="145" controlTypeID="__group__" x="912" y="80" w="114" h="21" measuredW="114" measuredH="21" zOrder="31" locked="false" isInGroup="-1">
+    <control controlID="145" controlTypeID="__group__" x="912" y="80" w="114" h="21" measuredW="114" measuredH="21" zOrder="28" locked="false" isInGroup="-1">
       <groupChildrenDescriptors>
         <control controlID="0" controlTypeID="__group__" x="0" y="0" w="114" h="21" measuredW="114" measuredH="21" zOrder="0" locked="false" isInGroup="145">
           <groupChildrenDescriptors>
@@ -321,7 +160,7 @@
         </control>
       </groupChildrenDescriptors>
     </control>
-    <control controlID="146" controlTypeID="__group__" x="76" y="181" w="162" h="531" measuredW="162" measuredH="531" zOrder="25" locked="false" isInGroup="-1">
+    <control controlID="146" controlTypeID="__group__" x="76" y="181" w="162" h="531" measuredW="162" measuredH="531" zOrder="22" locked="false" isInGroup="-1">
       <groupChildrenDescriptors>
         <control controlID="0" controlTypeID="com.balsamiq.mockups::Canvas" x="0" y="0" w="162" h="531" measuredW="100" measuredH="70" zOrder="0" locked="false" isInGroup="146"/>
         <control controlID="1" controlTypeID="com.balsamiq.mockups::TextArea" x="0" y="40" w="162" h="29" measuredW="200" measuredH="140" zOrder="1" locked="false" isInGroup="146">
@@ -466,9 +305,189 @@
         </control>
       </groupChildrenDescriptors>
     </control>
-    <control controlID="147" controlTypeID="com.balsamiq.mockups::Component" x="76" y="890" w="964" h="32" measuredW="964" measuredH="32" zOrder="32" locked="false" isInGroup="-1">
+    <control controlID="147" controlTypeID="com.balsamiq.mockups::Component" x="76" y="890" w="964" h="32" measuredW="964" measuredH="32" zOrder="29" locked="false" isInGroup="-1">
       <controlProperties>
         <src>./assets/elements.bmml#footer</src>
+      </controlProperties>
+    </control>
+    <control controlID="148" controlTypeID="__group__" x="244" y="214" w="726" h="87" measuredW="726" measuredH="87" zOrder="5" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::TextArea" x="78" y="0" w="648" h="56" measuredW="200" measuredH="140" zOrder="0" locked="false" isInGroup="148">
+          <controlProperties>
+            <borderColor>16777215</borderColor>
+            <text>Nine-month-old%20infants%20were%20tested%20at%20the%20precipice%20of%20safe%20and%20risky%20gaps%20in%20the%20surface%20of%20support.%20Their%20reaching%20and%20avoidance%20responses%20were%20compared%20in%20two%20postures%2C%20an%20experienced%20sitting%20posture%20and%20a%20less%20familiar%20crawling%20posture.%20...%20</text>
+            <underline>false</underline>
+          </controlProperties>
+        </control>
+        <control controlID="1" controlTypeID="com.balsamiq.mockups::Image" x="0" y="8" w="76" h="79" measuredW="470" measuredH="482" zOrder="1" locked="false" isInGroup="148">
+          <controlProperties>
+            <src>./assets/navigating-gaps.gif</src>
+            <text/>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="152" controlTypeID="__group__" x="331" y="291" w="356" h="19" measuredW="356" measuredH="19" zOrder="6" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="2" controlTypeID="com.balsamiq.mockups::Link" x="0" y="0" w="-1" h="-1" measuredW="356" measuredH="19" zOrder="0" locked="false" isInGroup="152">
+          <controlProperties>
+            <text>http%3A//databrary.org/study/143/infants-navigating-risky-gaps</text>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="155" controlTypeID="__group__" x="244" y="427" w="740" h="98" measuredW="740" measuredH="98" zOrder="30" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="5" controlTypeID="__group__" x="0" y="0" w="740" h="98" measuredW="740" measuredH="98" zOrder="0" locked="false" isInGroup="155">
+          <groupChildrenDescriptors>
+            <control controlID="0" controlTypeID="com.balsamiq.mockups::TextArea" x="75" y="0" w="665" h="79" measuredW="200" measuredH="140" zOrder="0" locked="false" isInGroup="5">
+              <controlProperties>
+                <borderColor>16777215</borderColor>
+                <text>14-month-old%20toddlers%20vs.%208.5-month-old%20crawling%20infants%20were%20encouraged%20to%20ascend%20and%20descend%20a%20sloping%20walkway%20%2810%B0%2C%2020%B0%2C%2030%B0%2C%20and%2040%B0%29.%20Infants%20in%20both%20locomotor%20groups%20overestimated%20their%20ability%20to%20ascend%20slopes.%20However%2C%20on%20descending%20trials...</text>
+                <underline>false</underline>
+              </controlProperties>
+            </control>
+            <control controlID="1" controlTypeID="com.balsamiq.mockups::Link" x="83" y="79" w="-1" h="-1" measuredW="532" measuredH="19" zOrder="1" locked="false" isInGroup="5">
+              <controlProperties>
+                <text>http%3A//databrary.org/study/237/crawling-versus-walking-infants-perception-of-affordances</text>
+              </controlProperties>
+            </control>
+            <control controlID="3" controlTypeID="com.balsamiq.mockups::Image" x="0" y="7" w="-1" h="-1" measuredW="77" measuredH="79" zOrder="2" locked="false" isInGroup="5">
+              <controlProperties>
+                <text/>
+              </controlProperties>
+            </control>
+          </groupChildrenDescriptors>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="156" controlTypeID="__group__" x="244" y="534" w="731" h="94" measuredW="731" measuredH="94" zOrder="23" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="2" controlTypeID="__group__" x="0" y="0" w="731" h="94" measuredW="731" measuredH="94" zOrder="0" locked="false" isInGroup="156">
+          <groupChildrenDescriptors>
+            <control controlID="0" controlTypeID="__group__" x="75" y="0" w="656" h="94" measuredW="656" measuredH="94" zOrder="0" locked="false" isInGroup="2">
+              <groupChildrenDescriptors>
+                <control controlID="5" controlTypeID="__group__" x="0" y="0" w="656" h="94" measuredW="656" measuredH="94" zOrder="0" locked="false" isInGroup="0">
+                  <groupChildrenDescriptors>
+                    <control controlID="0" controlTypeID="com.balsamiq.mockups::TextArea" x="0" y="0" w="656" h="79" measuredW="200" measuredH="140" zOrder="0" locked="false" isInGroup="5">
+                      <controlProperties>
+                        <borderColor>16777215</borderColor>
+                        <text>Infants%20acquire%20independent%20mobility%20amidst%20a%20flux%20of%20body%20growth.%20Changes%20in%20body%20dimensions%20and%20variations%20in%20the%20ground%20change%20the%20physical%20constraints%20on%20keeping%20balance.%20The%20study%20examined%20whether%20toddlers%20can%20adapt%20to%20changes%20in%20their%20body%20dimensions%20and%20variations%20in%20the%20terrain%20by%20loading%20them%20with%20...</text>
+                        <underline>false</underline>
+                      </controlProperties>
+                    </control>
+                    <control controlID="3" controlTypeID="com.balsamiq.mockups::Link" x="10" y="75" w="-1" h="-1" measuredW="551" measuredH="19" zOrder="1" locked="false" isInGroup="5">
+                      <controlProperties>
+                        <text>http%3A//databrary.org/study/97/walking-infants-adapt-locomotion-to-changing-body-dimensions</text>
+                      </controlProperties>
+                    </control>
+                  </groupChildrenDescriptors>
+                </control>
+              </groupChildrenDescriptors>
+            </control>
+            <control controlID="1" controlTypeID="com.balsamiq.mockups::Image" x="0" y="7" w="77" h="79" measuredW="77" measuredH="79" zOrder="1" locked="false" isInGroup="2">
+              <controlProperties>
+                <text/>
+              </controlProperties>
+            </control>
+          </groupChildrenDescriptors>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="157" controlTypeID="com.balsamiq.mockups::TextInput" x="442" y="337" w="48" h="-1" measuredW="79" measuredH="26" zOrder="13" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderColor>16777215</borderColor>
+        <color>16776960</color>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="158" controlTypeID="com.balsamiq.mockups::Link" x="327" y="399" w="-1" h="-1" measuredW="425" measuredH="19" zOrder="14" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>http%3A//databrary.org/study/423/what-changes-in-infant-walking-and-why</text>
+      </controlProperties>
+    </control>
+    <control controlID="159" controlTypeID="com.balsamiq.mockups::Image" x="244" y="328" w="-1" h="-1" measuredW="77" measuredH="79" zOrder="15" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="160" controlTypeID="com.balsamiq.mockups::TextInput" x="826" y="322" w="48" h="-1" measuredW="79" measuredH="26" zOrder="16" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderColor>16777215</borderColor>
+        <color>16776960</color>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="161" controlTypeID="com.balsamiq.mockups::Label" x="327" y="323" w="659" h="-1" measuredW="637" measuredH="53" zOrder="17" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>This%20study%20compared%20the%20relative%20contributions%20of%20growing%20body%20dimensions%2C%20age%2C%20and%20walking%20experience%20in%5Crthe%20development%20of%20walking%20skill%20in%209-to%2017-month-old%20infants%20%28N%205%20210%29%2C%205%u20136-year%20old%20kindergartners%20%28N%205%2015%29%2C%5Crand%20college%20students%20%28N%205%2013%29.%20Kinematic%20..</text>
+      </controlProperties>
+    </control>
+    <control controlID="162" controlTypeID="com.balsamiq.mockups::TextInput" x="323" y="374" w="48" h="-1" measuredW="79" measuredH="26" zOrder="18" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderColor>16777215</borderColor>
+        <color>16776960</color>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="163" controlTypeID="com.balsamiq.mockups::Label" x="327" y="377" w="-1" h="-1" measuredW="380" measuredH="21" zOrder="19" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Adolph%2C%20KE%202003%2C%20et.%20al.%3B%20What%20changes%20in%20infant%20walking%20and%20why</text>
+      </controlProperties>
+    </control>
+    <control controlID="165" controlTypeID="com.balsamiq.mockups::TextInput" x="327" y="266" w="48" h="-1" measuredW="79" measuredH="26" zOrder="20" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderColor>16777215</borderColor>
+        <color>16776960</color>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="166" controlTypeID="com.balsamiq.mockups::Label" x="329" y="269" w="-1" h="-1" measuredW="286" measuredH="21" zOrder="21" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Adolph%2C%20KE%202000%2C%20Infants%20Navigating%20Risky%20Gaps</text>
+      </controlProperties>
+    </control>
+    <control controlID="167" controlTypeID="com.balsamiq.mockups::Label" x="327" y="482" w="-1" h="-1" measuredW="588" measuredH="21" zOrder="33" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Adolph%2C%20KE%202008%2C%20et.%20al.%3B%20Crawling%20versus%20Walking%20Infants%27%20Perception%20of%20Affordances%20for%20Locomotion</text>
+      </controlProperties>
+    </control>
+    <control controlID="168" controlTypeID="com.balsamiq.mockups::TextInput" x="325" y="480" w="48" h="-1" measuredW="79" measuredH="26" zOrder="31" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderColor>16777215</borderColor>
+        <color>16776960</color>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="169" controlTypeID="com.balsamiq.mockups::TextInput" x="569" y="479" w="48" h="-1" measuredW="79" measuredH="26" zOrder="32" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderColor>16777215</borderColor>
+        <color>16776960</color>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="170" controlTypeID="com.balsamiq.mockups::Label" x="327" y="587" w="-1" h="-1" measuredW="380" measuredH="21" zOrder="35" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Adolph%2C%20KE%202003%2C%20et.%20al.%3B%20What%20changes%20in%20infant%20walking%20and%20why</text>
+      </controlProperties>
+    </control>
+    <control controlID="171" controlTypeID="com.balsamiq.mockups::TextInput" x="325" y="585" w="48" h="-1" measuredW="79" measuredH="26" zOrder="34" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderColor>16777215</borderColor>
+        <color>16776960</color>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="172" controlTypeID="com.balsamiq.mockups::Label" x="327" y="698" w="-1" h="-1" measuredW="259" measuredH="21" zOrder="37" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Adolph%2C%20KE%202006%2C%20et.%20al.%3B%20Motor%20development</text>
+      </controlProperties>
+    </control>
+    <control controlID="173" controlTypeID="com.balsamiq.mockups::TextInput" x="325" y="695" w="48" h="-1" measuredW="79" measuredH="26" zOrder="36" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderColor>16777215</borderColor>
+        <color>16776960</color>
+        <text/>
       </controlProperties>
     </control>
   </controls>
