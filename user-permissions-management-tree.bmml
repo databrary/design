@@ -29,40 +29,26 @@
         <text>Karen%20Adolph%20%3A%20Manage%20Permissions</text>
       </controlProperties>
     </control>
-    <control controlID="81" controlTypeID="com.balsamiq.mockups::Component" x="151" y="497" w="762" h="109" measuredW="762" measuredH="109" zOrder="5" locked="false" isInGroup="-1">
+    <control controlID="84" controlTypeID="com.balsamiq.mockups::Component" x="148" y="633" w="765" h="203" measuredW="765" measuredH="203" zOrder="5" locked="false" isInGroup="-1">
       <controlProperties>
-        <src>./assets/elements.bmml#permission-grant</src>
-      </controlProperties>
-    </control>
-    <control controlID="82" controlTypeID="com.balsamiq.mockups::StickyNote" x="843" y="118" w="195" h="123" measuredW="109" measuredH="123" zOrder="7" locked="false" isInGroup="-1">
-      <controlProperties>
-        <text>How%20do%20we%20want%20to%20update%20permissions%3F%0AClick%20on%20name%20to%20change%3F</text>
-      </controlProperties>
-    </control>
-    <control controlID="83" controlTypeID="com.balsamiq.mockups::Component" x="151" y="177" w="762" h="287" measuredW="762" measuredH="287" zOrder="6" locked="false" isInGroup="-1">
-      <controlProperties>
-        <override controlID="6" x="0" y="0" w="762" h="287"/>
-        <override controlID="6:0" x="0" y="0" w="442" h="24"/>
-        <override controlID="6:1:0" x="0" y="0" w="762" h="261"/>
-        <override controlID="-1"/>
-        <override controlID="6:1:1" x="13" y="25" w="336" h="210"/>
-        <override controlID="6:1" x="0" y="26" w="762" h="261"/>
-        <src>./assets/elements.bmml#permissions-current-user</src>
-      </controlProperties>
-    </control>
-    <control controlID="84" controlTypeID="com.balsamiq.mockups::Component" x="148" y="633" w="757" h="203" measuredW="757" measuredH="203" zOrder="8" locked="false" isInGroup="-1">
-      <controlProperties>
+        <override controlID="0" x="0" y="32" w="765" h="171"/>
+        <override controlID="1" x="0" y="0" w="232" h="24"/>
         <src>./assets/elements.bmml#user-permission-level-key</src>
       </controlProperties>
     </control>
-    <control controlID="85" controlTypeID="com.balsamiq.mockups::StickyNote" x="460" y="497" w="195" h="123" measuredW="109" measuredH="123" zOrder="9" locked="false" isInGroup="-1">
+    <control controlID="88" controlTypeID="com.balsamiq.mockups::Component" x="148" y="171" w="765" h="77" measuredW="765" measuredH="77" zOrder="6" locked="false" isInGroup="-1">
       <controlProperties>
-        <text>%20%0A%20%0AWORK%20IN%20PROGRESS</text>
+        <src>./assets/elements.bmml#db-permissions-granted-to-me</src>
       </controlProperties>
     </control>
-    <control controlID="86" controlTypeID="com.balsamiq.mockups::StickyNote" x="917" y="310" w="98" h="138" measuredW="109" measuredH="123" zOrder="10" locked="false" isInGroup="-1">
+    <control controlID="91" controlTypeID="com.balsamiq.mockups::Component" x="147" y="287" w="765" h="197" measuredW="765" measuredH="197" zOrder="7" locked="false" isInGroup="-1">
       <controlProperties>
-        <text>need%20to%20align%0Atree%20with%20%0Atable%20rows.</text>
+        <src>./assets/elements.bmml#db-permissions-current-user</src>
+      </controlProperties>
+    </control>
+    <control controlID="92" controlTypeID="com.balsamiq.mockups::Component" x="147" y="502" w="765" h="99" measuredW="765" measuredH="99" zOrder="8" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>./assets/elements.bmml#db-grant-user-permission</src>
       </controlProperties>
     </control>
   </controls>
