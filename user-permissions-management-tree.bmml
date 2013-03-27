@@ -29,24 +29,25 @@
         <text>Karen%20Adolph%20%3A%20Manage%20Permissions</text>
       </controlProperties>
     </control>
-    <control controlID="84" controlTypeID="com.balsamiq.mockups::Component" x="148" y="633" w="765" h="203" measuredW="765" measuredH="203" zOrder="5" locked="false" isInGroup="-1">
+    <control controlID="84" controlTypeID="com.balsamiq.mockups::Component" x="148" y="619" w="765" h="203" measuredW="765" measuredH="203" zOrder="5" locked="false" isInGroup="-1">
       <controlProperties>
         <override controlID="0" x="0" y="32" w="765" h="171"/>
         <override controlID="1" x="0" y="0" w="232" h="24"/>
+        <override controlID="-1"/>
         <src>./assets/elements.bmml#user-permission-level-key</src>
       </controlProperties>
     </control>
-    <control controlID="88" controlTypeID="com.balsamiq.mockups::Component" x="148" y="171" w="765" h="77" measuredW="765" measuredH="77" zOrder="6" locked="false" isInGroup="-1">
+    <control controlID="88" controlTypeID="com.balsamiq.mockups::Component" x="148" y="181" w="765" h="77" measuredW="765" measuredH="77" zOrder="6" locked="false" isInGroup="-1">
       <controlProperties>
         <src>./assets/elements.bmml#db-permissions-granted-to-me</src>
       </controlProperties>
     </control>
-    <control controlID="91" controlTypeID="com.balsamiq.mockups::Component" x="147" y="287" w="765" h="197" measuredW="765" measuredH="197" zOrder="7" locked="false" isInGroup="-1">
+    <control controlID="91" controlTypeID="com.balsamiq.mockups::Component" x="147" y="281" w="765" h="197" measuredW="765" measuredH="197" zOrder="7" locked="false" isInGroup="-1">
       <controlProperties>
         <src>./assets/elements.bmml#db-permissions-current-user</src>
       </controlProperties>
     </control>
-    <control controlID="92" controlTypeID="com.balsamiq.mockups::Component" x="147" y="502" w="765" h="99" measuredW="765" measuredH="99" zOrder="8" locked="false" isInGroup="-1">
+    <control controlID="92" controlTypeID="com.balsamiq.mockups::Component" x="147" y="490" w="765" h="99" measuredW="765" measuredH="99" zOrder="8" locked="false" isInGroup="-1">
       <controlProperties>
         <src>./assets/elements.bmml#db-grant-user-permission</src>
       </controlProperties>
