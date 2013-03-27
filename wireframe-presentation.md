@@ -157,7 +157,7 @@ CREATED : Study view: Access management
 - [image: study permissions tree](./study-permissions-management-tree.png)
 
 
-NEW : User view : Access management
+IN PROGRESS : User view : Access management
 
 - expandable tree with columns: "Name" (text/textbox), "Expiration", "Permissions", "Action"
 - "Databrary", blank
@@ -175,3 +175,4 @@ NEW : User view : Access management
   - Contribute: create and edit studies I own
   - Full: full access to Databrary as an authorized investigator
   - Admin: delegate all my permissions to edit and authorize users
+- [image: user permissions tree](./user-permissions-management-tree.png)

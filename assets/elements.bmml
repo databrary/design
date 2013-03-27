@@ -1,4 +1,4 @@
-<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="3017" measuredH="1640" mockupW="2998" mockupH="1634">
+<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="3017" measuredH="1830" mockupW="2998" mockupH="1824">
   <controls>
     <control controlID="0" controlTypeID="__group__" x="19" y="6" w="539" h="68" measuredW="539" measuredH="68" zOrder="1" locked="false" isInGroup="-1">
       <controlProperties>
@@ -1344,11 +1344,11 @@
             <vLines>true</vLines>
           </controlProperties>
         </control>
-        <control controlID="1" controlTypeID="com.balsamiq.mockups::Label" x="0" y="0" w="-1" h="-1" measuredW="188" measuredH="24" zOrder="1" locked="false" isInGroup="96">
+        <control controlID="1" controlTypeID="com.balsamiq.mockups::Label" x="0" y="0" w="-1" h="-1" measuredW="237" measuredH="24" zOrder="1" locked="false" isInGroup="96">
           <controlProperties>
             <bold>true</bold>
             <size>16</size>
-            <text>Key%20to%20Permission%20Levels</text>
+            <text>Key%20to%20Study%20Permission%20Levels</text>
           </controlProperties>
         </control>
       </groupChildrenDescriptors>
@@ -1364,11 +1364,11 @@
             <text>No%20Access</text>
           </controlProperties>
         </control>
-        <control controlID="2" controlTypeID="com.balsamiq.mockups::Label" x="0" y="0" w="172" h="-1" measuredW="130" measuredH="24" zOrder="2" locked="false" isInGroup="104">
+        <control controlID="2" controlTypeID="com.balsamiq.mockups::Label" x="0" y="0" w="-1" h="-1" measuredW="179" measuredH="24" zOrder="2" locked="false" isInGroup="104">
           <controlProperties>
             <bold>true</bold>
             <size>16</size>
-            <text>Grant%20Permission</text>
+            <text>Grant%20Study%20Permission</text>
           </controlProperties>
         </control>
         <control controlID="3" controlTypeID="com.balsamiq.mockups::TextInput" x="15" y="69" w="168" h="-1" measuredW="79" measuredH="26" zOrder="3" locked="false" isInGroup="104">
@@ -1405,7 +1405,7 @@
     </control>
     <control controlID="107" controlTypeID="__group__" x="2238" y="1063" w="765" h="221" measuredW="765" measuredH="221" zOrder="29" locked="false" isInGroup="-1">
       <controlProperties>
-        <controlName>permissions-current</controlName>
+        <controlName>permissions-current-study</controlName>
       </controlProperties>
       <groupChildrenDescriptors>
         <control controlID="0" controlTypeID="com.balsamiq.mockups::Tree" x="0" y="32" w="765" h="189" measuredW="300" measuredH="225" zOrder="0" locked="false" isInGroup="107">
@@ -1418,6 +1418,68 @@
             <bold>true</bold>
             <size>16</size>
             <text>Current%20Study%20Permissions</text>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="108" controlTypeID="__group__" x="2252" y="1313" w="597" h="287" measuredW="597" measuredH="287" zOrder="30" locked="false" isInGroup="-1">
+      <controlProperties>
+        <controlName>permissions-current-user</controlName>
+      </controlProperties>
+      <groupChildrenDescriptors>
+        <control controlID="6" controlTypeID="__group__" x="0" y="0" w="597" h="287" measuredW="597" measuredH="287" zOrder="0" locked="false" isInGroup="108">
+          <controlProperties>
+            <controlName>current-user-permissions</controlName>
+          </controlProperties>
+          <groupChildrenDescriptors>
+            <control controlID="0" controlTypeID="com.balsamiq.mockups::Label" x="0" y="0" w="-1" h="-1" measuredW="346" measuredH="24" zOrder="0" locked="false" isInGroup="6">
+              <controlProperties>
+                <bold>true</bold>
+                <size>16</size>
+                <text>Current%20Permissions%20granted%20by%20Karen%20Adolph</text>
+              </controlProperties>
+            </control>
+            <control controlID="1" controlTypeID="__group__" x="0" y="26" w="597" h="261" measuredW="597" measuredH="261" zOrder="1" locked="false" isInGroup="6">
+              <groupChildrenDescriptors>
+                <control controlID="0" controlTypeID="com.balsamiq.mockups::DataGrid" x="0" y="0" w="597" h="261" measuredW="385" measuredH="261" zOrder="0" locked="false" isInGroup="1">
+                  <controlProperties>
+                    <borderStyle>square</borderStyle>
+                    <hasHeader>true</hasHeader>
+                    <text>Name%2C%20Term%2C%20Expires%2C%20Permissions%2C%20Action%0A%2C%20%2C%20%2C%20%0A%2C2%20years%2C%202015-08-31%2C%20Full%2C%20reapply%0A%2C%20%2C%20%2C%20%0A%2C1%20years%2C%202014-08-31%2C%20Admin%2C%20renew/remove%0A%2C1%20years%2C%202014-06-22%2C%20Contribute%2C%20renew/remove%0A%2C8%20months%2C%202014-02-14%2C%20Contribute%2C%20renew/remove%0A%2C2%20weeks%2C%202013-05-02%2C%20Browse%2C%20renew/remove%0A%2Crequested%2C%20pending%2C%20none%2C%20accept/reject%0A%7B65L%2C%200L%2C%200L%2C%200L%2C%200L%7D</text>
+                  </controlProperties>
+                </control>
+                <control controlID="1" controlTypeID="com.balsamiq.mockups::Tree" x="10" y="25" w="263" h="210" measuredW="300" measuredH="225" zOrder="1" locked="false" isInGroup="1">
+                  <controlProperties>
+                    <backgroundAlpha>0</backgroundAlpha>
+                    <borderStyle>none</borderStyle>
+                    <size>14</size>
+                    <text>v%20Databrary%0A.v%20New%20York%20University%0A..v%20%5CrMe%0A...%3E%20Joe%20Labmanager%20%0A...%3E%20Jane%20Postdoc%20%0A...%3E%20Mary%20Gradstudent%20%0A...%3E%20Pete%20Undergrad%0A...%3E%20New%20Gradstudent</text>
+                  </controlProperties>
+                </control>
+              </groupChildrenDescriptors>
+            </control>
+          </groupChildrenDescriptors>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="109" controlTypeID="__group__" x="2252" y="1627" w="757" h="203" measuredW="757" measuredH="203" zOrder="31" locked="false" isInGroup="-1">
+      <controlProperties>
+        <controlName>user-permission-level-key</controlName>
+      </controlProperties>
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::DataGrid" x="0" y="32" w="757" h="171" measuredW="465" measuredH="171" zOrder="0" locked="false" isInGroup="109">
+          <controlProperties>
+            <bold>false</bold>
+            <hLines>false</hLines>
+            <text>Permission%20Level%20%20%2C%20%20Description%0AAdmin%2C%20%20granted%20all%20of%20my%20permissions%20to%20edit%20and%20authorize%20users%0AFull%2C%20%20full%20access%20to%20Databrary%20as%20an%20Authorized%20Investigator%0AContribute%2C%20%20create%20and%20edit%20studies%20I%20own%0AAccess%2C%20%20view%20any%20studies%20I%20have%20access%20to%0ABrowse%2C%20%20standard%20access%20to%20Databrary%5C%2C%20but%20no%20access%20to%20my%20data%0A%7B0L%2C0L%7D</text>
+            <vLines>true</vLines>
+          </controlProperties>
+        </control>
+        <control controlID="1" controlTypeID="com.balsamiq.mockups::Label" x="0" y="0" w="-1" h="-1" measuredW="230" measuredH="24" zOrder="1" locked="false" isInGroup="109">
+          <controlProperties>
+            <bold>true</bold>
+            <size>16</size>
+            <text>Key%20to%20User%20Permission%20Levels</text>
           </controlProperties>
         </control>
       </groupChildrenDescriptors>
