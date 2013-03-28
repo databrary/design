@@ -11,7 +11,7 @@
         <icon>LockIcon%7Cxsmall</icon>
       </controlProperties>
     </control>
-    <control controlID="65" controlTypeID="__group__" x="151" y="601" w="252" h="39" measuredW="252" measuredH="39" zOrder="2" locked="false" isInGroup="-1">
+    <control controlID="65" controlTypeID="__group__" x="151" y="508" w="252" h="39" measuredW="252" measuredH="39" zOrder="2" locked="false" isInGroup="-1">
       <groupChildrenDescriptors>
         <control controlID="3" controlTypeID="__group__" x="0" y="0" w="252" h="39" measuredW="252" measuredH="39" zOrder="0" locked="false" isInGroup="65">
           <groupChildrenDescriptors>
@@ -41,25 +41,30 @@
         <src>./assets/elements.bmml#footer</src>
       </controlProperties>
     </control>
-    <control controlID="78" controlTypeID="com.balsamiq.mockups::Component" x="151" y="126" w="800" h="259" measuredW="800" measuredH="259" zOrder="5" locked="false" isInGroup="-1">
+    <control controlID="78" controlTypeID="com.balsamiq.mockups::Component" x="151" y="116" w="800" h="259" measuredW="800" measuredH="259" zOrder="5" locked="false" isInGroup="-1">
       <controlProperties>
-        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22753%2C338%2C813%2C359%22%20href%3D%22karen-profile.bmml%22%20alt%3D%22karen-profile%22%20id%3D%221%22/%3E%3Carea%20shape%3D%22rect%22%20coords%3D%22753%2C338%2C813%2C359%22%20href%3D%22karen-profile.bmml%22%20alt%3D%22karen-profile%22%20id%3D%221%22/%3E%3Carea%20shape%3D%22rect%22%20coords%3D%22753%2C334%2C813%2C355%22%20href%3D%22karen-profile.bmml%22%20alt%3D%22karen-profile%22%20id%3D%221%22/%3E%3Carea%20shape%3D%22rect%22%20coords%3D%22753%2C319%2C813%2C340%22%20href%3D%22karen-profile.bmml%22%20alt%3D%22karen-profile%22%20id%3D%221%22/%3E%3Carea%20shape%3D%22rect%22%20coords%3D%22753%2C319%2C813%2C340%22%20href%3D%22karen-profile.bmml%22%20alt%3D%22karen-profile%22%20id%3D%221%22/%3E%3Carea%20shape%3D%22rect%22%20coords%3D%22753%2C319%2C813%2C340%22%20href%3D%22karen-profile.bmml%22%20alt%3D%22karen-profile%22%20id%3D%221%22/%3E%3Carea%20shape%3D%22rect%22%20coords%3D%22753%2C319%2C813%2C340%22%20href%3D%22karen-profile.bmml%22%20alt%3D%22karen-profile%22%20id%3D%221%22/%3E</map>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22756%2C328%2C819%2C349%22%20href%3D%22karen-profile.bmml%22%20alt%3D%22karen-profile%22%20id%3D%221%22/%3E%3Carea%20shape%3D%22rect%22%20coords%3D%22756%2C328%2C819%2C349%22%20href%3D%22karen-profile.bmml%22%20alt%3D%22karen-profile%22%20id%3D%221%22/%3E%3Carea%20shape%3D%22rect%22%20coords%3D%22756%2C322%2C819%2C343%22%20href%3D%22karen-profile.bmml%22%20alt%3D%22karen-profile%22%20id%3D%221%22/%3E%3Carea%20shape%3D%22rect%22%20coords%3D%22756%2C322%2C819%2C343%22%20href%3D%22karen-profile.bmml%22%20alt%3D%22karen-profile%22%20id%3D%221%22/%3E%3Carea%20shape%3D%22rect%22%20coords%3D%22756%2C322%2C819%2C343%22%20href%3D%22karen-profile.bmml%22%20alt%3D%22karen-profile%22%20id%3D%221%22/%3E%3Carea%20shape%3D%22rect%22%20coords%3D%22756%2C322%2C819%2C343%22%20href%3D%22karen-profile.bmml%22%20alt%3D%22karen-profile%22%20id%3D%221%22/%3E%3Carea%20shape%3D%22rect%22%20coords%3D%22756%2C322%2C819%2C343%22%20href%3D%22karen-profile.bmml%22%20alt%3D%22karen-profile%22%20id%3D%221%22/%3E%3Carea%20shape%3D%22rect%22%20coords%3D%22756%2C322%2C819%2C343%22%20href%3D%22karen-profile.bmml%22%20alt%3D%22karen-profile%22%20id%3D%221%22/%3E%3Carea%20shape%3D%22rect%22%20coords%3D%22756%2C322%2C819%2C343%22%20href%3D%22karen-profile.bmml%22%20alt%3D%22karen-profile%22%20id%3D%221%22/%3E</map>
         <src>./assets/elements.bmml#study-abstract</src>
       </controlProperties>
     </control>
-    <control controlID="79" controlTypeID="com.balsamiq.mockups::Component" x="154" y="634" w="779" h="35" measuredW="779" measuredH="35" zOrder="6" locked="false" isInGroup="-1">
-      <controlProperties>
-        <src>./assets/elements.bmml#authorized-access</src>
-      </controlProperties>
-    </control>
-    <control controlID="80" controlTypeID="com.balsamiq.mockups::Component" x="151" y="680" w="780" h="168" measuredW="780" measuredH="168" zOrder="7" locked="false" isInGroup="-1">
+    <control controlID="80" controlTypeID="com.balsamiq.mockups::Component" x="151" y="583" w="780" h="144" measuredW="780" measuredH="144" zOrder="6" locked="false" isInGroup="-1">
       <controlProperties>
         <src>./assets/elements.bmml#citation</src>
       </controlProperties>
     </control>
-    <control controlID="81" controlTypeID="com.balsamiq.mockups::Component" x="151" y="374" w="779" h="218" measuredW="779" measuredH="218" zOrder="8" locked="false" isInGroup="-1">
+    <control controlID="81" controlTypeID="com.balsamiq.mockups::Component" x="151" y="364" w="765" h="140" measuredW="765" measuredH="140" zOrder="7" locked="false" isInGroup="-1">
       <controlProperties>
         <src>./assets/elements.bmml#study-authorized-documents</src>
+      </controlProperties>
+    </control>
+    <control controlID="82" controlTypeID="com.balsamiq.mockups::Component" x="151" y="541" w="779" h="34" measuredW="779" measuredH="34" zOrder="8" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>./assets/elements.bmml#label-template</src>
+      </controlProperties>
+    </control>
+    <control controlID="83" controlTypeID="com.balsamiq.mockups::Component" x="151" y="735" w="779" h="146" measuredW="779" measuredH="146" zOrder="9" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>./assets/elements.bmml#comment-template</src>
       </controlProperties>
     </control>
   </controls>

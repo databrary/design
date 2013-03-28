@@ -62,7 +62,8 @@ UPDATED: Study page (Public View)
 - [x]: change "Shared on November 2000" to "Shared November 2011"
 - [x]: reduce # video file to 1 each participant, data files to 2
 - [ ] Excerpts tag with a couple videos, description, view
-
+- [x] change to "Download citation in this format: "
+- [ ]:?: should excerpts be in public view, or in authorized view?
 
 UPDATED: Study page (Authorized View)
 
@@ -81,7 +82,10 @@ UPDATED: Study page (Authorized View)
 - [x]:?: does "request access" workflow via e-mail still hold? or should user sign-in first?: Let's require logins
 - [x]:?: is "collection details" the correct term?: I think we can use the word "study"; perhaps "study contents"
 - [x]:jgp: logged-in view: make filenames "links" for download, and also add "download all documents as zip file" link.
-- [ ] rename "label" to "tag"
+- [x] rename "label" to "tag"
+- [x] removed comment "This dataset contains the identities of children and infants, video can be used for research under certain conditions."
+
+
 
 CREATED : Login/Register page
 
@@ -99,13 +103,10 @@ CREATED : Study:Participant page
 - coding spreadsheet "Datavyu"
 - download all as zip file
 - comment/tagging template
-- [ ] breadcrumbs on top back to study
-- [ ] change "preview" to "view"
+- [?] breadcrumbs on top back to study : there is link back to study in current version, is this sufficient?
+- [x] change "preview" to "view"
 - [image: study-participant](./study-participant.png)
   
-
-
-
 NEW : Video page (viewer, download link)
 
 - comment/tagging template
@@ -142,7 +143,7 @@ NEW : Upload page
 
 ### Access management
 
-CREATED : Study view: Access management
+NEEDS UPDATES : Study view: Access management
 
 - expandable tree with columns: "Name" (text/textbox), "Permissions" (dropdown), "Individual only" (checkbox)
 - each row color-coded by (greatest inherited) permission
@@ -162,10 +163,11 @@ CREATED : Study view: Access management
   - Member: can edit and upload data (red)
   - Owner: full access and responsibility for study (purple)
   - Individual only: should only this person be granted access, or everyone in the group?
+  - [ ]: figure out how to handle tree structure...
 - [image: study permissions tree](./study-permissions-management-tree.png)
 
 
-IN PROGRESS : User view : Access management
+CREATED : User view : Access management
 
 - expandable tree with columns: "Name" (text/textbox), "Expiration", "Permissions", "Action"
 - two sections:

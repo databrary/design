@@ -28,18 +28,18 @@
     </control>
     <control controlID="59" controlTypeID="com.balsamiq.mockups::Component" x="150" y="140" w="800" h="259" measuredW="800" measuredH="259" zOrder="4" locked="false" isInGroup="-1">
       <controlProperties>
-        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22753%2C352%2C813%2C373%22%20href%3D%22karen-profile.bmml%22%20alt%3D%22karen-profile%22%20id%3D%221%22/%3E%3Carea%20shape%3D%22rect%22%20coords%3D%22753%2C352%2C813%2C373%22%20href%3D%22karen-profile.bmml%22%20alt%3D%22karen-profile%22%20id%3D%221%22/%3E%3Carea%20shape%3D%22rect%22%20coords%3D%22753%2C352%2C813%2C373%22%20href%3D%22karen-profile.bmml%22%20alt%3D%22karen-profile%22%20id%3D%221%22/%3E%3Carea%20shape%3D%22rect%22%20coords%3D%22753%2C352%2C813%2C373%22%20href%3D%22karen-profile.bmml%22%20alt%3D%22karen-profile%22%20id%3D%221%22/%3E%3Carea%20shape%3D%22rect%22%20coords%3D%22753%2C352%2C813%2C373%22%20href%3D%22karen-profile.bmml%22%20alt%3D%22karen-profile%22%20id%3D%221%22/%3E</map>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22756%2C352%2C819%2C373%22%20href%3D%22karen-profile.bmml%22%20alt%3D%22karen-profile%22%20id%3D%221%22/%3E%3Carea%20shape%3D%22rect%22%20coords%3D%22756%2C352%2C819%2C373%22%20href%3D%22karen-profile.bmml%22%20alt%3D%22karen-profile%22%20id%3D%221%22/%3E%3Carea%20shape%3D%22rect%22%20coords%3D%22756%2C352%2C819%2C373%22%20href%3D%22karen-profile.bmml%22%20alt%3D%22karen-profile%22%20id%3D%221%22/%3E%3Carea%20shape%3D%22rect%22%20coords%3D%22756%2C352%2C819%2C373%22%20href%3D%22karen-profile.bmml%22%20alt%3D%22karen-profile%22%20id%3D%221%22/%3E%3Carea%20shape%3D%22rect%22%20coords%3D%22756%2C352%2C819%2C373%22%20href%3D%22karen-profile.bmml%22%20alt%3D%22karen-profile%22%20id%3D%221%22/%3E</map>
         <src>./assets/elements.bmml#study-abstract</src>
       </controlProperties>
     </control>
-    <control controlID="60" controlTypeID="com.balsamiq.mockups::Component" x="152" y="690" w="780" h="168" measuredW="780" measuredH="168" zOrder="5" locked="false" isInGroup="-1">
+    <control controlID="60" controlTypeID="com.balsamiq.mockups::Component" x="152" y="666" w="780" h="144" measuredW="780" measuredH="144" zOrder="5" locked="false" isInGroup="-1">
       <controlProperties>
         <src>./assets/elements.bmml#citation</src>
       </controlProperties>
     </control>
-    <control controlID="61" controlTypeID="com.balsamiq.mockups::Component" x="151" y="609" w="779" h="62" measuredW="779" measuredH="62" zOrder="6" locked="false" isInGroup="-1">
+    <control controlID="61" controlTypeID="com.balsamiq.mockups::Component" x="151" y="609" w="779" h="38" measuredW="779" measuredH="38" zOrder="6" locked="false" isInGroup="-1">
       <controlProperties>
-        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%2276%2C641%2C316%2C668%22%20href%3D%22study-public-request.bmml%22%20alt%3D%22study-public-request%22%20id%3D%222%22/%3E%3Carea%20shape%3D%22rect%22%20coords%3D%2276%2C641%2C316%2C668%22%20href%3D%22study-public-request.bmml%22%20alt%3D%22study-public-request%22%20id%3D%222%22/%3E%3Carea%20shape%3D%22rect%22%20coords%3D%2276%2C641%2C316%2C668%22%20href%3D%22study-public-request.bmml%22%20alt%3D%22study-public-request%22%20id%3D%222%22/%3E%3Carea%20shape%3D%22rect%22%20coords%3D%2276%2C641%2C316%2C668%22%20href%3D%22study-public-request.bmml%22%20alt%3D%22study-public-request%22%20id%3D%222%22/%3E%3Carea%20shape%3D%22rect%22%20coords%3D%2276%2C641%2C316%2C668%22%20href%3D%22study-public-request.bmml%22%20alt%3D%22study-public-request%22%20id%3D%222%22/%3E</map>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%2276%2C617%2C282%2C644%22%20href%3D%22study-public-request.bmml%22%20alt%3D%22study-public-request%22%20id%3D%222%22/%3E%3Carea%20shape%3D%22rect%22%20coords%3D%2276%2C617%2C282%2C644%22%20href%3D%22study-public-request.bmml%22%20alt%3D%22study-public-request%22%20id%3D%222%22/%3E%3Carea%20shape%3D%22rect%22%20coords%3D%2276%2C617%2C282%2C644%22%20href%3D%22study-public-request.bmml%22%20alt%3D%22study-public-request%22%20id%3D%222%22/%3E%3Carea%20shape%3D%22rect%22%20coords%3D%2276%2C617%2C282%2C644%22%20href%3D%22study-public-request.bmml%22%20alt%3D%22study-public-request%22%20id%3D%222%22/%3E%3Carea%20shape%3D%22rect%22%20coords%3D%2276%2C617%2C282%2C644%22%20href%3D%22study-public-request.bmml%22%20alt%3D%22study-public-request%22%20id%3D%222%22/%3E</map>
         <src>./assets/elements.bmml#request-access</src>
       </controlProperties>
     </control>
