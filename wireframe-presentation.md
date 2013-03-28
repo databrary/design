@@ -41,6 +41,9 @@ CREATED : Databrary home page (add search box, full color)
 - [x]: fix NSF link with grant #
 
 
+CREATED: Search Initiation Page
+- [image: search initiation](./search-initiation.png)
+
 
 UPDATED: Search results page   
 - search for "walking" and/or "Adolph"
