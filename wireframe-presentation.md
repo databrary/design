@@ -106,15 +106,19 @@ CREATED : Study:Participant page
 - coding spreadsheet "Datavyu"
 - download all as zip file
 - comment/tagging template
-- [?] breadcrumbs on top back to study : there is link back to study in current version, is this sufficient?
+- [x] breadcrumbs added, 
+  - [ ] do we need breadcrumbs everywhere? if so, spacing will be tight on study page
 - [x] change "preview" to "view"
 - [image: study-participant](./study-participant.png)
   
-NEW : Video page (viewer, download link)
+  
+CREATED : Video page (viewer, download link)
 
 - comment/tagging template
 - breadcrumbs back to participant, study
 - representative still frame
+  - [ ] please provide different still frame if desired
+
 
 ### Contribution
 

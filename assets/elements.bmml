@@ -77,7 +77,7 @@
         </control>
       </groupChildrenDescriptors>
     </control>
-    <control controlID="4" controlTypeID="com.balsamiq.mockups::TextArea" x="369" y="74" w="404" h="98" measuredW="200" measuredH="140" zOrder="0" locked="false" isInGroup="-1">
+    <control controlID="4" controlTypeID="com.balsamiq.mockups::TextArea" x="369" y="74" w="802" h="98" measuredW="200" measuredH="140" zOrder="0" locked="false" isInGroup="-1">
       <controlProperties>
         <color>0</color>
         <text/>
@@ -1643,6 +1643,20 @@
           </groupChildrenDescriptors>
         </control>
       </groupChildrenDescriptors>
+    </control>
+    <control controlID="113" controlTypeID="com.balsamiq.mockups::BreadCrumbs" x="626" y="18" w="-1" h="-1" measuredW="463" measuredH="25" zOrder="33" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>14</size>
+        <text>Home%2C%20Infants%20Navigating%20Risky%20Gaps%2C%20Participant%202%20Data%2C%20View%20Video</text>
+      </controlProperties>
+    </control>
+    <control controlID="118" controlTypeID="com.balsamiq.mockups::Label" x="660" y="89" w="-1" h="-1" measuredW="487" measuredH="22" zOrder="34" locked="false" isInGroup="-1">
+      <controlProperties>
+        <bold>true</bold>
+        <color>16777215</color>
+        <size>14</size>
+        <text>%26Home%26%20%3E%20%26Infants%20Navigating%20Risky%20Gaps%26%20%3E%20%26Participant%202%20Data%26%20%3E%20View%20Video</text>
+      </controlProperties>
     </control>
   </controls>
 </mockup>
