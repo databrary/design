@@ -73,8 +73,8 @@ UPDATED: Study page (Authorized View)
 - Documents tab: Study manual, IRB protocol, Blank consent form, Coding manual, Video display
   - [image: study, authorized view, documents tab active](./study-authorized-view-documents.png)
 - Data tab: Table of participants: participant ID, age at test, # videos, # data files   
-  - [ ] remove labels/comments from participant list
-  - [ ] add comments/tag template on bottom of page (maybe just cut off top)
+  - [x] remove labels/comments from participant list
+  - [x] add comments/tag template on bottom of page (maybe just cut off top)
   - [image: study, authorized view, data tab active](./study-authorized-view-data.png)
 
 
@@ -118,15 +118,17 @@ CREATED : Video page (viewer, download link)
 - breadcrumbs back to participant, study
 - representative still frame
   - [ ] please provide different still frame if desired
+- [image: study-participant-viewer](./study-participant-viewer.png)
 
 
 ### Contribution
 
-NEW : Dashboard (post login)
+CREATED : Dashboard (post login)
 
 - studies
 - search
 - user authorization
+- [image: investigator dashboard](./investigator-dashboard.png)
 
 
 NEW : Blank study page (base on Study page)
@@ -147,6 +149,7 @@ NEW : Upload page
 
 - description
 - acquisition date
+
 
 ### Access management
 
