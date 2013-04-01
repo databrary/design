@@ -22,29 +22,32 @@ Legend:
 
 entity table
 	name text public
-	level enum public
-		ROOT/ADMIN
-		INSTITUTION
-		ADMINISTRATOR
-		CONTRIBUTOR -- only faculty can be contributors?
-		FACULTY -- may be the same as contributor
-		MEMBER -- students, staff, peons
-		UNKNOWN/NULL -- not yet authorized (implies no parents)
 	address text user -- should perhaps be broken down
 
 trust table
+	child entity unique(parent,child)
 	parent entity
-	child entity unique(parent,child) | parent.level < child.level
-	inheritance enum
+	access enum -- child level of access to site
 		NONE
-		READ -- default
+		BROWSE -- browsing only, no creation/editing (affiliate)
+		FULL -- full site access including creation
+	delegation enum -- child level of access to parent
+		NONE
+		VIEW
+		EDIT
 		ADMIN
 	authorized timestamp
+	expiry timestamp
+
+trust_request table internal
+	requested timestamp
+	child entity
+	parent entity
 
 account table
 	entity id unique
 	creation timestamp
-	username text
+	username text unique
 	email text
 	timezone timezone -- for display
 
@@ -54,11 +57,6 @@ account_request table internal
 	email text user
 	token text -- long random string
 
-authorize_request table internal
-	creation timestamp
-	user entity
-	parent entity
-
 study table
 	creation timestamp
 	title text user public
@@ -66,12 +64,13 @@ study table
 	users set public
 		user entity unique
 		type enum
-			OWNER
-			MANAGER
-			VIEWER
-		inherited boolean | type != OWNER OR NOT inherited -- applies to all descendents
+			VIEW
+			DATA
+			EDIT
+			OWN
+		inherited boolean | type != OWN OR NOT inherited -- applies to all descendents
 		effective timestamp -- effective as of this date (possibly future?)
-		-- e.g, (ROOT, VIEWER, TRUE) means "shared"
+		-- e.g, (ROOT, DATA, TRUE) means typical "shared"
 	inclusion set public
 		study study
 		-- ...
@@ -81,10 +80,6 @@ acquisition table
 	study study
 	index text optional user -- subject id or something
 	acquisition date public user
-	consent enum -- these are intersected with study.users permissions
-		NONE -- never honor VIEWERS
-		DATABRARY -- at most authorized users
-		EXCERPTS -- additionally make excerpt objects (TBD) public
 	participant set
 		id text optional user
 		gender enum optional
@@ -100,19 +95,28 @@ object table -- file blobs in storage
 	name text user public -- filename perhaps?
 	description long-text user optional public
 	date date user optional public
-	supersedes object user
+	supersedes object user optional
+	consent enum -- these are intersected with study.users permissions
+		PRIVATE -- never honor VIEWERS
+		DATABRARY -- at most authorized users
+		EXCERPTS -- additionally make excerpt objects (TBD) public
+		DEIDENTIFIED -- contains participant data but no personal identifiers
+		PUBLIC -- no participant data 
 
-material table : object
-	study study
-
-data table : object
-	acquisiton acquisition
-	session optional
-
-timeseries table : data
+timeseries table : object
 	resolution float -- Hz
 	length interval
 	offset interval optional -- starting point within acquisition session, for synchronization
+
+material table
+	object object
+	study study
+
+data table
+	object object
+	acquisiton acquisition
+	session optional
+	primary boolean -- original acquisition source
 
 article table -- : object if PDF
 	author set
@@ -126,7 +130,7 @@ study_article table
 	article article
 
 tag table public -- the set of possible tags
-	name text unique -- [a-z -]+
+	name text unique -- [a-z-]+
 
 tag_description table public
 	creation timestamp
@@ -147,11 +151,5 @@ tag_acquisition table : tag_item
 
 tag_object table : tag_item
 	object object
-
-audit table -- log of all modification activity
-	when timestamp
-	user account
-	target oid
-	-- ...?
 
 -- modification, revision control features?
