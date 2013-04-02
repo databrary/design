@@ -27,11 +27,12 @@ entity table
 trust table
 	child entity unique(parent,child)
 	parent entity
-	access enum -- child level of access to site
+	access enum -- child level of access to site (inherited)
 		NONE
 		BROWSE -- browsing only, no creation/editing (affiliate)
 		FULL -- full site access including creation
-	delegation enum -- child level of access to parent
+		GRANT -- can grant full site access
+	delegation enum -- child level of access to parent (not inherited)
 		NONE
 		VIEW
 		EDIT

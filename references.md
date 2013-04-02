@@ -22,6 +22,7 @@ If nothing else, a dumping ground for interesting things we should check out.
 ## Technologies
 
 * Obviously: [DOI](http://www.doi.org)
+* [Shibboleth service provider](https://shibboleth.net/products/service-provider.html) allows authentication through universities' SSO identity providers, [open source](https://wiki.shibboleth.net/confluence/display/SHIB2/NativeSPLinuxSourceBuild)
 * [OpenID](http://wiki.openid.net/w/page/12995211/OpenID_Authentication_2)
 * [BrowserID](https://browserid.org/)
 * [Liquibase](http://www.liquibase.org/) is an alternative to rails migrations that stays closer to SQL and thus provides full access to database features.

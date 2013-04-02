@@ -19,12 +19,15 @@ The total population of potential users of the site is estimated to be in the th
 ## Entity permissions
 
 Each entity (except root) may be associated with one or more parent entities of a higher level.
-Each association represents a trust relationship from parent to child, called an *authorization*, and is associated with a set of inherited permissions:
+Each association represents a trust relationship from parent to child, called an *authorization*, and is associated with a set of inherited site permissions:
+- Browse: the child can access the site including generally shared data if the parent can
+- Full: the child can create and edit studies of their own if the parent can, and grant Browse permission
+- Grant: the child can grant full site permission to children of their own
+
+Each authorization is also associated with a non-inherited delegation:
+- View: the child can access any data shared with the parent
+- Edit: the child can create and edit any studies owner by the parent
 - Admin: the child can perform any operation the parent can including changing authorizations and permissions (excepting perhaps some personal account details, passwords, etc.)
-- Authorize: the child can authorize (grand-)children (of its own) if the parent can
-- Contribute: the child can create and edit any studies owner by the parent
-- Access: the child can access any data shared with the parent
-- Site: the child can access the site including generally shared data if the parent can
 
 The entity-parent relationship forms a DAG: no authorizations that would form a loop are permitted.
 An entity is said to have X permission over entity Y if there exists a path up through parents to entity Y, all with the X permission.
