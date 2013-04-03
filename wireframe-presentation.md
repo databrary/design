@@ -154,6 +154,12 @@ REQUEST INPUT : Blank study page (base on Study page)
 			- links to add / edit / remove participants
 			- links to add / edit / remove study permissions
 			- [ ]:?: do you need ability to add / edit / remove co-authors?
+			- co-authors are managed in study access management
+	  - simpler option:
+	    - create new study
+	    - Databrary assigns study ID, fills title with "New Study"
+	    - Owner visits study page, which is "manage study", as above
+    - for the purpose of wireframes, we can just use the existing study page or "New Study", "Enter Description Here" with added edit buttons that turn text into editable text fields
 	
 - Documents tab: "new document" 
 - Data tab: "new participant"
@@ -169,6 +175,7 @@ REQUEST INPUT: Blank participant page
 - highlight permissions settings: 2 checkboxes
 - "add new file" link
   - [ ]:?: Is workflow: add participant, then have a "manage participant" view with "add new file" link?
+  - just replace everything on current participant page with text fields/drop downs/edit buttons
 - [image: add participant](./study-participant-new.png)
 
 
@@ -178,6 +185,7 @@ REQUEST INPUT : Upload page
 - description
 - acquisition date
 - [ ]: is this on participant page or for all file types? Is this a dialog or a separate page? 
+- a separate page, basically like the video page with edit links and an upload/replace file field
 
 
 ### Access management
