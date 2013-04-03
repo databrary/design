@@ -1,4 +1,4 @@
-<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="3017" measuredH="1860" mockupW="2998" mockupH="1854">
+<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="3017" measuredH="1860" mockupW="2998" mockupH="1855">
   <controls>
     <control controlID="0" controlTypeID="__group__" x="19" y="6" w="539" h="68" measuredW="539" measuredH="68" zOrder="1" locked="false" isInGroup="-1">
       <controlProperties>
@@ -269,7 +269,7 @@
         <control controlID="1" controlTypeID="com.balsamiq.mockups::Label" x="50" y="6" w="-1" h="-1" measuredW="60" measuredH="21" zOrder="1" locked="false" isInGroup="8">
           <controlProperties>
             <href>karen-profile%26bm%3Bkaren-profile.bmml%26bm%3Bkaren-profile.bmml%26bm%3Bkaren-profile.bmml</href>
-            <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22239%2C94%2C299%2C115%22%20href%3D%22karen-profile.bmml%22%20alt%3D%22karen-profile%22%20id%3D%221%22/%3E</map>
+            <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22239%2C95%2C299%2C116%22%20href%3D%22karen-profile.bmml%22%20alt%3D%22karen-profile%22%20id%3D%221%22/%3E</map>
             <text>KE%20Adolph</text>
             <underline>true</underline>
           </controlProperties>
@@ -634,7 +634,7 @@
         <control controlID="10" controlTypeID="com.balsamiq.mockups::Link" x="17" y="254" w="-1" h="-1" measuredW="286" measuredH="19" zOrder="10" locked="false" isInGroup="22">
           <controlProperties>
             <href>study-public-view%26bm%3Bstudy-public-view.bmml%26bm%3Bstudy-public-view.bmml%26bm%3Bstudy-public-view.bmml</href>
-            <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22206%2C688%2C492%2C707%22%20href%3D%22study-public-view.bmml%22%20alt%3D%22study-public-view%22%20id%3D%2210%22/%3E</map>
+            <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22206%2C689%2C492%2C708%22%20href%3D%22study-public-view.bmml%22%20alt%3D%22study-public-view%22%20id%3D%2210%22/%3E</map>
             <text>Adolph%2C%20KE%202000%2C%20Infants%20Navigating%20Risky%20Gaps</text>
           </controlProperties>
         </control>
@@ -788,7 +788,7 @@
             </control>
             <control controlID="1" controlTypeID="com.balsamiq.mockups::TextArea" x="0" y="50" w="771" h="29" measuredW="200" measuredH="140" zOrder="1" locked="false" isInGroup="7">
               <controlProperties>
-                <text>lorem%20ipsum%20dolor%20sit%20amet%2C%20consectetur%20adipisicing%20elit%2C%20sed%20do%20eiusmod%20tempor%20incididunt%20ut%20labore%20et%20dolore%20magna%20aliqua.%20</text>
+                <text>This%20is%20a%20great%20study%21</text>
               </controlProperties>
             </control>
             <control controlID="2" controlTypeID="com.balsamiq.mockups::Label" x="559" y="26" w="-1" h="-1" measuredW="210" measuredH="21" zOrder="2" locked="false" isInGroup="7">
@@ -836,7 +836,7 @@
             <control controlID="1" controlTypeID="com.balsamiq.mockups::Label" x="53" y="6" w="63" h="-1" measuredW="60" measuredH="21" zOrder="1" locked="false" isInGroup="0">
               <controlProperties>
                 <href>karen-profile%26bm%3Bkaren-profile.bmml%26bm%3Bkaren-profile.bmml%26bm%3Bkaren-profile.bmml</href>
-                <map>%3Carea%20shape%3D%22rect%22%20coords%3D%221932%2C1176%2C1995%2C1197%22%20href%3D%22karen-profile.bmml%22%20alt%3D%22karen-profile%22%20id%3D%221%22/%3E</map>
+                <map>%3Carea%20shape%3D%22rect%22%20coords%3D%221932%2C1177%2C1995%2C1198%22%20href%3D%22karen-profile.bmml%22%20alt%3D%22karen-profile%22%20id%3D%221%22/%3E</map>
                 <text>KE%20Adolph</text>
                 <underline>true</underline>
               </controlProperties>
@@ -1094,7 +1094,7 @@
           <controlProperties>
             <color>40463</color>
             <href>study-public-request%26bm%3Bstudy-public-request.bmml%26bm%3Bstudy-public-request.bmml%26bm%3Bstudy-public-request.bmml</href>
-            <map>%3Carea%20shape%3D%22rect%22%20coords%3D%221190%2C1446%2C1396%2C1473%22%20href%3D%22study-public-request.bmml%22%20alt%3D%22study-public-request%22%20id%3D%222%22/%3E</map>
+            <map>%3Carea%20shape%3D%22rect%22%20coords%3D%221190%2C1447%2C1396%2C1474%22%20href%3D%22study-public-request.bmml%22%20alt%3D%22study-public-request%22%20id%3D%222%22/%3E</map>
             <text>Please%20sign%20in%20to%20access%20Study</text>
           </controlProperties>
         </control>
@@ -1157,7 +1157,7 @@
         </control>
       </groupChildrenDescriptors>
     </control>
-    <control controlID="90" controlTypeID="__group__" x="2238" y="107" w="766" h="127" measuredW="766" measuredH="127" zOrder="24" locked="false" isInGroup="-1">
+    <control controlID="90" controlTypeID="__group__" x="2242" y="162" w="766" h="127" measuredW="766" measuredH="127" zOrder="24" locked="false" isInGroup="-1">
       <controlProperties>
         <controlName>study-authorized-data</controlName>
       </controlProperties>
@@ -1186,7 +1186,7 @@
         </control>
       </groupChildrenDescriptors>
     </control>
-    <control controlID="93" controlTypeID="__group__" x="2238" y="322" w="765" h="140" measuredW="765" measuredH="140" zOrder="25" locked="false" isInGroup="-1">
+    <control controlID="93" controlTypeID="__group__" x="2235" y="5" w="765" h="140" measuredW="765" measuredH="140" zOrder="25" locked="false" isInGroup="-1">
       <controlProperties>
         <controlName>study-authorized-documents</controlName>
       </controlProperties>
@@ -1243,7 +1243,7 @@
         </control>
       </groupChildrenDescriptors>
     </control>
-    <control controlID="96" controlTypeID="__group__" x="2238" y="553" w="761" h="233" measuredW="761" measuredH="233" zOrder="26" locked="false" isInGroup="-1">
+    <control controlID="96" controlTypeID="__group__" x="2252" y="666" w="761" h="233" measuredW="761" measuredH="233" zOrder="26" locked="false" isInGroup="-1">
       <controlProperties>
         <controlName>study-access-level-key</controlName>
       </controlProperties>
@@ -1265,7 +1265,7 @@
         </control>
       </groupChildrenDescriptors>
     </control>
-    <control controlID="104" controlTypeID="__group__" x="2238" y="798" w="762" h="109" measuredW="762" measuredH="109" zOrder="27" locked="false" isInGroup="-1">
+    <control controlID="104" controlTypeID="__group__" x="2252" y="914" w="762" h="109" measuredW="762" measuredH="109" zOrder="27" locked="false" isInGroup="-1">
       <controlProperties>
         <controlName>permission-grant</controlName>
       </controlProperties>
@@ -1315,7 +1315,7 @@
         </control>
       </groupChildrenDescriptors>
     </control>
-    <control controlID="107" controlTypeID="__group__" x="2236" y="917" w="765" h="221" measuredW="765" measuredH="221" zOrder="28" locked="false" isInGroup="-1">
+    <control controlID="107" controlTypeID="__group__" x="2252" y="1030" w="765" h="221" measuredW="765" measuredH="221" zOrder="28" locked="false" isInGroup="-1">
       <controlProperties>
         <controlName>permissions-current-study</controlName>
       </controlProperties>
@@ -1334,7 +1334,7 @@
         </control>
       </groupChildrenDescriptors>
     </control>
-    <control controlID="108" controlTypeID="__group__" x="2252" y="1313" w="765" h="227" measuredW="765" measuredH="227" zOrder="29" locked="false" isInGroup="-1">
+    <control controlID="108" controlTypeID="__group__" x="2252" y="1393" w="765" h="227" measuredW="765" measuredH="227" zOrder="29" locked="false" isInGroup="-1">
       <controlProperties>
         <controlName>db-permissions-current-user</controlName>
       </controlProperties>
@@ -1521,7 +1521,7 @@
         </control>
       </groupChildrenDescriptors>
     </control>
-    <control controlID="110" controlTypeID="__group__" x="2252" y="1164" w="765" h="107" measuredW="765" measuredH="107" zOrder="31" locked="false" isInGroup="-1">
+    <control controlID="110" controlTypeID="__group__" x="2252" y="1269" w="765" h="107" measuredW="765" measuredH="107" zOrder="31" locked="false" isInGroup="-1">
       <controlProperties>
         <controlName>db-permissions-granted-to-me</controlName>
       </controlProperties>
@@ -1657,6 +1657,45 @@
         <size>14</size>
         <text>%26Home%26%20%3E%20%26Infants%20Navigating%20Risky%20Gaps%26%20%3E%20%26Participant%202%20Data%26%20%3E%20View%20Video</text>
       </controlProperties>
+    </control>
+    <control controlID="119" controlTypeID="__group__" x="2242" y="298" w="766" h="116" measuredW="766" measuredH="116" zOrder="35" locked="false" isInGroup="-1">
+      <controlProperties>
+        <controlName>study-authorized-excerpt</controlName>
+      </controlProperties>
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::Label" x="1" y="0" w="-1" h="-1" measuredW="120" measuredH="24" zOrder="0" locked="false" isInGroup="119">
+          <controlProperties>
+            <bold>true</bold>
+            <size>16</size>
+            <text>Study%20Contents</text>
+          </controlProperties>
+        </control>
+        <control controlID="1" controlTypeID="com.balsamiq.mockups::TabBar" x="1" y="24" w="765" h="92" measuredW="243" measuredH="100" zOrder="1" locked="false" isInGroup="119">
+          <controlProperties>
+            <selectedIndex>2</selectedIndex>
+            <text>Documents%2C%20Data%2C%20Excerpts</text>
+          </controlProperties>
+        </control>
+        <control controlID="2" controlTypeID="com.balsamiq.mockups::DataGrid" x="0" y="47" w="765" h="69" measuredW="316" measuredH="65" zOrder="2" locked="false" isInGroup="119">
+          <controlProperties>
+            <align>left</align>
+            <alternateRowColor>16777215</alternateRowColor>
+            <bold>false</bold>
+            <rowHeight>22</rowHeight>
+            <text>Description%20%5E%2C%20%20%20View%2C%20%20%20Acquisition%20Date%20%20%5Ev%0AParticipant%201%20Excerpt%2C%20%2C%201999-12-09%0AParticipant%202%20Excerpt%2C%20%2C%201999-06-07%0A%7B20L%2C%2015C%2C%2015C%7D</text>
+          </controlProperties>
+        </control>
+        <control controlID="3" controlTypeID="com.balsamiq.mockups::Icon" x="413" y="69" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="3" locked="false" isInGroup="119">
+          <controlProperties>
+            <icon>RightFillTriangleIcon%7Cxsmall</icon>
+          </controlProperties>
+        </control>
+        <control controlID="4" controlTypeID="com.balsamiq.mockups::Icon" x="413" y="92" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="4" locked="false" isInGroup="119">
+          <controlProperties>
+            <icon>RightFillTriangleIcon%7Cxsmall</icon>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
     </control>
   </controls>
 </mockup>

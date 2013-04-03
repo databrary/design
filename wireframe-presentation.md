@@ -65,10 +65,10 @@ UPDATED: Study page (Public View)
 - [x]: citation format, instructions, download in RIS/bibtex/etc.
 - [x]: change "Shared on November 2000" to "Shared November 2011"
 - [x]: reduce # video file to 1 each participant, data files to 2
-- [ ] Excerpts tag with a couple videos, description, view
-- [x] change to "Download citation in this format: "
-- [ ]:?: should excerpts be in public view, or in authorized view?
-- [ ] we can drop these and focus on authorized view if these are hard to maintain separately
+- [x]: change to "Download citation in this format: "
+- [x]:?: should excerpts be in public view, or in authorized view?
+- [x] we can drop these and focus on authorized view if these are hard to maintain separately : 
+  - will only appear in Authorized view...
 
 UPDATED: Study page (Authorized View)
 
@@ -77,19 +77,21 @@ UPDATED: Study page (Authorized View)
 - Data tab: Table of participants: participant ID, age at test, # videos, # data files   
   - [x] remove labels/comments from participant list
   - [x] add comments/tag template on bottom of page (maybe just cut off top)
-  - [image: study, authorized view, data tab active](./study-authorized-view-data.png)
+- [x] Excerpts tag with a couple videos, description, view
 
+- [image: study, authorized view, data tab active](./study-authorized-view-data.png)
+- [image: study, authorized view, excerpts tab active](./study-authorized-view-excerpts.png)
 
 - comment/tagging template
   - [x]:?: sign-in to tag / comment: Yes.
   - [x]:?: comment/tagging granularity? at study level, or data/file level?: For now, separate comments/tags at both levels, but the only need to visible on each page.
-  - [ ]:jgp: So: the study page, participant page, and video/datafile page each have their own tags and comments, but they don't need to visible from elsewhere; we may want to consolidate later, but we don't have to decide that now.
+  - [x]:jgp: So: the study page, participant page, and video/datafile page each have their own tags and comments, but they don't need to visible from elsewhere; we may want to consolidate later, but we don't have to decide that now.
 - [x]:?: does "request access" workflow via e-mail still hold? or should user sign-in first?: Let's require logins
 - [x]:?: is "collection details" the correct term?: I think we can use the word "study"; perhaps "study contents"
 - [x]:jgp: logged-in view: make filenames "links" for download, and also add "download all documents as zip file" link.
 - [x] rename "label" to "tag"
 - [x] removed comment "This dataset contains the identities of children and infants, video can be used for research under certain conditions."
-- [ ] change comment filler text everywhere to "This is a great study/video/data!"
+- [x] change comment filler text everywhere to "This is a great study/video/data!"
 
 
 
@@ -98,6 +100,8 @@ CREATED : Login/Register page
 - [image: sign-in](./sign-in.png)
 - [image: registration page](./register.png)
 - [x]: fields on registration page: "Full Name", "Institution" (search/dropdown/other), "Postal address", "Email", "Phone #", password, continue button is "View User Agreement"
+
+
 
 CREATED : Study:Participant page
 
@@ -126,7 +130,7 @@ CREATED : Video page (viewer, download link)
 
 ### Contribution
 
-CREATED : Dashboard (post login)
+NEEDS UPDATES : Dashboard (post login)
 
 - studies
 - search
@@ -135,24 +139,45 @@ CREATED : Dashboard (post login)
 - [ ]: I'd like these to be icons/stills of studies under specific feeds rather than tables: "In My Lab", "From Rick Gilmore", "New walking Studies". can pull at least 5 stills from http://www.psych.nyu.edu/adolph/index.php?page=research
 
 
-NEW : Blank study page (base on Study page)
+REQUEST INPUT : Blank study page (base on Study page)
 
 - same as study page with blank fields, edit links
-- Documents tab: "new document"
+  - [ ] what is work flow? create study (title, abstract) then add files/participants?
+    - if so, then only need title and abstract input fields to create study (and thus assign study id)
+	  - potential workflow: 
+	    - add study (enter study title and abstract)
+		- Databrary assigns study ID
+		- Owner visits "manage study" page
+		  - "manage study" page is basically authorized study view with the following changes:
+		    - no tags / comments
+			- Study Contents table with links to add files / edit file metadata / remove files
+			- links to add / edit / remove participants
+			- links to add / edit / remove study permissions
+			- [ ]:?: do you need ability to add / edit / remove co-authors?
+	
+- Documents tab: "new document" 
 - Data tab: "new participant"
 - link to access management
+- [image: add study](./study-authorized-new.png)
+- [image: add study](./study-authorized-edit.png)
 
 
-NEW : Blank participant page
+
+REQUEST INPUT: Blank participant page
 
 - same as participant page with blank fields, edit links
 - highlight permissions settings: 2 checkboxes
 - "add new file" link
+  - [ ]:?: Is workflow: add participant, then have a "manage participant" view with "add new file" link?
+- [image: add participant](./study-participant-new.png)
 
-NEW : Upload page
+
+
+REQUEST INPUT : Upload page
 
 - description
 - acquisition date
+- [ ]: is this on participant page or for all file types? Is this a dialog or a separate page? 
 
 
 ### Access management

@@ -23,31 +23,29 @@
     </control>
     <control controlID="68" controlTypeID="com.balsamiq.mockups::Component" x="154" y="130" w="800" h="259" measuredW="800" measuredH="259" zOrder="4" locked="false" isInGroup="-1">
       <controlProperties>
-        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22760%2C345%2C823%2C366%22%20href%3D%22karen-profile.bmml%22%20alt%3D%22karen-profile%22%20id%3D%221%22/%3E%3Carea%20shape%3D%22rect%22%20coords%3D%22760%2C345%2C823%2C366%22%20href%3D%22karen-profile.bmml%22%20alt%3D%22karen-profile%22%20id%3D%221%22/%3E</map>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22760%2C345%2C823%2C366%22%20href%3D%22karen-profile.bmml%22%20alt%3D%22karen-profile%22%20id%3D%221%22/%3E</map>
         <src>./assets/elements.bmml#study-abstract</src>
       </controlProperties>
     </control>
-    <control controlID="73" controlTypeID="com.balsamiq.mockups::Component" x="154" y="366" w="766" h="127" measuredW="766" measuredH="127" zOrder="5" locked="false" isInGroup="-1">
-      <controlProperties>
-        <src>./assets/elements.bmml#study-authorized-data</src>
-      </controlProperties>
-    </control>
-    <control controlID="75" controlTypeID="com.balsamiq.mockups::Component" x="154" y="557" w="780" h="144" measuredW="780" measuredH="144" zOrder="6" locked="false" isInGroup="-1">
+    <control controlID="75" controlTypeID="com.balsamiq.mockups::Component" x="154" y="545" w="780" h="144" measuredW="780" measuredH="144" zOrder="5" locked="false" isInGroup="-1">
       <controlProperties>
         <src>./assets/elements.bmml#citation</src>
       </controlProperties>
     </control>
-    <control controlID="76" controlTypeID="com.balsamiq.mockups::Component" x="154" y="510" w="779" h="34" measuredW="779" measuredH="34" zOrder="7" locked="false" isInGroup="-1">
+    <control controlID="76" controlTypeID="com.balsamiq.mockups::Component" x="154" y="498" w="779" h="34" measuredW="779" measuredH="34" zOrder="6" locked="false" isInGroup="-1">
       <controlProperties>
         <src>./assets/elements.bmml#label-template</src>
       </controlProperties>
     </control>
-    <control controlID="77" controlTypeID="com.balsamiq.mockups::Component" x="157" y="715" w="779" h="146" measuredW="779" measuredH="146" zOrder="8" locked="false" isInGroup="-1">
+    <control controlID="77" controlTypeID="com.balsamiq.mockups::Component" x="157" y="703" w="779" h="146" measuredW="779" measuredH="146" zOrder="7" locked="false" isInGroup="-1">
       <controlProperties>
-        <override controlID="7:1">
-          <text>This%20is%20great%20data%21</text>
-        </override>
+        <override controlID="7" x="0" y="0" w="779" h="146"/>
         <src>./assets/elements.bmml#comment-template</src>
+      </controlProperties>
+    </control>
+    <control controlID="78" controlTypeID="com.balsamiq.mockups::Component" x="154" y="373" w="766" h="104" measuredW="766" measuredH="104" zOrder="8" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>./assets/elements.bmml#study-authorized-excerpt</src>
       </controlProperties>
     </control>
   </controls>
