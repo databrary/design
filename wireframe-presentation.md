@@ -43,6 +43,7 @@ CREATED : Databrary home page (add search box, full color)
 
 CREATED: Search Initiation Page
 - [image: search initiation](./search-initiation.png)
+- [ ] let's drop this if it's a pain to maintain; it doesn't add much
 
 
 UPDATED: Search results page   
@@ -67,6 +68,7 @@ UPDATED: Study page (Public View)
 - [ ] Excerpts tag with a couple videos, description, view
 - [x] change to "Download citation in this format: "
 - [ ]:?: should excerpts be in public view, or in authorized view?
+- [ ] we can drop these and focus on authorized view if these are hard to maintain separately
 
 UPDATED: Study page (Authorized View)
 
@@ -87,6 +89,7 @@ UPDATED: Study page (Authorized View)
 - [x]:jgp: logged-in view: make filenames "links" for download, and also add "download all documents as zip file" link.
 - [x] rename "label" to "tag"
 - [x] removed comment "This dataset contains the identities of children and infants, video can be used for research under certain conditions."
+- [ ] change comment filler text everywhere to "This is a great study/video/data!"
 
 
 
@@ -107,7 +110,7 @@ CREATED : Study:Participant page
 - download all as zip file
 - comment/tagging template
 - [x] breadcrumbs added, 
-  - [ ] do we need breadcrumbs everywhere? if so, spacing will be tight on study page
+  - [x] do we need breadcrumbs everywhere? if so, spacing will be tight on study page: as is looks fine now
 - [x] change "preview" to "view"
 - [image: study-participant](./study-participant.png)
   
@@ -129,6 +132,7 @@ CREATED : Dashboard (post login)
 - search
 - user authorization
 - [image: investigator dashboard](./investigator-dashboard.png)
+- [ ]: I'd like these to be icons/stills of studies under specific feeds rather than tables: "In My Lab", "From Rick Gilmore", "New walking Studies". can pull at least 5 stills from http://www.psych.nyu.edu/adolph/index.php?page=research
 
 
 NEW : Blank study page (base on Study page)
