@@ -265,7 +265,16 @@ There will be a complex permissions system specifying which objects may be share
 Various permissions documents will establish specifications for these.
 This may also involve partial access, for example to metadata for an object but not its content, or to a restricted portion of a video.
 
-#### Excerpts
+In particular each object will be associated with one of the following sharing levels:
+* Private: not released for sharing on Databrary; only accessible to study members
+* Databrary: released to authorized Databrary users, but not available to the public
+* Excerpts: certain excerpts from this object may be released publicly if specified
+* Deidentified: contains participant data but no personal identifiers; candidate for public release
+* Open: no participant data and no restrictions on release
+
+These permissions are intersected with any other permissions that might apply to the object, such as study sharing permissions.
+
+#### Public Excerpts
 
 Acquisitions which have appropriately granted participant permissions allow the data owner to specify excerpts.
 Excerpts may be still images, a few seconds from a video, or some other spatially or temporally restricted part of a data object.
@@ -285,9 +294,18 @@ This feature may also be useful for generating excerpts.
 
 # Community
 
+## Excerpts
+
+A primary method by which users may share, highlight, suggest, and comment on data is through excerpts.
+These excerpts include but are not limited to publicly available excerpts allowed by sharing permissions.
+Ideally, a tag, comment, study document, or any other communication on the site should be able to link to an excerpt.
+Unless that excerpt is explicitly labeled public, the same permissions apply to the excerpt as the original object.
+An excerpt is a single time point or time range in a video object.
+Ideally these can be served directly from the original file.
+
 ## Tags
 
-Users can add *tags* or keywords to studies, acquisitions, data objects, materials, and articles.
+Users can add *tags* or keywords to studies, acquisitions, data objects, excerpts, materials, and articles.
 Tagging provides an important resource for searching and browsing.
 However, it is important to remember that the number of users will be quite small compared to many other tagging communities, and so aggregate information across may be more noisy and less reliable.
 On the other hand, tagging by users is likely to be more accurate, and so the primary concern will be tagset normalization (i.e., collapsing different tags representing identical concepts).  
