@@ -14,6 +14,7 @@
     <control controlID="61" controlTypeID="com.balsamiq.mockups::Component" x="77" y="919" w="964" h="33" measuredW="964" measuredH="33" zOrder="2" locked="false" isInGroup="-1">
       <controlProperties>
         <override controlID="0" x="0" y="0" w="964" h="33"/>
+        <override controlID="-1"/>
         <src>./assets/elements.bmml#footer</src>
       </controlProperties>
     </control>
@@ -22,73 +23,90 @@
         <src>./assets/elements.bmml#header-post_authn</src>
       </controlProperties>
     </control>
-    <control controlID="86" controlTypeID="__group__" x="234" y="240" w="385" h="232" measuredW="385" measuredH="232" zOrder="4" locked="false" isInGroup="-1">
+    <control controlID="86" controlTypeID="__group__" x="235" y="240" w="384" h="248" measuredW="384" measuredH="248" zOrder="4" locked="false" isInGroup="-1">
       <groupChildrenDescriptors>
-        <control controlID="16" controlTypeID="com.balsamiq.mockups::Label" x="20" y="2" w="113" h="-1" measuredW="109" measuredH="24" zOrder="0" locked="false" isInGroup="86">
+        <control controlID="16" controlTypeID="com.balsamiq.mockups::Label" x="22" y="1" w="113" h="-1" measuredW="109" measuredH="24" zOrder="0" locked="false" isInGroup="86">
           <controlProperties>
+            <align>right</align>
             <bold>true</bold>
             <size>16</size>
             <text>Participant%20ID%3A</text>
           </controlProperties>
         </control>
-        <control controlID="17" controlTypeID="com.balsamiq.mockups::Label" x="37" y="36" w="97" h="-1" measuredW="93" measuredH="24" zOrder="1" locked="false" isInGroup="86">
+        <control controlID="17" controlTypeID="com.balsamiq.mockups::Label" x="31" y="40" w="-1" h="-1" measuredW="104" measuredH="24" zOrder="1" locked="false" isInGroup="86">
           <controlProperties>
+            <align>right</align>
             <bold>true</bold>
             <size>16</size>
-            <text>Age%20at%20Test%3A</text>
+            <text>Date%20of%20Birth%3A</text>
           </controlProperties>
         </control>
-        <control controlID="19" controlTypeID="com.balsamiq.mockups::Label" x="35" y="116" w="99" h="-1" measuredW="95" measuredH="24" zOrder="2" locked="false" isInGroup="86">
+        <control controlID="19" controlTypeID="com.balsamiq.mockups::Label" x="36" y="166" w="99" h="-1" measuredW="95" measuredH="24" zOrder="2" locked="false" isInGroup="86">
           <controlProperties>
+            <align>right</align>
             <bold>true</bold>
             <size>16</size>
             <text>Permissions%3A</text>
           </controlProperties>
         </control>
-        <control controlID="20" controlTypeID="com.balsamiq.mockups::Label" x="0" y="73" w="133" h="-1" measuredW="128" measuredH="24" zOrder="3" locked="false" isInGroup="86">
+        <control controlID="20" controlTypeID="com.balsamiq.mockups::Label" x="2" y="123" w="133" h="-1" measuredW="126" measuredH="24" zOrder="3" locked="false" isInGroup="86">
           <controlProperties>
+            <align>right</align>
             <bold>true</bold>
             <size>16</size>
-            <text>Race%20/%20Ethnicity%3A</text>
+            <text>Racial%20Category%3A</text>
           </controlProperties>
         </control>
-        <control controlID="27" controlTypeID="com.balsamiq.mockups::TextInput" x="150" y="0" w="79" h="-1" measuredW="79" measuredH="26" zOrder="4" locked="false" isInGroup="86">
+        <control controlID="27" controlTypeID="com.balsamiq.mockups::TextInput" x="149" y="0" w="79" h="-1" measuredW="79" measuredH="26" zOrder="4" locked="false" isInGroup="86">
           <controlProperties>
             <text/>
           </controlProperties>
         </control>
-        <control controlID="28" controlTypeID="com.balsamiq.mockups::TextInput" x="150" y="38" w="79" h="-1" measuredW="79" measuredH="26" zOrder="5" locked="false" isInGroup="86">
+        <control controlID="30" controlTypeID="com.balsamiq.mockups::ComboBox" x="149" y="123" w="235" h="-1" measuredW="63" measuredH="24" zOrder="5" locked="false" isInGroup="86">
           <controlProperties>
-            <text/>
+            <text>Asian</text>
           </controlProperties>
         </control>
-        <control controlID="30" controlTypeID="com.balsamiq.mockups::ComboBox" x="150" y="73" w="235" h="-1" measuredW="235" measuredH="24" zOrder="6" locked="false" isInGroup="86">
-          <controlProperties>
-            <text>American%20Indian%20or%20Alaskan%20Native</text>
-          </controlProperties>
-        </control>
-        <control controlID="31" controlTypeID="com.balsamiq.mockups::CheckBox" x="150" y="116" w="142" h="22" measuredW="142" measuredH="22" zOrder="7" locked="false" isInGroup="86">
+        <control controlID="31" controlTypeID="com.balsamiq.mockups::CheckBox" x="149" y="166" w="142" h="22" measuredW="142" measuredH="22" zOrder="6" locked="false" isInGroup="86">
           <controlProperties>
             <text>Shared%20on%20Databrary</text>
           </controlProperties>
         </control>
-        <control controlID="32" controlTypeID="com.balsamiq.mockups::CheckBox" x="150" y="138" w="123" h="22" measuredW="123" measuredH="22" zOrder="8" locked="false" isInGroup="86">
+        <control controlID="32" controlTypeID="com.balsamiq.mockups::CheckBox" x="149" y="188" w="123" h="22" measuredW="123" measuredH="22" zOrder="7" locked="false" isInGroup="86">
           <controlProperties>
             <text>Excerpts%20Allowed</text>
           </controlProperties>
         </control>
-        <control controlID="33" controlTypeID="com.balsamiq.mockups::Button" x="150" y="205" w="133" h="27" measuredW="133" measuredH="27" zOrder="9" locked="false" isInGroup="86">
+        <control controlID="33" controlTypeID="com.balsamiq.mockups::Button" x="149" y="221" w="133" h="27" measuredW="133" measuredH="27" zOrder="8" locked="false" isInGroup="86">
           <controlProperties>
             <color>40463</color>
             <size>16</size>
             <text>Add%20Participant</text>
           </controlProperties>
         </control>
-        <control controlID="34" controlTypeID="com.balsamiq.mockups::Button" x="290" y="205" w="74" h="27" measuredW="74" measuredH="27" zOrder="10" locked="false" isInGroup="86">
+        <control controlID="34" controlTypeID="com.balsamiq.mockups::Button" x="289" y="221" w="74" h="27" measuredW="74" measuredH="27" zOrder="9" locked="false" isInGroup="86">
           <controlProperties>
             <color>13421772</color>
             <size>16</size>
             <text>Cancel</text>
+          </controlProperties>
+        </control>
+        <control controlID="35" controlTypeID="com.balsamiq.mockups::DateChooser" x="149" y="40" w="-1" h="-1" measuredW="90" measuredH="25" zOrder="10" locked="false" isInGroup="86">
+          <controlProperties>
+            <text>%20%20/%20%20/</text>
+          </controlProperties>
+        </control>
+        <control controlID="36" controlTypeID="com.balsamiq.mockups::Label" x="2" y="80" w="133" h="-1" measuredW="32" measuredH="24" zOrder="11" locked="false" isInGroup="86">
+          <controlProperties>
+            <align>right</align>
+            <bold>true</bold>
+            <size>16</size>
+            <text>Sex%3A</text>
+          </controlProperties>
+        </control>
+        <control controlID="37" controlTypeID="com.balsamiq.mockups::ComboBox" x="149" y="80" w="235" h="-1" measuredW="73" measuredH="24" zOrder="12" locked="false" isInGroup="86">
+          <controlProperties>
+            <text>Female</text>
           </controlProperties>
         </control>
       </groupChildrenDescriptors>

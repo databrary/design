@@ -23,6 +23,14 @@ Grant access to new lab member, add to study.
 - dashboard: shows request, links to...
 - user authorization page
 
+## Use cases from conversation with Karen (2013-04-03):
+- re-use is key: Investigator wants determine if available data can be used for new study
+  - review at study protocol, how was the study performed?
+  - find number of participants
+  - view video excerpts 
+- labs may want to create excerpts for internal use  
+  - e.g., clip showing how to put an eye tracker on a baby
+
 ## list of wireframes and flow for presentation
 
 ### General Questions
@@ -137,6 +145,7 @@ NEEDS UPDATES : Dashboard (post login)
 - user authorization
 - [image: investigator dashboard](./investigator-dashboard.png)
 - [ ]: I'd like these to be icons/stills of studies under specific feeds rather than tables: "In My Lab", "From Rick Gilmore", "New walking Studies". can pull at least 5 stills from http://www.psych.nyu.edu/adolph/index.php?page=research
+- [ ]: please provide links to stills. following link above I found two images that might be useful for "Adolph walking" search results.  Also, need stills for dashboard.
 
 
 REQUEST INPUT : Blank study page (base on Study page)
@@ -169,7 +178,7 @@ REQUEST INPUT : Blank study page (base on Study page)
 
 
 
-REQUEST INPUT: Blank participant page
+REVISE: Blank participant page
 
 - same as participant page with blank fields, edit links
 - highlight permissions settings: 2 checkboxes
@@ -177,14 +186,14 @@ REQUEST INPUT: Blank participant page
   - [ ]:?: Is workflow: add participant, then have a "manage participant" view with "add new file" link?
   - just replace everything on current participant page with text fields/drop downs/edit buttons
 - [image: add participant](./study-participant-new.png)
+- racial categories from NIH: http://grants.nih.gov/grants/guide/notice-files/not-od-01-053.html
 
 
-
-REQUEST INPUT : Upload page
+NEW : Upload page
 
 - description
 - acquisition date
-- [ ]: is this on participant page or for all file types? Is this a dialog or a separate page? 
+- [x]: is this on participant page or for all file types? Is this a dialog or a separate page? 
 - a separate page, basically like the video page with edit links and an upload/replace file field
 
 
@@ -236,3 +245,5 @@ CREATED : User view : Access management
   - Full: full access to Databrary as an authorized investigator
   - Admin: delegate all my permissions to edit and authorize users
 - [image: user permissions tree](./user-permissions-management-tree.png)
+
+-------------------------------------------------------------------------------

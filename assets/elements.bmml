@@ -1,4 +1,4 @@
-<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="3017" measuredH="1860" mockupW="2998" mockupH="1855">
+<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="3690" measuredH="1860" mockupW="3671" mockupH="1855">
   <controls>
     <control controlID="0" controlTypeID="__group__" x="19" y="6" w="539" h="68" measuredW="539" measuredH="68" zOrder="1" locked="false" isInGroup="-1">
       <controlProperties>
@@ -576,7 +576,7 @@
         </control>
       </groupChildrenDescriptors>
     </control>
-    <control controlID="22" controlTypeID="__group__" x="208" y="440" w="800" h="273" measuredW="800" measuredH="273" zOrder="12" locked="false" isInGroup="-1">
+    <control controlID="22" controlTypeID="__group__" x="208" y="440" w="800" h="277" measuredW="800" measuredH="277" zOrder="12" locked="false" isInGroup="-1">
       <controlProperties>
         <controlName>profile-adolph</controlName>
       </controlProperties>
@@ -589,14 +589,14 @@
             <text>KE%20Adolph</text>
           </controlProperties>
         </control>
-        <control controlID="1" controlTypeID="com.balsamiq.mockups::Label" x="1" y="230" w="-1" h="-1" measuredW="132" measuredH="24" zOrder="1" locked="false" isInGroup="22">
+        <control controlID="1" controlTypeID="com.balsamiq.mockups::Label" x="1" y="234" w="-1" h="-1" measuredW="132" measuredH="24" zOrder="1" locked="false" isInGroup="22">
           <controlProperties>
             <bold>true</bold>
             <size>16</size>
             <text>Shared%20data%20sets</text>
           </controlProperties>
         </control>
-        <control controlID="2" controlTypeID="com.balsamiq.mockups::Image" x="1" y="40" w="130" h="130" measuredW="250" measuredH="253" zOrder="2" locked="false" isInGroup="22">
+        <control controlID="2" controlTypeID="com.balsamiq.mockups::Image" x="3" y="40" w="130" h="130" measuredW="250" measuredH="253" zOrder="2" locked="false" isInGroup="22">
           <controlProperties>
             <src>./assets/karen-adolph.jpg</src>
             <text/>
@@ -613,8 +613,8 @@
             <text>New%20York%20University</text>
           </controlProperties>
         </control>
-        <control controlID="6" controlTypeID="com.balsamiq.mockups::HRule" x="0" y="216" w="793" h="-1" measuredW="100" measuredH="10" zOrder="6" locked="false" isInGroup="22"/>
-        <control controlID="7" controlTypeID="com.balsamiq.mockups::TextArea" x="136" y="38" w="651" h="174" measuredW="200" measuredH="140" zOrder="7" locked="false" isInGroup="22">
+        <control controlID="6" controlTypeID="com.balsamiq.mockups::HRule" x="0" y="220" w="793" h="-1" measuredW="100" measuredH="10" zOrder="6" locked="false" isInGroup="22"/>
+        <control controlID="7" controlTypeID="com.balsamiq.mockups::TextArea" x="138" y="36" w="651" h="182" measuredW="200" measuredH="140" zOrder="7" locked="false" isInGroup="22">
           <controlProperties>
             <borderColor>16777215</borderColor>
             <color>14540253</color>
@@ -631,10 +631,10 @@
             <text>%29</text>
           </controlProperties>
         </control>
-        <control controlID="10" controlTypeID="com.balsamiq.mockups::Link" x="17" y="254" w="-1" h="-1" measuredW="286" measuredH="19" zOrder="10" locked="false" isInGroup="22">
+        <control controlID="10" controlTypeID="com.balsamiq.mockups::Link" x="17" y="258" w="-1" h="-1" measuredW="286" measuredH="19" zOrder="10" locked="false" isInGroup="22">
           <controlProperties>
             <href>study-public-view%26bm%3Bstudy-public-view.bmml%26bm%3Bstudy-public-view.bmml%26bm%3Bstudy-public-view.bmml</href>
-            <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22206%2C689%2C492%2C708%22%20href%3D%22study-public-view.bmml%22%20alt%3D%22study-public-view%22%20id%3D%2210%22/%3E</map>
+            <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22206%2C693%2C492%2C712%22%20href%3D%22study-public-view.bmml%22%20alt%3D%22study-public-view%22%20id%3D%2210%22/%3E</map>
             <text>Adolph%2C%20KE%202000%2C%20Infants%20Navigating%20Risky%20Gaps</text>
           </controlProperties>
         </control>
@@ -1696,6 +1696,12 @@
           </controlProperties>
         </control>
       </groupChildrenDescriptors>
+    </control>
+    <control controlID="120" controlTypeID="com.balsamiq.mockups::Image" x="3056" y="43" w="-1" h="-1" measuredW="634" measuredH="456" zOrder="36" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>./assets/locomotion.png</src>
+        <text/>
+      </controlProperties>
     </control>
   </controls>
 </mockup>

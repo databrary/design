@@ -14,6 +14,7 @@
     <control controlID="61" controlTypeID="com.balsamiq.mockups::Component" x="77" y="919" w="964" h="33" measuredW="964" measuredH="33" zOrder="2" locked="false" isInGroup="-1">
       <controlProperties>
         <override controlID="0" x="0" y="0" w="964" h="33"/>
+        <override controlID="-1"/>
         <src>./assets/elements.bmml#footer</src>
       </controlProperties>
     </control>
@@ -163,10 +164,9 @@
           </groupChildrenDescriptors>
         </control>
         <control controlID="4" controlTypeID="com.balsamiq.mockups::VideoPlayer" x="89" y="18" w="601" h="300" measuredW="300" measuredH="200" zOrder="2" locked="false" isInGroup="93"/>
-        <control controlID="5" controlTypeID="com.balsamiq.mockups::Image" x="89" y="18" w="598" h="248" measuredW="470" measuredH="482" zOrder="3" locked="false" isInGroup="93">
+        <control controlID="6" controlTypeID="com.balsamiq.mockups::Image" x="93" y="21" w="593" h="253" measuredW="634" measuredH="456" zOrder="3" locked="false" isInGroup="93">
           <controlProperties>
-            <src>./assets/navigating-gaps.gif</src>
-            <text/>
+            <src>./assets/locomotion.png</src>
           </controlProperties>
         </control>
       </groupChildrenDescriptors>
@@ -183,6 +183,11 @@
       <controlProperties>
         <size>14</size>
         <text>Home%2C%20Infants%20Navigating%20Risky%20Gaps%2C%20Participant%202%20Data%2C%20View%20Video</text>
+      </controlProperties>
+    </control>
+    <control controlID="97" controlTypeID="com.balsamiq.mockups::StickyNote" x="753" y="204" w="-1" h="-1" measuredW="109" measuredH="123" zOrder="10" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Still%20needs%20birthdate.</text>
       </controlProperties>
     </control>
   </controls>
