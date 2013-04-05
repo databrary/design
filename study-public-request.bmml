@@ -10,12 +10,12 @@
         <color>0</color>
       </controlProperties>
     </control>
-    <control controlID="40" controlTypeID="com.balsamiq.mockups::HRule" x="151" y="593" w="779" h="-1" measuredW="100" measuredH="10" zOrder="2" locked="false" isInGroup="-1">
+    <control controlID="40" controlTypeID="com.balsamiq.mockups::HRule" x="151" y="583" w="779" h="-1" measuredW="100" measuredH="10" zOrder="2" locked="false" isInGroup="-1">
       <controlProperties>
         <backgroundAlpha>0.25</backgroundAlpha>
       </controlProperties>
     </control>
-    <control controlID="45" controlTypeID="com.balsamiq.mockups::TextArea" x="151" y="608" w="764" h="42" measuredW="200" measuredH="140" zOrder="3" locked="false" isInGroup="-1">
+    <control controlID="45" controlTypeID="com.balsamiq.mockups::TextArea" x="151" y="598" w="764" h="42" measuredW="200" measuredH="140" zOrder="3" locked="false" isInGroup="-1">
       <controlProperties>
         <color>6989903</color>
         <text>Your%20request%20to%20access%20this%20dataset%20is%20being%20reviewed%2C%20you%20will%20be%20notified%20by%20email%20with%20access%20details.</text>
@@ -85,43 +85,28 @@
         </control>
       </groupChildrenDescriptors>
     </control>
-    <control controlID="54" controlTypeID="com.balsamiq.mockups::Component" x="150" y="131" w="800" h="259" measuredW="800" measuredH="259" zOrder="4" locked="false" isInGroup="-1">
+    <control controlID="54" controlTypeID="com.balsamiq.mockups::Component" x="150" y="155" w="800" h="259" measuredW="800" measuredH="259" zOrder="4" locked="false" isInGroup="-1">
       <controlProperties>
-        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22752%2C343%2C812%2C364%22%20href%3D%22karen-profile.bmml%22%20alt%3D%22karen-profile%22%20id%3D%221%22/%3E%3Carea%20shape%3D%22rect%22%20coords%3D%22752%2C343%2C812%2C364%22%20href%3D%22karen-profile.bmml%22%20alt%3D%22karen-profile%22%20id%3D%221%22/%3E%3Carea%20shape%3D%22rect%22%20coords%3D%22752%2C343%2C812%2C364%22%20href%3D%22karen-profile.bmml%22%20alt%3D%22karen-profile%22%20id%3D%221%22/%3E%3Carea%20shape%3D%22rect%22%20coords%3D%22752%2C343%2C812%2C364%22%20href%3D%22karen-profile.bmml%22%20alt%3D%22karen-profile%22%20id%3D%221%22/%3E%3Carea%20shape%3D%22rect%22%20coords%3D%22752%2C343%2C812%2C364%22%20href%3D%22karen-profile.bmml%22%20alt%3D%22karen-profile%22%20id%3D%221%22/%3E%3Carea%20shape%3D%22rect%22%20coords%3D%22752%2C343%2C812%2C364%22%20href%3D%22karen-profile.bmml%22%20alt%3D%22karen-profile%22%20id%3D%221%22/%3E%3Carea%20shape%3D%22rect%22%20coords%3D%22752%2C343%2C812%2C364%22%20href%3D%22karen-profile.bmml%22%20alt%3D%22karen-profile%22%20id%3D%221%22/%3E%3Carea%20shape%3D%22rect%22%20coords%3D%22752%2C343%2C812%2C364%22%20href%3D%22karen-profile.bmml%22%20alt%3D%22karen-profile%22%20id%3D%221%22/%3E%3Carea%20shape%3D%22rect%22%20coords%3D%22752%2C343%2C812%2C364%22%20href%3D%22karen-profile.bmml%22%20alt%3D%22karen-profile%22%20id%3D%221%22/%3E%3Carea%20shape%3D%22rect%22%20coords%3D%22752%2C343%2C812%2C364%22%20href%3D%22karen-profile.bmml%22%20alt%3D%22karen-profile%22%20id%3D%221%22/%3E%3Carea%20shape%3D%22rect%22%20coords%3D%22752%2C330%2C812%2C351%22%20href%3D%22karen-profile.bmml%22%20alt%3D%22karen-profile%22%20id%3D%221%22/%3E%3Carea%20shape%3D%22rect%22%20coords%3D%22752%2C330%2C812%2C351%22%20href%3D%22karen-profile.bmml%22%20alt%3D%22karen-profile%22%20id%3D%221%22/%3E%3Carea%20shape%3D%22rect%22%20coords%3D%22752%2C330%2C812%2C351%22%20href%3D%22karen-profile.bmml%22%20alt%3D%22karen-profile%22%20id%3D%221%22/%3E</map>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22755%2C367%2C818%2C388%22%20href%3D%22karen-profile.bmml%22%20alt%3D%22karen-profile%22%20id%3D%221%22/%3E%3Carea%20shape%3D%22rect%22%20coords%3D%22755%2C367%2C818%2C388%22%20href%3D%22karen-profile.bmml%22%20alt%3D%22karen-profile%22%20id%3D%221%22/%3E</map>
         <src>./assets/elements.bmml#study-abstract</src>
       </controlProperties>
     </control>
-    <control controlID="55" controlTypeID="__group__" x="150" y="371" w="773" h="210" measuredW="773" measuredH="210" zOrder="7" locked="false" isInGroup="-1">
-      <controlProperties>
-        <controlName>study-public-documents</controlName>
-      </controlProperties>
-      <groupChildrenDescriptors>
-        <control controlID="0" controlTypeID="com.balsamiq.mockups::Label" x="0" y="0" w="-1" h="-1" measuredW="120" measuredH="24" zOrder="0" locked="false" isInGroup="55">
-          <controlProperties>
-            <bold>true</bold>
-            <size>16</size>
-            <text>Study%20Contents</text>
-          </controlProperties>
-        </control>
-        <control controlID="1" controlTypeID="com.balsamiq.mockups::TabBar" x="1" y="28" w="772" h="182" measuredW="189" measuredH="100" zOrder="1" locked="false" isInGroup="55">
-          <controlProperties>
-            <selectedIndex>0</selectedIndex>
-            <text>Documents%2C%20Data</text>
-          </controlProperties>
-        </control>
-        <control controlID="2" controlTypeID="com.balsamiq.mockups::DataGrid" x="1" y="51" w="772" h="159" measuredW="461" measuredH="141" zOrder="2" locked="false" isInGroup="55">
-          <controlProperties>
-            <align>left</align>
-            <alternateRowColor>16777215</alternateRowColor>
-            <bold>false</bold>
-            <text>Description%20%5E%2C%20%20File%20Name%20%5Ev%2C%20%20File%20Size%20%5Ev%2C%20Modified%20Date%20%20%5Ev%0ABlank%20Consent%20Form%2C%20%20consent-template.doc%2C%20534%20kB%2C%202010-11-28%0ACoding%20Manual%2C%20%20consent-template.doc%2C%20534%20kB%2C%202010-11-28%0AIRB%20Protocol%2C%20%202010-irb.doc%2C%20987%20kB%2C%202010-07-19%0AStudy%20Manual%2C%20%20study_man.doc%2C%20127%20kB%2C%202011-09-27%0A%7B25L%2C%2020L%2C%2010C%2C%2010C%7D</text>
-          </controlProperties>
-        </control>
-      </groupChildrenDescriptors>
-    </control>
-    <control controlID="56" controlTypeID="com.balsamiq.mockups::Component" x="150" y="677" w="780" h="168" measuredW="780" measuredH="168" zOrder="8" locked="false" isInGroup="-1">
+    <control controlID="56" controlTypeID="com.balsamiq.mockups::Component" x="150" y="677" w="780" h="144" measuredW="780" measuredH="144" zOrder="7" locked="false" isInGroup="-1">
       <controlProperties>
         <src>./assets/elements.bmml#citation</src>
+      </controlProperties>
+    </control>
+    <control controlID="57" controlTypeID="com.balsamiq.mockups::Component" x="151" y="426" w="765" h="140" measuredW="765" measuredH="140" zOrder="8" locked="false" isInGroup="-1">
+      <controlProperties>
+        <override controlID="1:1">
+          <text>Description%20%5E%2C%20%20File%20Name%20%5Ev%2C%20File%20Size%20%5Ev%2C%20Modified%20Date%20%20%5Ev%0ABlank%20Consent%20Form%2Cconsent-template.doc%20%2C%20534%20kB%2C%202010-11-28%0ACoding%20Manual%2C%20code_man.doc%2C%20534%20kB%2C%202010-11-28%0AIRB%20Protocol%2C2010-irb.doc%20%2C%20987%20kB%2C%202010-07-19%0AStudy%20Protocol%2Cstudy-protocol.doc%20%2C%20127%20kB%2C%202011-09-27%0A%7B25L%2C%2020L%2C%2010C%2C%2010C%7D</text>
+        </override>
+        <src>./assets/elements.bmml#study-authorized-documents</src>
+      </controlProperties>
+    </control>
+    <control controlID="58" controlTypeID="com.balsamiq.mockups::StickyNote" x="623" y="345" w="-1" h="-1" measuredW="109" measuredH="123" zOrder="9" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Should%20files%20be%20clickable%20in%20public%20view%3F</text>
       </controlProperties>
     </control>
   </controls>

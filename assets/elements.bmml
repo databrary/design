@@ -1,4 +1,4 @@
-<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="3690" measuredH="1860" mockupW="3671" mockupH="1855">
+<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="3937" measuredH="1860" mockupW="3918" mockupH="1855">
   <controls>
     <control controlID="0" controlTypeID="__group__" x="19" y="6" w="539" h="68" measuredW="539" measuredH="68" zOrder="1" locked="false" isInGroup="-1">
       <controlProperties>
@@ -1175,13 +1175,14 @@
             <text>Documents%2C%20Data%2C%20Excerpts</text>
           </controlProperties>
         </control>
-        <control controlID="2" controlTypeID="com.balsamiq.mockups::DataGrid" x="0" y="47" w="765" h="80" measuredW="428" measuredH="75" zOrder="2" locked="false" isInGroup="90">
+        <control controlID="2" controlTypeID="com.balsamiq.mockups::DataGrid" x="0" y="47" w="765" h="80" measuredW="444" measuredH="75" zOrder="2" locked="false" isInGroup="90">
           <controlProperties>
             <align>left</align>
             <alternateRowColor>16777215</alternateRowColor>
             <bold>false</bold>
             <rowHeight>18</rowHeight>
             <text>Participant%20ID%20%5E%2C%20Age%20at%20Test%20%5Ev%2C%20%23%20of%20Video%20Files%20%5Ev%2C%20%23%20of%20Data%20Files%20%20%5Ev%0A%5BParticipant%201%5D%2C%20292%20days%2C%201%2C%202%0A%5BParticipant%202%5D%2C%20281%20days%2C%201%2C%202%20%0A%5BParticipant%203%5D%2C%20287%20days%2C%201%2C%202%20%0A%7B10C%2C%2010C%2C%2015C%2C%2015C%7D</text>
+            <verticalScrollbar>true</verticalScrollbar>
           </controlProperties>
         </control>
       </groupChildrenDescriptors>
@@ -1206,37 +1207,17 @@
                 <text>Documents%2C%20Data%2C%20Excerpts</text>
               </controlProperties>
             </control>
-            <control controlID="1" controlTypeID="com.balsamiq.mockups::DataGrid" x="0" y="23" w="765" h="93" measuredW="400" measuredH="93" zOrder="1" locked="false" isInGroup="1">
+            <control controlID="1" controlTypeID="com.balsamiq.mockups::DataGrid" x="0" y="23" w="765" h="93" measuredW="453" measuredH="93" zOrder="1" locked="false" isInGroup="1">
               <controlProperties>
                 <align>right</align>
                 <alternateRowColor>16777215</alternateRowColor>
                 <bold>false</bold>
                 <hLines>false</hLines>
                 <rowHeight>18</rowHeight>
-                <text>Description%20%5E%2C%20%20File%20Name%20%5Ev%2C%20File%20Size%20%5Ev%2C%20Modified%20Date%20%20%5Ev%0ABlank%20Consent%20Form%2C%20%2C%20534%20kB%2C%202010-11-28%0ACoding%20Manual%2C%20%2C%20534%20kB%2C%202010-11-28%0AIRB%20Protocol%2C%20%2C%20987%20kB%2C%202010-07-19%0AStudy%20Manual%2C%20%20%2C%20127%20kB%2C%202011-09-27%0A%7B25L%2C%2020L%2C%2010C%2C%2010C%7D</text>
+                <text>Description%20%5E%2C%20%20File%20Name%20%5Ev%2C%20File%20Size%20%5Ev%2C%20Modified%20Date%20%20%5Ev%0ABlank%20Consent%20Form%2C%5Bconsent-template.doc%5D%20%2C%20534%20kB%2C%202010-11-28%0ACoding%20Manual%2C%20%5Bcode_man.doc%5D%2C%20534%20kB%2C%202010-11-28%0AIRB%20Protocol%2C%5B2010-irb.doc%5D%20%2C%20987%20kB%2C%202010-07-19%0AStudy%20Protocol%2C%5Bstudy-protocol.doc%5D%20%20%2C%20127%20kB%2C%202011-09-27%0A%7B25L%2C%2020L%2C%2010C%2C%2010C%7D</text>
                 <value>0</value>
                 <verticalScrollbar>false</verticalScrollbar>
                 <vLines>true</vLines>
-              </controlProperties>
-            </control>
-            <control controlID="10" controlTypeID="com.balsamiq.mockups::Link" x="300" y="42" w="-1" h="-1" measuredW="128" measuredH="19" zOrder="2" locked="false" isInGroup="1">
-              <controlProperties>
-                <text>consent-template.doc</text>
-              </controlProperties>
-            </control>
-            <control controlID="11" controlTypeID="com.balsamiq.mockups::Link" x="300" y="60" w="-1" h="-1" measuredW="86" measuredH="19" zOrder="3" locked="false" isInGroup="1">
-              <controlProperties>
-                <text>code_man.doc</text>
-              </controlProperties>
-            </control>
-            <control controlID="12" controlTypeID="com.balsamiq.mockups::Link" x="300" y="78" w="-1" h="-1" measuredW="73" measuredH="19" zOrder="4" locked="false" isInGroup="1">
-              <controlProperties>
-                <text>2010-irb.doc</text>
-              </controlProperties>
-            </control>
-            <control controlID="13" controlTypeID="com.balsamiq.mockups::Link" x="300" y="96" w="-1" h="-1" measuredW="90" measuredH="19" zOrder="5" locked="false" isInGroup="1">
-              <controlProperties>
-                <text>study_man.doc</text>
               </controlProperties>
             </control>
           </groupChildrenDescriptors>
@@ -1276,11 +1257,11 @@
             <text>No%20Access</text>
           </controlProperties>
         </control>
-        <control controlID="2" controlTypeID="com.balsamiq.mockups::Label" x="0" y="0" w="-1" h="-1" measuredW="179" measuredH="24" zOrder="2" locked="false" isInGroup="104">
+        <control controlID="2" controlTypeID="com.balsamiq.mockups::Label" x="0" y="0" w="-1" h="-1" measuredW="202" measuredH="24" zOrder="2" locked="false" isInGroup="104">
           <controlProperties>
             <bold>true</bold>
             <size>16</size>
-            <text>Grant%20Study%20Permission</text>
+            <text>Add%20New%20Study%20Permission</text>
           </controlProperties>
         </control>
         <control controlID="3" controlTypeID="com.balsamiq.mockups::TextInput" x="15" y="69" w="168" h="-1" measuredW="79" measuredH="26" zOrder="3" locked="false" isInGroup="104">
@@ -1315,14 +1296,14 @@
         </control>
       </groupChildrenDescriptors>
     </control>
-    <control controlID="107" controlTypeID="__group__" x="2252" y="1030" w="765" h="221" measuredW="765" measuredH="221" zOrder="28" locked="false" isInGroup="-1">
+    <control controlID="107" controlTypeID="__group__" x="3065" y="816" w="765" h="243" measuredW="765" measuredH="243" zOrder="28" locked="false" isInGroup="-1">
       <controlProperties>
         <controlName>permissions-current-study</controlName>
       </controlProperties>
       <groupChildrenDescriptors>
         <control controlID="0" controlTypeID="com.balsamiq.mockups::Tree" x="0" y="32" w="765" h="189" measuredW="300" measuredH="225" zOrder="0" locked="false" isInGroup="107">
           <controlProperties>
-            <text>v%20Databarary%20%28View%29%0A.v%20New%20York%20University%0A..v%20Me%20%28Owner%29%0A...%3E%20Jane%20Postdoc%20%28Member%29%0A...%3E%20Mary%20Gradstudent%20%28Member%29%2C%20Individual%20Access%20Only%0A...%3E%20Pete%20Undergrad%0A.v%20Pennsylvania%20State%20University%0A..v%20Rick%20Gilmore%20%28Share%20Data%29</text>
+            <text>v%20All%20Databrary%20Users%20%3A%3A%20%5BView%5D%0A.v%20New%20York%20University%0A..v%20Me%20%3A%3A%20Owner%0A...%3E%20Jane%20Postdoc%20%3A%3A%20%5BMember%5D%0A...%3E%20Mary%20Gradstudent%20%3A%3A%20%5BMember%2C%20Individual%20Access%20Only%5D%0A...%3E%20Pete%20Undergrad%20%3A%3A%20%5BNo%20Access%5D%0A.v%20Pennsylvania%20State%20University%0A..v%20Rick%20Gilmore%20%3A%3A%20%5BShare%20Data%5D</text>
           </controlProperties>
         </control>
         <control controlID="1" controlTypeID="com.balsamiq.mockups::Label" x="0" y="0" w="-1" h="-1" measuredW="203" measuredH="24" zOrder="1" locked="false" isInGroup="107">
@@ -1330,6 +1311,13 @@
             <bold>true</bold>
             <size>16</size>
             <text>Current%20Study%20Permissions</text>
+          </controlProperties>
+        </control>
+        <control controlID="2" controlTypeID="com.balsamiq.mockups::Label" x="0" y="221" w="-1" h="-1" measuredW="275" measuredH="22" zOrder="2" locked="false" isInGroup="107">
+          <controlProperties>
+            <bold>true</bold>
+            <size>14</size>
+            <text>Click%20current%20permission%20level%20to%20change...</text>
           </controlProperties>
         </control>
       </groupChildrenDescriptors>
@@ -1660,7 +1648,7 @@
     </control>
     <control controlID="119" controlTypeID="__group__" x="2242" y="298" w="766" h="116" measuredW="766" measuredH="116" zOrder="35" locked="false" isInGroup="-1">
       <controlProperties>
-        <controlName>study-authorized-excerpt</controlName>
+        <controlName>study-excerpts</controlName>
       </controlProperties>
       <groupChildrenDescriptors>
         <control controlID="0" controlTypeID="com.balsamiq.mockups::Label" x="1" y="0" w="-1" h="-1" measuredW="120" measuredH="24" zOrder="0" locked="false" isInGroup="119">
@@ -1676,21 +1664,21 @@
             <text>Documents%2C%20Data%2C%20Excerpts</text>
           </controlProperties>
         </control>
-        <control controlID="2" controlTypeID="com.balsamiq.mockups::DataGrid" x="0" y="47" w="765" h="69" measuredW="316" measuredH="65" zOrder="2" locked="false" isInGroup="119">
+        <control controlID="2" controlTypeID="com.balsamiq.mockups::DataGrid" x="0" y="47" w="765" h="69" measuredW="462" measuredH="65" zOrder="2" locked="false" isInGroup="119">
           <controlProperties>
             <align>left</align>
             <alternateRowColor>16777215</alternateRowColor>
             <bold>false</bold>
             <rowHeight>22</rowHeight>
-            <text>Description%20%5E%2C%20%20%20View%2C%20%20%20Acquisition%20Date%20%20%5Ev%0AParticipant%201%20Excerpt%2C%20%2C%201999-12-09%0AParticipant%202%20Excerpt%2C%20%2C%201999-06-07%0A%7B20L%2C%2015C%2C%2015C%7D</text>
+            <text>Description%20%5E%2C%20%20%20Runtime%20%28hh%3Amm%3Ass%29%20%5Ev%2C%20View%2C%20%20%20Acquisition%20Date%20%20%5Ev%0ACrawling%20and%20reaching%2C00%3A00%3A15%2C%20%2C%201999-12-09%0ASitting%20and%20reaching%2C%2000%3A07%3A10%2C%20%2C1999-06-07%0A%7B20L%2C%2010C%2C%205C%2C%2010C%7D</text>
           </controlProperties>
         </control>
-        <control controlID="3" controlTypeID="com.balsamiq.mockups::Icon" x="413" y="69" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="3" locked="false" isInGroup="119">
+        <control controlID="3" controlTypeID="com.balsamiq.mockups::Icon" x="539" y="69" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="3" locked="false" isInGroup="119">
           <controlProperties>
             <icon>RightFillTriangleIcon%7Cxsmall</icon>
           </controlProperties>
         </control>
-        <control controlID="4" controlTypeID="com.balsamiq.mockups::Icon" x="413" y="92" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="4" locked="false" isInGroup="119">
+        <control controlID="4" controlTypeID="com.balsamiq.mockups::Icon" x="539" y="92" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="4" locked="false" isInGroup="119">
           <controlProperties>
             <icon>RightFillTriangleIcon%7Cxsmall</icon>
           </controlProperties>
@@ -1702,6 +1690,402 @@
         <src>./assets/locomotion.png</src>
         <text/>
       </controlProperties>
+    </control>
+    <control controlID="121" controlTypeID="__group__" x="2242" y="464" w="766" h="181" measuredW="766" measuredH="181" zOrder="37" locked="false" isInGroup="-1">
+      <controlProperties>
+        <controlName>study-manage-data</controlName>
+      </controlProperties>
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::Label" x="1" y="0" w="-1" h="-1" measuredW="183" measuredH="24" zOrder="0" locked="false" isInGroup="121">
+          <controlProperties>
+            <bold>true</bold>
+            <size>16</size>
+            <text>Manage%20Study%20Contents</text>
+          </controlProperties>
+        </control>
+        <control controlID="1" controlTypeID="com.balsamiq.mockups::TabBar" x="1" y="24" w="765" h="122" measuredW="243" measuredH="100" zOrder="1" locked="false" isInGroup="121">
+          <controlProperties>
+            <selectedIndex>1</selectedIndex>
+            <text>Documents%2C%20Data%2C%20Excerpts</text>
+          </controlProperties>
+        </control>
+        <control controlID="2" controlTypeID="com.balsamiq.mockups::DataGrid" x="0" y="47" w="766" h="99" measuredW="493" measuredH="99" zOrder="2" locked="false" isInGroup="121">
+          <controlProperties>
+            <align>left</align>
+            <alternateRowColor>16777215</alternateRowColor>
+            <bold>false</bold>
+            <rowHeight>26</rowHeight>
+            <text>Participant%20ID%20%5E%2C%20Age%20at%20Test%20%5Ev%2C%20%23%20of%20Video%20Files%20%5Ev%2C%20%23%20of%20Data%20Files%20%20%5Ev%2C%20Action%0AParticipant%201%2C%20292%20days%2C%201%2C%202%2C%0AParticipant%202%2C%20281%20days%2C%201%2C%202%2C%20%0AParticipant%203%2C%20287%20days%2C%201%2C%202%2C%20%0A%7B15C%2C%2010C%2C%2010C%2C%2010C%2C%2020C%7D</text>
+            <verticalScrollbar>true</verticalScrollbar>
+          </controlProperties>
+        </control>
+        <control controlID="3" controlTypeID="com.balsamiq.mockups::Button" x="583" y="65" w="59" h="27" measuredW="45" measuredH="27" zOrder="3" locked="false" isInGroup="121">
+          <controlProperties>
+            <color>40463</color>
+            <size>13</size>
+            <text>edit</text>
+          </controlProperties>
+        </control>
+        <control controlID="4" controlTypeID="com.balsamiq.mockups::Button" x="657" y="65" w="-1" h="-1" measuredW="60" measuredH="27" zOrder="4" locked="false" isInGroup="121">
+          <controlProperties>
+            <color>13576743</color>
+            <size>13</size>
+            <text>delete</text>
+          </controlProperties>
+        </control>
+        <control controlID="5" controlTypeID="com.balsamiq.mockups::Button" x="583" y="92" w="59" h="27" measuredW="45" measuredH="27" zOrder="5" locked="false" isInGroup="121">
+          <controlProperties>
+            <color>40463</color>
+            <size>13</size>
+            <text>edit</text>
+          </controlProperties>
+        </control>
+        <control controlID="6" controlTypeID="com.balsamiq.mockups::Button" x="657" y="92" w="-1" h="-1" measuredW="60" measuredH="27" zOrder="6" locked="false" isInGroup="121">
+          <controlProperties>
+            <color>13576743</color>
+            <size>13</size>
+            <text>delete</text>
+          </controlProperties>
+        </control>
+        <control controlID="7" controlTypeID="com.balsamiq.mockups::Button" x="583" y="119" w="59" h="27" measuredW="45" measuredH="27" zOrder="7" locked="false" isInGroup="121">
+          <controlProperties>
+            <color>40463</color>
+            <size>13</size>
+            <text>edit</text>
+          </controlProperties>
+        </control>
+        <control controlID="8" controlTypeID="com.balsamiq.mockups::Button" x="657" y="119" w="-1" h="-1" measuredW="60" measuredH="27" zOrder="8" locked="false" isInGroup="121">
+          <controlProperties>
+            <color>13576743</color>
+            <size>13</size>
+            <text>delete</text>
+          </controlProperties>
+        </control>
+        <control controlID="9" controlTypeID="com.balsamiq.mockups::Button" x="36" y="154" w="-1" h="-1" measuredW="113" measuredH="27" zOrder="9" locked="false" isInGroup="121">
+          <controlProperties>
+            <color>40463</color>
+            <size>13</size>
+            <text>Add%20participant</text>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="122" controlTypeID="__group__" x="3054" y="548" w="766" h="129" measuredW="766" measuredH="129" zOrder="38" locked="false" isInGroup="-1">
+      <controlProperties>
+        <controlName>study-new-data</controlName>
+      </controlProperties>
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::Label" x="1" y="0" w="-1" h="-1" measuredW="183" measuredH="24" zOrder="0" locked="false" isInGroup="122">
+          <controlProperties>
+            <bold>true</bold>
+            <size>16</size>
+            <text>Manage%20Study%20Contents</text>
+          </controlProperties>
+        </control>
+        <control controlID="1" controlTypeID="com.balsamiq.mockups::TabBar" x="1" y="24" w="765" h="70" measuredW="243" measuredH="100" zOrder="1" locked="false" isInGroup="122">
+          <controlProperties>
+            <selectedIndex>1</selectedIndex>
+            <text>Documents%2C%20Data%2C%20Excerpts</text>
+          </controlProperties>
+        </control>
+        <control controlID="2" controlTypeID="com.balsamiq.mockups::DataGrid" x="0" y="47" w="765" h="47" measuredW="477" measuredH="47" zOrder="2" locked="false" isInGroup="122">
+          <controlProperties>
+            <align>left</align>
+            <alternateRowColor>16777215</alternateRowColor>
+            <bold>false</bold>
+            <rowHeight>26</rowHeight>
+            <text>Participant%20ID%20%5E%2C%20Age%20at%20Test%20%5Ev%2C%20%23%20of%20Video%20Files%20%5Ev%2C%20%23%20of%20Data%20Files%20%20%5Ev%2C%20Action%0A%2C%2C%2C%2C%0A%7B15C%2C%2010C%2C%2010C%2C%2010C%2C%2020C%7D</text>
+          </controlProperties>
+        </control>
+        <control controlID="9" controlTypeID="com.balsamiq.mockups::Button" x="36" y="102" w="-1" h="-1" measuredW="113" measuredH="27" zOrder="3" locked="false" isInGroup="122">
+          <controlProperties>
+            <color>40463</color>
+            <size>13</size>
+            <text>Add%20participant</text>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="123" controlTypeID="__group__" x="3056" y="703" w="765" h="86" measuredW="765" measuredH="86" zOrder="39" locked="false" isInGroup="-1">
+      <controlProperties>
+        <controlName>study-new-documents</controlName>
+      </controlProperties>
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::Label" x="0" y="0" w="-1" h="-1" measuredW="120" measuredH="24" zOrder="0" locked="false" isInGroup="123">
+          <controlProperties>
+            <bold>true</bold>
+            <size>16</size>
+            <text>Study%20Contents</text>
+          </controlProperties>
+        </control>
+        <control controlID="1" controlTypeID="__group__" x="0" y="24" w="765" h="62" measuredW="765" measuredH="62" zOrder="1" locked="false" isInGroup="123">
+          <groupChildrenDescriptors>
+            <control controlID="0" controlTypeID="com.balsamiq.mockups::TabBar" x="0" y="0" w="765" h="62" measuredW="314" measuredH="100" zOrder="0" locked="false" isInGroup="1">
+              <controlProperties>
+                <selectedIndex>0</selectedIndex>
+                <text>Documents%2C%20Data%2C%20Excerpts%2C%20Permissions</text>
+              </controlProperties>
+            </control>
+            <control controlID="1" controlTypeID="com.balsamiq.mockups::DataGrid" x="0" y="23" w="765" h="39" measuredW="359" measuredH="39" zOrder="1" locked="false" isInGroup="1">
+              <controlProperties>
+                <align>right</align>
+                <alternateRowColor>16777215</alternateRowColor>
+                <bold>false</bold>
+                <hLines>false</hLines>
+                <rowHeight>18</rowHeight>
+                <text>Description%20%5E%2C%20%20File%20Name%20%5Ev%2C%20File%20Size%20%5Ev%2C%20Modified%20Date%20%20%5Ev%0A%2C%2C%2C%0A%7B25L%2C%2020L%2C%2010C%2C%2010C%7D</text>
+                <value>0</value>
+                <verticalScrollbar>false</verticalScrollbar>
+                <vLines>true</vLines>
+              </controlProperties>
+            </control>
+          </groupChildrenDescriptors>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="124" controlTypeID="__group__" x="3081" y="1118" w="615" h="195" measuredW="615" measuredH="195" zOrder="40" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="2" controlTypeID="com.balsamiq.mockups::Label" x="83" y="1" w="113" h="-1" measuredW="109" measuredH="24" zOrder="0" locked="false" isInGroup="124">
+          <controlProperties>
+            <bold>true</bold>
+            <size>16</size>
+            <text>Participant%20ID%3A</text>
+          </controlProperties>
+        </control>
+        <control controlID="3" controlTypeID="com.balsamiq.mockups::Label" x="100" y="23" w="97" h="-1" measuredW="93" measuredH="24" zOrder="1" locked="false" isInGroup="124">
+          <controlProperties>
+            <bold>true</bold>
+            <size>16</size>
+            <text>Age%20at%20Test%3A</text>
+          </controlProperties>
+        </control>
+        <control controlID="4" controlTypeID="com.balsamiq.mockups::Label" x="63" y="96" w="133" h="-1" measuredW="128" measuredH="24" zOrder="2" locked="false" isInGroup="124">
+          <controlProperties>
+            <bold>true</bold>
+            <size>16</size>
+            <text>Acquisition%20Date%3A</text>
+          </controlProperties>
+        </control>
+        <control controlID="5" controlTypeID="com.balsamiq.mockups::Label" x="98" y="121" w="99" h="-1" measuredW="95" measuredH="24" zOrder="3" locked="false" isInGroup="124">
+          <controlProperties>
+            <bold>true</bold>
+            <size>16</size>
+            <text>Permissions%3A</text>
+          </controlProperties>
+        </control>
+        <control controlID="6" controlTypeID="com.balsamiq.mockups::Label" x="63" y="46" w="133" h="-1" measuredW="44" measuredH="24" zOrder="4" locked="false" isInGroup="124">
+          <controlProperties>
+            <align>right</align>
+            <bold>true</bold>
+            <size>16</size>
+            <text>Race%3A</text>
+          </controlProperties>
+        </control>
+        <control controlID="7" controlTypeID="com.balsamiq.mockups::Label" x="213" y="0" w="11" h="-1" measuredW="11" measuredH="24" zOrder="5" locked="false" isInGroup="124">
+          <controlProperties>
+            <bold>false</bold>
+            <size>16</size>
+            <text>2</text>
+          </controlProperties>
+        </control>
+        <control controlID="8" controlTypeID="com.balsamiq.mockups::Label" x="213" y="22" w="69" h="-1" measuredW="66" measuredH="24" zOrder="6" locked="false" isInGroup="124">
+          <controlProperties>
+            <bold>false</bold>
+            <size>16</size>
+            <text>281%20days</text>
+          </controlProperties>
+        </control>
+        <control controlID="9" controlTypeID="com.balsamiq.mockups::Label" x="213" y="45" w="-1" h="-1" measuredW="41" measuredH="24" zOrder="7" locked="false" isInGroup="124">
+          <controlProperties>
+            <bold>false</bold>
+            <size>16</size>
+            <text>Asian</text>
+          </controlProperties>
+        </control>
+        <control controlID="10" controlTypeID="com.balsamiq.mockups::Label" x="213" y="96" w="85" h="-1" measuredW="82" measuredH="24" zOrder="8" locked="false" isInGroup="124">
+          <controlProperties>
+            <bold>false</bold>
+            <size>16</size>
+            <text>1999-12-09</text>
+          </controlProperties>
+        </control>
+        <control controlID="11" controlTypeID="com.balsamiq.mockups::Label" x="213" y="121" w="159" h="-1" measuredW="153" measuredH="22" zOrder="9" locked="false" isInGroup="124">
+          <controlProperties>
+            <bold>false</bold>
+            <size>14</size>
+            <text>%5B%5Bx%5D%5D%20Shared%20on%20Databrary</text>
+          </controlProperties>
+        </control>
+        <control controlID="12" controlTypeID="com.balsamiq.mockups::Label" x="213" y="140" w="137" h="-1" measuredW="132" measuredH="22" zOrder="10" locked="false" isInGroup="124">
+          <controlProperties>
+            <bold>false</bold>
+            <size>14</size>
+            <text>%5B%5Bx%5D%5D%20Excerpts%20Allowed</text>
+          </controlProperties>
+        </control>
+        <control controlID="13" controlTypeID="com.balsamiq.mockups::Label" x="0" y="171" w="195" h="-1" measuredW="98" measuredH="24" zOrder="11" locked="false" isInGroup="124">
+          <controlProperties>
+            <align>right</align>
+            <bold>true</bold>
+            <size>16</size>
+            <text>Data%20Source%3A</text>
+          </controlProperties>
+        </control>
+        <control controlID="14" controlTypeID="com.balsamiq.mockups::Label" x="211" y="172" w="404" h="-1" measuredW="388" measuredH="22" zOrder="12" locked="false" isInGroup="124">
+          <controlProperties>
+            <bold>false</bold>
+            <size>14</size>
+            <text>Data%20originally%20collected%20as%20part%20of%20study%3A%20%5B%22Learning%20to%20Crawl%22%5D</text>
+          </controlProperties>
+        </control>
+        <control controlID="15" controlTypeID="com.balsamiq.mockups::Label" x="63" y="68" w="133" h="-1" measuredW="32" measuredH="24" zOrder="13" locked="false" isInGroup="124">
+          <controlProperties>
+            <align>right</align>
+            <bold>true</bold>
+            <size>16</size>
+            <text>Sex%3A</text>
+          </controlProperties>
+        </control>
+        <control controlID="16" controlTypeID="com.balsamiq.mockups::Label" x="213" y="67" w="-1" h="-1" measuredW="35" measuredH="24" zOrder="14" locked="false" isInGroup="124">
+          <controlProperties>
+            <bold>false</bold>
+            <size>16</size>
+            <text>male</text>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="125" controlTypeID="__group__" x="3081" y="1364" w="856" h="179" measuredW="856" measuredH="179" zOrder="41" locked="false" isInGroup="-1">
+      <controlProperties>
+        <controlName>study-participant-show</controlName>
+      </controlProperties>
+      <groupChildrenDescriptors>
+        <control controlID="15" controlTypeID="__group__" x="0" y="0" w="856" h="179" measuredW="856" measuredH="179" zOrder="0" locked="false" isInGroup="125">
+          <groupChildrenDescriptors>
+            <control controlID="2" controlTypeID="com.balsamiq.mockups::Label" x="83" y="1" w="113" h="-1" measuredW="109" measuredH="24" zOrder="0" locked="false" isInGroup="15">
+              <controlProperties>
+                <bold>true</bold>
+                <size>16</size>
+                <text>Participant%20ID%3A</text>
+              </controlProperties>
+            </control>
+            <control controlID="3" controlTypeID="com.balsamiq.mockups::Label" x="433" y="27" w="97" h="-1" measuredW="93" measuredH="24" zOrder="1" locked="false" isInGroup="15">
+              <controlProperties>
+                <bold>true</bold>
+                <size>16</size>
+                <text>Age%20at%20Test%3A</text>
+              </controlProperties>
+            </control>
+            <control controlID="4" controlTypeID="com.balsamiq.mockups::Label" x="63" y="82" w="133" h="-1" measuredW="128" measuredH="24" zOrder="2" locked="false" isInGroup="15">
+              <controlProperties>
+                <bold>true</bold>
+                <size>16</size>
+                <text>Acquisition%20Date%3A</text>
+              </controlProperties>
+            </control>
+            <control controlID="5" controlTypeID="com.balsamiq.mockups::Label" x="98" y="105" w="99" h="-1" measuredW="95" measuredH="24" zOrder="3" locked="false" isInGroup="15">
+              <controlProperties>
+                <bold>true</bold>
+                <size>16</size>
+                <text>Permissions%3A</text>
+              </controlProperties>
+            </control>
+            <control controlID="6" controlTypeID="com.balsamiq.mockups::Label" x="401" y="52" w="133" h="-1" measuredW="126" measuredH="24" zOrder="4" locked="false" isInGroup="15">
+              <controlProperties>
+                <bold>true</bold>
+                <size>16</size>
+                <text>Racial%20Category%3A</text>
+              </controlProperties>
+            </control>
+            <control controlID="7" controlTypeID="com.balsamiq.mockups::Label" x="213" y="0" w="11" h="-1" measuredW="11" measuredH="24" zOrder="5" locked="false" isInGroup="15">
+              <controlProperties>
+                <bold>false</bold>
+                <size>16</size>
+                <text>2</text>
+              </controlProperties>
+            </control>
+            <control controlID="8" controlTypeID="com.balsamiq.mockups::Label" x="546" y="26" w="69" h="-1" measuredW="66" measuredH="24" zOrder="6" locked="false" isInGroup="15">
+              <controlProperties>
+                <bold>false</bold>
+                <size>16</size>
+                <text>281%20days</text>
+              </controlProperties>
+            </control>
+            <control controlID="9" controlTypeID="com.balsamiq.mockups::Label" x="546" y="52" w="310" h="-1" measuredW="42" measuredH="24" zOrder="7" locked="false" isInGroup="15">
+              <controlProperties>
+                <bold>false</bold>
+                <size>16</size>
+                <text>White</text>
+              </controlProperties>
+            </control>
+            <control controlID="10" controlTypeID="com.balsamiq.mockups::Label" x="213" y="82" w="85" h="-1" measuredW="82" measuredH="24" zOrder="8" locked="false" isInGroup="15">
+              <controlProperties>
+                <bold>false</bold>
+                <size>16</size>
+                <text>1999-12-09</text>
+              </controlProperties>
+            </control>
+            <control controlID="11" controlTypeID="com.balsamiq.mockups::Label" x="213" y="105" w="159" h="-1" measuredW="153" measuredH="22" zOrder="9" locked="false" isInGroup="15">
+              <controlProperties>
+                <bold>false</bold>
+                <size>14</size>
+                <text>%5B%5Bx%5D%5D%20Shared%20on%20Databrary</text>
+              </controlProperties>
+            </control>
+            <control controlID="12" controlTypeID="com.balsamiq.mockups::Label" x="213" y="124" w="137" h="-1" measuredW="132" measuredH="22" zOrder="10" locked="false" isInGroup="15">
+              <controlProperties>
+                <bold>false</bold>
+                <size>14</size>
+                <text>%5B%5Bx%5D%5D%20Excerpts%20Allowed</text>
+              </controlProperties>
+            </control>
+            <control controlID="13" controlTypeID="com.balsamiq.mockups::Label" x="0" y="155" w="195" h="-1" measuredW="98" measuredH="24" zOrder="11" locked="false" isInGroup="15">
+              <controlProperties>
+                <align>right</align>
+                <bold>true</bold>
+                <size>16</size>
+                <text>Data%20Source%3A</text>
+              </controlProperties>
+            </control>
+            <control controlID="14" controlTypeID="com.balsamiq.mockups::Label" x="211" y="156" w="404" h="-1" measuredW="388" measuredH="22" zOrder="12" locked="false" isInGroup="15">
+              <controlProperties>
+                <bold>false</bold>
+                <size>14</size>
+                <text>Data%20originally%20collected%20as%20part%20of%20study%3A%20%5B%22Learning%20to%20Crawl%22%5D</text>
+              </controlProperties>
+            </control>
+            <control controlID="15" controlTypeID="com.balsamiq.mockups::Label" x="87" y="26" w="-1" h="-1" measuredW="104" measuredH="24" zOrder="13" locked="false" isInGroup="15">
+              <controlProperties>
+                <bold>true</bold>
+                <size>16</size>
+                <text>Date%20of%20Birth%3A</text>
+              </controlProperties>
+            </control>
+            <control controlID="16" controlTypeID="com.balsamiq.mockups::Label" x="211" y="26" w="-1" h="-1" measuredW="85" measuredH="24" zOrder="14" locked="false" isInGroup="15">
+              <controlProperties>
+                <bold>false</bold>
+                <size>16</size>
+                <text>1999-03-03</text>
+              </controlProperties>
+            </control>
+            <control controlID="17" controlTypeID="com.balsamiq.mockups::Label" x="157" y="48" w="-1" h="-1" measuredW="32" measuredH="24" zOrder="15" locked="false" isInGroup="15">
+              <controlProperties>
+                <align>right</align>
+                <bold>true</bold>
+                <size>16</size>
+                <text>Sex%3A</text>
+              </controlProperties>
+            </control>
+            <control controlID="18" controlTypeID="com.balsamiq.mockups::Label" x="208" y="48" w="-1" h="-1" measuredW="53" measuredH="24" zOrder="16" locked="false" isInGroup="15">
+              <controlProperties>
+                <bold>false</bold>
+                <size>16</size>
+                <text>Female</text>
+              </controlProperties>
+            </control>
+          </groupChildrenDescriptors>
+        </control>
+      </groupChildrenDescriptors>
     </control>
   </controls>
 </mockup>

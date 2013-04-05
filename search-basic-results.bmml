@@ -549,5 +549,10 @@
         <text>Search</text>
       </controlProperties>
     </control>
+    <control controlID="178" controlTypeID="com.balsamiq.mockups::StickyNote" x="889" y="274" w="-1" h="-1" measuredW="109" measuredH="123" zOrder="41" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Please%20provide%20images</text>
+      </controlProperties>
+    </control>
   </controls>
 </mockup>

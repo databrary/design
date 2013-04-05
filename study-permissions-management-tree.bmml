@@ -21,7 +21,7 @@
         <src>./assets/elements.bmml#footer</src>
       </controlProperties>
     </control>
-    <control controlID="76" controlTypeID="com.balsamiq.mockups::Title" x="138" y="133" w="599" h="-1" measuredW="494" measuredH="23" zOrder="4" locked="false" isInGroup="-1">
+    <control controlID="76" controlTypeID="com.balsamiq.mockups::Title" x="141" y="140" w="599" h="-1" measuredW="494" measuredH="23" zOrder="4" locked="false" isInGroup="-1">
       <controlProperties>
         <align>left</align>
         <bold>true</bold>
@@ -29,32 +29,21 @@
         <text>%5BInfants%20Navigating%20Risky%20Gaps%5D%20%3A%20Manage%20Permissions</text>
       </controlProperties>
     </control>
-    <control controlID="78" controlTypeID="com.balsamiq.mockups::Component" x="141" y="574" w="766" h="233" measuredW="766" measuredH="233" zOrder="5" locked="false" isInGroup="-1">
+    <control controlID="78" controlTypeID="com.balsamiq.mockups::Component" x="174" y="625" w="766" h="233" measuredW="766" measuredH="233" zOrder="5" locked="false" isInGroup="-1">
       <controlProperties>
         <override controlID="0" x="0" y="32" w="766" h="201"/>
         <override controlID="1" x="0" y="0" w="207" h="24"/>
-        <override controlID="-1"/>
         <src>./assets/elements.bmml#study-access-level-key</src>
       </controlProperties>
     </control>
-    <control controlID="81" controlTypeID="com.balsamiq.mockups::Component" x="141" y="421" w="762" h="109" measuredW="762" measuredH="109" zOrder="6" locked="false" isInGroup="-1">
+    <control controlID="81" controlTypeID="com.balsamiq.mockups::Component" x="174" y="472" w="762" h="109" measuredW="762" measuredH="109" zOrder="6" locked="false" isInGroup="-1">
       <controlProperties>
         <src>./assets/elements.bmml#permission-grant</src>
       </controlProperties>
     </control>
-    <control controlID="82" controlTypeID="com.balsamiq.mockups::StickyNote" x="829" y="215" w="195" h="123" measuredW="109" measuredH="123" zOrder="8" locked="false" isInGroup="-1">
-      <controlProperties>
-        <text>How%20do%20we%20want%20to%20update%20permissions%3F%0AClick%20on%20name%20to%20change%3F</text>
-      </controlProperties>
-    </control>
-    <control controlID="83" controlTypeID="com.balsamiq.mockups::Component" x="141" y="178" w="765" h="221" measuredW="765" measuredH="221" zOrder="7" locked="false" isInGroup="-1">
+    <control controlID="83" controlTypeID="com.balsamiq.mockups::Component" x="174" y="191" w="765" h="243" measuredW="765" measuredH="243" zOrder="7" locked="false" isInGroup="-1">
       <controlProperties>
         <src>./assets/elements.bmml#permissions-current-study</src>
-      </controlProperties>
-    </control>
-    <control controlID="84" controlTypeID="com.balsamiq.mockups::StickyNote" x="371" y="242" w="195" h="123" measuredW="109" measuredH="123" zOrder="9" locked="false" isInGroup="-1">
-      <controlProperties>
-        <text>%20%0A%20%0AWORK%20IN%20PROGRESS%2C%0ANOT%20READY%20FOR%20REVIEW</text>
       </controlProperties>
     </control>
   </controls>

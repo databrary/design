@@ -50,9 +50,8 @@ CREATED : Databrary home page (add search box, full color)
 
 
 CREATED: Search Initiation Page
-- [image: search initiation](./search-initiation.png)
-- [ ] let's drop this if it's a pain to maintain; it doesn't add much
-
+- [x] let's drop this if it's a pain to maintain; it doesn't add much
+  - image file deleted, bmml file marked as deprecated
 
 UPDATED: Search results page   
 - search for "walking" and/or "Adolph"
@@ -70,6 +69,7 @@ UPDATED: Study page (Public View)
 - [image: study, public view, documents tab active](./study-public-view-documents.png)
 - Data tab: Table of participants: participant ID, age at test, # videos, # data files   
 - [image: study, public view, data tab active](./study-public-view-data.png)
+- [image: study, public view, excerpts tab active](./study-public-view-excerpts.png)
 - [x]: citation format, instructions, download in RIS/bibtex/etc.
 - [x]: change "Shared on November 2000" to "Shared November 2011"
 - [x]: reduce # video file to 1 each participant, data files to 2
@@ -132,7 +132,7 @@ CREATED : Video page (viewer, download link)
 - comment/tagging template
 - breadcrumbs back to participant, study
 - representative still frame
-  - [ ] please provide different still frame if desired
+  - [x] please provide different still frame if desired
 - [image: study-participant-viewer](./study-participant-viewer.png)
 
 
@@ -162,7 +162,7 @@ REQUEST INPUT : Blank study page (base on Study page)
 			- Study Contents table with links to add files / edit file metadata / remove files
 			- links to add / edit / remove participants
 			- links to add / edit / remove study permissions
-			- [ ]:?: do you need ability to add / edit / remove co-authors?
+			- [x]:?: do you need ability to add / edit / remove co-authors?
 			- co-authors are managed in study access management
 	  - simpler option:
 	    - create new study
@@ -177,29 +177,38 @@ REQUEST INPUT : Blank study page (base on Study page)
 - [image: add study](./study-authorized-edit.png)
 
 
+ADDED: Investigator Profile
+- including image of page that Clinton created
+  - [image: karen-profile](./karen-profile.png)
 
-REVISE: Blank participant page
+ADDED: Public Request
+- including image of page that Clinton created
+  - [image: public-request](./public-request.png)
+
+
+UPDATED: Blank participant page
 
 - same as participant page with blank fields, edit links
 - highlight permissions settings: 2 checkboxes
 - "add new file" link
-  - [ ]:?: Is workflow: add participant, then have a "manage participant" view with "add new file" link?
+  - [x]:?: Is workflow: add participant, then have a "manage participant" view with "add new file" link?
   - just replace everything on current participant page with text fields/drop downs/edit buttons
 - [image: add participant](./study-participant-new.png)
 - racial categories from NIH: http://grants.nih.gov/grants/guide/notice-files/not-od-01-053.html
 
 
-NEW : Upload page
+CREATED : Upload page
 
 - description
 - acquisition date
 - [x]: is this on participant page or for all file types? Is this a dialog or a separate page? 
 - a separate page, basically like the video page with edit links and an upload/replace file field
+- [image: upload page](./study-upload-page.png)
 
 
 ### Access management
 
-NEEDS UPDATES : Study view: Access management
+UPDATED : Study view: Access management
 
 - expandable tree with columns: "Name" (text/textbox), "Permissions" (dropdown), "Individual only" (checkbox)
 - each row color-coded by (greatest inherited) permission
@@ -219,7 +228,7 @@ NEEDS UPDATES : Study view: Access management
   - Member: can edit and upload data (red)
   - Owner: full access and responsibility for study (purple)
   - Individual only: should only this person be granted access, or everyone in the group?
-  - [ ]: figure out how to handle tree structure...
+  - [x]: figure out how to handle tree structure...
 - [image: study permissions tree](./study-permissions-management-tree.png)
 
 
