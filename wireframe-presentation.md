@@ -60,7 +60,7 @@ UPDATED: Search results page
 - [x]:ds: could you provide a list of sample data set names, or should I just use paper titles?: if you can copy the google scholar abstract excerpts that's probably sufficient
 - [ ]:stretch goal: and maybe add some random details about # of participants, videos, etc. (random numbers 10~50)
 - [image: basic search results](./search-basic-results.png)
-   
+- [ ] reorder left column: Excerpts, Species, Participant Data (which is really conditional on "human")
 
 
 UPDATED: Study page (Public View)
@@ -74,9 +74,8 @@ UPDATED: Study page (Public View)
 - [x]: change "Shared on November 2000" to "Shared November 2011"
 - [x]: reduce # video file to 1 each participant, data files to 2
 - [x]: change to "Download citation in this format: "
-- [x]:?: should excerpts be in public view, or in authorized view?
 - [x] we can drop these and focus on authorized view if these are hard to maintain separately : 
-  - will only appear in Authorized view...
+- [ ] probably documents/data will be links but since we don't have pages for them don't bother
 
 UPDATED: Study page (Authorized View)
 
@@ -88,6 +87,7 @@ UPDATED: Study page (Authorized View)
 - [x] Excerpts tag with a couple videos, description, view
 
 - [image: study, authorized view, data tab active](./study-authorized-view-data.png)
+- [ ] change "# of Files" columns to "Sex" column ("M"/"F") and "Contents" column with "1 session video, 1 coding spreadsheet, 1 data file, ..."
 - [image: study, authorized view, excerpts tab active](./study-authorized-view-excerpts.png)
 
 - comment/tagging template
@@ -144,8 +144,9 @@ NEEDS UPDATES : Dashboard (post login)
 - search
 - user authorization
 - [image: investigator dashboard](./investigator-dashboard.png)
-- [ ]: I'd like these to be icons/stills of studies under specific feeds rather than tables: "In My Lab", "From Rick Gilmore", "New walking Studies". can pull at least 5 stills from http://www.psych.nyu.edu/adolph/index.php?page=research
 - [ ]: please provide links to stills. following link above I found two images that might be useful for "Adolph walking" search results.  Also, need stills for dashboard.
+- [ ] Change "My Databrary" buttons to "Add/Edit studies", "Authorize users" (maybe highlight this somehow to indicate pending requests?), "Edit this page"
+- [ ] Change "My Activity Feeds" to "Popular on Databrary"
 
 
 REQUEST INPUT : Blank study page (base on Study page)
@@ -174,16 +175,19 @@ REQUEST INPUT : Blank study page (base on Study page)
 - Data tab: "new participant"
 - link to access management
 - [image: add study](./study-authorized-new.png)
-- [image: add study](./study-authorized-edit.png)
+- [ ] change "Manage" globally to "Edit"
+- study authorized edit is gone
 
 
 ADDED: Investigator Profile
 - including image of page that Clinton created
   - [image: karen-profile](./karen-profile.png)
+- [ ] either remove this or we need to add more studies
 
 ADDED: Public Request
 - including image of page that Clinton created
   - [image: public-request](./public-request.png)
+- [ ] remove this
 
 
 UPDATED: Blank participant page
