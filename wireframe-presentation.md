@@ -208,7 +208,7 @@ CREATED : Upload page
 - [x]: is this on participant page or for all file types? Is this a dialog or a separate page? 
 - a separate page, basically like the video page with edit links and an upload/replace file field
 - [image: upload page](./study-upload-page.png)
-
+- [ ] Move "permissions" to top, change to "Type and permissions" with options: "Public", "De-identified data", "Identified data shared with Databrary", "Identified data shared with Databrary and public excerpts allowed" (selected), "Private"
 
 ### Access management
 
