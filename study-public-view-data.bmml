@@ -36,7 +36,6 @@
     </control>
     <control controlID="69" controlTypeID="com.balsamiq.mockups::Component" x="152" y="169" w="800" h="259" measuredW="800" measuredH="259" zOrder="6" locked="false" isInGroup="-1">
       <controlProperties>
-        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22757%2C381%2C820%2C402%22%20href%3D%22karen-profile.bmml%22%20alt%3D%22karen-profile%22%20id%3D%221%22/%3E%3Carea%20shape%3D%22rect%22%20coords%3D%22757%2C381%2C820%2C402%22%20href%3D%22karen-profile.bmml%22%20alt%3D%22karen-profile%22%20id%3D%221%22/%3E%3Carea%20shape%3D%22rect%22%20coords%3D%22757%2C381%2C820%2C402%22%20href%3D%22karen-profile.bmml%22%20alt%3D%22karen-profile%22%20id%3D%221%22/%3E</map>
         <src>./assets/elements.bmml#study-abstract</src>
       </controlProperties>
     </control>
@@ -47,7 +46,6 @@
     </control>
     <control controlID="72" controlTypeID="com.balsamiq.mockups::Component" x="152" y="592" w="779" h="38" measuredW="779" measuredH="38" zOrder="8" locked="false" isInGroup="-1">
       <controlProperties>
-        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%2276%2C600%2C282%2C627%22%20href%3D%22study-public-request.bmml%22%20alt%3D%22study-public-request%22%20id%3D%222%22/%3E%3Carea%20shape%3D%22rect%22%20coords%3D%2276%2C600%2C282%2C627%22%20href%3D%22study-public-request.bmml%22%20alt%3D%22study-public-request%22%20id%3D%222%22/%3E%3Carea%20shape%3D%22rect%22%20coords%3D%2276%2C600%2C282%2C627%22%20href%3D%22study-public-request.bmml%22%20alt%3D%22study-public-request%22%20id%3D%222%22/%3E</map>
         <src>./assets/elements.bmml#request-access</src>
       </controlProperties>
     </control>
@@ -57,11 +55,6 @@
           <text>Participant%20ID%20%5E%2C%20Age%20at%20Test%20%5Ev%2C%20%23%20of%20Video%20Files%20%5Ev%2C%20%23%20of%20Data%20Files%20%20%5Ev%0AParticipant%201%2C%20292%20days%2C%201%2C%202%0AParticipant%202%2C%20281%20days%2C%201%2C%202%20%0AParticipant%203%2C%20287%20days%2C%201%2C%202%20%0A%7B10C%2C%2010C%2C%2015C%2C%2015C%7D</text>
         </override>
         <src>./assets/elements.bmml#study-authorized-data</src>
-      </controlProperties>
-    </control>
-    <control controlID="75" controlTypeID="com.balsamiq.mockups::StickyNote" x="439" y="396" w="125" h="91" measuredW="109" measuredH="123" zOrder="10" locked="false" isInGroup="-1">
-      <controlProperties>
-        <text>Should%20participants%20be%20%22clickable%22%3F</text>
       </controlProperties>
     </control>
   </controls>

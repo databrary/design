@@ -69,7 +69,7 @@
         <text>edit</text>
       </controlProperties>
     </control>
-    <control controlID="100" controlTypeID="__group__" x="169" y="540" w="779" h="10" measuredW="779" measuredH="10" zOrder="11" locked="false" isInGroup="-1">
+    <control controlID="100" controlTypeID="__group__" x="169" y="528" w="779" h="10" measuredW="779" measuredH="10" zOrder="11" locked="false" isInGroup="-1">
       <controlProperties>
         <controlName>authorized-access</controlName>
       </controlProperties>
@@ -81,39 +81,39 @@
         </control>
       </groupChildrenDescriptors>
     </control>
-    <control controlID="101" controlTypeID="com.balsamiq.mockups::Label" x="182" y="455" w="-1" h="-1" measuredW="183" measuredH="24" zOrder="12" locked="false" isInGroup="-1">
+    <control controlID="101" controlTypeID="com.balsamiq.mockups::Label" x="182" y="455" w="-1" h="-1" measuredW="155" measuredH="24" zOrder="12" locked="false" isInGroup="-1">
       <controlProperties>
         <bold>true</bold>
         <size>16</size>
-        <text>Manage%20Study%20Contents</text>
+        <text>Edit%20Study%20Contents</text>
       </controlProperties>
     </control>
-    <control controlID="104" controlTypeID="com.balsamiq.mockups::Button" x="198" y="489" w="-1" h="-1" measuredW="167" measuredH="27" zOrder="13" locked="false" isInGroup="-1">
+    <control controlID="104" controlTypeID="com.balsamiq.mockups::Button" x="169" y="489" w="186" h="27" measuredW="138" measuredH="27" zOrder="13" locked="false" isInGroup="-1">
       <controlProperties>
         <color>2848996</color>
         <size>16</size>
-        <text>Manage%20Documents</text>
+        <text>Edit%20Documents</text>
       </controlProperties>
     </control>
-    <control controlID="105" controlTypeID="com.balsamiq.mockups::Button" x="380" y="489" w="-1" h="-1" measuredW="119" measuredH="27" zOrder="14" locked="false" isInGroup="-1">
+    <control controlID="105" controlTypeID="com.balsamiq.mockups::Button" x="364" y="489" w="190" h="27" measuredW="90" measuredH="27" zOrder="14" locked="false" isInGroup="-1">
       <controlProperties>
         <color>2848996</color>
         <size>16</size>
-        <text>Manage%20Data</text>
+        <text>Edit%20Data</text>
       </controlProperties>
     </control>
-    <control controlID="106" controlTypeID="com.balsamiq.mockups::Button" x="519" y="489" w="-1" h="-1" measuredW="151" measuredH="27" zOrder="15" locked="false" isInGroup="-1">
+    <control controlID="106" controlTypeID="com.balsamiq.mockups::Button" x="561" y="489" w="190" h="27" measuredW="122" measuredH="27" zOrder="15" locked="false" isInGroup="-1">
       <controlProperties>
         <color>2848996</color>
         <size>16</size>
-        <text>Manage%20Excerpts</text>
+        <text>Edit%20Excerpts</text>
       </controlProperties>
     </control>
-    <control controlID="107" controlTypeID="com.balsamiq.mockups::Button" x="685" y="489" w="-1" h="-1" measuredW="219" measuredH="27" zOrder="16" locked="false" isInGroup="-1">
+    <control controlID="107" controlTypeID="com.balsamiq.mockups::Button" x="758" y="489" w="-1" h="-1" measuredW="190" measuredH="27" zOrder="16" locked="false" isInGroup="-1">
       <controlProperties>
         <color>2848996</color>
         <size>16</size>
-        <text>Manage%20Study%20Permissions</text>
+        <text>Edit%20Study%20Permissions</text>
       </controlProperties>
     </control>
     <control controlID="108" controlTypeID="__group__" x="169" y="445" w="779" h="10" measuredW="779" measuredH="10" zOrder="17" locked="false" isInGroup="-1">

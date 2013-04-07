@@ -1,4 +1,4 @@
-<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="3937" measuredH="1860" mockupW="3918" mockupH="1855">
+<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="3937" measuredH="1664" mockupW="3918" mockupH="1659">
   <controls>
     <control controlID="0" controlTypeID="__group__" x="19" y="6" w="539" h="68" measuredW="539" measuredH="68" zOrder="1" locked="false" isInGroup="-1">
       <controlProperties>
@@ -835,8 +835,6 @@
             </control>
             <control controlID="1" controlTypeID="com.balsamiq.mockups::Label" x="53" y="6" w="63" h="-1" measuredW="60" measuredH="21" zOrder="1" locked="false" isInGroup="0">
               <controlProperties>
-                <href>karen-profile%26bm%3Bkaren-profile.bmml%26bm%3Bkaren-profile.bmml%26bm%3Bkaren-profile.bmml</href>
-                <map>%3Carea%20shape%3D%22rect%22%20coords%3D%221932%2C1177%2C1995%2C1198%22%20href%3D%22karen-profile.bmml%22%20alt%3D%22karen-profile%22%20id%3D%221%22/%3E</map>
                 <text>KE%20Adolph</text>
                 <underline>true</underline>
               </controlProperties>
@@ -1093,7 +1091,6 @@
         <control controlID="2" controlTypeID="com.balsamiq.mockups::Button" x="0" y="11" w="-1" h="-1" measuredW="206" measuredH="27" zOrder="1" locked="false" isInGroup="72">
           <controlProperties>
             <color>40463</color>
-            <href>study-public-request%26bm%3Bstudy-public-request.bmml%26bm%3Bstudy-public-request.bmml%26bm%3Bstudy-public-request.bmml</href>
             <map>%3Carea%20shape%3D%22rect%22%20coords%3D%221190%2C1447%2C1396%2C1474%22%20href%3D%22study-public-request.bmml%22%20alt%3D%22study-public-request%22%20id%3D%222%22/%3E</map>
             <text>Please%20sign%20in%20to%20access%20Study</text>
           </controlProperties>
@@ -1175,13 +1172,13 @@
             <text>Documents%2C%20Data%2C%20Excerpts</text>
           </controlProperties>
         </control>
-        <control controlID="2" controlTypeID="com.balsamiq.mockups::DataGrid" x="0" y="47" w="765" h="80" measuredW="444" measuredH="75" zOrder="2" locked="false" isInGroup="90">
+        <control controlID="2" controlTypeID="com.balsamiq.mockups::DataGrid" x="0" y="47" w="765" h="80" measuredW="599" measuredH="75" zOrder="2" locked="false" isInGroup="90">
           <controlProperties>
             <align>left</align>
             <alternateRowColor>16777215</alternateRowColor>
             <bold>false</bold>
             <rowHeight>18</rowHeight>
-            <text>Participant%20ID%20%5E%2C%20Age%20at%20Test%20%5Ev%2C%20%23%20of%20Video%20Files%20%5Ev%2C%20%23%20of%20Data%20Files%20%20%5Ev%0A%5BParticipant%201%5D%2C%20292%20days%2C%201%2C%202%0A%5BParticipant%202%5D%2C%20281%20days%2C%201%2C%202%20%0A%5BParticipant%203%5D%2C%20287%20days%2C%201%2C%202%20%0A%7B10C%2C%2010C%2C%2015C%2C%2015C%7D</text>
+            <text>Participant%20ID%20%5E%2C%20Age%20at%20Test%20%5Ev%2C%20Sex%20%28M/F%29%20%5Ev%2C%20Contents%20%0A%5BParticipant%201%5D%2C%20292%20days%2C%20M%2C%201%20session%20video%5C%2C%201%20coding%20spreadsheet%5C%2C%201%20data%20file%0A%5BParticipant%202%5D%2C%20281%20days%2C%20F%2C%201%20session%20video%5C%2C%201%20coding%20spreadsheet%5C%2C%201%20data%20file%0A%5BParticipant%203%5D%2C%20287%20days%2C%20M%2C%201%20session%20video%5C%2C%201%20coding%20spreadsheet%5C%2C%201%20data%20file%0A%7B8C%2C%207C%2C%206C%2C%2022C%7D</text>
             <verticalScrollbar>true</verticalScrollbar>
           </controlProperties>
         </control>
@@ -1322,7 +1319,7 @@
         </control>
       </groupChildrenDescriptors>
     </control>
-    <control controlID="108" controlTypeID="__group__" x="2252" y="1393" w="765" h="227" measuredW="765" measuredH="227" zOrder="29" locked="false" isInGroup="-1">
+    <control controlID="108" controlTypeID="__group__" x="2253" y="1184" w="765" h="227" measuredW="765" measuredH="227" zOrder="29" locked="false" isInGroup="-1">
       <controlProperties>
         <controlName>db-permissions-current-user</controlName>
       </controlProperties>
@@ -1412,12 +1409,12 @@
                     <text>remove</text>
                   </controlProperties>
                 </control>
-                <control controlID="11" controlTypeID="com.balsamiq.mockups::Button" x="599" y="138" w="68" h="27" measuredW="61" measuredH="27" zOrder="9" locked="false" isInGroup="1">
+                <control controlID="11" controlTypeID="com.balsamiq.mockups::Button" x="599" y="138" w="68" h="27" measuredW="51" measuredH="27" zOrder="9" locked="false" isInGroup="1">
                   <controlProperties>
                     <color>40463</color>
                     <size>12</size>
                     <state>up</state>
-                    <text>accept</text>
+                    <text>grant</text>
                   </controlProperties>
                 </control>
                 <control controlID="12" controlTypeID="com.balsamiq.mockups::Button" x="679" y="138" w="64" h="27" measuredW="54" measuredH="27" zOrder="10" locked="false" isInGroup="1">
@@ -1487,7 +1484,7 @@
         </control>
       </groupChildrenDescriptors>
     </control>
-    <control controlID="109" controlTypeID="__group__" x="2252" y="1627" w="765" h="233" measuredW="765" measuredH="233" zOrder="30" locked="false" isInGroup="-1">
+    <control controlID="109" controlTypeID="__group__" x="2253" y="1431" w="765" h="233" measuredW="765" measuredH="233" zOrder="30" locked="false" isInGroup="-1">
       <controlProperties>
         <controlName>user-permission-level-key</controlName>
       </controlProperties>
@@ -1509,7 +1506,7 @@
         </control>
       </groupChildrenDescriptors>
     </control>
-    <control controlID="110" controlTypeID="__group__" x="2252" y="1269" w="765" h="107" measuredW="765" measuredH="107" zOrder="31" locked="false" isInGroup="-1">
+    <control controlID="110" controlTypeID="__group__" x="2253" y="1060" w="765" h="107" measuredW="765" measuredH="107" zOrder="31" locked="false" isInGroup="-1">
       <controlProperties>
         <controlName>db-permissions-granted-to-me</controlName>
       </controlProperties>
@@ -1568,7 +1565,7 @@
         </control>
       </groupChildrenDescriptors>
     </control>
-    <control controlID="111" controlTypeID="__group__" x="1266" y="1670" w="765" h="99" measuredW="765" measuredH="99" zOrder="32" locked="false" isInGroup="-1">
+    <control controlID="111" controlTypeID="__group__" x="1195" y="1558" w="765" h="99" measuredW="765" measuredH="99" zOrder="32" locked="false" isInGroup="-1">
       <controlProperties>
         <controlName>db-grant-user-permission</controlName>
       </controlProperties>

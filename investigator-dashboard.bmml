@@ -186,11 +186,11 @@
         </control>
       </groupChildrenDescriptors>
     </control>
-    <control controlID="109" controlTypeID="com.balsamiq.mockups::Label" x="140" y="263" w="-1" h="-1" measuredW="136" measuredH="24" zOrder="9" locked="false" isInGroup="-1">
+    <control controlID="109" controlTypeID="com.balsamiq.mockups::Label" x="140" y="263" w="-1" h="-1" measuredW="161" measuredH="24" zOrder="9" locked="false" isInGroup="-1">
       <controlProperties>
         <bold>true</bold>
         <size>16</size>
-        <text>My%20Activity%20Feeds</text>
+        <text>Popular%20on%20Databrary</text>
       </controlProperties>
     </control>
     <control controlID="110" controlTypeID="__group__" x="149" y="862" w="779" h="10" measuredW="779" measuredH="10" zOrder="10" locked="false" isInGroup="-1">
@@ -210,25 +210,25 @@
         <text>Please%20provide%20images%2C%20text</text>
       </controlProperties>
     </control>
-    <control controlID="112" controlTypeID="com.balsamiq.mockups::Button" x="284" y="214" w="166" h="27" measuredW="140" measuredH="27" zOrder="12" locked="false" isInGroup="-1">
+    <control controlID="112" controlTypeID="com.balsamiq.mockups::Button" x="284" y="218" w="166" h="27" measuredW="145" measuredH="27" zOrder="12" locked="false" isInGroup="-1">
       <controlProperties>
         <color>2848996</color>
         <size>16</size>
-        <text>Manage%20Studies</text>
+        <text>Add/Edit%20Studies</text>
       </controlProperties>
     </control>
-    <control controlID="114" controlTypeID="com.balsamiq.mockups::Button" x="637" y="214" w="-1" h="-1" measuredW="189" measuredH="27" zOrder="13" locked="false" isInGroup="-1">
+    <control controlID="114" controlTypeID="com.balsamiq.mockups::Button" x="635" y="218" w="171" h="27" measuredW="121" measuredH="27" zOrder="13" locked="false" isInGroup="-1">
       <controlProperties>
         <color>2848996</color>
         <size>16</size>
-        <text>Manage%20Activity%20Feeds</text>
+        <text>Edit%20this%20Page</text>
       </controlProperties>
     </control>
-    <control controlID="115" controlTypeID="com.balsamiq.mockups::Button" x="457" y="214" w="-1" h="-1" measuredW="172" measuredH="27" zOrder="14" locked="false" isInGroup="-1">
+    <control controlID="115" controlTypeID="com.balsamiq.mockups::Button" x="457" y="218" w="171" h="27" measuredW="164" measuredH="27" zOrder="14" locked="false" isInGroup="-1">
       <controlProperties>
         <color>2848996</color>
         <size>16</size>
-        <text>Manage%20Permissions</text>
+        <text>Authorize%20Users%20%283%29</text>
       </controlProperties>
     </control>
     <control controlID="116" controlTypeID="com.balsamiq.mockups::Image" x="136" y="124" w="70" h="65" measuredW="250" measuredH="253" zOrder="15" locked="false" isInGroup="-1">

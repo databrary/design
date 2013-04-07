@@ -60,7 +60,7 @@ UPDATED: Search results page
 - [x]:ds: could you provide a list of sample data set names, or should I just use paper titles?: if you can copy the google scholar abstract excerpts that's probably sufficient
 - [ ]:stretch goal: and maybe add some random details about # of participants, videos, etc. (random numbers 10~50)
 - [image: basic search results](./search-basic-results.png)
-- [ ] reorder left column: Excerpts, Species, Participant Data (which is really conditional on "human")
+- [x] reorder left column: Excerpts, Species, Participant Data (which is really conditional on "human")
 
 
 UPDATED: Study page (Public View)
@@ -87,7 +87,7 @@ UPDATED: Study page (Authorized View)
 - [x] Excerpts tag with a couple videos, description, view
 
 - [image: study, authorized view, data tab active](./study-authorized-view-data.png)
-- [ ] change "# of Files" columns to "Sex" column ("M"/"F") and "Contents" column with "1 session video, 1 coding spreadsheet, 1 data file, ..."
+- [x] change "# of Files" columns to "Sex" column ("M"/"F") and "Contents" column with "1 session video, 1 coding spreadsheet, 1 data file, ..."
 - [image: study, authorized view, excerpts tab active](./study-authorized-view-excerpts.png)
 
 - comment/tagging template
@@ -145,14 +145,14 @@ NEEDS UPDATES : Dashboard (post login)
 - user authorization
 - [image: investigator dashboard](./investigator-dashboard.png)
 - [ ]: please provide links to stills. following link above I found two images that might be useful for "Adolph walking" search results.  Also, need stills for dashboard.
-- [ ] Change "My Databrary" buttons to "Add/Edit studies", "Authorize users" (maybe highlight this somehow to indicate pending requests?), "Edit this page"
-- [ ] Change "My Activity Feeds" to "Popular on Databrary"
+- [x] Change "My Databrary" buttons to "Add/Edit studies", "Authorize users" (maybe highlight this somehow to indicate pending requests?), "Edit this page"
+- [x] Change "My Activity Feeds" to "Popular on Databrary"
 
 
 REQUEST INPUT : Blank study page (base on Study page)
 
 - same as study page with blank fields, edit links
-  - [ ] what is work flow? create study (title, abstract) then add files/participants?
+  - [x] what is work flow? create study (title, abstract) then add files/participants?
     - if so, then only need title and abstract input fields to create study (and thus assign study id)
 	  - potential workflow: 
 	    - add study (enter study title and abstract)
@@ -175,19 +175,8 @@ REQUEST INPUT : Blank study page (base on Study page)
 - Data tab: "new participant"
 - link to access management
 - [image: add study](./study-authorized-new.png)
-- [ ] change "Manage" globally to "Edit"
+- [x] change "Manage" globally to "Edit"
 - study authorized edit is gone
-
-
-ADDED: Investigator Profile
-- including image of page that Clinton created
-  - [image: karen-profile](./karen-profile.png)
-- [ ] either remove this or we need to add more studies
-
-ADDED: Public Request
-- including image of page that Clinton created
-  - [image: public-request](./public-request.png)
-- [ ] remove this
 
 
 UPDATED: Blank participant page
@@ -208,7 +197,7 @@ CREATED : Upload page
 - [x]: is this on participant page or for all file types? Is this a dialog or a separate page? 
 - a separate page, basically like the video page with edit links and an upload/replace file field
 - [image: upload page](./study-upload-page.png)
-- [ ] Move "permissions" to top, change to "Type and permissions" with options: "Public", "De-identified data", "Identified data shared with Databrary", "Identified data shared with Databrary and public excerpts allowed" (selected), "Private"
+- [x] Move "permissions" to top, change to "Type and permissions" with options: "Public", "De-identified data", "Identified data shared with Databrary", "Identified data shared with Databrary and public excerpts allowed" (selected), "Private"
 
 ### Access management
 
