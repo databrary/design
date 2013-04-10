@@ -34,17 +34,17 @@
         <text>Study%20Title%3A</text>
       </controlProperties>
     </control>
-    <control controlID="81" controlTypeID="com.balsamiq.mockups::Label" x="138" y="217" w="-1" h="-1" measuredW="120" measuredH="24" zOrder="6" locked="false" isInGroup="-1">
+    <control controlID="81" controlTypeID="com.balsamiq.mockups::Label" x="118" y="223" w="-1" h="-1" measuredW="140" measuredH="24" zOrder="6" locked="false" isInGroup="-1">
       <controlProperties>
         <align>right</align>
         <bold>true</bold>
         <size>16</size>
-        <text>Study%20Abstract%3A</text>
+        <text>Study%20Description%3A</text>
       </controlProperties>
     </control>
     <control controlID="82" controlTypeID="com.balsamiq.mockups::TextArea" x="266" y="223" w="658" h="183" measuredW="200" measuredH="140" zOrder="7" locked="false" isInGroup="-1">
       <controlProperties>
-        <text>Please%20add%20study%20abstract%20here...</text>
+        <text>Please%20add%20study%20description%20here...</text>
       </controlProperties>
     </control>
     <control controlID="84" controlTypeID="com.balsamiq.mockups::Title" x="138" y="143" w="-1" h="-1" measuredW="101" measuredH="23" zOrder="8" locked="false" isInGroup="-1">
