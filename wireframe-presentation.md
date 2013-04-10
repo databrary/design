@@ -227,24 +227,26 @@ UPDATED : Study view: Access management
 
 CREATED : User view : Access management
 
-- expandable tree with columns: "Name" (text/textbox), "Expiration", "Permissions", "Action"
+- expandable tree with columns: "Name" (text/textbox), "Databrary Access", "Granted Permission", "Expiration", "Action"
 - two sections:
   - Permissions granted to me:
     - "Databrary", blank
-      - "NYU", "2 years", "Full", reapply
+      - "NYU", "2 years", "Investigator", "None", reapply
     - Search box with request button
   - Permissions granted by me:
-      - "Joe Labmanager", "1 year", "Admin", renew/remove
-      - "Jane Postdoc", "1 year", "Contribute", renew/remove
-      - "Mary Gradstudent", "8 months", "Contribute", renew/remove
-      - "Pete Undergrad", "2 weeks", "Browse", renew/remove
-      - "New Gradstudent", "requested", none, accept/reject
+      - "Joe Labmanager", "1 year", "Affiliate", "Admin", renew/remove
+      - "Jane Postdoc", "1 year", "Affiliate", "Contribute", renew/remove
+      - "Mary Gradstudent", "8 months", "Affiliate", "Contribute", renew/remove
+      - "Pete Undergrad", "2 weeks", "Affiliate", "None", renew/remove
+      - "New Gradstudent", "requested", none, none, accept/reject
     - Search box with grant button
-- Key at bottom with permissions:
-  - Browse: standard access to Databrary, but no access to my data
+- Key to Databrary Access:
+  - Investigator: full access to Databrary as an authorized investigator
+  - Affiliate: standard browse access to Databrary as an affiliate investigator
+- Key to Granted Permissions: As a full Investigator, you may delegate the following permissions and must take responsibility for any granted actions
+  - None: standard access to Databrary, but no access to my data
   - Access: view any studies I have access to
   - Contribute: create and edit studies I own
-  - Full: full access to Databrary as an authorized investigator
   - Admin: delegate all my permissions to edit and authorize users
 - [image: user permissions tree](./user-permissions-management-tree.png)
 
