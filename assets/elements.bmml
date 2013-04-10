@@ -2086,5 +2086,23 @@
         </control>
       </groupChildrenDescriptors>
     </control>
+    <control controlID="127" controlTypeID="com.balsamiq.mockups::Label" x="1630" y="1458" w="99" h="-1" measuredW="95" measuredH="24" zOrder="43" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>right</align>
+        <bold>true</bold>
+        <size>16</size>
+        <text>Permissions%3A</text>
+      </controlProperties>
+    </control>
+    <control controlID="128" controlTypeID="com.balsamiq.mockups::CheckBox" x="1743" y="1458" w="142" h="22" measuredW="142" measuredH="22" zOrder="44" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Shared%20on%20Databrary</text>
+      </controlProperties>
+    </control>
+    <control controlID="129" controlTypeID="com.balsamiq.mockups::CheckBox" x="1743" y="1480" w="123" h="22" measuredW="123" measuredH="22" zOrder="45" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Excerpts%20Allowed</text>
+      </controlProperties>
+    </control>
   </controls>
 </mockup>

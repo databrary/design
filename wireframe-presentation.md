@@ -188,7 +188,7 @@ UPDATED: Blank participant page
   - just replace everything on current participant page with text fields/drop downs/edit buttons
 - [image: add participant](./study-participant-new.png)
 - racial categories from NIH: http://grants.nih.gov/grants/guide/notice-files/not-od-01-053.html
-- [ ] remove permissions from this page (really on files)
+- [x] remove permissions from this page (really on files)
 
 CREATED : Upload page
 
