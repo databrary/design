@@ -2,7 +2,7 @@
   <controls>
     <control controlID="0" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="76" y="3" w="964" h="975" measuredW="450" measuredH="400" zOrder="0" locked="false" isInGroup="-1">
       <controlProperties>
-        <text>Databrary%20-%20Infants%20Navigating%20Risky%20Gaps%20-%20Participant%202%0Ahttps%3A//databrary.org/study/143/participants/2</text>
+        <text>Databrary%20-%20Toddler%20social%20referencing%20with%20ambiguous%20toy%20-%20Participant%202%0Ahttps%3A//databrary.org/study/143/participants/2</text>
       </controlProperties>
     </control>
     <control controlID="46" controlTypeID="com.balsamiq.mockups::Icon" x="932" y="38" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="1" locked="false" isInGroup="-1">
@@ -14,6 +14,7 @@
     <control controlID="61" controlTypeID="com.balsamiq.mockups::Component" x="77" y="919" w="964" h="33" measuredW="964" measuredH="33" zOrder="2" locked="false" isInGroup="-1">
       <controlProperties>
         <override controlID="0" x="0" y="0" w="964" h="33"/>
+        <override controlID="-1"/>
         <src>./assets/elements.bmml#footer</src>
       </controlProperties>
     </control>
@@ -22,19 +23,19 @@
         <src>./assets/elements.bmml#header-post_authn</src>
       </controlProperties>
     </control>
-    <control controlID="92" controlTypeID="com.balsamiq.mockups::Component" x="138" y="609" w="779" h="34" measuredW="779" measuredH="34" zOrder="5" locked="false" isInGroup="-1">
+    <control controlID="92" controlTypeID="com.balsamiq.mockups::Component" x="138" y="567" w="779" h="34" measuredW="779" measuredH="34" zOrder="5" locked="false" isInGroup="-1">
       <controlProperties>
         <src>./assets/elements.bmml#label-template</src>
       </controlProperties>
     </control>
-    <control controlID="93" controlTypeID="__group__" x="138" y="423" w="779" h="177" measuredW="779" measuredH="177" zOrder="4" locked="false" isInGroup="-1">
+    <control controlID="93" controlTypeID="__group__" x="138" y="383" w="779" h="183" measuredW="779" measuredH="183" zOrder="4" locked="false" isInGroup="-1">
       <groupChildrenDescriptors>
         <control controlID="0" controlTypeID="com.balsamiq.mockups::HRule" x="0" y="0" w="779" h="-1" measuredW="100" measuredH="10" zOrder="0" locked="false" isInGroup="93">
           <controlProperties>
             <backgroundAlpha>0.25</backgroundAlpha>
           </controlProperties>
         </control>
-        <control controlID="1" controlTypeID="__group__" x="0" y="138" w="252" h="39" measuredW="252" measuredH="39" zOrder="1" locked="false" isInGroup="93">
+        <control controlID="1" controlTypeID="__group__" x="0" y="144" w="252" h="39" measuredW="252" measuredH="39" zOrder="1" locked="false" isInGroup="93">
           <groupChildrenDescriptors>
             <control controlID="3" controlTypeID="__group__" x="0" y="0" w="252" h="39" measuredW="252" measuredH="39" zOrder="0" locked="false" isInGroup="1">
               <groupChildrenDescriptors>
@@ -54,16 +55,16 @@
             </control>
           </groupChildrenDescriptors>
         </control>
-        <control controlID="2" controlTypeID="__group__" x="0" y="39" w="765" h="87" measuredW="765" measuredH="87" zOrder="2" locked="false" isInGroup="93">
+        <control controlID="2" controlTypeID="__group__" x="0" y="39" w="765" h="95" measuredW="765" measuredH="95" zOrder="2" locked="false" isInGroup="93">
           <groupChildrenDescriptors>
-            <control controlID="1" controlTypeID="com.balsamiq.mockups::DataGrid" x="0" y="0" w="765" h="87" measuredW="524" measuredH="87" zOrder="0" locked="false" isInGroup="2">
+            <control controlID="1" controlTypeID="com.balsamiq.mockups::DataGrid" x="0" y="0" w="765" h="95" measuredW="557" measuredH="87" zOrder="0" locked="false" isInGroup="2">
               <controlProperties>
                 <align>right</align>
                 <alternateRowColor>16777215</alternateRowColor>
                 <bold>false</bold>
                 <hLines>false</hLines>
                 <rowHeight>22</rowHeight>
-                <text>Description%20%5E%2C%20%20%20File%20Name%20%5Ev%2C%20View%2C%20%20File%20Size%20%20%20%5Ev%2C%20%20%20Modified%20Date%20%20%5Ev%0ASession%20Video%2C%20%20%20%5Bparticipant-2.mov%5D%20%2C%2C273%20MB%20%20%20%2C%201999-12-09%0AData%20File%2C%20%20%20%5BSummary%20measures.xls%5D%20%2C%20%2C534%20kB%20%20%20%2C%202010-11-28%0ACoding%20Spreadsheet%2C%20%20%20%5BDatavyu%5D%20%2C%20%2C987%20kB%20%20%20%2C%202010-07-19%0A%7B20L%2C%2020L%2C%2010C%2C%2015R%2C%2015C%7D</text>
+                <text>Description%20%5E%2C%20%20%20File%20Type%20%5Ev%2C%20View%2C%20%20File%20Size%20%20%20%5Ev%2C%20%20%20Modified%20Date%20%20%5Ev%0A%5BSession%20Video%5D%2C%20%20%20Video%2C%2C273%20MB%20%20%20%2C%201999-12-09%0A%5BData%20File%5D%2C%20%20%20Microsoft%20Excel%20spreadsheet%20%2C%20%2C534%20kB%20%20%20%2C%202010-11-28%0A%5BCoding%20Spreadsheet%5D%2C%20%20%20Datavyu%20spreadsheet%20%2C%20%2C987%20kB%20%20%20%2C%202010-07-19%0A%7B20L%2C%2020L%2C%2010C%2C%2015R%2C%2015C%7D</text>
                 <value>0</value>
                 <verticalScrollbar>false</verticalScrollbar>
                 <vLines>true</vLines>
@@ -85,18 +86,18 @@
         </control>
       </groupChildrenDescriptors>
     </control>
-    <control controlID="94" controlTypeID="com.balsamiq.mockups::Component" x="138" y="668" w="779" h="146" measuredW="779" measuredH="146" zOrder="6" locked="false" isInGroup="-1">
+    <control controlID="94" controlTypeID="com.balsamiq.mockups::Component" x="138" y="632" w="779" h="146" measuredW="779" measuredH="146" zOrder="6" locked="false" isInGroup="-1">
       <controlProperties>
         <src>./assets/elements.bmml#comment-template</src>
       </controlProperties>
     </control>
-    <control controlID="96" controlTypeID="com.balsamiq.mockups::BreadCrumbs" x="123" y="129" w="-1" h="-1" measuredW="377" measuredH="25" zOrder="7" locked="false" isInGroup="-1">
+    <control controlID="96" controlTypeID="com.balsamiq.mockups::BreadCrumbs" x="123" y="137" w="-1" h="-1" measuredW="477" measuredH="25" zOrder="7" locked="false" isInGroup="-1">
       <controlProperties>
         <size>14</size>
-        <text>Home%2C%20Infants%20Navigating%20Risky%20Gaps%2C%20Participant%202%20Data</text>
+        <text>Home%2CToddler%20social%20referencing%20with%20ambiguous%20toy%2C%20Participant%202%20Data</text>
       </controlProperties>
     </control>
-    <control controlID="97" controlTypeID="com.balsamiq.mockups::Title" x="138" y="174" w="-1" h="-1" measuredW="156" measuredH="23" zOrder="8" locked="false" isInGroup="-1">
+    <control controlID="97" controlTypeID="com.balsamiq.mockups::Title" x="138" y="182" w="-1" h="-1" measuredW="156" measuredH="23" zOrder="8" locked="false" isInGroup="-1">
       <controlProperties>
         <align>left</align>
         <bold>true</bold>
@@ -104,8 +105,14 @@
         <text>Participant%20Data</text>
       </controlProperties>
     </control>
-    <control controlID="98" controlTypeID="com.balsamiq.mockups::Component" x="138" y="210" w="856" h="179" measuredW="856" measuredH="179" zOrder="9" locked="false" isInGroup="-1">
+    <control controlID="98" controlTypeID="com.balsamiq.mockups::Component" x="138" y="218" w="856" h="135" measuredW="856" measuredH="135" zOrder="9" locked="false" isInGroup="-1">
       <controlProperties>
+        <override controlID="15:16">
+          <text>2014-01-03</text>
+        </override>
+        <override controlID="15:10">
+          <text>2014-10-11</text>
+        </override>
         <src>./assets/elements.bmml#study-participant-show</src>
       </controlProperties>
     </control>
