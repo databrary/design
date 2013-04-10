@@ -50,12 +50,7 @@
         <src>./assets/elements.bmml#footer</src>
       </controlProperties>
     </control>
-    <control controlID="82" controlTypeID="com.balsamiq.mockups::Component" x="173" y="598" w="778" h="98" measuredW="778" measuredH="98" zOrder="8" locked="false" isInGroup="-1">
-      <controlProperties>
-        <src>./assets/elements.bmml#nsf-grant-info</src>
-      </controlProperties>
-    </control>
-    <control controlID="83" controlTypeID="com.balsamiq.mockups::Component" x="694" y="101" w="167" h="157" measuredW="167" measuredH="157" zOrder="9" locked="false" isInGroup="-1">
+    <control controlID="83" controlTypeID="com.balsamiq.mockups::Component" x="694" y="101" w="167" h="157" measuredW="167" measuredH="157" zOrder="8" locked="false" isInGroup="-1">
       <controlProperties>
         <src>./assets/elements.bmml#sign-in-dropdown</src>
       </controlProperties>

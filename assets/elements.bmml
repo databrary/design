@@ -363,35 +363,11 @@
             </control>
           </groupChildrenDescriptors>
         </control>
-        <control controlID="4" controlTypeID="__group__" x="639" y="4" w="320" h="25" measuredW="320" measuredH="25" zOrder="4" locked="false" isInGroup="9">
+        <control controlID="4" controlTypeID="__group__" x="766" y="4" w="193" h="25" measuredW="193" measuredH="25" zOrder="4" locked="false" isInGroup="9">
           <groupChildrenDescriptors>
-            <control controlID="2" controlTypeID="__group__" x="0" y="0" w="320" h="25" measuredW="320" measuredH="25" zOrder="0" locked="false" isInGroup="4">
+            <control controlID="2" controlTypeID="__group__" x="0" y="0" w="193" h="25" measuredW="193" measuredH="25" zOrder="0" locked="false" isInGroup="4">
               <groupChildrenDescriptors>
-                <control controlID="0" controlTypeID="__group__" x="0" y="2" w="114" h="21" measuredW="114" measuredH="21" zOrder="0" locked="false" isInGroup="2">
-                  <groupChildrenDescriptors>
-                    <control controlID="0" controlTypeID="com.balsamiq.mockups::Label" x="63" y="0" w="-1" h="-1" measuredW="51" measuredH="21" zOrder="0" locked="false" isInGroup="0">
-                      <controlProperties>
-                        <color>16777215</color>
-                        <text>Register</text>
-                        <underline>true</underline>
-                      </controlProperties>
-                    </control>
-                    <control controlID="1" controlTypeID="com.balsamiq.mockups::Label" x="0" y="0" w="-1" h="-1" measuredW="43" measuredH="21" zOrder="1" locked="false" isInGroup="0">
-                      <controlProperties>
-                        <color>16777215</color>
-                        <text>Sign%20In</text>
-                        <underline>true</underline>
-                      </controlProperties>
-                    </control>
-                    <control controlID="2" controlTypeID="com.balsamiq.mockups::Label" x="51" y="0" w="10" h="-1" measuredW="10" measuredH="21" zOrder="2" locked="false" isInGroup="0">
-                      <controlProperties>
-                        <color>16777215</color>
-                        <text>/</text>
-                      </controlProperties>
-                    </control>
-                  </groupChildrenDescriptors>
-                </control>
-                <control controlID="1" controlTypeID="com.balsamiq.mockups::SearchBox" x="127" y="0" w="193" h="-1" measuredW="127" measuredH="25" zOrder="1" locked="false" isInGroup="2">
+                <control controlID="1" controlTypeID="com.balsamiq.mockups::SearchBox" x="0" y="0" w="193" h="-1" measuredW="127" measuredH="25" zOrder="0" locked="false" isInGroup="2">
                   <controlProperties>
                     <text>search%20Databrary</text>
                   </controlProperties>
@@ -446,21 +422,21 @@
             </control>
           </groupChildrenDescriptors>
         </control>
-        <control controlID="3" controlTypeID="__group__" x="664" y="3" w="292" h="25" measuredW="292" measuredH="25" zOrder="2" locked="false" isInGroup="12">
+        <control controlID="3" controlTypeID="__group__" x="600" y="3" w="356" h="25" measuredW="356" measuredH="25" zOrder="2" locked="false" isInGroup="12">
           <groupChildrenDescriptors>
-            <control controlID="0" controlTypeID="__group__" x="0" y="1" w="84" h="22" measuredW="84" measuredH="22" zOrder="0" locked="false" isInGroup="3">
+            <control controlID="0" controlTypeID="__group__" x="0" y="1" w="152" h="22" measuredW="152" measuredH="22" zOrder="0" locked="false" isInGroup="3">
               <groupChildrenDescriptors>
-                <control controlID="1" controlTypeID="com.balsamiq.mockups::Label" x="0" y="0" w="-1" h="-1" measuredW="84" measuredH="22" zOrder="0" locked="false" isInGroup="0">
+                <control controlID="1" controlTypeID="com.balsamiq.mockups::Label" x="0" y="0" w="-1" h="-1" measuredW="152" measuredH="22" zOrder="0" locked="false" isInGroup="0">
                   <controlProperties>
                     <color>16777215</color>
                     <size>14</size>
-                    <text>Karen%20Adolph</text>
+                    <text>Suzanne%20Q.%20Researcher</text>
                     <underline>true</underline>
                   </controlProperties>
                 </control>
               </groupChildrenDescriptors>
             </control>
-            <control controlID="1" controlTypeID="com.balsamiq.mockups::SearchBox" x="99" y="0" w="193" h="-1" measuredW="127" measuredH="25" zOrder="1" locked="false" isInGroup="3">
+            <control controlID="1" controlTypeID="com.balsamiq.mockups::SearchBox" x="163" y="0" w="193" h="-1" measuredW="127" measuredH="25" zOrder="1" locked="false" isInGroup="3">
               <controlProperties>
                 <text>search%20Databrary</text>
               </controlProperties>
@@ -1091,7 +1067,6 @@
         <control controlID="2" controlTypeID="com.balsamiq.mockups::Button" x="0" y="11" w="-1" h="-1" measuredW="206" measuredH="27" zOrder="1" locked="false" isInGroup="72">
           <controlProperties>
             <color>40463</color>
-            <map>%3Carea%20shape%3D%22rect%22%20coords%3D%221190%2C1447%2C1396%2C1474%22%20href%3D%22study-public-request.bmml%22%20alt%3D%22study-public-request%22%20id%3D%222%22/%3E</map>
             <text>Please%20sign%20in%20to%20access%20Study</text>
           </controlProperties>
         </control>
@@ -2081,6 +2056,55 @@
               </controlProperties>
             </control>
           </groupChildrenDescriptors>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="126" controlTypeID="__group__" x="2074" y="1473" w="146" h="170" measuredW="146" measuredH="170" zOrder="42" locked="false" isInGroup="-1">
+      <controlProperties>
+        <controlName>sign-in-box</controlName>
+      </controlProperties>
+      <groupChildrenDescriptors>
+        <control controlID="2" controlTypeID="__group__" x="0" y="26" w="146" h="144" measuredW="146" measuredH="144" zOrder="0" locked="false" isInGroup="126">
+          <controlProperties>
+            <controlName>sign-in-dropdown</controlName>
+          </controlProperties>
+          <groupChildrenDescriptors>
+            <control controlID="0" controlTypeID="__group__" x="0" y="0" w="146" h="144" measuredW="146" measuredH="144" zOrder="0" locked="false" isInGroup="2">
+              <controlProperties>
+                <controlName/>
+              </controlProperties>
+              <groupChildrenDescriptors>
+                <control controlID="1" controlTypeID="com.balsamiq.mockups::TextInput" x="0" y="0" w="146" h="-1" measuredW="76" measuredH="27" zOrder="0" locked="false" isInGroup="0">
+                  <controlProperties>
+                    <text>Username</text>
+                  </controlProperties>
+                </control>
+                <control controlID="2" controlTypeID="com.balsamiq.mockups::TextInput" x="0" y="36" w="146" h="-1" measuredW="70" measuredH="27" zOrder="1" locked="false" isInGroup="0">
+                  <controlProperties>
+                    <text>Password</text>
+                  </controlProperties>
+                </control>
+                <control controlID="3" controlTypeID="com.balsamiq.mockups::Button" x="0" y="83" w="146" h="27" measuredW="65" measuredH="27" zOrder="2" locked="false" isInGroup="0">
+                  <controlProperties>
+                    <color>2848996</color>
+                    <menuIcon>false</menuIcon>
+                    <text>Sign%20In</text>
+                  </controlProperties>
+                </control>
+                <control controlID="4" controlTypeID="com.balsamiq.mockups::Link" x="95" y="125" w="-1" h="-1" measuredW="51" measuredH="19" zOrder="3" locked="false" isInGroup="0">
+                  <controlProperties>
+                    <text>Register</text>
+                  </controlProperties>
+                </control>
+              </groupChildrenDescriptors>
+            </control>
+          </groupChildrenDescriptors>
+        </control>
+        <control controlID="3" controlTypeID="com.balsamiq.mockups::SubTitle" x="1" y="0" w="-1" h="-1" measuredW="66" measuredH="23" zOrder="1" locked="false" isInGroup="126">
+          <controlProperties>
+            <size>20</size>
+            <text>Sign%20In</text>
+          </controlProperties>
         </control>
       </groupChildrenDescriptors>
     </control>
