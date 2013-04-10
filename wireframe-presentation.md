@@ -75,7 +75,7 @@ UPDATED: Study page (Public View)
 - [x]: reduce # video file to 1 each participant, data files to 2
 - [x]: change to "Download citation in this format: "
 - [x] we can drop these and focus on authorized view if these are hard to maintain separately : 
-- [ ] probably documents/data will be links but since we don't have pages for them don't bother
+- [x] probably documents/data will be links but since we don't have pages for them don't bother
 
 UPDATED: Study page (Authorized View)
 
@@ -144,7 +144,7 @@ NEEDS UPDATES : Dashboard (post login)
 - search
 - user authorization
 - [image: investigator dashboard](./investigator-dashboard.png)
-- [ ]: please provide links to stills. following link above I found two images that might be useful for "Adolph walking" search results.  Also, need stills for dashboard.
+- [x]: please provide links to stills. following link above I found two images that might be useful for "Adolph walking" search results.  Also, need stills for dashboard.
 - [x] Change "My Databrary" buttons to "Add/Edit studies", "Authorize users" (maybe highlight this somehow to indicate pending requests?), "Edit this page"
 - [x] Change "My Activity Feeds" to "Popular on Databrary"
 
@@ -198,9 +198,9 @@ CREATED : Upload page
 - a separate page, basically like the video page with edit links and an upload/replace file field
 - [image: upload page](./study-upload-page.png)
 - [x] Move "permissions" to top, change to "Type and permissions" with options: "Public", "De-identified data", "Identified data shared with Databrary", "Identified data shared with Databrary and public excerpts allowed" (selected), "Private"
-- [ ] remove participant 2 data table
-- [ ] change "Upload Data" to "Add File"
-- [ ] move permissions down closer to upload, add acquisition date next to upload (both are logically associated with the uploaded file)
+- [x] remove participant 2 data table
+- [x] change "Upload Data" to "Add File"
+- [x] move permissions down closer to upload, add acquisition date next to upload (both are logically associated with the uploaded file)
 
 ### Access management
 
