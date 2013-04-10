@@ -38,6 +38,7 @@ Reuse
 #### Discover
 
 ![basic search results](search-basic-results.png)
+![basic search results](search-basic-results-authenticated.png)
 
 * Terms
 * Results

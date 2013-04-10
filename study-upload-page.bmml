@@ -2,7 +2,7 @@
   <controls>
     <control controlID="0" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="76" y="3" w="964" h="975" measuredW="450" measuredH="400" zOrder="0" locked="false" isInGroup="-1">
       <controlProperties>
-        <text>Databrary%20-%20Toddler%20social%20referencing%20with%20ambiguous%20toy%20-%20Participant%202%20-%20Edit%0Ahttps%3A//databrary.org/study/143/participants/2/Edit</text>
+        <text>Databrary%20-%20%20Infant%20social%20referencing%20with%20stranger%20-%20Participant%201%20-%20Edit%0Ahttps%3A//databrary.org/study/986/participants/1/Edit</text>
       </controlProperties>
     </control>
     <control controlID="46" controlTypeID="com.balsamiq.mockups::Icon" x="932" y="38" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="1" locked="false" isInGroup="-1">
@@ -14,22 +14,15 @@
     <control controlID="61" controlTypeID="com.balsamiq.mockups::Component" x="77" y="919" w="964" h="33" measuredW="964" measuredH="33" zOrder="2" locked="false" isInGroup="-1">
       <controlProperties>
         <override controlID="0" x="0" y="0" w="964" h="33"/>
+        <override controlID="-1"/>
         <src>./assets/elements.bmml#footer</src>
       </controlProperties>
     </control>
     <control controlID="70" controlTypeID="com.balsamiq.mockups::Component" x="75" y="76" w="964" h="32" measuredW="964" measuredH="32" zOrder="3" locked="false" isInGroup="-1">
       <controlProperties>
-        <override controlID="0" x="0" y="0" w="964" h="32"/>
-        <override controlID="1" x="15" y="4" w="98" h="24"/>
-        <override controlID="3" x="616" y="3" w="340" h="25"/>
-        <override controlID="1:0" x="0" y="0" w="28" h="24"/>
-        <override controlID="1:1" x="26" y="0" w="-1" h="-1"/>
+        <override controlID="3" x="600" y="3" w="356" h="25"/>
         <override controlID="-1"/>
-        <override controlID="3:1" x="147" y="0" w="193" h="-1"/>
-        <override controlID="3:0:1" x="0" y="0" w="-1" h="-1">
-          <text>Jeffrey%20T.%20Investigator</text>
-        </override>
-        <override controlID="3:0" x="0" y="1" w="139" h="22"/>
+        <override controlID="3:0" x="0" y="1" w="152" h="22"/>
         <src>./assets/elements.bmml#header-post_authn</src>
       </controlProperties>
     </control>
@@ -55,11 +48,11 @@
                     <text>Racial%20Category%3A</text>
                   </controlProperties>
                 </control>
-                <control controlID="2" controlTypeID="com.balsamiq.mockups::Label" x="144" y="0" w="11" h="-1" measuredW="11" measuredH="24" zOrder="2" locked="false" isInGroup="30">
+                <control controlID="2" controlTypeID="com.balsamiq.mockups::Label" x="144" y="0" w="11" h="-1" measuredW="10" measuredH="24" zOrder="2" locked="false" isInGroup="30">
                   <controlProperties>
                     <bold>false</bold>
                     <size>16</size>
-                    <text>2</text>
+                    <text>1</text>
                   </controlProperties>
                 </control>
                 <control controlID="3" controlTypeID="com.balsamiq.mockups::Label" x="145" y="72" w="310" h="-1" measuredW="42" measuredH="24" zOrder="3" locked="false" isInGroup="30">
@@ -77,11 +70,11 @@
                     <text>Date%20of%20Birth%3A</text>
                   </controlProperties>
                 </control>
-                <control controlID="5" controlTypeID="com.balsamiq.mockups::Label" x="144" y="26" w="-1" h="-1" measuredW="85" measuredH="24" zOrder="5" locked="false" isInGroup="30">
+                <control controlID="5" controlTypeID="com.balsamiq.mockups::Label" x="144" y="26" w="-1" h="-1" measuredW="87" measuredH="24" zOrder="5" locked="false" isInGroup="30">
                   <controlProperties>
                     <bold>false</bold>
                     <size>16</size>
-                    <text>2014-01-03</text>
+                    <text>2015-04-09</text>
                   </controlProperties>
                 </control>
                 <control controlID="6" controlTypeID="com.balsamiq.mockups::Label" x="101" y="48" w="-1" h="-1" measuredW="32" measuredH="24" zOrder="6" locked="false" isInGroup="30">
@@ -113,10 +106,10 @@
         </control>
       </groupChildrenDescriptors>
     </control>
-    <control controlID="96" controlTypeID="com.balsamiq.mockups::BreadCrumbs" x="123" y="136" w="-1" h="-1" measuredW="472" measuredH="25" zOrder="5" locked="false" isInGroup="-1">
+    <control controlID="96" controlTypeID="com.balsamiq.mockups::BreadCrumbs" x="123" y="136" w="-1" h="-1" measuredW="423" measuredH="25" zOrder="5" locked="false" isInGroup="-1">
       <controlProperties>
         <size>14</size>
-        <text>Home%2C%20Toddler%20social%20referencing%20with%20ambiguous%20toy%2C%20Participant%202%20Edit</text>
+        <text>Home%2C%20%20Infant%20social%20referencing%20with%20stranger%2C%20Participant%201%20Edit</text>
       </controlProperties>
     </control>
     <control controlID="107" controlTypeID="__group__" x="157" y="451" w="762" h="357" measuredW="762" measuredH="357" zOrder="6" locked="false" isInGroup="-1">
@@ -236,11 +229,11 @@
         </control>
       </groupChildrenDescriptors>
     </control>
-    <control controlID="111" controlTypeID="com.balsamiq.mockups::Label" x="157" y="204" w="-1" h="-1" measuredW="191" measuredH="24" zOrder="9" locked="false" isInGroup="-1">
+    <control controlID="111" controlTypeID="com.balsamiq.mockups::Label" x="157" y="204" w="-1" h="-1" measuredW="187" measuredH="24" zOrder="9" locked="false" isInGroup="-1">
       <controlProperties>
         <bold>true</bold>
         <size>16</size>
-        <text>Participant%202%20Information</text>
+        <text>Participant%201%20Information</text>
       </controlProperties>
     </control>
   </controls>

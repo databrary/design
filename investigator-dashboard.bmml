@@ -279,11 +279,11 @@
         <text>Edit%20this%20Page</text>
       </controlProperties>
     </control>
-    <control controlID="115" controlTypeID="com.balsamiq.mockups::Button" x="457" y="218" w="171" h="27" measuredW="164" measuredH="27" zOrder="13" locked="false" isInGroup="-1">
+    <control controlID="115" controlTypeID="com.balsamiq.mockups::Button" x="457" y="218" w="171" h="27" measuredW="161" measuredH="27" zOrder="13" locked="false" isInGroup="-1">
       <controlProperties>
         <color>2848996</color>
         <size>16</size>
-        <text>Authorize%20Users%20%283%29</text>
+        <text>Authorize%20Users%20%281%29</text>
       </controlProperties>
     </control>
     <control controlID="118" controlTypeID="com.balsamiq.mockups::Image" x="136" y="118" w="92" h="77" measuredW="193" measuredH="153" zOrder="14" locked="false" isInGroup="-1">
