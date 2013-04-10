@@ -30,8 +30,6 @@ Reuse
 
 ![registration page](register.png)
 
-![sign-in](sign-in.png)
-
 * Username/password
 * Shibboleth SSO
 * OpenID
