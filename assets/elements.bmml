@@ -1614,13 +1614,13 @@
             <text>Documents%2C%20Data%2C%20Excerpts</text>
           </controlProperties>
         </control>
-        <control controlID="2" controlTypeID="com.balsamiq.mockups::DataGrid" x="0" y="47" w="765" h="69" measuredW="462" measuredH="65" zOrder="2" locked="false" isInGroup="119">
+        <control controlID="2" controlTypeID="com.balsamiq.mockups::DataGrid" x="0" y="47" w="765" h="69" measuredW="519" measuredH="65" zOrder="2" locked="false" isInGroup="119">
           <controlProperties>
             <align>left</align>
             <alternateRowColor>16777215</alternateRowColor>
             <bold>false</bold>
             <rowHeight>22</rowHeight>
-            <text>Description%20%5E%2C%20%20%20Runtime%20%28hh%3Amm%3Ass%29%20%5Ev%2C%20View%2C%20%20%20Acquisition%20Date%20%20%5Ev%0ACrawling%20and%20reaching%2C00%3A00%3A15%2C%20%2C%201999-12-09%0ASitting%20and%20reaching%2C%2000%3A07%3A10%2C%20%2C1999-06-07%0A%7B20L%2C%2010C%2C%205C%2C%2010C%7D</text>
+            <text>Description%20%5E%2C%20%20%20Runtime%20%28hh%3Amm%3Ass%29%20%5Ev%2C%20View%2C%20%20%20Acquisition%20Date%20%20%5Ev%0Alooks%20to%20mom%20for%20ambiguous%20toy%20%2C00%3A00%3A15%2C%20%2C%202014-06-09%0Aset%20up%20and%20procedure%2C%2000%3A07%3A10%2C%20%2C2014-01-07%0A%7B20L%2C%2010C%2C%205C%2C%2010C%7D</text>
           </controlProperties>
         </control>
         <control controlID="3" controlTypeID="com.balsamiq.mockups::Icon" x="539" y="69" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="3" locked="false" isInGroup="119">
