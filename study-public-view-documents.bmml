@@ -21,27 +21,29 @@
         <src>./assets/elements.bmml#footer</src>
       </controlProperties>
     </control>
-    <control controlID="59" controlTypeID="com.balsamiq.mockups::Component" x="150" y="152" w="800" h="259" measuredW="800" measuredH="259" zOrder="4" locked="false" isInGroup="-1">
+    <control controlID="59" controlTypeID="com.balsamiq.mockups::Component" x="150" y="152" w="800" h="239" measuredW="800" measuredH="239" zOrder="4" locked="false" isInGroup="-1">
       <controlProperties>
-        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22756%2C364%2C819%2C385%22%20href%3D%22karen-profile.bmml%22%20alt%3D%22karen-profile%22%20id%3D%221%22/%3E</map>
         <src>./assets/elements.bmml#study-abstract</src>
       </controlProperties>
     </control>
-    <control controlID="60" controlTypeID="com.balsamiq.mockups::Component" x="152" y="636" w="780" h="144" measuredW="780" measuredH="144" zOrder="5" locked="false" isInGroup="-1">
+    <control controlID="60" controlTypeID="com.balsamiq.mockups::Component" x="152" y="612" w="789" h="118" measuredW="789" measuredH="118" zOrder="5" locked="false" isInGroup="-1">
       <controlProperties>
         <src>./assets/elements.bmml#citation</src>
       </controlProperties>
     </control>
-    <control controlID="61" controlTypeID="com.balsamiq.mockups::Component" x="151" y="571" w="779" h="38" measuredW="779" measuredH="38" zOrder="6" locked="false" isInGroup="-1">
+    <control controlID="61" controlTypeID="com.balsamiq.mockups::Component" x="151" y="551" w="779" h="38" measuredW="779" measuredH="38" zOrder="6" locked="false" isInGroup="-1">
       <controlProperties>
-        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%2276%2C579%2C282%2C606%22%20href%3D%22study-public-request.bmml%22%20alt%3D%22study-public-request%22%20id%3D%222%22/%3E</map>
         <src>./assets/elements.bmml#request-access</src>
       </controlProperties>
     </control>
-    <control controlID="63" controlTypeID="com.balsamiq.mockups::Component" x="149" y="411" w="765" h="140" measuredW="765" measuredH="140" zOrder="7" locked="false" isInGroup="-1">
+    <control controlID="63" controlTypeID="com.balsamiq.mockups::Component" x="149" y="391" w="765" h="140" measuredW="765" measuredH="140" zOrder="7" locked="false" isInGroup="-1">
       <controlProperties>
-        <override controlID="1:1">
-          <text>Description%20%5E%2C%20%20File%20Name%20%5Ev%2C%20File%20Size%20%5Ev%2C%20Modified%20Date%20%20%5Ev%0ABlank%20Consent%20Form%2Cconsent-template.doc%20%2C%20534%20kB%2C%202010-11-28%0ACoding%20Manual%2C%20code_man.doc%2C%20534%20kB%2C%202010-11-28%0AIRB%20Protocol%2C2010-irb.doc%20%2C%20987%20kB%2C%202010-07-19%0AStudy%20Protocol%2Cstudy-protocol.doc%20%20%2C%20127%20kB%2C%202011-09-27%0A%7B25L%2C%2020L%2C%2010C%2C%2010C%7D</text>
+        <override controlID="1" x="0" y="18" w="765" h="122"/>
+        <override controlID="0" x="0" y="0" w="-1" h="-1"/>
+        <override controlID="1:0" x="0" y="0" w="765" h="122"/>
+        <override controlID="-1"/>
+        <override controlID="1:1" x="0" y="23" w="765" h="99">
+          <text>Description%20%5E%2C%20%20File%20Type%20%5Ev%2C%20File%20Size%20%5Ev%2C%20Modified%20Date%20%20%5Ev%0ABlank%20Consent%20Form%2CAdobe%20PDF%20%2C%20534%20kB%2C%202010-11-28%0ACoding%20Manual%2C%20Microsoft%20Word%20Document%2C%20534%20kB%2C%202010-11-28%0AIRB%20Protocol%2CAdobe%20PDF%20%2C%20987%20kB%2C%202010-07-19%0AStudy%20Protocol%2CMicrosoft%20Word%20Document%20%2C%20127%20kB%2C%202011-09-27%0A%7B22L%2C%2022L%2C%2010C%2C%2010C%7D</text>
         </override>
         <src>./assets/elements.bmml#study-authorized-documents</src>
       </controlProperties>

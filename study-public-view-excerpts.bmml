@@ -21,24 +21,22 @@
         <src>./assets/elements.bmml#footer</src>
       </controlProperties>
     </control>
-    <control controlID="59" controlTypeID="com.balsamiq.mockups::Component" x="150" y="156" w="800" h="259" measuredW="800" measuredH="259" zOrder="4" locked="false" isInGroup="-1">
+    <control controlID="59" controlTypeID="com.balsamiq.mockups::Component" x="150" y="156" w="800" h="239" measuredW="800" measuredH="239" zOrder="4" locked="false" isInGroup="-1">
       <controlProperties>
-        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22756%2C368%2C819%2C389%22%20href%3D%22karen-profile.bmml%22%20alt%3D%22karen-profile%22%20id%3D%221%22/%3E%3Carea%20shape%3D%22rect%22%20coords%3D%22756%2C368%2C819%2C389%22%20href%3D%22karen-profile.bmml%22%20alt%3D%22karen-profile%22%20id%3D%221%22/%3E%3Carea%20shape%3D%22rect%22%20coords%3D%22756%2C368%2C819%2C389%22%20href%3D%22karen-profile.bmml%22%20alt%3D%22karen-profile%22%20id%3D%221%22/%3E%3Carea%20shape%3D%22rect%22%20coords%3D%22756%2C368%2C819%2C389%22%20href%3D%22karen-profile.bmml%22%20alt%3D%22karen-profile%22%20id%3D%221%22/%3E</map>
         <src>./assets/elements.bmml#study-abstract</src>
       </controlProperties>
     </control>
-    <control controlID="60" controlTypeID="com.balsamiq.mockups::Component" x="150" y="638" w="780" h="144" measuredW="780" measuredH="144" zOrder="5" locked="false" isInGroup="-1">
+    <control controlID="60" controlTypeID="com.balsamiq.mockups::Component" x="150" y="610" w="789" h="118" measuredW="789" measuredH="118" zOrder="5" locked="false" isInGroup="-1">
       <controlProperties>
         <src>./assets/elements.bmml#citation</src>
       </controlProperties>
     </control>
-    <control controlID="61" controlTypeID="com.balsamiq.mockups::Component" x="150" y="573" w="779" h="38" measuredW="779" measuredH="38" zOrder="6" locked="false" isInGroup="-1">
+    <control controlID="61" controlTypeID="com.balsamiq.mockups::Component" x="150" y="537" w="779" h="38" measuredW="779" measuredH="38" zOrder="6" locked="false" isInGroup="-1">
       <controlProperties>
-        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%2275%2C581%2C281%2C608%22%20href%3D%22study-public-request.bmml%22%20alt%3D%22study-public-request%22%20id%3D%222%22/%3E%3Carea%20shape%3D%22rect%22%20coords%3D%2275%2C581%2C281%2C608%22%20href%3D%22study-public-request.bmml%22%20alt%3D%22study-public-request%22%20id%3D%222%22/%3E%3Carea%20shape%3D%22rect%22%20coords%3D%2275%2C581%2C281%2C608%22%20href%3D%22study-public-request.bmml%22%20alt%3D%22study-public-request%22%20id%3D%222%22/%3E%3Carea%20shape%3D%22rect%22%20coords%3D%2275%2C589%2C281%2C616%22%20href%3D%22study-public-request.bmml%22%20alt%3D%22study-public-request%22%20id%3D%222%22/%3E</map>
         <src>./assets/elements.bmml#request-access</src>
       </controlProperties>
     </control>
-    <control controlID="62" controlTypeID="com.balsamiq.mockups::Component" x="150" y="430" w="766" h="116" measuredW="766" measuredH="116" zOrder="7" locked="false" isInGroup="-1">
+    <control controlID="62" controlTypeID="com.balsamiq.mockups::Component" x="150" y="400" w="766" h="116" measuredW="766" measuredH="116" zOrder="7" locked="false" isInGroup="-1">
       <controlProperties>
         <src>./assets/elements.bmml#study-excerpts</src>
       </controlProperties>
