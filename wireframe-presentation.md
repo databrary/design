@@ -252,6 +252,17 @@ CREATED : User view : Access management
   - Contribute: create and edit studies I own
   - Admin: delegate all my permissions to edit and authorize users
 - [image: user permissions tree](./user-permissions-management-tree.png)
-- [ ] change key and make permissions two columns, as above
+- [x] change key and make permissions two columns, as above
 
 -------------------------------------------------------------------------------
+
+### Roles:
+- Suzanne Q. Researcher: logs in and sees activity
+- Henry Jones:           investigator sharing data in Suzy Q's dashboard
+                         investigator whose studies show up in search results
+
+- Jeffrey T. Investigator: investigator sharing data set "Toddler social referencing with ambiguous toy"
+                           investigator managing permissions
+- Tiberius Smith:          commenter on JT Investigator's data set
+
+
