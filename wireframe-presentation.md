@@ -270,3 +270,11 @@ CREATED : User view : Access management
 - Tiberius Smith:          commenter on JT Investigator's data set
 
 
+------------------------------------------------------------------------------
+# presentation
+- wireframe dims    :  750 x 731
+- wireframe location:  260 x  19
+
+- questions:
+-- should we have acquisition date on participant page?
+-- should new study flow be for a new study created by Suzy Q?
