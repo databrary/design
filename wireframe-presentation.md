@@ -188,7 +188,7 @@ UPDATED: Blank participant page
   - just replace everything on current participant page with text fields/drop downs/edit buttons
 - [image: add participant](./study-participant-new.png)
 - racial categories from NIH: http://grants.nih.gov/grants/guide/notice-files/not-od-01-053.html
-
+- [ ] remove permissions from this page (really on files)
 
 CREATED : Upload page
 
@@ -198,6 +198,9 @@ CREATED : Upload page
 - a separate page, basically like the video page with edit links and an upload/replace file field
 - [image: upload page](./study-upload-page.png)
 - [x] Move "permissions" to top, change to "Type and permissions" with options: "Public", "De-identified data", "Identified data shared with Databrary", "Identified data shared with Databrary and public excerpts allowed" (selected), "Private"
+- [ ] remove participant 2 data table
+- [ ] change "Upload Data" to "Add File"
+- [ ] move permissions down closer to upload, add acquisition date next to upload (both are logically associated with the uploaded file)
 
 ### Access management
 
@@ -249,5 +252,6 @@ CREATED : User view : Access management
   - Contribute: create and edit studies I own
   - Admin: delegate all my permissions to edit and authorize users
 - [image: user permissions tree](./user-permissions-management-tree.png)
+- [ ] change key and make permissions two columns, as above
 
 -------------------------------------------------------------------------------
