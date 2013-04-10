@@ -14,11 +14,23 @@
     <control controlID="61" controlTypeID="com.balsamiq.mockups::Component" x="77" y="919" w="964" h="33" measuredW="964" measuredH="33" zOrder="2" locked="false" isInGroup="-1">
       <controlProperties>
         <override controlID="0" x="0" y="0" w="964" h="33"/>
+        <override controlID="-1"/>
         <src>./assets/elements.bmml#footer</src>
       </controlProperties>
     </control>
     <control controlID="70" controlTypeID="com.balsamiq.mockups::Component" x="75" y="76" w="964" h="32" measuredW="964" measuredH="32" zOrder="3" locked="false" isInGroup="-1">
       <controlProperties>
+        <override controlID="1" x="15" y="4" w="98" h="24"/>
+        <override controlID="3" x="618" y="3" w="338" h="25"/>
+        <override controlID="0" x="0" y="0" w="964" h="32"/>
+        <override controlID="3:0:1" x="0" y="0" w="-1" h="-1">
+          <text>Jeffrey%20T.%20Investigator</text>
+        </override>
+        <override controlID="-1"/>
+        <override controlID="3:0" x="0" y="1" w="139" h="22"/>
+        <override controlID="1:0" x="0" y="0" w="28" h="24"/>
+        <override controlID="1:1" x="26" y="0" w="-1" h="-1"/>
+        <override controlID="3:1" x="145" y="0" w="193" h="-1"/>
         <src>./assets/elements.bmml#header-post_authn</src>
       </controlProperties>
     </control>

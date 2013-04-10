@@ -258,11 +258,15 @@ CREATED : User view : Access management
 
 ### Roles:
 - Suzanne Q. Researcher: logs in and sees activity
+                         navigates through study "Toddler social referencing with ambiguous toy"
+						 
 - Henry Jones:           investigator sharing data in Suzy Q's dashboard
                          investigator whose studies show up in search results
 
 - Jeffrey T. Investigator: investigator sharing data set "Toddler social referencing with ambiguous toy"
                            investigator managing permissions
+						   investigator adding data to study
+						   
 - Tiberius Smith:          commenter on JT Investigator's data set
 
 
