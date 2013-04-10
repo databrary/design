@@ -36,14 +36,10 @@
         <src>./assets/elements.bmml#request-access</src>
       </controlProperties>
     </control>
-    <control controlID="63" controlTypeID="com.balsamiq.mockups::Component" x="149" y="391" w="765" h="140" measuredW="765" measuredH="140" zOrder="7" locked="false" isInGroup="-1">
+    <control controlID="63" controlTypeID="com.balsamiq.mockups::Component" x="149" y="391" w="765" h="146" measuredW="765" measuredH="146" zOrder="7" locked="false" isInGroup="-1">
       <controlProperties>
-        <override controlID="1" x="0" y="18" w="765" h="122"/>
-        <override controlID="0" x="0" y="0" w="-1" h="-1"/>
-        <override controlID="-1"/>
-        <override controlID="1:0" x="0" y="0" w="765" h="122"/>
-        <override controlID="1:1" x="0" y="23" w="765" h="99">
-          <text>Description%20%5E%2C%20%20File%20Type%20%5Ev%2C%20File%20Size%20%5Ev%2C%20Modified%20Date%20%20%5Ev%0ABlank%20Consent%20Form%2CAdobe%20PDF%20%2C%20534%20kB%2C%202010-11-28%0ACoding%20Manual%2C%20Microsoft%20Word%20Document%2C%20534%20kB%2C%202010-11-28%0AIRB%20Protocol%2CAdobe%20PDF%20%2C%20987%20kB%2C%202010-07-19%0AStudy%20Protocol%2CMicrosoft%20Word%20Document%20%2C%20127%20kB%2C%202011-09-27%0A%7B22L%2C%2022L%2C%2010C%2C%2010C%7D</text>
+        <override controlID="1:1">
+          <text>Description%20%5E%2C%20%20File%20Type%20%5Ev%2C%20File%20Size%20%5Ev%2C%20Modified%20Date%20%20%5Ev%0ABlank%20Consent%20Form%5D%2CAdobe%20PDF%20%2C%20534%20kB%2C%202013-10-11%0ACoding%20Manual%2C%20Microsoft%20Word%20Document%2C%20534%20kB%2C%202013-11-28%0AIRB%20Protocol%2CAdobe%20PDF%20%2C%20987%20kB%2C%202013-07-19%0AStudy%20Protocol%2CMicrosoft%20Word%20Document%20%2C%20127%20kB%2C%202013-09-27%0A%7B22L%2C%2022L%2C%2010C%2C%2010C%7D</text>
         </override>
         <src>./assets/elements.bmml#study-authorized-documents</src>
       </controlProperties>

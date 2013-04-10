@@ -14,7 +14,6 @@
     <control controlID="61" controlTypeID="com.balsamiq.mockups::Component" x="77" y="919" w="964" h="33" measuredW="964" measuredH="33" zOrder="2" locked="false" isInGroup="-1">
       <controlProperties>
         <override controlID="0" x="0" y="0" w="964" h="33"/>
-        <override controlID="-1"/>
         <src>./assets/elements.bmml#footer</src>
       </controlProperties>
     </control>
@@ -64,7 +63,7 @@
                 <bold>false</bold>
                 <hLines>false</hLines>
                 <rowHeight>22</rowHeight>
-                <text>Description%20%5E%2C%20%20%20File%20Type%20%5Ev%2C%20View%2C%20%20File%20Size%20%20%20%5Ev%2C%20%20%20Modified%20Date%20%20%5Ev%0A%5BSession%20Video%5D%2C%20%20%20Video%2C%2C273%20MB%20%20%20%2C%201999-12-09%0A%5BData%20File%5D%2C%20%20%20Microsoft%20Excel%20spreadsheet%20%2C%20%2C534%20kB%20%20%20%2C%202010-11-28%0A%5BCoding%20Spreadsheet%5D%2C%20%20%20Datavyu%20spreadsheet%20%2C%20%2C987%20kB%20%20%20%2C%202010-07-19%0A%7B20L%2C%2020L%2C%2010C%2C%2015R%2C%2015C%7D</text>
+                <text>Description%20%5E%2C%20%20%20File%20Type%20%5Ev%2C%20View%2C%20%20File%20Size%20%20%20%5Ev%2C%20%20%20Modified%20Date%20%20%5Ev%0A%5BSession%20Video%5D%2C%20%20%20Video%2C%2C273%20MB%20%20%20%2C%202014-10-11%0A%5BData%20File%5D%2C%20%20%20Microsoft%20Excel%20spreadsheet%20%2C%20%2C534%20kB%20%20%20%2C%202014-10-11%0A%5BCoding%20Spreadsheet%5D%2C%20%20%20Datavyu%20spreadsheet%20%2C%20%2C987%20kB%20%20%20%2C%202014-11-28%0A%7B20L%2C%2020L%2C%2010C%2C%2015R%2C%2015C%7D</text>
                 <value>0</value>
                 <verticalScrollbar>false</verticalScrollbar>
                 <vLines>true</vLines>
@@ -107,11 +106,11 @@
     </control>
     <control controlID="98" controlTypeID="com.balsamiq.mockups::Component" x="138" y="218" w="856" h="135" measuredW="856" measuredH="135" zOrder="9" locked="false" isInGroup="-1">
       <controlProperties>
-        <override controlID="15:16">
-          <text>2014-01-03</text>
-        </override>
         <override controlID="15:10">
           <text>2014-10-11</text>
+        </override>
+        <override controlID="15:16">
+          <text>2014-01-03</text>
         </override>
         <src>./assets/elements.bmml#study-participant-show</src>
       </controlProperties>
