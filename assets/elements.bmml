@@ -1980,7 +1980,7 @@
               <controlProperties>
                 <bold>false</bold>
                 <size>14</size>
-                <text>Data%20originally%20collected%20as%20part%20of%20study%3A%20%5B%22mom%20baby%20free%20play%22%5D</text>
+                <text>Data%20originally%20collected%20as%20part%20of%20study%3A%20%5B%22Mom%20baby%20free%20play%22%5D</text>
               </controlProperties>
             </control>
             <control controlID="15" controlTypeID="com.balsamiq.mockups::Label" x="87" y="26" w="-1" h="-1" measuredW="104" measuredH="24" zOrder="10" locked="false" isInGroup="15">
