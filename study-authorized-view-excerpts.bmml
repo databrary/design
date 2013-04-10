@@ -21,7 +21,7 @@
         <src>./assets/elements.bmml#footer</src>
       </controlProperties>
     </control>
-    <control controlID="68" controlTypeID="com.balsamiq.mockups::Component" x="154" y="134" w="800" h="239" measuredW="800" measuredH="239" zOrder="4" locked="false" isInGroup="-1">
+    <control controlID="68" controlTypeID="com.balsamiq.mockups::Component" x="154" y="140" w="800" h="239" measuredW="800" measuredH="239" zOrder="4" locked="false" isInGroup="-1">
       <controlProperties>
         <src>./assets/elements.bmml#study-abstract</src>
       </controlProperties>
@@ -39,6 +39,7 @@
     <control controlID="77" controlTypeID="com.balsamiq.mockups::Component" x="157" y="707" w="779" h="146" measuredW="779" measuredH="146" zOrder="7" locked="false" isInGroup="-1">
       <controlProperties>
         <override controlID="7" x="0" y="0" w="779" h="146"/>
+        <override controlID="-1"/>
         <src>./assets/elements.bmml#comment-template</src>
       </controlProperties>
     </control>

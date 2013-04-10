@@ -863,11 +863,9 @@
                 </control>
               </groupChildrenDescriptors>
             </control>
-            <control controlID="14" controlTypeID="com.balsamiq.mockups::Image" x="4" y="29" w="138" h="131" measuredW="194" measuredH="177" zOrder="5" locked="false" isInGroup="15">
+            <control controlID="16" controlTypeID="com.balsamiq.mockups::Image" x="4" y="27" w="138" h="138" measuredW="243" measuredH="243" zOrder="5" locked="false" isInGroup="15">
               <controlProperties>
-                <crop>0%2C3%2C1000%2C682</crop>
-                <src>./assets/lamb.png</src>
-                <text/>
+                <src>./assets/baby-toy-crib.png</src>
               </controlProperties>
             </control>
           </groupChildrenDescriptors>
