@@ -2,7 +2,7 @@
   <controls>
     <control controlID="0" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="76" y="3" w="964" h="946" measuredW="450" measuredH="400" zOrder="0" locked="false" isInGroup="-1">
       <controlProperties>
-        <text>Databrary%20-%20Toddler%20Social%20Referencing%20with%20Ambiguous%20Toy%0Ahttps%3A//databrary.org/study/143-toddler-social-referencing-with-ambiguous-toy</text>
+        <text>Databrary%20-%20Toddler%20Social%20Referencing%20with%20Ambiguous%20Toy%0Ahttps%3A//databrary.org/study/143-toddler%5C-social%5C-referencing-with-ambiguous-toy</text>
       </controlProperties>
     </control>
     <control controlID="46" controlTypeID="com.balsamiq.mockups::Icon" x="932" y="38" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="1" locked="false" isInGroup="-1">
@@ -11,7 +11,7 @@
         <icon>LockIcon%7Cxsmall</icon>
       </controlProperties>
     </control>
-    <control controlID="65" controlTypeID="__group__" x="151" y="508" w="252" h="39" measuredW="252" measuredH="39" zOrder="2" locked="false" isInGroup="-1">
+    <control controlID="65" controlTypeID="__group__" x="151" y="510" w="252" h="39" measuredW="252" measuredH="39" zOrder="2" locked="false" isInGroup="-1">
       <groupChildrenDescriptors>
         <control controlID="3" controlTypeID="__group__" x="0" y="0" w="252" h="39" measuredW="252" measuredH="39" zOrder="0" locked="false" isInGroup="65">
           <groupChildrenDescriptors>
@@ -46,15 +46,14 @@
         <src>./assets/elements.bmml#study-abstract</src>
       </controlProperties>
     </control>
-    <control controlID="80" controlTypeID="com.balsamiq.mockups::Component" x="151" y="591" w="782" h="118" measuredW="782" measuredH="118" zOrder="6" locked="false" isInGroup="-1">
+    <control controlID="80" controlTypeID="com.balsamiq.mockups::Component" x="151" y="591" w="789" h="118" measuredW="789" measuredH="118" zOrder="6" locked="false" isInGroup="-1">
       <controlProperties>
         <src>./assets/elements.bmml#citation</src>
       </controlProperties>
     </control>
-    <control controlID="81" controlTypeID="com.balsamiq.mockups::Component" x="151" y="364" w="765" h="140" measuredW="765" measuredH="140" zOrder="7" locked="false" isInGroup="-1">
+    <control controlID="81" controlTypeID="com.balsamiq.mockups::Component" x="151" y="358" w="765" h="140" measuredW="765" measuredH="140" zOrder="7" locked="false" isInGroup="-1">
       <controlProperties>
         <override controlID="1" x="0" y="24" w="765" h="116"/>
-        <override controlID="-1"/>
         <src>./assets/elements.bmml#study-authorized-documents</src>
       </controlProperties>
     </control>

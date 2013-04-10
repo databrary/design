@@ -874,7 +874,7 @@
         </control>
       </groupChildrenDescriptors>
     </control>
-    <control controlID="55" controlTypeID="__group__" x="193" y="1045" w="782" h="118" measuredW="782" measuredH="118" zOrder="17" locked="false" isInGroup="-1">
+    <control controlID="55" controlTypeID="__group__" x="193" y="1045" w="789" h="118" measuredW="789" measuredH="118" zOrder="17" locked="false" isInGroup="-1">
       <controlProperties>
         <controlName>citation</controlName>
       </controlProperties>
@@ -898,10 +898,10 @@
             <text>How%20to%20cite%20this%20dataset</text>
           </controlProperties>
         </control>
-        <control controlID="6" controlTypeID="com.balsamiq.mockups::Label" x="1" y="35" w="-1" h="-1" measuredW="781" measuredH="19" zOrder="3" locked="false" isInGroup="55">
+        <control controlID="6" controlTypeID="com.balsamiq.mockups::Label" x="1" y="35" w="-1" h="-1" measuredW="788" measuredH="19" zOrder="3" locked="false" isInGroup="55">
           <controlProperties>
             <size>11</size>
-            <text>Alexander%2C%20JT%202014%2C%20Toddler%20social%20referencing%20with%20ambiguous%20toy%2C%20Databrary%2C%3Chttp%3A//databrary.org/study/143-toddler-social-referencing-with-ambiguous-toy%3E</text>
+            <text>Alexander%2C%20JT%202014%2C%20Toddler%20social%20referencing%20with%20ambiguous%20toy%2C%20Databrary%2C%3Chttp%3A//databrary.org/study/143-toddler%5C-social%5C-referencing-with-ambiguous-toy%3E</text>
           </controlProperties>
         </control>
         <control controlID="7" controlTypeID="com.balsamiq.mockups::HRule" x="0" y="62" w="779" h="-1" measuredW="100" measuredH="10" zOrder="4" locked="false" isInGroup="55">
