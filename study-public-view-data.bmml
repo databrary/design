@@ -2,7 +2,7 @@
   <controls>
     <control controlID="0" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="76" y="3" w="964" h="946" measuredW="450" measuredH="400" zOrder="0" locked="false" isInGroup="-1">
       <controlProperties>
-        <text>Databrary%20-%20Infants%20Navigating%20Risky%20Gaps%0Ahttps%3A//databrary.org/study/143/infants-navigating-risky-gaps</text>
+        <text>Databrary%20-%20Toddler%20Social%20Referencing%20with%20Ambiguous%20Toy%0Ahttps%3A//databrary.org/study/143-toddler%5C-social%5C-referencing-with-ambiguous-toy</text>
       </controlProperties>
     </control>
     <control controlID="36" controlTypeID="com.balsamiq.mockups::Label" x="709" y="895" w="-1" h="-1" measuredW="200" measuredH="21" zOrder="1" locked="false" isInGroup="-1">
@@ -39,7 +39,7 @@
         <src>./assets/elements.bmml#study-abstract</src>
       </controlProperties>
     </control>
-    <control controlID="71" controlTypeID="com.balsamiq.mockups::Component" x="152" y="614" w="789" h="118" measuredW="789" measuredH="118" zOrder="7" locked="false" isInGroup="-1">
+    <control controlID="71" controlTypeID="com.balsamiq.mockups::Component" x="152" y="614" w="797" h="118" measuredW="797" measuredH="118" zOrder="7" locked="false" isInGroup="-1">
       <controlProperties>
         <src>./assets/elements.bmml#citation</src>
       </controlProperties>

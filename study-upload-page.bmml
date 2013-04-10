@@ -14,6 +14,7 @@
     <control controlID="61" controlTypeID="com.balsamiq.mockups::Component" x="77" y="919" w="964" h="33" measuredW="964" measuredH="33" zOrder="2" locked="false" isInGroup="-1">
       <controlProperties>
         <override controlID="0" x="0" y="0" w="964" h="33"/>
+        <override controlID="-1"/>
         <src>./assets/elements.bmml#footer</src>
       </controlProperties>
     </control>
@@ -66,11 +67,11 @@
                     <text>Date%20of%20Birth%3A</text>
                   </controlProperties>
                 </control>
-                <control controlID="5" controlTypeID="com.balsamiq.mockups::Label" x="144" y="26" w="-1" h="-1" measuredW="88" measuredH="24" zOrder="5" locked="false" isInGroup="30">
+                <control controlID="5" controlTypeID="com.balsamiq.mockups::Label" x="144" y="26" w="-1" h="-1" measuredW="85" measuredH="24" zOrder="5" locked="false" isInGroup="30">
                   <controlProperties>
                     <bold>false</bold>
                     <size>16</size>
-                    <text>2014-03-03</text>
+                    <text>2014-01-03</text>
                   </controlProperties>
                 </control>
                 <control controlID="6" controlTypeID="com.balsamiq.mockups::Label" x="101" y="48" w="-1" h="-1" measuredW="32" measuredH="24" zOrder="6" locked="false" isInGroup="30">
