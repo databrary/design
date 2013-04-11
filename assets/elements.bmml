@@ -1240,12 +1240,7 @@
             <text>Permission%20Level</text>
           </controlProperties>
         </control>
-        <control controlID="6" controlTypeID="com.balsamiq.mockups::CheckBox" x="353" y="71" w="-1" h="-1" measuredW="162" measuredH="22" zOrder="6" locked="false" isInGroup="104">
-          <controlProperties>
-            <text>Individual%20Access%20Only%3F</text>
-          </controlProperties>
-        </control>
-        <control controlID="7" controlTypeID="com.balsamiq.mockups::Button" x="602" y="69" w="-1" h="-1" measuredW="123" measuredH="27" zOrder="7" locked="false" isInGroup="104">
+        <control controlID="7" controlTypeID="com.balsamiq.mockups::Button" x="345" y="69" w="-1" h="-1" measuredW="123" measuredH="27" zOrder="6" locked="false" isInGroup="104">
           <controlProperties>
             <color>40463</color>
             <size>13</size>
