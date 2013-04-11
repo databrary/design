@@ -2,7 +2,7 @@
   <controls>
     <control controlID="0" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="75" y="2" w="964" h="946" measuredW="450" measuredH="400" zOrder="0" locked="false" isInGroup="-1">
       <controlProperties>
-        <text>Databrary%20-%20Jeffrey%20T.%20Investigator%20-%20Permissions%0Ahttps%3A//databrary.org/investigators/37/permissions</text>
+        <text>Databrary%20-%20Suzanne%20Q.%20Researcher%20-%20Permissions%0Ahttps%3A//databrary.org/investigators/37/permissions</text>
       </controlProperties>
     </control>
     <control controlID="46" controlTypeID="com.balsamiq.mockups::Icon" x="932" y="38" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="1" locked="false" isInGroup="-1">
@@ -35,15 +35,15 @@
     <control controlID="88" controlTypeID="com.balsamiq.mockups::Component" x="148" y="172" w="765" h="107" measuredW="765" measuredH="107" zOrder="5" locked="false" isInGroup="-1">
       <controlProperties>
         <override controlID="6" x="0" y="0" w="765" h="107"/>
-        <override controlID="6:1:3" x="615" y="49" w="-1" h="-1"/>
-        <override controlID="6:1:5" x="487" y="49" w="90" h="-1"/>
-        <override controlID="6:1" x="0" y="26" w="765" h="81"/>
-        <override controlID="6:0" x="0" y="0" w="658" h="-1"/>
-        <override controlID="-1"/>
         <override controlID="6:1:2" x="615" y="20" w="108" h="27"/>
-        <override controlID="6:1:4" x="240" y="51" w="98" h="-1"/>
-        <override controlID="6:1:6" x="7" y="47" w="207" h="-1"/>
+        <override controlID="6:1:5" x="487" y="49" w="90" h="-1"/>
         <override controlID="6:1:0" x="0" y="0" w="765" h="81"/>
+        <override controlID="6:0" x="0" y="0" w="658" h="-1"/>
+        <override controlID="6:1" x="0" y="26" w="765" h="81"/>
+        <override controlID="-1"/>
+        <override controlID="6:1:3" x="615" y="49" w="-1" h="-1"/>
+        <override controlID="6:1:6" x="7" y="47" w="207" h="-1"/>
+        <override controlID="6:1:4" x="240" y="51" w="98" h="-1"/>
         <src>./assets/elements.bmml#db-permissions-granted-to-me</src>
       </controlProperties>
     </control>
