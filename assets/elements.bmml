@@ -868,6 +868,17 @@
                 <src>./assets/baby-toy-crib.png</src>
               </controlProperties>
             </control>
+            <control controlID="17" controlTypeID="__group__" x="149" y="188" w="251" h="22" measuredW="251" measuredH="22" zOrder="6" locked="false" isInGroup="15">
+              <groupChildrenDescriptors>
+                <control controlID="0" controlTypeID="com.balsamiq.mockups::Label" x="0" y="0" w="-1" h="-1" measuredW="251" measuredH="22" zOrder="0" locked="false" isInGroup="17">
+                  <controlProperties>
+                    <bold>true</bold>
+                    <size>14</size>
+                    <text>Funded%20by%20NIH%20Grant%20No.%20R01-234567</text>
+                  </controlProperties>
+                </control>
+              </groupChildrenDescriptors>
+            </control>
           </groupChildrenDescriptors>
         </control>
       </groupChildrenDescriptors>
