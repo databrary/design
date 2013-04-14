@@ -1,115 +1,208 @@
 # SRCD Presentation
 
-## Databrary Introduction, Overview
+## Databrary Solutions
 
-User stories, today
+Walk-through of Databrary functionality
 
-Reuse
+### Website Development Process: Prototyping
 
-## Design
+* Prototyping is a strategy for efficiently adapting to unpredictable and dynamic requirements
+    - Gather use cases from potential users
+    - Generate design proposals, mockups
+    - Get feedback from users, update, iterate
+* Organization vs. flexibility
+    - Standardize structure and terminology
 
-### Process
+---
 
-* Use cases from users to generate design documents
-* Organization vs. flexibility: structure, terminology
-* Functional description: what should it do?
-* Interface descriptions (wireframes): how should it look (layout)?
-* Get user feedback, iterate design
-* Prototype...
+* Functional design: what should it do?
+* Interface descriptions: how should it look?
+    - **Wireframes**: rough sketches of web pages
+    - Quickly see what's missing, easy to update
+* Open source, open process
+    - [github.com/databrary](http://github.com/databrary)
 
-### User stories, wireframes
+### Wireframes
 
-#### Start
+#### Front page
 
-![home page](home-page.png)
+![front page](home-page.png)
 
-* Search
-* Sign in
-* Register
-* Common links
+- links
+- search
+
+---
+
+#### Study
+
+* Dataset/package
+* Structural top unit
+
+![study page, public view, excerpts tab active](study-public-view-excerpts.png)
+
+- title
+- description
+- owner
+- funders
+- article
+- excerpts
+- sign in/register
+
+---
+
+#### Register
 
 ![registration page](register.png)
 
-* Username/password
+---
+
+#### Sign In
+
+* Username
+* Password
 * Shibboleth SSO
 * OpenID
-* Persona
 
-#### Discover
+![front page](home-page.png)
 
-![basic search results](search-basic-results.png)
-![basic search results](search-basic-results-authenticated.png)
+- sign in
 
-* Terms
-* Results
-* Excerpts
-* Species
-* Demographics
-* Size
+---
 
-![study, authorized view, documents tab active](study-authorized-view-documents.png)
+#### Search
 
-* Title
-* Description
-* Owner
-* Statistics
-* Cite
-* Article
-* Tags
-* Comments
+* Any terms
 
-* Documents
+![search results](search-basic-results-authenticated.png)
 
-![study, authorized view, excerpts tab active](study-authorized-view-excerpts.png)
+- signed in
+- search box
 
-* Excerpts
+---
 
-![study, authorized view, data tab active](study-authorized-view-data.png)
+* Matching studies
+* Specific critera
 
-* Participants
+![search results](search-basic-results-authenticated.png)
 
-#### View
+- excerpts
+- species
+- demographics
 
-![study-participant](study-participant.png)
+---
 
-* Demographics
-* Files
+#### Study
 
-![study-participant-viewer](study-participant-viewer.png)
+* Document list
 
-#### Home
+![study page, authorized view, documents tab active](study-authorized-view-documents.png)
 
-![investigator dashboard](investigator-dashboard.png)
+- metrics
+- cite
+- tags
+- comments
+- documents
 
-![user permissions tree](user-permissions-management-tree.png)
+---
+
+* Participant list
+* Next structure level
+
+![study page, authorized view, data tab active](study-authorized-view-data.png)
+
+- data
+- participant 2
+
+---
+
+#### Participant
+
+![participant page](study-participant.png)
+
+- breadcrumbs
+- demographics
+- tags/comments
+- files
+
+---
+
+#### Video data
+
+![video page](study-participant-viewer.png)
+
+- breadcrumbs
+- permissions
+- source
+
+- download
+
+---
+
+#### Dashboard
+
+* Popular, interesting, new
+* Manage
+
+![dashboard](investigator-dashboard.png)
+
+- lab
+- jones
+- word-learning
+- authorize
+
+---
+
+#### Authorize
+
+![user authorization](user-permissions-management-tree.png)
+
+- investigator
+- affiliate
+- request
+- delegation
+
+---
 
 #### Contribute
 
 ![add study](study-authorized-new.png)
 
-* Title
-* Description
-* Edit data
+- funding
+- data
+
+---
+
+#### Participant
 
 ![add participant](study-participant-new.png)
 
-* Metadata
-* Upload
+---
+
+#### Upload
 
 ![upload page](study-upload-page.png)
 
-* Permissions
+- permissions
 
-![study permissions tree](study-permissions-management-tree.png)
+---
 
-### Backup
+#### Permissions
 
-![study, public view, documents tab active](study-public-view-documents.png)
+![study permissions](study-permissions-management-tree.png)
 
-![study, public view, data tab active](study-public-view-data.png)
+- owner
+- member
+- all
+- smith
 
-![study, public view, excerpts tab active](study-public-view-excerpts.png)
+---
 
-## Technical
+## Databrary System Architecture
+
+Storage, Preservation, and Identity
+
+### System Architecture
 
 ![system architecture](architecture.svg)
+
+#### Database Schema
