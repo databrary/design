@@ -41,11 +41,11 @@ Walk-through of Databrary functionality
     - [github.com/databrary](http://github.com/databrary)
 
 > working on two things: technical, features, knobs, fit internally; how can be used.
-> not real content, proposals, describe layout, components.
+> not real content, storyboards, proposals, describe layout, components.
 > useful generating dialog users, questions, what, how.
 > update, integrate, improve, close enough to build.
 > 
-> open technologies, documents, comment.
+> open technologies, documents, conversations, comment.
 > hope encourage technical, look, adapt, involved.
 
 ### Wireframes
@@ -54,7 +54,8 @@ Walk-through of Databrary functionality
 
 ![front page](home-page.png)
 
-> splash. *links* aspects. every page *search*, anyone, what public, often:
+> splash. *links* aspects.
+> every page *search*, anyone; what public, often:
 
 ---
 
@@ -65,15 +66,15 @@ Walk-through of Databrary functionality
 
 ![study page, public view, excerpts tab active](study-public-view-excerpts.png)
 
-> basic unit organization, container, experiment, protocol, other dataset.
+> basic unit organization, container for experiment, protocol, other dataset.
 > *title*, *description* of data, how collected, *owner* PI responsible, *funders* supported.
 > about data rather results research, paper published, *article* journal.
 > 
 > *contents* data themselves, as public, one part excerpts.
 > selections from raw data, short video clips, chosen highlight aspect, representative, demonstrate, interesting.
-> chosen investigator, approved for excerpting participants.
+> approved, participant.
 > summary, watch.
-> raw data, authorized, *sign in/register*.
+> full data, authorized, *sign in/register*.
 
 ---
 
@@ -82,7 +83,7 @@ Walk-through of Databrary functionality
 ![registration page](register.png)
 
 > provide info, sign.
-> suzy q, completing process:
+> suzy q, completed process:
 
 ---
 
@@ -152,7 +153,7 @@ Walk-through of Databrary functionality
 ![study page, authorized view, data tab active](study-authorized-view-data.png)
 
 > *data*, list of participants, sub-folders.
-> acquisitions, sessions, individuals, groups, participants in study.
+> acquisitions, sessions, individuals, groups, participants in experiment.
 > each associated metadata.
 > *participant 2*
 
@@ -173,9 +174,8 @@ Walk-through of Databrary functionality
 
 ![video page](study-participant-viewer.png)
 
-> *title*, specific file, participant, study.
-> demographics, reference, *permissions*.
-> come back, identified, faces, personally identifiable; shared, excerpts.
+> *title*, specific file, participant, study; demographics reference.
+> *permissions*: come back, identified, faces, personally identifiable; shared, excerpts.
 > 
 > watch video, decide collaborate, follow-up, integrative analysis; *download*.
 > interesting parts, comment, tag, excerpts.
@@ -211,9 +211,9 @@ Walk-through of Databrary functionality
 > grant, *affiliate*, browse, through you.
 > *request* new grad applied.
 > 
-> *delegate* access own studies, file server:
+> *delegate* privileges own studies, file server:
 > read-only see, create/edit behalf, administer account.
-> PI ultimately responsible actions, data, under their authority.
+> PI ultimately responsible actions, data, under authority.
 
 ---
 
@@ -242,8 +242,8 @@ Walk-through of Databrary functionality
 > finally, upload.
 > acquisition date, *permissions* required, classify contents/uses.
 > public, no participant, study manual;
-> de-identified, participant, no personal identifiers;
-> identified, videos, recordings, health.
+> de-identified, participant, no personal identifiers, summary;
+> identified, videos, recordings, health, sensitive personal.
 > specify permissions, shared, excerpts.
 > can't ensure permissions, should not release outside lab, private.
 > upload.
@@ -257,6 +257,7 @@ Walk-through of Databrary functionality
 > single file, control who see study.
 > *owner*, control permissions, responsibility, typically PI, multiple collaborators.
 > *members*, edit, upload, collecting/analyzing.
+> 
 > default studies public, data authorized investigators; not ready/comfortable, change.
 > search, add other *users*, access
 
