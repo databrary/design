@@ -50,6 +50,10 @@ A special, singleton entity called "root" has no parents and no associated accou
 
 Individuals responsible for administering Databrary itself are children of root with the Admin permission, granting them equivalent access to managing users and authorizations as root itself.
 
+### Groups
+
+Groups of individuals, for example representing a cohesive lab with collaborative data, may be represented as entities in the same way as institutions, with members delegated permissions much as they would be as co-owners to a set of studies.
+
 ### Institutions
 
 Schools, universities, governments, and other organizations may have entities of their own, without associated accounts.
