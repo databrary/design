@@ -6,6 +6,7 @@ If nothing else, a dumping ground for interesting things we should check out.
 ## Science Sites
 
 * Obviously: journals
+* [DataCite](http://www.datacite.org/) provides DOIs for datasets.  Should consider using.
 * [OSF](http://openscienceframework.org/project/4znZP/) provides a file repository, RCS features, tagging, wiki.  Under development, will be open sourced?
 * [Dataverse](http://dvn-demo.iq.harvard.edu/dvn/) provides a site-deployable web site for sharing tabular data, highly structured representation of publications, data, analyses.  Open source.
 * [Compcog Deep Tagging Project](http://www.cmdbase.org/) provides video sharing and tagging, primarily of non-human videos.
