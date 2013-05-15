@@ -24,60 +24,49 @@ entity table
 	name text public
 	address text user -- should perhaps be broken down
 
-trust table
+permission enum
+	VIEW -- study view, but no access to protected data (PUBLIC access)
+	DOWNLOAD -- full read access to shared data (BROWSE/DATA access)
+	CONTRIBUTE -- create and edit studies of own/target (FULL/EDIT access)
+	ADMIN -- perform administrative tasks on site/target such as changing permissions
+
+authorize table
 	child entity unique(parent,child)
 	parent entity
-	access enum -- child level of access to site (inherited)
-		NONE
-		BROWSE -- browsing only, no creation/editing (affiliate)
-		FULL -- full site access including creation
-		GRANT -- can grant full site access
-	delegation enum -- child level of access to parent (not inherited)
-		NONE
-		VIEW
-		EDIT
-		ADMIN
-	authorized timestamp
-	expiry timestamp
-
-trust_request table internal
-	requested timestamp
-	child entity
-	parent entity
+	access permission -- child level of access to site (inherited)
+	delegate permission -- child level of access to parent (not inherited)
+	authorized timestamp -- empty for a request pending authorization
+	expires timestamp
 
 account table
 	entity id unique
-	creation timestamp
 	username text unique
+	created timestamp
 	email text
+	openid text
 	timezone timezone -- for display
 
 account_request table internal
-	creation timestamp
+	created timestamp
 	username text user
 	email text user
 	token text -- long random string
 
 study table
-	creation timestamp
+	created timestamp
 	title text user public
 	description long-text user optional public
-	users set public
+	access set public
 		user entity unique
-		type enum
-			VIEW
-			DATA
-			EDIT
-			OWN
-		inherited boolean | type != OWN OR NOT inherited -- applies to all descendents
+		access permission -- access granted to individual
+		inherit permission -- access granted to all descendents
 		effective timestamp -- effective as of this date (possibly future?)
-		-- e.g, (ROOT, DATA, TRUE) means typical "shared"
 	inclusion set public
 		study study
 		-- ...
 
 acquisition table
-	creation timestamp internal
+	created timestamp internal
 	study study
 	index text optional user -- subject id or something
 	acquisition date public user
@@ -90,7 +79,7 @@ acquisition table
 	session set -- if (timeseries) data were collected discontinuously
 
 object table -- file blobs in storage
-	creation timestamp internal
+	created timestamp internal
 	creator account
 	content-type text/enum -- mimetype? PDF, video format, datavyu, etc.
 	name text user public -- filename perhaps?
@@ -134,13 +123,13 @@ tag table public -- the set of possible tags
 	name text unique -- [a-z-]+
 
 tag_description table public
-	creation timestamp
+	created timestamp
 	tag tag -- unique for replaced is null
 	description text user
 	replaces tag_description optional
 
 tag_item table
-	creation timestamp
+	created timestamp
 	tag tag
 	user account
 

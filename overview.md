@@ -100,6 +100,16 @@ Entities (universities in particular) may be able to establish additional restri
 
 Becoming a contributor involves accepting a contributor agreement, and may require additional authorization by institutional IRBs.
 
+## Auditing
+
+The site will keep records of all important activity on the site, including account and timestamp for at least the following events:
+* login, logout: IP (does not imply consistency throughout session, could log first visit per time period)
+* changing account info (name, email, openid): field, old/new value
+* authorizations: action (add/delete/change), parent, child, permissions, expiry
+* all data changes, uploads, downloads
+
+Most of these do not need to exposed, but versioning of studies could be made explicit with the ability to view and roll back to previous versions.
+
 # Data
 
 The types of objects and associations between them that may be entered into the site are broad and diverse.
