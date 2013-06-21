@@ -23,8 +23,10 @@ Legend:
 entity table
 	name text public
 	address text user -- should perhaps be broken down
+	orcid char(16) optional user public
 
 permission enum
+	NONE -- generally equivalent to NULL
 	VIEW -- study view, but no access to protected data (PUBLIC access)
 	DOWNLOAD -- full read access to shared data (BROWSE/DATA access)
 	CONTRIBUTE -- create and edit studies of own/target (FULL/EDIT access)
@@ -41,7 +43,6 @@ authorize table
 account table
 	entity id unique
 	username text unique
-	created timestamp
 	email text
 	openid text
 	timezone timezone -- for display
@@ -52,24 +53,23 @@ account_request table internal
 	email text user
 	token text -- long random string
 
-study table
-	created timestamp
-	title text user public
+node table
+	name text user public
 	description long-text user optional public
+
+study table : node
 	access set public
-		user entity unique
+		entity entity unique
 		access permission -- access granted to individual
 		inherit permission -- access granted to all descendents
 		effective timestamp -- effective as of this date (possibly future?)
-	inclusion set public
+	inclusion set public -- sub-studies
 		study study
 		-- ...
 
-acquisition table
-	created timestamp internal
+acquisition table : node
 	study study
-	index text optional user -- subject id or something
-	acquisition date public user
+	acquisition date-range public user optional
 	participant set
 		id text optional user
 		gender enum optional
@@ -78,34 +78,36 @@ acquisition table
 		-- other demographic info?
 	session set -- if (timeseries) data were collected discontinuously
 
+object_type table internal
+	mimetype text
+	description text
+	timeseries boolean
+
 object table -- file blobs in storage
-	created timestamp internal
-	creator account
-	content-type text/enum -- mimetype? PDF, video format, datavyu, etc.
-	name text user public -- filename perhaps?
-	description long-text user optional public
+	type object_type
 	date date user optional public
-	supersedes object user optional
+	superseded object optional
 	consent enum -- these are intersected with study.users permissions
-		PRIVATE -- never honor VIEWERS
-		DATABRARY -- at most authorized users
-		EXCERPTS -- additionally make excerpt objects (TBD) public
-		DEIDENTIFIED -- contains participant data but no personal identifiers
-		PUBLIC -- no participant data 
+		PRIVATE -- never honor VIEWERS; 			requires CONTRIBUTE study access
+		SHARED -- at most authorized users;			or DOWNLOAD site and study access
+		EXCERPTS -- additionally make excerpts public; 		or VIEW to access excerpts only
+		DEIDENTIFIED -- contains no personal identifiers; 	or VIEW site and study access
+		PUBLIC -- no participant data;				or VIEW study access
 
 timeseries table : object
 	resolution float -- Hz
 	length interval
 	offset interval optional -- starting point within acquisition session, for synchronization
 
-material table
+data_node table : node
 	object object
 	study study
 
-data table
-	object object
+material table : data_node
+
+data table : data_node
 	acquisiton acquisition
-	session optional
+	session session optional
 	primary boolean -- original acquisition source
 
 article table -- : object if PDF
@@ -121,25 +123,25 @@ study_article table
 
 tag table public -- the set of possible tags
 	name text unique -- [a-z-]+
-
-tag_description table public
-	created timestamp
-	tag tag -- unique for replaced is null
 	description text user
-	replaces tag_description optional
 
-tag_item table
-	created timestamp
+tag_node table
 	tag tag
+	node node
 	user account
 
-tag_study table : tag_item
-	study study
+audit table internal -- keep track of actions
+	when timestamp
+	who account
+	ip inet
+	action enum
+		login
+		logout
+		add
+		change
+		remove
+		download
+		...
 
-tag_acquisition table : tag_item
-	acquisition acquisition
-
-tag_object table : tag_item
-	object object
-
--- modification, revision control features?
+FOREACH(X table) audit_X table : audit, X
+	-- whenever a row is inserted, updated, or deleted, a copy of that row is inserted in this
