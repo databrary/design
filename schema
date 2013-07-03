@@ -1,6 +1,8 @@
 This is a high-level schema description representing logical data and
 relationships.  These will not (necessarily) map to individual tables.
 
+There is a SQL version of this in play/conf/evolutions/default/1.sql
+
 Formatting suggestions welcome.  I'm just making things up for now and trying
 to be consistent with syntax, but hopefully it's at least understandable.
 
@@ -78,15 +80,15 @@ acquisition table : node
 		-- other demographic info?
 	session set -- if (timeseries) data were collected discontinuously
 
-object_type table internal
+format table internal
 	mimetype text
 	description text
+	extension text,
 	timeseries boolean
 
 object table -- file blobs in storage
-	type object_type
-	date date user optional public
-	superseded object optional
+	format format
+	date date-range user optional public
 	consent enum -- these are intersected with study.users permissions
 		PRIVATE -- never honor VIEWERS; 			requires CONTRIBUTE study access
 		SHARED -- at most authorized users;			or DOWNLOAD site and study access
@@ -99,9 +101,18 @@ timeseries table : object
 	length interval
 	offset interval optional -- starting point within acquisition session, for synchronization
 
-data_node table : node
+excerpt table
 	object object
+	offset interval
+	length interval optional -- NULL for single image/frame/sample
+	consent enum optional
+	title text
+
+data_node table : node
 	study study
+	object object
+	title text user
+	description long-text optional user
 
 material table : data_node
 
