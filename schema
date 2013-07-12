@@ -105,8 +105,7 @@ excerpt table
 	object object
 	offset interval
 	length interval optional -- NULL for single image/frame/sample
-	consent enum optional
-	title text
+	public boolean
 
 data_node table : node
 	study study
@@ -132,14 +131,37 @@ study_article table
 	study study
 	article article
 
+node table abstract -- improper normalization...
+	study study
+	acquisition acquisition optional
+	object object optional
+	excerpt excerpt optional
+
+annotation table abstract : node
+	who entity
+	when timestamp
+
 tag table public -- the set of possible tags
 	name text unique -- [a-z-]+
 	description text user
 
-tag_node table
+tag_node table : annotation
 	tag tag
-	node node
-	user account
+
+comment table : annotation
+	text long-text
+	reply_to comment optional
+
+measurement_field table
+	name text
+	type?
+	description text
+
+measurement table abstract : node
+	field measurement_field
+
+measurement_TYPE table : measurement
+	value TYPE
 
 audit table internal -- keep track of actions
 	when timestamp
