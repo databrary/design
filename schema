@@ -69,10 +69,9 @@ study table : node
 		study study
 		-- ...
 
-acquisition table : node
+slot table : node
 	study study
-	acquisition date-range public user optional
-	participant set
+	participant set -- TODO: replace with generic measurements
 		id text optional user
 		gender enum optional
 		birthdate date-range optional -- range for approximate ages
@@ -83,7 +82,7 @@ acquisition table : node
 format table internal
 	mimetype text
 	description text
-	extension text,
+	extension text
 	timeseries boolean
 
 object table -- file blobs in storage
@@ -105,20 +104,20 @@ excerpt table
 	object object
 	offset interval
 	length interval optional -- NULL for single image/frame/sample
-	public boolean
+	public boolean -- consent = if(public, PUBLIC, object.consent)
 
-data_node table : node
+study_object table : node
 	study study
 	object object
 	title text user
 	description long-text optional user
 
-material table : data_node
+material table : study_object
 
-data table : data_node
-	acquisiton acquisition
+data table : study_object
+	slot slot -- denormalized: study is redundant
 	session session optional
-	primary boolean -- original acquisition source
+	primary boolean -- original slot source
 
 article table -- : object if PDF
 	author set
@@ -133,7 +132,7 @@ study_article table
 
 node table abstract -- improper normalization...
 	study study
-	acquisition acquisition optional
+	slot slot optional
 	object object optional
 	excerpt excerpt optional
 

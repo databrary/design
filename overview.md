@@ -141,28 +141,28 @@ Studies will be comprised of the following components / metadata:
 * An owner-specified metadata identification data for non-identifiable data: de-identified (still mappable to identified data somewhere, even if not on datarbrary) or anonymized (no way to connect to identified data at all, not subject to HS rules)
 * A collection status: ongoing, exempt (completed/shelved)
 * Title, abstract-level description text, creation date
-* A schema for what information and data will be collected for each acquisition in the study, which may be determined explicitly through user interrogation or, preferably, implicitly derived from the materials or built as acquisitions are added
+* A schema for what information and data will be collected for each slot in the study, which may be determined explicitly through user interrogation or, preferably, implicitly derived from the materials or built as slots are added
 * A heterogeneous collection of *materials* describing the research procedures, usually created before data collection starts
 * Zero or many *articles* that represent the scholarly output from data contained within this study.
-* Zero or many *acquisitions* represented the collected data
+* Zero or many *slots* represented the collected data
 * Zero or more other studies that provide data to this study, e.g., for meta-analyses, longitudinal studies, or other more complex experiments involving multiple protocols  
 
 Note that study permissions assigned to members are in addition to (ORed with) permissions granted by parents.
 
-Collecting example materials from a broad set of labs will inform how studies and acquisitions should be structured, but are expected to include:
+Collecting example materials from a broad set of labs will inform how studies and slots should be structured, but are expected to include:
 
    * lab notebooks describing procedures, goals, etc. (usually documents)
    * stimuli that are presented to participants (consent forms, instruction documents, images, or videos)
    * analysis or experiment *programs* or code (so-named to distinguish them from coding data)
 
-#### Acquisition
+#### Slot
 
-A study consists of some number of *acquisitions* (alternatives for this term: "clips", "trials", "collections", "sessions").
-These acquisitions are usually individual participants or sessions of the experiment.
+A study consists of some number of *slots* (alternatives for this term: "acquisitions", "clips", "trials", "collections", "sessions", "cases", "units").
+These slots are usually individual participants or sessions of the experiment.
 
-Importantly, each acquisition in a study involves the same experimental procedures for collecting data. However, not all acquisitions will necessarily have the same set of objects, as some may be missing for various reasons.  
+Importantly, each slot in a study involves the same experimental procedures for collecting data. However, not all slots will necessarily have the same set of objects, as some may be missing for various reasons.  
 
-An acquisition can include both raw data collected at the time of the experiment and summary data that has been extracted from these objects later by researchers or programs. These may include:
+An slot can include both raw data collected at the time of the experiment and summary data that has been extracted from these objects later by researchers or programs. These may include:
 
 * Acquisition date
 * Permissions collected from the participant, including sharing rights and consent forms, which apply (at least) to all raw (non-anonymized?) data
@@ -175,14 +175,14 @@ An acquisition can include both raw data collected at the time of the experiment
 
 #### Participant?
 
-In general participants are treated as anonymous entities associated with a single acquisition.
+In general participants are treated as anonymous entities associated with a single slot.
 Eventually, Labnanny may wish to provide more recruiting and scheduling functionality, however this is potentially a very complex component that would should avoid for the time being.
 
-The best practice would be to completely separate the concept of participant for Labnanny from those participants in acquisitions, so that there are no links between them.
+The best practice would be to completely separate the concept of participant for Labnanny from those participants in slots, so that there are no links between them.
 A best case would if Labnanny information is stored in a local application or appliance, that this is never sent to Databrary.
-Participant data from Labnanny may be used, carefully and selectively, to automatically fill in participant acquisition data, but this must be limited to gender, age/birthdate, demographic information.  
+Participant data from Labnanny may be used, carefully and selectively, to automatically fill in participant slot data, but this must be limited to gender, age/birthdate, demographic information.  
 
-Longitudinal experiments may also wish to explicitly maintain the association between identical participants in different acquisitions (studies?).
+Longitudinal experiments may also wish to explicitly maintain the association between identical participants in different slots (studies?).
 
 #### IRB protocol?
 
@@ -191,7 +191,7 @@ Protocols should be associated with PIs, additional listed entities, expiration 
 
 #### Object and metadata
 
-Each data object in an acquisition is associated with some amount of metadata stored in the database.
+Each data object in an slot is associated with some amount of metadata stored in the database.
 Much of this metadata will be extracted from the object itself via processing specific to the object's format.
 This includes (but is not limited to):
 - object size, date, ownership, history
@@ -255,7 +255,7 @@ The better we can accommodate researchers' ways of working with Labnanny, the mo
 However, we must still be prepared both to allow users to upload and enter data from other sources and for any or all of it to be missing.  
 
 Spreadsheets likely provide the best and most comfortable metaphor for data entry and representation, and we should make use of this wherever possible.
-For example, a study can be presented as rows of acquisitions with columns for scalar metadata and objects.
+For example, a study can be presented as rows of slots with columns for scalar metadata and objects.
 Clicking cells may open further pages for details about individual objects.  
 
 There may also be need for importing data from off-line sources.
@@ -286,7 +286,7 @@ These permissions are intersected with any other permissions that might apply to
 
 #### Public Excerpts
 
-Acquisitions which have appropriately granted participant permissions allow the data owner to specify excerpts.
+Slots which have appropriately granted participant permissions allow the data owner to specify excerpts.
 Excerpts may be still images, a few seconds from a video, or some other spatially or temporally restricted part of a data object.
 Each excerpts should be derived from an existing object in the database, a process which may be done on-demand or provided through separately uploaded files.
 These excerpts may have broader availability than the original data, and in particular are the only (non-anonymized) participant data that may ever be public.
@@ -315,7 +315,7 @@ Ideally these can be served directly from the original file.
 
 ## Tags
 
-Users can add *tags* or keywords to studies, acquisitions, data objects, excerpts, materials, and articles.
+Users can add *tags* or keywords to studies, slots, data objects, excerpts, materials, and articles.
 Tagging provides an important resource for searching and browsing.
 However, it is important to remember that the number of users will be quite small compared to many other tagging communities, and so aggregate information across may be more noisy and less reliable.
 On the other hand, tagging by users is likely to be more accurate, and so the primary concern will be tagset normalization (i.e., collapsing different tags representing identical concepts).  
