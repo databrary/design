@@ -16,24 +16,31 @@ Various *entities* representing real world identities may be associated with the
 
 The total population of potential users of the site is estimated to be in the thousands. This estimate comes from the fact that The Society for Research in Child Development (SRCD) has 5,500 members in various disciplines.
 
-## Entity permissions
+## Permissions
+
+There are four basic permission levels:
+- VIEW: can search, view studies, see metadata, but not access or download protected data in any way.
+- DOWNLOAD/BROWSE: full read access to all data and metadata.
+- CONTRIBUTE/EDIT: can create and edit studies of their own.
+- ADMIN: can change permissions and perform other administrative tasks.
+
+These permission levels apply to the following aspects of the site:
+- The whole site, specifying the primary user access level, which distinguishes public anonymous users (VIEW), associate researchers (DOWNLOAD), authorized researchers (CONTRIBUTE), and administrators (ADMIN).
+- Individual studies, which determines the type of access granted to that study: viewing metadata (VIEW), accessing protected data (DOWNLOAD), editing and uploading new data (CONTRIBUTE), or data ownership and changing study permissions (ADMIN).
+- Individual objects within studies have further permissions determining whether VIEW, DOWNLOAD, or CONTRIBUTE study access is necessary to view them.
+
+## Authorization
 
 Each entity (except root) may be associated with one or more parent entities of a higher level.
-Each association represents a trust relationship from parent to child, called an *authorization*, and is associated with a set of inherited site permissions:
-- Browse: the child can access the site including generally shared data if the parent can
-- Full: the child can create and edit studies of their own if the parent can, and grant Browse permission
-- Grant: the child can grant full site permission to children of their own
+Each association represents a trust relationship from parent to child, called an *authorization*, and is associated with an inherited site permission level, which specifies the maximum level of site access that may be inherited by the child from the parent.
+That is, the level of site access of a user is the maximum over parents of (the smaller of (the parent's site access) and (the inherited site permission)).
+The root user implicitly has ADMIN site access.
 
-Each authorization is also associated with a non-inherited delegation:
-- View: the child can access any data shared with the parent
-- Edit: the child can create and edit any studies owner by the parent
-- Admin: the child can perform any operation the parent can including changing authorizations and permissions (excepting perhaps some personal account details, passwords, etc.)
+Each authorization is also associated with a non-inherited delegation, granting the child users equivalent permissions to the parent up to the specified level.
+This applies only to users and studies, so that a user's effective permissions are their own plus (their parents' intersected with the delegation level).
+In the case of ADMIN delegation, this includes any operation the parent can perform including changing authorizations and permissions (excepting perhaps some personal account details, passwords, etc.)
 
 The entity-parent relationship forms a DAG: no authorizations that would form a loop are permitted.
-An entity is said to have X permission over entity Y if there exists a path up through parents to entity Y, all with the X permission.
-(All entities have X permissions over themselves.)
-An entity is said to have X permission (in general) if it has X permission over root.
-
 These levels allow arbitrary and flexible relationships between entities, and thus account permissions.
 However, in practice there will only be a small number of [roles](user-roles.md) with pre-defined relationships.
 
@@ -42,7 +49,7 @@ However, in practice there will only be a small number of [roles](user-roles.md)
 Any individual accessing content hosted on the site will require an *account*: for the initial release there will be no anonymous access.
 However, not all entities will have active accounts. 
  
-Are entities and account details public?
+Public entity information (name, affiliation, etc.) is public data (VIEW), while account information (username, email, etc.) is protected (DOWNLOAD).
 
 ## Account Registration
 
@@ -74,8 +81,8 @@ This may also require providing additional details, for example university-provi
 
 ### Granting
 
-This request will notify all accounts with Admin permission over the selected parent.
-Each account will have access to an authorization page, showing an (expandable) tree rooted at the highest entities over which they have Admin control.
+This request will notify all accounts with ADMIN permission over the selected parent.
+Each account will have access to an authorization page, showing an (expandable) tree rooted at the highest entities over which they have ADMIN control.
 This page will include all descendants of those entities, as well as all requested descendants.
 From here, users may add or remove authorizations or permissions on these authorizations.
 Periodic reauthorization may be necessary for continued affiliation, according to the policies established by some higher entity.  
@@ -91,7 +98,7 @@ Various options here:
 * [OpenID](http://wiki.openid.net/w/page/12995211/OpenID_Authentication_2) provided by users
 * [BrowserID](https://browserid.org/)
 * Multifactor something
-* Delegation to university authentication systems (not a complete solution)
+* Delegation to university authentication systems through Shibboleth (not a complete solution)
 
 Authentication should not be overly burdensome, while still ensuring security.
 Entities (universities in particular) may be able to establish additional restrictions, for example restricting access of descendant accounts to particular IP subnets.
@@ -164,7 +171,6 @@ Importantly, each slot in a study involves the same experimental procedures for 
 
 An slot can include both raw data collected at the time of the experiment and summary data that has been extracted from these objects later by researchers or programs. These may include:
 
-* Acquisition date
 * Permissions collected from the participant, including sharing rights and consent forms, which apply (at least) to all raw (non-anonymized?) data
 * Demographic information for participant(s):
 	* age/birthdate
