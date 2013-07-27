@@ -16,6 +16,23 @@ Various *entities* representing real world identities may be associated with the
 
 The total population of potential users of the site is estimated to be in the thousands. This estimate comes from the fact that The Society for Research in Child Development (SRCD) has 5,500 members in various disciplines.
 
+## Accounts
+
+Any individual accessing content hosted on the site will require an *account*: for the initial release there will be no anonymous access.
+However, not all entities will have active accounts. 
+ 
+Public entity information (name, affiliation, etc.) is public data (VIEW), while account information (username, email, etc.) is protected (DOWNLOAD).
+
+### Account Registration
+
+Potential users will be required to register an account and provide:
+- An email address, to be verified with token-based email confirmation
+- A real name, perhaps with some first/last structure, similar to journal standards
+- Possibly a captcha if unverified users are allowed to post comments, but probably this will not be necessary
+- Other optional user details which may be set and changed later (timezone, URL, personal/profile stuff, ...)
+
+Successful registration results in an unverified account.
+
 ## Permissions
 
 There are four basic permission levels:
@@ -29,7 +46,7 @@ These permission levels apply to the following aspects of the site:
 - Individual studies, which determines the type of access granted to that study: viewing metadata (VIEW), accessing protected data (DOWNLOAD), editing and uploading new data (CONTRIBUTE), or data ownership and changing study permissions (ADMIN).
 - Individual objects within studies have further permissions determining whether VIEW, DOWNLOAD, or CONTRIBUTE study access is necessary to view them.
 
-## Authorization
+### Authorization
 
 Each entity (except root) may be associated with one or more parent entities of a higher level.
 Each association represents a trust relationship from parent to child, called an *authorization*, and is associated with an inherited site permission level, which specifies the maximum level of site access that may be inherited by the child from the parent.
@@ -44,30 +61,13 @@ The entity-parent relationship forms a DAG: no authorizations that would form a 
 These levels allow arbitrary and flexible relationships between entities, and thus account permissions.
 However, in practice there will only be a small number of [roles](user-roles.md) with pre-defined relationships.
 
-## Accounts
-
-Any individual accessing content hosted on the site will require an *account*: for the initial release there will be no anonymous access.
-However, not all entities will have active accounts. 
- 
-Public entity information (name, affiliation, etc.) is public data (VIEW), while account information (username, email, etc.) is protected (DOWNLOAD).
-
-## Account Registration
-
-Potential users will be required to register an account and provide:
-- An email address, to be verified with token-based email confirmation
-- A real name, perhaps with some first/last structure, similar to journal standards
-- Possibly a captcha if unverified users are allowed to post comments, but probably this will not be necessary
-- Other optional user details which may be set and changed later (timezone, URL, personal/profile stuff, ...)
-
-Successful registration results in an unverified account.
-
-## Entity Authorization
+### Entity Authorization
 
 Authorization verifies, establishes, and maintains the affiliation between an entity and a parent entity, and possibly the association between that child entity and an account.
 Entity relationships establish a "web of trust" wherein by authorizing another entity as a child represents a trust relationship.
 Only entities with a global Authorize permission can authorize other entities.
 
-### Requesting
+#### Requesting
 
 The list of entity levels above naturally sets up a hierarchy of authority.
 Users may additionally complete one or more authorization steps that, if successful, will result in creation of their entity and affiliation with another entity.
@@ -79,7 +79,7 @@ To do this, users must identify the parent entity they wish to be affiliated wit
 Searching for potential parent entities can be done hierarchically: by geographical region, to institute, to PI.
 This may also require providing additional details, for example university-provided account information (e.g., NYU NetID).
 
-### Granting
+#### Granting
 
 This request will notify all accounts with ADMIN permission over the selected parent.
 Each account will have access to an authorization page, showing an (expandable) tree rooted at the highest entities over which they have ADMIN control.
@@ -172,7 +172,7 @@ Importantly, each slot in a study involves the same experimental procedures for 
 An slot can include both raw data collected at the time of the experiment and summary data that has been extracted from these objects later by researchers or programs. These may include:
 
 * Permissions collected from the participant, including sharing rights and consent forms, which apply (at least) to all raw (non-anonymized?) data
-* Demographic information for participant(s):
+* Demographic information for participant(s), which may be represented as measurements:
 	* age/birthdate
 	* gender
 	* ethnicity
@@ -195,7 +195,7 @@ Longitudinal experiments may also wish to explicitly maintain the association be
 We may also want to allow researchers to manage their IRB *protocols*, including the actual protocol documents, renewals, and affected studies.
 Protocols should be associated with PIs, additional listed entities, expiration dates, and any number of studies which use them.
 
-#### Object and metadata
+#### Object
 
 Each data object in an slot is associated with some amount of metadata stored in the database.
 Much of this metadata will be extracted from the object itself via processing specific to the object's format.
@@ -207,6 +207,14 @@ This includes (but is not limited to):
 
 A page representing any object (which may also form a part of its containing study page) should include this information, along with a generated preview or summary of the data (if available) and a download link (depending on permissions).
 Conversions between formats (when uploading or downloading) may also be available for some objects.
+
+#### Measurement
+
+Arbitrary measurements (typed metadata) may be associated with slots (and possibly other levels at all).
+Each study may describe a set of measurements (a template) expected to be reported with each slot.
+This may include participant birthdate(s), acquisition dates, participant demographics, and any other collected information.
+Users should be able to choose from the set of existing measurements already used in other studies in order to encourage normalization.
+Each measurement description is associated with a name, description, consent level, and type (which may map directly to database types in separate tables).
 
 ### Researcher
 
@@ -281,12 +289,12 @@ There will be a complex permissions system specifying which objects may be share
 Various permissions documents will establish specifications for these.
 This may also involve partial access, for example to metadata for an object but not its content, or to a restricted portion of a video.
 
-In particular each object will be associated with one of the following sharing levels:
-* Private: not released for sharing on Databrary; only accessible to study members
-* Databrary: released to authorized Databrary users, but not available to the public
-* Excerpts: certain excerpts from this object may be released publicly if specified
-* Deidentified: contains participant data but no personal identifiers; candidate for public release
-* Open: no participant data and no restrictions on release
+In particular each object and measurement will be associated with one of the following consent levels:
+* PRIVATE: not released for sharing on Databrary; only accessible to study members
+* SHARED: released to authorized Databrary users, but not available to the public
+* EXCERPTS: certain excerpts from this object may be released publicly if specified
+* DEIDENTIFIED: contains participant data but no personal identifiers; candidate for public release
+* PUBLIC: no participant data and no restrictions on release
 
 These permissions are intersected with any other permissions that might apply to the object, such as study sharing permissions.
 
