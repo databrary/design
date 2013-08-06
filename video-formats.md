@@ -18,5 +18,4 @@ H.264 is necessary for Safari (3.6%) and iPhone (1.03%) users
 The license for encoding H.264 is $2500.
 WebM is open source, but it's crap in comparison...
 
-[H.264 vs WebM](http://www.streamingmedia.com/Articles/ReadArticle.aspx?ArticleID=69351&PageNum=1)
-[H.264 vs WebM (a closer look)](http://www.streamingmedia.com/Articles/Editorial/Featured-Articles/WebM-vs.-H.264-A-Closer-Look-68594.aspx)
+[H.264 vs WebM](http://www.streamingmedia.com/Articles/ReadArticle.aspx?ArticleID=69351&PageNum=1) and [H.264 vs WebM (a closer look)](http://www.streamingmedia.com/Articles/Editorial/Featured-Articles/WebM-vs.-H.264-A-Closer-Look-68594.aspx)
