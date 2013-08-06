@@ -43,3 +43,11 @@ H.264 encoding and decoding require far less resources than WebM. This is going 
 ### Excerpts
 
 In both WebM and H.264, minimum keyframe rate can be specified. For H.264, it's possible using [FFmpeg](https://sites.google.com/site/linuxencoding/x264-ffmpeg-mapping) with or without the x264 encoder.
+
+### Containers
+
+For compatibility, H.264 should be pared with AAC audio in an mp4 container:
+[MP4 format intro](http://thompsonng.blogspot.com/2010/11/mp4-file-format.html)
+
+WebM video uses Vorbis audio in a unique file format:
+[WebM format](http://www.webmproject.org/docs/container/)
