@@ -9,3 +9,4 @@ Design documents, functional descriptions, drafts
 * [List of web pages](pages.md)
 * [Schema brainstorm specification](schema)
 * [Useful references](references.md)
+* [Video formats](video-formats.md)
