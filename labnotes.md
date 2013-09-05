@@ -17,7 +17,7 @@ Obviously an extreme case.
 - Often need tristate values (Maybe (Maybe a)), especially with dates, e.g. to differentiate between "unknown/unavailable" and "no/never", currently using special designated values outside normal range
 - Use a custom-built (PHP, mysql) participant recruiting/scheduling database with lots of metadata
 
-# 2012/02/28
+# 2013/02/28
 
 - One directory per top-study, sub-directories per procedural study
 - Strict organization within study folder: intro file (abstract), documentation (instructions, procedures), videos (mixed and encoded, low bit rate), data
@@ -27,7 +27,7 @@ Obviously an extreme case.
 - Subject info, demographics, inventories, all on paper (ask: ipad app)
 - Processed videos contain intro slide with subject id, DOB, initials, etc.
 
-# 2012/03/07
+# 2013/03/07
 
 - Possible seed data
 - 250 children, 9 ages, 20-60 min continuous video each, 10MB/min, around 1TB

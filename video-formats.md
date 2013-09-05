@@ -36,6 +36,7 @@ The best thing WebM has going for it is that it's open source, but H.264's licen
 ### Performance and Quality
 
 H.264 encoding and decoding require far less resources than WebM. This is going to be important for video excerpts and for viewing/seeking on older machines. The compression quality of H.264 is also better, which makes it better for archival. (We'll see what MIAP says soon.) 
+Encoding H.264 can be done around 1x (per core).
 
 [H.264 vs WebM](http://www.streamingmedia.com/Articles/ReadArticle.aspx?ArticleID=69351&PageNum=1)  
 [H.264 vs WebM (a closer look)](http://www.streamingmedia.com/Articles/Editorial/Featured-Articles/WebM-vs.-H.264-A-Closer-Look-68594.aspx)
@@ -51,3 +52,8 @@ For compatibility, H.264 should be pared with AAC audio in an mp4 container:
 
 WebM video uses Vorbis audio in a unique file format:
 [WebM format](http://www.webmproject.org/docs/container/)
+
+## Quicktime
+
+Quicktime only supports H.264 with YUV 420 and the "main" profile, whereas the high profile may be more appropriate especially for higher resolutions.
+[FFmpeg x264](https://ffmpeg.org/trac/ffmpeg/wiki/x264EncodingGuide)
