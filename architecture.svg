@@ -356,7 +356,7 @@
      inkscape:cx="206.84864"
      inkscape:cy="273.40709"
      inkscape:document-units="px"
-     inkscape:current-layer="layer2"
+     inkscape:current-layer="layer1"
      showgrid="true"
      showguides="false"
      inkscape:guide-bbox="true"
@@ -394,7 +394,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -651,7 +651,7 @@
          sodipodi:role="line"
          id="tspan44111"
          x="392.21387"
-         y="672.36218">databrary.org front-end views</tspan></text>
+         y="672.36218">databrary.org front-end views (AngularJS)</tspan></text>
     <rect
        style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1"
        id="rect44113"
@@ -858,7 +858,7 @@
          y="792.36218"
          x="395.75098"
          id="tspan5545"
-         sodipodi:role="line">backend subsystems</tspan></text>
+         sodipodi:role="line">backend subsystems (Play/Scala)</tspan></text>
     <text
        sodipodi:linespacing="125%"
        id="text4500"
@@ -961,7 +961,7 @@
          sodipodi:role="line"
          id="tspan6335"
          x="400"
-         y="772.36218">controller API</tspan></text>
+         y="772.36218">controller API (REST)</tspan></text>
     <path
        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#Arrow2Lstart);marker-end:url(#Arrow2Lend)"
        d="m 448,876.1145 0,50.46381"
