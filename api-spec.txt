@@ -28,12 +28,12 @@ API Requirements
 
 Party
 -----
-get(id) ? with=volumes,comments,parents,children,funding TODO: tags,network
+get(id) ? volumes;comments;parents[=all];children[=all];funding TODO: tags;network
 update(id) TODO
 
 Volume
 ------
-get(id) ? with=access,citations,tags,comments,funding
+get(id) ? access;citations;tags;comments;funding
 create() TODO
 update(id) TODO
 delete() TODO
@@ -49,7 +49,7 @@ delete(volumeId, partyId)
 
 Slot TODO
 ----
-get(id) ? with=assets,tags,comments
+get(id) ? assets;tags;comments
 create()
 update(id)
 delete(id)
