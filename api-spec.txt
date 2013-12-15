@@ -33,7 +33,7 @@ update(id) TODO
 
 Volume
 ------
-get(id) ? access;citations;tags;comments;funding
+get(id) ? access;citations;tags;comments;funding;categories
 create() TODO
 update(id) TODO
 delete() TODO
@@ -56,19 +56,19 @@ delete(id)
 createComment(id)
 updateTag(id)
 
-Record TODO
+Record
 ------
-query() ? volume=ID & slot=ID & asset=ID
-get(id) ? with=assets
-create()
-update(id)
-delete(id)
+query() ? volume=ID & slot=ID & asset=ID TODO
+get(id) ? slots TODO: assets
+create() TODO
+update(id) TODO
+delete(id) TODO
 
-Asset TODO
+Asset
 -----
 get(id)
-create()
-update(id)
+create() TODO
+update(id) TODO
 
 SlotAsset TODO
 ---------
