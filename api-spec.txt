@@ -1,7 +1,7 @@
 ﻿Route Structure
 ===============
 
-GET /api/OBJECT 
+GET /api/OBJECTS
 	=> query()
 	<= [OBJECT,]
 
@@ -58,7 +58,7 @@ updateTag(id)
 
 Record
 ------
-query() ? volume=ID & slot=ID & asset=ID TODO
+query() ? volume=ID;category=NAME TODO: container=ID;asset=ID
 get(id) ? slots TODO: assets
 create() TODO
 update(id) TODO
