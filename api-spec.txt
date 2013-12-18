@@ -35,7 +35,7 @@ update(id) TODO
 
 /api/volume(/:id)
 -----------------
-get(id) ? access;citations;tags;comments;funding;categories
+get(id) ? summary;access;citations;tags;comments;funding;categories;records;sessions
 create() TODO
 update(id) TODO
 delete() TODO
@@ -60,7 +60,7 @@ update(id) TODO
 delete(id) TODO
 
 
-/api/volume/:id/record(/:id)
+/api/record(/:id)
 ----------------------------
 query() ? volume=ID;category=NAME TODO: container=ID;asset=ID
 get(id) ? slots TODO: assets
@@ -71,13 +71,12 @@ delete(id) TODO
 
 /api/asset(/:id)
 ----------------
-get(id)
+get(id) ? slot
 create() TODO
 update(id) TODO
 
 
-/api/volume/:id/asset(/:id)
-/api/volume/:id/slot/:id/asset(/:id)
+/api/slot/:id/asset(/:id)?start=;end= TODO
 ------------------------------------
 query() ? volume=ID & slot=ID & record=ID
 get(id)
