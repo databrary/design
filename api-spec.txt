@@ -33,16 +33,21 @@ get(id) ? volumes;comments;parents[=all];children[=all];funding TODO: tags;netwo
 update(id) TODO
 
 
+/api/party/:id/authorize
+------------------------
+stuff...
+
+
 /api/volume(/:id)
 -----------------
-get(id) ? summary;access;citations;tags;comments;funding;categories;records;sessions
+get(id) ? summary;access;citations;tags;comments;funding;categories;records;sessions TODO assets
 create() TODO
 update(id) TODO
 delete() TODO
 updateCitations(id) TODO
 
 
-VolumeAccess TODO
+/api/volume/:id/access
 ------------
 query() ? name=STR
 get(volumeId, partyId)
@@ -76,7 +81,7 @@ create() TODO
 update(id) TODO
 
 
-/api/slot/:id/asset(/:id)?start=;end= TODO
+/api/slot(/:id)/asset(/:id)?start=;end= TODO
 ------------------------------------
 query() ? volume=ID & slot=ID & record=ID
 get(id)
@@ -90,6 +95,6 @@ delete(id)
 create() ?container=ID
 
 
-/api/tag(/:id|name)
+/api/tag(/:name)
 --------------
-update(id|name) ?container=ID
+update(name) ?container=ID
