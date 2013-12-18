@@ -26,18 +26,21 @@ DELETE /api/OBJECT/:id
 API Requirements
 ================
 
-Party
------
+
+/api/party(/:id)
+----------------
 get(id) ? volumes;comments;parents[=all];children[=all];funding TODO: tags;network
 update(id) TODO
 
-Volume
-------
+
+/api/volume(/:id)
+-----------------
 get(id) ? access;citations;tags;comments;funding;categories
 create() TODO
 update(id) TODO
 delete() TODO
 updateCitations(id) TODO
+
 
 VolumeAccess TODO
 ------------
@@ -47,31 +50,35 @@ create(volumeId, partyId)
 update(volumeId, partyId)
 delete(volumeId, partyId)
 
-Slot ? start=;end=
-----
+
+/api/slot(/:id)?start=;end=
+---------------
+query() ? volume=ID;record=ID;asset=ID TODO
 get(id) ? assets;records;tags;comments
 create() TODO
 update(id) TODO
 delete(id) TODO
-createComment(id) TODO
-updateTag(id) TODO
 
-Record
-------
+
+/api/volume/:id/record(/:id)
+----------------------------
 query() ? volume=ID;category=NAME TODO: container=ID;asset=ID
 get(id) ? slots TODO: assets
 create() TODO
 update(id) TODO
 delete(id) TODO
 
-Asset
------
+
+/api/asset(/:id)
+----------------
 get(id)
 create() TODO
 update(id) TODO
 
-SlotAsset TODO
----------
+
+/api/volume/:id/asset(/:id)
+/api/volume/:id/slot/:id/asset(/:id)
+------------------------------------
 query() ? volume=ID & slot=ID & record=ID
 get(id)
 create()
@@ -79,122 +86,11 @@ update(id)
 delete(id)
 
 
+/api/comment(/id)
+-----------------
+create() ?container=ID
 
-Panel Requirements
-==================
 
-OverviewPartyPanel
-------------------
-=VIEW=
-Party -> get(id)
-
-=EDIT=
-Party -> get(id)
-Party -> update(id)
-
-PartyDataPanel
+/api/tag(/:id|name)
 --------------
-=VIEW=
-Party -> get(id) ? with=volumes
-
-PartyNetworkPanel
------------------
-=VIEW=
-Party -> get(id) ? with=parents,children,network
-
-=EDIT=
-Party -> get(id) ? with=parents,children
-Party -> update(id)
-
-OverviewVolumePanel
--------------------
-=VIEW=
-Volume -> get(id)
-
-=EDIT=
-Volume -> get(id)
-Volume -> update(id)
-
-=CREATE=
-Volume -> create()
-
-MaterialsPanel
---------------
-=VIEW=
-Volume -> get(id) ? with=assets
-Slot -> get(id) ? with=assets
-Record -> get(id) ? with=assets
-
-PublicationsPanel
------------------
-=VIEW=
-Volume -> get(id) ? with=publications
-
-=EDIT=
-Volume -> get(id) ? with=publications
-Volume -> updatePublications(id) 
-
-PeoplePanel
------------
-=VIEW=
-Volume -> get(id) ? with=people
-
-=EDIT=
-Volume -> get(id) ? with=people
-VolumeAccess -> query() ? name=STR
-VolumeAccess -> get(id)
-VolumeAccess -> create(id)
-VolumeAccess -> update(id)
-VolumeAccess -> delete(id)
-
-TagsPanel
----------
-=VIEW=
-Party -> get(id) ? with=tags
-Volume -> get(id) ? with=tags
-Slot -> get(id) ? with=tags
-
-Slot -> updateTag(id|name)
-
-CommentsPanel
--------------
-=VIEW=
-Party -> get(id) ? with=comments
-Volume -> get(id) ? with=comments
-Slot -> get(id) ? with=comments
-
-Slot -> createComment()
-
-OverviewSlotPanel
------------------
-=VIEW=
-Slot -> get(id)
-
-=EDIT=
-Slot -> get(id)
-Slot -> update(id)
-
-OverviewRecordPanel
--------------------
-=VIEW=
-Record -> get(id)
-
-=EDIT=
-Record -> get(id)
-Record -> update(id)
-
-OverviewAssetPanel
-------------------
-=VIEW=
-Asset -> get(id)
-
-=EDIT=
-Asset -> get(id)
-Asset -> update(id)
-
-BrowserPanel
-------------
-=VIEW=
-Record -> query() ? with=categories & volume=ID & slot=ID & asset=ID
-Slot -> query() ? volume=ID & record=ID & asset=ID
-Asset -> query() ? volume=ID & slot=ID & record=ID
+update(id|name) ?container=ID
