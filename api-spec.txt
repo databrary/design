@@ -47,14 +47,14 @@ create(volumeId, partyId)
 update(volumeId, partyId)
 delete(volumeId, partyId)
 
-Slot TODO
+Slot ? start=;end=
 ----
-get(id) ? assets;tags;comments
-create()
-update(id)
-delete(id)
-createComment(id)
-updateTag(id)
+get(id) ? assets;records;tags;comments
+create() TODO
+update(id) TODO
+delete(id) TODO
+createComment(id) TODO
+updateTag(id) TODO
 
 Record
 ------
