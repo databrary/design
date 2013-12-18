@@ -40,7 +40,7 @@ stuff...
 
 /api/volume(/:id)
 -----------------
-get(id) ? summary;access;citations;tags;comments;funding;categories;records;sessions TODO assets
+get(id) ? summary;access;citations;tags;comments;funding;categories;records;sessions;assets;top
 create() TODO
 update(id) TODO
 delete() TODO
