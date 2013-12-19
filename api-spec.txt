@@ -29,7 +29,7 @@ API Requirements
 
 /api/party(/:id)
 ----------------
-get(id) ? volumes;comments;parents[=all];children[=all];funding TODO: tags;network
+GET /api/party/ID?volumes;comments;parents[=all];children[=all];funding TODO: tags;network
 update(id) TODO
 
 
@@ -40,14 +40,14 @@ stuff...
 
 /api/volume(/:id)
 -----------------
-get(id) ? summary;access;citations;tags;comments;funding;categories;records;sessions;assets;top
-create() TODO
-update(id) TODO
-delete() TODO
-updateCitations(id) TODO
+GET /api/volume/ID?summary;access;citations;tags;comments;funding;categories;records;sessions;assets;top
+POST /api/volume?owner=ID
+POST /api/volume/ID
+delete() NOT SUPPORTED
+updateCitations(id) TODO (included in update)
 
 
-/api/volume/:id/access
+/api/volume/:id/access/:id TODO
 ------------
 query() ? name=STR
 get(volumeId, partyId)
@@ -59,7 +59,7 @@ delete(volumeId, partyId)
 /api/slot(/:id)?start=;end=
 ---------------
 query() ? volume=ID;record=ID;asset=ID TODO
-get(id) ? assets;records;tags;comments
+GET /api/slot/ID?start=;end=;assets;records;tags;comments
 create() TODO
 update(id) TODO
 delete(id) TODO
@@ -67,7 +67,7 @@ delete(id) TODO
 
 /api/record(/:id)
 ----------------------------
-query() ? volume=ID;category=NAME TODO: container=ID;asset=ID
+GET /api/record?volume=ID;category=NAME TODO: container=ID;asset=ID
 get(id) ? slots TODO: assets
 create() TODO
 update(id) TODO
@@ -76,7 +76,7 @@ delete(id) TODO
 
 /api/asset(/:id)
 ----------------
-get(id) ? slot
+GET /api/asset/ID?slot
 create() TODO
 update(id) TODO
 
