@@ -30,12 +30,16 @@ API Requirements
 /api/party(/:id)
 ----------------
 GET /api/party/ID?volumes;comments;parents[=all];children[=all];funding TODO: tags;network
-update(id) TODO
+POST /api/party/ID
 
 
-/api/party/:id/authorize
+/api/party/:id/authorize/:id
 ------------------------
-stuff...
+GET /api/party/ID/authorize => all parents and children
+GET /api/party/ID/authorize/SEARCH => party search
+POST /api/party/ID/authorize/ID => update/create child
+POST /api/party/ID/authorize/ID/apply => create parent
+DELETE /api/party/ID/authorize/ID => delete child or parent
 
 
 /api/volume(/:id)
@@ -44,16 +48,14 @@ GET /api/volume/ID?summary;access;citations;tags;comments;funding;categories;rec
 POST /api/volume?owner=ID
 POST /api/volume/ID
 delete() NOT SUPPORTED
-updateCitations(id) TODO (included in update)
 
 
-/api/volume/:id/access/:id TODO
+/api/volume/:id/access/:id
 ------------
-query() ? name=STR
-get(volumeId, partyId)
-create(volumeId, partyId)
-update(volumeId, partyId)
-delete(volumeId, partyId)
+GET /api/volume/ID/access
+GET /api/volume/ID/access/SEARCH => party search
+POST /api/volume/ID/access/ID
+DELETE /api/volume/ID/access/ID
 
 
 /api/slot(/:id)?start=;end=
@@ -92,9 +94,9 @@ delete(id)
 
 /api/comment(/id)
 -----------------
-create() ?container=ID
+POST /api/comment?container=ID;start=;end=
 
 
 /api/tag(/:name)
 --------------
-update(name) ?container=ID
+POST /api/tag/NAME?container=ID;start=;end=
