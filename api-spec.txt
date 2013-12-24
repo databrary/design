@@ -70,9 +70,9 @@ delete(id) TODO
 /api/record(/:id)
 ----------------------------
 GET /api/record?volume=ID;category=NAME TODO: container=ID;asset=ID
-get(id) ? slots TODO: assets
-create() TODO
-update(id) TODO
+GET /api/record/ID?slots TODO: assets
+POST /api/record?volume=ID;category=NAME
+POST /api/record/ID
 delete(id) TODO
 
 
