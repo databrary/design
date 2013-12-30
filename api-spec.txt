@@ -99,4 +99,5 @@ POST /api/comment?container=ID;start=;end=
 
 /api/tag(/:name)
 --------------
+GET /api/tag/NAME?slots
 POST /api/tag/NAME?container=ID;start=;end=
