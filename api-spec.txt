@@ -62,8 +62,7 @@ DELETE /api/volume/ID/access/ID
 ---------------
 query() ? volume=ID;record=ID;asset=ID TODO
 GET /api/slot/ID?start=;end=;assets;records;tags;comments
-create() TODO
-update(id) TODO
+POST /api/slot/ID?start=;end=
 delete(id) TODO
 
 
@@ -79,8 +78,8 @@ delete(id) TODO
 /api/asset(/:id)
 ----------------
 GET /api/asset/ID?slot
+POST /api/asset/ID
 create() TODO
-update(id) TODO
 
 
 /api/slot(/:id)/asset(/:id)?start=;end= TODO
