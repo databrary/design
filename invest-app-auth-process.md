@@ -1,9 +1,9 @@
 # Databrary
-## Investigator, Affiliate Investigator Application Process
+## Principal Investigator, Affiliate Investigator Application Process
 
 ### Steps
 
-1. Unauthorized/Unregistered User visits databrary.org/apply
+1. Unauthorized/Unregistered User visits databrary.org/register
 
 1. User completes web application with the following information:
 	- Mandatory:
@@ -13,24 +13,35 @@
 			- rog1@psu.edu
 		- Institutional affiliation (auto-complete): 
 			- The Pennsylvania State University
-	
-		
+			
 1. User electronically signs Investigator Agreement
+	- Clicks through web-pages of agreement (potentially initials along they way when signing their own agreement?) 
+	- Initials sections and checks box at bottom of agreement
 
-1. On application submission
+1. Upon application submission
 	- Investigator gets confirmation email:
 		- Copy of e-signed Investigator Agreement.
-		- Copy of information in application.
-		- Password reset link included in email
+		- Password reset link included, also validates email
+		- Instructions to request authorization after validating email and creating account
 		- Other information or links about Databrary?
-	- Must validate email, then account is created.
+	- Must validate email (with link)before account is created.
 
-1. User requests authorization on authorization page
-	- Search for party they want to get authorized by
+1. User requests authorization on authorization page [URL?]
+	- User searches for party they want to get authorized by
 		- Institution (if Databrary PI) or Person (if Affiliate Investigator)
-	- If party is found in database with administrative account, then we generate an email to that party. [email text goes here].
-	- If party is found, but no administrative account exists, Lisa gets notified by email.
-	- If no party is found, there will be option to request manual authorization, they must complete field for any contact information for Authorizing Official and Lisa will get notified by email about request to create party.
+		- If party is found in database with administrative account:
+			- User selects party
+			- We generate an email to that party. 
+					- Email text to user goes here [for now, this is only the case for Databrary Principal  Investigators (aka Authorized Investigators) authorizing affiliates]
+		- If party is found, but no administrative account exists:
+			- User selects party
+					- Message to user about what happens next goes here
+			- Lisa gets notified by email 
+					- NB: this is for the case of institutions, at least until we give them administrative accounts.
+		- If no party is found
+			- User selects option to request manual authorization
+			- They must fill in contact information for Authorizing Official at their Institution and Lisa will get notified by email about request to create party.
+					- Message to user about what happens next goes here 
 	
 1. Application moves into "Pending Authorization Status"
 	- If Principal Investigator:
@@ -40,10 +51,10 @@
 1. Institutional representative approves agreement
 	- Lisa registers this in the system
 	- Once staff review and institutional approval are complete, applicant status changes to "Authorized" (by Lisa until administrative accounts for Institutions are active)
-
-1. At any point after registration: 
+	
+#### At any point after registration: 
 	- Investigator invited to complete profile via wizard[profile functions ready post-beta].
-		- Preferred display name (text) [save for later]: 
+		- Preferred display name (text): 
 			- Rick O. Gilmore
 		- Preferred institutional display name [shouldn't we have this information?] [save for later]: 
 			- Penn State
@@ -51,7 +62,7 @@
 			- Department of Psychology
 			- The Pennsylvania State University
 			- University Park, PA 16802
-		- See ![sample LDAP query from PSU](rog1-psu-ldap.jpg)
+		- See sample directory entry from PSU ![sample LDAP query from PSU](rog1-psu-ldap.jpg)
 		- Highest degree:
 			- Ph.D.
 		- Highest degree institution:
