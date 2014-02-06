@@ -9,35 +9,40 @@
 	- Mandatory:
 		- Full name (text): 
 			- Rick Owen Gilmore
-		- Title (text) [maybe save for later?]:
-			- Associate Professor of Psychology
 		- Institutional access id/email (text):
 			- rog1@psu.edu
-		- Password and duplicate:
-			- password1234
-		- ...
 		- Institutional affiliation (auto-complete): 
 			- The Pennsylvania State University
-		- If Affilate Investigator [are sponsors necessarily already in our database?]:
-			- Name of "Sponsoring" Investigator
-			- Email of "Sponsoring" Investigator
-
+	
+		
 1. User electronically signs Investigator Agreement
 
 1. On application submission
 	- Investigator gets confirmation email:
 		- Copy of e-signed Investigator Agreement.
 		- Copy of information in application.
-		- ~~Account ID and preliminary password.~~ [temporary passwords are bad form]
+		- Password reset link included in email
 		- Other information or links about Databrary?
-	- Application information goes to Lisa, Lina for authorization approval.
-	- If applicant is affiliate, sponsoring investigator gets email.
-	- If IRB/sponsored projects representative identified, IRB/sponsored projects representative gets email from Databrary.
-		- If no IRB representative identified, staff identifies Institutional Representative from X database or via web.
-		- Staff sends email to identified Institutional Representative.
+	- Must validate email, then account is created.
 
+1. User requests authorization on authorization page
+	- Search for party they want to get authorized by
+		- Institution (if Databrary PI) or Person (if Affiliate Investigator)
+	- If party is found in database with administrative account, then we generate an email to that party. [email text goes here].
+	- If party is found, but no administrative account exists, Lisa gets notified by email.
+	- If no party is found, there will be option to request manual authorization, they must complete field for any contact information for Authorizing Official and Lisa will get notified by email about request to create party.
+	
 1. Application moves into "Pending Authorization Status"
-	- Investigator invited to complete profile via wizard.
+	- If Principal Investigator:
+		- Reviewed by staff to confirm identity
+		- Lisa contacts Sponsored Office at institution to co-sign agreement
+
+1. Institutional representative approves agreement
+	- Lisa registers this in the system
+	- Once staff review and institutional approval are complete, applicant status changes to "Authorized" (by Lisa until administrative accounts for Institutions are active)
+
+1. At any point after registration: 
+	- Investigator invited to complete profile via wizard[profile functions ready post-beta].
 		- Preferred display name (text) [save for later]: 
 			- Rick O. Gilmore
 		- Preferred institutional display name [shouldn't we have this information?] [save for later]: 
@@ -47,7 +52,6 @@
 			- The Pennsylvania State University
 			- University Park, PA 16802
 		- See ![sample LDAP query from PSU](rog1-psu-ldap.jpg)
-
 		- Highest degree:
 			- Ph.D.
 		- Highest degree institution:
@@ -65,21 +69,9 @@
 			- rogilmore
 		- Business telephone:
 			- 814-865-3664
-
 		- Researchgate.net profile:
 			- https://www.researchgate.net/profile/Rick_Gilmore/?ev=hdr_xprf
-
 		- IRB Representative:
 			- Tracie Kahler
 		- IRB Representative email:
 			- tlk14@psu.edu
-
-1. Application undergoes staff review
-	- Google search
-	- Other steps?
-	- Staff changes applicant status to "Approved Pending Institutional Authorization"
-
-1. Institutional representative e-signs agreement
-	- When staff review, approval complete, applicant status changes to "Authorized"
-	- Investigator invited to create first dataset via wizard.
-
