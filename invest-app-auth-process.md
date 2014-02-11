@@ -8,9 +8,9 @@
 	- Mandatory:
 		- Full name (text): 
 			- Rick Owen Gilmore
-		- Institutional access id/email (text):
+		- Email:
 			- rog1@psu.edu
-		- Institutional affiliation (auto-complete): 
+		- Institutional affiliation: 
 			- The Pennsylvania State University
 		- User electronically signs Investigator Agreement
 			- Clicks through web-pages of agreement later 
@@ -56,8 +56,10 @@
 	- authorize@databrary.org registers this in the system
 	- Once staff review and institutional approval are complete, applicant status changes to "Authorized" (by authorize@databrary.org until administrative accounts for Institutions are active)
 	
-#### At any point after registration: 
-	- Investigator invited to complete profile via wizard[profile functions ready post-beta].
+ 
+	
+#### At any point after registration:
+	Investigator invited to complete profile via wizard[profile functions ready post-beta].
 		- Preferred display name (text): 
 			- Rick O. Gilmore
 		- Preferred institutional display name [shouldn't we have this information?] [save for later]: 
