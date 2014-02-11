@@ -9,9 +9,9 @@
 	- Mandatory:
 		- Full name (text): 
 			- Rick Owen Gilmore
-		- Institutional access id/email (text):
+		- Email:
 			- rog1@psu.edu
-		- Institutional affiliation (auto-complete): 
+		- Institutional affiliation: 
 			- The Pennsylvania State University
 			
 1. User electronically signs Investigator Agreement
