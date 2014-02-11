@@ -24,7 +24,7 @@
 		- Password reset link included, also validates email
 		- Instructions to request authorization after validating email and creating account
 		- Other information or links about Databrary?
-	- Must validate email (with link)before account is created.
+	- Must validate email (with link) before account is created.
 
 1. User requests authorization on authorization page [URL?]
 	- User searches for party they want to get authorized by
@@ -53,36 +53,36 @@
 	- Once staff review and institutional approval are complete, applicant status changes to "Authorized" (by Lisa until administrative accounts for Institutions are active)
 	
 #### At any point after registration: 
-	- Investigator invited to complete profile via wizard[profile functions ready post-beta].
-		- Preferred display name (text): 
-			- Rick O. Gilmore
-		- Preferred institutional display name [shouldn't we have this information?] [save for later]: 
-			- Penn State
-		- Surface address [shouldn't we have this information?] [do we need this?]: 
-			- Department of Psychology
-			- The Pennsylvania State University
-			- University Park, PA 16802
-		- See sample directory entry from PSU ![sample LDAP query from PSU](rog1-psu-ldap.jpg)
-		- Highest degree:
-			- Ph.D.
-		- Highest degree institution:
-			- Carnegie Mellon University
-		- Other email:
-			- rogilmore@psu.edu
-			- thatrickgilmore@psu.edu
-			- rick@databrary.org
-		- URL:
-			- www.personal.psu.edu/rog1
-			- brainlab.psych.psu.edu
-		- ORCID ID:
-			- http://orcid.org/0000-0002-7676-3982
-		- eRA Commons ID:
-			- rogilmore
-		- Business telephone:
-			- 814-865-3664
-		- Researchgate.net profile:
-			- https://www.researchgate.net/profile/Rick_Gilmore/?ev=hdr_xprf
-		- IRB Representative:
-			- Tracie Kahler
-		- IRB Representative email:
-			- tlk14@psu.edu
+- Investigator invited to complete profile via wizard[profile functions ready post-beta].
+	- Preferred display name (text): 
+		- Rick O. Gilmore
+	- Preferred institutional display name [shouldn't we have this information?] [save for later]: 
+		- Penn State
+	- Surface address [shouldn't we have this information?] [do we need this?]: 
+		- Department of Psychology
+		- The Pennsylvania State University
+		- University Park, PA 16802
+	- See sample directory entry from PSU ![sample LDAP query from PSU](rog1-psu-ldap.jpg)
+	- Highest degree:
+		- Ph.D.
+	- Highest degree institution:
+		- Carnegie Mellon University
+	- Other email:
+		- rogilmore@psu.edu
+		- thatrickgilmore@psu.edu
+		- rick@databrary.org
+	- URL:
+		- www.personal.psu.edu/rog1
+		- brainlab.psych.psu.edu
+	- ORCID ID:
+		- http://orcid.org/0000-0002-7676-3982
+	- eRA Commons ID:
+		- rogilmore
+	- Business telephone:
+		- 814-865-3664
+	- Researchgate.net profile:
+		- https://www.researchgate.net/profile/Rick_Gilmore/?ev=hdr_xprf
+	- IRB Representative:
+		- Tracie Kahler
+	- IRB Representative email:
+		- tlk14@psu.edu
