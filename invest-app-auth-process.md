@@ -67,7 +67,6 @@
 			- Department of Psychology
 			- The Pennsylvania State University
 			- University Park, PA 16802
-		- See sample directory entry from PSU ![sample LDAP query from PSU](rog1-psu-ldap.jpg)
 		- Highest degree:
 			- Ph.D.
 		- Highest degree institution:
@@ -100,3 +99,5 @@
 		- Projects (beyond auto-generated)
 		- Publications (beyond auto-generated)
 		- Funding (beyond auto-generated)
+		
+See sample directory entry from PSU ![sample LDAP query from PSU](rog1-psu-ldap.jpg)
