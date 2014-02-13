@@ -20,21 +20,23 @@
 	- Must validate email (with link) before account is created.
 1. Upon account creation
 	- User requests authorization through a link on their party page 
-	- User searches for party they want to get authorized by. 
-	Institution (if Databrary PI) or Person (if Affiliate Investigator)
-		- If party is found in database with administrative account:
+	- User instructed to search for party they are requesting authorization. (Institution, if Databrary PI; or Person, if Affiliate)
+		a. If party is found in database with administrative account:
 			- User selects party
-			- We generate an email to that party. 
+			- Databrary sends notification of authorization request to party via email. 
 			
-					Message to user goes here [for now, this is only the case for Databrary Principal  Investigators (aka Authorized Investigators) authorizing affiliates]
+					Message to user goes here [for now, this is only the case for Databrary Principal  Investigators that are authorizing affiliates]
 		- If party is found, but no administrative account exists:
 			- User selects party
+			- User can enter optional fields for contact at sponsored projets offices (as single text field)
+			- User is sent confirmation email that authorization request has been made
 			
-					Message to user about what happens next goes here
-			- User can enter additional text field with AO name and email
+			
+					Message to user goes here
 			- authorize@databrary.org gets notified by email 
 			
 					Message to authorize@databrary.org goes here
+				
 		- If no party is found
 			- User completes form with the following information:
 				- Institution
@@ -45,19 +47,19 @@
 					- Address
 				- ... 
 			- authorize@databrary.org gets this information in an email and uses it to create party.
-			- User gets notified about the next steps
+			- User is sent confirmation email that authorization request has been made
 			
 					Message to user about what happens next goes here. (Party creation, contacting AO, approval and co-signing)
 		
 1. Application is now "Pending Authorization"
 	
-1. Institutional representative approves agreement
-	- authorize@databrary.org registers their authorization with the correct party 
+1. Institutional representative or Authorized Databrary PI co-signs agreement
+	- authorize@databrary.org registers their authorization with the correct party, if it is for a  
 	- Once agreement is co-signed, applicant status changes to "Authorized" (by authorize@databrary.org for Principal Investigators until administrative accounts for Institutions are active, and by the PI for Affiliates)
 	
  
 	
-#### At any point after registration:
+#### At any point after registration (step 2):
 	Investigator invited to complete profile via wizard[profile functions will be ready post-beta].
 		- Preferred display name (text): 
 			- Rick O. Gilmore
