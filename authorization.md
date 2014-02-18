@@ -53,14 +53,17 @@
 					[Party A] has requested to be authorized by [Party B]. To approve this authorization request, you must go to your Admin page and click 'Authorize'.
 									
 		- If no party is found
-			- User completes form with the following information:
-				- Institution
-				- Authorizing Official at Instition (OSP Contact)
-					- Name
-					- Email
-					- Phone Number
-					- Address
-				- ... 
+			- User instructed to:
+				- If affiliate, ask their PI to register and get authorized
+				- If PI, instructed to share information about Insitution.
+					- User completes form with the following information:
+						- Institution
+						- Authorizing Official at Instition (OSP Contact)
+							- Name
+							- Email
+							- Phone Number
+							- Address
+						- ... 
 			- authorize@databrary.org gets this information in an email and uses it to create party.
 			- User is sent confirmation web page that authorization request has been made
 			
