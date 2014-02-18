@@ -39,7 +39,7 @@
 					
 		- If party is found, but no administrative account exists:
 			- User selects party
-			- User can enter optional fields for contact at sponsored projets offices (as single text field)
+			- User can enter optional fields for contact at sponsored projects offices (as single text field)
 			- User gets confirmation page that authorization request has been made
 			
 			
