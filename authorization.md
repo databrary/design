@@ -30,31 +30,28 @@
 			- User selects party
 			- Databrary sends notification of authorization request to party via email. 
 					
-					Message to requesting party:			
-					We have sent your authorization request to [Party B]. Once [Party B] authorizes your agreement, you will have access to the data shared within 
+					Web page confirmation message for requesting party:			
+					We have received your authorization request to be authorized by [Party B]. Once [Party B] authorizes your application, you will have full access to the data shared within Databrary.
 					
 					Message to authorizing party:
-					Dear [Party B],
-					
-					[Party A] has requested to be authorized by you. To approve this authorization request, you must go to your Admin page and click 'Authorize'. 
+					[Party A] has requested to be authorized by [Party B]. To approve this authorization request, you must go to your Admin page and click 'Authorize'. 
 					
 					
 		- If party is found, but no administrative account exists:
 			- User selects party
 			- User can enter optional fields for contact at sponsored projets offices (as single text field)
-			- User is sent confirmation email that authorization request has been made
+			- User gets confirmation page that authorization request has been made
 			
 			
-					Dear [Party A],
-					
-					We have received your request to be authorized by [Party 2]. Once they have authorized you, you will be able access the shared data in Databrary! In the meantime, you are able to browse the publicly available information 
+					Web page confirmation message:							
+					We have received your authorization request to be authorized by [Party B]. Once [Party B] authorizes your application, you will have full access to the data shared within Databrary.
 					
 			- authorize@databrary.org gets notified by email 
 			
 					Message to authorize@databrary.org goes here
 					
-					[Party A] has submitted an authorization request for [Party B]
-				
+					[Party A] has requested to be authorized by [Party B]. To approve this authorization request, you must go to your Admin page and click 'Authorize'.
+									
 		- If no party is found
 			- User completes form with the following information:
 				- Institution
@@ -65,10 +62,8 @@
 					- Address
 				- ... 
 			- authorize@databrary.org gets this information in an email and uses it to create party.
-			- User is sent confirmation email that authorization request has been made
+			- User is sent confirmation web page that authorization request has been made
 			
-					Dear [Party B],
-					
 					Thank you for submitting a request to be Authorized by [Party that doesn't exist].	We will let you know as soon your application is Authorized.
 		
 1. Application is now "Pending Authorization"
