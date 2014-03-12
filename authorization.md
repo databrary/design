@@ -10,9 +10,9 @@
 		- Full name (text)
 		- Email
 		- Institutional affiliation
-		- User electronically signs Investigator Agreement
-			- Clicks through web-pages of agreement later 
-			- Initials sections and checks box at bottom of agreement?
+1. User electronically signs Investigator Agreement
+	- Clicks through web-pages of agreement later 
+	- Initials sections and checks box at bottom of agreement?
 1. Upon registration:
 	- Investigator gets confirmation email containing:
 		- Copy of e-signed Investigator Agreement
