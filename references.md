@@ -38,7 +38,8 @@ If nothing else, a dumping ground for interesting things we should check out.
 * [Assumptions about names](http://www.kalzumeus.com/2010/06/17/falsehoods-programmers-believe-about-names/)
 * [Ruby and Haskell](http://programmingzen.com/2007/03/13/haskell-eye-for-the-ruby-guy/)
 
-#Open Science Space
+# Open Science Space
+
 ## Open Access/Big Data Journals
 
 - [Archives of Scientific Psychology](http://www.apa.org/pubs/journals/arc/index.aspx)
@@ -54,6 +55,15 @@ If nothing else, a dumping ground for interesting things we should check out.
 - [MyOpenArchive](http://myopenarchive.org/), @myopenarchive
 - [Open Repository](http://www.openrepository.com/), @OpenRepository
 - [FigShare](http://figshare.com/), @figshare
+- [DuraSpace | Open technologies for durable digital
+content](http://duraspace.org/)
+- [ScholarSphere](https://scholarsphere.psu.edu/)
+- [Academic Torrents](http://academictorrents.com/)
+- [ResearchGate.net](https://www.researchgate.net/)
+- [The Dataverse Network](http://thedata.org/)
+- [Dryad Digital Repository - Dryad](http://datadryad.org/)
+- [Open Humans Project](http://openhumans.org/)
+- [Personal Genome Project](http://www.personalgenomes.org/)
 
 ### Social science and education
 - [TalkBank](http://www.talkbank.org/)
@@ -65,12 +75,42 @@ If nothing else, a dumping ground for interesting things we should check out.
 - [CMDbase.org (animal behavior)](http://cmdbase.org/)
 - [Video Mosaic Collaborative](http://videomosaic.org/)
 - [Social Informatics Data Grid (SIDGrid)](http://sidgri.ci.uchicago.edu/home)
+- [Open Science Framework](https://osf.io/) Associated with The Center for Open Science and Brian Nosek.
+- [National Database for Autism Research - Home](http://ndar.nih.gov/)
+- [DataShop](https://pslcdatashop.web.cmu.edu/index.jsp) Ken Koedinger @ CMU is PI.
+- [Spatial Learning Tests &
+Instruments](http://spatiallearning.org/index.php/testsainstruments) Nora Newcome and Tim Shipley are PIs.
+- [Cognitive Atlas](http://www.cognitiveatlas.org/) Russ Poldrack is PI.
+- [APA's Data Acquisition, Mgmt
+Site](http://apa.org/research/responsible/data/index.aspx)
+- [APA links to
+datasets](http://apa.org/research/responsible/data-links.aspx)
+- [Early Childhood Longitudinal Program (ECLS) - Birth Cohort
+(ECLS-B)](https://nces.ed.gov/ecls/birth.asp)
 
 ### Neuroscience
 
-- [Biomedical Informatics Research Network (BIRN)](http://www.birncommunity.org/resources/tools/)
-- [OpenFMRI](http://openfmri.org)
-- [Neurosynth.org](http://neurosynth.org)- [Brainmap.org](http://brainmap.org)- [International Electrophysiology Epilepsy Data Portal](http://ieeg.org)
+- [Biomedical Informatics Research Network (BIRN)](http://www.birncommunity.org/resources/tools/) Carl Kesselman is on Advisory Board.
+- [OpenFMRI](http://openfmri.org) Russ Poldrack and Tor Wager are involved.
+- [Neurosynth.org](http://neurosynth.org) Tal Yarkoni is involved.- [Brainmap.org](http://brainmap.org)- [International Electrophysiology Epilepsy Data Portal](http://ieeg.org) Rick's friend Bruce Gluckman at PSU knows the PI.
+- [SUMSdb](http://sumsdb.wustl.edu:8081/sums/index.jsp) Wash U site affiliated with Van Essen's Lab.
+- [Human Connectome Project](http://humanconnectome.org/) Staff talked with HCP's project manager about permissions.
+- [John Richards Neurodevelopmental MRI
+Database](http://jerlab.psych.sc.edu/NeurodevelopmentalMRIDatabase/)
+- [NeuroVault: a new home for all brain statistical maps!](http://neurovault.org/)
+- [INDI - International Data-sharing Initiative](http://fcon_1000.projects.nitrc.org/) Part of 1000 resting state fMRI project.
+- [OASIS](http://www.oasis-brains.org/)
+- [fmridc.org/defaultsite](http://fmridc.org/defaultsite)
+- [CRCNS](http://crcns.org/)
+
+## Data sharing videos, articles
+
+- [Data Sharing and Management Snafu in 3 Short Acts -
+YouTube](http://www.youtube.com/watch?v=N2zK3sAtr-4)
+- [Protection of Human Subjects in Behavioral and Social
+Sciences](http://sites.nationalacademies.org/DBASSE/BBCSS/Protection_of_Human_Subjects_in_Behavioral_and_Social_Sciences/index.htm) National Academies report on recommended revisions to HHS data policies.
+- [Open Science Framework Google Group](https://groups.google.com/forum/#!forum/openscienceframework)
+- [Policies toward open personal data](http://www.sciencemag.org/content/343/6169/373.full)
 ### Citation/reference management
 - [Mendeley](http://www.mendeley.com/)- [Zotero](http://www.zotero.org/)
 - [CiteULike](http://www.citeulike.org/)
@@ -93,3 +133,5 @@ If nothing else, a dumping ground for interesting things we should check out.
 - [LENA](http://www.lenafoundation.org/)
 - [StudioCode](http://www.studiocodegroup.com/)
 - [DIVER: Digital Interactive Video Exploration and Reflection](http://diver.stanford.edu/)
+- [Chen Yu lab](http://www.indiana.edu/~dll/research.html)
+- [Video Annotation Tool from Irvine California - VATIC](http://web.mit.edu/vondrick/vatic/)
