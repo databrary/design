@@ -90,6 +90,7 @@ datasets](http://apa.org/research/responsible/data-links.aspx)
 
 ### Neuroscience
 
+<<<<<<< HEAD
 - [Biomedical Informatics Research Network (BIRN)](http://www.birncommunity.org/resources/tools/) Carl Kesselman is on Advisory Board.
 - [OpenFMRI](http://openfmri.org) Russ Poldrack and Tor Wager are involved.
 - [Neurosynth.org](http://neurosynth.org) Tal Yarkoni is involved.- [Brainmap.org](http://brainmap.org)- [International Electrophysiology Epilepsy Data Portal](http://ieeg.org) Rick's friend Bruce Gluckman at PSU knows the PI.
@@ -113,6 +114,17 @@ Sciences](http://sites.nationalacademies.org/DBASSE/BBCSS/Protection_of_Human_Su
 - [Policies toward open personal data](http://www.sciencemag.org/content/343/6169/373.full)
 ### Citation/reference management
 - [Mendeley](http://www.mendeley.com/)- [Zotero](http://www.zotero.org/)
+=======
+- [Biomedical Informatics Research Network (BIRN)](http://www.birncommunity.org/resources/tools/)
+- [OpenFMRI](http://openfmri.org)
+- [Neurosynth.org](http://neurosynth.org)
+- [Brainmap.org](http://brainmap.org)
+- [International Electrophysiology Epilepsy Data Portal](http://ieeg.org)
+
+### Citation/reference management
+- [Mendeley](http://www.mendeley.com/)
+- [Zotero](http://www.zotero.org/)
+>>>>>>> FETCH_HEAD
 - [CiteULike](http://www.citeulike.org/)
 - [ResearchGate](http://www.researchgate.net/)
 
@@ -133,5 +145,8 @@ Sciences](http://sites.nationalacademies.org/DBASSE/BBCSS/Protection_of_Human_Su
 - [LENA](http://www.lenafoundation.org/)
 - [StudioCode](http://www.studiocodegroup.com/)
 - [DIVER: Digital Interactive Video Exploration and Reflection](http://diver.stanford.edu/)
+<<<<<<< HEAD
 - [Chen Yu lab](http://www.indiana.edu/~dll/research.html)
 - [Video Annotation Tool from Irvine California - VATIC](http://web.mit.edu/vondrick/vatic/)
+=======
+>>>>>>> FETCH_HEAD
