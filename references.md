@@ -49,6 +49,7 @@ If nothing else, a dumping ground for interesting things we should check out.
 - [PeerJ](https://peerj.com/), @peerj
 - [PLoS](http://www.plos.org), @plos
 - [Wiley Open Access](http://www.wileyopenaccess.com/view/index.html), @wileyopenaccess
+- [Faculty of 1000](https://f1000research.com/)
 
 ## Data-sharing/archiving
 
@@ -92,7 +93,9 @@ datasets](http://apa.org/research/responsible/data-links.aspx)
 
 - [Biomedical Informatics Research Network (BIRN)](http://www.birncommunity.org/resources/tools/) Carl Kesselman is on Advisory Board.
 - [OpenFMRI](http://openfmri.org) Russ Poldrack and Tor Wager are involved.
-- [Neurosynth.org](http://neurosynth.org) Tal Yarkoni is involved.- [Brainmap.org](http://brainmap.org)- [International Electrophysiology Epilepsy Data Portal](http://ieeg.org) Rick's friend Bruce Gluckman at PSU knows the PI.
+- [Neurosynth.org](http://neurosynth.org) Tal Yarkoni is involved.
+- [Brainmap.org](http://brainmap.org)
+- [International Electrophysiology Epilepsy Data Portal](http://ieeg.org) Rick's friend Bruce Gluckman at PSU knows the PI.
 - [SUMSdb](http://sumsdb.wustl.edu:8081/sums/index.jsp) Wash U site affiliated with Van Essen's Lab.
 - [Human Connectome Project](http://humanconnectome.org/) Staff talked with HCP's project manager about permissions.
 - [John Richards Neurodevelopmental MRI
@@ -105,14 +108,15 @@ Database](http://jerlab.psych.sc.edu/NeurodevelopmentalMRIDatabase/)
 
 ## Data sharing videos, articles
 
-- [Data Sharing and Management Snafu in 3 Short Acts -
-YouTube](http://www.youtube.com/watch?v=N2zK3sAtr-4)
-- [Protection of Human Subjects in Behavioral and Social
-Sciences](http://sites.nationalacademies.org/DBASSE/BBCSS/Protection_of_Human_Subjects_in_Behavioral_and_Social_Sciences/index.htm) National Academies report on recommended revisions to HHS data policies.
+- [Data Sharing and Management Snafu in 3 Short Acts YouTube](http://www.youtube.com/watch?v=N2zK3sAtr-4)
+- [Protection of Human Subjects in Behavioral and Social Sciences](http://sites.nationalacademies.org/DBASSE/BBCSS/Protection_of_Human_Subjects_in_Behavioral_and_Social_Sciences/index.htm) National Academies report on recommended revisions to HHS data policies.
 - [Open Science Framework Google Group](https://groups.google.com/forum/#!forum/openscienceframework)
 - [Policies toward open personal data](http://www.sciencemag.org/content/343/6169/373.full)
-### Citation/reference management
-- [Mendeley](http://www.mendeley.com/)- [Zotero](http://www.zotero.org/)
+
+### Citation/reference management
+
+- [Mendeley](http://www.mendeley.com/)
+- [Zotero](http://www.zotero.org/)
 - [Biomedical Informatics Research Network (BIRN)](http://www.birncommunity.org/resources/tools/)
 - [OpenFMRI](http://openfmri.org)
 - [Neurosynth.org](http://neurosynth.org)
