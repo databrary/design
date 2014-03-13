@@ -38,8 +38,10 @@
 					
 					
 		- If party is found, but no administrative account exists:
-			- User selects party
-			- User can enter optional fields for contact at sponsored projects offices (as single text field)
+			- User selects party 
+			- If PI, user can enter optional fields for contact at sponsored projects offices (as single text field):
+
+					Please list the name and contact information (email, phone number) for your Institution's Authorizing Official that will co-sign your Agreement. This will help us to get you Authorized as quickly as possible.
 			- User gets confirmation page that authorization request has been made
 			
 			
@@ -55,15 +57,10 @@
 		- If no party is found
 			- User instructed to:
 				- If affiliate, ask their PI to register and get authorized
-				- If PI, instructed to share information about Insitution.
-					- User completes form with the following information:
-						- Institution
-						- Authorizing Official at Instition (OSP Contact)
-							- Name
-							- Email
-							- Phone Number
-							- Address
-						- ... 
+				- If PI, User can enter optional fields for contact at sponsored projects offices (as single text field):
+
+					Please list the name and contact information (email, phone number) for your Institution's Authorizing Official that will co-sign your Agreement. This will help us to get you Authorized as quickly as possible.
+
 			- authorize@databrary.org gets this information in an email and uses it to create party.
 			- User is sent confirmation web page that authorization request has been made
 			
@@ -72,15 +69,14 @@
 1. Application is now "Pending Authorization"
 	
 1. Institutional representative or Authorized Databrary PI co-signs agreement
-	- authorize@databrary.org registers their authorization with the correct party, if it is for an Institution. 
+	- authorize@databrary.org registers their authorization with the correct party, if it is for an Institution without an administrative account. 
 	- Once agreement is co-signed, applicant status changes to "Authorized" (by authorize@databrary.org for Principal Investigators until administrative accounts for Institutions are active, and by the PI for Affiliates)
 	
 			Dear [Party A],
 			
 			Your application for authorization has been approved and you now have full access to the data shared within Databrary. Please remember to abide by our (Best Practices in Data Security)[best-practices.md] and to  to uphold the highest ethical standards of care with Databrary data. 
 			
-#### At any point after registration (step 2):
-	Investigator invited to complete profile via wizard[profile functions will be ready post-beta].
+#### At any point after registration user may complete profile via wizard[profile functions will be ready post-beta].
 		- Preferred display name (text): 
 			- Rick O. Gilmore
 		- Preferred institutional display name [shouldn't we have this information?] [save for later]: 
