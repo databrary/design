@@ -72,6 +72,8 @@ If nothing else, a dumping ground for interesting things we should check out.
 - [Digital Curation Centre](http://www.dcc.ac.uk/)
 - [DataPub Blog](http://datapub.cdlib.org/)
 - [Charles W. Bailey, Jr.'s bibliography on digital curation](http://digital-scholarship.org/rdcb/rdcb.htm)
+- [Research Data Alliance](www.rd-alliance.org)
+- [Domain Repositories Interest Group at RDA](http://www.rd-alliance.org/node/1456)
 
 ### Social science and education
 - [TalkBank](http://www.talkbank.org/)
