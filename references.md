@@ -56,8 +56,7 @@ If nothing else, a dumping ground for interesting things we should check out.
 - [MyOpenArchive](http://myopenarchive.org/), @myopenarchive
 - [Open Repository](http://www.openrepository.com/), @OpenRepository
 - [FigShare](http://figshare.com/), @figshare
-- [DuraSpace | Open technologies for durable digital
-content](http://duraspace.org/)
+- [DuraSpace | Open technologies for durable digital content](http://duraspace.org/)
 - [ScholarSphere](https://scholarsphere.psu.edu/)
 - [Academic Torrents](http://academictorrents.com/)
 - [ResearchGate.net](https://www.researchgate.net/)
@@ -87,15 +86,11 @@ content](http://duraspace.org/)
 - [Open Science Framework](https://osf.io/) Associated with The Center for Open Science and Brian Nosek.
 - [National Database for Autism Research - Home](http://ndar.nih.gov/)
 - [DataShop](https://pslcdatashop.web.cmu.edu/index.jsp) Ken Koedinger @ CMU is PI.
-- [Spatial Learning Tests &
-Instruments](http://spatiallearning.org/index.php/testsainstruments) Nora Newcome and Tim Shipley are PIs.
+- [Spatial Learning Tests & Instruments](http://spatiallearning.org/index.php/testsainstruments) Nora Newcome and Tim Shipley are PIs.
 - [Cognitive Atlas](http://www.cognitiveatlas.org/) Russ Poldrack is PI.
-- [APA's Data Acquisition, Mgmt
-Site](http://apa.org/research/responsible/data/index.aspx)
-- [APA links to
-datasets](http://apa.org/research/responsible/data-links.aspx)
-- [Early Childhood Longitudinal Program (ECLS) - Birth Cohort
-(ECLS-B)](https://nces.ed.gov/ecls/birth.asp)
+- [APA's Data Acquisition, Mgmt Site](http://apa.org/research/responsible/data/index.aspx)
+- [APA links to datasets](http://apa.org/research/responsible/data-links.aspx)
+- [Early Childhood Longitudinal Program (ECLS) - Birth Cohort (ECLS-B)](https://nces.ed.gov/ecls/birth.asp)
 
 ### Neuroscience
 
