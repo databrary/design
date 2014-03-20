@@ -94,7 +94,7 @@ Not the Databrary form, but forms used for grandfathered data can be included to
 
 ## Other organization questions for PIs
 ***
-**What **study** or **studies** were derived from a dataset, if any?**
+**What study or studies were derived from a dataset, if any?**
 
 **Were multiple studies created using this same dataset?**
 
