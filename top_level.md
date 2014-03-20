@@ -2,7 +2,7 @@
 ***
 ## Top Level Volume Metadata
 
-**Volumes can either be studies or datasets. Study metadata can be derived from publications and some of the metadata can be automatically populated when a PI links to their publication. Dataset metadata are driven by raw data and content should be written by the PI or a proxy**
+Volumes can either be studies or datasets. Study metadata can be derived from publications and some of the metadata can be automatically populated when a PI links to their publication. Dataset metadata are driven by raw data and content should be written by the PI or a proxy
 ***
 # Datasets
 Datasets only include raw data, and the metadata should reflect that.
