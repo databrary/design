@@ -2,7 +2,7 @@
 ***
 ## Top Level Volume Metadata
 
-**Volumes can either be Studies and Datasets. Study metadata are derived from published papers and some of the metadata can be more automatically populated when a PI links to their paper. Dataset metadata are driven by raw data and content should be written by the PI or an approved proxy**
+**Volumes can either be studies or datasets. Study metadata can be derived from publications and some of the metadata can be automatically populated when a PI links to their publication. Dataset metadata are driven by raw data and content should be written by the PI or a proxy**
 ***
 # Datasets
 Datasets only include raw data, and the metadata should reflect that.
@@ -20,9 +20,9 @@ We need titles for the following
 
 These titles should be descriptive, as they are what is displayed to the Databrary community. Titles should be clear enough that any user can get a general idea about the content. Formal titles should be concise and not so encumbered in information that they become unwieldy. A character limit of one-hundred is imposed.
 
- Before naming anything, a PI should ask themselves:
+ Before naming anything, a PI can ask themselves:
  
- **What the most important aspects?**
+ **What are the most important aspects?**
 
 * physical description
 * specific population
@@ -38,7 +38,7 @@ These titles should be descriptive, as they are what is displayed to the Databra
 
 **Are the terms I am using sufficient for someone not in my lab but with similar expertise?** 
 
-Title should **not** include any analytical information or whys. Only hows and whats.
+Titles should **not** include any analytical information or whys. Only hows and whats.
 
 ### Alias
 
@@ -48,12 +48,17 @@ These are short names used within a lab to manage their data. Aliases will only 
 ***
 Descriptions of datasets should only summarize what happened in the sessions. These are short paragraphs with a character limit of 1024. When writing a summary, a PI should ask themselves:
 
-* What was my collection methodology?
-* Who were my participants (age, gender, ability, demographic, ethnocultural, location etc)?
-* Where and/or in what setting did I collect my data? 
-* Did I split up my participants into different groups? How?
-* Did I split up my sessions into different conditions? What where they?
-* What did my participants do in each session? What is a general overview of the tasks?
+**What was my collection methodology?**
+
+**Who were my participants (age, gender, ability, demographic, ethnocultural, location etc)?**
+
+**Where and/or in what setting did I collect my data?** 
+
+**Did I split up my participants into different groups? How?**
+
+**Did I split up my sessions into different conditions? What where they?**
+
+**What did my participants do in each session? What is a general overview of the tasks?**
 
 ## Definitions
 ***
@@ -61,7 +66,7 @@ If there is more specific information than can be included in a dataset descript
 
 ## Images
 ***
-These could be photos taken during the sessions or they could be stills from a video. There should be at least one image associated with a dataset. Photos of participants are identified data and Databrary will use the same consent information that was provided for the session the still was taking from. If the PI does not include an image, Databrary will take a representative still from one of their permissioned videos to display on the volume page.
+These could be photos taken during the sessions or stills from a video. There should be at least one image associated with a dataset. Images of participants are identified data and Databrary will use the same consent information that was provided for the session the image is taken from. If the PI does not include an image, Databrary will take a representative still from one of their permissioned videos to display on the volume page.
 
 ## Materials
 ***
@@ -85,23 +90,28 @@ If the questionnaire was completed on camera, it can act as a partial transcript
 
 ### Blank consent forms
 
-Not the Databrary form, but forms used for grandfathered data can be included to show what a PI thought what level of sharing  their previous language permitted.
+Not the Databrary form, but forms used for grandfathered data can be included to show what level of sharing  previous language permitted.
 
 ## Other organization questions for PIs
 ***
-* What **study** or **studies** were derived from a dataset, if any?
-* Were multiple studies created using this same dataset?
-* Were complete sessions used in a study? Or were sessions broken up into different studies? What were they broken up by? Task? Condition?
-* Was a particular group or condition from this dataset used in one study?
-* Is this a longitudinal data? 
-	* Over what period of time was this data collected?
-	* At what intervals?
-	* Did the participant IDs stay the same?
+**What **study** or **studies** were derived from a dataset, if any?**
+
+**Were multiple studies created using this same dataset?**
+
+**Were complete sessions used in a study? Or were sessions broken up into different studies? What were they broken up by? Task? Condition?**
+
+**Was a particular group or condition from this dataset used in a study?**
+
+**Is this a longitudinal data?**
+ 
+* Over what period of time was this data collected?
+* At what intervals?
+* Did the participant IDs stay the same?
 
 # Studies
 ***
 
-Studies represent papers, posters, publication or data that are going to be used for any sort of publication derived from a dataset or datasets. If a PI ingests a publication (or, if there is no publication, a least a title and description) and a list of sessions from any dataset(s), Databrary can automatically create a study with minimal metadata.
+Studies represent papers, posters, publication or data that are going to be used for any sort of publication derived from a dataset or multiple datasets. If a PI ingests a publication (or, if there is no publication, a least a title and description) and a list of sessions from any dataset(s), Databrary can automatically create a study with minimal metadata.
 
 ***
 
@@ -121,7 +131,7 @@ In a study, materials are de-identified documents derived from analysis of raw d
 ***
 
 ## Publications
-The study can link to a correlating published paper. The PI can also include **ebooks**, **reference materials**, **poster**, **presentations** or a permissioned **video of a talk**.
+Studies can link to a correlating published paper. The PI can also include **ebooks**, **reference materials**, **posters**, **presentations** , **citations** or permissioned **videos of talks**.
 
 ***
 
