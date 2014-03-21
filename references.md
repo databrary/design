@@ -111,6 +111,7 @@ If nothing else, a dumping ground for interesting things we should check out.
 - [CRCNS](http://crcns.org/)
 - [Neuro Bureau](http://www.neurobureau.org/)
 - [Open Neuroscience Blog](http://openeuroscience.wordpress.com/)
+- Crowd-sourcing tract tracing through [EyeWire.org](https://eyewire.org/signup/)
 
 ## Data sharing videos, articles
 
