@@ -103,13 +103,14 @@ If nothing else, a dumping ground for interesting things we should check out.
 - [International Electrophysiology Epilepsy Data Portal](http://ieeg.org) Rick's friend Bruce Gluckman at PSU knows the PI.
 - [SUMSdb](http://sumsdb.wustl.edu:8081/sums/index.jsp) Wash U site affiliated with Van Essen's Lab.
 - [Human Connectome Project](http://humanconnectome.org/) Staff talked with HCP's project manager about permissions.
-- [John Richards Neurodevelopmental MRI
-Database](http://jerlab.psych.sc.edu/NeurodevelopmentalMRIDatabase/)
+- [John Richards Neurodevelopmental MRI Database](http://jerlab.psych.sc.edu/NeurodevelopmentalMRIDatabase/)
 - [NeuroVault: a new home for all brain statistical maps!](http://neurovault.org/)
 - [INDI - International Data-sharing Initiative](http://fcon_1000.projects.nitrc.org/) Part of 1000 resting state fMRI project.
 - [OASIS](http://www.oasis-brains.org/)
 - [fmridc.org/defaultsite](http://fmridc.org/defaultsite)
 - [CRCNS](http://crcns.org/)
+- [Neuro Bureau](http://www.neurobureau.org/)
+- [Open Neuroscience Blog](http://openeuroscience.wordpress.com/)
 
 ## Data sharing videos, articles
 
