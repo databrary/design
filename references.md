@@ -145,6 +145,8 @@ If nothing else, a dumping ground for interesting things we should check out.
 - [IPython](http://ipython.org/), @IPythonDev
 - [Open Notebook Science Network](http://onsnetwork.org/) @onsnetwork
 - [DexyIt -- code commenting](http://dexy.it/)
+
+## Project management
 - [Asana](http://asana.com/)
 - [Trello](http://trello.com/)
 - [Basecamp](https://basecamp.com/)
