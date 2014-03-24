@@ -161,6 +161,7 @@ If nothing else, a dumping ground for interesting things we should check out.
 - [Slack.com](http://slack.com)
 - [Campfire](https://campfirenow.com/)
 - [Yammer](http://yammer.com)
+- [Loomio -- group decisionmaking](https://www.loomio.org/)
 
 ## Video/audio coding tools
 
