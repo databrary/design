@@ -40,6 +40,10 @@ If nothing else, a dumping ground for interesting things we should check out.
 
 # Open Science Space
 
+## Workshops/Training
+- [ICPSR/OSF/Datavers Workshop on Transparency Practices in Social Science](http://www.icpsr.umich.edu/icpsrweb/sumprog/courses/0180)
+- Software Carpentry [bootcamps](http://software-carpentry.org/bootcamps/index.html#future)
+
 ## Open Access/Big Data Journals
 
 - [Archives of Scientific Psychology](http://www.apa.org/pubs/journals/arc/index.aspx)
@@ -56,6 +60,7 @@ If nothing else, a dumping ground for interesting things we should check out.
 - [MyOpenArchive](http://myopenarchive.org/), @myopenarchive
 - [Open Repository](http://www.openrepository.com/), @OpenRepository
 - [FigShare](http://figshare.com/), @figshare
+- [SlideShare](http://www.slideshare.net/) @slideshare
 - [DuraSpace | Open technologies for durable digital content](http://duraspace.org/)
 - [ScholarSphere](https://scholarsphere.psu.edu/)
 - [Academic Torrents](http://academictorrents.com/)
@@ -94,6 +99,7 @@ If nothing else, a dumping ground for interesting things we should check out.
 - [APA links to datasets](http://apa.org/research/responsible/data-links.aspx)
 - [Early Childhood Longitudinal Program (ECLS) - Birth Cohort (ECLS-B)](https://nces.ed.gov/ecls/birth.asp)
 - [Teaching and Learning Exploratory](https://tle.soe.umich.edu/), this is where the [MET Project](http://www.metproject.org/) classroom videos are shared.
+- [Quandl - find, share, and use numerical (economic) data](http://www.quandl.com/)
 
 ### Neuroscience
 
@@ -125,15 +131,6 @@ If nothing else, a dumping ground for interesting things we should check out.
 
 - [Mendeley](http://www.mendeley.com/)
 - [Zotero](http://www.zotero.org/)
-- [Biomedical Informatics Research Network (BIRN)](http://www.birncommunity.org/resources/tools/)
-- [OpenFMRI](http://openfmri.org)
-- [Neurosynth.org](http://neurosynth.org)
-- [Brainmap.org](http://brainmap.org)
-- [International Electrophysiology Epilepsy Data Portal](http://ieeg.org)
-
-### Citation/reference management
-- [Mendeley](http://www.mendeley.com/)
-- [Zotero](http://www.zotero.org/)
 - [CiteULike](http://www.citeulike.org/)
 - [ResearchGate](http://www.researchgate.net/)
 
@@ -144,6 +141,7 @@ If nothing else, a dumping ground for interesting things we should check out.
 - [SoftwareCarpentry](http://software-carpentry.org/), @swcarpentry
 - [rOpenSci](http://ropensci.org/), @ropensci
 - [IPython](http://ipython.org/), @IPythonDev
+- [Open Notebook Science Network](http://onsnetwork.org/) @onsnetwork
 
 ## Video/audio coding tools
 
