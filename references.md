@@ -79,6 +79,7 @@ If nothing else, a dumping ground for interesting things we should check out.
 - [Charles W. Bailey, Jr.'s bibliography on digital curation](http://digital-scholarship.org/rdcb/rdcb.htm)
 - [Research Data Alliance](www.rd-alliance.org)
 - [Domain Repositories Interest Group at RDA](http://www.rd-alliance.org/node/1456)
+- [Force 11](https://www.force11.org/)
 
 ### Social science and education
 - [TalkBank](http://www.talkbank.org/)
@@ -144,6 +145,20 @@ If nothing else, a dumping ground for interesting things we should check out.
 - [IPython](http://ipython.org/), @IPythonDev
 - [Open Notebook Science Network](http://onsnetwork.org/) @onsnetwork
 - [DexyIt -- code commenting](http://dexy.it/)
+- [Asana](http://asana.com/)
+- [Trello](http://trello.com/)
+- [Basecamp](https://basecamp.com/)
+- [Wrike.com](http://wrike.com/)
+- [Bitrix24](http://bitrix24.com/)
+
+## Communications/QA fora
+- [Stack Overflow](http://stackoverflow.com/)
+- [Quora.com](http://quora.com)
+- [Disqus](http://disqus.com/)
+- [Google Groups](http://groups.google.com)
+- [Slack.com](http://slack.com)
+- [Campfire](https://campfirenow.com/)
+- [Yammer](http://yammer.com)
 
 ## Video/audio coding tools
 
