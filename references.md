@@ -100,6 +100,7 @@ If nothing else, a dumping ground for interesting things we should check out.
 - [Early Childhood Longitudinal Program (ECLS) - Birth Cohort (ECLS-B)](https://nces.ed.gov/ecls/birth.asp)
 - [Teaching and Learning Exploratory](https://tle.soe.umich.edu/), this is where the [MET Project](http://www.metproject.org/) classroom videos are shared.
 - [Quandl - find, share, and use numerical (economic) data](http://www.quandl.com/)
+- [Berkeley Initiative for Transparency in the Social Science BITSS](http://bitss.org/)
 
 ### Neuroscience
 
@@ -142,6 +143,7 @@ If nothing else, a dumping ground for interesting things we should check out.
 - [rOpenSci](http://ropensci.org/), @ropensci
 - [IPython](http://ipython.org/), @IPythonDev
 - [Open Notebook Science Network](http://onsnetwork.org/) @onsnetwork
+- [DexyIt -- code commenting](http://dexy.it/)
 
 ## Video/audio coding tools
 
