@@ -152,6 +152,7 @@ If nothing else, a dumping ground for interesting things we should check out.
 - [Basecamp](https://basecamp.com/)
 - [Wrike.com](http://wrike.com/)
 - [Bitrix24](http://bitrix24.com/)
+- [Zoho - CRM + Project Mgmt](http://www.zoho.com/)
 
 ## Communications/QA fora
 - [Stack Overflow](http://stackoverflow.com/)
