@@ -115,7 +115,7 @@ If nothing else, a dumping ground for interesting things we should check out.
 - [INDI - International Data-sharing Initiative](http://fcon_1000.projects.nitrc.org/) Part of 1000 resting state fMRI project.
 - [OASIS](http://www.oasis-brains.org/)
 - [fmridc.org/defaultsite](http://fmridc.org/defaultsite)
-- [CRCNS](http://crcns.org/)
+- [Collaborative Research in Computational Neuroscience -- CRCNS](http://crcns.org/)
 - [Neuro Bureau](http://www.neurobureau.org/)
 - [Open Neuroscience Blog](http://openeuroscience.wordpress.com/)
 - Crowd-sourcing tract tracing through [EyeWire.org](https://eyewire.org/signup/)
