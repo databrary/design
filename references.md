@@ -129,6 +129,7 @@ If nothing else, a dumping ground for interesting things we should check out.
 - [Protection of Human Subjects in Behavioral and Social Sciences](http://sites.nationalacademies.org/DBASSE/BBCSS/Protection_of_Human_Subjects_in_Behavioral_and_Social_Sciences/index.htm) National Academies report on recommended revisions to HHS data policies.
 - [Open Science Framework Google Group](https://groups.google.com/forum/#!forum/openscienceframework)
 - [Policies toward open personal data](http://www.sciencemag.org/content/343/6169/373.full)
+- [Ioannidis et al. TINS 14](http://www.sciencedirect.com/science/article/pii/S1364661314000540?_rdoc=1&_fmt=high&_origin=gateway&_docanchor=&md5=b8429449ccfc9c30159a5f9aeaa92ffb)
 
 ### Citation/reference management
 
