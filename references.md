@@ -102,6 +102,7 @@ If nothing else, a dumping ground for interesting things we should check out.
 - [Teaching and Learning Exploratory](https://tle.soe.umich.edu/), this is where the [MET Project](http://www.metproject.org/) classroom videos are shared.
 - [Quandl - find, share, and use numerical (economic) data](http://www.quandl.com/)
 - [Berkeley Initiative for Transparency in the Social Science BITSS](http://bitss.org/)
+- [Stanford Meta-Research Innovation Center](http://med.stanford.edu/metrics/)
 
 ### Neuroscience
 
