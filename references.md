@@ -80,6 +80,7 @@ If nothing else, a dumping ground for interesting things we should check out.
 - [Research Data Alliance](www.rd-alliance.org)
 - [Domain Repositories Interest Group at RDA](http://www.rd-alliance.org/node/1456)
 - [Force 11](https://www.force11.org/)
+- [Findable, Accessible, Interoperable and Re-usable Data](http://datafairport.org/)
 
 ### Social science and education
 - [TalkBank](http://www.talkbank.org/)
