@@ -54,6 +54,7 @@ If nothing else, a dumping ground for interesting things we should check out.
 - [PLoS](http://www.plos.org), @plos
 - [Wiley Open Access](http://www.wileyopenaccess.com/view/index.html), @wileyopenaccess
 - [Faculty of 1000](https://f1000research.com/)
+- [Gigascience](http://www.gigasciencejournal.com/)
 
 ## Data-sharing/archiving
 
