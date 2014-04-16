@@ -1,0 +1,428 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Timeline/Player Prototype</title>
+		<link rel="stylesheet" href="normalize.css">
+		<link rel="stylesheet" href="typicons.min.css">
+		<link rel="stylesheet" href="jquery.qtip.min.css">
+		<link rel="stylesheet" href="styles.css">
+		<script src="jquery-2.1.0.min.js"></script>
+		<script src="jquery.qtip.min.js"></script>
+		<script src="scripts.js"></script>
+	</head>
+
+	<body>
+		<article>
+			<section class="pane-note">
+				<div class="buttons">
+					<label># of videos</label>
+					<button class="set-player" data-toggle="#player-view-1">1</button>
+					<button class="set-player" data-toggle="#player-view-2">2</button>
+					<button class="set-player" data-toggle="#player-view-3">4</button>
+					<button class="set-player" data-toggle="#player-view-4">4</button>
+				</div>
+			</section>
+
+			<section class="pane-view">
+				<div class="player">
+					<div class="player-view" id="player-view-1">
+						<div class="player-view-main">
+							<div class="video video-1">
+								<div class="video-id">1</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="player-view" id="player-view-2">
+						<div class="player-view-main">
+							<div class="video video-1">
+								<div class="video-id">1</div>
+							</div>
+						</div>
+
+						<div class="player-view-side">
+							<div class="video video-2">
+								<div class="video-id">2</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="player-view" id="player-view-3">
+						<div class="player-view-main">
+							<div class="video video-1">
+								<div class="video-id">1</div>
+							</div>
+						</div>
+
+						<div class="player-view-side">
+							<div class="video video-2">
+								<div class="video-id">2</div>
+							</div>
+
+							<div class="video video-3">
+								<div class="video-id">3</div>
+							</div>
+
+							<div class="video video-4">
+								<div class="video-id">4</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="player-view" id="player-view-4">
+						<div class="player-view-main">
+							<div class="video video-1">
+								<div class="video-id">1</div>
+							</div>
+						</div>
+
+						<div class="player-view-side">
+							<div class="video video-2">
+								<div class="video-id">2</div>
+							</div>
+
+							<div class="video video-3">
+								<div class="video-id">3</div>
+							</div>
+
+							<div class="video video-4">
+								<div class="video-id">4</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="seekbar">
+					<div class="seekbar-loaded"></div>
+					<div class="seekbar-segment"></div>
+					<div class="seekbar-now"></div>
+				</div>
+
+				<div class="toolbar">
+					<div class="toolbar-group">
+						<div class="toolbar-icon typcn typcn-media-rewind"></div>
+						<div class="toolbar-icon typcn typcn-media-play"></div>
+						<div class="toolbar-icon typcn typcn-media-fast-forward"></div>
+
+						<div class="timecode">3:45:389</div>
+					</div>
+
+					<div class="toolbar-sep"></div>
+
+					<div class="toolbar-group">
+						<div class="when-selection toolbar-icon typcn typcn-message"></div>
+						<div class="when-selection toolbar-icon typcn typcn-tag"></div>
+						<div class="when-selection toolbar-icon typcn typcn-stopwatch"></div>
+						<div class="when-now toolbar-icon typcn typcn-document-add"></div>
+						<div class="when-file toolbar-icon typcn typcn-edit"></div>
+					</div>
+				</div>
+
+				<div class="alternator">
+					<div class="timeline">
+						<div class="cursor play"></div>
+						<div class="selection"></div>
+
+						<div class="ruler">
+							<div class="ruler-minute">1</div>
+							<div class="ruler-minute">2</div>
+							<div class="ruler-minute">3</div>
+							<div class="ruler-minute">4</div>
+							<div class="ruler-minute">5</div>
+							<div class="ruler-minute">6</div>
+							<div class="ruler-minute">7</div>
+							<div class="ruler-minute">8</div>
+							<div class="ruler-minute">9</div>
+							<div class="ruler-minute">10</div>
+							<div class="ruler-minute">11</div>
+							<div class="ruler-minute">12</div>
+						</div>
+
+						<div class="tracks">
+							<div id="track-1" class="track track-long track-temporal">
+								<div class="file file-1">
+									<span class="file-name">eye-tracker</span>
+									<span class="file-classification unlocked typcn typcn-lock-open"></span>
+								</div>
+							</div>
+
+							<div id="track-2" class="track track-long track-temporal hidden">
+								<div class="file file-2">
+									<span class="file-name">eye-cam</span>
+									<span class="file-classification unlocked typcn typcn-lock-open"></span>
+								</div>
+							</div>
+
+							<div id="track-3" class="track track-long track-temporal hidden">
+								<div class="file file-3">
+									<span class="file-name">video</span>
+									<span class="file-classification locked typcn typcn-lock-closed"></span>
+								</div>
+							</div>
+
+							<div id="track-4" class="track track-long track-temporal hidden">
+								<div class="file file-4">
+									<span class="file-name">video</span>
+									<span class="file-classification unlocked typcn typcn-lock-open"></span>
+								</div>
+							</div>
+
+							<div class="track track-long track-audio">
+								<div class="file file-5">
+									<span class="file-name">audio</span>
+									<span class="file-classification locked typcn typcn-lock-closed"></span>
+								</div>
+							</div>
+
+							<div class="track track-instant">
+								<div class="file file-6">
+									<span class="file-name">intake-form<span class="file-classification locked typcn typcn-lock-closed"></span></span>
+								</div>
+
+								<div class="file file-7">
+									<span class="file-name">questionaire<span class="file-classification unlocked typcn typcn-lock-open"></span></span>
+								</div>
+
+								<div class="file file-8">
+									<span class="file-name">drawing<span class="file-classification unlocked typcn typcn-lock-open"></span></span>
+								</div>
+							</div>
+						</div>
+
+						<div class="commbar cf">
+							<div class="comment comment-1">
+								<img src="http://lorempixel.com/50/50?q=r">
+								<img src="http://lorempixel.com/50/50?q=d">
+								<img src="http://lorempixel.com/50/50?q=l">
+								<img src="http://lorempixel.com/50/50?q=u">
+								<span class="comment-more">33</span>
+							</div>
+
+							<div class="comment comment-2">
+								<img src="http://lorempixel.com/50/50?q=a">
+								<img src="http://lorempixel.com/50/50?q=s">
+								<img src="http://lorempixel.com/50/50?q=u">
+								<span class="comment-more">11</span>
+							</div>
+
+							<div class="comment comment-3">
+								<img src="http://lorempixel.com/50/50?q=c">
+								<img src="http://lorempixel.com/50/50?q=u">
+								<span class="comment-more">5</span>
+							</div>
+
+							<div class="comment comment-6">
+								<img src="http://lorempixel.com/50/50?q=r">
+								<img src="http://lorempixel.com/50/50?q=s">
+								<img src="http://lorempixel.com/50/50?q=z">
+								<img src="http://lorempixel.com/50/50?q=g">
+								<img src="http://lorempixel.com/50/50?q=u">
+								<span class="comment-more">9</span>
+							</div>
+
+							<div class="comment comment-7">
+								<img src="http://lorempixel.com/50/50?q=u">
+							</div>
+
+							<div class="comment comment-4 comment-upper">
+								<img src="http://lorempixel.com/50/50?q=r">
+								<img src="http://lorempixel.com/50/50?q=p">
+								<img src="http://lorempixel.com/50/50?q=t">
+								<img src="http://lorempixel.com/50/50?q=u">
+								<img src="http://lorempixel.com/50/50?q=h">
+								<img src="http://lorempixel.com/50/50?q=i">
+								<span class="comment-more">52</span>
+							</div>
+
+							<div class="comment comment-5 comment-upper">
+								<img src="http://lorempixel.com/50/50?q=r">
+								<img src="http://lorempixel.com/50/50?q=f">
+								<img src="http://lorempixel.com/50/50?q=u">
+								<span class="comment-more">6</span>
+							</div>
+
+							<div class="comment comment-8 comment-upper">
+								<img src="http://lorempixel.com/50/50?q=p">
+								<img src="http://lorempixel.com/50/50?q=s">
+								<img src="http://lorempixel.com/50/50?q=x">
+								<img src="http://lorempixel.com/50/50?q=t">
+								<span class="comment-more">7</span>
+							</div>
+						</div>
+
+						<div class="tags">
+							<div class="question">
+								<span>tags?</span>
+							</div>
+						</div>
+
+						<div class="scrollbar">
+							<div class="scroller">
+								<div class="grip left"></div>
+								<div class="grip right"></div>
+								<div class="stretch"></div>
+							</div>
+						</div>
+					</div>
+
+					<div class="comments">
+						<div class="close-comments typcn typcn-times">&nbsp;</div>
+						<h1>Comments</h1>
+
+						<ul>
+							<li class="thread-comment">
+								<header>
+									<img src="http://lorempixel.com/50/50?q=t">
+									<span class="user-name">Jorge Luis Borges</span>
+								</header>
+
+								<div class="comment-body">
+									<p>Like all the men of Babylon, I have been proconsul; like all, I have been a slave. I have known omnipotence, ignominy, imprisonment. Look here-- my right hand has no index finger. Look here--through this gash in my cape you can see on my stomach a crimson tattoo--it is the second letter, Beth. On nights when the moon is full, this symbol gives me power over men with the mark of Gimel, but it subjects me to those with the Aleph, who on nights when there is no moon owe obedience to those marked with the Gimel. In the half-light of dawn, in a cellar, standing before a black altar, I have slit the throats of sacred bulls. Once, for an entire lunar year, I was declared invisible--I would cry out and no one would heed my call, I would steal bread and not be beheaded. I have known that thing the Greeks knew not--uncertainty. In a chamber of brass, as I faced the strangler's silent scarf, hope did not abandon me; in the river of delights, panic has not failed me. Heraclides Ponticus reports, admiringly, that Pythagoras recalled having been Pyrrhus, and before that, Euphorbus, and before that, some other mortal; in order to recall similar vicissitudes, I have no need of death, nor even of imposture.</p>
+								</div>
+
+								<ul>
+									<li class="thread-comment">
+										<header>
+											<img src="http://lorempixel.com/50/50?q=t">
+											<span class="user-name">J. Borges</span>
+										</header>
+
+										<div class="comment-body">
+											<p>I owe that almost monstrous variety to an institution--the Lottery-- which is unknown in other nations, or at work in them imperfectly or secretly. I have not delved into this institution's history. I know that sages cannot agree. About its mighty purposes I know as much as a man untutored in astrology might know about the moon. Mine is a dizzying country in which the Lottery is a major element of reality; until this day, I have thought as little about it as about the conduct of the indecipherable gods or of my heart. Now, far from Babylon and its beloved customs, I think with some bewilderment about the Lottery, and about the blasphemous conjectures that shrouded men whisper in the half-light of dawn or evening.</p>
+										</div>
+									</li>
+
+									<li class="thread-comment">
+										<header>
+											<img src="http://lorempixel.com/50/50?q=t">
+											<span class="user-name">Luis Luis</span>
+										</header>
+
+										<div class="comment-body">
+											<p>My father would tell how once, long ago--centuries? years?--the lottery in Babylon was a game played by commoners. He would tell (though whether this is true or not, I cannot say) how barbers would take a man's copper coins and give back rectangles made of bone or parchment and adorned with symbols. Then, in broad daylight, a drawing would be held; those smiled upon by fate would, with no further corroboration by chance, win coins minted of silver. The procedure, as you can see, was rudimentary.</p>
+										</div>
+
+										<ul>
+											<li class="thread-comment">
+												<header>
+													<img src="http://lorempixel.com/50/50?q=t">
+													<span class="user-name">Biggy J.</span>
+												</header>
+
+												<div class="comment-body">
+													<p>Naturally, those so-called "lotteries" were a failure. They had no moral force whatsoever; they appealed not to all a man's faculties, but only to his hopefulness. Public indifference soon meant that the merchants who had founded these venal lotteries began to lose money. Someone tried something new: including among the list of lucky numbers a few unlucky draws. This innovation meant that those who bought those numbered rectangles now had a twofold chance: they might win a sum of money or they might be required to pay a fine--sometimes a considerable one. As one might expect, that small risk (for every thirty "good" numbers there was one ill-omened one) piqued the public's interest. Babylonians flocked to buy tickets. The man who bought none was considered a pusillanimous wretch, a man with no spirit of adventure. In time, this justified contempt found a second target: not just the man who didn't play, but also the man who lost and paid the fine. The Company (as it was now beginning to be known) had to protect the interest of the winners, who could not be paid their prizes unless the pot contained almost the entire amount of the fines. A lawsuit was filed against the losers: the judge sentenced them to pay the original fine, plus court costs, or spend a number of days in jail. In order to thwart the Company, they all chose jail. From that gauntlet thrown down by a few men sprang the Company's omnipotence--its ecclesiastical, metaphysical force.</p>
+												</div>
+											</li>
+
+											<li class="thread-comment">
+												<header>
+													<img src="http://lorempixel.com/50/50?q=t">
+													<span class="user-name">George Harrison</span>
+												</header>
+
+												<div class="comment-body">
+													<p>Some time after this, the announcements of the numbers drawn began to leave out the lists of fines and simply print the days of prison assigned to each losing number. That shorthand, as it were, which went virtually unnoticed at the time, was of utmost importance: It was the first appearance of nonpecuniary elements in the lottery. And it met with great success--indeed, the Company was forced by its players to increase the number of unlucky draws.</p>
+												</div>
+											</li>
+
+											<li class="thread-comment">
+												<header>
+													<img src="http://lorempixel.com/50/50?q=t">
+													<span class="user-name">J.L.B.</span>
+												</header>
+
+												<div class="comment-body">
+													<p>As everyone knows, the people of Babylon are great admirers of logic, and even of symmetry. It was inconsistent that lucky numbers should pay off in round silver coins while unlucky ones were measured in days and nights of jail. Certain moralists argued that the possession of coins did not always bring about happiness, and that other forms of happiness were perhaps more direct.</p>
+												</div>
+											</li>
+										</ul>
+									</li>
+
+									<li class="thread-comment">
+										<header>
+											<img src="http://lorempixel.com/50/50?q=t">
+											<span class="user-name">Jorbor9000</span>
+										</header>
+
+										<div class="comment-body">
+											<p>Incredibly, there was talk of favoritism, of corruption. With its customary discretion, the Company did not reply directly; instead, it scrawled its brief argument in the rubble of a mask factory. This apologia is now numbered among the sacred Scriptures. It pointed out, doctrinally, that the Lottery is an interpolation of chance into the order of the universe, and observed that to accept errors is to strengthen chance, not contravene it. It also noted that those lions, that sacred squatting-place, though not disavowed by the Company (which reserved the right to consult them), functioned with no official guarantee.</p>
+										</div>
+									</li>
+								</ul>
+							</li>
+
+							<li class="thread-comment">
+								<header>
+									<img src="http://lorempixel.com/50/50?q=t">
+									<span class="user-name">Mr. Borges</span>
+								</header>
+
+								<div class="comment-body">
+									<p>This statement quieted the public's concerns. But it also produced other effects perhaps unforeseen by its author. It profoundly altered both the spirit and the operations of the Company. I have but little time remaining; we are told that the ship is about to sail--but I will try to explain.</p>
+								</div>
+							</li>
+
+							<li class="thread-comment">
+								<header>
+									<img src="http://lorempixel.com/50/50?q=t">
+									<span class="user-name">Slim Borgie</span>
+								</header>
+
+								<div class="comment-body">
+									<p>However unlikely it may seem, no one, until that time, had attempted to produce a general theory of gaming. Babylonians are not a speculative people; they obey the dictates of chance, surrender their lives, their hopes, their nameless terror to it, but it never occurs to them to delve into its labyrinthine laws or the revolving spheres that manifest its workings. Nonetheless, the semiofficial statement that I mentioned inspired numerous debates of a legal and mathematical nature. From one of them, there emerged the following conjecture: If the Lottery is an intensification of chance, a periodic infusion of chaos into the cosmos, then is it not appropriate that chance intervene in every aspect of the drawing, not just one? Is it not ludicrous that chance should dictate a person's death while the circumstances of that death--whether private or public, whether drawn out for an hour or a century--should not be subject to chance? Those perfectly reasonable objections finally prompted sweeping reform; the complexities of the new system (complicated further by its having been in practice for centuries) are understood by only a handful of specialists, though I will attempt to summarize them, even if only symbolically.</p>
+								</div>
+
+								<ul>
+									<li class="thread-comment">
+										<header>
+											<img src="http://lorempixel.com/50/50?q=t">
+											<span class="user-name">We are the Borges</span>
+										</header>
+
+										<div class="comment-body">
+											<p>Let us imagine a first drawing, which condemns a man to death. In pursuance of that decree, another drawing is held; out of that second drawing come, say, nine possible executors. Of those nine, four might initiate a third drawing to determine the name of the executioner, two might replace the unlucky draw with a lucky one (the discovery of a treasure, say), another might decide that the death should be exacerbated (death with dishonor, that is, or with the refinement of torture), others might simply refuse to carry out the sentence. That is the scheme of the Lottery, put symbolically. In reality, the number of drawings is infinite. No decision is final; all branch into others. The ignorant assume that infinite drawings require infinite time; actually, all that is required is that time be infinitely subdivisible, as in the famous parable of the Race with the Tortoise. That infinitude coincides remarkably well with the sinuous numbers of Chance and with the Heavenly Archetype of the Lottery beloved of Platonists. Some distorted echo of our custom seems to have reached the Tiber: In his Life of Antoninus Heliogabalus, Aelius Lampridius tells us that the emperor wrote out on seashells the fate that he intended for his guests at dinner--some would receive ten pounds of gold; others, ten houseflies, ten dormice, ten bears. It is fair to recall that Heliogabalus was raised in Asia Minor, among the priests of his eponymous god.</p>
+										</div>
+									</li>
+
+									<li class="thread-comment">
+										<header>
+											<img src="http://lorempixel.com/50/50?q=t">
+											<span class="user-name">JoBo</span>
+										</header>
+
+										<div class="comment-body">
+											<p>There are also impersonal drawings, whose purpose is unclear. One drawing decrees that a sapphire from Taprobana be thrown into the waters of the Euphrates; another, that a bird be released from the top of a certain tower; another, that every hundred years a grain of sand be added to (or taken from) the countless grains of sand on a certain beach. Sometimes, the consequences are terrible.</p>
+										</div>
+
+										<ul>
+											<li class="thread-comment">
+												<header>
+													<img src="http://lorempixel.com/50/50?q=t">
+													<span class="user-name">Jorge Luis Borges</span>
+												</header>
+
+												<div class="comment-body">
+													<p>The Company, with godlike modesty, shuns all publicity. Its agents, of course, are secret; the orders it constantly (perhaps continually) imparts are no different from those spread wholesale by impostors. Besides--who will boast of being a mere impostor? The drunken man who blurts out an absurd command, the sleeping man who suddenly awakes and turns and chokes to death the woman sleeping at his side--are they not, perhaps, implementing one of the Company's secret decisions? That silent functioning, like God's, inspires all manner of conjectures. One scurrilously suggests that the Company ceased to exist hundreds of years ago, and that the sacred disorder of our lives is purely hereditary, traditional; another believes that the Company is eternal, and teaches that it shall endure until the last night, when the last god shall annihilate the earth. Yet another declares that the Company is omnipotent, but affects only small things: the cry of a bird, the shades of rust and dust, the half dreams that come at dawn. Another, whispered by masked heresiarchs, says that the Company has never existed, and never will. Another, no less despicable, argues that it makes no difference whether one affirms or denies the reality of the shadowy corporation, because Babylon is nothing but an infinite game of chance.</p>
+												</div>
+											</li>
+										</ul>
+									</li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</section>
+		</article>
+
+		<div class="context">
+			<ul>
+				<li class="when-selection">add comment</li>
+				<li class="when-selection">add tag</li>
+				<li class="when-selection">create clip</li>
+				<li class="when-now top-sep">add file</li>
+				<li class="when-file">edit file</li>
+			</ul>
+		</div>
+	</body>
+</html>
