@@ -1,9 +1,10 @@
 #Data Management Tool Planning (DMPTool) Process
 Online step-by-step wizard for submission-ready DMPs
+
 ##Presenters
-####Stephen Abrams,
+###Stephen Abrams,
 California Digital Libraries
-####Andrew Sallan, 
+###Andrew Sallan, 
 Center for Open Science
 
 ##Data Management plans
@@ -23,14 +24,10 @@ Obligations? Best practices? What institutional/disciplinary resources? How to f
 - Links to useful disciplinary and institutional resources
 - Templates from 21 public and private funding agencies	
 
-####Uptake
-- 7K users in 3 years
-- 4,400 plans built
+Uptake: 7K users in 3 years, 4,400 plans built
 
-####Outreach functions:
-- Monthly webinars
-- Focus groups from user community
-- Detailed use cases for funding agencies to see 
+
+# WIZARD
 
 ##Data management plan features:
 ### Roles and responsibilities
