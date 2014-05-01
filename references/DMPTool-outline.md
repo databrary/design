@@ -1,32 +1,4 @@
-#Data Management Tool Planning (DMPTool) Process
-Online step-by-step wizard for submission-ready DMPs
-
-##Presenters
-###Stephen Abrams,
-California Digital Libraries
-###Andrew Sallan, 
-Center for Open Science
-
-##Data Management plans
-
-###Fundamental importance of Data Curation
-- Review replication, verification
-- Build on prior work; leverage prior investments
-- Facilitate collaboration and novel data reuse
-- Increase visibility, citations, impact and credit
-- Avoid duplication of effort
-
-###Data Management Dilemma:
-Obligations? Best practices? What institutional/disciplinary resources? How to find help?
-
-### What is DMPTool?
-- Guidance and best practice advice
-- Links to useful disciplinary and institutional resources
-- Templates from 21 public and private funding agencies	
-
-Uptake: 7K users in 3 years, 4,400 plans built
-
-
+#Data Management Tool Planning (DMPTool) 
 # WIZARD
 
 ### Roles and responsibilities
@@ -95,9 +67,4 @@ This portion of the Data Management Plan asks the researcher to provide a long-t
 
 
 ###DataBib: Registry of Research Data Repositories
-
-
-
-##Funders:
-Originally self-funded by participating institutions.nSloan (technical development), IMLS (community outreach, policies focus) have now funded additional work.n
 

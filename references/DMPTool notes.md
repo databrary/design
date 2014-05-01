@@ -1,95 +1,149 @@
-#Data Management Tool Planning (DMPTool) Process
-Online step-by-step wizard for submission-ready DMPs
-##Presenters
-####Stephen Abrams,
-California Digital Libraries
-####Andrew Sallan, 
-Center for Open Science
+#Data Management plans
+Fundamental importance of Data Curation
 
-##Data Management plans
-
-###Fundamental importance of Data Curation
 - Review replication, verification
 - Build on prior work; leverage prior investments
 - Facilitate collaboration and novel data reuse
 - Increase visibility, citations, impact and credit
 - Avoid duplication of effort
 
-###Data Management Dilemma:
+### Data Management Dilemma:
 Obligations? Best practices? What institutional/disciplinary resources? How to find help?
 
-### What is DMPTool?
-- Guidance and best practice advice
-- Links to useful disciplinary and institutional resources
-- Templates from 21 public and private funding agencies	
+##RESOURCES
 
-####Uptake
-- 7K users in 3 years
-- 4,400 plans built
+1. DMP Tool: 
 
-####Outreach functions:
-- Monthly webinars
-- Focus groups from user community
-- Detailed use cases for funding agencies to see 
+Online step-by-step wizard for submission-ready DMPs
+Presentation at CNI by Stephen Abrams, California Digital Libraries and Andrew Sallan,Center for Open Science
 
-##Data management plan features:
-### Roles and responsibilities
-Explain how the responsibilities regarding the management of your data will be delegated. This should include time allocations, project management of technical aspects, training requirements, and contributions of non-project staff - individuals should be named where possible. Remember that those responsible for long-term decisions about your data will likely be the custodians of the repository/archive you choose to store your data. While the costs associated with your research (and the results of your research) must be specified in the Budget Justification portion of the proposal, you may want to reiterate who will be responsible for funding the management of your data. 
-####Consider these questions:
-- Outline the staff/organizational roles and responsibilities for implementing this data management plan.
-- Who will be responsible for data management and for monitoring the data management plan?
-- How will adherence to this data management plan be checked or demonstrated?
-- What process is in place for transferring responsibility for the data?
-- Who will have responsibility over time for decisions about the data once the original personnel are no longer available?
+	- Guidance and best practice advice
+	- Links to useful disciplinary and institutional resources
+	- Templates from 21 public and private funding agencies	
+	- Uptake: 7K users in 3 years, 4,400 plans built
 
+2. Databib Repository manager
 
-###Expected data
-Give a short description of what "data" will mean in your research – explain what the contents of each dataset will be, including size and amount if known. It would also help if you can identify your methods for collecting data. 
-####Consider these questions:
-- What data will be generated in the research?
-- What data types will you be creating or capturing?
-- How will you capture or create the data?
-- If you will be using existing data, state that fact and include where you got it. What is the relationship between the data you are collecting and the existing data?
-- What data will be preserved and shared?
+Databib s a searchable catalog/registry/directory/bibliography of research data repositories. 
 
-###Period of Data Retention
-This section will allow you to account for any delay in the accessibility of your data after your research is done. Consider any reasons why you would not make the data immediately available – for instance, maybe you have political, commercial or patent concerns that will require you to postpone access to the data you produce. 
-####Consider these questions:
-- How long will the original data collector/creator/principal investigator retain the right to use the data before opening it up to wider use?
-- Explain details of any embargo periods for political/commercial/patent or publisher reasons.
+3. NYU Libraries resources
 
-###Data format and dissemination
-This portion of the DMP asks you to combine an explanation of the format of your data and how that format will allow for fast and easy access to the data. One of the main thrusts of the DMP requirement is the NSF’s intention to encourage data sharing among researchers – consider this when answering the questions below. Think about how you can not only make your data available to researchers “on-demand,” but also how you can more proactively make your data accessible without a specific request. In this section you are also asked to account for issues of privacy, confidentiality and ownership that may arise from the dissemination of your data. Think about what you have done to comply with your obligations in your Institutional Review Board Protocol. 
-####Consider these questions:
-- Which file formats will you use for your data, and why?
-- What transformations (to more shareable formats) will be necessary to prepare data for preservation / data sharing?
-- What form will the metadata describing/documenting your data take?
-- How will you create or capture these details?
-- Which metadata standards will you use and why have you chosen them? (e.g. accepted domain-local standards, widespread usage).
-- What contextual details (metadata) are needed to make the data you capture or collect meaningful?
-- What other types of information should be shared regarding the data, e.g. the way it was generated, analytical and procedural, information?
-- What metadata/ documentation will be submitted alongside the data or created on deposit/ transformation in order to make the data reusable?
-- How and when will you make the data available? (Include resources needed to make the data available: equipment, systems, expertise, etc.)
-- What is the process for gaining access to the data?
-- Will any permission restrictions need to be placed on the data?
-- Are there ethical and privacy issues? If so, how will these be resolved?
-- What have you done to comply with your obligations in your IRB Protocol?
-- Who will hold the intellectual property rights to the data and how might this affect data access?
-- What and who are the intended or foreseeable uses/users of the data?
+http://nyu.libguides.com/content.php?pid=394716&sid=3232822
 
-###Data storage and preservation of access
-This portion of the Data Management Plan asks the researcher to provide a long-term strategy for archiving and preserving the data from the research described in the proposal. 
-####Consider these questions:
-- What is the long-term strategy for maintaining, curating and archiving the data?
-- Which archive/repository/database have you identified as a place to deposit data?
-- What procedures does your intended long-term data storage facility have in place for preservation and backup?
-- How long will/should data be kept beyond the life of the project?
+The particular requirements of a data management plan will vary among funding agencies, so it is best to always consult the agency. However, there are a few attributes that are common to all data management plans, including:
 
+	- A description of the type(s) of data to be produced
+	- Methods of how the data will be collected and who will be responsible for data management
+	- Standards you will use to describe your data (metadata standards) 
+	- Backup and storage procedures
+	- Provisions for long-term archiving and preservation
+	- Access policies and provisions for secondary uses: will it be available to others? 
+	- Any protection or security measures taken to protect participant confidentiality 
 
-###DataBib: Registry of Research Data Repositories
+4. UVA DMConsult Group
 
+http://dmconsult.library.virginia.edu/plan/
 
+5. NSF guidance
+http://www.nsf.gov/pubs/policydocs/pappguide/nsf11001/aag_6.jsp#VID4
 
-##Funders:
-Originally self-funded by participating institutions. Sloan (technical development), IMLS (community outreach, policies focus) have now funded additional work. 
+*Dissemination and Sharing of Research Results*
 
+	a.	Investigators are expected to promptly prepare and submit for publication, with authorship that accurately reflects the contributions of those involved, all significant findings from work conducted under NSF grants. Grantees are expected to permit and encourage such publication by those actually performing that work, unless a grantee intends to publish or disseminate such findings itself.
+
+	b.	Investigators are expected to share with other researchers, at no more than incremental cost and within a reasonable time, the primary data, samples, physical collections and other supporting materials created or gathered in the course of work under NSF grants. Grantees are expected to encourage and facilitate such sharing. Privileged or confidential information should be released only in a form that protects the privacy of individuals and subjects involved. General adjustments and, where essential, exceptions to this sharing expectation may be specified by the funding NSF Program or Division/Office for a particular field or discipline to safeguard the rights of individuals and subjects, the validity of results, or the integrity of collections or to accommodate the legitimate interest of investigators. A grantee or investigator also may request a particular adjustment or exception from the cognizant NSF Program Officer.
+
+	c.	Investigators and grantees are encouraged to share software and inventions created under the grant or otherwise make them or their products widely available and usable.
+
+	d.	NSF normally allows grantees to retain principal legal rights to intellectual property developed under NSF grants to provide incentives for development and dissemination of inventions, software and publications that can enhance their usefulness, accessibility and upkeep. Such incentives do not, however, reduce the responsibility that investigators and organizations have as members of the scientific and engineering community, to make results, data and collections available to other researchers.
+
+	e.	NSF program management will implement these policies for dissemination and sharing of research results, in ways appropriate to field and circumstances, through the proposal review process; through award negotiations and conditions; and through appropriate support and incentives for data cleanup, documentation, dissemination, storage and the like.
+
+Plans for data management and sharing of the products of research. Proposals must include a supplementary document of no more than two pages labeled “Data Management Plan”. This supplement should describe how the proposal will conform to NSF policy on the dissemination and sharing of research results (see AAG Chapter VI.D.4), and may include:
+
+	- the types of data, samples, physical collections, software, curriculum materials, and other materials to be produced in the course of the project;
+
+	- the standards to be used for data and metadata format and content (where existing standards are absent or deemed inadequate, this should be documented along with any proposed solutions or remedies);
+
+	- policies for access and sharing including provisions for appropriate protection of privacy, confidentiality, security, intellectual property, or other rights or requirements;
+
+	- policies and provisions for re-use, re-distribution, and the production of derivatives; and
+
+	- plans for archiving data, samples, and other research products, and for preservation of access to them.
+
+Data management requirements and plans specific to the Directorate, Office, Division, Program, or other NSF unit, relevant to a proposal are available at: http://www.nsf.gov/bfa/dias/policy/dmp.jsp. If guidance specific to the program is not available, then the requirements established in this section apply.
+
+Simultaneously submitted collaborative proposals and proposals that include subawards are a single unified project and should include only one supplemental combined Data Management Plan, regardless of the number of non-lead collaborative proposals or subawards included. Fastlane will not permit submission of a proposal that is missing a Data Management Plan. Proposals for supplementary support to an existing award are not required to include a Data Management Plan.
+
+A valid Data Management Plan may include only the statement that no detailed plan is needed, as long as the statement is accompanied by a clear justification. Proposers who feel that the plan cannot fit within the supplement limit of two pages may use part of the 15-page Project Description for additional data management information. Proposers are advised that the Data Management Plan may not be used to circumvent the 15-page Project Description limitation. The Data Management Plan will be reviewed as an integral part of the proposal, coming under Intellectual Merit or Broader Impacts or both, as appropriate for the scientific community of relevance.
+
+Data Management & Sharing Frequently Asked Questions (FAQs) 
+http://www.nsf.gov/bfa/dias/policy/dmpfaqs.jsp
+
+	1. What constitutes “data” covered by a Data Management Plan?
+
+	What constitutes such data will be determined by the community of interest through the process of peer review and program management. This may include, but is not limited to: data, publications, samples, physical collections, software and models.
+
+	2. Is a plan for Data Management required if my project is not expected to generate data or samples?
+
+	Yes. It is acceptable to state in the Data Management Plan that the project is not anticipated to generate data or samples that require management and/or sharing. PIs should note that the statement will be subject to peer review.
+
+	3. Am I required to deposit my data in a public database?
+
+	What constitutes reasonable data management and access will be determined by the community of interest through the process of peer review and program management. In many cases, these standards already exist, but are likely to evolve as new technologies and resources become available.
+
+	4. There is no public database for my type of data. What can I do to provide data access?
+
+	Contact the cognizant NSF Program Officer for assistance in this situation.
+
+	5. Should the budget and its justification specifically address the costs of implementing the Data Management Plan?
+
+	Yes. As long as the costs are allowable in accordance with the applicable cost principles, and necessary to implement the Data Management Plan, such costs may be included (typically on Line G2) of the proposal budget, and justified in the budget justification.
+
+	6. My institution's policy is that the data and all supporting materials from all research are owned and must remain with the institution if I leave. How does this policy affect what I can say about data management and access?
+
+	Data maintenance and archieving by an institution is one avenue by which data preservation and access can be achieved. However, the data access plan must address the institutional strategy for providing access to relevant data and supporting materials.
+
+	7. Does data management and access include supporting documentation and metadata, such as validation protocols, field notebooks, etc.?
+
+	All researchers are expected to be able to explain and defend their results. Doing so usually entails maintaining complete records of how data were collected. The manner in which one maintains such records and makes them available to others will vary from project to project. What constitutes reasonable procedures will be determined by the community of interest through the process of peer review and program management. These standards are likely to evolve as new technologies and resources become available.
+
+	8. How long should data be archived and made accessible?
+
+	What constitute reasonable procedures will be determined by the community of interest through the process of peer review and program management.
+
+	9. Does this policy mean that I must make my data available immediately, even before publication?
+
+	Not necessarily. The expectation is that all data will be made available after a reasonable length of time. However, what constitutes a reasonable length of time will be determined by the community of interest through the process of peer review and program management.
+
+	10. What are NSF’s expectations regarding the release of data that include sensitive information (e.g., information about individuals or locations of endangered species)?
+
+	Such data must be maintained and released in accordance with appropriate standards for protecting privacy rights and maintaining the confidentiality of respondents. Within legal constraints, what constitutes reasonable data access will be determined by the community of interest through the process of peer review and program management.
+
+	11. My data include information of potential commercial value. Am I required to make that information available?
+
+	Not necessarily. It is NSF’s strong expectation that investigators will share with other researchers, at no more than incremental cost and within a reasonable time, the primary data, samples, physical collections and other supporting materials created or gathered in the course of work under NSF grants. However, it is also necessary to protect intellectual property rights and potential commercial value. The Data Management Plan should describe the proposed approach, which will then be subject to peer review and program management. (For example, research use of sensitive data is often allowed through reasonable binding agreements that contain confidentiality provisions.)
+
+	12. Does NSF have particular requirements for archiving and accessibility of samples, physical collections and so forth?
+
+	No. If appropriate, your Data Management Plan should describe the types of samples, and/or collections, etc., that you will use, as well as personal, institutional or other repositories for archiving and providing access to others. What constitutes reasonable archiving and accessibility will be determined by the community of interest through the process of peer review and program management.
+
+	13. Does NSF have particular requirements for what types of samples, physical collections, and so forth should be saved?
+
+	No. What constitutes reasonable requirements will be determined by the community of interest through the process of peer review and program management. These standards are likely to evolve as new technologies and resources become available.
+
+	14. If data or samples are requested before I have completed all analyses on them, must I share them?
+
+	No. The expectation is that all data will be made available after a reasonable length of time. One standard of timeliness is to make the data or samples accessible immediately after publication. However, what constitutes a reasonable length of time will be determined by the community of interest through the process of peer review and program management
+
+	15. How does this policy relate to the issue of open access publishing?
+
+	Open-access publishing (making all published articles freely available) is a separate issue that is not addressed in the implementation of the data management plan requirement.
+
+	16. If I participate in a collaborative international research project, do I need to be concerned with data management policies established by institutions outside the United States?
+
+	Yes. There may be cases where data management plans are affected by formal data protocols established by large international research consortia or set forth in formal science and technology agreements signed by the United States Government and foreign counterparts. Be sure to discuss this issue with your sponsored projects office (or equivalent) and your international research partner when first planning your collaboration.
+
+	17. My proposal is interdisciplinary and there are multiple sets of guidance to follow on NSF's website (http://www.nsf.gov/bfa/dias/policy/dmp.jsp), which one do I follow?
+
+	All proposals are submitted to a lead program, with the option to specify other programs that the PI would like to consider the project. If the guidance appropriate to the lead program applies, it should be followed. Otherwise, provide a clear explanation of what you would do if the project were funded. Bear in mind that the merit review is conducted by colleagues from the communities of relevance and that your plan should be convincing to them. It should also be commensurate with the level of effort requested and required, and appropriate to the long-term value and benefit to your colleagues of any generated data products.
