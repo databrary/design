@@ -100,68 +100,68 @@ http://www.nsf.gov/bfa/dias/policy/dmpfaqs.jsp
 
 1. What constitutes “data” covered by a Data Management Plan?
 
-What constitutes such data will be determined by the community of interest through the process of peer review and program management. This may include, but is not limited to: data, publications, samples, physical collections, software and models.
+	What constitutes such data will be determined by the community of interest through the process of peer review and program management. This may include, but is not limited to: data, publications, samples, physical collections, software and models.
 
 2. Is a plan for Data Management required if my project is not expected to generate data or samples?
 
-Yes. It is acceptable to state in the Data Management Plan that the project is not anticipated to generate data or samples that require management and/or sharing. PIs should note that the statement will be subject to peer review.
+	Yes. It is acceptable to state in the Data Management Plan that the project is not anticipated to generate data or samples that require management and/or sharing. PIs should note that the statement will be subject to peer review.
 
 3. Am I required to deposit my data in a public database?
 
-What constitutes reasonable data management and access will be determined by the community of interest through the process of peer review and program management. In many cases, these standards already exist, but are likely to evolve as new technologies and resources become available.
+	What constitutes reasonable data management and access will be determined by the community of interest through the process of peer review and program management. In many cases, these standards already exist, but are likely to evolve as new technologies and resources become available.
 
 4. There is no public database for my type of data. What can I do to provide data access?
 
-Contact the cognizant NSF Program Officer for assistance in this situation.
+	Contact the cognizant NSF Program Officer for assistance in this situation.
 
 5. Should the budget and its justification specifically address the costs of implementing the Data Management Plan?
 
-Yes. As long as the costs are allowable in accordance with the applicable cost principles, and necessary to implement the Data Management Plan, such costs may be included (typically on Line G2) of the proposal budget, and justified in the budget justification.
+	Yes. As long as the costs are allowable in accordance with the applicable cost principles, and necessary to implement the Data Management Plan, such costs may be included (typically on Line G2) of the proposal budget, and justified in the budget justification.
 
 6. My institution's policy is that the data and all supporting materials from all research are owned and must remain with the institution if I leave. How does this policy affect what I can say about data management and access?
 
-Data maintenance and archieving by an institution is one avenue by which data preservation and access can be achieved. However, the data access plan must address the institutional strategy for providing access to relevant data and supporting materials.
+	Data maintenance and archieving by an institution is one avenue by which data preservation and access can be achieved. However, the data access plan must address the institutional strategy for providing access to relevant data and supporting materials.
 
 7. Does data management and access include supporting documentation and metadata, such as validation protocols, field notebooks, etc.?
 
-All researchers are expected to be able to explain and defend their results. Doing so usually entails maintaining complete records of how data were collected. The manner in which one maintains such records and makes them available to others will vary from project to project. What constitutes reasonable procedures will be determined by the community of interest through the process of peer review and program management. These standards are likely to evolve as new technologies and resources become available.
+	All researchers are expected to be able to explain and defend their results. Doing so usually entails maintaining complete records of how data were collected. The manner in which one maintains such records and makes them available to others will vary from project to project. What constitutes reasonable procedures will be determined by the community of interest through the process of peer review and program management. These standards are likely to evolve as new technologies and resources become available.
 
 8. How long should data be archived and made accessible?
 
-What constitute reasonable procedures will be determined by the community of interest through the process of peer review and program management.
+	What constitute reasonable procedures will be determined by the community of interest through the process of peer review and program management.
 
 9. Does this policy mean that I must make my data available immediately, even before publication?
 
-Not necessarily. The expectation is that all data will be made available after a reasonable length of time. However, what constitutes a reasonable length of time will be determined by the community of interest through the process of peer review and program management.
+	Not necessarily. The expectation is that all data will be made available after a reasonable length of time. However, what constitutes a reasonable length of time will be determined by the community of interest through the process of peer review and program management.
 
 10. What are NSF’s expectations regarding the release of data that include sensitive information (e.g., information about individuals or locations of endangered species)?
 
-Such data must be maintained and released in accordance with appropriate standards for protecting privacy rights and maintaining the confidentiality of respondents. Within legal constraints, what constitutes reasonable data access will be determined by the community of interest through the process of peer review and program management.
+	Such data must be maintained and released in accordance with appropriate standards for protecting privacy rights and maintaining the confidentiality of respondents. Within legal constraints, what constitutes reasonable data access will be determined by the community of interest through the process of peer review and program management.
 
 11. My data include information of potential commercial value. Am I required to make that information available?
 
-Not necessarily. It is NSF’s strong expectation that investigators will share with other researchers, at no more than incremental cost and within a reasonable time, the primary data, samples, physical collections and other supporting materials created or gathered in the course of work under NSF grants. However, it is also necessary to protect intellectual property rights and potential commercial value. The Data Management Plan should describe the proposed approach, which will then be subject to peer review and program management. (For example, research use of sensitive data is often allowed through reasonable binding agreements that contain confidentiality provisions.)
+	Not necessarily. It is NSF’s strong expectation that investigators will share with other researchers, at no more than incremental cost and within a reasonable time, the primary data, samples, physical collections and other supporting materials created or gathered in the course of work under NSF grants. However, it is also necessary to protect intellectual property rights and potential commercial value. The Data Management Plan should describe the proposed approach, which will then be subject to peer review and program management. (For example, research use of sensitive data is often allowed through reasonable binding agreements that contain confidentiality provisions.)
 
 12. Does NSF have particular requirements for archiving and accessibility of samples, physical collections and so forth?
 
-No. If appropriate, your Data Management Plan should describe the types of samples, and/or collections, etc., that you will use, as well as personal, institutional or other repositories for archiving and providing access to others. What constitutes reasonable archiving and accessibility will be determined by the community of interest through the process of peer review and program management.
+	No. If appropriate, your Data Management Plan should describe the types of samples, and/or collections, etc., that you will use, as well as personal, institutional or other repositories for archiving and providing access to others. What constitutes reasonable archiving and accessibility will be determined by the community of interest through the process of peer review and program management.
 
 13. Does NSF have particular requirements for what types of samples, physical collections, and so forth should be saved?
 
-No. What constitutes reasonable requirements will be determined by the community of interest through the process of peer review and program management. These standards are likely to evolve as new technologies and resources become available.
+	No. What constitutes reasonable requirements will be determined by the community of interest through the process of peer review and program management. These standards are likely to evolve as new technologies and resources become available.
 
 14. If data or samples are requested before I have completed all analyses on them, must I share them?
 
-No. The expectation is that all data will be made available after a reasonable length of time. One standard of timeliness is to make the data or samples accessible immediately after publication. However, what constitutes a reasonable length of time will be determined by the community of interest through the process of peer review and program management
+	No. The expectation is that all data will be made available after a reasonable length of time. One standard of timeliness is to make the data or samples accessible immediately after publication. However, what constitutes a reasonable length of time will be determined by the community of interest through the process of peer review and program management
 
 15. How does this policy relate to the issue of open access publishing?
 
-Open-access publishing (making all published articles freely available) is a separate issue that is not addressed in the implementation of the data management plan requirement.
+	Open-access publishing (making all published articles freely available) is a separate issue that is not addressed in the implementation of the data management plan requirement.
 
 16. If I participate in a collaborative international research project, do I need to be concerned with data management policies established by institutions outside the United States?
 
-Yes. There may be cases where data management plans are affected by formal data protocols established by large international research consortia or set forth in formal science and technology agreements signed by the United States Government and foreign counterparts. Be sure to discuss this issue with your sponsored projects office (or equivalent) and your international research partner when first planning your collaboration.
+	Yes. There may be cases where data management plans are affected by formal data protocols established by large international research consortia or set forth in formal science and technology agreements signed by the United States Government and foreign counterparts. Be sure to discuss this issue with your sponsored projects office (or equivalent) and your international research partner when first planning your collaboration.
 
 17. My proposal is interdisciplinary and there are multiple sets of guidance to follow on NSF's website (http://www.nsf.gov/bfa/dias/policy/dmp.jsp), which one do I follow?
 
-All proposals are submitted to a lead program, with the option to specify other programs that the PI would like to consider the project. If the guidance appropriate to the lead program applies, it should be followed. Otherwise, provide a clear explanation of what you would do if the project were funded. Bear in mind that the merit review is conducted by colleagues from the communities of relevance and that your plan should be convincing to them. It should also be commensurate with the level of effort requested and required, and appropriate to the long-term value and benefit to your colleagues of any generated data products.
+	All proposals are submitted to a lead program, with the option to specify other programs that the PI would like to consider the project. If the guidance appropriate to the lead program applies, it should be followed. Otherwise, provide a clear explanation of what you would do if the project were funded. Bear in mind that the merit review is conducted by colleagues from the communities of relevance and that your plan should be convincing to them. It should also be commensurate with the level of effort requested and required, and appropriate to the long-term value and benefit to your colleagues of any generated data products.
