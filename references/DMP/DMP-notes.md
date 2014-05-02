@@ -12,7 +12,7 @@ Obligations? Best practices? What institutional/disciplinary resources? How to f
 
 ##RESOURCES
 
-1. DMP Tool: 
+### DMP Tool: 
 
 Online step-by-step wizard for submission-ready DMPs
 Presentation at CNI by Stephen Abrams, California Digital Libraries and Andrew Sallan,Center for Open Science
@@ -22,11 +22,11 @@ Presentation at CNI by Stephen Abrams, California Digital Libraries and Andrew S
 - Templates from 21 public and private funding agencies	
 - Uptake: 7K users in 3 years, 4,400 plans built
 
-2. Databib Repository manager
+### Databib Repository manager
 
 Databib s a searchable catalog/registry/directory/bibliography of research data repositories. 
 
-3. NYU Libraries resources
+### NYU Libraries resources
 
 http://nyu.libguides.com/content.php?pid=394716&sid=3232822
 
@@ -40,7 +40,7 @@ The particular requirements of a data management plan will vary among funding ag
 - Access policies and provisions for secondary uses: will it be available to others? 
 - Any protection or security measures taken to protect participant confidentiality 
 
-4. UVA DMConsult Group
+### UVA DMConsult Group
 
 http://dmconsult.library.virginia.edu/plan/
 
@@ -62,7 +62,7 @@ What’s the benefit to managing my data?
 - Avoid catastrophic loss in the event of a disaster
 - Lets your work live into the future
 
-5. NSF guidance
+### NSF guidance
 http://www.nsf.gov/pubs/policydocs/pappguide/nsf11001/aag_6.jsp#VID4
 
 *Dissemination and Sharing of Research Results*
@@ -95,7 +95,7 @@ Simultaneously submitted collaborative proposals and proposals that include suba
 
 A valid Data Management Plan may include only the statement that no detailed plan is needed, as long as the statement is accompanied by a clear justification. Proposers who feel that the plan cannot fit within the supplement limit of two pages may use part of the 15-page Project Description for additional data management information. Proposers are advised that the Data Management Plan may not be used to circumvent the 15-page Project Description limitation. The Data Management Plan will be reviewed as an integral part of the proposal, coming under Intellectual Merit or Broader Impacts or both, as appropriate for the scientific community of relevance.
 
-Data Management & Sharing Frequently Asked Questions (FAQs) 
+**Data Management & Sharing Frequently Asked Questions (FAQs)**
 http://www.nsf.gov/bfa/dias/policy/dmpfaqs.jsp
 
 1. What constitutes “data” covered by a Data Management Plan?
