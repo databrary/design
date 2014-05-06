@@ -24,7 +24,7 @@ Presentation at CNI by Stephen Abrams, California Digital Libraries and Andrew S
 
 ### Databib Repository manager
 
-Databib s a searchable catalog/registry/directory/bibliography of research data repositories. 
+Databib is a searchable catalog/registry/directory/bibliography of research data repositories. 
 
 ### NYU Libraries resources
 
