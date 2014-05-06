@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Datavyu 2.0 Demo</title>
+		<link rel="stylesheet" href="datavyu.css">
+		<script src="jquery.min.js"></script>
+		<script src="datavyu.js"></script>
+	</head>
+
+	<body>
+		<article id="static_labnanny">
+			<h1>Datavyu 2.0 Demo</h1>
+
+			<div>
+				<section id="controls" class="cf">
+					<section id="video" class="cf">
+						<div class="video-div">
+							<video id="video-1">
+								<source type="video/mp4" src="counting.mp4">
+							</video>
+						</div>
+					</section>
+
+					<div id="pad" class="cf">
+						<div id="seekbar" class="cf">
+							<div class="seekbar">
+								<div class="seekshow" id="seek_current"></div>
+								<div class="seekshow" id="seek_played"></div>
+								<div class="seekshow" id="seek_buffered"></div>
+								<div class="seekshow" id="seek_seekable"></div>
+							</div>
+
+							<div id="time"></div>
+						</div>
+
+						<div class="main">
+
+							<button class="key clr"></button>
+
+							<button class="key" id="cell_onset" data-do="cell_onset" data-key="111">
+								<div class="num">/</div>
+								<div class="act">cell onset</div>
+							</button>
+
+							<button class="key not" id="cell_point" data-do="cell_point" data-key="106">
+								<div class="num">*</div>
+								<div class="act">point cell</div>
+							</button>
+
+							<button class="key err" id="fast_reverse" data-do="fast_reverse" data-key="103">
+								<div class="num">7</div>
+								<div class="act">&lt; fast</div>
+							</button>
+
+							<button class="key" id="play" data-do="play" data-key="104">
+								<div class="num">8</div>
+								<div class="act">play</div>
+							</button>
+
+							<button class="key" id="fast_forward" data-do="fast_forward" data-key="105">
+								<div class="num">9</div>
+								<div class="act">fast &gt;</div>
+							</button>
+
+							<button class="key err" id="shuttle_reverse" data-do="shuttle_reverse" data-key="100">
+								<div class="num">4</div>
+								<div class="act">&lt; shuttle</div>
+							</button>
+
+							<button class="key" id="stop" data-do="stop" data-key="101">
+								<div class="num">5</div>
+								<div class="act">stop</div>
+							</button>
+
+							<button class="key" id="shuttle_forward" data-do="shuttle_forward" data-key="102">
+								<div class="num">6</div>
+								<div class="act">shuttle &gt;</div>
+							</button>
+
+							<button class="key" id="jog_reverse" data-do="jog_reverse" data-key="97">
+								<div class="num">1</div>
+								<div class="act">&lt; jog</div>
+							</button>
+
+							<button class="key" id="pause" data-do="pause" data-key="98">
+								<div class="num">2</div>
+								<div class="act">pause</div>
+							</button>
+
+							<button class="key" id="jog_forward" data-do="jog_forward" data-key="99">
+								<div class="num">3</div>
+								<div class="act">jog &gt;</div>
+							</button>
+
+							<button class="key w2" id="cell_new_onset" data-do="cell_new_onset" data-key="96">
+								<div class="num">0</div>
+								<div class="act">new cell with onset</div>
+							</button>
+
+							<button class="key" id="cell_offset" data-do="cell_offset" data-key="110">
+								<div class="num">.</div>
+								<div class="act">cell offset</div>
+							</button>
+						</div>
+
+						<div class="side">
+							<button class="key not" id="go_back" data-do="go_back" data-key="109">
+								<div class="num">-</div>
+								<div class="act">go back</div>
+							</button>
+
+							<button class="key not h2" id="cell_find" data-do="cell_find" data-key="107">
+								<div class="num">+</div>
+								<div class="act">find</div>
+							</button>
+
+							<button class="key h2" id="cell_new" data-do="cell_new" data-key="13">
+								<div class="num">enter</div>
+								<div class="act">new cell</div>
+							</button>
+						</div>
+
+						<div class="inputs">
+							<div id="seekoffset-div" class="area">
+								<label for="seekoffset">Seek by offset</label>
+								<input type="text" id="seekoffset" placeholder="XX:XX:XX:XX">
+							</div>
+
+							<div id="playrate-div" class="area">
+								<label for="playrate">Playrate</label>
+								<span class="val"></span>
+								<input type="text" id="playrate" placeholder="Adjust playrate">
+							</div>
+
+							<div id="loop-div" class="area">
+								<label for="loop">Loop</label>
+								<div class="checkbox"><input type="checkbox" id="loop" value="1"> <span>Enable loop?</span></div>
+							</div>
+
+							<div id="loopstart-div" class="area">
+								<label for="loopstart">Loop Start</label>
+								<input type="text" id="loopstart" placeholder="XX:XX:XX:XX">
+							</div>
+
+							<div id="loopend-div" class="area">
+								<label for="loopend">Loop End</label>
+								<input type="text" id="loopend" placeholder="XX:XX:XX:XX">
+							</div>
+						</div>
+					</div>
+				</section>
+
+				<section id="sheet" class="cf">
+					<article id="col1" class="column">
+						<header class="header">
+							active column
+						</header>
+
+						<div class="cells_wrap">
+							<div class="cells">
+								<div id="" class="cell">
+									<div class="time">
+										<div class="start"></div>
+										<div class="end"></div>
+									</div>
+
+									<div class="args">
+										...
+									</div>
+								</div>
+							</div>
+						</div>
+					</article>
+
+					<article id="col2" class="column">
+						<header class="header">
+							demo column 2
+						</header>
+
+						<div class="cells_wrap">
+							<div class="cells">
+								<div id="" class="cell">
+									<div class="time">
+										<div class="start"></div>
+										<div class="end"></div>
+									</div>
+
+									<div class="args">
+										...
+									</div>
+								</div>
+							</div>
+						</div>
+					</article>
+				</section>
+			</div>
+		</article>
+	</body>
+</html>

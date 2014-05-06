@@ -1,0 +1,279 @@
+#static_labnanny * {
+  position: relative;
+  transition: all .1s linear;
+  box-sizing: border-box;
+}
+#static_labnanny #controls {
+  width: 480px;
+  margin-right: 10px;
+  float: left;
+}
+#static_labnanny #sheet {
+  float: left;
+  width: 454px;
+  background: #ccc;
+  height: 733px;
+  position: relative;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+#static_labnanny #sheet .column {
+  float: left;
+  width: 150px;
+  background: #ddd;
+  border: 1px solid #999;
+  margin-right: 5px;
+  height: 100%;
+}
+#static_labnanny #sheet .header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 14px;
+  background: #eee;
+  border-bottom: 1px solid #999;
+  font-size: 0.7em;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+#static_labnanny #sheet .cells_wrap {
+  padding-top: 18px;
+  height: 100%;
+}
+#static_labnanny #sheet .cells {
+  height: 100%;
+}
+#static_labnanny #sheet .cell {
+  border-top: 1px solid #bbb;
+  border-bottom: 1px solid #bbb;
+  background: #f9f9f9;
+  padding: 4px;
+  position: absolute;
+  overflow: hidden;
+  width: 100%;
+}
+#static_labnanny #sheet .cell.active {
+  background: #fdd;
+}
+#static_labnanny #sheet .cell.active:hover {
+  background: #fed;
+}
+#static_labnanny #sheet .cell:hover {
+  background: #ffd;
+}
+#static_labnanny #sheet .cell:active {
+  background: #fff;
+}
+#static_labnanny #sheet .time {
+  font-size: 0.6em;
+  text-align: right;
+  margin-bottom: 8px;
+}
+#static_labnanny #sheet .time span {
+  padding: 0 1px;
+}
+#static_labnanny #sheet .time .hours {
+  color: #bf4040;
+}
+#static_labnanny #sheet .time .minutes {
+  color: #80bf40;
+}
+#static_labnanny #sheet .time .seconds {
+  color: #7f40bf;
+}
+#static_labnanny #sheet .time .frames {
+  color: #40bfbf;
+}
+#static_labnanny #sheet .start,
+#static_labnanny #sheet .end {
+  cursor: pointer;
+  transition: all .15s linear;
+}
+#static_labnanny #sheet .start:hover,
+#static_labnanny #sheet .end:hover {
+  font-weight: bold;
+}
+#static_labnanny #sheet .args {
+  font-size: 0.75em;
+}
+#static_labnanny #video {
+  width: 480px;
+  margin-bottom: 10px;
+}
+#static_labnanny #video .video-div {
+  float: left;
+  height: auto;
+  width: 480px;
+}
+#static_labnanny #video video {
+  width: 100%;
+  margin-right: 10px;
+  height: auto;
+  display: block;
+}
+#static_labnanny #video input {
+  width: 100%;
+  border: 1px solid #888;
+  border-radius: 5px;
+  margin-top: 5px;
+  padding: 5px;
+}
+#static_labnanny #pad {
+  width: 480px;
+}
+#static_labnanny #pad .main {
+  width: 240px;
+  float: left;
+}
+#static_labnanny #pad .side {
+  width: 80px;
+  float: left;
+}
+#static_labnanny #pad .inputs {
+  width: 160px;
+  float: left;
+  text-align: left;
+}
+#static_labnanny #pad .inputs .area {
+  margin: 0 0 10px 0;
+  height: 70px;
+  width: 160px;
+}
+#static_labnanny #pad .inputs label {
+  line-height: 35px;
+}
+#static_labnanny #pad .inputs .val {
+  line-height: 35px;
+  float: right;
+  color: #999;
+  font-weight: bold;
+}
+#static_labnanny #pad .inputs input {
+  border-radius: 5px;
+}
+#static_labnanny #pad .inputs .checkbox {
+  padding: 4px 7px;
+  color: #999;
+}
+#static_labnanny #pad button {
+  background: #cdd;
+  border: 1px solid #abb;
+  padding: 5px;
+  border-radius: 5px;
+  float: left;
+  display: block;
+  width: 70px;
+  height: 70px;
+  margin: 0 10px 10px 0;
+}
+#static_labnanny #pad button.w2 {
+  width: 150px;
+}
+#static_labnanny #pad button.h2 {
+  height: 150px;
+}
+#static_labnanny #pad button:hover {
+  background: #eff;
+  border-color: #cdd;
+}
+#static_labnanny #pad button:active {
+  background: #abb;
+  border-color: #899;
+}
+#static_labnanny #pad button.err {
+  background: #dcc;
+  border-color: #baa;
+}
+#static_labnanny #pad button.err:hover {
+  background: #fee;
+  border-color: #dcc;
+}
+#static_labnanny #pad button.err:active {
+  background: #baa;
+  border-color: #988;
+}
+#static_labnanny #pad button.not,
+#static_labnanny #pad button.not:hover,
+#static_labnanny #pad button.not:active {
+  background: #aaa;
+  border-color: #888;
+}
+#static_labnanny #pad button.clr,
+#static_labnanny #pad button.clr:hover,
+#static_labnanny #pad button.clr:active {
+  background: transparent;
+  border-color: #888;
+}
+#static_labnanny #pad button.clr,
+#static_labnanny #pad button.not {
+  cursor: default;
+}
+#static_labnanny #pad button .num {
+  font-size: 0.6em;
+  text-align: left;
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  right: 5px;
+}
+#static_labnanny #pad button .act {
+  font-weight: bold;
+  font-size: 0.75em;
+}
+#static_labnanny #seekbar {
+  border: 1px solid #899;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 0 10px 10px 0;
+  width: 480px;
+  height: 22px;
+}
+#static_labnanny #seekbar #time {
+  line-height: 0;
+  font-size: 0.6em;
+  width: 153px;
+  height: 10px;
+  float: left;
+  text-align: right;
+  margin-left: 10px;
+  padding: 5px;
+}
+#static_labnanny #seekbar #time span {
+  padding: 0 1px;
+}
+#static_labnanny #seekbar #time .hours {
+  color: #bf4040;
+}
+#static_labnanny #seekbar #time .minutes {
+  color: #80bf40;
+}
+#static_labnanny #seekbar #time .seconds {
+  color: #7f40bf;
+}
+#static_labnanny #seekbar #time .frames {
+  color: #40bfbf;
+}
+#static_labnanny #seekbar .seekbar {
+  float: left;
+  width: 305px;
+  height: 10px;
+  border: 1px solid #899;
+  border-radius: 3px;
+}
+#static_labnanny #seekbar .seekshow {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  height: 8px;
+}
+#static_labnanny #seekbar #seek_buffered,
+#static_labnanny #seekbar #seek_seekable {
+  opacity: 0.5;
+  background: #cdd;
+}
+#static_labnanny #seekbar #seek_current,
+#static_labnanny #seekbar #seek_played {
+  background: #abb;
+}
