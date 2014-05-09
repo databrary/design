@@ -183,4 +183,4 @@ If nothing else, a dumping ground for interesting things we should check out.
 - [Review of web-based video editing tools](http://www.reelseo.com/online-video-editing-software-tools/)
 - [Review of WeVideo](http://www.pcworld.com/article/2030644/review-wevideo-is-a-cloud-based-video-editor-that-makes-editing-in-your-browser-fun-and-simple.html)
 - [Sony's web-based video editor](https://www.sonymcs.com/landing-page/editing-free-5gb/?gclid=CNSWkajCn70CFeMSOgodzx4APA)
-
+- [ChronoViz](http://chronoviz.com/) from UCSD.
