@@ -31,5 +31,5 @@ Though the flesh and bone of volumes are raw, participant- and session-level vid
 - Funding sources: agencies funding data collection and/or research, and grant numbers
 - Access controls: permissions for sharing with the public, with Databrary users, with research labs, and with specified collaborators
 
-We aim both to offer users this information clearly, but unobtrusively (as it is ultimately little more than the dust jacket of a volume), and also to make editing this information a fast and painless proceedure.
+We aim both to offer users this information clearly, but unobtrusively (as it is ultimately little more than the dust jacket of a volume), and also to make editing this information a fast and painless procedure.
 We will explore the volume edit/creation wizard together with the hopes of clarifying terms and sharpening the workflow.
