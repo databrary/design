@@ -80,13 +80,13 @@
 
 ### PIs authorizing Affiliates
 
-When authorizing an affiliate, a PI has the following options:
+When authorizing an affiliate, a PI has the following two choices:
 
 Access to my data (including shared, unshared, released, and unreleased data -- meaning this bypasses both sharing and participant permissions):
 
-1. no special access to my (unshared) data
-1. read-only access to my (unshared, unreleased) data
-1. change, upload, remove, and download all (unshared, unreleased) data in existing volumes
+1. no special access to my data
+1. read-only access to my data
+1. change, upload, remove, and download all data in existing volumes
 1. also change sharing/access permissions on volumes, and create new volumes owned by PI
 
 Note that additional permissions may be added on individual volumes.
