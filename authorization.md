@@ -92,6 +92,7 @@ Access to my data (including shared, unshared, released, and unreleased data -- 
 Note that additional permissions may be added on individual volumes.
 
 Access to databrary data:
+
 1. No authorization for Databrary access
 1. Authorize for standard affiliate-level Databrary access (read-only access to volumes shared with Databrary by others)
 
