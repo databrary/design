@@ -76,7 +76,26 @@
 			
 			Your application for authorization has been approved and you now have full access to the data shared within Databrary. Please remember to abide by our (Best Practices in Data Security)[best-practices.md] and to  to uphold the highest ethical standards of care with Databrary data. 
 			
-#### At any point after registration user may complete profile via wizard[profile functions will be ready post-beta].
+## Authorization granting options
+
+### PIs authorizing Affiliates
+
+When authorizing an affiliate, a PI has the following options:
+
+Access to my data (including shared, unshared, released, and unreleased data -- meaning this bypasses both sharing and participant permissions):
+
+1. no special access to my (unshared) data
+1. read-only access to my (unshared, unreleased) data
+1. change, upload, remove, and download all (unshared, unreleased) data in existing volumes
+1. also change sharing/access permissions on volumes, and create new volumes owned by PI
+
+Note that additional permissions may be added on individual volumes.
+
+Access to databrary data:
+1. No authorization for Databrary access
+1. Authorize for standard affiliate-level Databrary access (read-only access to volumes shared with Databrary by others)
+
+## At any point after registration user may complete profile via wizard[profile functions will be ready post-beta].
 		- Preferred display name (text): 
 			- Rick O. Gilmore
 		- Preferred institutional display name [shouldn't we have this information?] [save for later]: 
