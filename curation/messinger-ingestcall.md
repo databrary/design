@@ -8,20 +8,20 @@ For example: "Facial expressions in 6-month old infants and their parents in the
 For example: 
 "Six-month-old infants and their parents were video-recorded in the Face-to-Face/Still-Face (FFSF) procedure (Adamson & Frick, 2003). Infants sat in a carseat and their parents sat across from them. Parents and infants engaged in 3 minutes of natural positive interaction, then 2 minutes of "Still-Face" in which parents did not respond to infants, and then 3 minutes of renewed natural positive interaction." 
 
-3. Study sample? 6 participants in Databrary, 12 mentioned in papers
+3. Camera view of parents? We can also store/upload these even if they can't be shared.
+
+4. Rename conditions to something accessible to other users? (Currently: "Face-to-face", "Stillf ace", "Reunion" -- seem as transparent as anything we have, no?)
+
+5. Other contributors, investigators?
+
+6. Any other data or additional files that goes with this dataset or associated studies? (E.g. Automated facial image analysis or joystick data?).
+
+7. Photo (or still-frame) for study profile photo
+
+8. Any excerpts (photos or videos)? And publicly accessible or only to authorized users?
+
+9. Study sample? 6 participants in Databrary, 12 mentioned in papers
 - Are there more participants that can't be shared? We can still upload/store them.
-
-4. Camera view of parents? We can also store/upload these even if they can't be shared.
-
-5. Rename conditions to something accessible to other users? (Currently: "Face-to-face", "Still face", "Reunion" -- seem as transparent as anything we have, no?)
-
-6. Other contributors, investigators?
-
-7. Any other data or additional files that goes with this dataset or associated studies? (E.g. Automated facial image analysis or joystick data?).
-
-8. Photo (or still-frame) for study profile photo
-
-9. Any excerpts (photos or videos)? And publicly accessible or only to authorized users?
 
 10. Just out of curiosity, why did he only send the 6 kids? (Same as #3?)
 
