@@ -10,7 +10,11 @@ For example:
 
 3. Camera view of parents? We can also store/upload these even if they can't be shared.
 
-4. Rename conditions to something accessible to other users? (Currently: "Face-to-face", "Stillf ace", "Reunion" -- seem as transparent as anything we have, no?)
+Will get us the videos of the parents
+
+4. Rename conditions to something accessible to other users? (Currently: "Face-to-face", "Still face", "Reunion" -- seem as transparent as anything we have, no?)
+
+Change still face to still-face
 
 5. Other contributors, investigators?
 
@@ -23,7 +27,7 @@ For example:
 9. Study sample? 6 participants in Databrary, 12 mentioned in papers
 - Are there more participants that can't be shared? We can still upload/store them.
 
-10. Just out of curiosity, why did he only send the 6 kids? (Same as #3?)
+10. Just out of curiosity, why did he only send the 6 kids? 
 
 PI/General Questions:
 
@@ -39,3 +43,5 @@ PI/General Questions:
 8. Centralized or decentralized lab?
 9. Autism Speaks/NIH Baby Sibling Research Consortium
 
+jointly funded by Autism speaks - consortium that studies with high risk of autism, with different working groups. Jana Iverson, we should contact her. Alisha Halliday, 
+Privacy concerns - 
