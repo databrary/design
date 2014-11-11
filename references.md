@@ -5,7 +5,6 @@
 - Software Carpentry [bootcamps](http://software-carpentry.org/bootcamps/index.html#future)
 
 ## Open Access/Big Data Journals
-
 - [Archives of Scientific Psychology](http://www.apa.org/pubs/journals/arc/index.aspx)
 - [Journal of Open Psychology Data](http://openpsychologydata.metajnl.com/about/)
 - [BMJOpen](http://bmjopen.bmj.com/), @BMJ_Open
@@ -74,7 +73,7 @@
 - [Neurosynth.org](http://neurosynth.org) Tal Yarkoni is involved.
 - [Brainmap.org](http://brainmap.org)
 - [International Electrophysiology Epilepsy Data Portal](http://ieeg.org) Rick's friend Bruce Gluckman at PSU knows the PI.
-- [SUMSdb](http://sumsdb.wustl.edu:8081/sums/index.jsp) Wash U site affiliated with Van Essen's Lab.
+- [SUMSdb](http://sumsdb.wustl.edu:8081/sums/index.jsp). Wash U site affiliated with Van Essen's Lab.
 - [Human Connectome Project](http://humanconnectome.org/) Staff talked with HCP's project manager about permissions.
 - [John Richards Neurodevelopmental MRI Database](http://jerlab.psych.sc.edu/NeurodevelopmentalMRIDatabase/)
 - [NeuroVault: a new home for all brain statistical maps!](http://neurovault.org/)
@@ -87,7 +86,7 @@
 - Crowd-sourcing tract tracing through [EyeWire.org](https://eyewire.org/signup/)
 - [XNAT](http://hg.xnat.org/) open source imaging data sharing website in Java with many similar design goals.
 
-## Metadata
+### Metadata
 - [Center for Metadata Research @ Drexel](http://cci.drexel.edu/mrc/)
 - [NDAR's data dictionary](http://ndar.nih.gov/ndar_data_dictionary.html?type=All&source=NDAR&category=All)
 - [Purdue Data Curation Profiles Toolkit](http://datacurationprofiles.org/)
