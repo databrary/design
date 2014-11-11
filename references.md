@@ -82,6 +82,7 @@ If nothing else, a dumping ground for interesting things we should check out.
 - [Domain Repositories Interest Group at RDA](http://www.rd-alliance.org/node/1456)
 - [Force 11](https://www.force11.org/)
 - [Findable, Accessible, Interoperable and Re-usable Data](http://datafairport.org/)
+- [Center for Metadata Research @ Drexel](http://cci.drexel.edu/mrc/)
 
 ### Social science and education
 - [TalkBank](http://www.talkbank.org/)
