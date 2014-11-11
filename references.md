@@ -90,6 +90,7 @@
 - [Center for Metadata Research @ Drexel](http://cci.drexel.edu/mrc/)
 - [NDAR's data dictionary](http://ndar.nih.gov/ndar_data_dictionary.html?type=All&source=NDAR&category=All)
 - [Purdue Data Curation Profiles Toolkit](http://datacurationprofiles.org/)
+- [MPEG-7 standard for audio and video metadata](http://mpeg.chiariglione.org/standards/mpeg-7)
 
 ## Data sharing videos, articles, discussion groups
 
