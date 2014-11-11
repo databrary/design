@@ -16,7 +16,7 @@
 - [Gigascience](http://www.gigasciencejournal.com/)
 
 ## Data-sharing/archiving
-- [MyOpenArchive](http://myopenarchive.org/), @myopenarchive
+- ~[MyOpenArchive](http://myopenarchive.org/), @myopenarchive, shut down as of 2013-11-24~
 - [Open Repository](http://www.openrepository.com/), @OpenRepository
 - [FigShare](http://figshare.com/), @figshare
 - [SlideShare](http://www.slideshare.net/) @slideshare
@@ -68,9 +68,9 @@
 * [TLA MPI](http://corpus1.mpi.nl/) provide file sharing, public access, various metadata, annotations somehow, and contains a large number of datasets.
 
 ### Neuroscience
-- [Biomedical Informatics Research Network (BIRN)](http://www.birncommunity.org/resources/tools/) Carl Kesselman is on Advisory Board.
-- [OpenFMRI](http://openfmri.org) Russ Poldrack and Tor Wager are involved.
-- [Neurosynth.org](http://neurosynth.org) Tal Yarkoni is involved.
+- [Biomedical Informatics Research Network (BIRN)](http://www.birncommunity.org/resources/tools/). Carl Kesselman is on Advisory Board.
+- [OpenFMRI](http://openfmri.org). Russ Poldrack and Tor Wager are involved.
+- [Neurosynth.org](http://neurosynth.org). Tal Yarkoni is involved.
 - [Brainmap.org](http://brainmap.org)
 - [International Electrophysiology Epilepsy Data Portal](http://ieeg.org) Rick's friend Bruce Gluckman at PSU knows the PI.
 - [SUMSdb](http://sumsdb.wustl.edu:8081/sums/index.jsp). Wash U site affiliated with Van Essen's Lab.
@@ -134,9 +134,9 @@
 - [Yammer](http://yammer.com)
 - [Loomio -- group decisionmaking](https://www.loomio.org/)
 
-## Video/audio coding tools
+## Video/audio coding and visualization tools
 - [ELAN](http://tla.mpi.nl/tools/tla-tools/elan/) 
-- [Transana](http://www.transana.org/)
+- [Transana](http://www.transana.org/). Has cloud storage service.
 - [Noldus Observer](http://www.noldus.com/human-behavior-research/products/the-observer-xt)
 - [Mangold Interact](http://www.mangold-international.com/software/interact/what-is-interact.html)
 - [LENA](http://www.lenafoundation.org/)
