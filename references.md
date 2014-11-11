@@ -1,43 +1,3 @@
-# References
-
-Other products, technologies, or documents that may be worth investigating, using, or emulating.
-If nothing else, a dumping ground for interesting things we should check out.
-
-## Science Sites
-
-* Obviously: journals
-* [DataCite](http://www.datacite.org/) provides DOIs for datasets.  Should consider getting membership and using.
-* [OSF](http://openscienceframework.org/project/4znZP/) provides a file repository, RCS features, tagging, wiki.  Under development, will be open sourced?
-* [Dataverse](http://dvn-demo.iq.harvard.edu/dvn/) provides a site-deployable web site for sharing tabular data, highly structured representation of publications, data, analyses.  Open source.
-* [Compcog Deep Tagging Project](http://www.cmdbase.org/) provides video sharing and tagging, primarily of non-human videos.
-* [TLA MPI](http://corpus1.mpi.nl/) provide file sharing, public access, various metadata, annotations somehow, and contains a large number of datasets.  Open source?
-* [XNAT](http://hg.xnat.org/) open source imaging data sharing website in Java with many similar design goals.
-* [iPlant Collaborative](http://www.iplantcollaborative.org/), which uses iRODS
-
-## Social Sites 
-
-* StackOverflow, github
-* [Last.fm](http://www.last.fm/home) is a public music exploration site that includes complex, implicitly derived item relationships, tagging, commenting, search, similarity, minimal curation, [APIs](http://www.last.fm/api), was once open-source but is no longer.
-  Personally I think this is a well-done site that has added a lot of depth while keeping a fairly simple interface and is worth emulating.
-* [MusicBrainz](http://musicbrainz.org/) at the other end of the spectrum is a music metadata site with highly complex metadata structure explicitly entered by users, moderation, APIs, fully open source.
-  While this site is more satisfying from a database perspective, it scares many casual users off and has developed a wikipedia-like culture of perfectionist editors.
-* [MediaMonkey](http://www.mediamonkey.com/) This is a desktop tool that has extraordinarily powerful metadata editing tools. They made it very easy to batch clean, repair and structure music metadata.
-
-## Technologies
-
-* [DOI](http://www.doi.org)
-* [Shibboleth service provider](https://shibboleth.net/products/service-provider.html) allows authentication through universities' SSO identity providers, [open source](https://wiki.shibboleth.net/confluence/display/SHIB2/NativeSPLinuxSourceBuild)
-* [OpenID](http://wiki.openid.net/w/page/12995211/OpenID_Authentication_2)
-* [BrowserID](https://browserid.org/)
-* [Liquibase](http://www.liquibase.org/) is an alternative to rails migrations that stays closer to SQL and thus provides full access to database features.
-* [ResourceSync](http://www.openarchives.org/rs/) is a specification for a client-server synchronization framework based on [Sitemap](http://www.sitemaps.org/).
-* [iRODS](http://www.irods.org/) is an all-in-one solution for storing and sharing data and metadata
-
-## Reads
-
-* [Assumptions about names](http://www.kalzumeus.com/2010/06/17/falsehoods-programmers-believe-about-names/)
-* [Ruby and Haskell](http://programmingzen.com/2007/03/13/haskell-eye-for-the-ruby-guy/)
-
 # Open Science Space
 
 ## Workshops/Training
@@ -57,7 +17,6 @@ If nothing else, a dumping ground for interesting things we should check out.
 - [Gigascience](http://www.gigasciencejournal.com/)
 
 ## Data-sharing/archiving
-
 - [MyOpenArchive](http://myopenarchive.org/), @myopenarchive
 - [Open Repository](http://www.openrepository.com/), @OpenRepository
 - [FigShare](http://figshare.com/), @figshare
@@ -82,7 +41,8 @@ If nothing else, a dumping ground for interesting things we should check out.
 - [Domain Repositories Interest Group at RDA](http://www.rd-alliance.org/node/1456)
 - [Force 11](https://www.force11.org/)
 - [Findable, Accessible, Interoperable and Re-usable Data](http://datafairport.org/)
-- [Center for Metadata Research @ Drexel](http://cci.drexel.edu/mrc/)
+- [DataCite](http://www.datacite.org/) provides DOIs for datasets.
+- [iPlant Collaborative](http://www.iplantcollaborative.org/), which uses iRODS
 
 ### Social science and education
 - [TalkBank](http://www.talkbank.org/)
@@ -94,7 +54,7 @@ If nothing else, a dumping ground for interesting things we should check out.
 - [CMDbase.org (animal behavior)](http://cmdbase.org/)
 - [Video Mosaic Collaborative](http://videomosaic.org/)
 - [Social Informatics Data Grid (SIDGrid)](http://sidgri.ci.uchicago.edu/home)
-- [Open Science Framework](https://osf.io/) Associated with The Center for Open Science and Brian Nosek.
+- [Open Science Framework (OSF)](https://osf.io/) Associated with The Center for Open Science and Brian Nosek.
 - [National Database for Autism Research - Home](http://ndar.nih.gov/)
 - [DataShop](https://pslcdatashop.web.cmu.edu/index.jsp) Ken Koedinger @ CMU is PI.
 - [Spatial Learning Tests & Instruments](http://spatiallearning.org/index.php/testsainstruments) Nora Newcome and Tim Shipley are PIs.
@@ -106,9 +66,9 @@ If nothing else, a dumping ground for interesting things we should check out.
 - [Quandl - find, share, and use numerical (economic) data](http://www.quandl.com/)
 - [Berkeley Initiative for Transparency in the Social Science BITSS](http://bitss.org/)
 - [Stanford Meta-Research Innovation Center](http://med.stanford.edu/metrics/)
+* [TLA MPI](http://corpus1.mpi.nl/) provide file sharing, public access, various metadata, annotations somehow, and contains a large number of datasets.
 
 ### Neuroscience
-
 - [Biomedical Informatics Research Network (BIRN)](http://www.birncommunity.org/resources/tools/) Carl Kesselman is on Advisory Board.
 - [OpenFMRI](http://openfmri.org) Russ Poldrack and Tor Wager are involved.
 - [Neurosynth.org](http://neurosynth.org) Tal Yarkoni is involved.
@@ -125,8 +85,14 @@ If nothing else, a dumping ground for interesting things we should check out.
 - [Neuro Bureau](http://www.neurobureau.org/)
 - [Open Neuroscience Blog](http://openeuroscience.wordpress.com/)
 - Crowd-sourcing tract tracing through [EyeWire.org](https://eyewire.org/signup/)
+- [XNAT](http://hg.xnat.org/) open source imaging data sharing website in Java with many similar design goals.
 
-## Data sharing videos, articles
+## Metadata
+- [Center for Metadata Research @ Drexel](http://cci.drexel.edu/mrc/)
+- [NDAR's data dictionary](http://ndar.nih.gov/ndar_data_dictionary.html?type=All&source=NDAR&category=All)
+- [Purdue Data Curation Profiles Toolkit](http://datacurationprofiles.org/)
+
+## Data sharing videos, articles, discussion groups
 
 - [Data Sharing and Management Snafu in 3 Short Acts YouTube](http://www.youtube.com/watch?v=N2zK3sAtr-4)
 - [Protection of Human Subjects in Behavioral and Social Sciences](http://sites.nationalacademies.org/DBASSE/BBCSS/Protection_of_Human_Subjects_in_Behavioral_and_Social_Sciences/index.htm) National Academies report on recommended revisions to HHS data policies.
@@ -135,14 +101,12 @@ If nothing else, a dumping ground for interesting things we should check out.
 - [Ioannidis et al. TINS 14](http://www.sciencedirect.com/science/article/pii/S1364661314000540?_rdoc=1&_fmt=high&_origin=gateway&_docanchor=&md5=b8429449ccfc9c30159a5f9aeaa92ffb)
 
 ### Citation/reference management
-
 - [Mendeley](http://www.mendeley.com/)
 - [Zotero](http://www.zotero.org/)
 - [CiteULike](http://www.citeulike.org/)
 - [ResearchGate](http://www.researchgate.net/)
 
 ## Lab/Research Management, Tools
-
 - [Open Science Framework](http://openscienceframework.org/), @OSFramework
 - [LabGuru](http://www.labguru.com/), @Labguru
 - [SoftwareCarpentry](http://software-carpentry.org/), @swcarpentry
@@ -171,7 +135,6 @@ If nothing else, a dumping ground for interesting things we should check out.
 - [Loomio -- group decisionmaking](https://www.loomio.org/)
 
 ## Video/audio coding tools
-
 - [ELAN](http://tla.mpi.nl/tools/tla-tools/elan/) 
 - [Transana](http://www.transana.org/)
 - [Noldus Observer](http://www.noldus.com/human-behavior-research/products/the-observer-xt)
@@ -185,3 +148,26 @@ If nothing else, a dumping ground for interesting things we should check out.
 - [Review of WeVideo](http://www.pcworld.com/article/2030644/review-wevideo-is-a-cloud-based-video-editor-that-makes-editing-in-your-browser-fun-and-simple.html)
 - [Sony's web-based video editor](https://www.sonymcs.com/landing-page/editing-free-5gb/?gclid=CNSWkajCn70CFeMSOgodzx4APA)
 - [ChronoViz](http://chronoviz.com/) from UCSD.
+
+# References
+
+## Social Sites 
+* StackOverflow, github
+* [Last.fm](http://www.last.fm/home) is a public music exploration site that includes complex, implicitly derived item relationships, tagging, commenting, search, similarity, minimal curation, [APIs](http://www.last.fm/api), was once open-source but is no longer.
+  Personally I think this is a well-done site that has added a lot of depth while keeping a fairly simple interface and is worth emulating.
+* [MusicBrainz](http://musicbrainz.org/) at the other end of the spectrum is a music metadata site with highly complex metadata structure explicitly entered by users, moderation, APIs, fully open source.
+  While this site is more satisfying from a database perspective, it scares many casual users off and has developed a wikipedia-like culture of perfectionist editors.
+* [MediaMonkey](http://www.mediamonkey.com/) This is a desktop tool that has extraordinarily powerful metadata editing tools. They made it very easy to batch clean, repair and structure music metadata.
+
+## Technologies
+* [DOI](http://www.doi.org)
+* [Shibboleth service provider](https://shibboleth.net/products/service-provider.html) allows authentication through universities' SSO identity providers, [open source](https://wiki.shibboleth.net/confluence/display/SHIB2/NativeSPLinuxSourceBuild)
+* [OpenID](http://wiki.openid.net/w/page/12995211/OpenID_Authentication_2)
+* [BrowserID](https://browserid.org/)
+* [Liquibase](http://www.liquibase.org/) is an alternative to rails migrations that stays closer to SQL and thus provides full access to database features.
+* [ResourceSync](http://www.openarchives.org/rs/) is a specification for a client-server synchronization framework based on [Sitemap](http://www.sitemaps.org/).
+* [iRODS](http://www.irods.org/) is an all-in-one solution for storing and sharing data and metadata
+
+## Reads
+* [Assumptions about names](http://www.kalzumeus.com/2010/06/17/falsehoods-programmers-believe-about-names/)
+* [Ruby and Haskell](http://programmingzen.com/2007/03/13/haskell-eye-for-the-ruby-guy/)
