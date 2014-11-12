@@ -1,8 +1,10 @@
 # Open Science Space
 
 ## Workshops/Training
-- [ICPSR/OSF/Datavers Workshop on Transparency Practices in Social Science](http://www.icpsr.umich.edu/icpsrweb/sumprog/courses/0180)
+- [ICPSR/OSF/Dataverse Workshop on Transparency Practices in Social Science](http://www.icpsr.umich.edu/icpsrweb/sumprog/courses/0180)
 - Software Carpentry [bootcamps](http://software-carpentry.org/bootcamps/index.html#future)
+- [DataCamp](https://www.datacamp.com/) tutorials on R.
+- [MANTRA - online course for data management training](http://datalib.edina.ac.uk/mantra/)
 
 ## Open Access/Big Data Journals
 - [Archives of Scientific Psychology](http://www.apa.org/pubs/journals/arc/index.aspx)
@@ -14,43 +16,56 @@
 - [Wiley Open Access](http://www.wileyopenaccess.com/view/index.html), @wileyopenaccess
 - [Faculty of 1000](https://f1000research.com/)
 - [Gigascience](http://www.gigasciencejournal.com/)
+- [Scientific Data from Nature Publishing](http://www.nature.com/sdata/)
 
-## Data-sharing/archiving
-- ~[MyOpenArchive](http://myopenarchive.org/), @myopenarchive, shut down as of 2013-11-24~
-- [Open Repository](http://www.openrepository.com/), @OpenRepository
-- [FigShare](http://figshare.com/), @figshare
-- [SlideShare](http://www.slideshare.net/) @slideshare
-- [DuraSpace | Open technologies for durable digital content](http://duraspace.org/)
-- [ScholarSphere](https://scholarsphere.psu.edu/)
-- [Academic Torrents](http://academictorrents.com/)
-- [ResearchGate.net](https://www.researchgate.net/)
-- [The Dataverse Network](http://thedata.org/)
-- [Dryad Digital Repository - Dryad](http://datadryad.org/)
-- [Open Humans Project](http://openhumans.org/)
-- [Personal Genome Project](http://www.personalgenomes.org/)
+## Archives/Repositories
+
+### Domain general
+
+#### Interest Groups, Entities
+- [ICPSR](http://www.icpsr.umich.edu/icpsrweb/landing.jsp)
+- [Research Data Alliance](www.rd-alliance.org)
+- [Domain Repositories Interest Group at RDA](http://www.rd-alliance.org/node/1456)
+- [Force 11](https://www.force11.org/)
+- [Digital Curation Centre](http://www.dcc.ac.uk/)
+- [Open Data Institute](http://theodi.org/)
+- [Findable, Accessible, Interoperable and Re-usable Data](http://datafairport.org/)
+- [DataCite](http://www.datacite.org/) provides DOIs for datasets.
+
+#### Blogs
+- [DataPub Blog](http://datapub.cdlib.org/)
+- [Charles W. Bailey, Jr.'s bibliography on digital curation](http://digital-scholarship.org/rdcb/rdcb.htm)
+
+#### Directories of Repositories
 - [NIH Supported Data-sharing Archives](http://www.nlm.nih.gov/NIHbmic/nih_data_sharing_repositories.html)
 - [DataBib -- tool for finding online data repositories from Purdue and Penn State](http://databib.org/index_subjects.php)
 - [re3data - registry of research data repositories from the German Research Foundation](http://www.re3data.org/)
 - [DOAR - directory of open access repositories](http://opendoar.org/)
-- [MANTRA - online course for data management training](http://datalib.edina.ac.uk/mantra/)
-- [Digital Curation Centre](http://www.dcc.ac.uk/)
-- [DataPub Blog](http://datapub.cdlib.org/)
-- [Charles W. Bailey, Jr.'s bibliography on digital curation](http://digital-scholarship.org/rdcb/rdcb.htm)
-- [Research Data Alliance](www.rd-alliance.org)
-- [Domain Repositories Interest Group at RDA](http://www.rd-alliance.org/node/1456)
-- [Force 11](https://www.force11.org/)
-- [Findable, Accessible, Interoperable and Re-usable Data](http://datafairport.org/)
-- [DataCite](http://www.datacite.org/) provides DOIs for datasets.
-- [iPlant Collaborative](http://www.iplantcollaborative.org/), which uses iRODS
 
-### Social science and education
+#### Archives/Repositories
+- [MyOpenArchive](http://myopenarchive.org/), @myopenarchive, **shut down as of 2013-11-24**
+- [Open Repository](http://www.openrepository.com/), @OpenRepository
+- [FigShare](http://figshare.com/), @figshare
+- [SlideShare](http://www.slideshare.net/) @slideshare
+- [DuraSpace | Open technologies for durable digital content](http://duraspace.org/)
+- [ScholarSphere](https://scholarsphere.psu.edu/). Institutional archive @ Penn State
+- [Academic Torrents](http://academictorrents.com/)
+- [ResearchGate.net](https://www.researchgate.net/)
+- [The Dataverse Network](http://thedata.org/)
+- [Dryad Digital Repository - Dryad](http://datadryad.org/)
+
+### Domain Specific
+
+#### Social, behavioral science and education
 - [TalkBank](http://www.talkbank.org/)
+- [CHILDES](http://childes.psy.cmu.edu/)
+- [WordBank](http://wordbank.stanford.edu/). MacArthur CDI archive.
 - [ICPSR](http://www.icpsr.umich.edu/icpsrweb/landing.jsp)
 - [Dataverse](http://thedata.org/)
 - [Journal of Open Psychology Data](http://openpsychologydata.metajnl.com/about/)
 - [PsychFileDrawer.org](http://psychfiledrawer.org/)
 - [Reproducibility Project](http://openscienceframework.org/project/EZcUj/wiki/home)
-- [CMDbase.org (animal behavior)](http://cmdbase.org/)
+- [CMDbase.org](http://cmdbase.org/). Animal behavior.
 - [Video Mosaic Collaborative](http://videomosaic.org/)
 - [Social Informatics Data Grid (SIDGrid)](http://sidgri.ci.uchicago.edu/home)
 - [Open Science Framework (OSF)](https://osf.io/) Associated with The Center for Open Science and Brian Nosek.
@@ -65,16 +80,16 @@
 - [Quandl - find, share, and use numerical (economic) data](http://www.quandl.com/)
 - [Berkeley Initiative for Transparency in the Social Science BITSS](http://bitss.org/)
 - [Stanford Meta-Research Innovation Center](http://med.stanford.edu/metrics/)
-* [TLA MPI](http://corpus1.mpi.nl/) provide file sharing, public access, various metadata, annotations somehow, and contains a large number of datasets.
+- [TLA MPI](http://corpus1.mpi.nl/) provide file sharing, public access, various metadata, annotations somehow, and contains a large number of datasets. Producer of ELAN.
 
-### Neuroscience
-- [Biomedical Informatics Research Network (BIRN)](http://www.birncommunity.org/resources/tools/). Carl Kesselman is on Advisory Board.
-- [OpenFMRI](http://openfmri.org). Russ Poldrack and Tor Wager are involved.
-- [Neurosynth.org](http://neurosynth.org). Tal Yarkoni is involved.
+#### Neuroscience
+- [Biomedical Informatics Research Network (BIRN)](http://www.birncommunity.org/resources/tools/).
+- [OpenFMRI](http://openfmri.org).
+- [Neurosynth.org](http://neurosynth.org).
 - [Brainmap.org](http://brainmap.org)
-- [International Electrophysiology Epilepsy Data Portal](http://ieeg.org) Rick's friend Bruce Gluckman at PSU knows the PI.
-- [SUMSdb](http://sumsdb.wustl.edu:8081/sums/index.jsp). Wash U site affiliated with Van Essen's Lab.
-- [Human Connectome Project](http://humanconnectome.org/) Staff talked with HCP's project manager about permissions.
+- [International Electrophysiology Epilepsy Data Portal](http://ieeg.org)
+- [SUMSdb](http://sumsdb.wustl.edu:8081/sums/index.jsp).
+- [Human Connectome Project](http://humanconnectome.org/) 
 - [John Richards Neurodevelopmental MRI Database](http://jerlab.psych.sc.edu/NeurodevelopmentalMRIDatabase/)
 - [NeuroVault: a new home for all brain statistical maps!](http://neurovault.org/)
 - [INDI - International Data-sharing Initiative](http://fcon_1000.projects.nitrc.org/) Part of 1000 resting state fMRI project.
@@ -84,16 +99,24 @@
 - [Neuro Bureau](http://www.neurobureau.org/)
 - [Open Neuroscience Blog](http://openeuroscience.wordpress.com/)
 - Crowd-sourcing tract tracing through [EyeWire.org](https://eyewire.org/signup/)
-- [XNAT](http://hg.xnat.org/) open source imaging data sharing website in Java with many similar design goals.
+- [XNAT](http://hg.xnat.org/)
 
-### Metadata
+#### Domain specific (not social/behavioral sciences, neuroscience or education)
+- [Open Humans Project](http://openhumans.org/)
+- [Personal Genome Project](http://www.personalgenomes.org/)
+- [iPlant Collaborative](http://www.iplantcollaborative.org/), which uses iRODS
+- [DataONE](https://www.dataone.org/)
+- [Sloan Digital Sky Survey (SDSS)](http://www.sdss.org/)
+
+## Tools
+
+### Metadata Resources
 - [Center for Metadata Research @ Drexel](http://cci.drexel.edu/mrc/)
 - [NDAR's data dictionary](http://ndar.nih.gov/ndar_data_dictionary.html?type=All&source=NDAR&category=All)
 - [Purdue Data Curation Profiles Toolkit](http://datacurationprofiles.org/)
 - [MPEG-7 standard for audio and video metadata](http://mpeg.chiariglione.org/standards/mpeg-7)
 
 ## Data sharing videos, articles, discussion groups
-
 - [Data Sharing and Management Snafu in 3 Short Acts YouTube](http://www.youtube.com/watch?v=N2zK3sAtr-4)
 - [Protection of Human Subjects in Behavioral and Social Sciences](http://sites.nationalacademies.org/DBASSE/BBCSS/Protection_of_Human_Subjects_in_Behavioral_and_Social_Sciences/index.htm) National Academies report on recommended revisions to HHS data policies.
 - [Open Science Framework Google Group](https://groups.google.com/forum/#!forum/openscienceframework)
@@ -115,6 +138,8 @@
 - [Open Notebook Science Network](http://onsnetwork.org/) @onsnetwork
 - [DexyIt -- code commenting](http://dexy.it/)
 - [NVivo](http://www.qsrinternational.com/default.aspx)
+- [RStudio](http://www.rstudio.com/)
+- [iPython](http://ipython.org/)
 
 ## Project management
 - [Asana](http://asana.com/)
@@ -136,7 +161,7 @@
 
 ## Video/audio coding and visualization tools
 - [ELAN](http://tla.mpi.nl/tools/tla-tools/elan/) 
-- [Transana](http://www.transana.org/). Has cloud storage service.
+- [Transana](http://www.transana.org/). Has cloud storage service. University of Wisconsin.
 - [Noldus Observer](http://www.noldus.com/human-behavior-research/products/the-observer-xt)
 - [Mangold Interact](http://www.mangold-international.com/software/interact/what-is-interact.html)
 - [LENA](http://www.lenafoundation.org/)
@@ -148,6 +173,7 @@
 - [Review of WeVideo](http://www.pcworld.com/article/2030644/review-wevideo-is-a-cloud-based-video-editor-that-makes-editing-in-your-browser-fun-and-simple.html)
 - [Sony's web-based video editor](https://www.sonymcs.com/landing-page/editing-free-5gb/?gclid=CNSWkajCn70CFeMSOgodzx4APA)
 - [ChronoViz](http://chronoviz.com/) from UCSD.
+- [Video Analysis Toolkit from Irvine, CA (VATIC)](http://web.mit.edu/vondrick/vatic/).
 
 # References
 
