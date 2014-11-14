@@ -132,6 +132,7 @@
 - [Impactstory](https://impactstory.org/). Altmetrics.
 
 ## Lab/Research Management, Tools
+- [REDcap](http://www.project-redcap.org/)
 - [Purdue Data Curation Profiles Tool](http://datacurationprofiles.org/)
 - [Open Science Framework](http://openscienceframework.org/), @OSFramework
 - [LabGuru](http://www.labguru.com/), @Labguru
