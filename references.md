@@ -5,6 +5,7 @@
 - Software Carpentry [bootcamps](http://software-carpentry.org/bootcamps/index.html#future)
 - [DataCamp](https://www.datacamp.com/) tutorials on R.
 - [MANTRA - online course for data management training](http://datalib.edina.ac.uk/mantra/)
+- [New England Collaborative Data Management Curriculum](http://library.umassmed.edu/necdmc/index)
 
 ## Open Access/Big Data Journals
 - [Archives of Scientific Psychology](http://www.apa.org/pubs/journals/arc/index.aspx)
@@ -131,6 +132,7 @@
 - [Impactstory](https://impactstory.org/). Altmetrics.
 
 ## Lab/Research Management, Tools
+- [Purdue Data Curation Profiles Tool](http://datacurationprofiles.org/)
 - [Open Science Framework](http://openscienceframework.org/), @OSFramework
 - [LabGuru](http://www.labguru.com/), @Labguru
 - [SoftwareCarpentry](http://software-carpentry.org/), @swcarpentry
