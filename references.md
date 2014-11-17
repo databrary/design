@@ -89,6 +89,7 @@
 - [Neurosynth.org](http://neurosynth.org).
 - [Brainmap.org](http://brainmap.org)
 - [International Electrophysiology Epilepsy Data Portal](http://ieeg.org)
+- [Australian EEG Database (AED)](http://aed.newcastle.edu.au:9080/AED/login.jsp).
 - [SUMSdb](http://sumsdb.wustl.edu:8081/sums/index.jsp).
 - [Human Connectome Project](http://humanconnectome.org/) 
 - [John Richards Neurodevelopmental MRI Database](http://jerlab.psych.sc.edu/NeurodevelopmentalMRIDatabase/)
