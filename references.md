@@ -110,6 +110,7 @@
 - [iPlant Collaborative](http://www.iplantcollaborative.org/), which uses iRODS
 - [DataONE](https://www.dataone.org/)
 - [Sloan Digital Sky Survey (SDSS)](http://www.sdss.org/)
+- [bioCADDIE](http://http://biocaddie.org/). Aim is to develop data indexing system for biomedical and healthcare data.
 
 ## Tools
 
