@@ -1,0 +1,78 @@
+# Databrary features	
+
+- Databrary splash page
+	- New users, institutions
+	- Analytics
+- Users
+	- Institutional administrators
+	- Group affiliations
+		- Professional society
+		- Topic networks/interest groups
+	- Additional links, social media
+		- Subscribe to User (get alerts on changes, updates, comments, tags)
+	- Auditing, logging
+		- Download statistics
+		- Own downloads #2681
+		- Browsing/access data?
+			- Aggregate (# views, # browses, # downloads, # comments, # tags). 
+- Volume
+	- Data reuse, study "views" #7
+		- Display, excerpts, etc.
+		- Editing, creation interface #1008
+	- Auditing, history
+		- Change reporting
+		- Undo?
+	- Citations
+		- Restore multiple citation support?
+			- Additional URLs #2665
+		- **DOI assignment**
+		- Citation export
+	- Social
+		- Subscribe to Volume (get alerts on changes, comments, tags)
+- Spreadsheet
+	- Multi-column sorting
+	- Filtering
+	- Progress tracking, reporting
+		- NIH/IRB subject/recruiting reporting
+- Timeline
+	- Asset revisions #1012
+		- View/download old versions
+	- Multi-video synchronization
+	- Embed assets (a la figshare or YouTube)
+- Discovery
+	- Indexing of text documents
+		- External links
+	- Session-level searching
+- More file formats
+	- Previews for other formats
+		- PDF
+		- HTML #2694
+		- docx, doc
+		- csv, xls, xlsx
+		- spss?
+		- audio?
+	- Datavyu
+		- Import wizard to records
+		- Full coding support
+	- Other coding
+		- Transana
+		- Elan
+		- CLAN
+		- Noldus
+		- Mangold
+- Export/bulk download
+	- CSV export wizard
+	- Filtering (integrate with spreadsheet?)
+- Import
+	- Bulk file upload
+		- rsync?
+	  	- Data transfer
+		- Session assignment
+	- Electronic forms for participant records 
+- External linkage
+	- API Documentation
+	- OSF
+	- Dataverse #1811
+	- github
+- Online coding, "Datavyu 2.0"
+	- Offline/local deployment
