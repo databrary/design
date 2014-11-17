@@ -102,6 +102,7 @@
 - [Open Neuroscience Blog](http://openeuroscience.wordpress.com/)
 - Crowd-sourcing tract tracing through [EyeWire.org](https://eyewire.org/signup/)
 - [XNAT](http://hg.xnat.org/)
+- [Open Access Series of Imaging Studies (OASIS)](http://www.oasis-brains.org/)
 
 #### Domain specific (not social/behavioral sciences, neuroscience or education)
 - [Open Humans Project](http://openhumans.org/)
