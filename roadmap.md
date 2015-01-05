@@ -2,9 +2,9 @@
 
 ## Mission statement
 
-Databrary's mission is to enable researchers, especially those interested in developmental science, to organize, store, and share video data and other supporting information about the raw video. Video is our primary focus as it has widespread use in developmental science. Behavior is incredibly rich, and video offers the promise of potentially unlimited uses of the behaviors that are captured. 
+Databrary's mission is to enable developmental scientists to manage, store, and share video data and other supporting information **about** the raw video. Video is our primary focus because it has widespread use in developmental science. Behavior is incredibly rich, and video offers the promise of potentially unlimited uses of the behaviors that are captured. 
 
-In order to fulfill this mission, Databrary needs to provide the following capabilities in order to be maximally useful to researchers using the site.
+Databrary focuses on the following functional areas to provide maximally useful features to researchers using the site.
 
 ### Functional spreadsheet
 

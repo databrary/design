@@ -54,7 +54,6 @@ This portion of the Data Management Plan asks the researcher to provide a long-t
 - What procedures does your intended long-term data storage facility have in place for preservation and backup?
 - How long will/should data be kept beyond the life of the project?
 
-
 ###DataBib: Registry of Research Data Repositories
 
 
