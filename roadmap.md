@@ -1,10 +1,8 @@
-# Roadmap
+# PROJECT PLAN
 
-## Mission statement
+## Purpose
 
-Databrary's mission is to enable developmental scientists to manage, store, and share video data and other supporting information **about** the raw video. Video is our primary focus because it has widespread use in developmental science. Behavior is incredibly rich, and video offers the promise of potentially unlimited uses of the behaviors that are captured. 
-
-Databrary focuses on the following functional areas to provide maximally useful features to researchers using the site.
+## Key Goals and Deliverables
 
 ### Functional spreadsheet
 
@@ -29,3 +27,56 @@ Goal: Let researchers code video files online.
 ### Find interesting videos 
 
 Goal: Let researchers search, sort, and filter for studies, videos, or clips in order to discover content that is interesting and relevant. 
+
+## Work Breakdown Structure
+
+## Dependencies and Constraints
+
+## Schedule 
+
+<!--high level project schedule-->
+
+
+# PROJECT CHARTER
+
+## Purpose 
+
+<!--(of charter)-->
+
+- project management approach
+
+## Background
+
+<!--general description, including key goals & deliverables-->
+
+## Project definition
+
+- Vision
+
+*Databrary is a tool for researchers and  built to accommodate the needs of researchers. We want to build tools that suit the specific needs and use cases of our community, based on what the community tells us they need. (Adjusting data model as new data structures arise)*
+
+
+- Mission statement
+
+Databrary's mission is to enable researchers, especially those interested in developmental science, to organize, store, and share video data and other supporting information about the raw video. Video is our primary focus as it has widespread use in developmental science. Behavior is incredibly rich, and video offers the promise of potentially unlimited uses of the behaviors that are captured. 
+
+
+- Objective
+
+AIMS OF PROJECT, KEY STRATEGY(IES) FOR ACCOMPLISHING AIMS
+
+- Strategic alignment (with agency/university goals)
+- Benefits
+- Change management considerations
+- Constraints
+- Assumptions
+- Scope 
+- Interfaces
+- Key stakeholders
+	- Users
+	- Partners
+	- Advisers & other contributors
+	- Funders
+- Governance structures
+- Roles
+- Risks
