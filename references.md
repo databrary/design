@@ -114,9 +114,10 @@
 
 ## Tools
 
-### Video Data Mining
+### Video Data Mining, Collection
 - [Clarifai](http://www.clarifai.com/)
 - [Alchemy](http://www.alchemyapi.com/)
+- [Lookit: Online Experiments](https://lookit.mit.edu/) from Laura Schultz lab at MIT.
 
 ### Metadata Resources
 - [Center for Metadata Research @ Drexel](http://cci.drexel.edu/mrc/)
