@@ -114,6 +114,10 @@
 
 ## Tools
 
+### Video Data Mining
+- [Clarifai](http://www.clarifai.com/)
+- [Alchemy](http://www.alchemyapi.com/)
+
 ### Metadata Resources
 - [Center for Metadata Research @ Drexel](http://cci.drexel.edu/mrc/)
 - [NDAR's data dictionary](http://ndar.nih.gov/ndar_data_dictionary.html?type=All&source=NDAR&category=All)
