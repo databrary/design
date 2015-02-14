@@ -82,6 +82,8 @@
 - [Berkeley Initiative for Transparency in the Social Science BITSS](http://bitss.org/)
 - [Stanford Meta-Research Innovation Center](http://med.stanford.edu/metrics/)
 - [TLA MPI](http://corpus1.mpi.nl/) provide file sharing, public access, various metadata, annotations somehow, and contains a large number of datasets. Producer of ELAN.
+- [Qualitative Data Repository (QDR)](https://qdr.syr.edu/) at Syracuse.
+- [Linguistic Data Consortium](https://www.ldc.upenn.edu/) at U Penn.
 
 #### Neuroscience
 - [Biomedical Informatics Research Network (BIRN)](http://www.birncommunity.org/resources/tools/).
@@ -113,6 +115,11 @@
 - [bioCADDIE](http://http://biocaddie.org/). Aim is to develop data indexing system for biomedical and healthcare data.
 
 ## Tools
+
+### Video Data Mining, Collection
+- [Clarifai](http://www.clarifai.com/)
+- [Alchemy](http://www.alchemyapi.com/)
+- [Lookit: Online Experiments](https://lookit.mit.edu/) from Laura Schultz lab at MIT.
 
 ### Metadata Resources
 - [Center for Metadata Research @ Drexel](http://cci.drexel.edu/mrc/)

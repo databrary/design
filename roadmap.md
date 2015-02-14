@@ -60,6 +60,9 @@ Goal: Let researchers search, sort, and filter for studies, videos, or clips in 
 
 Databrary's mission is to enable researchers, especially those interested in developmental science, to organize, store, and share video data and other supporting information about the raw video. Video is our primary focus as it has widespread use in developmental science. Behavior is incredibly rich, and video offers the promise of potentially unlimited uses of the behaviors that are captured. 
 
+- Scope
+
+Raw, temporal data that users generally code by hand
 
 - Objective
 
