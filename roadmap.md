@@ -2,6 +2,16 @@
 
 ## Purpose
 
+The purpose of this document is to define key project deliverables and priorities, articulate project dependencies and identifies an internal schedule and dependencies.
+
+The Project Plan forms the 'contract' between the project team and organizational and project management. 
+
+- Broad deliverables, goals
+- Interfaces
+- Work breakdown structure
+- Dependencies and constraints
+- Schedule (see master.mpp)
+
 ## Key Deliverables & Goals
 
 ### Functional spreadsheet
@@ -37,17 +47,28 @@ Goal: Let researchers search, sort, and filter for studies, videos, or clips in 
 <!--high level project schedule-->
 
 
+
+
+
+
 # PROJECT CHARTER
 
 ## Purpose 
 
 <!--(of charter)-->
+This document is a quick way to define the project's mission and approach, and is intended to elicit feedback on key project aspects.
+
+The Project Charter is the basis of the more detailed Project Plan, which identifies internal schedule and dependencies. The Project Plan forms the 'contract' between the project team and organizational and project management. 
+
+The purpose of this document is to lay out...
 
 - project management approach
 
+
+
 ## Background
 
-<!--general description, including key goals & deliverables-->
+<!--general description, including problems the project is trying to solve, key goals & deliverables-->
 
 ## Project definition
 
@@ -58,7 +79,7 @@ Goal: Let researchers search, sort, and filter for studies, videos, or clips in 
 
 - Mission statement
 
-Databrary's mission is to enable researchers, especially those interested in developmental science, to organize, store, and share video data and other supporting information about the raw video. Video is our primary focus as it has widespread use in developmental science. Behavior is incredibly rich, and video offers the promise of potentially unlimited uses of the behaviors that are captured. 
+Behavior is incredibly rich, and video offers the promise of potentially unlimited uses of the behaviors that are captured.Databrary's mission is to enable researchers that use video and audio data as a backbone of their research to organize, store, and share video data and other supporting information about the raw video. Video is our primary focus as it has widespread use in developmental science. 
 
 - Scope
 
@@ -69,12 +90,9 @@ Raw, temporal data that users generally code by hand
 AIMS OF PROJECT, KEY STRATEGY(IES) FOR ACCOMPLISHING AIMS
 
 - Strategic alignment (with agency/university goals)
-- Benefits
-- Change management considerations
 - Constraints
 - Assumptions
 - Scope 
-- Interfaces
 - Key stakeholders
 	- Users
 	- Partners
@@ -83,3 +101,9 @@ AIMS OF PROJECT, KEY STRATEGY(IES) FOR ACCOMPLISHING AIMS
 - Governance structures
 - Roles
 - Risks
+- Project management approach
+	- 	As an extended project with a number of complexities, unknowns, and uncertainties it's important to that the broad mission, scope, objectives, and high-level schedule are transparent among project leadership, well-managed, and clearly communicated to stakeholders. 
+	- 	This will be managed by the maintenance of a project charter, project plan and schedule(roadmap), advisory board with stakeholder representation to provide regular feedback about priorities and direction.
+		- 	These will be managed in documents and project management software (AtTask, Microsoft Project, or Project Libre).
+		- 	Software development and detailed project components will be managed using work management and ticket tracking systems such as Open Project.
+
