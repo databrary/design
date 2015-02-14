@@ -2,7 +2,7 @@
 
 ## Purpose
 
-## Key Goals and Deliverables
+## Key Deliverables & Goals
 
 ### Functional spreadsheet
 
