@@ -5,7 +5,7 @@ Glossary of Databrary Terms
 
 **Keywords**: Investigator contributed terms or keywords that can be attached to a volume, a session, or a record or video within a session. Only owners of a volume can add Keywords to that volume. These might be the keywords that were also used for a published article related to the volume.
 
-**Highlights**:
+**Highlights**: Assets or parts of an asset (video clip) highlighted by the investigator to feature on the volume page
 
 **Volume**: A volume marks a complete dataset in databrary. 
 
