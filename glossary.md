@@ -14,3 +14,9 @@ Glossary of Databrary Terms
 **Investigator**: 
 
 **Affiliate**:
+
+**Lab Group**:
+
+**Classification**:
+
+**Record**:
