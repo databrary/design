@@ -114,7 +114,7 @@ The minimum required Statement of Compliance is: 4. Implemented: This guideline 
 
 - See Library & ITS [short statement here about indefinite preservation](http://databrary.org/access/policies/dmp-template.html)
 - See Library & ITS and above
-- TBD
+- <TBD>
 - Yes, conferences, workshops, publications in academic journals
 - Is it outsourced if we are using our own Library system and campus file storage locations?
 
@@ -137,7 +137,7 @@ The minimum required Statement of Compliance is: 4. Implemented: This guideline 
 >- Are procedures in place to review disclosure risk in data and to take the necessary steps to either anonymise files or to provide access in a secure way?
 >- Are staff trained in the management of data with disclosure risk?
 
-- Yes it's legal...what? 
+- Databrary is a federally grant funded research project operating within the legal entity of New York University.
 - Yes, we have documents to explain the rights and responsibilities of Databrary data producers and provide language for them to augment their participant and lab release language. See: [Databrary Access Agreement](http://databrary.org/access/policies/agreement.html), [Participant Release Template](http://databrary.org/access/policies/release-template.html), [Staff Release](http://databrary.org/access/policies/staff-release.html)
 - See above
 - Yes: [Bill of Rights](http://databrary.org/access/policies/bill-of-rights.html), [Rights and Responsibilities](http://databrary.org/access/responsibilities.html), [Data Sharing Manifesto](http://databrary.org/access/policies/data-sharing-manifesto.html), [Best Practices for Data Security](http://databrary.org/access/policies/best-practices.html)
@@ -223,7 +223,9 @@ The minimum required Statement of Compliance is: 4. Implemented: This guideline 
 >- Does the repository enforce licences with the data producer? How?
 >- Does the repository have a crisis management plan? Please describe.
 
-<answer here> 
+- See: [Rights and responsibilities](http://databrary.org/access/responsibilities.html) & [Databrary access agreement](http://databrary.org/access/policies/agreement.html) 
+- Not sure what this means, might refer back to whehter or not we enforce ownership of data (explicitly we don't, I don't think). Though might also be related to how IRB policies refer to access and usage of data on Databrary.
+- Inherits from NYU Libraries/ITS crisis management plan as that is where all of our assets and services are hosted?
 
 
 10 - The data repository enables the users to discover and use the data and refer to them in a persistent way. 
@@ -237,7 +239,9 @@ The minimum required Statement of Compliance is: 3. In progress: We are in the i
 >- Does the repository offer search facilities? Is OAI harvesting permissible? Is deep searching possible?
 >- Does the repository offer persistent identifiers?
 
-<answer here>
+- Yes, we store and provide access to data deposits in their original formats, which are those the data producers and the designated community use (since the line between the two is blurry). Though we do transcode the access copies of videos to h.264 in an .mp4 container, which is a usable format by the designated community.
+- We currently have full text search over existing resources, though this is limited to the overall study level including the title, description, contributor, and tags. Search will be extended and refined to include session level metadata and tags/keywords.
+- Currently the URIs to each study and subsequent session are designed to be persistent, though we are in the process of implementing the creation of DOIs for studies.
 
 11 - The data repository ensures the integrity of the digital objects and the metadata. 
 =======================================================================================
@@ -250,7 +254,9 @@ The minimum required Statement of Compliance is: 3. In progress: We are in the i
 >- How is the integrity of data and metadata monitored?
 >- Does the repository deal with multiple versions of the data? If so, how? Please describe the versioning strategy.
 
-<answer here>
+- Yes, SHA-256, I think.
+- See NYU Libraries and ITS
+- We do version uploads of video files. Data producers have the capacity to replace a file that they have uploaded. As such, each file contains a history of when it was uploaded and which, if any, file it replaces. 
 
 12 - The data repository ensures the authenticity of the digital objects and the metadata. 
 ==========================================================================================
@@ -265,7 +271,12 @@ The minimum required Statement of Compliance is: 3. In progress: We are in the i
 >- Does the repository compare the essential properties of different versions of the same file? How?
 >- Does the repository check the identities of depositors?
 
-<answer here>
+- If we find there to be any discrepencies with data or metadata deposited in Databrary, we contact the contributor to review, confirm, and make or have us make changes to make the data more accurate.
+- <TBD> 
+- <TBD>
+- <TBD>
+- Yes, anyone who wishes to contribute to Databrary needs to register using (ideally) their institutional email and have to be approved by their institution to participate on Databrary. Currently that authorization is handled manually via our Community Liaison who connects with the appropriate agent on staff at the contributor's institution. 
+
 
 13 - The technical infrastructure explicitly supports the tasks and functions described in internationally accepted archival standards like OAIS. 
 =================================================================================================================================================
@@ -281,7 +292,9 @@ The minimum required Statement of Compliance is: 3. In progress: We are in the i
 >
 >[1]  Details regarding the OAIS reference model can be found at: [http://public.ccsds.org/publications/archive/650x0m2.pdf.](http://public.ccsds.org/publications/archive/650x0m2.pdf) [accessed January 31, 2013].
 
-<answer here>
+- I think we should assume to use OAIS as a reference.
+- This is a larger undertaking and I'd be interested to know if there are any existing tools for auditing OAIS compliance.
+- Databrary is under development for the foreseeable future. We develop infrastructure based on feedback from our data producers and designated community and in response to need for more storage.
 
 14 - The data consumer complies with access regulations set by the data repository. 
 ===================================================================================
@@ -296,7 +309,11 @@ The minimum required Statement of Compliance is: 4. Implemented: This guideline 
 >- Does the repository make use of special licences, e.g., Creative Commons?
 >- Are there measures in place if the conditions are not complied with?
 
-<answer here>
+- See: [Databrary Access Agreement](http://databrary.org/access/policies/agreement.html)
+- Data contributors must be a faculty member or researcher at a higher education institution. Some datasets are provisioned to be accessed by the public (as per the data contributors specification), though most datasets can only be accessed in full by authorized users of the site (which assumes, also, that they are faculty, student or researcher at a higher education institution).
+- Access permissions are alotted by the system and through the manual process of authorizing site members by confirming their affiliation and their sponsoring institutions approval of their participation. Data producers may also specify that a dataset or subset thereof can only be accessible by specific site users (e.g. members of their lab or specific research collaborators who also must be authorized users of Databrary).
+- Directly no, but data producers can indicate in their study descriptions if their datasets have a Creative Commons license. Databrary.org documentation is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License.
+- <TBD>
 
 15 - The data consumer conforms to and agrees with any codes of conduct that are generally accepted in the relevant sector for the exchange and proper use of knowledge and information. 
 ========================================================================================================================================================================================
@@ -312,7 +329,12 @@ The minimum required Statement of Compliance is: 4. Implemented: This guideline 
 >- Are there measures in place if these requirements are not complied with?
 >- Does the repository provide guidance in the responsible use of confidential data?
 
-<answer here>
+- Our policies (see above) are written specifically to interface with institutional IRBs in securing the appropriate approval for sharing human subject data with other researchers in the manner that Databrary allows.
+- Yes, see above.
+- Overall, they agree to treat the data of others with the same ethical guidelines and sensitivities to privacy of human subjects as they would treat their own See: [Databrary Access Agreement](http://databrary.org/access/policies/agreement.html) & [Rights and Responsibilities](http://databrary.org/access/responsibilities.html)
+- Yes, Generally IRB, Legal, and a department like the Office of Sponsored Projects or equivalent.
+- We are not an enforcement body, but as site users are authorized through their institutions, they are subject to compliance with those institutions ethical guidelines.
+- Yes. See: [Best Practices for Data Security](http://databrary.org/access/policies/best-practices.html) & [Rights and Responsibilities](http://databrary.org/access/responsibilities.html)
 
 16 - The data consumer respects the applicable licences of the data repository regarding the use of the data. 
 =============================================================================================================
@@ -332,4 +354,5 @@ The minimum required Statement of Compliance is: 4. Implemented: This guideline 
 >- Are there relevant licences in place?
 >- Are there measures in place if these licences are not complied with?
 
-<answer here>
+- Currently use of the data is governed by the [Databrary Access Agreement](http://databrary.org/access/policies/agreement.html), which all registered users must agree to.
+- Use of the site is tracked in the database and can be audited, though Databrary is not itself an enforcement body.
