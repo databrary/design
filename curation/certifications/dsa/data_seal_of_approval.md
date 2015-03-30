@@ -6,11 +6,11 @@
 >
 >Because outsourcing will almost always be partial, you will still need to provide appropriate evidence for functions under the Guideline which are not outsourced, for example, “documented processes and procedures for managing data storage” and “explicit workflows” for the parts of the data lifecycle which you control. 
 
-Databrary is a research data repository for the management, sharing, and long-term storage of video assets collected by researchers in the feilds of the developmental and learning sciences (i.e. both the Designated Community and data producers).
+Databrary is a research data repository for the management, sharing, and long-term storage of video assets collected by researchers in the the developmental and learning sciences. It should be noted here that Databrary functions as an online community for these researchers, which means that they end up being both the Designated Community and data producers as per OAIS terminology. As opposed to a large number of research data repositories, Databrary allows data producers to actively curate their datasets as opposed to only allowing them to make a bulk upload/deposit at the end of their research study.
 
-The National Science Foundation and National Institue of Child Health and Human Development provide grant funding for this repository. It's staff is housed at New York University's Steinhardt School with substantial operational and infrastructural support from NYU Libraris and Information Technology Services (the latter provide support for the archival storage and preservation planning functional components defined by OAIS reference model)
+The National Science Foundation and National Institue of Child Health and Human Development provide grant funding for this repository. Its staff are housed at New York University's Steinhardt School with substantial operational and infrastructural support from NYU Libraris and Information Technology Services (the latter provide support for the archival storage and preservation planning functional components defined by the OAIS reference model).
 
-Databrary staff (i.e. ingest, access, data management, and the administrative functional components as defined by OAIS reference model) are responsible for the development and maintenance of a web-based platform for uploading, browsing, and sharing repository contents, support and development of its intended community of researchers, manual and automated digtial data curation and ingestion, and maintenance and monitoring of the infrastructure used to store and preserve assets in the repository.
+Databrary staff (who comprise the ingest, access, data management, and administrative functional components as defined by OAIS reference model) are responsible for the development and maintenance of a web-based platform for uploading, browsing, and sharing repository contents, provide support for its intended community of researchers, ensure manual and automated digtial data curation and ingestion, and maintain and monitor the infrastructure used to store and preserve assets in the repository.
 
 
 1 - The data producer deposits the data in a data repository with sufficient information for others to assess the quality of the data, and compliance with disciplinary and ethical norms. 
@@ -35,12 +35,12 @@ The minimum required Statement of Compliance is: 3. In progress: We are in the i
 >
 >How much of this information collected from the data producer is passed on to data consumers to let them make independent assessments?
 
-Databrary provides a number of methods and policies to facilitate deposit of appropriate digital assets and ensure that these assets are of a baseline quality and accessiblity for its designated community. In response to the above bullet points, they are:
-- Data producers are encouraged to upload any number of documents that outline their research and data coding protocol (these can be a coding manuals - suggestions for developing these are provided [here](http://datavyu.org/user-guide/best-practices/tutorials/develop-a-coding-manual.html), research stimuli, flatfile data used in the analysis of video recordings etc.).
-- (points 2 & 3) In order to contibute data to Databrary all data producers and their institutions must sign off on a [Databrary Access Agreement](http://databrary.org/access/policies/agreement.html) which outlines their ethical and legal responsibilities in participating in the Databrary community. Additionally any data added to Databrary must meet the ethical and legal IRB requirements of the data producer's home institution. Databrary also provides template language for data producers to use when approaching their research subjects about adding data collected about them to Databrary (see: [Databrary Participant Release Template](http://databrary.org/access/policies/release-template.html)).
-- All Databrary users must provide and seek approval from their affiliated orgainization in order to participate and share data through Databrary.
-- As mentioned above, all users must be authorized by their institution to participate in Databrary, confirming that they have rights to the data which the contribute.
-- Each dataset can be associated with a publication based on the data collected and we provide connect to external services for providing access to those publicatiosn through Digital Object Identifiers (DOIs)
+Databrary provides a number of methods and policies to facilitate deposit of appropriate digital assets and ensure that these assets are of a standard quality and accessible to its designated community. In response to the above bullet points, they are:
+1. Data producers are encouraged to upload any number of documents that outline their research and data coding protocol (these can be a coding manuals (suggestions for developing these are provided [here](http://datavyu.org/user-guide/best-practices/tutorials/develop-a-coding-manual.html)), research stimuli, flatfile data used in the analysis of video recordings etc.).
+1. (Towards points 2 & 3) In order to contibute data to Databrary all data producers and their institutions must sign off on a [Databrary Access Agreement](http://databrary.org/access/policies/agreement.html) which outlines their ethical and legal responsibilities in participating in the Databrary community. Any data added to Databrary must meet the ethical and legal IRB requirements of the data producer's home institution. Databrary also provides template language for data producers to use when approaching their research subjects about adding data collected about them to Databrary (see: [Databrary Participant Release Template](http://databrary.org/access/policies/release-template.html)).
+1. All Databrary users must provide and seek approval from their affiliated orgainization in order to participate and share data through Databrary.
+1. As mentioned above, all users must be authorized by their institution (generally an institution of higher education) to participate in Databrary.
+1. Each dataset can be associated with a publication based on the data collected and we connect to external services for providing access to those publications through Digital Object Identifiers (DOIs)
 
 
 2 - The data producer provides the data in formats recommended by the data repository. 
@@ -60,11 +60,11 @@ The minimum required Statement of Compliance is: 3. In progress: We are in the i
 
 
 In response to the above bullet points:
-- Yes, Databrary accepted formats can be found [here](https://nyu.databrary.org/asset/formats)
-- Yes, formats that are not supported by Databrary cannot be uploaded.
-- Yes, ffmpeg is used to transcode video files once they are uploaded to a common codec and container (h.264/mp4). Errors from the transcode are logged
-- See above
-- Beyond the file extension, we do not ask data producers to provide information about their file formats and the tools and methods.
+1. Yes, Databrary accepted formats can be found [here](https://nyu.databrary.org/asset/formats)
+1. Yes, formats that are not supported by Databrary are not uploaded.
+1. Yes, ffmpeg is used to transcode video files once they are uploaded to a common codec and container (h.264/mp4). Errors from these transcode processes are logged
+1. See above
+1. Beyond the file extension, we do not ask data producers to provide information about their file formats and the tools and methods they used to collect them (though they are free to upload data collection methodology along with their dataset).
 
 
 3 - The data producer provides the data together with the metadata requested by the data repository. 
@@ -90,14 +90,15 @@ The minimum required Statement of Compliance is: 4. Implemented: This guideline 
 >- How are these metadata items relevant for the data consumers e.g. supporting resource discovery and secondary analysis rather than simply meeting the needs of the repository?
 >- What is the repository’s approach if the metadata provided are insufficient for long-term preservation?
 
->[1]  See: [http://www.dublincore.org](http://www.dublincore.org) [accessed July 19, 2013].
+>[1] See: [http://www.dublincore.org](http://www.dublincore.org) [accessed July 19, 2013].
 
-- An online form guides users through the addition of metadata on the study dataset level. These metadata include: Title, Creators (in the form of authors on a study), Year of study, Description, Alias name for study, and Digital Object Identifier for a paper associated with the study.
-- Data can only be contributed by researchers who own that data and who have become registered and authorized users of Databrary, as such study owners are inherent in the creation of a dataset. Data producers can also add Keywords, and Funder information at the study level. Within a study, data producers can add metadata to sessions (a container for files) through the application interface with either a spreadsheet view (to see all sessions at once), or in the container view. The metadata includes participant details (date of birth, ethnicity, race, ID, language, gender), and other measures associated with a session (e.g. tasks, conditions, session location and context, release and access information, tags (community contributed labels), etc.).
-- File level metadata is automatically associated to session metadata and study level metadata. The only other metadata at the file level is a name for the file object, whether the file is restricted access or not, and segment data (time ranges) as to where the file should be positioned to other files in the same container (as container objects are displayed on a timeline much like that found in video editing software).
-- The metadata schema is not derived from a preexisting schema. It can be found [here](https://github.com/databrary/databrary/blob/master/conf/schema.sql)
-- The metadata schema was designed with search and discovery in mind. Metadata is captured at a generalized level to allow for researchers (e.g. the Designated Community) of different academic backgrounds within the developmental and learning sciences to find video data from one research context that might be useful in a different research context.
-- We currently do not have automation around insufficient metadata for long-term preservation. Although video file metadata (not including content of file metadata) is automatically captured and stored during the ingest and transcode process [need to confirm this] 
+1. An online form guides users through the addition of metadata on the study dataset level. These metadata include: Title, Creators (in the form of authors on a study), Year of study, Description, Alias name for study, and Digital Object Identifier for a paper associated with the study (which populates basic citation information for that paper: title, publication data, authors - data producers have to copy and paste the abstract in since that is not carried by CrossRef. Alternatively they can fill all this in manually if there is no DOI).
+1. Data can only be contributed by researchers who own that data and who have become registered and authorized users of Databrary, as such study owners are an inherent piece of metadata attached to a dataset. Data producers can also add Keywords, and Funder information at the study level. Within a study, data producers can add metadata to sessions (a container for files) through the application interface with either a spreadsheet view (to see all sessions at once), or in the container view. The metadata includes participant details (date of birth, ethnicity, race, ID, language, gender), and other measures associated with a session (e.g. tasks, conditions, session location and context, release and access information, tags (community contributed labels), etc.).
+1. The online form will not process/go to the next stage unless required metadata are provided at the study level. There are not data/metadata requirements currently at the session/file level (though we understand that users may start a dataset to complete later or over time).
+1. File level metadata is automatically associated to session metadata and study level metadata. The only other metadata at the file level is a name for the file object, whether the file is restricted access or not, and segment data (time ranges) as to where the file should be positioned to other files in the same container (as container objects are displayed on a timeline much like that found in video editing software).
+1. The metadata schema is not derived from a pre-existing schema. The database scheme can be found [here](https://github.com/databrary/databrary/blob/master/conf/schema.sql).
+1. The metadata schema was designed with search and discovery in mind. Metadata is captured at a generalized level to allow for researchers (i.e. the Designated Community) of different academic backgrounds within the developmental and learning sciences to find video data from one research context that might be useful in a different research context.
+1. We currently do not have automation around insufficient metadata for long-term preservation. Although video file metadata (not including content of file metadata) is automatically captured and stored during the ingest and transcode process [need to confirm this] 
 
 4 - The data repository has an explicit mission in the area of digital archiving and promulgates it.
 ====================================================================================================
@@ -112,11 +113,11 @@ The minimum required Statement of Compliance is: 4. Implemented: This guideline 
 >- Do you carry out related promotional activities?
 >- If compliance to this Guideline is outsourced please provide compelling evidence that the third party complies to DSA or DIN/ISO standards.
 
-- See Library & ITS [short statement here about indefinite preservation](http://databrary.org/access/policies/dmp-template.html)
-- See Library & ITS and above
-- <TBD>
-- Yes, conferences, workshops, publications in academic journals
-- Is it outsourced if we are using our own Library system and campus file storage locations?
+1. See Library & ITS, [short statement here about indefinite preservation](http://databrary.org/access/policies/dmp-template.html)
+1. See Library & ITS and above
+1. *TBD*
+1. Yes: conferences, workshops, publications in academic journals
+1. Is it outsourced if we are using our own Library system and campus file storage locations?
 
 5 - The data repository uses due diligence to ensure compliance with legal regulations and contracts including, when applicable, regulations governing the protection of human subjects. 
 ========================================================================================================================================================================================
@@ -137,17 +138,17 @@ The minimum required Statement of Compliance is: 4. Implemented: This guideline 
 >- Are procedures in place to review disclosure risk in data and to take the necessary steps to either anonymise files or to provide access in a secure way?
 >- Are staff trained in the management of data with disclosure risk?
 
-- Databrary is a federally grant funded research project operating within the legal entity of New York University.
-- Yes, we have documents to explain the rights and responsibilities of Databrary data producers and provide language for them to augment their participant and lab release language. See: [Databrary Access Agreement](http://databrary.org/access/policies/agreement.html), [Participant Release Template](http://databrary.org/access/policies/release-template.html), [Staff Release](http://databrary.org/access/policies/staff-release.html)
-- See above
-- Yes: [Bill of Rights](http://databrary.org/access/policies/bill-of-rights.html), [Rights and Responsibilities](http://databrary.org/access/responsibilities.html), [Data Sharing Manifesto](http://databrary.org/access/policies/data-sharing-manifesto.html), [Best Practices for Data Security](http://databrary.org/access/policies/best-practices.html)
-- We do have the ability to audit use of the site, each action (involving data access and download) can be traced back to a site user, though we do not have abilities in place around enforcement other than relying on the professional discretion of authorized site users. 
-- Primarily through ethics guidelines as outlined by NYU IRB, NYU Legal, and IRBs of sponsoring institutions.
-- The metadata schema includes restrictions and release levels such that sessions and files within them can be restricted to only parties that can view them, based on an approximation of the original study consent forms signed by the research participants 
-- Data with specified release levels and restrictions can only be accessed through the web interface by registered and authorized users who have the permissions to view those datasets.
-- Yes, data are distributed via permission checks through the web interface behind authentication measures.
-- Yes, the curation process includes steps to review the original release levels of files to be deposited and clips out parts of video files that contain Personally Identifying Information that should not be shared via the web interface under any circumstances.
-- Yes all staff are required to take Collaborative Institutional Training Initiative (CITI) training prior to working with data that involve human subjects (ref: https://www.citiprogram.org/)
+1. Databrary is a federally grant funded research project operating within the legal entity of New York University.
+1. Yes, we have documents to explain the rights and responsibilities of Databrary data producers and provide language for them to augment their participant and lab release language. See: [Databrary Access Agreement](http://databrary.org/access/policies/agreement.html), [Participant Release Template](http://databrary.org/access/policies/release-template.html), [Staff Release](http://databrary.org/access/policies/staff-release.html)
+1. See above (as the data producers are largely - though not necessarily - conflated with data consumers)
+1. Yes: [Bill of Rights](http://databrary.org/access/policies/bill-of-rights.html), [Rights and Responsibilities](http://databrary.org/access/responsibilities.html), [Data Sharing Manifesto](http://databrary.org/access/policies/data-sharing-manifesto.html), [Best Practices for Data Security](http://databrary.org/access/policies/best-practices.html)
+1. We do have the ability to audit use of the site, each action (involving data access and download) can be traced back to a site user, though we do not have abilities in place around enforcement other than relying on the professional discretion of authorized site users. 
+1. Primarily through ethics guidelines as outlined by NYU IRB, NYU Legal, and IRBs of sponsoring institutions.
+1. The metadata schema includes restrictions and release levels such that sessions and files within them can be restricted to only parties that can view them, based on an approximation of the original study consent forms signed by the research participants when the data were originally being collected.
+1. Data with specified release levels and restrictions can only be accessed through the web interface by registered and authorized users who have the permissions to view those datasets.
+1. Yes, data are distributed via permission checks through the web interface behind online authentication.
+1. Yes, the curation process includes steps to review the original release levels of files to be deposited and clips out parts of video files that contain Personally Identifying Information that should not be shared via the web interface under any circumstances.
+1. Yes all staff are required to take Collaborative Institutional Training Initiative (CITI) training prior to working with data that involve human subjects (ref: [https://www.citiprogram.org/](https://www.citiprogram.org/))
 
 6 - The data repository applies documented processes and procedures for managing data storage. 
 ==============================================================================================
@@ -164,13 +165,13 @@ The minimum required Statement of Compliance is: 4. Implemented: This guideline 
 >- What levels of security are required and how are these supported?
 >- How is deterioration of storage media handled and monitored?
 
-- Yes, the repository, as stored, has a mandate to preserve its contents indefinitely. 
-- Original and transcoded for web access copies are stored through NYU Libraries and ITS. This setup stores files in two mirrored and geographically distributed locations, and a third copy on offsite tape.
-- Yes, via backups and fixity checks we can recover lost, or corrupted files. See Libraries and ITS
-- See Libraries and ITS
-- Regular fixity checks, other? See Libraries and ITS
-- See Libraries and ITS
-- See Libraries and ITS
+1. Yes, the repository has a mandate to preserve its contents indefinitely [need more concrete documentation around this]. 
+1. Original and transcoded for web access copies are stored through NYU Libraries and ITS. This setup stores files in two mirrored and geographically distributed locations, and a third copy on offsite tape.
+1. Yes, via backups and fixity checks we can recover lost, or corrupted files. See Libraries and ITS
+1. See Libraries and ITS
+1. Regular fixity checks, other? See Libraries and ITS
+1. See Libraries and ITS
+1. See Libraries and ITS
 
 7 - The data repository has a plan for long-term preservation of its digital assets.
 ====================================================================================
@@ -182,7 +183,7 @@ The minimum required Statement of Compliance is: 3. In progress: We are in the i
 >- Are there provisions in place to take into account the future obsolescence of file formats? Please describe.
 >- Are there provisions in place to ensure long-term data usability? Please describe.
 
-- Preferred file formats will no doubt change over time. Current storage provides a format migration capacity for making sure that we will always have a readidly accessible copy into the future. 
+1. Preferred file formats will no doubt change over time. Current storage provides a format migration capacity for making sure that we will always have a readidly accessible copy into the future. 
 
 
 8 - Archiving takes place according to explicit work flows across the data life cycle. 
@@ -203,14 +204,16 @@ The minimum required Statement of Compliance is: 3. In progress: We are in the i
 >- Guarding privacy of subjects, etc.
 >- Clarity to data producers about handling of the data
 
-- Draft copies of [staff](https://github.com/databrary/design/blob/master/curation/ingest_workflows/staff_ingest.md) and [curation](https://github.com/databrary/design/blob/master/curation/ingest_workflows/curation_ingest_guide.md) ingest guides available on github. 
-- All data are taken in in their original format. All video files are transcoded on ingest to a common, web-streamable format (h.264 in an MP4 wrapper with AAC for audio).
-- Software and web development, collection development, metadata standards, digital file conversion skills, data ETL skills...(not sure what this is asking for, exactly)
-- The repository is composed largely of video files, as per its mission. This has the impact of making large data tranfer and video file transcoding an automated process. 
-- Selection largely comes down to interested data conrtibutors who have video data that _can_ be shared as per our release and consent language [see release levels](http://databrary.org/access/guide/investigators/release/release-levels.html) as well as [Databrary release template](http://databrary.org/access/policies/release-template.html)
-- We can store some data data that don't fall into our mission if we deem it important to the community or possibly supported down the road. Determined on a case-by-case basis. 
-- We have designed our collection and storage policy around IRB protocols and existing researcher ethical practices to guide collection development and access. Only birthdate, gender, race, ethnicity and language are stored for human subjects.
-- See [Data Management Plan Template](http://databrary.org/access/policies/dmp-template.html) and [Databrary Access Agreement](http://databrary.org/access/policies/agreement.html)
+
+*caveat: Databrary is not necessarily a capital-A archive yet, though we would like to pursue more steps in that direction.*
+1. Draft copies of [staff](https://github.com/databrary/design/blob/master/curation/ingest_workflows/staff_ingest.md) and [curation](https://github.com/databrary/design/blob/master/curation/ingest_workflows/curation_ingest_guide.md) ingest guides available on github. 
+1. All data are taken in in their original format. All video files are transcoded upon ingest to a common, web-streamable format (h.264 in an MP4 wrapper with AAC for audio).
+1. Software and web development, collection development, metadata standards, digital file conversion skills, data ETL skills...(not sure what this is asking for, exactly)
+1. The repository is composed largely of video files, as per its mission. This has the impact of making large data tranfer and video file transcoding an automated process. 
+1. Selection largely comes down to interested data conrtibutors who have video data that _can_ be shared as per our release and consent language [see release levels](http://databrary.org/access/guide/investigators/release/release-levels.html) as well as [Databrary release template](http://databrary.org/access/policies/release-template.html)
+1. We can store some data data that don't fall into our mission if we deem it important to the community or possibly supported down the road. Determined on a case-by-case basis. 
+1. We have designed our collection and storage policy around IRB protocols and existing researcher ethical practices to guide collection development and access. Only birthdate, gender, race, ethnicity and language are stored for human subjects.
+1. See [Data Management Plan Template](http://databrary.org/access/policies/dmp-template.html) and [Databrary Access Agreement](http://databrary.org/access/policies/agreement.html)
 
 9 - The data repository assumes responsibility from the data producers for access and availability of the digital objects.
 ==========================================================================================================================
@@ -223,9 +226,9 @@ The minimum required Statement of Compliance is: 4. Implemented: This guideline 
 >- Does the repository enforce licences with the data producer? How?
 >- Does the repository have a crisis management plan? Please describe.
 
-- See: [Rights and responsibilities](http://databrary.org/access/responsibilities.html) & [Databrary access agreement](http://databrary.org/access/policies/agreement.html) 
-- Not sure what this means, might refer back to whehter or not we enforce ownership of data (explicitly we don't, I don't think). Though might also be related to how IRB policies refer to access and usage of data on Databrary.
-- Inherits from NYU Libraries/ITS crisis management plan as that is where all of our assets and services are hosted?
+1. See: [Rights and responsibilities](http://databrary.org/access/responsibilities.html) & [Databrary access agreement](http://databrary.org/access/policies/agreement.html) 
+1. Not sure what this means, might refer back to whether or not we enforce ownership of data (currently we don't do so explicitly, I don't think). Though might also be related to how IRB policies refer to access and usage of data on Databrary.
+1. Inherits from NYU Libraries/ITS crisis management plan as that is where all of our assets and services are hosted?
 
 
 10 - The data repository enables the users to discover and use the data and refer to them in a persistent way. 
@@ -239,9 +242,9 @@ The minimum required Statement of Compliance is: 3. In progress: We are in the i
 >- Does the repository offer search facilities? Is OAI harvesting permissible? Is deep searching possible?
 >- Does the repository offer persistent identifiers?
 
-- Yes, we store and provide access to data deposits in their original formats, which are those the data producers and the designated community use (since the line between the two is blurry). Though we do transcode the access copies of videos to h.264 in an .mp4 container, which is a usable format by the designated community.
-- We currently have full text search over existing resources, though this is limited to the overall study level including the title, description, contributor, and tags. Search will be extended and refined to include session level metadata and tags/keywords.
-- Currently the URIs to each study and subsequent session are designed to be persistent, though we are in the process of implementing the creation of DOIs for studies.
+1. Yes, we store and provide access to data deposits in their original formats, which are those the data producers and the designated community use (since the line between the two is blurry). Though we do transcode the access copies of videos to h.264 in an .mp4 container, which is a usable format by the designated community both in viewing the video files online and downloading them for their own analysis etc.
+1. We currently have full text search over existing resources, though this is limited to the overall study level including the title, description, contributor, and tags. Search will be extended and refined to include session level metadata and tags/keywords.
+1. Currently the URIs to each study and subsequent session are designed to be persistent, though we are in the process of implementing the creation of DOIs for studies.
 
 11 - The data repository ensures the integrity of the digital objects and the metadata. 
 =======================================================================================
@@ -254,9 +257,9 @@ The minimum required Statement of Compliance is: 3. In progress: We are in the i
 >- How is the integrity of data and metadata monitored?
 >- Does the repository deal with multiple versions of the data? If so, how? Please describe the versioning strategy.
 
-- Yes, SHA-256, I think.
-- See NYU Libraries and ITS
-- We do version uploads of video files. Data producers have the capacity to replace a file that they have uploaded. As such, each file contains a history of when it was uploaded and which, if any, file it replaces. 
+1. Yes, video files are hashed to SHA-256 and that is stored in the database.
+1. See NYU Libraries and ITS
+1. We do version uploads of video files. Data producers have the capacity to replace a file that they have uploaded. As such, each file contains a history of when it was uploaded and which, if any, file it replaces. 
 
 12 - The data repository ensures the authenticity of the digital objects and the metadata. 
 ==========================================================================================
@@ -271,11 +274,11 @@ The minimum required Statement of Compliance is: 3. In progress: We are in the i
 >- Does the repository compare the essential properties of different versions of the same file? How?
 >- Does the repository check the identities of depositors?
 
-- If we find there to be any discrepencies with data or metadata deposited in Databrary, we contact the contributor to review, confirm, and make or have us make changes to make the data more accurate.
-- <TBD> 
-- <TBD>
-- <TBD>
-- Yes, anyone who wishes to contribute to Databrary needs to register using (ideally) their institutional email and have to be approved by their institution to participate on Databrary. Currently that authorization is handled manually via our Community Liaison who connects with the appropriate agent on staff at the contributor's institution. 
+1. If we find there to be any discrepencies with data or metadata deposited in Databrary, we contact the contributor to review, confirm, and make or have us make changes to make the data more accurate.
+1. We store information about who uploads, accesses, and modifies a file and when.
+1. Currently we only connect to external papers and research profiles through DOI and ORCID, though researchers can add any number of links on their datasets to other resources, but we do not provided any guided process for this, at them moment.
+1. *TBD*
+1. Yes, anyone who wishes to contribute to Databrary needs to register using (ideally) their institutional email and have to be approved by their institution to participate on Databrary. Currently that authorization is handled manually via our Community Liaison who connects with the appropriate agent on staff at the contributor's institution. 
 
 
 13 - The technical infrastructure explicitly supports the tasks and functions described in internationally accepted archival standards like OAIS. 
@@ -292,9 +295,9 @@ The minimum required Statement of Compliance is: 3. In progress: We are in the i
 >
 >[1]  Details regarding the OAIS reference model can be found at: [http://public.ccsds.org/publications/archive/650x0m2.pdf.](http://public.ccsds.org/publications/archive/650x0m2.pdf) [accessed January 31, 2013].
 
-- I think we should assume to use OAIS as a reference.
-- This is a larger undertaking and I'd be interested to know if there are any existing tools for auditing OAIS compliance.
-- Databrary is under development for the foreseeable future. We develop infrastructure based on feedback from our data producers and designated community and in response to need for more storage.
+1. I think we should assume to use OAIS as a reference.
+1. [This is a larger undertaking and I'd be interested to know if there are any existing tools for auditing OAIS compliance.]
+1. Databrary is under development for the foreseeable future. We develop infrastructure based on feedback from our data producers and designated community and in response to need for more storage.
 
 14 - The data consumer complies with access regulations set by the data repository. 
 ===================================================================================
@@ -309,11 +312,11 @@ The minimum required Statement of Compliance is: 4. Implemented: This guideline 
 >- Does the repository make use of special licences, e.g., Creative Commons?
 >- Are there measures in place if the conditions are not complied with?
 
-- See: [Databrary Access Agreement](http://databrary.org/access/policies/agreement.html)
-- Data contributors must be a faculty member or researcher at a higher education institution. Some datasets are provisioned to be accessed by the public (as per the data contributors specification), though most datasets can only be accessed in full by authorized users of the site (which assumes, also, that they are faculty, student or researcher at a higher education institution).
-- Access permissions are alotted by the system and through the manual process of authorizing site members by confirming their affiliation and their sponsoring institutions approval of their participation. Data producers may also specify that a dataset or subset thereof can only be accessible by specific site users (e.g. members of their lab or specific research collaborators who also must be authorized users of Databrary).
-- Directly no, but data producers can indicate in their study descriptions if their datasets have a Creative Commons license. Databrary.org documentation is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License.
-- <TBD>
+1. See: [Databrary Access Agreement](http://databrary.org/access/policies/agreement.html)
+1. Data contributors must be a faculty member or researcher at a higher education institution. Some datasets are provisioned to be accessed by the public (as per the data contributors specification), though most datasets can only be accessed in full by authorized users of the site (which assumes, also, that they are faculty, student or researcher at a higher education institution).
+1. Access permissions are alotted by the system and through the manual process of authorizing site members by confirming their affiliation and their sponsoring institutions approval of their participation. Data producers may also specify that a dataset or subset thereof can only be accessible by specific site users (e.g. members of their lab or specific research collaborators who also must be authorized users of Databrary).
+1. Directly no, but data producers might indicate in their study descriptions if their datasets have a Creative Commons license. Databrary.org documentation is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License.
+1. *TBD* - though we are not an enforcement body.
 
 15 - The data consumer conforms to and agrees with any codes of conduct that are generally accepted in the relevant sector for the exchange and proper use of knowledge and information. 
 ========================================================================================================================================================================================
@@ -329,12 +332,12 @@ The minimum required Statement of Compliance is: 4. Implemented: This guideline 
 >- Are there measures in place if these requirements are not complied with?
 >- Does the repository provide guidance in the responsible use of confidential data?
 
-- Our policies (see above) are written specifically to interface with institutional IRBs in securing the appropriate approval for sharing human subject data with other researchers in the manner that Databrary allows.
-- Yes, see above.
-- Overall, they agree to treat the data of others with the same ethical guidelines and sensitivities to privacy of human subjects as they would treat their own See: [Databrary Access Agreement](http://databrary.org/access/policies/agreement.html) & [Rights and Responsibilities](http://databrary.org/access/responsibilities.html)
-- Yes, Generally IRB, Legal, and a department like the Office of Sponsored Projects or equivalent.
-- We are not an enforcement body, but as site users are authorized through their institutions, they are subject to compliance with those institutions ethical guidelines.
-- Yes. See: [Best Practices for Data Security](http://databrary.org/access/policies/best-practices.html) & [Rights and Responsibilities](http://databrary.org/access/responsibilities.html)
+1. Our policies (see above, particularly #5) are written specifically to interface with institutional IRBs in securing the appropriate approval for sharing human subject data with other researchers in the manner that Databrary allows.
+1. Yes, see above.
+1. Overall, they agree to treat the data of others with the same ethical guidelines and sensitivities to privacy of human subjects as they would treat their own See: [Databrary Access Agreement](http://databrary.org/access/policies/agreement.html) & [Rights and Responsibilities](http://databrary.org/access/responsibilities.html)
+1. Yes, Generally IRB, Legal, and a department like the Office of Sponsored Projects or equivalent.
+1. We are not an enforcement body, but as site users are authorized through their institutions, they are subject to compliance with those institutions ethical guidelines.
+1. Yes. See: [Best Practices for Data Security](http://databrary.org/access/policies/best-practices.html) & [Rights and Responsibilities](http://databrary.org/access/responsibilities.html)
 
 16 - The data consumer respects the applicable licences of the data repository regarding the use of the data. 
 =============================================================================================================
@@ -354,5 +357,5 @@ The minimum required Statement of Compliance is: 4. Implemented: This guideline 
 >- Are there relevant licences in place?
 >- Are there measures in place if these licences are not complied with?
 
-- Currently use of the data is governed by the [Databrary Access Agreement](http://databrary.org/access/policies/agreement.html), which all registered users must agree to.
-- Use of the site is tracked in the database and can be audited, though Databrary is not itself an enforcement body.
+1. Currently use of the data is governed by the [Databrary Access Agreement](http://databrary.org/access/policies/agreement.html), which all registered users must agree to (though we should be providing more precise language around users that are not registered but can still access the publically available collections.
+1. Use of the site is tracked in the database and can be audited, though Databrary is not itself an enforcement body.
