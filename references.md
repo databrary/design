@@ -85,6 +85,7 @@
 - [TLA MPI](http://corpus1.mpi.nl/) provide file sharing, public access, various metadata, annotations somehow, and contains a large number of datasets. Producer of ELAN.
 - [Qualitative Data Repository (QDR)](https://qdr.syr.edu/) at Syracuse.
 - [Linguistic Data Consortium](https://www.ldc.upenn.edu/) at U Penn.
+- [TIMSS Video](www.timssvideo.com) 
 
 #### Neuroscience
 - [Biomedical Informatics Research Network (BIRN)](http://www.birncommunity.org/resources/tools/).
@@ -122,6 +123,7 @@
 - [Alchemy](http://www.alchemyapi.com/)
 - [Lookit: Online Experiments](https://lookit.mit.edu/) from Laura Schultz lab at MIT.
 - [Video Analysis Toolkit from Irvine, CA (VATIC)](http://web.mit.edu/vondrick/vatic/).
+- [Zaption](http://www.zaption.com/) educational video tagging & lesson creation tool.
 
 ### Metadata Resources
 - [Center for Metadata Research @ Drexel](http://cci.drexel.edu/mrc/)
