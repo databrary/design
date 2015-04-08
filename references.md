@@ -54,6 +54,7 @@
 - [ResearchGate.net](https://www.researchgate.net/)
 - [The Dataverse Network](http://thedata.org/)
 - [Dryad Digital Repository - Dryad](http://datadryad.org/)
+- [ThinkLab](http://thinklab.com) - crowd-sourced funding for collaborative, open science
 
 ### Domain Specific
 
