@@ -1,0 +1,45 @@
+DATA INTERVIEW: STEP ONE. ANDREA: Have you thought about what kind of data you want to share? It may very well be that your current consent or release forms or any forms you have may allow you to share past datasets on databrary. (open a conversation about already permissioned data) PI: I’d like to share everything I can share. What can I share on databrary?Lisa: Let me see your forms,  (evolution of forms) Action items for PIs: Where are there IRB protocols? Can past release forms be okayed by the IRB? A: Who in your lab or what other collaborators do you want to share edit/viewing access with?  Have you thought about what kind of data you want to share? – open a conversation if they already have permissioned data? It may very well be that your current consent or release forms or any other forms you have may allow you share on databrary. -I’d like to share everything I can share, what can I share on databrary?L:Let me see your forms?	K-Permissioned going back many years? Ask Alison about Karen’s forms. Grandfathered in Cathie’s forms, will these forms also suffice	L-Evolution of forms?Start with evolution of forms before organization files, first conversation Lisa talk to PI about IRB 
+Karen to figure out what her consents forms are going back Another thing: which permission form went with which participant. Copies of blank forms. Post permission form but not share it, just available to PI who uploads it. To do on PI: where IRB protocols are.  If they have a record, a record with yearly amendments. Map those release forms into studies. Matching up forms to participantsEthno-where is it? Release forms- what can be okayed by the past? Do you have any multi-visit or longitudinal studies where you have same participants you want to keep track of?Two or three sentence description of data. Who in your lab/collab do you want to share edit/access with?  Any or all of those people access to whole library. Organizaiton/tags/date/birthdays/date/anything else. Here’s a list that’s already on other users.
+
+10-31-13
+
+You’ve expressed interest in contribution data. What kind of data are you interested in sharing with databrary. 
+
+Star conversation by letting them know that they’re IRB might be okay with sharing older data.
+-first hurdle -permission
+-second hurdle - how they organize, how do I deal with what they do, and how to relate to Dylan how they organize things. 
+
+Everyone feels like they could do a better job at data management. One of our goals is being able to provide better ways to manage data. Don’t sweat it if your data is messy, everyone does it differently. 
+
+-permissions - first gateway to data - limits what datasets
+datasets - have potential limits from PIs
+permissions|datasets|subsets and metadata|
+-what are subsets? For Karen Pilots and attrition. 
+
+
+
+Is databrary a lab server or an extra job for the PI
+
+Deciding sharing on the folder level?
+
+Person by person consent? Who is going to go through the consents? 
+
+Tagging subgroups as pilot and attrition. Mark at study level, so to use that data in different studies. 
+
+Asking contributors about conditions/and asking if they if and how they want to be grouped. 
+
+Age- between subject variable Collect all data they have, what conditions there are, what’s important to know to about the data
+
+Within a video, what happens? Are there different activities or one activity? 
+
+What do you consider to be one data set? 
+
+Set of documents for a session? What other sessions do those documents apply to? 
+
+Ask about how they would organize data set by access permission? By study for most people.
+
+lab management vs public view - 
+
+Top level of organization for Karen - folders on her server - 
+
+Putting data up while working with it vs putting data up when finished. While working with data, Karen wants it organized like in her subfolders. When she’s done with the data, it doesn’t really matter to Karen.  

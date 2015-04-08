@@ -54,6 +54,7 @@
 - [ResearchGate.net](https://www.researchgate.net/)
 - [The Dataverse Network](http://thedata.org/)
 - [Dryad Digital Repository - Dryad](http://datadryad.org/)
+- [ThinkLab](http://thinklab.com) - crowd-sourced funding for collaborative, open science
 
 ### Domain Specific
 
@@ -120,6 +121,7 @@
 - [Clarifai](http://www.clarifai.com/)
 - [Alchemy](http://www.alchemyapi.com/)
 - [Lookit: Online Experiments](https://lookit.mit.edu/) from Laura Schultz lab at MIT.
+- [Video Analysis Toolkit from Irvine, CA (VATIC)](http://web.mit.edu/vondrick/vatic/).
 
 ### Metadata Resources
 - [Center for Metadata Research @ Drexel](http://cci.drexel.edu/mrc/)
@@ -130,7 +132,8 @@
 ## Data sharing videos, articles, discussion groups
 - [Data Sharing and Management Snafu in 3 Short Acts YouTube](http://www.youtube.com/watch?v=N2zK3sAtr-4)
 - [Protection of Human Subjects in Behavioral and Social Sciences](http://sites.nationalacademies.org/DBASSE/BBCSS/Protection_of_Human_Subjects_in_Behavioral_and_Social_Sciences/index.htm) National Academies report on recommended revisions to HHS data policies.
-- [Open Science Framework Google Group](https://groups.google.com/forum/#!forum/openscienceframework)
+- [Open Science Framework Google Group]()
+- https://groups.google.com/forum/#!forum/openscienceframework)
 - [Policies toward open personal data](http://www.sciencemag.org/content/343/6169/373.full)
 - [Ioannidis et al. TINS 14](http://www.sciencedirect.com/science/article/pii/S1364661314000540?_rdoc=1&_fmt=high&_origin=gateway&_docanchor=&md5=b8429449ccfc9c30159a5f9aeaa92ffb)
 
@@ -187,7 +190,9 @@
 - [Review of WeVideo](http://www.pcworld.com/article/2030644/review-wevideo-is-a-cloud-based-video-editor-that-makes-editing-in-your-browser-fun-and-simple.html)
 - [Sony's web-based video editor](https://www.sonymcs.com/landing-page/editing-free-5gb/?gclid=CNSWkajCn70CFeMSOgodzx4APA)
 - [ChronoViz](http://chronoviz.com/) from UCSD.
-- [Video Analysis Toolkit from Irvine, CA (VATIC)](http://web.mit.edu/vondrick/vatic/).
+- [MaxQDA](http://www.maxqdq.com)
+- [atlas.ti](http://atlasti.com/)
+- [Nvivo](http://www.qsrinternational.com/products_nvivo.aspx)
 
 # References
 
