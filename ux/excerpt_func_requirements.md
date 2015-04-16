@@ -25,12 +25,12 @@ Functional Requirements for Excerpts UX Changes
 
 ####Level 2 - May be viewed apart from Databrary within Educational settings
 
--"This clip may be used outside of Databrary for "
+-"This clip may be downloaded and used outside of Databrary for educational purposes such as in the classroom or at a conference."
 
 
 ####Level 3 - Public, no restrictions
 
--"This file may be available to anybody for unrestricted use."
+-"These clips are available to anybody for unrestricted use."
 -"These highlights are publically available, even to users not registered on Databrary"
 
 ####When selecting a share level that is more permissive than the current session share & file restrictions?
