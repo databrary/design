@@ -66,3 +66,8 @@ PI Quinn has a dataset that for which she does want other Databrary authorized u
 ####Level 3
 
 PI Quinn wants to create a clip of a video in her dataset that she would like to share completely unrestricted, meaning even non-registered users of the site will be able to access and download this clip for any purpose. However, the original video will not be shared publically and will retain its original restrictions.  
+
+###Other considerations
+-How to see all files that are available for educational purposes
+-For the file classification checkboxes, how many people are going to adjust those accordingly, any way to do so in batches?
+-All files that have identifiable data (faces, voices, dates) will have to pop a warning if one is going to excerpt them?
