@@ -48,7 +48,7 @@ Functional Requirements for Excerpts UX Changes
   |_[checkbox] This file contains identifiable data such as faces, voices, or dates.
     |
     |_[checkbox] Only share this file with authorized Databrary users for educational or research purposes.
-      |
+      
       |_This file may be available to anybody for unrestricted use.
 
 ###Examples
