@@ -246,7 +246,7 @@ The minimum required Statement of Compliance is: 3. In progress: We are in the i
 
 1. All data are taken in in their original format. All video files are transcoded upon ingest to a common, web-streamable format (h.264 in an MP4 wrapper with AAC for audio).
 
-1. Software and web development, collection development, metadata standards, digital file conversion skills, data ETL skills...(not sure what this is asking for, exactly)
+1. Software and web development, collection development, metadata standards, digital file conversion skills, data ETL skills.
 
 1. The repository is composed largely of video files, as per its mission. This has the impact of making large data tranfer and video file transcoding an automated process. 
 
@@ -348,9 +348,9 @@ The minimum required Statement of Compliance is: 3. In progress: We are in the i
 >
 >[1]  Details regarding the OAIS reference model can be found at: [http://public.ccsds.org/publications/archive/650x0m2.pdf.](http://public.ccsds.org/publications/archive/650x0m2.pdf) [accessed January 31, 2013].
 
-1. I think we should assume to use OAIS as a reference.
+1. I think we should assume to use OAIS as a reference. More specifically this sounds like it is referring to the third and final main component of TRAC - Technologies, Technical Infrastructure, and Security. 
 
-1. [This is a larger undertaking and I'd be interested to know if there are any existing tools for auditing OAIS compliance. I believe the forerunner would be TRAC]
+1. See [Trustworthy Repositories Audit & Certification: Criteria and Checklist ](http://www.crl.edu/sites/default/files/d6/attachments/pages/trac_0.pdf) pp. 43 - 49.
 
 1. Databrary is under development for the foreseeable future. We develop infrastructure based on feedback from our data producers and designated community and in response to need for more storage.
 
