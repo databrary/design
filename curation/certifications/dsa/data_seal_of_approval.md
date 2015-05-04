@@ -88,7 +88,7 @@ The minimum required Statement of Compliance is: 4. Implemented: This guideline 
 >
 >- Descriptive metadata consist of information required to find data and add transparency to their meaning (definition and value) and importance. Examples of descriptive metadata are the data elements of the Dublin Core Element Set, ([1]) with fields such as creator, type, and date.
 >- Structural metadata indicate how different components of a set of associated data relate to one another. These metadata are needed to be able to process the data. When data are coded, the codebook will be a component of the structural metadata.
->- Administrative metadata are required to enable permanent access to the data. This concerns the descripttion of intellectual property, conditions for use and access and the preservation metadata needed for durable archiving of the data.
+>- Administrative metadata are required to enable permanent access to the data. This concerns the description of intellectual property, conditions for use and access and the preservation metadata needed for durable archiving of the data.
 >
 >The data repository specifies the level of producer-created metadata required and provides the tools for its effective capture.
 >
@@ -96,13 +96,13 @@ The minimum required Statement of Compliance is: 4. Implemented: This guideline 
 >- Are there other user-friendly ways for data producers to provide metadata?
 >- Does the repository have quality control checks to ensure required metadata are provided?
 >- Does the repository provide standard, guidance or tools for the creation of metadata at the file level?
->- Are metadata elements derived from established metadata standards, registries or conventions? If so list >the standards, and show the level of adherence to them.
+>- Are metadata elements derived from established metadata standards, registries or conventions? If so list the standards, and show the level of adherence to them.
 >- How are these metadata items relevant for the data consumers e.g. supporting resource discovery and secondary analysis rather than simply meeting the needs of the repository?
 >- What is the repository’s approach if the metadata provided are insufficient for long-term preservation?
 
 >[1] See: [http://www.dublincore.org](http://www.dublincore.org) [accessed July 19, 2013].
 
-1. An online form guides users through the addition of metadata on the study dataset level. These metadata include: Title, Creators (in the form of authors on a study), Year of study, Description, Alias name for study, and Digital Object Identifier for a paper associated with the study (which populates basic citation information for that paper: title, publication data, authors - data producers have to copy and paste the abstract in since that is not carried by CrossRef. Alternatively they can fill all this in manually if there is no DOI).
+1. Note: this might be related to SIPs and how those are generated from contributor desposits. However, with the ability for contributors to add data as they conduct their study, this may need to be interpretted in a way different from what the reviewers might have in mind as data is not just wrapped up once and for all for inclusion, but is slowly accumulated and added by contributors over time. That said, an online form guides users through the addition of metadata on the study dataset level. These metadata include: Title, Creators (in the form of authors on a study), Year of study, Description, Alias name for study, and Digital Object Identifier for a paper associated with the study (which populates basic citation information for that paper: title, publication data, authors - data producers have to copy and paste the abstract in since that is not carried by CrossRef. Alternatively they can fill all this in manually if there is no DOI).
 
 1. Data can only be contributed by researchers who own that data and who have become registered and authorized users of Databrary, as such study owners are an inherent piece of metadata attached to a dataset. Data producers can also add Keywords, and Funder information at the study level. Within a study, data producers can add metadata to sessions (a container for files) through the application interface with either a spreadsheet view (to see all sessions at once), or in the container view. The metadata includes participant details (date of birth, ethnicity, race, ID, language, gender), and other measures associated with a session (e.g. tasks, conditions, session location and context, release and access information, tags (community contributed labels), etc.).
 
@@ -110,7 +110,7 @@ The minimum required Statement of Compliance is: 4. Implemented: This guideline 
 
 1. File level metadata is automatically associated to session metadata and study level metadata. The only other metadata at the file level is a name for the file object, whether the file is restricted access or not, and segment data (time ranges) as to where the file should be positioned to other files in the same container (as container objects are displayed on a timeline much like that found in video editing software).
 
-1. The metadata schema is not derived from a pre-existing schema. The database scheme can be found [here](https://github.com/databrary/databrary/blob/master/conf/schema.sql).
+1. The metadata schema is not derived from a pre-existing schema. The database schema can be found [here](https://github.com/databrary/databrary/blob/master/conf/schema.sql).
 
 1. The metadata schema was designed with search and discovery in mind. Metadata is captured at a generalized level to allow for researchers (i.e. the Designated Community) of different academic backgrounds within the developmental and learning sciences to find video data from one research context that might be useful in a different research context.
 
@@ -246,13 +246,13 @@ The minimum required Statement of Compliance is: 3. In progress: We are in the i
 
 1. All data are taken in in their original format. All video files are transcoded upon ingest to a common, web-streamable format (h.264 in an MP4 wrapper with AAC for audio).
 
-1. Software and web development, collection development, metadata standards, digital file conversion skills, data ETL skills.
+1. Software engineering and web development, collection development, metadata standards, digital file conversion skills, data ETL skills.
 
-1. The repository is composed largely of video files, as per its mission. This has the impact of making large data tranfer and video file transcoding an automated process. 
+1. The repository is composed largely of video files, as per its mission. This has the impact of making large data transfer and video file transcoding an automated process. 
 
 1. Selection largely comes down to interested data conrtibutors who have video data that _can_ be shared as per our release and consent language [see release levels](http://databrary.org/access/guide/investigators/release/release-levels.html) as well as [Databrary release template](http://databrary.org/access/policies/release-template.html)
 
-1. We can store some data data that don't fall into our mission if we deem it important to the community or possibly supported down the road. Determined on a case-by-case basis. 
+1. We can store some data that don't fall into our mission if we deem it important to the community or possibly supported down the road. Determined on a case-by-case basis. 
 
 1. We have designed our collection and storage policy around IRB protocols and existing researcher ethical practices to guide collection development and access. Only birthdate, gender, race, ethnicity and language are stored for human subjects.
 
@@ -323,13 +323,13 @@ The minimum required Statement of Compliance is: 3. In progress: We are in the i
 >- Does the repository compare the essential properties of different versions of the same file? How?
 >- Does the repository check the identities of depositors?
 
-1. If we find there to be any discrepencies with data or metadata deposited in Databrary, we contact the contributor to review, confirm, and make or have us make changes to make the data more accurate.
+1. If we find there to be any discrepencies with data or metadata deposited in Databrary, we contact the contributor to review, confirm, and make or have us make changes to make the data more accurate. We record that the record was changed in the database and when. There is a way to acces the previous value for a record, but we do not expose that to the user.
 
 1. We store information about who uploads, accesses, and modifies a file and when.
 
 1. Currently we only connect to external papers and research profiles through DOI and ORCID, though researchers can add any number of links on their datasets to other resources, but we do not provided any guided process for this, at them moment.
 
-1. *TBD*
+1. *TBD* but yes, if someone tries to upload a file that is already in the database (identified via checksum), we will not store two exact same copies of the same file.
 
 1. Yes, anyone who wishes to contribute to Databrary needs to register using (ideally) their institutional email and have to be approved by their institution to participate on Databrary. Currently that authorization is handled manually via our Community Liaison who connects with the appropriate agent on staff at the contributor's institution. 
 
