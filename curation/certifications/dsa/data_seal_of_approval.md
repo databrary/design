@@ -304,7 +304,7 @@ The minimum required Statement of Compliance is: 3. In progress: We are in the i
 >- How is the integrity of data and metadata monitored?
 >- Does the repository deal with multiple versions of the data? If so, how? Please describe the versioning strategy.
 
-1. Yes, video files are hashed to SHA-256 and that is stored in the database.
+1. Yes, video files are hashed to SHA-1 and that is stored in the database.
 
 1. See NYU Libraries and ITS
 
