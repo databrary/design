@@ -242,6 +242,7 @@ The minimum required Statement of Compliance is: 3. In progress: We are in the i
 
 
 *caveat: Databrary is not necessarily a capital-A archive yet, though we would like to pursue more steps in that direction.*
+
 1. Draft copies of [staff](https://github.com/databrary/design/blob/master/curation/ingest_workflows/staff_ingest.md) and [curation](https://github.com/databrary/design/blob/master/curation/ingest_workflows/curation_ingest_guide.md) ingest guides available on github. 
 
 1. All data are taken in in their original format. All video files are transcoded upon ingest to a common, web-streamable format (h.264 in an MP4 wrapper with AAC for audio).
@@ -252,11 +253,11 @@ The minimum required Statement of Compliance is: 3. In progress: We are in the i
 
 1. Selection largely comes down to interested data conrtibutors who have video data that _can_ be shared as per our release and consent language [see release levels](http://databrary.org/access/guide/investigators/release/release-levels.html) as well as [Databrary release template](http://databrary.org/access/policies/release-template.html)
 
-1. We can store some data that don't fall into our mission if we deem it important to the community or possibly supported down the road. Determined on a case-by-case basis. 
+1. We can store some data that don't fall into our mission if we deem it important to the community or possibly supported down the road. Any data that better describes and makes the video data more understandable should be uploaded by data producers, though we do not support preview or interactive access to many file formats (e.g. powerpoint files, SPSS analysis files, excel spreadsheets). 
 
 1. We have designed our collection and storage policy around IRB protocols and existing researcher ethical practices to guide collection development and access. Only birthdate, gender, race, ethnicity and language are stored for human subjects.
 
-1. See [Data Management Plan Template](http://databrary.org/access/policies/dmp-template.html) and [Databrary Access Agreement](http://databrary.org/access/policies/agreement.html)
+1. See [Data Management Plan Template](http://databrary.org/access/policies/dmp-template.html) and [Databrary Access Agreement](http://databrary.org/access/policies/agreement.html) and forthcoming documentation around making explicit the steps for uploading data, as this is a semi-self-deposit system. Though would also want to be able to say that they (data producers) know what steps we take on our (curational) end once we have their data and metadata. (for this see #1 in this section.)
 
 9 - The data repository assumes responsibility from the data producers for access and availability of the digital objects.
 ==========================================================================================================================
