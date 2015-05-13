@@ -142,6 +142,7 @@
 - [MaxQDA](http://www.maxqdq.com)
 - [atlas.ti](http://atlasti.com/)
 - [Nvivo](http://www.qsrinternational.com/products_nvivo.aspx)
+- [OVA](http://openvideoannotation.org/) vaporware? oss? web-based, screenshots look like our timeline
 
 ### Video Data Mining, Collection
 - [Clarifai](http://www.clarifai.com/)
