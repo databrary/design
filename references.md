@@ -5,7 +5,6 @@
 - [Snapchat](https://www.snapchat.com/). Ephemeral text, image, video chat service.
 - [YouTube](https://youtube.com). Social video sharing/streaming.
 - [Vimeo](https://vimeo.com). Video sharing/streaming.
-- [DataProject](http://www.dataproject.com/Products/IT/en/Volleyball/VideoSharing). Commercial sports video sharing service.
 
 ## Journals
 
@@ -144,6 +143,13 @@
 - [atlas.ti](http://atlasti.com/)
 - [Nvivo](http://www.qsrinternational.com/products_nvivo.aspx)
 - [OVA](http://openvideoannotation.org/) vaporware? oss? web-based, screenshots look like our timeline
+
+### Sports video coding, sharing tools
+- [DataProject](http://www.dataproject.com/Products/IT/en/Volleyball/VideoSharing). Commercial sports video sharing service.
+- [PowerChalk](http://www.powerchalk.com/)
+- [Coach-Logic](http://www.coach-logic.com/)
+- [Ubersense](http://www.ubersense.com/)
+- [Sportstec](http://sportstec.com/)
 
 ### Video Data Mining, Collection
 - [Clarifai](http://www.clarifai.com/)
