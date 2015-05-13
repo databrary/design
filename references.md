@@ -1,6 +1,12 @@
 # References
 
-##Journals
+## Social media/video
+- [EVA](http://www.eva.co/). Video social network.
+- [Snapchat](https://www.snapchat.com/). Ephemeral text, image, video chat service.
+- [YouTube](https://youtube.com). Social video sharing/streaming.
+- [Vimeo](https://vimeo.com). Video sharing/streaming.
+
+## Journals
 
 ### Open Access
 - [Archives of Scientific Psychology](http://www.apa.org/pubs/journals/arc/index.aspx)
@@ -70,6 +76,8 @@
 - [Qualitative Data Repository (QDR)](https://qdr.syr.edu/) at Syracuse.
 - [Linguistic Data Consortium](https://www.ldc.upenn.edu/) at U Penn.
 - [TIMSS Video](www.timssvideo.com) 
+- [Teaching and Learning Exploratory (TLE)](https://tle.soe.umich.edu/). Home of Gates Foundation Measures of Effective Teaching (MET) project classroom videos.
+- [Center for Innovative Research on Cyberlearning (CIRCL)](http://circlcenter.org/). Host of [NSF 2015 Teaching and Learning Video Showcase](http://circlcenter.org/events/nsf-2015-teaching-and-learning-video-showcase/). 
 
 #### Neuroscience
 - [Biomedical Informatics Research Network (BIRN)](http://www.birncommunity.org/resources/tools/).
