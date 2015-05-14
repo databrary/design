@@ -1,6 +1,6 @@
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+**Table of Contents** 
 
 - [0 - Repository Context](#0---repository-context)
 - [1 - The data producer deposits the data in a data repository with sufficient information for others to assess the quality of the data, and compliance with disciplinary and ethical norms. ](#1---the-data-producer-deposits-the-data-in-a-data-repository-with-sufficient-information-for-others-to-assess-the-quality-of-the-data-and-compliance-with-disciplinary-and-ethical-norms)
@@ -37,7 +37,7 @@ The National Science Foundation and National Institue of Child Health and Human 
 Databrary staff (who comprise the ingest, access, data management, and administrative functional components as defined by OAIS reference model) are responsible for the development and maintenance of a web-based platform for uploading, browsing, and sharing repository contents, provide support for its intended community of researchers, ensure manual and automated digtial data curation and ingestion, and maintain and monitor the infrastructure used to store and preserve assets in the repository.
 
 
-1 - The data producer deposits the data in a data repository with sufficient information for others to assess the quality of the data, and compliance with disciplinary and ethical norms. 
+1 - The data producer deposits the data in a data repository with sufficient information for others to assess the quality of the data, and compliance with disciplinary and ethical norms
 ==========================================================================================================================================================================================
 
 The minimum required Statement of Compliance is: 3. In progress: We are in the implementation phase. 
@@ -72,7 +72,7 @@ Databrary provides a number of methods and policies to facilitate deposit of app
 1. Each dataset can be associated with a publication based on the data collected and we connect to external services for providing access to those publications through Digital Object Identifiers (DOIs)
 
 
-2 - The data producer provides the data in formats recommended by the data repository. 
+2 - The data producer provides the data in formats recommended by the data repository 
 ======================================================================================
 
 The minimum required Statement of Compliance is: 3. In progress: We are in the implementation phase.
@@ -101,7 +101,7 @@ In response to the above bullet points:
 1. Beyond the file extension, we do not ask data producers to provide information about their file formats and the tools and methods they used to collect them (though they are free to upload data collection methodology along with their dataset).
 
 
-3 - The data producer provides the data together with the metadata requested by the data repository. 
+3 - The data producer provides the data together with the metadata requested by the data repository 
 ====================================================================================================
 
 The minimum required Statement of Compliance is: 4. Implemented: This guideline has been fully implemented for the needs of our repository. 
@@ -140,7 +140,7 @@ The minimum required Statement of Compliance is: 4. Implemented: This guideline 
 
 1. We currently do not have automation around insufficient metadata for long-term preservation. Although video file metadata (not including content of file metadata) is automatically captured and stored during the ingest and transcode process [need to confirm this] 
 
-4 - The data repository has an explicit mission in the area of digital archiving and promulgates it.
+4 - The data repository has an explicit mission in the area of digital archiving and promulgates it
 ====================================================================================================
 
 The minimum required Statement of Compliance is: 4. Implemented: This guideline has been fully implemented for the needs of our repository. 
@@ -163,7 +163,7 @@ The minimum required Statement of Compliance is: 4. Implemented: This guideline 
 
 1. Is it outsourced if we are using our own Library system and campus file storage locations?
 
-5 - The data repository uses due diligence to ensure compliance with legal regulations and contracts including, when applicable, regulations governing the protection of human subjects. 
+5 - The data repository uses due diligence to ensure compliance with legal regulations and contracts including, when applicable, regulations governing the protection of human subjects 
 ========================================================================================================================================================================================
 
 The minimum required Statement of Compliance is: 4. Implemented: This guideline has been fully implemented for the needs of our repository. 
@@ -204,7 +204,7 @@ The minimum required Statement of Compliance is: 4. Implemented: This guideline 
 
 1. Yes all staff are required to take Collaborative Institutional Training Initiative (CITI) training prior to working with data that involve human subjects (ref: [https://www.citiprogram.org/](https://www.citiprogram.org/))
 
-6 - The data repository applies documented processes and procedures for managing data storage. 
+6 - The data repository applies documented processes and procedures for managing data storage 
 ==============================================================================================
 
 The minimum required Statement of Compliance is: 4. Implemented: This guideline has been fully implemented for the needs of our repository. 
@@ -233,8 +233,8 @@ The minimum required Statement of Compliance is: 4. Implemented: This guideline 
 
 1. See Libraries and ITS
 
-7 - The data repository has a plan for long-term preservation of its digital assets.
-====================================================================================
+7 - The data repository has a plan for long-term preservation of its digital assets
+===================================================================================
 
 The minimum required Statement of Compliance is: 3. In progress: We are in the implementation phase. 
 
@@ -246,8 +246,8 @@ The minimum required Statement of Compliance is: 3. In progress: We are in the i
 1. Preferred file formats will no doubt change over time. Current storage provides a format migration capacity for making sure that we will always have a readidly accessible copy into the future. 
 
 
-8 - Archiving takes place according to explicit work flows across the data life cycle. 
-======================================================================================
+8 - Archiving takes place according to explicit work flows across the data life cycle 
+=====================================================================================
 
 The minimum required Statement of Compliance is: 3. In progress: We are in the implementation phase. 
 
@@ -283,8 +283,8 @@ The minimum required Statement of Compliance is: 3. In progress: We are in the i
 
 1. See [Data Management Plan Template](http://databrary.org/access/policies/dmp-template.html) and [Databrary Access Agreement](http://databrary.org/access/policies/agreement.html) and forthcoming documentation around making explicit the steps for uploading data, as this is a semi-self-deposit system. Though would also want to be able to say that they (data producers) know what steps we take on our (curational) end once we have their data and metadata. (for this see #1 in this section.)
 
-9 - The data repository assumes responsibility from the data producers for access and availability of the digital objects.
-==========================================================================================================================
+9 - The data repository assumes responsibility from the data producers for access and availability of the digital objects
+=========================================================================================================================
 
 The minimum required Statement of Compliance is: 4. Implemented: This guideline has been fully implemented for the needs of our repository. 
 
@@ -335,8 +335,8 @@ The minimum required Statement of Compliance is: 3. In progress: We are in the i
 
 1. We do version uploads of video files. Data producers have the capacity to replace a file that they have uploaded. As such, each file contains a history of when it was uploaded and which, if any, file it replaces. 
 
-12 - The data repository ensures the authenticity of the digital objects and the metadata. 
-==========================================================================================
+12 - The data repository ensures the authenticity of the digital objects and the metadata 
+========================================================================================
 
 The minimum required Statement of Compliance is: 3. In progress: We are in the implementation phase.
 
@@ -359,7 +359,7 @@ The minimum required Statement of Compliance is: 3. In progress: We are in the i
 1. Yes, anyone who wishes to contribute to Databrary needs to register using (ideally) their institutional email and have to be approved by their institution to participate on Databrary. Currently that authorization is handled manually via our Community Liaison who connects with the appropriate agent on staff at the contributor's institution. 
 
 
-13 - The technical infrastructure explicitly supports the tasks and functions described in internationally accepted archival standards like OAIS. 
+13 - The technical infrastructure explicitly supports the tasks and functions described in internationally accepted archival standards like OAIS 
 =================================================================================================================================================
 
 The minimum required Statement of Compliance is: 3. In progress: We are in the implementation phase. 
@@ -379,8 +379,8 @@ The minimum required Statement of Compliance is: 3. In progress: We are in the i
 
 1. Databrary is under development for the foreseeable future. We develop infrastructure based on feedback from our data producers and designated community and in response to need for more storage.
 
-14 - The data consumer complies with access regulations set by the data repository. 
-===================================================================================
+14 - The data consumer complies with access regulations set by the data repository 
+==================================================================================
 
 The minimum required Statement of Compliance is: 4. Implemented: This guideline has been fully implemented for the needs of our repository. 
 
@@ -401,7 +401,7 @@ The minimum required Statement of Compliance is: 4. Implemented: This guideline 
 1. Directly no, but data producers might indicate in their study descriptions if their datasets have a Creative Commons license. Databrary.org documentation is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License.
 1. *TBD* - though we are not an enforcement body.
 
-15 - The data consumer conforms to and agrees with any codes of conduct that are generally accepted in the relevant sector for the exchange and proper use of knowledge and information. 
+15 - The data consumer conforms to and agrees with any codes of conduct that are generally accepted in the relevant sector for the exchange and proper use of knowledge and information 
 ========================================================================================================================================================================================
 
 The minimum required Statement of Compliance is: 4. Implemented: This guideline has been fully implemented for the needs of our repository. 
@@ -427,7 +427,7 @@ The minimum required Statement of Compliance is: 4. Implemented: This guideline 
 
 1. Yes. See: [Best Practices for Data Security](http://databrary.org/access/policies/best-practices.html) & [Rights and Responsibilities](http://databrary.org/access/responsibilities.html)
 
-16 - The data consumer respects the applicable licences of the data repository regarding the use of the data. 
+16 - The data consumer respects the applicable licences of the data repository regarding the use of the data 
 =============================================================================================================
 
 The minimum required Statement of Compliance is: 4. Implemented: This guideline has been fully implemented for the needs of our repository. 
