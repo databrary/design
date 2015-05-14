@@ -245,6 +245,7 @@ The minimum required Statement of Compliance is: 3. In progress: We are in the i
 
 1. Preferred file formats will no doubt change over time. Current storage provides a format migration capacity for making sure that we will always have a readidly accessible copy into the future. 
 
+1. It is hard to determine how our designated communities research needs around video data will change over time, though we maintain that the data will continue to be usable insofar as we migrate video data to the latest, most widely used video codec and container for the access copy.
 
 8 - Archiving takes place according to explicit work flows across the data life cycle 
 =====================================================================================
