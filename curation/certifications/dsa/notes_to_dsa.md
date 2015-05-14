@@ -1,3 +1,15 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [Questions That Pertain to Completing the Data Seal of Approval ](#questions-that-pertain-to-completing-the-data-seal-of-approval)
+- [Needed from Libraries and/or ITS](#needed-from-libraries-andor-its)
+      - [4 - The data repository has an explicit mission in the area of digital archiving and promulgates it.](#4---the-data-repository-has-an-explicit-mission-in-the-area-of-digital-archiving-and-promulgates-it)
+      - [6 - The data repository applies documented processes and procedures for managing data storage.](#6---the-data-repository-applies-documented-processes-and-procedures-for-managing-data-storage)
+      - [Generally](#generally)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 Questions That Pertain to Completing the Data Seal of Approval 
 ==============================================================
 

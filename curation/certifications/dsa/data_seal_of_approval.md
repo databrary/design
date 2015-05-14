@@ -1,3 +1,27 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [0 - Repository Context](#0---repository-context)
+- [1 - The data producer deposits the data in a data repository with sufficient information for others to assess the quality of the data, and compliance with disciplinary and ethical norms. ](#1---the-data-producer-deposits-the-data-in-a-data-repository-with-sufficient-information-for-others-to-assess-the-quality-of-the-data-and-compliance-with-disciplinary-and-ethical-norms)
+- [2 - The data producer provides the data in formats recommended by the data repository. ](#2---the-data-producer-provides-the-data-in-formats-recommended-by-the-data-repository)
+- [3 - The data producer provides the data together with the metadata requested by the data repository. ](#3---the-data-producer-provides-the-data-together-with-the-metadata-requested-by-the-data-repository)
+- [4 - The data repository has an explicit mission in the area of digital archiving and promulgates it.](#4---the-data-repository-has-an-explicit-mission-in-the-area-of-digital-archiving-and-promulgates-it)
+- [5 - The data repository uses due diligence to ensure compliance with legal regulations and contracts including, when applicable, regulations governing the protection of human subjects. ](#5---the-data-repository-uses-due-diligence-to-ensure-compliance-with-legal-regulations-and-contracts-including-when-applicable-regulations-governing-the-protection-of-human-subjects)
+- [6 - The data repository applies documented processes and procedures for managing data storage. ](#6---the-data-repository-applies-documented-processes-and-procedures-for-managing-data-storage)
+- [7 - The data repository has a plan for long-term preservation of its digital assets.](#7---the-data-repository-has-a-plan-for-long-term-preservation-of-its-digital-assets)
+- [8 - Archiving takes place according to explicit work flows across the data life cycle. ](#8---archiving-takes-place-according-to-explicit-work-flows-across-the-data-life-cycle)
+- [9 - The data repository assumes responsibility from the data producers for access and availability of the digital objects.](#9---the-data-repository-assumes-responsibility-from-the-data-producers-for-access-and-availability-of-the-digital-objects)
+- [10 - The data repository enables the users to discover and use the data and refer to them in a persistent way. ](#10---the-data-repository-enables-the-users-to-discover-and-use-the-data-and-refer-to-them-in-a-persistent-way)
+- [11 - The data repository ensures the integrity of the digital objects and the metadata. ](#11---the-data-repository-ensures-the-integrity-of-the-digital-objects-and-the-metadata)
+- [12 - The data repository ensures the authenticity of the digital objects and the metadata. ](#12---the-data-repository-ensures-the-authenticity-of-the-digital-objects-and-the-metadata)
+- [13 - The technical infrastructure explicitly supports the tasks and functions described in internationally accepted archival standards like OAIS. ](#13---the-technical-infrastructure-explicitly-supports-the-tasks-and-functions-described-in-internationally-accepted-archival-standards-like-oais)
+- [14 - The data consumer complies with access regulations set by the data repository. ](#14---the-data-consumer-complies-with-access-regulations-set-by-the-data-repository)
+- [15 - The data consumer conforms to and agrees with any codes of conduct that are generally accepted in the relevant sector for the exchange and proper use of knowledge and information. ](#15---the-data-consumer-conforms-to-and-agrees-with-any-codes-of-conduct-that-are-generally-accepted-in-the-relevant-sector-for-the-exchange-and-proper-use-of-knowledge-and-information)
+- [16 - The data consumer respects the applicable licences of the data repository regarding the use of the data. ](#16---the-data-consumer-respects-the-applicable-licences-of-the-data-repository-regarding-the-use-of-the-data)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 0 - Repository Context
 =====================
 >Please provide a brief general description of the functions and activities undertaken by the repository with particular regard to specialised aspects of your repository and services that might not be familiar to a peer reviewer. Where possible refer to standard OAIS functions and terms.
