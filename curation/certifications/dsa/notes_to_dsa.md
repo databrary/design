@@ -1,11 +1,13 @@
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+**Table of Contents** 
 
 - [Questions That Pertain to Completing the Data Seal of Approval ](#questions-that-pertain-to-completing-the-data-seal-of-approval)
 - [Needed from Libraries and/or ITS](#needed-from-libraries-andor-its)
       - [4 - The data repository has an explicit mission in the area of digital archiving and promulgates it.](#4---the-data-repository-has-an-explicit-mission-in-the-area-of-digital-archiving-and-promulgates-it)
       - [6 - The data repository applies documented processes and procedures for managing data storage.](#6---the-data-repository-applies-documented-processes-and-procedures-for-managing-data-storage)
+      - [11 - The data repository ensures the integrity of the digital objects and the metadata.](#11---the-data-repository-ensures-the-integrity-of-the-digital-objects-and-the-metadata)
+      - [12 - The data repository ensures the authenticity of the digital objects and the metadata](#12---the-data-repository-ensures-the-authenticity-of-the-digital-objects-and-the-metadata)
       - [Generally](#generally)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
@@ -42,9 +44,20 @@ Needed from Libraries and/or ITS
 
 6-7: How is deterioration of storage media handled and monitored?
 
+####11 - The data repository ensures the integrity of the digital objects and the metadata. 
+
+11-2: How is the integrity of data and metadata monitored?
+
+####12 - The data repository ensures the authenticity of the digital objects and the metadata
+
+12-2: Does the repository maintain provenance data and related audit trails?
+
 ####Generally
 
 - Help in defining AIPs, maybe DIPs
 - Asset storage metadata details
   - Schema
   - How much detail, file level detail or should we/do we already provide?
+  - Considering pushing the metadata to Ichabod?
+- Harvesting
+  - Implementing an OAI-PMH compatible layer or equivalent (does good API not count?)

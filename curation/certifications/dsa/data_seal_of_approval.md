@@ -23,7 +23,7 @@
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 0 - Repository Context
-=====================
+======================
 >Please provide a brief general description of the functions and activities undertaken by the repository with particular regard to specialised aspects of your repository and services that might not be familiar to a peer reviewer. Where possible refer to standard OAIS functions and terms.
 >
 >Please provide a concise list of any Outsource Partners referenced in the Self-Assessment and their relationship (organisational/contractual, etc.) with your repository including whether or not they have the Data Seal of Approval or have undertaken some other Trusted Digital Repository assessment. List the Guidelines for which they provide all or part of the relevant functionality/service. Define the relationship with/control over the outsourced functions under the relevant Guideline including any contracts or Service Level Agreements (SLAs) which are in place.
@@ -164,7 +164,7 @@ The minimum required Statement of Compliance is: 4. Implemented: This guideline 
 1. Is it outsourced if we are using our own Library system and campus file storage locations?
 
 5 - The data repository uses due diligence to ensure compliance with legal regulations and contracts including, when applicable, regulations governing the protection of human subjects 
-========================================================================================================================================================================================
+==============================================================================================================================================================================================
 
 The minimum required Statement of Compliance is: 4. Implemented: This guideline has been fully implemented for the needs of our repository. 
 
@@ -301,8 +301,8 @@ The minimum required Statement of Compliance is: 4. Implemented: This guideline 
 1. Inherits from NYU Libraries/ITS crisis management plan as that is where all of our assets and services are hosted?
 
 
-10 - The data repository enables the users to discover and use the data and refer to them in a persistent way. 
-==============================================================================================================
+10 - The data repository enables the users to discover and use the data and refer to them in a persistent way 
+=============================================================================================================
 
 The minimum required Statement of Compliance is: 3. In progress: We are in the implementation phase. 
 
@@ -318,8 +318,8 @@ The minimum required Statement of Compliance is: 3. In progress: We are in the i
 
 1. Currently the URIs to each study and subsequent session are designed to be persistent, though we are in the process of implementing the creation of DOIs for studies.
 
-11 - The data repository ensures the integrity of the digital objects and the metadata. 
-=======================================================================================
+11 - The data repository ensures the integrity of the digital objects and the metadata 
+======================================================================================
 
 The minimum required Statement of Compliance is: 3. In progress: We are in the implementation phase. 
 
@@ -336,7 +336,7 @@ The minimum required Statement of Compliance is: 3. In progress: We are in the i
 1. We do version uploads of video files. Data producers have the capacity to replace a file that they have uploaded. As such, each file contains a history of when it was uploaded and which, if any, file it replaces. 
 
 12 - The data repository ensures the authenticity of the digital objects and the metadata 
-========================================================================================
+=========================================================================================
 
 The minimum required Statement of Compliance is: 3. In progress: We are in the implementation phase.
 
@@ -350,11 +350,11 @@ The minimum required Statement of Compliance is: 3. In progress: We are in the i
 
 1. If we find there to be any discrepencies with data or metadata deposited in Databrary, we contact the contributor to review, confirm, and make or have us make changes to make the data more accurate. We record that the record was changed in the database and when. There is a way to acces the previous value for a record, but we do not expose that to the user.
 
-1. We store information about who uploads, accesses, and modifies a file and when.
+1. We store information about who uploads, accesses, and modifies a file and when. Though we may need to be able to expand on this in terms of storage side of things (Library & ITS)
 
 1. Currently we only connect to external papers and research profiles through DOI and ORCID, though researchers can add any number of links on their datasets to other resources, but we do not provided any guided process for this, at them moment.
 
-1. *TBD* but yes, if someone tries to upload a file that is already in the database (identified via checksum), we will not store two exact same copies of the same file.
+1. *TBD* but yes, if someone tries to upload a file that is already in the database (identified via checksum), we will not store two exact same copies of the same file. If the files differ, we will store the modified file and indicate in the database that it is a replacement and which file it replaces.
 
 1. Yes, anyone who wishes to contribute to Databrary needs to register using (ideally) their institutional email and have to be approved by their institution to participate on Databrary. Currently that authorization is handled manually via our Community Liaison who connects with the appropriate agent on staff at the contributor's institution. 
 
@@ -399,10 +399,10 @@ The minimum required Statement of Compliance is: 4. Implemented: This guideline 
 1. Access permissions are alotted by the system and through the manual process of authorizing site members by confirming their affiliation and their sponsoring institutions approval of their participation. Data producers may also specify that a dataset or subset thereof can only be accessible by specific site users (e.g. members of their lab or specific research collaborators who also must be authorized users of Databrary).
 
 1. Directly no, but data producers might indicate in their study descriptions if their datasets have a Creative Commons license. Databrary.org documentation is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License.
-1. *TBD* - though we are not an enforcement body.
+1. *TBD* - though we are not an enforcement body. Though we do defer to the institutions from which an end user comes from in determining the proper course of action to take when there is a case of misuse of the repository or misuse of data as outlined by the original data owner's specified rights and conditions of use. 
 
 15 - The data consumer conforms to and agrees with any codes of conduct that are generally accepted in the relevant sector for the exchange and proper use of knowledge and information 
-========================================================================================================================================================================================
+============================================================================================================================================================================================
 
 The minimum required Statement of Compliance is: 4. Implemented: This guideline has been fully implemented for the needs of our repository. 
 
