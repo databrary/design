@@ -1,4 +1,4 @@
-Overview of Certifications, Audits, and  for Data Repositories
+Overview of Certifications, Audits, and metadata standards for Data Repositories
 ================================================
 
 #Certifications and Audits

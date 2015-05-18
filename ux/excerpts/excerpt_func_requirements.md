@@ -25,12 +25,12 @@ Functional Requirements for Excerpts UX Changes
 
 ####Level 2 - May be viewed apart from Databrary within Educational settings
 
--"This clip may be used outside of Databrary for "
+-"This clip may be downloaded and used outside of Databrary for educational purposes such as in the classroom or at a conference."
 
 
 ####Level 3 - Public, no restrictions
 
--"This file may be available to anybody for unrestricted use."
+-"These clips are available to anybody for unrestricted use."
 -"These highlights are publically available, even to users not registered on Databrary"
 
 ####When selecting a share level that is more permissive than the current session share & file restrictions?
@@ -48,7 +48,7 @@ Functional Requirements for Excerpts UX Changes
   |_[checkbox] This file contains identifiable data such as faces, voices, or dates.
     |
     |_[checkbox] Only share this file with authorized Databrary users for educational or research purposes.
-      |
+      
       |_This file may be available to anybody for unrestricted use.
 
 ###Examples
@@ -66,3 +66,8 @@ PI Quinn has a dataset that for which she does want other Databrary authorized u
 ####Level 3
 
 PI Quinn wants to create a clip of a video in her dataset that she would like to share completely unrestricted, meaning even non-registered users of the site will be able to access and download this clip for any purpose. However, the original video will not be shared publically and will retain its original restrictions.  
+
+###Other considerations
+-How to see all files that are available for educational purposes
+-For the file classification checkboxes, how many people are going to adjust those accordingly, any way to do so in batches?
+-All files that have identifiable data (faces, voices, dates) will have to pop a warning if one is going to excerpt them?
