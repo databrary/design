@@ -1,4 +1,0 @@
-Emails in registration process:
-1. Email upon account creation for email validation (mostly as is)
-1. Welcome email upon being granted public view
-1. Email when directly authorized at >PUBLIC view, that specifies LEVEL of access granted and BY WHOM 
