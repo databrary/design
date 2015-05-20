@@ -62,7 +62,7 @@ Databrary's mission is to enable researchers, especially those interested in dev
 
 - Scope
 
-Raw, temporal data that users generally code by hand
+Raw, temporal data that users generally code by hand33
 
 - Objective
 
