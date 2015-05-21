@@ -43,8 +43,8 @@ There are four basic permission levels:
 
 These permission levels apply to the following aspects of the site:
 - The whole site, specifying the primary user access level, which distinguishes public anonymous users (VIEW), associate researchers (DOWNLOAD), authorized researchers (CONTRIBUTE), and administrators (ADMIN).
-- Individual studies, which determines the type of access granted to that study: viewing metadata (VIEW), accessing protected data (DOWNLOAD), editing and uploading new data (CONTRIBUTE), or data ownership and changing study permissions (ADMIN).
-- Individual objects within studies have further permissions determining whether VIEW, DOWNLOAD, or CONTRIBUTE study access is necessary to view them.
+- Individual studies, which determines the type of access granted to that volume: viewing metadata (VIEW), accessing protected data (DOWNLOAD), editing and uploading new data (CONTRIBUTE), or data ownership and changing volume permissions (ADMIN).
+- Individual objects within studies have further permissions determining whether VIEW, DOWNLOAD, or CONTRIBUTE volume access is necessary to view them.
 
 ### Authorization
 
@@ -134,27 +134,27 @@ New objects may be created by an explicit user upload, or by offline processing 
 
 There are specific groupings and relationships that are of primary importance and will be represented by individual pages on the site.
 
-### Study
+### Volume
 
-The central organizational unit for the site is the concept of a *study*, or project, or experimental protocol, representing concurrently an research paradigm and a set of data objects collected under this paradigm.
+The central organizational unit for the site is the concept of a *volume*, or study, project, or experimental protocol, representing concurrently an research paradigm and a set of data objects collected under this paradigm.
 In particular, this is likely to be the first object the user enters in the system, either when preparing to upload a set of data to Databrary or when starting a new project in Labnanny.  
 
-While not all objects associated with a study will have the same sharing or read permissions, they will all have the same write permissions.
+While not all objects associated with a volume will have the same sharing or read permissions, they will all have the same write permissions.
 Studies will be comprised of the following components / metadata:
 
 * One or more designated *principal owners*, likely a PI users, who have long-term stewardship of the data
-* Zero or more study *members*, who must be affiliated with and maintained by the principal owner, and will usually be the students, grads and post grads who collected the data and have full access to create and modify everything associated with the study
+* Zero or more volume *members*, who must be affiliated with and maintained by the principal owner, and will usually be the students, grads and post grads who collected the data and have full access to create and modify everything associated with the volume
 * An owner-specified sharing level, one of: owners only, lab only (all descendants of owners), all databrary users, public; along with a set of additional users that have access
 * An owner-specified metadata identification data for non-identifiable data: de-identified (still mappable to identified data somewhere, even if not on datarbrary) or anonymized (no way to connect to identified data at all, not subject to HS rules)
 * A collection status: ongoing, exempt (completed/shelved)
 * Title, abstract-level description text, creation date
-* A schema for what information and data will be collected for each slot in the study, which may be determined explicitly through user interrogation or, preferably, implicitly derived from the materials or built as slots are added
+* A schema for what information and data will be collected for each slot in the volume, which may be determined explicitly through user interrogation or, preferably, implicitly derived from the materials or built as slots are added
 * A heterogeneous collection of *materials* describing the research procedures, usually created before data collection starts
-* Zero or many *articles* that represent the scholarly output from data contained within this study.
+* Zero or many *articles* that represent the scholarly output from data contained within this volume.
 * Zero or many *slots* represented the collected data
-* Zero or more other studies that provide data to this study, e.g., for meta-analyses, longitudinal studies, or other more complex experiments involving multiple protocols  
+* Zero or more other studies that provide data to this volume, e.g., for meta-analyses, longitudinal studies, or other more complex experiments involving multiple protocols  
 
-Note that study permissions assigned to members are in addition to (ORed with) permissions granted by parents.
+Note that volume permissions assigned to members are in addition to (ORed with) permissions granted by parents.
 
 Collecting example materials from a broad set of labs will inform how studies and slots should be structured, but are expected to include:
 
@@ -164,10 +164,10 @@ Collecting example materials from a broad set of labs will inform how studies an
 
 #### Slot
 
-A study consists of some number of *slots* (alternatives for this term: "acquisitions", "clips", "trials", "collections", "sessions", "cases", "units").
+A volume consists of some number of *slots* (alternatives for this term: "acquisitions", "clips", "trials", "collections", "sessions", "cases", "units").
 These slots are usually individual participants or sessions of the experiment.
 
-Importantly, each slot in a study involves the same experimental procedures for collecting data. However, not all slots will necessarily have the same set of objects, as some may be missing for various reasons.  
+Importantly, each slot in a volume involves the same experimental procedures for collecting data. However, not all slots will necessarily have the same set of objects, as some may be missing for various reasons.  
 
 An slot can include both raw data collected at the time of the experiment and summary data that has been extracted from these objects later by researchers or programs. These may include:
 
@@ -205,13 +205,13 @@ This includes (but is not limited to):
 - related, synchronized, and derived objects 
 - ...
 
-A page representing any object (which may also form a part of its containing study page) should include this information, along with a generated preview or summary of the data (if available) and a download link (depending on permissions).
+A page representing any object (which may also form a part of its containing volume page) should include this information, along with a generated preview or summary of the data (if available) and a download link (depending on permissions).
 Conversions between formats (when uploading or downloading) may also be available for some objects.
 
 #### Measurement
 
 Arbitrary measurements (typed metadata) may be associated with slots (and possibly other levels at all).
-Each study may describe a set of measurements (a template) expected to be reported with each slot.
+Each volume may describe a set of measurements (a template) expected to be reported with each slot.
 This may include participant birthdate(s), acquisition dates, participant demographics, and any other collected information.
 Users should be able to choose from the set of existing measurements already used in other studies in order to encourage normalization.
 Each measurement description is associated with a name, description, consent level, and type (which may map directly to database types in separate tables).
@@ -238,7 +238,7 @@ From this link, Databrary will automatically populate the following:
 We may additionally wish to store:
 * Publication date
 * A PDF or text content of the article to allow for searching
-* An optional annotation on each study link describing how the study contributed to the article.
+* An optional annotation on each volume link describing how the volume contributed to the article.
 
 ## Citing Research Data
 
@@ -269,7 +269,7 @@ The better we can accommodate researchers' ways of working with Labnanny, the mo
 However, we must still be prepared both to allow users to upload and enter data from other sources and for any or all of it to be missing.  
 
 Spreadsheets likely provide the best and most comfortable metaphor for data entry and representation, and we should make use of this wherever possible.
-For example, a study can be presented as rows of slots with columns for scalar metadata and objects.
+For example, a volume can be presented as rows of slots with columns for scalar metadata and objects.
 Clicking cells may open further pages for details about individual objects.  
 
 There may also be need for importing data from off-line sources.
@@ -290,13 +290,13 @@ Various permissions documents will establish specifications for these.
 This may also involve partial access, for example to metadata for an object but not its content, or to a restricted portion of a video.
 
 In particular each object and measurement will be associated with one of the following consent levels:
-* PRIVATE: not released for sharing on Databrary; only accessible to study members
+* PRIVATE: not released for sharing on Databrary; only accessible to volume members
 * SHARED: released to authorized Databrary users, but not available to the public
 * EXCERPTS: certain excerpts from this object may be released publicly if specified
 * DEIDENTIFIED: contains participant data but no personal identifiers; candidate for public release
 * PUBLIC: no participant data and no restrictions on release
 
-These permissions are intersected with any other permissions that might apply to the object, such as study sharing permissions.
+These permissions are intersected with any other permissions that might apply to the object, such as volume access permissions.
 
 #### Public Excerpts
 
