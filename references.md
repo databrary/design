@@ -102,6 +102,11 @@
 - [Open Access Series of Imaging Studies (OASIS)](http://www.oasis-brains.org/)
 - [Children's Hospital of Boston/MIT Scalp EEG Database](http://www.physionet.org/pn6/chbmit/). 
 - [EEGBase](https://eegdatabase.kiv.zcu.cz). System for storage, management, sharing and retrieval of EEG/ERP data, metadata, tools and documents related to electrophysiology.
+
+#### Computer science, machine learning
+- [ImageNet](http://www.image-net.org/) image database.
+- [WordNet](http://wordnet.princeton.edu/) word database.
+- [List of Computer Vision Databases online from CVOnline](http://homepages.inf.ed.ac.uk/rbf/CVonline/Imagedbase.htm).
  
 #### Genetics, astronomy, and other
 - [Open Humans Project](http://openhumans.org/)
@@ -228,5 +233,3 @@
 - https://groups.google.com/forum/#!forum/openscienceframework)
 - [Policies toward open personal data](http://www.sciencemag.org/content/343/6169/373.full)
 - [Ioannidis et al. TINS 14](http://www.sciencedirect.com/science/article/pii/S1364661314000540?_rdoc=1&_fmt=high&_origin=gateway&_docanchor=&md5=b8429449ccfc9c30159a5f9aeaa92ffb)
-
-
