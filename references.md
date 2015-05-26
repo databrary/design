@@ -58,11 +58,10 @@
 - [PsychFileDrawer.org](http://psychfiledrawer.org/)
 - [Reproducibility Project](http://openscienceframework.org/project/EZcUj/wiki/home)
 - [CMDbase.org](http://cmdbase.org/). Animal behavior.
-- [Video Mosaic Collaborative](http://videomosaic.org/)
+
 - [Social Informatics Data Grid (SIDGrid)](http://sidgri.ci.uchicago.edu/home)
 - [Open Science Framework (OSF)](https://osf.io/) Associated with The Center for Open Science and Brian Nosek.
 - [National Database for Autism Research - Home](http://ndar.nih.gov/)
-- [DataShop](https://pslcdatashop.web.cmu.edu/index.jsp) Ken Koedinger @ CMU is PI.
 - [Spatial Learning Tests & Instruments](http://spatiallearning.org/index.php/testsainstruments) Nora Newcome and Tim Shipley are PIs.
 - [Cognitive Atlas](http://www.cognitiveatlas.org/) Russ Poldrack is PI.
 - [APA's Data Acquisition, Mgmt Site](http://apa.org/research/responsible/data/index.aspx)
@@ -82,6 +81,8 @@
 - [Edutopia](http://www.edutopia.org/). Sharing "evidence- and practitioner-based learning strategies that empower you to improve K-12 education." Includes video.
 - [Edthena](http://www.edthena.com/). Teacher observation, evaluation platform.
 - [Accomplished Teaching, Learning, and Schools ATLAS](http://www.nbpts.org/atlas) video-based teacher evaluation from the [National Board for Professional Teaching Standards](http://nbpts.org).
+- [DataShop](https://pslcdatashop.web.cmu.edu/index.jsp) Ken Koedinger @ CMU is PI.
+- [Video Mosaic Collaborative](http://videomosaic.org/)
 
 #### Neuroscience
 - [Biomedical Informatics Research Network (BIRN)](http://www.birncommunity.org/resources/tools/).
