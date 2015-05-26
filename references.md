@@ -68,7 +68,6 @@
 - [APA's Data Acquisition, Mgmt Site](http://apa.org/research/responsible/data/index.aspx)
 - [APA links to datasets](http://apa.org/research/responsible/data-links.aspx)
 - [Early Childhood Longitudinal Program (ECLS) - Birth Cohort (ECLS-B)](https://nces.ed.gov/ecls/birth.asp)
-- [Teaching and Learning Exploratory](https://tle.soe.umich.edu/), this is where the [MET Project](http://www.metproject.org/) classroom videos are shared.
 - [Quandl - find, share, and use numerical (economic) data](http://www.quandl.com/)
 - [Berkeley Initiative for Transparency in the Social Science BITSS](http://bitss.org/)
 - [Stanford Meta-Research Innovation Center](http://med.stanford.edu/metrics/)
@@ -76,9 +75,13 @@
 - [Qualitative Data Repository (QDR)](https://qdr.syr.edu/) at Syracuse.
 - [Linguistic Data Consortium](https://www.ldc.upenn.edu/) at U Penn.
 - [TIMSS Video](www.timssvideo.com) 
-- [Teaching and Learning Exploratory (TLE)](https://tle.soe.umich.edu/). Home of Gates Foundation Measures of Effective Teaching (MET) project classroom videos.
+
+#### Education
+- [Teaching and Learning Exploratory (TLE)](https://tle.soe.umich.edu/). Home of Gates Foundation [Measures of Effective Teaching (MET)](http://www.metproject.org) project classroom videos.
 - [Center for Innovative Research on Cyberlearning (CIRCL)](http://circlcenter.org/). Host of [NSF 2015 Teaching and Learning Video Showcase](http://circlcenter.org/events/nsf-2015-teaching-and-learning-video-showcase/). 
 - [Edutopia](http://www.edutopia.org/). Sharing "evidence- and practitioner-based learning strategies that empower you to improve K-12 education." Includes video.
+- [Edthena](http://www.edthena.com/). Teacher observation, evaluation platform.
+- [Accomplished Teaching, Learning, and Schools ATLAS](http://www.nbpts.org/atlas) video-based teacher evaluation from the [National Board for Professional Teaching Standards](http://nbpts.org).
 
 #### Neuroscience
 - [Biomedical Informatics Research Network (BIRN)](http://www.birncommunity.org/resources/tools/).
@@ -148,13 +151,14 @@
 - [atlas.ti](http://atlasti.com/)
 - [Nvivo](http://www.qsrinternational.com/products_nvivo.aspx)
 - [OVA](http://openvideoannotation.org/) vaporware? oss? web-based, screenshots look like our timeline
+- [Popcorn](https://popcorn.webmaker.org/). Mozilla tool for making/editing web-videos.
 
 ### Sports video coding, sharing tools
 - [DataProject](http://www.dataproject.com/Products/IT/en/Volleyball/VideoSharing). Commercial sports video sharing service.
 - [PowerChalk](http://www.powerchalk.com/)
 - [Coach-Logic](http://www.coach-logic.com/)
 - [Ubersense](http://www.ubersense.com/)
-- [Sportstec](http://sportstec.com/)
+- [Sportstec](http://sportstec.com/). Parent company of [StudioCode](http://www.studiocodegroup.com/)
 
 ### Video Data Mining, Collection
 - [Clarifai](http://www.clarifai.com/)
