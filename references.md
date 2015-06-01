@@ -72,8 +72,8 @@
 - [Stanford Meta-Research Innovation Center](http://med.stanford.edu/metrics/)
 - [TLA MPI](http://corpus1.mpi.nl/) provide file sharing, public access, various metadata, annotations somehow, and contains a large number of datasets. Producer of ELAN.
 - [Qualitative Data Repository (QDR)](https://qdr.syr.edu/) at Syracuse.
-- [Linguistic Data Consortium](https://www.ldc.upenn.edu/) at U Penn.
-- [TIMSS Video](www.timssvideo.com) 
+- [Linguistic Data Consortium](https://www.ldc.upenn.edu/) at U Penn. [OntoNotes Project](https://catalog.ldc.upenn.edu/LDC2013T19) is an example dataset.
+- [TIMSS Video](http://www.timssvideo.com) 
 
 #### Education
 - [Teaching and Learning Exploratory (TLE)](https://tle.soe.umich.edu/). Home of Gates Foundation [Measures of Effective Teaching (MET)](http://www.metproject.org) project classroom videos.
