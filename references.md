@@ -58,7 +58,6 @@
 - [PsychFileDrawer.org](http://psychfiledrawer.org/)
 - [Reproducibility Project](http://openscienceframework.org/project/EZcUj/wiki/home)
 - [CMDbase.org](http://cmdbase.org/). Animal behavior.
-
 - [Social Informatics Data Grid (SIDGrid)](http://sidgri.ci.uchicago.edu/home)
 - [Open Science Framework (OSF)](https://osf.io/) Associated with The Center for Open Science and Brian Nosek.
 - [National Database for Autism Research - Home](http://ndar.nih.gov/)
