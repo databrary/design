@@ -153,6 +153,8 @@
 - [Nvivo](http://www.qsrinternational.com/products_nvivo.aspx)
 - [OVA](http://openvideoannotation.org/) vaporware? oss? web-based, screenshots look like our timeline
 - [Popcorn](https://popcorn.webmaker.org/). Mozilla tool for making/editing web-videos.
+- [Dedoose](http://www.dedoose.com/), qualitative data research tool
+- [InqScribe](https://www.inqscribe.com/), video coding tool
 
 ### Sports video coding, sharing tools
 - [DataProject](http://www.dataproject.com/Products/IT/en/Volleyball/VideoSharing). Commercial sports video sharing service.
