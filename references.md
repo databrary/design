@@ -119,6 +119,7 @@
 - [DataONE](https://www.dataone.org/)
 - [Sloan Digital Sky Survey (SDSS)](http://www.sdss.org/)
 - [bioCADDIE](http://http://biocaddie.org/). Aim is to develop data indexing system for biomedical and healthcare data.
+- [FaceBase](https://www.facebase.org/), high-resolution 3D images of faces, funded by the National Institute of Dental and Craniofacial Research (NIDCR). Includes both open and restricted access data.
 
 ##Library Science and Curation
 - [Center for Metadata Research @ Drexel](http://cci.drexel.edu/mrc/)
