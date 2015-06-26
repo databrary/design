@@ -156,6 +156,7 @@
 - [Popcorn](https://popcorn.webmaker.org/). Mozilla tool for making/editing web-videos.
 - [Dedoose](http://www.dedoose.com/), qualitative data research tool
 - [InqScribe](https://www.inqscribe.com/), video coding tool
+- [LabelMe](http://labelme.csail.mit.edu/Release3.0/), Online annotation tool to build image databases for computer vision research.
 
 ### Sports video coding, sharing tools
 - [DataProject](http://www.dataproject.com/Products/IT/en/Volleyball/VideoSharing). Commercial sports video sharing service.
