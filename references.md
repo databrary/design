@@ -58,7 +58,6 @@
 - [PsychFileDrawer.org](http://psychfiledrawer.org/)
 - [Reproducibility Project](http://openscienceframework.org/project/EZcUj/wiki/home)
 - [CMDbase.org](http://cmdbase.org/). Animal behavior.
-
 - [Social Informatics Data Grid (SIDGrid)](http://sidgri.ci.uchicago.edu/home)
 - [Open Science Framework (OSF)](https://osf.io/) Associated with The Center for Open Science and Brian Nosek.
 - [National Database for Autism Research - Home](http://ndar.nih.gov/)
@@ -72,8 +71,8 @@
 - [Stanford Meta-Research Innovation Center](http://med.stanford.edu/metrics/)
 - [TLA MPI](http://corpus1.mpi.nl/) provide file sharing, public access, various metadata, annotations somehow, and contains a large number of datasets. Producer of ELAN.
 - [Qualitative Data Repository (QDR)](https://qdr.syr.edu/) at Syracuse.
-- [Linguistic Data Consortium](https://www.ldc.upenn.edu/) at U Penn.
-- [TIMSS Video](www.timssvideo.com) 
+- [Linguistic Data Consortium](https://www.ldc.upenn.edu/) at U Penn. [OntoNotes Project](https://catalog.ldc.upenn.edu/LDC2013T19) is an example dataset.
+- [TIMSS Video](http://www.timssvideo.com) 
 
 #### Education
 - [Teaching and Learning Exploratory (TLE)](https://tle.soe.umich.edu/). Home of Gates Foundation [Measures of Effective Teaching (MET)](http://www.metproject.org) project classroom videos.
@@ -111,6 +110,7 @@
 - [ImageNet](http://www.image-net.org/) image database.
 - [WordNet](http://wordnet.princeton.edu/) word database.
 - [List of Computer Vision Databases online from CVOnline](http://homepages.inf.ed.ac.uk/rbf/CVonline/Imagedbase.htm).
+- [University of Central Florida (UCF) Sports Action Data Set](http://crcv.ucf.edu/data/UCF_Sports_Action.php)
  
 #### Genetics, astronomy, and other
 - [Open Humans Project](http://openhumans.org/)
@@ -119,6 +119,7 @@
 - [DataONE](https://www.dataone.org/)
 - [Sloan Digital Sky Survey (SDSS)](http://www.sdss.org/)
 - [bioCADDIE](http://http://biocaddie.org/). Aim is to develop data indexing system for biomedical and healthcare data.
+- [FaceBase](https://www.facebase.org/), high-resolution 3D images of faces, funded by the National Institute of Dental and Craniofacial Research (NIDCR). Includes both open and restricted access data.
 
 ##Library Science and Curation
 - [Center for Metadata Research @ Drexel](http://cci.drexel.edu/mrc/)
@@ -153,6 +154,10 @@
 - [Nvivo](http://www.qsrinternational.com/products_nvivo.aspx)
 - [OVA](http://openvideoannotation.org/) vaporware? oss? web-based, screenshots look like our timeline
 - [Popcorn](https://popcorn.webmaker.org/). Mozilla tool for making/editing web-videos.
+- [Dedoose](http://www.dedoose.com/), qualitative data research tool
+- [InqScribe](https://www.inqscribe.com/), video coding tool
+- [LabelMe](http://labelme.csail.mit.edu/Release3.0/), Online annotation tool to build image databases for computer vision research.
+- [labstreaminglayer](https://github.com/sccn/labstreaminglayer), open source software library for "unified collection of measurement time series in research experiments that handles both the networking, time-synchronization, (near-) real-time access as well as optionally the centralized collection, viewing and disk recording of the data."
 
 ### Sports video coding, sharing tools
 - [DataProject](http://www.dataproject.com/Products/IT/en/Volleyball/VideoSharing). Commercial sports video sharing service.
