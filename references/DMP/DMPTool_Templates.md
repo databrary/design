@@ -145,7 +145,7 @@ DMPTool Templates for Relevant Funders
     How long will the original data collector/creator/principal investigator retain the right to use the data before opening it up to wider use?
     Explain details of any embargo periods for political/commercial/patent or publisher reasons.
 
-###Data format and dissemination <span style="color:green;">**YES**</span>
+###Data format and dissemination <span style="color:orange;">**YES/NO**</span>
 
  Describe the format of your data. Ideally, data formats will be chosen that are openly and freely available, and/or non-proprietary in nature. Consider the following:
 

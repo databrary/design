@@ -1,21 +1,19 @@
-# Data Management Plan
+# Data Management Plan Template 
 
-1. Data and metadata standards
+Note: This is boilerplate language for data management plans or resource sharing plans and is meant to help researchers who plan to store and share data in Databrary prepare their materials for submission.
 
-Databrary transcodes all deposited video and audio data into a standard, open-source and HTML5 standards-compliant format, currently H.264. We also 
-expect to develop data mining mechanisms that will convert much of the metadata stored in non-text or non-XML formats into these standard forms for subsequent sharing.
+Researchers should confirm agency/directorate/program-specific resource sharing plan or data management plan requirements.
 
-1.	Policies for access and sharing 
-
-Data will be stored with and shared through databrary.org. Data shared in Databrary will only be viewable and downloadable to authorized users who have been granted secure access. Databrary can house video, audio, PDF, spreadsheet, image, and text-based files (along with associated metadata), as well as executable scripts in Ruby, R and Matlab that facilitate data analysis. Only researchers with Principal Investigator status from institutions with Institutional Review Boards or similar review entities will be authorized with access. Authorized users will be required to sign a user agreement that specifies that they will: (1) be responsible for maintaining the confidentiality of the data; (2) abide by ethical principles for treatment of human subjects as mandated by their local Institutional Review Boards; (3) agree not use the data for commercial purposes; and (4) treat data in the Databrary with the same high standards of care that they would treat data collected in their own laboratories.
-
-Although Databrary will store complete study data, only videos and other identifiable data that have been permissioned for sharing by all the depicted individuals in each recording will be made available to the community of authorized users. Databrary has developed template Sharing Release forms that contributors can add to their IRB protocol to allow them to ask participants for permission to share their data. 
-
-1.	Policies for reuse and redistributions
-
-Access to databases and associated software tools generated under the project will be available for educational, research, and nonprofit purposes, as specified above. Such access will be provided using web-based applications, as appropriate. Materials generated under the project will be disseminated in accordance with the policies of NSF and participating institutions. Publication of data shall occur during the project, if appropriate, or at the end of the project, consistent with normal scientific practices.
-
-1.	Plans for archiving and preservation
-
-Data in Databrary will be preserved indefinitely in a secure data storage facility. At NYU, the facility is managed by the university's central information technologies organization. Central IT staff will handle storage, network, and backup systems. NYU does routine tape backups that are stored off site.
-
+1. Data, metadata, and documentation <br/> <br/>
+Data formats - Databrary transcodes all deposited video data into standard and HTML5-compatible formats, currently H.264+AAC as MP4. Databrary stores other data in their original formats (e.g., .doc, .docx, .xls, .xlsx, .txt, .csv, .pdf, .jpg, .png). As standards for preferred video file formats change over time, Databrary will perform file format migrations to those preferred formats.<br/> <br/>
+Metadata - Databrary takes and stores metadata related to a full dataset (e.g. title, authors, related publication, description of study, keywords or tags, associated URLs), individual study sessions (e.g. metadata related to participants, study groups and conditions, location, language, and session date and tasks), and video files (e.g. title, duration, tags) related to a dataset. Metadata is added through a user-friendly web interface where auto-completion, suggested terms, and integration with third party services (e.g. CrossRef) guide users through its creation. Metadata may be accessed through the web interface, via API, or downloaded as a spreadsheet. <br/> <br/>
+Documentation - Data owners can upload any number of related documentation that help other researchers understand the data (e.g. study protocol, coding manuals, output from video coding software). These documents can be associated with the dataset as a whole, or individual sessions within the dataset. <br/> <br/>
+1. Policies for access and sharing <br/> <br/>
+Data will be stored with and shared through Databrary. Sensitive or identifiable data shared with Databrary will only be viewable and downloadable to authorized users who have been granted secure access. Data may be made available to the public, as determined by the researcher. Databrary can house video, audio, PDF, spreadsheet, image, and text-based files (along with associated metadata). Only researchers with Principal Investigator status from institutions with Institutional Review Boards or similar review entities, or researchers affiliated with Principal Investigators, will be authorized for access. <br/> <br/>
+Authorized users will be required to sign a user agreement that specifies that they will: (1) be responsible for maintaining the confidentiality of the data; (2) abide by ethical principles for treatment of human subjects as mandated by their local Institutional Review Boards; (3) agree not use the data for commercial purposes; and (4) treat data in the Databrary with the same high standards of care that they would treat data collected in their own laboratories.<br/> <br/>
+Although Databrary will store complete study data, only videos and other identifiable data that have been permissioned for sharing by all the depicted individuals in each recording will be made available to the community of authorized users. Databrary has developed template Sharing Release forms that contributors can add to their IRB protocol. These forms allow researchers to ask participants for permission to share their data. <br/> <br/>
+Data owners can choose to share their data at any point, either as they collect their data, or only once data collection has completed.<br/> <br/>
+1. Policies and provisions for reuse and redistribution<br/> <br/>
+Access to databases and associated software tools generated under the project will be available for educational and research purposes, as specified above. Such access will be provided using web-based applications, as appropriate. Materials generated under the project will be disseminated in accordance with the policies of NSF and participating institutions. Publication of data shall occur during the project, if appropriate, or at the end of the project, consistent with normal scientific practices.<br/> <br/>
+1. Plans for archiving and preservation<br/> <br/>
+Data in Databrary will be preserved indefinitely in a secure data storage facility. At NYU, the facility is managed by the university's central information technologies organization. Central IT staff handle storage, network, and backup systems. NYU does routine tape backups that are stored off site.
