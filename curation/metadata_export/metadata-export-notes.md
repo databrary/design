@@ -1,6 +1,12 @@
 metadata export notes
 =====================
 
+##Use cases for exporting metadata
+- **Defining an AIP**: Full details for assets, full details for data itself?
+- **Owner export**: Full details for data, may not need full details for assets (To accompany download of dataset, so may have to be all assets or just some)
+- **Interoperabilty Export**: Similar to metadata creation for DataCite in creating DOIs, only sharing volume level details and access restrictions with entities like NYU library 
+
+
 ##Schemas and their application
 | schema           | purpose                                                                           | location                                                                                  |
 |------------------|-----------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------|
