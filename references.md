@@ -158,6 +158,8 @@
 - [InqScribe](https://www.inqscribe.com/), video coding tool
 - [LabelMe](http://labelme.csail.mit.edu/Release3.0/), Online annotation tool to build image databases for computer vision research.
 - [labstreaminglayer](https://github.com/sccn/labstreaminglayer), open source software library for "unified collection of measurement time series in research experiments that handles both the networking, time-synchronization, (near-) real-time access as well as optionally the centralized collection, viewing and disk recording of the data."
+- [Emotient](http://emotient.com/), real-time facial emotion analysis of video.
+- 
 
 ### Sports video coding, sharing tools
 - [DataProject](http://www.dataproject.com/Products/IT/en/Volleyball/VideoSharing). Commercial sports video sharing service.
@@ -180,7 +182,8 @@
 - [Open Notebook Science Network](http://onsnetwork.org/) @onsnetwork
 - [DexyIt -- code commenting](http://dexy.it/)
 - [RStudio](http://www.rstudio.com/)
-- [iPython](http://ipython.org/)### Metadata Resources
+- [iPython](http://ipython.org/), now evolved into [Project Jupyter](https://jupyter.org/). 
+- [iMotions](http://imotionsglobal.com/), integrating multiple data streams, video, physio, eye tracking
 
 ### Citation/reference management
 - [Mendeley](http://www.mendeley.com/)
