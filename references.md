@@ -19,6 +19,7 @@
 - [Faculty of 1000](https://f1000research.com/)
 - [Gigascience](http://www.gigasciencejournal.com/)
 - [Scientific Data from Nature Publishing](http://www.nature.com/sdata/)
+- [Collabra](http://www.collabra.org/) from California Digital Libraries
 
 ##Human research ethics
 - [JERHRE](http://www20.csueastbay.edu/JERHRE/) and [SagePub webpage for it](http://www.sagepub.com/journals/Journal202321)
