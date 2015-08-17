@@ -1,0 +1,38 @@
+FILE LIST FOR DATABRARY VOLUME <ID> - DOWNLOADED: <DATE> BY <USER>
+
+<CITATION>
+
+SUMMARY OF FILES
+  
+  XX Total files 
+  XX <format> files
+  XX <format> files
+  XX <format> files
+
+VOLUME LEVEL DOCUMENTATION
+
+filename                      size    duration    date updated    sha1 checksum
+
+databrary_ID_description.txt  181k        -        2015-08-17           -
+databrary_ID_metadata.csv     1.4m        -        2015-08-17           -
+
+
+TOP LEVEL MATERIALS
+
+directory       filename                      size    duration    date updated    sha1 checksum
+
+toplevel        0812.opf                      600k        -        2015-04-10           -
+                0988.opf                      543k        -        2015-04-11           -
+                3998.opf                      800k        -        2015-04-12           -
+                3112.opf                      334k        -        2015-04-11           -
+                protocol.pdf                  1.0m        -        2015-02-03           -
+
+SESSION MATERIALS
+
+directory       filename               size    duration     sha1 checksum
+  
+0812            0812_headcam.mp4       600m    01:23:00     b06a65351ca995cc34d83f05c9f9012de1ac046f
+                eye_tracker.mp4        1.4g    01:00:34     cab395a8338988fa2618305b1914c727113c97dd
+3998            overhead.mp4           400m    00:54:22     9c969ddf454079e3d439973bbab63ea6233e4087 
+3112            3112-nanny_cam.mp4     1.5g    01:10:33     cb289766c0139c6864aa40d13c175ac5779739bc
+                3112-baby_headcam.mp4  1.1g    01:12:22     12fdb382c2e31d6dcab1d77236e4a0317ad64106

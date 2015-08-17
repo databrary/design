@@ -1,0 +1,29 @@
+DATABRARY VOLUME <ID> - DOWNLOADED: <DATE> BY <USER>
+
+ACCESS RIGHTS: <link to access agreement>
+
+VOLUME RELEASE: <release>
+
+TITLE: <title>
+
+ORIGINAL WORK: <original work>
+
+ABSTRACT: <abstract>
+
+CITATION: <citation>
+
+OWNERS: <owner>; <owner>
+
+COLLABORATORS: <collaborator>; <collaborator>
+
+SUPPLEMENTAL LINKS: <url>
+                    <url>
+
+FUNDING: <funder-name> - <grant-id>; <funder-name> - <grant-id>
+
+TAGS: <tag>; <tag>
+
+KEYWORDS: <keyword; <keyword>
+
+
+
