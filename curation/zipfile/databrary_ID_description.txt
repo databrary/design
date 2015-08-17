@@ -1,7 +1,5 @@
 DATABRARY VOLUME <ID> - DOWNLOADED: <DATE> BY <USER>
 
-ACCESS RIGHTS: <link to access agreement>
-
 VOLUME RELEASE: <release>
 
 TITLE: <title>
@@ -25,5 +23,5 @@ TAGS: <tag>; <tag>
 
 KEYWORDS: <keyword; <keyword>
 
-
+ACCESS RIGHTS: <link to access agreement>
 
