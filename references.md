@@ -21,7 +21,7 @@
 - [Scientific Data from Nature Publishing](http://www.nature.com/sdata/)
 - [Collabra](http://www.collabra.org/) from California Digital Libraries
 
-##Human research ethics
+## Human research ethics
 - [JERHRE](http://www20.csueastbay.edu/JERHRE/) and [SagePub webpage for it](http://www.sagepub.com/journals/Journal202321)
 - [KIEJ](https://kiej.georgetown.edu/)
 
@@ -46,6 +46,8 @@
 - [The Dataverse Network](http://thedata.org/)
 - [Dryad Digital Repository - Dryad](http://datadryad.org/)
 - [ThinkLab](http://thinklab.com) - crowd-sourced funding for collaborative, open science
+- [Curate Science](https://curatescience.org), web app to facilitate and create incentives for replications.
+- [Open Science Framework (OSF)](https://osf.io/), Associated with [The Center for Open Science](http://centerforopenscience.org).
 
 ### Domain Specific
 
@@ -60,7 +62,6 @@
 - [Reproducibility Project](http://openscienceframework.org/project/EZcUj/wiki/home)
 - [CMDbase.org](http://cmdbase.org/). Animal behavior.
 - [Social Informatics Data Grid (SIDGrid)](http://sidgri.ci.uchicago.edu/home)
-- [Open Science Framework (OSF)](https://osf.io/) Associated with The Center for Open Science and Brian Nosek.
 - [National Database for Autism Research - Home](http://ndar.nih.gov/)
 - [Spatial Learning Tests & Instruments](http://spatiallearning.org/index.php/testsainstruments) Nora Newcome and Tim Shipley are PIs.
 - [Cognitive Atlas](http://www.cognitiveatlas.org/) Russ Poldrack is PI.
