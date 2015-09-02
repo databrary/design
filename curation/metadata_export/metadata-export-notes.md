@@ -17,9 +17,13 @@ metadata export notes
 | MODS???          | descriptive metadata for volume assets                                            | http://www.loc.gov/standards/mods/v3/mods-3-6.xsd                                         |
 | MPEG-7           | describe multimedia assets                                                        | http://standards.iso.org/ittf/PubliclyAvailableStandards/MPEG-7_schema_files/mpeg7-v3.xsd |
 
-
+##Design questions
+- How do we accurately reflect rights when we are not 100% certain that the contributor is the original owner of the data
 
 ##Links
 research data alliance metadata directory - http://rd-alliance.github.io/metadata-directory/use_cases/
 cdl guidelines for digital objects - http://www.cdlib.org/services/access_publishing/dsc/contribute/docs/GDO.pdf
 OCLC descriptive metadata standards - http://www.oclc.org/content/dam/research/activities/culturalmaterials/RLG_desc_metadata.pdf
+
+##Suitable examples
+dataset example(?) - https://pythonhosted.org/MyTARDIS/ref/mets-example.html
