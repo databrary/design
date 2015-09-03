@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mets:mets xsi:schemaLocation="http://www.loc.gov/METS/ http://www.loc.gov/standards/mets/mets.xsd http://www.loc.gov/mods/v3  http://www.loc.gov/standards/mods/v3/mods-3-6.xsd OBJID="doi:10.17910/B7159Q" TYPE="Databrary Dataset" LABEL="Databrary Project Events">
-  <!-- I don't know if Databrary Dataset is a fantastic TYPE, but the project events isn't exactly a dataset-->
+<mets:mets xsi:schemaLocation="http://www.loc.gov/METS/ http://www.loc.gov/standards/mets/mets.xsd http://www.loc.gov/mods/v3  http://www.loc.gov/standards/mods/v3/mods-3-6.xsd" OBJID="doi:10.17910/B7159Q" TYPE="Databrary Dataset" LABEL="Databrary Project Events">
+  <!-- I dont know if Databrary Dataset is a fantastic TYPE, but the project events isn't exactly a dataset-->
   <!--
     [HEADER]
   -->

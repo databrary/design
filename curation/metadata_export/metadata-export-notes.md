@@ -19,8 +19,11 @@ metadata export notes
 
 ##Design questions
 - How do we accurately reflect rights when we are not 100% certain that the contributor is the original owner of the data
+- should an AIP consist of just one big huge mets file, or a mets file for the study and then mets files for all of the assets in a study linking them to the study?
 
 ##Links
+overview - http://jodyderidder.com/metadata/mets.html
+primer - http://www.loc.gov/standards/mets/METSPrimerRevised.pdf
 research data alliance metadata directory - http://rd-alliance.github.io/metadata-directory/use_cases/
 cdl guidelines for digital objects - http://www.cdlib.org/services/access_publishing/dsc/contribute/docs/GDO.pdf
 OCLC descriptive metadata standards - http://www.oclc.org/content/dam/research/activities/culturalmaterials/RLG_desc_metadata.pdf
