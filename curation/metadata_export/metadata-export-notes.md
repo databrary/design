@@ -20,6 +20,7 @@ metadata export notes
 ##Design questions
 - How do we accurately reflect rights when we are not 100% certain that the contributor is the original owner of the data
 - should an AIP consist of just one big huge mets file, or a mets file for the study and then mets files for all of the assets in a study linking them to the study?
+- regarding the above, it doesn't seem to make sense to make an individuals mets document for each file since there could be thousands of under-described assets that don't exactly have meaning outside of the context of the study...but, how to have administrative metadata for each file in the context of the study. That is: semantics attached to the dataset, administration attachd to the files.
 
 ##Links
 overview - http://jodyderidder.com/metadata/mets.html

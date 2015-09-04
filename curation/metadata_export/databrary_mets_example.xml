@@ -1,5 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mets:mets xsi:schemaLocation="http://www.loc.gov/METS/ http://www.loc.gov/standards/mets/mets.xsd http://www.loc.gov/mods/v3  http://www.loc.gov/standards/mods/v3/mods-3-6.xsd" OBJID="doi:10.17910/B7159Q" TYPE="Databrary Dataset" LABEL="Databrary Project Events">
+<mets:mets xmlms:mets="http://www.loc.gov/METS/"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:premis="info:lc/xmlns/premis-v2"
+    xmlns:revtmd="http://nwtssite.nwts.nara/schema/"
+    xsi:schemaLocation="http://www.loc.gov/METS/ http://www.loc.gov/standards/mets/mets.xsd 
+    http://www.loc.gov/mods/v3  http://www.loc.gov/standards/mods/v3/mods-3-6.xsd
+    info:lc/xmlns/premis-v2 http://www.loc.gov/standards/premis/v2/premis-v2-3.xsd
+    http://nwtssite.nwts.nara/schema/ http://www.archives.gov/preservation/products/reVTMD.xsd" 
+    OBJID="doi:10.17910/B7159Q" 
+    TYPE="Databrary Dataset" 
+    LABEL="Databrary Project Events">
   <!-- I dont know if Databrary Dataset is a fantastic TYPE, but the project events isn't exactly a dataset-->
   <!--
     [HEADER]
