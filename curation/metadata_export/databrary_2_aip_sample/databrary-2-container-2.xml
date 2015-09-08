@@ -33,7 +33,7 @@
     <!-- REQ - Use of METSRights schema for rights metadata -->
     <!--       Rights metadata may be associated at the fileGrp, file, parent or child div elements -->
     <mets:rightsMD ID="ref3456_rightsmd">
-      <mets:mdRef LOCTYPE="URL" xlink:type="simple" xlink:href="assets/trew/metadata/rights/ref3456_rightsmd.xml" MDTYPE="METSRIGHTS"
+      <mets:mdRef LOCTYPE="URL" xlink:type="simple" xlink:href="" MDTYPE="METSRIGHTS"
       CHECKSUM="this_should_be_a_sha1_checksum_value_in_hex" CHECKSUMTYPE="SHA-1"/>
     </mets:rightsMD>
   </mets:amdSec>
@@ -49,56 +49,6 @@
       <mets:file ID="ref3456-fr02m" MIMETYPE="image/tiff" CHECKSUM="this_should_be_a_sha1_checksum_value_in_hex" CHECKSUMTYPE="SHA-1" ADMID="techMD.ref3456-fr02m_jhove">
   <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="assets/databrary-2-container-2/data/ref3456-fr02m.tif"/>
       </mets:file>
-      <mets:file ID="ref3456-fr03m" MIMETYPE="image/tiff" CHECKSUM="this_should_be_a_sha1_checksum_value_in_hex" CHECKSUMTYPE="SHA-1" ADMID="techMD.ref3456-fr03m_jhove">
-  <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="assets/databrary-2-container-2/data/ref3456-fr03m.tif"/>
-      </mets:file>
-      <mets:file ID="ref3456-fr04m" MIMETYPE="image/tiff" CHECKSUM="this_should_be_a_sha1_checksum_value_in_hex" CHECKSUMTYPE="SHA-1" ADMID="techMD.ref3456-fr04m_jhove">
-  <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="assets/databrary-2-container-2/data/ref3456-fr04m.tif"/>
-      </mets:file>
-      <mets:file ID="ref3456_000001m" MIMETYPE="image/tiff" CHECKSUM="this_should_be_a_sha1_checksum_value_in_hex" CHECKSUMTYPE="SHA-1" ADMID="techMD.ref3456_000001m_jhove">
-  <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="assets/databrary-2-container-2/data/ref3456_000001m.tif"/>
-      </mets:file>
-      <mets:file ID="ref3456_000002m" MIMETYPE="image/tiff" CHECKSUM="this_should_be_a_sha1_checksum_value_in_hex" CHECKSUMTYPE="SHA-1" ADMID="techMD.ref3456_000002m_jhove">
-  <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="assets/databrary-2-container-2/data/ref3456_000002m.tif"/>
-      </mets:file>
-      <mets:file ID="ref3456_000003m" MIMETYPE="image/tiff" CHECKSUM="this_should_be_a_sha1_checksum_value_in_hex" CHECKSUMTYPE="SHA-1" ADMID="techMD.ref3456_000003m_jhove">
-  <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="assets/databrary-2-container-2/data/ref3456_000003m.tif"/>
-      </mets:file>
-      <mets:file ID="ref3456_000004m" MIMETYPE="image/tiff" CHECKSUM="this_should_be_a_sha1_checksum_value_in_hex" CHECKSUMTYPE="SHA-1" ADMID="techMD.ref3456_000004m_jhove">
-  <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="assets/databrary-2-container-2/data/ref3456_000004m.tif"/>
-      </mets:file>
-      <mets:file ID="ref3456_bk01m" MIMETYPE="image/tiff" CHECKSUM="this_should_be_a_sha1_checksum_value_in_hex" CHECKSUMTYPE="SHA-1" ADMID="techMD.ref3456_bk01m_jhove">
-  <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="assets/databrary-2-container-2/data/ref3456_bk01m.tif"/>
-      </mets:file>
-    </mets:fileGrp>
-    <mets:fileGrp USE="DMAKER">
-      <mets:file ID="ref3456-fr01d" MIMETYPE="image/tiff" CHECKSUM="this_should_be_a_sha1_checksum_value_in_hex" CHECKSUMTYPE="SHA-1">
-  <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="assets/databrary-2-container-2/data/ref3456-fr01d.tif"/>
-      </mets:file>
-      <mets:file ID="ref3456-fr02d" MIMETYPE="image/tiff" CHECKSUM="this_should_be_a_sha1_checksum_value_in_hex" CHECKSUMTYPE="SHA-1">
-  <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="assets/databrary-2-container-2/data/ref3456-fr02d.tif"/>
-      </mets:file>
-      <mets:file ID="ref3456-fr03d" MIMETYPE="image/tiff" CHECKSUM="this_should_be_a_sha1_checksum_value_in_hex" CHECKSUMTYPE="SHA-1">
-  <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="assets/databrary-2-container-2/data/ref3456-fr03d.tif"/>
-      </mets:file>
-      <mets:file ID="ref3456-fr04d" MIMETYPE="image/tiff" CHECKSUM="this_should_be_a_sha1_checksum_value_in_hex" CHECKSUMTYPE="SHA-1">
-  <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="assets/databrary-2-container-2/data/ref3456-fr04d.tif"/>
-      </mets:file>
-      <mets:file ID="ref3456_000001d" MIMETYPE="image/tiff" CHECKSUM="this_should_be_a_sha1_checksum_value_in_hex" CHECKSUMTYPE="SHA-1">
-  <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="assets/databrary-2-container-2/data/ref3456_000001d.tif"/>
-      </mets:file>
-      <mets:file ID="ref3456_000002d" MIMETYPE="image/tiff" CHECKSUM="this_should_be_a_sha1_checksum_value_in_hex" CHECKSUMTYPE="SHA-1">
-  <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="assets/databrary-2-container-2/data/ref3456_000002d.tif"/>
-      </mets:file>
-      <mets:file ID="ref3456_000003d" MIMETYPE="image/tiff" CHECKSUM="this_should_be_a_sha1_checksum_value_in_hex" CHECKSUMTYPE="SHA-1">
-  <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="assets/databrary-2-container-2/data/ref3456_000003d.tif"/>
-      </mets:file>
-      <mets:file ID="ref3456_000004d" MIMETYPE="image/tiff" CHECKSUM="this_should_be_a_sha1_checksum_value_in_hex" CHECKSUMTYPE="SHA-1">
-  <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="assets/databrary-2-container-2/data/ref3456_000004d.tif"/>
-      </mets:file>
-      <mets:file ID="ref3456_bk01d" MIMETYPE="image/tiff" CHECKSUM="this_should_be_a_sha1_checksum_value_in_hex" CHECKSUMTYPE="SHA-1">
-  <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="assets/databrary-2-container-2/data/ref3456_bk01d.tif"/>
-      </mets:file>
     </mets:fileGrp>
   </mets:fileSec>
   <!-- REQ - PHYSICAL struct map describes the structure of the original object, e.g., text -->
@@ -113,34 +63,6 @@
   <mets:fptr FILEID="ref3456-fr02m"/>
   <mets:fptr FILEID="ref3456-fr02d"/>
       </mets:div>
-      <mets:div ID="ref3456-fr03_physical" ORDER="2" TYPE="PAGE">
-  <mets:fptr FILEID="ref3456-fr03m"/>
-  <mets:fptr FILEID="ref3456-fr03d"/>
-      </mets:div>
-      <mets:div ID="ref3456-fr04_physical" ORDER="3" TYPE="PAGE">
-  <mets:fptr FILEID="ref3456-fr04m"/>
-  <mets:fptr FILEID="ref3456-fr04d"/>
-      </mets:div>
-      <mets:div ID="ref3456_000001_physical" ORDER="4" TYPE="PAGE">
-  <mets:fptr FILEID="ref3456_000001m"/>
-  <mets:fptr FILEID="ref3456_000001d"/>
-      </mets:div>
-      <mets:div ID="ref3456_000002_physical" ORDER="5" TYPE="PAGE">
-  <mets:fptr FILEID="ref3456_000002m"/>
-  <mets:fptr FILEID="ref3456_000002d"/>
-      </mets:div>
-      <mets:div ID="ref3456_000003_physical" ORDER="6" TYPE="PAGE">
-  <mets:fptr FILEID="ref3456_000003m"/>
-  <mets:fptr FILEID="ref3456_000003d"/>
-      </mets:div>
-      <mets:div ID="ref3456_000004_physical" ORDER="7" TYPE="PAGE">
-  <mets:fptr FILEID="ref3456_000004m"/>
-  <mets:fptr FILEID="ref3456_000004d"/>
-      </mets:div>
-      <mets:div ID="ref3456_bk01_physical" ORDER="8" TYPE="PAGE">
-  <mets:fptr FILEID="ref3456_bk01m"/>
-  <mets:fptr FILEID="ref3456_bk01d"/>
-      </mets:div>
     </mets:div>
   </mets:structMap>
   <!-- RECIA - LOGICAL structMap is RECIA, e.g., if there are multiple intellectual entities in one AIP -->
@@ -154,34 +76,6 @@
       <mets:div ID="ref3456-fr02" ORDER="1" TYPE="PAGE">
   <mets:fptr FILEID="ref3456-fr02m"/>
   <mets:fptr FILEID="ref3456-fr02d"/>
-      </mets:div>
-      <mets:div ID="ref3456-fr03" ORDER="2" TYPE="PAGE">
-  <mets:fptr FILEID="ref3456-fr03m"/>
-  <mets:fptr FILEID="ref3456-fr03d"/>
-      </mets:div>
-      <mets:div ID="ref3456-fr04" ORDER="3" TYPE="PAGE">
-  <mets:fptr FILEID="ref3456-fr04m"/>
-  <mets:fptr FILEID="ref3456-fr04d"/>
-      </mets:div>
-      <mets:div ID="ref3456_000001" ORDER="4" TYPE="PAGE">
-  <mets:fptr FILEID="ref3456_000001m"/>
-  <mets:fptr FILEID="ref3456_000001d"/>
-      </mets:div>
-      <mets:div ID="ref3456_000002" ORDER="5" TYPE="PAGE">
-  <mets:fptr FILEID="ref3456_000002m"/>
-  <mets:fptr FILEID="ref3456_000002d"/>
-      </mets:div>
-      <mets:div ID="ref3456_000003" ORDER="6" TYPE="PAGE">
-  <mets:fptr FILEID="ref3456_000003m"/>
-  <mets:fptr FILEID="ref3456_000003d"/>
-      </mets:div>
-      <mets:div ID="ref3456_000004" ORDER="7" TYPE="PAGE">
-  <mets:fptr FILEID="ref3456_000004m"/>
-  <mets:fptr FILEID="ref3456_000004d"/>
-      </mets:div>
-      <mets:div ID="ref3456_bk01" ORDER="8" TYPE="PAGE">
-  <mets:fptr FILEID="ref3456_bk01m"/>
-  <mets:fptr FILEID="ref3456_bk01d"/>
       </mets:div>
     </mets:div>
   </mets:structMap>
