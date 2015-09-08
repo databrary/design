@@ -10,7 +10,7 @@ Definitions of tasks
 
 Stimuli 
 
-What is your collection methodolady!
+What is your collection methodology!
 
 What stage! 
 

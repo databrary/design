@@ -31,3 +31,35 @@ OCLC descriptive metadata standards - http://www.oclc.org/content/dam/research/a
 
 ##Suitable examples
 dataset example(?) - https://pythonhosted.org/MyTARDIS/ref/mets-example.html
+
+
+##File_Directory_Template
+
+├── <MAIN AIP PATH - VOLUME #>/
+│   ├── databrary-#-aip.xml           # mets: overarching metadata map
+│   ├── databrary-#-aip-rights.xml    # mets: for whole volume - owner/contributor
+│   ├── databrary-#-aip-dmd.xml       # mods, dublin core: whole volume
+│   ├── databrary-#-container-id.xml  # mets: file & md location for descriptive, rights, and technical md
+│   ├── databrary-#-container-id.xml  # "
+│   ├── databrary-#-container-id.xml  # "
+│   ├── <ASSETS>
+│   │   ├── <databrary-#-container-id>
+│   │   │   ├── <data>
+│   │   │   │    ├── 356a192b7913b04c54574d18c28d46e6395428ab 
+│   │   │   │    ├── da4b9237bacccdf19c0760cab7aec4a8359010b0
+│   │   │   │    ├── 77de68daecd823babbb58edb1c8e14d7106e83bb
+│   │   │   ├── <metadata>
+│   │   │   │    ├── <rights>
+│   │   │   │    │    ├── 356a192b7913b04c54574d18c28d46e6395428ab.xml #METS
+│   │   │   │    │    ├── da4b9237bacccdf19c0760cab7aec4a8359010b0.xml #METS
+│   │   │   │    │    ├── 77de68daecd823babbb58edb1c8e14d7106e83bb.xml #METS
+│   │   │   │    ├── <dmd>
+│   │   │   │    │    ├── 356a192b7913b04c54574d18c28d46e6395428ab.xml #??? 
+│   │   │   │    │    ├── da4b9237bacccdf19c0760cab7aec4a8359010b0.xml #???
+│   │   │   │    │    ├── 77de68daecd823babbb58edb1c8e14d7106e83bb.xml #???
+│   │   │   │    ├── <techmd>
+│   │   │   │    │    ├── 356a192b7913b04c54574d18c28d46e6395428ab.xml #METS: reVTMD, PREMIS
+│   │   │   │    │    ├── da4b9237bacccdf19c0760cab7aec4a8359010b0.xml #METS: reVTMD, PREMIS
+│   │   │   │    │    ├── 77de68daecd823babbb58edb1c8e14d7106e83bb.xml #METS: reVTMD, PREMIS
+│   │   ├── <databrary-#-container-id>
+│   │   ├── <databrary-#-container-id>
