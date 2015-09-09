@@ -13,27 +13,29 @@
     </mets:agent>
   </mets:metsHdr>
   <mets:dmdSec ID="dmd_001">
-    <mets:mdRef LOCTYPE="URL" xlink:type="simple" xlink:href="assets/databrary-2-container-2/metadata/dmd/ref3456_mods.xml" MDTYPE="MODS" CHECKSUM="this_should_be_a_sha1_checksum_value_in_hex"
+    <!-- QUESTION - this is where it gets a little confusing, what to do with more than one file per container --- most likely this won't be very useful in our case OR maybe this is where the descriptive metadata for the session goes - might be the only thing that is Databrary specific -DSG- -->
+    <mets:mdRef LOCTYPE="URL" xlink:type="simple" xlink:href="assets/databrary-2-container-2/metadata/dmd/container_2_mods.xml" MDTYPE="MODS" CHECKSUM="this_should_be_a_sha1_checksum_value_in_hex"
     CHECKSUMTYPE="SHA-1"/>
   </mets:dmdSec>
   <mets:dmdSec ID="dmd_002">
-    <mets:mdRef LOCTYPE="URL" xlink:type="simple" xlink:href="assets/databrary-2-container-2/metadata/dmd/ref3456_marc.xml" MDTYPE="MARC" CHECKSUM="this_should_be_a_sha1_checksum_value_in_hex"
+    <mets:mdRef LOCTYPE="URL" xlink:type="simple" xlink:href="assets/databrary-2-container-2/metadata/dmd/container_2_dc.xml" MDTYPE="DC" CHECKSUM="this_should_be_a_sha1_checksum_value_in_hex"
     CHECKSUMTYPE="SHA-1"/>
   </mets:dmdSec>
   <!-- REC - Use of broadly adopted technical metadata standards and practices -->
+  <!-- QUESTION - it is recommended, but not required, might not have administrative metadata at the session level -DSG- -->
   <mets:amdSec ID="amd_001">
-    <mets:techMD ID="techMD.ref3456_techmd">
-      <mets:mdRef LOCTYPE="URL" xlink:type="simple" xlink:href="assets/databrary-2-container-2/metadata/ref3456_techmd.xml" MDTYPE="OTHER" OTHERMDTYPE="IMAGEDEVICE"
+    <mets:techMD ID="...">
+      <mets:mdRef LOCTYPE="URL" xlink:type="simple" xlink:href="assets/databrary-2-container-2/metadata/techmd/<...>.xml" MDTYPE="OTHER" OTHERMDTYPE="IMAGEDEVICE"
       CHECKSUM="this_should_be_a_sha1_checksum_value_in_hex" CHECKSUMTYPE="SHA-1"/>
     </mets:techMD>
-    <mets:techMD ID="techMD.ref3456-fr01m_jhove">
-      <mets:mdRef LOCTYPE="URL" xlink:type="simple" xlink:href="assets/databrary-2-container-2/metadata/ref3456-fr01m_jhove.xml" MDTYPE="OTHER" OTHERMDTYPE="JHOVE"
+    <mets:techMD ID="...">
+      <mets:mdRef LOCTYPE="URL" xlink:type="simple" xlink:href="assets/databrary-2-container-2/metadata/techmd/<...>.xml" MDTYPE="OTHER" OTHERMDTYPE="JHOVE"
       CHECKSUM="this_should_be_a_sha1_checksum_value_in_hex" CHECKSUMTYPE="SHA-1"/>
     </mets:techMD>
     <!-- REQ - Use of METSRights schema for rights metadata -->
     <!--       Rights metadata may be associated at the fileGrp, file, parent or child div elements -->
-    <mets:rightsMD ID="ref3456_rightsmd">
-      <mets:mdRef LOCTYPE="URL" xlink:type="simple" xlink:href="" MDTYPE="METSRIGHTS"
+    <mets:rightsMD ID="...">
+      <mets:mdRef LOCTYPE="URL" xlink:type="simple" xlink:href="..." MDTYPE="METSRIGHTS"
       CHECKSUM="this_should_be_a_sha1_checksum_value_in_hex" CHECKSUMTYPE="SHA-1"/>
     </mets:rightsMD>
   </mets:amdSec>
@@ -42,41 +44,31 @@
     <!--         MASTER and DMAKER use are examples. The vocabulary may differ by DISSEMINATOR. -->
     <!-- REQIA - MIMETYPE attribute -->
     <!-- Image device settings technical metadata attached to MASTER fileGrp -->
-    <mets:fileGrp ADMID="techMD.ref3456_techmd" USE="MASTER">
-      <mets:file ID="ref3456-fr01m" MIMETYPE="image/tiff" CHECKSUM="this_should_be_a_sha1_checksum_value_in_hex" CHECKSUMTYPE="SHA-1" ADMID="techMD.ref3456-fr01m_jhove">
-  <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="assets/databrary-2-container-2/data/ref3456-fr01m.tif"/>
+    <mets:fileGrp ADMID="..." USE="ORIGINAL">
+      <!-- QUESITON - how do we want to actually go about the file location? considering this is an object store and not a file store -DSG- -->
+      <mets:file ID="..." MIMETYPE="video/..." CHECKSUM="this_should_be_a_sha1_checksum_value_in_hex" CHECKSUMTYPE="SHA-1" ADMID="...">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="assets/databrary-2-container-2/data/<SHA-1-ID>"/>
       </mets:file>
-      <mets:file ID="ref3456-fr02m" MIMETYPE="image/tiff" CHECKSUM="this_should_be_a_sha1_checksum_value_in_hex" CHECKSUMTYPE="SHA-1" ADMID="techMD.ref3456-fr02m_jhove">
-  <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="assets/databrary-2-container-2/data/ref3456-fr02m.tif"/>
+      <mets:file ID="..." MIMETYPE="video/..." CHECKSUM="this_should_be_a_sha1_checksum_value_in_hex" CHECKSUMTYPE="SHA-1" ADMID="...">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="assets/databrary-2-container-2/data/<SHA-1-ID>"/>
+      </mets:file>
+    </mets:fileGrp>
+    <mets:fileGrp ADMID="..." USE="TRANSCODED">
+      <mets:file ID="..." MIMETYPE="video/mp4" CHECKSUM="this_should_be_a_sha1_checksum_value_in_hex" CHECKSUMTYPE="SHA-1" ADMID="...">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="assets/databrary-2-container-2/data/<SHA-1-ID>"/>
+      </mets:file>
+      <mets:file ID="..." MIMETYPE="video/mp4" CHECKSUM="this_should_be_a_sha1_checksum_value_in_hex" CHECKSUMTYPE="SHA-1" ADMID="...">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="assets/databrary-2-container-2/data/<SHA-1-ID>"/>
       </mets:file>
     </mets:fileGrp>
   </mets:fileSec>
   <!-- REQ - PHYSICAL struct map describes the structure of the original object, e.g., text -->
   <!--       ORDER attribute provides authoritative info regarding page sequencing -->
   <mets:structMap TYPE="PHYSICAL">
-    <mets:div ID="ref3456_physical" ADMID="ref3456_rightsmd">
-      <mets:div ID="ref3456-fr01_physical" ORDER="0" TYPE="PAGE">
-  <mets:fptr FILEID="ref3456-fr01m"/>
-  <mets:fptr FILEID="ref3456-fr01d"/>
-      </mets:div>
-      <mets:div ID="ref3456-fr02_physical" ORDER="1" TYPE="PAGE">
-  <mets:fptr FILEID="ref3456-fr02m"/>
-  <mets:fptr FILEID="ref3456-fr02d"/>
-      </mets:div>
-    </mets:div>
+      <!-- QUESTION - is this the undoing of this organizational structure? this is required but the file structure is determined by the container/session, which we are trying to reflect over all in how the metadata and files are organized in the package... -DSG- -->
   </mets:structMap>
   <!-- RECIA - LOGICAL structMap is RECIA, e.g., if there are multiple intellectual entities in one AIP -->
   <!--         then there will be one LOGICAL structMap per intellectual entity -->
   <mets:structMap TYPE="LOGICAL">
-    <mets:div ID="ref3456_logical" ADMID="ref3456_rightsmd">
-      <mets:div ID="ref3456-fr01" ORDER="0" TYPE="PAGE">
-  <mets:fptr FILEID="ref3456-fr01m"/>
-  <mets:fptr FILEID="ref3456-fr01d"/>
-      </mets:div>
-      <mets:div ID="ref3456-fr02" ORDER="1" TYPE="PAGE">
-  <mets:fptr FILEID="ref3456-fr02m"/>
-  <mets:fptr FILEID="ref3456-fr02d"/>
-      </mets:div>
-    </mets:div>
-  </mets:structMap>
+    
 </mets:mets>
