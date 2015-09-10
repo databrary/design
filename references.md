@@ -17,7 +17,6 @@
 - [PLoS](http://www.plos.org), @plos
 - [Wiley Open Access](http://www.wileyopenaccess.com/view/index.html), @wileyopenaccess
 - [Faculty of 1000](https://f1000research.com/)
-- [Gigascience](http://www.gigasciencejournal.com/)
 - [Scientific Data from Nature Publishing](http://www.nature.com/sdata/)
 - [Collabra](http://www.collabra.org/) from California Digital Libraries
 
@@ -34,7 +33,6 @@
 - [DOAR - directory of open access repositories](http://opendoar.org/)
 
 ### Domain General
-- [ICPSR](http://www.icpsr.umich.edu/icpsrweb/landing.jsp)
 - [MyOpenArchive](http://myopenarchive.org/), @myopenarchive, **shut down as of 2013-11-24**
 - [Open Repository](http://www.openrepository.com/), @OpenRepository
 - [FigShare](http://figshare.com/), @figshare
@@ -56,7 +54,6 @@
 - [CHILDES](http://childes.psy.cmu.edu/)
 - [WordBank](http://wordbank.stanford.edu/). MacArthur CDI archive.
 - [ICPSR](http://www.icpsr.umich.edu/icpsrweb/landing.jsp)
-- [Dataverse](http://thedata.org/)
 - [Journal of Open Psychology Data](http://openpsychologydata.metajnl.com/about/)
 - [PsychFileDrawer.org](http://psychfiledrawer.org/)
 - [Reproducibility Project](http://openscienceframework.org/project/EZcUj/wiki/home)
@@ -97,7 +94,6 @@
 - [John Richards Neurodevelopmental MRI Database](http://jerlab.psych.sc.edu/NeurodevelopmentalMRIDatabase/)
 - [NeuroVault: a new home for all brain statistical maps!](http://neurovault.org/)
 - [INDI - International Data-sharing Initiative](http://fcon_1000.projects.nitrc.org/) Part of 1000 resting state fMRI project.
-- [OASIS](http://www.oasis-brains.org/)
 - [fmridc.org/defaultsite](http://fmridc.org/defaultsite)
 - [Collaborative Research in Computational Neuroscience -- CRCNS](http://crcns.org/)
 - [Neuro Bureau](http://www.neurobureau.org/)
