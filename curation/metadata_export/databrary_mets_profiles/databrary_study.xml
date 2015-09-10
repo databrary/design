@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mets:mets xmlms:mets="http://www.loc.gov/METS/"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:premis="info:lc/xmlns/premis-v2"
+    xmlns:revtmd="http://nwtssite.nwts.nara/schema/"
+    xsi:schemaLocation="http://www.loc.gov/METS/ http://www.loc.gov/standards/mets/mets.xsd 
+    http://www.loc.gov/mods/v3  http://www.loc.gov/standards/mods/v3/mods-3-6.xsd
+    http://purl.org/dc/elements/1.1/ http://dublincore.org/schemas/xmls/qdc/2008/02/11/dc.xsd
+    info:lc/xmlns/premis-v2 http://www.loc.gov/standards/premis/v2/premis-v2-3.xsd
+    http://nwtssite.nwts.nara/schema/ http://www.archives.gov/preservation/products/reVTMD.xsd" 
+    OBJID="doi:<DOI>" 
+    TYPE="Databrary Dataset" 
+    LABEL="<STUDY TITLE">
+  <mets:metsHdr CREATEDATE="2015-09-02T17:05:07" LASTMODDATE="2015-09-02T18:25:37">
+    <mets:agent ROLE="CREATOR" TYPE="ORGANIZATION">
+      <mets:name>Databrary, New York University</mets:name>
+    </mets:agent>
+  </metsHdr>
+  <mets:dmdSec ID="DM0">
+    <mets:mdWrap MDTYPE="MODS">
+      <mets:xmlData>
+        <mods:mods>
+          <!-- MODS HERE (pick one) -->      
+        </mods:mods>
+      </mets:xmlData>
+    </mets:mdWrap>
+  </mets:dmdSec>
+  <mets:dmdSec ID="DM0">
+    <mets:mdWrap MDTYPE="DC">
+      <mets:xmlData>
+        <dc:dc>
+          <!-- DUBLIN CORE HERE (pick one)-->      
+        </dc:dc>
+      </mets:xmlData>
+      </mets:mdWrap>
+  </mets:dmdSec>
+  <mets:amdSec>
+    <mets:rightsMD ID="aip-rmd">
+      <mdRef LOCTYPE="URL" MDTYPE="METSRIGHTS" CHECKSUM="this_should_be_a_sha1_checksum_value_in_hex" CHECKSUMTYPE="SHA-1" xlink:href="databrary-2-aip-rights.xml"/>
+    </mets:rightsMD>
+  </mets:amdSec>
+  <mets:fileSec>
+    <mets:fileGrp>
+      <mets:file ID="file-0" CHECKSUM="this_should_be_a_sha1_checksum_value_in_hex" CHECKSUMTYPE="SHA-1">
+        <mets:FLocat LOCTYPE="URL" xlink:href="databrary-<ID>-container-<ID>.xml"/>
+      </mets:file>
+      <mets:file ID="file-1" CHECKSUM="this_should_be_a_sha1_checksum_value_in_hex" CHECKSUMTYPE="SHA-1">
+        <mets:FLocat LOCTYPE="URL" xlink:href="databrary-<ID>-container-<ID>.xml"/>
+      </mets:file>      
+      <!-- and so on, for each container in a study there will be an xml file in the root directory -->    
+    </mets:fileGrp>
+  </mets:fileSec>
+  <mets:structMap>
+    <!-- What order is all this supposed to be in (by it's addition to databrary right now) -->
+  </mets:structMap>
+
+</mets:mets>

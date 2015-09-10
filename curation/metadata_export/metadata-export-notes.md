@@ -21,6 +21,9 @@ metadata export notes
 - How do we accurately reflect rights when we are not 100% certain that the contributor is the original owner of the data
 - should an AIP consist of just one big huge mets file, or a mets file for the study and then mets files for all of the assets in a study linking them to the study?
 - regarding the above, it doesn't seem to make sense to make an individuals mets document for each file since there could be thousands of under-described assets that don't exactly have meaning outside of the context of the study...but, how to have administrative metadata for each file in the context of the study. That is: semantics attached to the dataset, administration attachd to the files.
+- Where to add annotations on files (as well as on studies)?
+- Link to JSON API as an external reference?
+- URIs for databrary structMap TYPES? - see: https://github.com/cul/cul_hydra/blob/84be3a449d04c016509030472a43466a6f9e5e8f/fixtures/spec/STRUCTMAP/structmap-nested2.xml
 
 ##Links
 overview - http://jodyderidder.com/metadata/mets.html
@@ -29,8 +32,10 @@ research data alliance metadata directory - http://rd-alliance.github.io/metadat
 cdl guidelines for digital objects - http://www.cdlib.org/services/access_publishing/dsc/contribute/docs/GDO.pdf
 OCLC descriptive metadata standards - http://www.oclc.org/content/dam/research/activities/culturalmaterials/RLG_desc_metadata.pdf
 
+
 ##Suitable examples
 dataset example(?) - https://pythonhosted.org/MyTARDIS/ref/mets-example.html
+profile example - https://github.com/pulibrary/BlueMountain/wiki/METS-profiles
 
 
 ##File_Directory_Template

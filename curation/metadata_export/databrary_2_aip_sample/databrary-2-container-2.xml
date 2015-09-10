@@ -22,8 +22,22 @@
     CHECKSUMTYPE="SHA-1"/>
   </mets:dmdSec>
   <!-- REC - Use of broadly adopted technical metadata standards and practices -->
-  <!-- QUESTION - it is recommended, but not required, might not have administrative metadata at the session level -DSG- -->
+  <!-- COMMENT- Use this element for the access permissions for the container? -DSG- -->
   <mets:amdSec ID="amd_001">
+    <!-- REQ - Use of METSRights schema for rights metadata -->
+    <!--       Rights metadata may be associated at the fileGrp, file, parent or child div elements -->
+    <mets:rightsMD ID="RIGHTS_<CONTAINER_ID>">
+      <mets:mdWrap MDTYPE="OTHER">
+        <mets:xmlData>
+          <rights:RightsDeclarationMD>
+            <rights:Context CONTEXTCLASS="GENERAL PUBLIC">
+             <!-- QUESTION - Permissions to access here? -DSG- --> 
+            </rights:Context>
+          </rights:RightsDeclarationMD>
+        </mets:xmlData>
+      </mets:mdWrap>
+    </mets:rightsMD>
+    <!-- MAY NOT NEED TECHMD at container level -DSG-
     <mets:techMD ID="...">
       <mets:mdRef LOCTYPE="URL" xlink:type="simple" xlink:href="assets/databrary-2-container-2/metadata/techmd/<...>.xml" MDTYPE="OTHER" OTHERMDTYPE="IMAGEDEVICE"
       CHECKSUM="this_should_be_a_sha1_checksum_value_in_hex" CHECKSUMTYPE="SHA-1"/>
@@ -32,8 +46,7 @@
       <mets:mdRef LOCTYPE="URL" xlink:type="simple" xlink:href="assets/databrary-2-container-2/metadata/techmd/<...>.xml" MDTYPE="OTHER" OTHERMDTYPE="JHOVE"
       CHECKSUM="this_should_be_a_sha1_checksum_value_in_hex" CHECKSUMTYPE="SHA-1"/>
     </mets:techMD>
-    <!-- REQ - Use of METSRights schema for rights metadata -->
-    <!--       Rights metadata may be associated at the fileGrp, file, parent or child div elements -->
+    `-->
     <mets:rightsMD ID="...">
       <mets:mdRef LOCTYPE="URL" xlink:type="simple" xlink:href="..." MDTYPE="METSRIGHTS"
       CHECKSUM="this_should_be_a_sha1_checksum_value_in_hex" CHECKSUMTYPE="SHA-1"/>
@@ -46,10 +59,10 @@
     <!-- Image device settings technical metadata attached to MASTER fileGrp -->
     <mets:fileGrp ADMID="..." USE="ORIGINAL">
       <!-- QUESITON - how do we want to actually go about the file location? considering this is an object store and not a file store -DSG- -->
-      <mets:file ID="..." MIMETYPE="applicaiton/pdf" CHECKSUM="this_should_be_a_sha1_checksum_value_in_hex" CHECKSUMTYPE="SHA-1" ADMID="...">
+      <mets:file ID="OR_PLACEHOLDER1" MIMETYPE="applicaiton/pdf" CHECKSUM="this_should_be_a_sha1_checksum_value_in_hex" CHECKSUMTYPE="SHA-1" ADMID="...">
         <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="assets/databrary-2-container-2/data/<SHA-1-ID>"/>
       </mets:file>
-      <mets:file ID="..." MIMETYPE="text/csv" CHECKSUM="this_should_be_a_sha1_checksum_value_in_hex" CHECKSUMTYPE="SHA-1" ADMID="...">
+      <mets:file ID="OR_PLACEHOLDER2" MIMETYPE="text/csv" CHECKSUM="this_should_be_a_sha1_checksum_value_in_hex" CHECKSUMTYPE="SHA-1" ADMID="...">
         <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="assets/databrary-2-container-2/data/<SHA-1-ID>"/>
       </mets:file>
     </mets:fileGrp>
@@ -65,10 +78,11 @@
   <!-- REQ - PHYSICAL struct map describes the structure of the original object, e.g., text -->
   <!--       ORDER attribute provides authoritative info regarding page sequencing -->
   <mets:structMap TYPE="PHYSICAL">
-      <!-- QUESTION - is this the undoing of this organizational structure? this is required but the file structure is determined by the container/session, which we are trying to reflect over all in how the metadata and files are organized in the package... -DSG- -->
       <!-- COMMENT - Databrary containers, as are being described here, don't necessarily have a hard and fast physical order, they are being created as entities within Databrary, their physical structure prior to which might be irrelevant (though not in all cases) -DSG- -->
     <mets:div DMDID="dmd_001" TYPE="dbc:databraryContainer">
+      <mets:fptr FILEID="OR_PLACEHOLDER1"/>
       <mets:fptr FILEID="TR_PLACEHOLDER1"/>
+      <mets:fptr FILEID="OR_PLACEHOLDER2"/>
       <mets:fptr FILEID="TR_PLACEHOLDER2"/>
     </mets:div>
   </mets:structMap>
@@ -76,7 +90,9 @@
   <!--         then there will be one LOGICAL structMap per intellectual entity -->
   <mets:structMap TYPE="LOGICAL">
     <mets:div DMDID="dmd_001" TYPE="dbc:databraryContainer">
+      <mets:fptr FILEID="OR_PLACEHOLDER1"/>
       <mets:fptr FILEID="TR_PLACEHOLDER1"/>
+      <mets:fptr FILEID="OR_PLACEHOLDER2"/>
       <mets:fptr FILEID="TR_PLACEHOLDER2"/>
     </mets:div>
 

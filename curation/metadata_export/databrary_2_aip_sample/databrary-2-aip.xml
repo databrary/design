@@ -11,7 +11,7 @@
     OBJID="doi:10.17910/B7159Q" 
     TYPE="Databrary Dataset" 
     LABEL="Databrary Project Events">
-  <!-- I dont know if Databrary Dataset is a fantastic TYPE, but the project events isn't exactly a dataset-->
+  <!-- I dont know if Databrary Dataset is a fantastic TYPE, but the project events, for example, isn't exactly a dataset-->
   <!--
     [HEADER]
   -->
