@@ -46,18 +46,18 @@
     <!-- Image device settings technical metadata attached to MASTER fileGrp -->
     <mets:fileGrp ADMID="..." USE="ORIGINAL">
       <!-- QUESITON - how do we want to actually go about the file location? considering this is an object store and not a file store -DSG- -->
-      <mets:file ID="..." MIMETYPE="video/..." CHECKSUM="this_should_be_a_sha1_checksum_value_in_hex" CHECKSUMTYPE="SHA-1" ADMID="...">
+      <mets:file ID="..." MIMETYPE="applicaiton/pdf" CHECKSUM="this_should_be_a_sha1_checksum_value_in_hex" CHECKSUMTYPE="SHA-1" ADMID="...">
         <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="assets/databrary-2-container-2/data/<SHA-1-ID>"/>
       </mets:file>
-      <mets:file ID="..." MIMETYPE="video/..." CHECKSUM="this_should_be_a_sha1_checksum_value_in_hex" CHECKSUMTYPE="SHA-1" ADMID="...">
+      <mets:file ID="..." MIMETYPE="text/csv" CHECKSUM="this_should_be_a_sha1_checksum_value_in_hex" CHECKSUMTYPE="SHA-1" ADMID="...">
         <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="assets/databrary-2-container-2/data/<SHA-1-ID>"/>
       </mets:file>
     </mets:fileGrp>
     <mets:fileGrp ADMID="..." USE="TRANSCODED">
-      <mets:file ID="..." MIMETYPE="video/mp4" CHECKSUM="this_should_be_a_sha1_checksum_value_in_hex" CHECKSUMTYPE="SHA-1" ADMID="...">
+      <mets:file ID="TR_PLACEHOLDER1" MIMETYPE="application/pdf" CHECKSUM="this_should_be_a_sha1_checksum_value_in_hex" CHECKSUMTYPE="SHA-1" ADMID="...">
         <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="assets/databrary-2-container-2/data/<SHA-1-ID>"/>
       </mets:file>
-      <mets:file ID="..." MIMETYPE="video/mp4" CHECKSUM="this_should_be_a_sha1_checksum_value_in_hex" CHECKSUMTYPE="SHA-1" ADMID="...">
+      <mets:file ID="TR_PLACEHOLDER2" MIMETYPE="text/csv" CHECKSUM="this_should_be_a_sha1_checksum_value_in_hex" CHECKSUMTYPE="SHA-1" ADMID="...">
         <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="assets/databrary-2-container-2/data/<SHA-1-ID>"/>
       </mets:file>
     </mets:fileGrp>
@@ -66,9 +66,18 @@
   <!--       ORDER attribute provides authoritative info regarding page sequencing -->
   <mets:structMap TYPE="PHYSICAL">
       <!-- QUESTION - is this the undoing of this organizational structure? this is required but the file structure is determined by the container/session, which we are trying to reflect over all in how the metadata and files are organized in the package... -DSG- -->
+      <!-- COMMENT - Databrary containers, as are being described here, don't necessarily have a hard and fast physical order, they are being created as entities within Databrary, their physical structure prior to which might be irrelevant (though not in all cases) -DSG- -->
+    <mets:div DMDID="dmd_001" TYPE="dbc:databraryContainer">
+      <mets:fptr FILEID="TR_PLACEHOLDER1"/>
+      <mets:fptr FILEID="TR_PLACEHOLDER2"/>
+    </mets:div>
   </mets:structMap>
   <!-- RECIA - LOGICAL structMap is RECIA, e.g., if there are multiple intellectual entities in one AIP -->
   <!--         then there will be one LOGICAL structMap per intellectual entity -->
   <mets:structMap TYPE="LOGICAL">
-    
+    <mets:div DMDID="dmd_001" TYPE="dbc:databraryContainer">
+      <mets:fptr FILEID="TR_PLACEHOLDER1"/>
+      <mets:fptr FILEID="TR_PLACEHOLDER2"/>
+    </mets:div>
+
 </mets:mets>
