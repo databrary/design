@@ -50,21 +50,12 @@ profile example - https://github.com/pulibrary/BlueMountain/wiki/METS-profiles
 │   ├── <ASSETS>
 │   │   ├── <databrary-#-container-id>
 │   │   │   ├── <data>
-│   │   │   │    ├── 356a192b7913b04c54574d18c28d46e6395428ab 
-│   │   │   │    ├── da4b9237bacccdf19c0760cab7aec4a8359010b0
-│   │   │   │    ├── 77de68daecd823babbb58edb1c8e14d7106e83bb
+│   │   │   │    ├── <vol>_<container>_<asset> 
+│   │   │   │    ├── <vol>_<container>_<asset>
+│   │   │   │    ├── <vol>_<container>_<asset>
 │   │   │   ├── <metadata>
-│   │   │   │    ├── <rights>
-│   │   │   │    │    ├── 356a192b7913b04c54574d18c28d46e6395428ab.xml #METS
-│   │   │   │    │    ├── da4b9237bacccdf19c0760cab7aec4a8359010b0.xml #METS
-│   │   │   │    │    ├── 77de68daecd823babbb58edb1c8e14d7106e83bb.xml #METS
-│   │   │   │    ├── <dmd>
-│   │   │   │    │    ├── 356a192b7913b04c54574d18c28d46e6395428ab.xml #??? 
-│   │   │   │    │    ├── da4b9237bacccdf19c0760cab7aec4a8359010b0.xml #???
-│   │   │   │    │    ├── 77de68daecd823babbb58edb1c8e14d7106e83bb.xml #???
-│   │   │   │    ├── <techmd>
-│   │   │   │    │    ├── 356a192b7913b04c54574d18c28d46e6395428ab.xml #METS: reVTMD, PREMIS
-│   │   │   │    │    ├── da4b9237bacccdf19c0760cab7aec4a8359010b0.xml #METS: reVTMD, PREMIS
-│   │   │   │    │    ├── 77de68daecd823babbb58edb1c8e14d7106e83bb.xml #METS: reVTMD, PREMIS
+│   │   │   │    ├── <vol>_<container>_<asset>.xml #METS/MODS?/PREMIS,REVTMD
+│   │   │   │    ├── <vol>_<container>_<asset>.xml #METS/MODS?/PREMIS,REVTMD
+│   │   │   │    ├── <vol>_<container>_<asset>.xml #METS/MODS?/PREMIS,REVTMD
 │   │   ├── <databrary-#-container-id>
 │   │   ├── <databrary-#-container-id>
