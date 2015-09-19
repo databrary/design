@@ -19,6 +19,7 @@
 - [Faculty of 1000](https://f1000research.com/)
 - [Scientific Data from Nature Publishing](http://www.nature.com/sdata/)
 - [Collabra](http://www.collabra.org/) from California Digital Libraries
+- [The Winnower](https://thewinnower.com/topics)
 
 ## Human research ethics
 - [JERHRE](http://www20.csueastbay.edu/JERHRE/) and [SagePub webpage for it](http://www.sagepub.com/journals/Journal202321)
@@ -157,7 +158,6 @@
 - [LabelMe](http://labelme.csail.mit.edu/Release3.0/), Online annotation tool to build image databases for computer vision research.
 - [labstreaminglayer](https://github.com/sccn/labstreaminglayer), open source software library for "unified collection of measurement time series in research experiments that handles both the networking, time-synchronization, (near-) real-time access as well as optionally the centralized collection, viewing and disk recording of the data."
 - [Emotient](http://emotient.com/), real-time facial emotion analysis of video.
-- 
 
 ### Sports video coding, sharing tools
 - [DataProject](http://www.dataproject.com/Products/IT/en/Volleyball/VideoSharing). Commercial sports video sharing service.
