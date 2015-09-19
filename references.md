@@ -104,6 +104,7 @@
 - [Open Access Series of Imaging Studies (OASIS)](http://www.oasis-brains.org/)
 - [Children's Hospital of Boston/MIT Scalp EEG Database](http://www.physionet.org/pn6/chbmit/). 
 - [EEGBase](https://eegdatabase.kiv.zcu.cz). System for storage, management, sharing and retrieval of EEG/ERP data, metadata, tools and documents related to electrophysiology.
+- [NeuroElectro](http://neuroelectro.org)
 
 #### Computer science, machine learning
 - [ImageNet](http://www.image-net.org/) image database.
