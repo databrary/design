@@ -177,12 +177,12 @@
 - [Open Science Framework](http://openscienceframework.org/), @OSFramework
 - [LabGuru](http://www.labguru.com/), @Labguru
 - [rOpenSci](http://ropensci.org/), @ropensci
-- [IPython](http://ipython.org/), @IPythonDev
 - [Open Notebook Science Network](http://onsnetwork.org/) @onsnetwork
 - [DexyIt -- code commenting](http://dexy.it/)
 - [RStudio](http://www.rstudio.com/)
-- [iPython](http://ipython.org/), now evolved into [Project Jupyter](https://jupyter.org/). 
+- [iPython](http://ipython.org/), @IPythonDev, now evolved into [Project Jupyter](https://jupyter.org/). 
 - [iMotions](http://imotionsglobal.com/), integrating multiple data streams, video, physio, eye tracking
+- [CrowdFlower](http://www.crowdflower.com), like Amazon Mechanical Turk
 
 ### Citation/reference management
 - [Mendeley](http://www.mendeley.com/)
