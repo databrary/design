@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<mets:mets OBJID="databrary-2" 
+     TYPE="mixed media" 
+     xmlns:mets="http://www.loc.gov/METS/" 
+     xmlns:xlink="http://www.w3.org/1999/xlink" 
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.loc.gov/METS/ http://www.loc.gov/standards/mets/version191/mets.xsd">
+  <!-- REQ - AIPTemplate processing instruction indicates AIP template version used to create this AIP -->
+  <?AIPTemplate version="info:nyu/dl/v1.0/templates/aip/v1.0.1"?>
+  <mets:metsHdr CREATEDATE="2015-09-08T17:45:19" LASTMODDATE="2015-09-08T17:45:19" RECORDSTATUS="Completed">
+    <mets:agent ROLE="DISSEMINATOR" TYPE="ORGANIZATION">
+      <mets:name>Databrary.org</mets:name>
+    </mets:agent>
+  </mets:metsHdr>
+  <mets:dmdSec ID="dmd_001">
+    <!-- QUESTION - this is where it gets a little confusing, what to do with more than one file per container --- most likely this won't be very useful in our case OR maybe this is where the descriptive metadata for the session goes - might be the only thing that is Databrary specific -DSG- -->
+    <mets:mdRef LOCTYPE="URL" xlink:type="simple" xlink:href="assets/databrary-2-container-2/metadata/2_11_9.xml" MDTYPE="MODS" CHECKSUM="this_should_be_a_sha1_checksum_value_in_hex"
+    CHECKSUMTYPE="SHA-1"/>
+  </mets:dmdSec>
+  <mets:dmdSec ID="dmd_002">
+    <mets:mdRef LOCTYPE="URL" xlink:type="simple" xlink:href="assets/databrary-2-container-11/metadata/2_11_9.xml" MDTYPE="DC" CHECKSUM="this_should_be_a_sha1_checksum_value_in_hex"
+    CHECKSUMTYPE="SHA-1"/>
+  </mets:dmdSec>
+  <!-- REC - Use of broadly adopted technical metadata standards and practices -->
+  <!-- COMMENT- Use this element for the access permissions for the container? -DSG- -->
+  <mets:amdSec ID="amd_001">
+    <!-- REQ - Use of METSRights schema for rights metadata -->
+    <!--       Rights metadata may be associated at the fileGrp, file, parent or child div elements -->
+    <mets:rightsMD ID="RIGHTS_<CONTAINER_ID>">
+      <mets:mdWrap MDTYPE="OTHER">
+        <mets:xmlData>
+          <rights:RightsDeclarationMD>
+            <rights:Context CONTEXTCLASS="GENERAL PUBLIC">
+             <!-- QUESTION - Permissions to access here? -DSG- --> 
+            </rights:Context>
+          </rights:RightsDeclarationMD>
+        </mets:xmlData>
+      </mets:mdWrap>
+    </mets:rightsMD>
+    <!-- MAY NOT NEED TECHMD at container level -DSG-
+    <mets:techMD ID="...">
+      <mets:mdRef LOCTYPE="URL" xlink:type="simple" xlink:href="assets/databrary-2-container-2/metadata/techmd/<...>.xml" MDTYPE="OTHER" OTHERMDTYPE="IMAGEDEVICE"
+      CHECKSUM="this_should_be_a_sha1_checksum_value_in_hex" CHECKSUMTYPE="SHA-1"/>
+    </mets:techMD>
+    <mets:techMD ID="...">
+      <mets:mdRef LOCTYPE="URL" xlink:type="simple" xlink:href="assets/databrary-2-container-2/metadata/techmd/<...>.xml" MDTYPE="OTHER" OTHERMDTYPE="JHOVE"
+      CHECKSUM="this_should_be_a_sha1_checksum_value_in_hex" CHECKSUMTYPE="SHA-1"/>
+    </mets:techMD>
+    `-->
+    <mets:rightsMD ID="...">
+      <mets:mdRef LOCTYPE="URL" xlink:type="simple" xlink:href="..." MDTYPE="METSRIGHTS"
+      CHECKSUM="this_should_be_a_sha1_checksum_value_in_hex" CHECKSUMTYPE="SHA-1"/>
+    </mets:rightsMD>
+  </mets:amdSec>
+  <mets:fileSec>
+    <!-- REQIA - USE attribute -->
+    <!--         MASTER and DMAKER use are examples. The vocabulary may differ by DISSEMINATOR. -->
+    <!-- REQIA - MIMETYPE attribute -->
+    <!-- Image device settings technical metadata attached to MASTER fileGrp -->
+    <mets:fileGrp ADMID="..." USE="ORIGINAL">
+      <!-- QUESTION - how do we want to actually go about the file location? considering this is an object store and not a file store -DSG- -->
+      <!-- FILE ID is Databrary asset ID -->
+      <mets:file ID="8984" MIMETYPE="video/" CHECKSUM="this_should_be_a_sha1_checksum_value_in_hex" CHECKSUMTYPE="SHA-1" ADMID="...">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="assets/databrary-2-container-2/data/<SHA-1-ID>"/>
+      </mets:file>
+      <mets:file ID="8988" MIMETYPE="video/" CHECKSUM="this_should_be_a_sha1_checksum_value_in_hex" CHECKSUMTYPE="SHA-1" ADMID="...">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="assets/databrary-2-container-2/data/<SHA-1-ID>"/>
+      </mets:file>
+    </mets:fileGrp>
+    <mets:fileGrp ADMID="..." USE="TRANSCODED">
+      <mets:file ID="3" MIMETYPE="video/mp4" CHECKSUM="this_should_be_a_sha1_checksum_value_in_hex" CHECKSUMTYPE="SHA-1" ADMID="...">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="assets/databrary-2-container-2/data/<SHA-1-ID>"/>
+      </mets:file>
+      <mets:file ID="9" MIMETYPE="video/mp4" CHECKSUM="this_should_be_a_sha1_checksum_value_in_hex" CHECKSUMTYPE="SHA-1" ADMID="...">
+        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="assets/databrary-2-container-2/data/<SHA-1-ID>"/>
+      </mets:file>
+    </mets:fileGrp>
+  </mets:fileSec>
+  <!-- REQ - PHYSICAL struct map describes the structure of the original object, e.g., text -->
+  <!--       ORDER attribute provides authoritative info regarding page sequencing -->
+  <mets:structMap TYPE="PHYSICAL">
+      <!-- COMMENT - Databrary containers, as are being described here, don't necessarily have a hard and fast physical order, they are being created as entities within Databrary, their physical structure prior to which might be irrelevant (though not in all cases) -DSG- -->
+      <!-- COMMENT - more specifically, we want to represent how the originals and the transcoded copies relate, and this might not be the best way to do it. -DSG--->
+      <mets:div DMDID="dmd_001" TYPE="dbc:databraryContainer">
+        <mets:fptr FILEID="8984"/>
+        <mets:fptr FILEID="8988"/>
+        <mets:fptr FILEID="3"/>
+        <mets:fptr FILEID="9"/>
+      </mets:div>
+  </mets:structMap>
+  <!-- RECIA - LOGICAL structMap is RECIA, e.g., if there are multiple intellectual entities in one AIP -->
+  <!--         then there will be one LOGICAL structMap per intellectual entity -->
+  <mets:structMap TYPE="LOGICAL">
+    <mets:div TYPE="dbc:databraryContainer">
+      <mets:div DMDID="dmd_001" TYPE="dbc:databraryAsset">
+        <mets:fptr FILEID="8984"/>
+        <mets:fptr FILEID="9"/>
+      </mets:div>
+      <mets:div DMDID="dmd_002" TYPE="dbc:databraryAsset">
+        <mets:fptr FILEID="8988"/>
+        <mets:fptr FILEID="3"/>
+      </mets:div>
+    </mets:div>
+
+</mets:mets>

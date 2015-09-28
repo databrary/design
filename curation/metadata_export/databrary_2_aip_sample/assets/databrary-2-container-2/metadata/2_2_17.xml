@@ -22,13 +22,15 @@
       sha1=<redacted, will appear in actual file>
       asset_size=1022b
     -->
-    <amdSec>
+   <mets:dmdSec>
+   </mets:dmdSec>
+   <mets:amdSec>
       <!-- administrative metadata here, PREMIS,reVTMD-->
-    </amdSec>
-    <fileSec>
-        <fileGrp/>
-    </fileSec>
-    <structMap>
-        <div/>
-    </structMap>
+   </mets:amdSec>
+   <mets:fileSec>
+      <mets:fileGrp/>
+   </mets:fileSec>
+   <mets:structMap>
+      <mets:div/>
+   </mets:structMap>
 </mets>

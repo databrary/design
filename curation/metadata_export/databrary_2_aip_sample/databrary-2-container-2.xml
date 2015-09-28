@@ -14,11 +14,11 @@
   </mets:metsHdr>
   <mets:dmdSec ID="dmd_001">
     <!-- QUESTION - this is where it gets a little confusing, what to do with more than one file per container --- most likely this won't be very useful in our case OR maybe this is where the descriptive metadata for the session goes - might be the only thing that is Databrary specific -DSG- -->
-    <mets:mdRef LOCTYPE="URL" xlink:type="simple" xlink:href="assets/databrary-2-container-2/metadata/dmd/container_2_mods.xml" MDTYPE="MODS" CHECKSUM="this_should_be_a_sha1_checksum_value_in_hex"
+    <mets:mdRef LOCTYPE="URL" xlink:type="simple" xlink:href="assets/databrary-2-container-2/metadata/2_2_16.xml" MDTYPE="MODS" CHECKSUM="this_should_be_a_sha1_checksum_value_in_hex"
     CHECKSUMTYPE="SHA-1"/>
   </mets:dmdSec>
   <mets:dmdSec ID="dmd_002">
-    <mets:mdRef LOCTYPE="URL" xlink:type="simple" xlink:href="assets/databrary-2-container-2/metadata/dmd/container_2_dc.xml" MDTYPE="DC" CHECKSUM="this_should_be_a_sha1_checksum_value_in_hex"
+    <mets:mdRef LOCTYPE="URL" xlink:type="simple" xlink:href="assets/databrary-2-container-2/metadata/2_2_17.xml" MDTYPE="MODS" CHECKSUM="this_should_be_a_sha1_checksum_value_in_hex"
     CHECKSUMTYPE="SHA-1"/>
   </mets:dmdSec>
   <!-- REC - Use of broadly adopted technical metadata standards and practices -->
@@ -67,12 +67,7 @@
       </mets:file>
     </mets:fileGrp>
     <mets:fileGrp ADMID="..." USE="TRANSCODED">
-      <mets:file ID="TR_PLACEHOLDER1" MIMETYPE="application/pdf" CHECKSUM="this_should_be_a_sha1_checksum_value_in_hex" CHECKSUMTYPE="SHA-1" ADMID="...">
-        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="assets/databrary-2-container-2/data/<SHA-1-ID>"/>
-      </mets:file>
-      <mets:file ID="TR_PLACEHOLDER2" MIMETYPE="text/csv" CHECKSUM="this_should_be_a_sha1_checksum_value_in_hex" CHECKSUMTYPE="SHA-1" ADMID="...">
-        <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="assets/databrary-2-container-2/data/<SHA-1-ID>"/>
-      </mets:file>
+      <!-- none of these files were transcoded -->
     </mets:fileGrp>
   </mets:fileSec>
   <!-- REQ - PHYSICAL struct map describes the structure of the original object, e.g., text -->
@@ -80,20 +75,21 @@
   <mets:structMap TYPE="PHYSICAL">
       <!-- COMMENT - Databrary containers, as are being described here, don't necessarily have a hard and fast physical order, they are being created as entities within Databrary, their physical structure prior to which might be irrelevant (though not in all cases) -DSG- -->
     <mets:div DMDID="dmd_001" TYPE="dbc:databraryContainer">
-      <mets:fptr FILEID="OR_PLACEHOLDER1"/>
-      <mets:fptr FILEID="TR_PLACEHOLDER1"/>
-      <mets:fptr FILEID="OR_PLACEHOLDER2"/>
-      <mets:fptr FILEID="TR_PLACEHOLDER2"/>
+      <!-- none of these files were transcoded -->
+      <mets:fptr FILEID="16"/>
+      <mets:fptr FILEID="17"/>
     </mets:div>
   </mets:structMap>
   <!-- RECIA - LOGICAL structMap is RECIA, e.g., if there are multiple intellectual entities in one AIP -->
   <!--         then there will be one LOGICAL structMap per intellectual entity -->
   <mets:structMap TYPE="LOGICAL">
-    <mets:div DMDID="dmd_001" TYPE="dbc:databraryContainer">
-      <mets:fptr FILEID="OR_PLACEHOLDER1"/>
-      <mets:fptr FILEID="TR_PLACEHOLDER1"/>
-      <mets:fptr FILEID="OR_PLACEHOLDER2"/>
-      <mets:fptr FILEID="TR_PLACEHOLDER2"/>
+    <!-- none of these files were transcoded -->
+    <mets:div TYPE="dbc:databraryContainer">
+      <mets:div DMDID="dmd_001" TYPE="dbc:databraryAsset"> 
+        <mets:fptr FILEID="16"/> 
+      </mets:div>
+        <mets:div DMDID="dmd_002" TYPE="dbc:databraryAsset"> 
+        <mets:fptr FILEID="17"/> 
+      </mets:div>
     </mets:div>
-
 </mets:mets>
