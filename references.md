@@ -8,7 +8,7 @@
 
 ## Journals
 
-### Open Access
+### Open Access/Data Journals
 - [Archives of Scientific Psychology](http://www.apa.org/pubs/journals/arc/index.aspx)
 - [Journal of Open Psychology Data](http://openpsychologydata.metajnl.com/about/)
 - [BMJOpen](http://bmjopen.bmj.com/), @BMJ_Open
@@ -20,6 +20,7 @@
 - [Scientific Data from Nature Publishing](http://www.nature.com/sdata/)
 - [Collabra](http://www.collabra.org/) from California Digital Libraries
 - [The Winnower](https://thewinnower.com/topics)
+- [Data in Brief](http://www.journals.elsevier.com/data-in-brief/) from Elsevier
 
 ## Human research ethics
 - [JERHRE](http://www20.csueastbay.edu/JERHRE/) and [SagePub webpage for it](http://www.sagepub.com/journals/Journal202321)
