@@ -120,12 +120,6 @@
   <mets:structMap TYPE="PHYSICAL">
       <!-- COMMENT - Databrary containers, as are being described here, don't necessarily have a hard and fast physical order, they are being created as entities within Databrary, their physical structure prior to which might be irrelevant (though not in all cases) -DSG- -->
       <!-- COMMENT - more specifically, we want to represent how the originals and the transcoded copies relate, and this might not be the best way to do it. -DSG--->
-4   8985
-7   8982
-8   8987
-10  8983
-11  8986  
-14  8981
       <mets:div DMDID="dmd_001" TYPE="dbc:databraryContainer">
         <mets:fptr FILEID="8985"/>
         <mets:fptr FILEID="8982"/>

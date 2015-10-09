@@ -164,5 +164,5 @@
         <mets:fptr FILEID="15"/>
       </mets:div>
     </mets:div>
-
+  </mets:structMap>
 </mets:mets>
