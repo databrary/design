@@ -79,8 +79,42 @@
   </mets:dmdSec>
 
   <mets:amdSec>
-    <mets:rightsMD ID="aip-rmd">
-      <mdRef LOCTYPE="URL" MDTYPE="METSRIGHTS" CHECKSUM="this_should_be_a_sha1_checksum_value_in_hex" CHECKSUMTYPE="SHA-1" xlink:href="databrary-2-aip-rights.xml"/>
+    <!-- How to include excerpts? -->
+    <mets:rightsMD ID="rmd_001">
+      <mets:mdWrap MDTYPE="OTHER" OTHERMDTYPE="METSRights">
+        <mets:xmlData>
+          <rts:RightsDeclarationMD RIGHTSCATEGORY=""> <!--How to define this category?-->
+            <rts:Context CONTEXTCLASS="GENERAL PUBLIC" CONTEXTID="Databrary-000">
+              <rts:Permissions DISPLAY="true" DISCOVER="true" COPY="true" DUPLICATE="true" MODIFY="false" DELETE="false"/>
+              <rts:Constraints>
+                <rts:ConstraintDescription><!-- additional constraint information here --></rts:ConstraintDescription>
+              </rts:Constraints>
+            </rts:Context>
+            <rts:Context CONTEXTCLASS="MANAGED GRP" CONTEXTID="Databrary-001">
+              <rts:UserName>Data Owner</rts:UserName>
+              <rts:Permissions DISCOVER="true" DISPLAY="true" COPY="true" DUPLICATE="true" MODIFY="true" DELETE="true"/>
+              <rts:Constraints>
+                <rts:ConstraintDescription>The data owner group has no restrictions.</rts:ConstraintDescription>
+              </rts:Constraints>
+            </rts:Context>
+            <rts:Context CONTEXTCLASS="MANAGED GRP" CONTEXTID="Databrary-002">
+              <rts:UserName>Authorized User</rts:UserName>
+              <rts:Permissions DISCOVER="true" DISPLAY="true" COPY="true" DUPLICATE="true" MODIFY="false" DELETE="false"/>
+              <rts:Constraints CONSTRAINTTYPE="">
+                <rts:ConstraintDescription><!-- additional constraint information here --></rts:ConstraintDescription>
+              </rts:Constraints>
+            </rts:Context>
+
+            <rts:Context CONTEXTCLASS="MANAGED GRP" CONTEXTID="Databrary-003">
+              <rts:UserName>Collaborators</rts:UserName>
+              <rts:Permissions DISPLAY="true" DISCOVER="true" COPY="true" DUPLICATE="true" MODIFY="true" DELETE="false"/>
+              <rts:Constraints CONSTRAINTTYPE="">
+                <rts:ConstraintDescription><!-- additional constraint information here --></rts:ConstraintDescription>
+              </rts:Constraints>
+            </rts:Context>
+          </rts:RightsDeclarationMD>
+        </mets:xmlData>
+      </mets:mdWrap> 
     </mets:rightsMD>
     <techMD ID="AMD001">
       <!-- Tech metadata for each asset? -->
