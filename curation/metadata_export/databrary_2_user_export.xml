@@ -4,17 +4,18 @@
     xmlns:mods="http://www.loc.gov/mods/v3"
     xmlns:premis="info:lc/xmlns/premis-v2"
     xmlns:revtmd="http://nwtssite.nwts.nara/schema/"
+    xmlns:rts="http://cosimo.stanford.edu/sdr/metsrights/"
     xsi:schemaLocation="http://www.loc.gov/METS/ http://www.loc.gov/standards/mets/mets.xsd 
     http://www.loc.gov/mods/v3  http://www.loc.gov/standards/mods/v3/mods-3-6.xsd
     info:lc/xmlns/premis-v2 http://www.loc.gov/standards/premis/v2/premis-v2-3.xsd
-    http://nwtssite.nwts.nara/schema/ http://www.archives.gov/preservation/products/reVTMD.xsd" 
+    http://nwtssite.nwts.nara/schema/ http://www.archives.gov/preservation/products/reVTMD.xsd 
+    http://cosimo.stanford.edu/sdr/metsrights/ http://cosimo.stanford.edu/sdr/metsrights.xsd" 
     OBJID="doi:10.17910/B7WC7S" 
     TYPE="Databrary Dataset" 
     LABEL="Head-mounted camera views of adults in natural environments">
   <!-- TODO - 
-        1) Sort out administrative md
-        2) desc metadata for dataset AND assets? or just dataset?
-        3) techinical metadata for assets (where)
+        1) desc metadata for dataset, containers, AND assets? or just dataset and containers (that is, where to put databrary name)?
+        2) techinical metadata for assets (where)
   -->
   <mets:metsHdr CREATEDATE="2015-10-09T14:49:07" LASTMODDATE="2015-10-09T14:49:07">
     <mets:agent ROLE="CREATOR" TYPE="ORGANIZATION">
@@ -22,7 +23,7 @@
     </mets:agent>
   </metsHdr>
   
-  <mets:dmdSec ID="dmd001">
+  <mets:dmdSec ID="dmd000">
     <mets:mdWrap MDTYPE="MODS">
       <mets:xmlData>
         <mods:mods>
@@ -69,25 +70,49 @@
             </mods:titleInfo>
             <mods:identifier type="uri"><!--related link here--></identifier>
           </mods:relatedItem>
+          <mods:note type="citation" displayLabel="How To Cite">
+            Gilmore, R.O. (2013). Head-mounted camera views of adults in natural environments. Databrary. Retrieved October 13, 2015 from http://dx.doi.org/10.17910/B7WC7S.
+          </mods:note>
           <mods:note type="contributor" displayLabel="Funder">
-              <!--this might need to be formatted different-->
-              National Science Foundation (NSF): BCS-1147440
+            <!--this might need to be formatted different-->
+            National Science Foundation (NSF): BCS-1147440
           </mods:note>  
         </mods:mods>
       </mets:xmlData>
     </mets:mdWrap>
   </mets:dmdSec>
+  <!--descriptive metadata for containers-->
+  <mets:dmdSec ID="dmd001">
+    <mets:mdRef LOCTYPE="URL" MIMETPE="application/json" MDTYPE="OTHER" LABEL="Container 2 metadata" xling:href="https://nyu.databrary.org/api/volume/2/slot/2?records"/> <!--if service is down, can't access -->
+  </mets:dmdSec>
+  <mets:dmdSec ID="dmd002">
+    <mets:mdRef LOCTYPE="URL" MIMETPE="application/json" MDTYPE="OTHER" LABEL="Container 9 metadata" xling:href="https://nyu.databrary.org/api/volume/2/slot/9?records"/> <!--if service is down, can't access -->
+  </mets:dmdSec>
+  <mets:dmdSec ID="dmd003">
+    <mets:mdRef LOCTYPE="URL" MIMETPE="application/json" MDTYPE="OTHER" LABEL="Container 10 metadata" xling:href="https://nyu.databrary.org/api/volume/2/slot/10?records"/> <!--if service is down, can't access -->
+  </mets:dmdSec>
+  <mets:dmdSec ID="dmd004">
+    <mets:mdRef LOCTYPE="URL" MIMETPE="application/json" MDTYPE="OTHER" LABEL="Container 11 metadata" xling:href="https://nyu.databrary.org/api/volume/2/slot/11?records"/> <!--if service is down, can't access -->
+  </mets:dmdSec>
 
-  <mets:amdSec>
-    <!-- How to include excerpts? -->
+  <mets:amdSec>    
     <mets:rightsMD ID="rmd_001">
       <mets:mdWrap MDTYPE="OTHER" OTHERMDTYPE="METSRights">
         <mets:xmlData>
-          <rts:RightsDeclarationMD RIGHTSCATEGORY=""> <!--How to define this category?-->
+          <rts:RightsDeclarationMD RIGHTSCATEGORY="CONTRACTUAL">
+            <rts:RigthsDeclaration>
+              Each dataset on Databrary represents an individual work owned by the party who contributed it. Data on Databrary is provided for non-commercial use and is subject to the terms of use outlined in the Databrary Access Agreement.
+            </rts:RigthsDeclaration>
+            <rts:RightsHolder>
+              <rts:RightsHolderName><!-- in all cases the data owner? --></rts:RightsHolderName>
+              <rts:RightsHolderContact>
+                <rts:RightsHolderContactEmail><!--Owner Email--></rts:RightsHolderContactEmail>
+              </rts:RightsHolderContact>
+            </rts:RightsHolder>
             <rts:Context CONTEXTCLASS="GENERAL PUBLIC" CONTEXTID="Databrary-000">
               <rts:Permissions DISPLAY="true" DISCOVER="true" COPY="true" DUPLICATE="true" MODIFY="false" DELETE="false"/>
               <rts:Constraints>
-                <rts:ConstraintDescription><!-- additional constraint information here --></rts:ConstraintDescription>
+                <rts:ConstraintDescription></rts:ConstraintDescription>
               </rts:Constraints>
             </rts:Context>
             <rts:Context CONTEXTCLASS="MANAGED GRP" CONTEXTID="Databrary-001">
@@ -101,36 +126,46 @@
               <rts:UserName>Authorized User</rts:UserName>
               <rts:Permissions DISCOVER="true" DISPLAY="true" COPY="true" DUPLICATE="true" MODIFY="false" DELETE="false"/>
               <rts:Constraints CONSTRAINTTYPE="">
-                <rts:ConstraintDescription><!-- additional constraint information here --></rts:ConstraintDescription>
+                <rts:ConstraintDescription></rts:ConstraintDescription>
               </rts:Constraints>
             </rts:Context>
-
             <rts:Context CONTEXTCLASS="MANAGED GRP" CONTEXTID="Databrary-003">
               <rts:UserName>Collaborators</rts:UserName>
               <rts:Permissions DISPLAY="true" DISCOVER="true" COPY="true" DUPLICATE="true" MODIFY="true" DELETE="false"/>
               <rts:Constraints CONSTRAINTTYPE="">
-                <rts:ConstraintDescription><!-- additional constraint information here --></rts:ConstraintDescription>
+                <rts:ConstraintDescription><</rts:ConstraintDescription>
               </rts:Constraints>
             </rts:Context>
           </rts:RightsDeclarationMD>
         </mets:xmlData>
       </mets:mdWrap> 
     </mets:rightsMD>
-    <techMD ID="AMD001">
+     <!--Basically would have to add another one of these if there are multiple types of releases (one for each of the 4 in databrary) - would have to reuse the owner, authorized and collaborators? (not terribly efficient
+    <mets:rightsMD ID="rmd_001">
+      <mets:mdWrap MDTYPE="OTHER" OTHERMDTYPE="METSRights">
+        <mets:xmlData>
+          <rts:RightsDeclarationMD RIGHTSCATEGORY="CONTRACTUAL">
+            ...
+          </rts:RightsDeclarationMD>
+        </mets:xmlData>
+      </mets:mdWrap>
+    -->
+    </mets:rightsMD>
+    <techMD ID="amd_001">
       <!-- Tech metadata for each asset? -->
       <xmlData>
         <revTMD>
         </revTMD>
       </xmlData>  
     </techMD>
-    <techMD ID="AMD002">
+    <techMD ID="amd_002">
       <!-- Tech metadata for each asset? -->
       <xmlData>
-        <revTMD>
+        <revTMD>  
         </revTMD>
       </xmlData>
     </techMD>
-    <techMD ID="AMD003">
+    <techMD ID="amd_003">
       <!-- Tech metadata for each asset? -->
       <xmlData>
         <revTMD>
@@ -141,111 +176,111 @@
   
   <mets:fileSec>
     <mets:fileGrp USE="ORIGINAL">
-      <mets:file ID="16" MIMETYPE="applicaiton/pdf" SIZE="74400" CHECKSUM="this_should_be_a_sha1_checksum_value_in_hex" CHECKSUMTYPE="SHA-1" ADMID="AMD001">
+      <mets:file ID="16" MIMETYPE="applicaiton/pdf" SIZE="74400" CHECKSUM="this_should_be_a_sha1_checksum_value_in_hex" CHECKSUMTYPE="SHA-1" MDID="amd_001">
         <mets:FLocat LOCTYPE="OTHER" xlink:type="simple" xlink:href="<filesystem>/<sha-head>/<sha-tail>"/>
         <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="https://nyu.databrary.org/asset/16"/>
       </mets:file>
-      <mets:file ID="17" MIMETYPE="text/csv" SIZE="1022" CHECKSUM="this_should_be_a_sha1_checksum_value_in_hex" CHECKSUMTYPE="SHA-1" ADMID="AMD002">
+      <mets:file ID="17" MIMETYPE="text/csv" SIZE="1022" CHECKSUM="this_should_be_a_sha1_checksum_value_in_hex" CHECKSUMTYPE="SHA-1" AMDID="amd_002">
         <mets:FLocat LOCTYPE="OTHER" xlink:type="simple" xlink:href="<filesystem>/<sha-head>/<sha-tail>"/>
         <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="https://nyu.databrary.org/asset/17"/>
       </mets:file>
-      <mets:file ID="872" MIMETYPE="video/mp4" SIZE="1595344506" CHECKSUM="this_should_be_a_sha1_checksum_value_in_hex" CHECKSUMTYPE="SHA-1" ADMID="AMD003">
+      <mets:file ID="872" MIMETYPE="video/mp4" SIZE="1595344506" CHECKSUM="this_should_be_a_sha1_checksum_value_in_hex" CHECKSUMTYPE="SHA-1" AMDID="amd_003">
         <mets:FLocat LOCTYPE="OTHER" xlink:type="simple" xlink:href="<filesystem>/<sha-head>/<sha-tail>"/>
       </mets:file>
-      <mets:file ID="873" MIMETYPE="video/mp4" SIZE="1201935917" CHECKSUM="this_should_be_a_sha1_checksum_value_in_hex" CHECKSUMTYPE="SHA-1" ADMID="...">
+      <mets:file ID="873" MIMETYPE="video/mp4" SIZE="1201935917" CHECKSUM="this_should_be_a_sha1_checksum_value_in_hex" CHECKSUMTYPE="SHA-1" AMDID="...">
         <mets:FLocat LOCTYPE="OTHER" xlink:type="simple" xlink:href="<filesystem>/<sha-head>/<sha-tail>"/>
       </mets:file>
-      <mets:file ID="874" MIMETYPE="video/mp4" SIZE="720091841" CHECKSUM="this_should_be_a_sha1_checksum_value_in_hex" CHECKSUMTYPE="SHA-1" ADMID="...">
+      <mets:file ID="874" MIMETYPE="video/mp4" SIZE="720091841" CHECKSUM="this_should_be_a_sha1_checksum_value_in_hex" CHECKSUMTYPE="SHA-1" AMDID="...">
         <mets:FLocat LOCTYPE="OTHER" xlink:type="simple" xlink:href="<filesystem>/<sha-head>/<sha-tail>"/>
       </mets:file>      
-      <mets:file ID="875" MIMETYPE="video/mp4" SIZE="443396680" CHECKSUM="this_should_be_a_sha1_checksum_value_in_hex" CHECKSUMTYPE="SHA-1" ADMID="...">
+      <mets:file ID="875" MIMETYPE="video/mp4" SIZE="443396680" CHECKSUM="this_should_be_a_sha1_checksum_value_in_hex" CHECKSUMTYPE="SHA-1" AMDID="...">
         <mets:FLocat LOCTYPE="OTHER" xlink:type="simple" xlink:href="<filesystem>/<sha-head>/<sha-tail>"/>
       </mets:file>
-      <mets:file ID="876" MIMETYPE="video/mp4" SIZE="337675161" CHECKSUM="this_should_be_a_sha1_checksum_value_in_hex" CHECKSUMTYPE="SHA-1" ADMID="...">
+      <mets:file ID="876" MIMETYPE="video/mp4" SIZE="337675161" CHECKSUM="this_should_be_a_sha1_checksum_value_in_hex" CHECKSUMTYPE="SHA-1" AMDID="...">
         <mets:FLocat LOCTYPE="OTHER" xlink:type="simple" xlink:href="<filesystem>/<sha-head>/<sha-tail>"/>
       </mets:file>
-      <mets:file ID="877" MIMETYPE="video/mp4" SIZE="953709081" CHECKSUM="this_should_be_a_sha1_checksum_value_in_hex" CHECKSUMTYPE="SHA-1" ADMID="...">
+      <mets:file ID="877" MIMETYPE="video/mp4" SIZE="953709081" CHECKSUM="this_should_be_a_sha1_checksum_value_in_hex" CHECKSUMTYPE="SHA-1" AMDID="...">
         <mets:FLocat LOCTYPE="OTHER" xlink:type="simple" xlink:href="<filesystem>/<sha-head>/<sha-tail>"/>
       </mets:file>
-       <mets:file ID="8981" MIMETYPE="video/mp4" SIZE="479436050" CHECKSUM="this_should_be_a_sha1_checksum_value_in_hex" CHECKSUMTYPE="SHA-1" ADMID="...">
+       <mets:file ID="8981" MIMETYPE="video/mp4" SIZE="479436050" CHECKSUM="this_should_be_a_sha1_checksum_value_in_hex" CHECKSUMTYPE="SHA-1" AMDID="...">
         <mets:FLocat LOCTYPE="OTHER" xlink:type="simple" xlink:href="<filesystem>/<sha-head>/<sha-tail>"/>
       </mets:file>
-      <mets:file ID="8982" MIMETYPE="video/mp4" SIZE="416376521" CHECKSUM="this_should_be_a_sha1_checksum_value_in_hex" CHECKSUMTYPE="SHA-1" ADMID="...">
+      <mets:file ID="8982" MIMETYPE="video/mp4" SIZE="416376521" CHECKSUM="this_should_be_a_sha1_checksum_value_in_hex" CHECKSUMTYPE="SHA-1" AMDID="...">
         <mets:FLocat LOCTYPE="OTHER" xlink:type="simple" xlink:href="<filesystem>/<sha-head>/<sha-tail>"/>
       </mets:file>
-      <mets:file ID="8983" MIMETYPE="video/mp4" SIZE="132917292" CHECKSUM="this_should_be_a_sha1_checksum_value_in_hex" CHECKSUMTYPE="SHA-1" ADMID="...">
+      <mets:file ID="8983" MIMETYPE="video/mp4" SIZE="132917292" CHECKSUM="this_should_be_a_sha1_checksum_value_in_hex" CHECKSUMTYPE="SHA-1" AMDID="...">
         <mets:FLocat LOCTYPE="OTHER" xlink:type="simple" xlink:href="<filesystem>/<sha-head>/<sha-tail>"/>
       </mets:file>
-      <mets:file ID="8984" MIMETYPE="video/mp4" SIZE="1252844235" CHECKSUM="this_should_be_a_sha1_checksum_value_in_hex" CHECKSUMTYPE="SHA-1" ADMID="...">
+      <mets:file ID="8984" MIMETYPE="video/mp4" SIZE="1252844235" CHECKSUM="this_should_be_a_sha1_checksum_value_in_hex" CHECKSUMTYPE="SHA-1" AMDID="...">
         <mets:FLocat LOCTYPE="OTHER" xlink:type="simple" xlink:href="<filesystem>/<sha-head>/<sha-tail>"/>
       </mets:file>
-      <mets:file ID="8985" MIMETYPE="video/mp4" SIZE="638478098" CHECKSUM="this_should_be_a_sha1_checksum_value_in_hex" CHECKSUMTYPE="SHA-1" ADMID="...">
+      <mets:file ID="8985" MIMETYPE="video/mp4" SIZE="638478098" CHECKSUM="this_should_be_a_sha1_checksum_value_in_hex" CHECKSUMTYPE="SHA-1" AMDID="...">
         <mets:FLocat LOCTYPE="OTHER" xlink:type="simple" xlink:href="<filesystem>/<sha-head>/<sha-tail>"/>
       </mets:file>
-       <mets:file ID="8986" MIMETYPE="video/mp4" SIZE="546357361" CHECKSUM="this_should_be_a_sha1_checksum_value_in_hex" CHECKSUMTYPE="SHA-1" ADMID="...">
+       <mets:file ID="8986" MIMETYPE="video/mp4" SIZE="546357361" CHECKSUM="this_should_be_a_sha1_checksum_value_in_hex" CHECKSUMTYPE="SHA-1" AMDID="...">
         <mets:FLocat LOCTYPE="OTHER" xlink:type="simple" xlink:href="<filesystem>/<sha-head>/<sha-tail>"/>
       </mets:file>
-      <mets:file ID="8987" MIMETYPE="video/mp4" SIZE="170015190" CHECKSUM="this_should_be_a_sha1_checksum_value_in_hex" CHECKSUMTYPE="SHA-1" ADMID="...">
+      <mets:file ID="8987" MIMETYPE="video/mp4" SIZE="170015190" CHECKSUM="this_should_be_a_sha1_checksum_value_in_hex" CHECKSUMTYPE="SHA-1" AMDID="...">
         <mets:FLocat LOCTYPE="OTHER" xlink:type="simple" xlink:href="<filesystem>/<sha-head>/<sha-tail>"/>
       </mets:file>         
-      <mets:file ID="8988" MIMETYPE="video/mp4" SIZE="1666097454" CHECKSUM="this_should_be_a_sha1_checksum_value_in_hex" CHECKSUMTYPE="SHA-1" ADMID="...">
+      <mets:file ID="8988" MIMETYPE="video/mp4" SIZE="1666097454" CHECKSUM="this_should_be_a_sha1_checksum_value_in_hex" CHECKSUMTYPE="SHA-1" AMDID="...">
         <mets:FLocat LOCTYPE="OTHER" xlink:type="simple" xlink:href="<filesystem>/<sha-head>/<sha-tail>"/>
       </mets:file>
     </mets:fileGrp>
-    <mets:fileGrp ADMID="..." USE="TRANSCODED">
-      <mets:file ID="2" MIMETYPE="video/mp4" SIZE="499271255" CHECKSUM="this_should_be_a_sha1_checksum_value_in_hex" CHECKSUMTYPE="SHA-1" ADMID="...">
+    <mets:fileGrp AMDID="..." USE="TRANSCODED">
+      <mets:file ID="2" MIMETYPE="video/mp4" SIZE="499271255" CHECKSUM="this_should_be_a_sha1_checksum_value_in_hex" CHECKSUMTYPE="SHA-1" AMDID="...">
         <mets:FLocat LOCTYPE="OTHER" xlink:type="simple" xlink:href="<filesystem>/<sha-head>/<sha-tail>"/>
         <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="https://nyu.databrary.org/asset/2"/>
       </mets:file>
-       <mets:file ID="3" MIMETYPE="video/mp4" SIZE="416913623" CHECKSUM="this_should_be_a_sha1_checksum_value_in_hex" CHECKSUMTYPE="SHA-1" ADMID="...">
+       <mets:file ID="3" MIMETYPE="video/mp4" SIZE="416913623" CHECKSUM="this_should_be_a_sha1_checksum_value_in_hex" CHECKSUMTYPE="SHA-1" AMDID="...">
         <mets:FLocat LOCTYPE="OTHER" xlink:type="simple" xlink:href="<filesystem>/<sha-head>/<sha-tail>"/>
         <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="https://nyu.databrary.org/asset/3"/>
       </mets:file>
-      <mets:file ID="4" MIMETYPE="video/mp4" SIZE="218803157" CHECKSUM="this_should_be_a_sha1_checksum_value_in_hex" CHECKSUMTYPE="SHA-1" ADMID="...">
+      <mets:file ID="4" MIMETYPE="video/mp4" SIZE="218803157" CHECKSUM="this_should_be_a_sha1_checksum_value_in_hex" CHECKSUMTYPE="SHA-1" AMDID="...">
         <mets:FLocat LOCTYPE="OTHER" xlink:type="simple" xlink:href="<filesystem>/<sha-head>/<sha-tail>"/>
         <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="https://nyu.databrary.org/asset/4"/>
       </mets:file>
-      <mets:file ID="5" MIMETYPE="video/mp4" SIZE="466760824" CHECKSUM="this_should_be_a_sha1_checksum_value_in_hex" CHECKSUMTYPE="SHA-1" ADMID="...">
+      <mets:file ID="5" MIMETYPE="video/mp4" SIZE="466760824" CHECKSUM="this_should_be_a_sha1_checksum_value_in_hex" CHECKSUMTYPE="SHA-1" AMDID="...">
         <mets:FLocat LOCTYPE="OTHER" xlink:type="simple" xlink:href="<filesystem>/<sha-head>/<sha-tail>"/>
         <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="https://nyu.databrary.org/asset/5"/>
       </mets:file>
-      <mets:file ID="6" MIMETYPE="video/mp4" SIZE="296226810" CHECKSUM="this_should_be_a_sha1_checksum_value_in_hex" CHECKSUMTYPE="SHA-1" ADMID="...">
+      <mets:file ID="6" MIMETYPE="video/mp4" SIZE="296226810" CHECKSUM="this_should_be_a_sha1_checksum_value_in_hex" CHECKSUMTYPE="SHA-1" AMDID="...">
         <mets:FLocat LOCTYPE="OTHER" xlink:type="simple" xlink:href="<filesystem>/<sha-head>/<sha-tail>"/>
         <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="https://nyu.databrary.org/asset/6"/>
       </mets:file>
-      <mets:file ID="7" MIMETYPE="video/mp4" SIZE="148811524" CHECKSUM="this_should_be_a_sha1_checksum_value_in_hex" CHECKSUMTYPE="SHA-1" ADMID="...">
+      <mets:file ID="7" MIMETYPE="video/mp4" SIZE="148811524" CHECKSUM="this_should_be_a_sha1_checksum_value_in_hex" CHECKSUMTYPE="SHA-1" AMDID="...">
         <mets:FLocat LOCTYPE="OTHER" xlink:type="simple" xlink:href="<filesystem>/<sha-head>/<sha-tail>"/>
         <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="https://nyu.databrary.org/asset/7"/>
       </mets:file>
-      <mets:file ID="8" MIMETYPE="video/mp4" SIZE="22714940" CHECKSUM="this_should_be_a_sha1_checksum_value_in_hex" CHECKSUMTYPE="SHA-1" ADMID="...">
+      <mets:file ID="8" MIMETYPE="video/mp4" SIZE="22714940" CHECKSUM="this_should_be_a_sha1_checksum_value_in_hex" CHECKSUMTYPE="SHA-1" AMDID="...">
         <mets:FLocat LOCTYPE="OTHER" xlink:type="simple" xlink:href="<filesystem>/<sha-head>/<sha-tail>"/>
         <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="https://nyu.databrary.org/asset/8"/>
       </mets:file> 
-      <mets:file ID="9" MIMETYPE="video/mp4" SIZE="470909386" CHECKSUM="this_should_be_a_sha1_checksum_value_in_hex" CHECKSUMTYPE="SHA-1" ADMID="...">
+      <mets:file ID="9" MIMETYPE="video/mp4" SIZE="470909386" CHECKSUM="this_should_be_a_sha1_checksum_value_in_hex" CHECKSUMTYPE="SHA-1" AMDID="...">
         <mets:FLocat LOCTYPE="OT" xlink:type="simple" xlink:href="<filesystem>/<sha-head>/<sha-tail>"/>
         <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="https://nyu.databrary.org/asset/9"/>
       </mets:file>
-      <mets:file ID="10" MIMETYPE="video/mp4" SIZE="26284689" CHECKSUM="this_should_be_a_sha1_checksum_value_in_hex" CHECKSUMTYPE="SHA-1" ADMID="...">
+      <mets:file ID="10" MIMETYPE="video/mp4" SIZE="26284689" CHECKSUM="this_should_be_a_sha1_checksum_value_in_hex" CHECKSUMTYPE="SHA-1" AMDID="...">
         <mets:FLocat LOCTYPE="OTHER" xlink:type="simple" xlink:href="<filesystem>/<sha-head>/<sha-tail>"/>
         <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="https://nyu.databrary.org/asset/10"/>
       </mets:file>
-       <mets:file ID="11" MIMETYPE="video/mp4" SIZE="173818370" CHECKSUM="this_should_be_a_sha1_checksum_value_in_hex" CHECKSUMTYPE="SHA-1" ADMID="...">
+       <mets:file ID="11" MIMETYPE="video/mp4" SIZE="173818370" CHECKSUM="this_should_be_a_sha1_checksum_value_in_hex" CHECKSUMTYPE="SHA-1" AMDID="...">
         <mets:FLocat LOCTYPE="OTHER" xlink:type="simple" xlink:href="<filesystem>/<sha-head>/<sha-tail>"/>
         <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="https://nyu.databrary.org/asset/11"/>
       </mets:file>
-      <mets:file ID="12" MIMETYPE="video/mp4" SIZE="151741089" CHECKSUM="this_should_be_a_sha1_checksum_value_in_hex" CHECKSUMTYPE="SHA-1" ADMID="...">
+      <mets:file ID="12" MIMETYPE="video/mp4" SIZE="151741089" CHECKSUM="this_should_be_a_sha1_checksum_value_in_hex" CHECKSUMTYPE="SHA-1" AMDID="...">
         <mets:FLocat LOCTYPE="OTHER" xlink:type="simple" xlink:href="<filesystem>/<sha-head>/<sha-tail>"/>
         <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="https://nyu.databrary.org/asset/12"/>
       </mets:file>
-      <mets:file ID="13" MIMETYPE="video/mp4" SIZE="126511616" CHECKSUM="this_should_be_a_sha1_checksum_value_in_hex" CHECKSUMTYPE="SHA-1" ADMID="...">
+      <mets:file ID="13" MIMETYPE="video/mp4" SIZE="126511616" CHECKSUM="this_should_be_a_sha1_checksum_value_in_hex" CHECKSUMTYPE="SHA-1" AMDID="...">
         <mets:FLocat LOCTYPE="OTHER" xlink:type="simple" xlink:href="<filesystem>/<sha-head>/<sha-tail>"/>
         <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="https://nyu.databrary.org/asset/12"/>
       </mets:file>
-       <mets:file ID="14" MIMETYPE="video/mp4" SIZE="192735602" CHECKSUM="this_should_be_a_sha1_checksum_value_in_hex" CHECKSUMTYPE="SHA-1" ADMID="...">
+       <mets:file ID="14" MIMETYPE="video/mp4" SIZE="192735602" CHECKSUM="this_should_be_a_sha1_checksum_value_in_hex" CHECKSUMTYPE="SHA-1" AMDID="...">
         <mets:FLocat LOCTYPE="OTHER" xlink:type="simple" xlink:href="<filesystem>/<sha-head>/<sha-tail>"/>
         <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="https://nyu.databrary.org/asset/14"/>
       </mets:file>
-      <mets:file ID="15" MIMETYPE="video/mp4" SIZE="360846586" CHECKSUM="this_should_be_a_sha1_checksum_value_in_hex" CHECKSUMTYPE="SHA-1" ADMID="...">
+      <mets:file ID="15" MIMETYPE="video/mp4" SIZE="360846586" CHECKSUM="this_should_be_a_sha1_checksum_value_in_hex" CHECKSUMTYPE="SHA-1" AMDID="...">
         <mets:FLocat LOCTYPE="OTHER" xlink:type="simple" xlink:href="<filesystem>/<sha-head>/<sha-tail>"/>
         <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="https://nyu.databrary.org/asset/13"/>
       </mets:file>  
@@ -257,7 +292,7 @@
   </mets:structMap>
 
   <mets:structMap TYPE="LOGICAL">
-    <mets:div DBCID="2" TYPE="dbc:databraryContainer">
+    <mets:div DBCID="2" DMDID="001" RMDID="rmd_001" TYPE="dbc:databraryContainer">
       <!--DBCID is the Databrary container or slot it is found in for this dataset - not sure if this is the most accurate way to do it.-->
       <mets:div TYPE="dba:databraryAsset"> 
         <mets:fptr FILEID="16"/> 
@@ -266,7 +301,7 @@
         <mets:fptr FILEID="17"/> 
       </mets:div>
     </mets:div>
-    <mets:div DBCID="9" TYPE="dbc:databraryContainer">
+    <mets:div DBCID="9" DMDID="002" RMDID="rmd_001" TYPE="dbc:databraryContainer">
       <mets:div TYPE="dba:databraryAsset">
         <mets:fptr FILEID="872"/>
         <mets:fptr FILEID="2"/>
@@ -292,7 +327,7 @@
         <mets:fptr FILEID="15"/>
       </mets:div>
     </mets:div>
-     <mets:div DBCID="10" TYPE="dbc:databraryContainer">
+     <mets:div DBCID="10" DMDID="003" RMDID="rmd_001" TYPE="dbc:databraryContainer">
       <mets:div TYPE="dba:databraryAsset">
         <mets:fptr FILEID="8985"/>
         <mets:fptr FILEID="4"/>
@@ -318,7 +353,7 @@
         <mets:fptr FILEID="14"/>
       </mets:div>
     </mets:div>
-    <mets:div DBCID="11" TYPE="dbc:databraryContainer">
+    <mets:div DBCID="11" DMDID="004" RMDID="rmd_001" TYPE="dbc:databraryContainer">
       <mets:div TYPE="dba:databraryAsset">
         <mets:fptr FILEID="8984"/>
         <mets:fptr FILEID="9"/>
