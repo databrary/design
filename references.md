@@ -143,6 +143,7 @@
 - [Noldus Observer](http://www.noldus.com/human-behavior-research/products/the-observer-xt)
 - [Mangold Interact](http://www.mangold-international.com/software/interact/what-is-interact.html)
 - [LENA](http://www.lenafoundation.org/)
+- [ITS](http://www.lenafoundation.org/wp-content/uploads/2014/10/LTR-04-2_ITS_File.pdf) LENA Interpreted Time Segments minimal documentation.
 - [StudioCode](http://www.studiocodegroup.com/)
 - [ChronoViz](http://chronoviz.com/) from UCSD.
 - [DIVER: Digital Interactive Video Exploration and Reflection](http://diver.stanford.edu/)
