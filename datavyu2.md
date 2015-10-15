@@ -40,6 +40,10 @@ There are some security implications of this (running others' scripts), but they
 * Have tooltips pop-up to suggest allowable codes, code definitions.
 * Build coding manual interactively from codes, video snippets.
 
+## Temporal alignment
+
+* Allow 'loose' alignment rather than millisecond level (change precision/rounding for display purposes).
+
 ## Offline coding
 
 * Could be substantial number of users who want coding tool, but aren't ready/don't want to share with Databrary.
