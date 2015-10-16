@@ -126,15 +126,15 @@ The minimum required Statement of Compliance is: 4. Implemented: This guideline 
 
 >[1] See: [http://www.dublincore.org](http://www.dublincore.org) [accessed July 19, 2013].
 
-1. Note: this might be related to SIPs and how those are generated from contributor desposits. However, with the ability for contributors to add data as they conduct their study, this may need to be interpretted in a way different from what the reviewers might have in mind as data is not just wrapped up once and for all for inclusion, but is slowly accumulated and added by contributors over time. That said, an online form guides users through the addition of metadata on the study dataset level. These metadata include: Title, Creators (in the form of authors on a study), Year of study, Description, Alias name for study, and Digital Object Identifier for a paper associated with the study (which populates basic citation information for that paper: title, publication data, authors - data producers have to copy and paste the abstract in since that is not carried by CrossRef. Alternatively they can fill all this in manually if there is no DOI).
+1. Note: this might be related to SIPs and how those are generated from contributor desposits. However, with the ability for contributors to add data as they conduct their study, this may need to be interpretted in a way different from what the reviewers might have in mind as data is not just wrapped up once and for all for inclusion, but is slowly accumulated and added by contributors over time. That said, an online form guides users through the addition of metadata on the study dataset level. These metadata include: Title, Creators (in the form of authors on a study), Year of study, Description, Alias name for study, and Digital Object Identifier for a paper associated with the study (which populates basic citation information for that paper: title, publication data, authors - data producers have to copy and paste the abstract in since that is not carried by CrossRef. Alternatively they can fill all this in manually if there is no DOI). Metadata are also collected for individual entries within a study. Characterized as sessions (e.g. individual visits during an experiment in which a participant completes a set of tasks) and materials (e.g. documents that contribute to the understandability of the study such as experiment protocols or representations of the stimuli used in the study sessions), they can be added by the data contributor through a web interface similar to a spreadsheet. This view also allows data contributors to manage, edit, and view existing study metadata they have added. The metadata that can be added to sessions and materials includes participant details (date of birth, ethnicity, race, ID, language, gender), and other measures associated with a session (e.g. tasks, conditions, session location and context, release and access information, tags (community contributed labels), etc.). Finally, sessions have a timeline view where they can add additionaly metadata in terms of tags and keywords to a session. In this view, data contributors can provide temporal metadata for these items and all of the metadata that might be added through the spreadsheet by attaching them to specific segments of time so as to sync them to specific times in videos files within that session.
 
-1. Data can only be contributed by researchers who own that data and who have become registered and authorized users of Databrary, as such study owners are an inherent piece of metadata attached to a dataset. Data producers can also add Keywords, and Funder information at the study level. Within a study, data producers can add metadata to sessions (a container for files) through the application interface with either a spreadsheet view (to see all sessions at once), or in the container view. The metadata includes participant details (date of birth, ethnicity, race, ID, language, gender), and other measures associated with a session (e.g. tasks, conditions, session location and context, release and access information, tags (community contributed labels), etc.).
+1. *Explained above*
 
 1. The online form will not process/go to the next stage unless required metadata are provided at the study level. There are not data/metadata requirements currently at the session/file level (though we understand that users may start a dataset to complete later or over time).
 
 1. File level metadata is automatically associated to session metadata and study level metadata. These metadata can be added via a spreadsheet user interface that provide users dropdowns, suggestions, and auto-complete based on standard entries (e.g. the NIH's categories for race and ethnicity), format (datetime), other metadata added previously (task and conditions already added to other sessions in the same dataset) etc. The only other metadata at the file level is a name for the file object, whether the file is restricted access or not, and segment data (time ranges) as to where the file should be positioned to other files in the same container (as container objects are displayed on a timeline much like that found in video editing software).
 
-1. The metadata schema is not derived from a pre-existing schema. The database schema can be found [here](https://github.com/databrary/databrary/blob/master/conf/schema.sql). That said, we do draw dataset metadata and data producer metadata from DOI and ORCID where they are provided. A DOI can be added during the volume/dataset creation process if there is a specific publication that is associated with a dataset and this will provide the title, authors and a reference citation for the publication to go along with the dataset.
+1. The metadata schema is not derived from a pre-existing schema. The database schema can be found [here](https://github.com/databrary/databrary/blob/master/schema/0.sql). That said, we do draw dataset metadata and data producer metadata from DOI and ORCID where they are provided. A DOI can be added during the volume/dataset creation process if there is a specific publication that is associated with a dataset and this will provide the title, authors and a reference citation for the publication to go along with the dataset.
 
 1. The metadata schema was designed with search and discovery in mind. Metadata is captured at a generalized level to allow for researchers (i.e. the Designated Community) of different academic backgrounds within the developmental and learning sciences to find video data from one research context that might be useful in a different research context.
 
@@ -159,7 +159,7 @@ The minimum required Statement of Compliance is: 4. Implemented: This guideline 
 
 1. *TBD*
 
-1. Yes: conferences, workshops, publications in academic journals
+1. Yes: conference presentations within psychology and library science academic communities, workshops/preconference events, publications in academic journals
 
 1. Is it outsourced if we are using our own Library system and campus file storage locations?
 
@@ -266,8 +266,6 @@ The minimum required Statement of Compliance is: 3. In progress: We are in the i
 >- Clarity to data producers about handling of the data
 
 
-*caveat: Databrary is not necessarily a capital-A archive yet, though we would like to pursue more steps in that direction.*
-
 1. Draft copies of [staff](https://github.com/databrary/design/blob/master/curation/ingest_workflows/staff_ingest.md) and [curation](https://github.com/databrary/design/blob/master/curation/ingest_workflows/curation_ingest_guide.md) ingest guides available on github. 
 
 1. All data are taken in in their original format. All video files are transcoded upon ingest to a common, web-streamable format (h.264 in an MP4 wrapper with AAC for audio).
@@ -292,12 +290,12 @@ The minimum required Statement of Compliance is: 4. Implemented: This guideline 
 >This Guideline relates to the levels of responsibility which the repository takes for its data.
 >
 >- Does the repository have licences / contractual agreements with data producers? Please describe.
->- Does the repository enforce licences with the data producer? How?
+>- Does the repository enforce licenses with the data producer? How?
 >- Does the repository have a crisis management plan? Please describe.
 
 1. See: [Rights and responsibilities](http://databrary.org/access/responsibilities.html) & [Databrary access agreement](http://databrary.org/access/policies/agreement.html) 
 
-1. Not sure what this means, might refer back to whether or not we enforce ownership of data (currently we don't do so explicitly, I don't think). Though might also be related to how IRB policies refer to access and usage of data on Databrary.
+1. Each dataset on Databrary represents an individual work owned by the party who contributed it. Data on Databrary is provided for non-commercial use and is subject to the terms of use outlined in the [Databrary Access Agreement](http://databrary.org/access/policies/agreement.html). That said, data contributors are welcome to provide information on their studies about any pre-existing licenses they have adopted for their data where applicable to their use through Databrary.
 
 1. Inherits from NYU Libraries/ITS crisis management plan as that is where all of our assets and services are hosted?
 
