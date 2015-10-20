@@ -2,8 +2,8 @@
 <mets:mets xmlms:mets="http://www.loc.gov/METS/"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:mods="http://www.loc.gov/mods/v3"
-    xmlns:premis="info:lc/xmlns/premis-v2"
-    xmlns:revtmd="http://nwtssite.nwts.nara/schema/"
+    xmlns:premis="info:lc/xmlns/premis-v2" 
+    xmlns:reVTMD="http://nwtssite.nwts.nara/schema/"
     xmlns:rts="http://cosimo.stanford.edu/sdr/metsrights/"
     xsi:schemaLocation="http://www.loc.gov/METS/ http://www.loc.gov/standards/mets/mets.xsd 
     http://www.loc.gov/mods/v3  http://www.loc.gov/standards/mods/v3/mods-3-6.xsd
@@ -14,8 +14,8 @@
     TYPE="Databrary Dataset" 
     LABEL="Head-mounted camera views of adults in natural environments">
   <!-- TODO - 
-        1) desc metadata for dataset, containers, AND assets? or just dataset and containers (that is, where to put databrary name)?
-        2) techinical metadata for assets (where)
+        1) desc metadata assets also? or just dataset and containers?
+        2) techinical metadata for assets (where, for who?)
   -->
   <mets:metsHdr CREATEDATE="2015-10-09T14:49:07" LASTMODDATE="2015-10-09T14:49:07">
     <mets:agent ROLE="CREATOR" TYPE="ORGANIZATION">
@@ -48,7 +48,7 @@
             Two adult observers collected videos from head-mounted (Go-Pro) cameras as they moved together through the Pennsylvania State University campus at the same time along the same general path. Videos were collected on two consecutive summer days. On day 1, the observers walked through an outdoor public environment. On day 2, the observers moved through both indoor and outdoor environments, while walking, sitting, and driving in a car.
           </mods:abstract>
           <mods:originInfo eventType="publication">
-            <mods:dateCaptured encoding="iso8601">20131001 <!-- when shrared, not sure if dateCaptured is the proper subelement--></mods:dateCaptured>
+            <mods:dateCaptured encoding="iso8601">20131001 <!-- when shared, not sure if dateCaptured is the proper subelement--></mods:dateCaptured>
             <mods:issuance>continuing</mods:issuance>
           </mods:originInfo>
           <mods:accessCondition>
@@ -83,16 +83,16 @@
   </mets:dmdSec>
   <!--descriptive metadata for containers-->
   <mets:dmdSec ID="dmd001">
-    <mets:mdRef LOCTYPE="URL" MIMETPE="application/json" MDTYPE="OTHER" LABEL="Container 2 metadata" xling:href="https://nyu.databrary.org/api/volume/2/slot/2?records"/> <!--if service is down, can't access -->
+    <mets:mdRef LOCTYPE="URL" MIMETPE="application/json" MDTYPE="OTHER" LABEL="Container 2 metadata" xlink:href="https://nyu.databrary.org/api/volume/2/slot/2?records"/> <!--if service is down, can't access -->
   </mets:dmdSec>
   <mets:dmdSec ID="dmd002">
-    <mets:mdRef LOCTYPE="URL" MIMETPE="application/json" MDTYPE="OTHER" LABEL="Container 9 metadata" xling:href="https://nyu.databrary.org/api/volume/2/slot/9?records"/> <!--if service is down, can't access -->
+    <mets:mdRef LOCTYPE="URL" MIMETPE="application/json" MDTYPE="OTHER" LABEL="Container 9 metadata" xlink:href="https://nyu.databrary.org/api/volume/2/slot/9?records"/> <!--if service is down, can't access -->
   </mets:dmdSec>
   <mets:dmdSec ID="dmd003">
-    <mets:mdRef LOCTYPE="URL" MIMETPE="application/json" MDTYPE="OTHER" LABEL="Container 10 metadata" xling:href="https://nyu.databrary.org/api/volume/2/slot/10?records"/> <!--if service is down, can't access -->
+    <mets:mdRef LOCTYPE="URL" MIMETPE="application/json" MDTYPE="OTHER" LABEL="Container 10 metadata" xlink:href="https://nyu.databrary.org/api/volume/2/slot/10?records"/> <!--if service is down, can't access -->
   </mets:dmdSec>
   <mets:dmdSec ID="dmd004">
-    <mets:mdRef LOCTYPE="URL" MIMETPE="application/json" MDTYPE="OTHER" LABEL="Container 11 metadata" xling:href="https://nyu.databrary.org/api/volume/2/slot/11?records"/> <!--if service is down, can't access -->
+    <mets:mdRef LOCTYPE="URL" MIMETPE="application/json" MDTYPE="OTHER" LABEL="Container 11 metadata" xlink:href="https://nyu.databrary.org/api/volume/2/slot/11?records"/> <!--if service is down, can't access -->
   </mets:dmdSec>
 
   <mets:amdSec>    
@@ -154,29 +154,29 @@
     <techMD ID="amd_001">
       <!-- Tech metadata for each asset? -->
       <xmlData>
-        <revTMD>
-        </revTMD>
+        <reVTMD>
+        </reVTMD>
       </xmlData>  
     </techMD>
     <techMD ID="amd_002">
       <!-- Tech metadata for each asset? -->
       <xmlData>
-        <revTMD>  
-        </revTMD>
+        <reVTMD>  
+        </reVTMD>
       </xmlData>
     </techMD>
     <techMD ID="amd_003">
       <!-- Tech metadata for each asset? -->
       <xmlData>
-        <revTMD>
-        </revTMD>
+        <reVTMD>
+        </reVTMD>
       </xmlData>
     </techMD>
   </mets:amdSec>
   
   <mets:fileSec>
     <mets:fileGrp USE="ORIGINAL">
-      <mets:file ID="16" MIMETYPE="applicaiton/pdf" SIZE="74400" CHECKSUM="this_should_be_a_sha1_checksum_value_in_hex" CHECKSUMTYPE="SHA-1" MDID="amd_001">
+      <mets:file ID="16" MIMETYPE="application/pdf" SIZE="74400" CHECKSUM="this_should_be_a_sha1_checksum_value_in_hex" CHECKSUMTYPE="SHA-1" MDID="amd_001">
         <mets:FLocat LOCTYPE="OTHER" xlink:type="simple" xlink:href="<filesystem>/<sha-head>/<sha-tail>"/>
         <mets:FLocat LOCTYPE="URL" xlink:type="simple" xlink:href="https://nyu.databrary.org/asset/16"/>
       </mets:file>
@@ -293,7 +293,7 @@
 
   <mets:structMap TYPE="LOGICAL">
     <mets:div DBCID="2" DMDID="001" RMDID="rmd_001" TYPE="dbc:databraryContainer">
-      <!--DBCID is the Databrary container or slot it is found in for this dataset - not sure if this is the most accurate way to do it.-->
+      <!--DBCID is the Databrary container or slot it is found in for this dataset - not sure if this is the most accurate way to do it since an asset doesn't necessarily only belong to one container-->
       <mets:div TYPE="dba:databraryAsset"> 
         <mets:fptr FILEID="16"/> 
       </mets:div>
