@@ -151,11 +151,11 @@
 - [Chen Yu lab](http://www.indiana.edu/~dll/research.html)
 - [Video Annotation Tool from Irvine California - VATIC](http://web.mit.edu/vondrick/vatic/)
 - [Sony's web-based video editor](https://www.sonymcs.com/landing-page/editing-free-5gb/?gclid=CNSWkajCn70CFeMSOgodzx4APA)
-- [MaxQDA](http://www.maxqdq.com)
+- [MaxQDA](http://www.maxqda.com/)
 - [atlas.ti](http://atlasti.com/)
 - [Nvivo](http://www.qsrinternational.com/products_nvivo.aspx)
 - [OVA](http://openvideoannotation.org/) vaporware? oss? web-based, screenshots look like our timeline
-- [Popcorn](https://popcorn.webmaker.org/). Mozilla tool for making/editing web-videos.
+- [Popcorn](https://github.com/mozilla/popcorn.webmaker.org). Mozilla tool for making/editing web-videos. Appears retired.
 - [Dedoose](http://www.dedoose.com/), qualitative data research tool
 - [InqScribe](https://www.inqscribe.com/), video coding tool
 - [LabelMe](http://labelme.csail.mit.edu/Release3.0/), Online annotation tool to build image databases for computer vision research.
