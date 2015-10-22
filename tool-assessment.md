@@ -9,7 +9,7 @@ This will inform a number of critical areas as we continue to develop Databrary:
 - Being able to import data from range of tools employed by our users will provide more value to these existing data, allowing for richer search, discovery, and exploration features by incorporating existing annotations.
 - Allowing export of data in various forms will allow users to incorporate Databrary data into their existing workflows.
 
-We need to use existing resources to asses offerings and features of available packages.
+We need to use existing resources to assess offerings and features of available packages.
 With guidance from Dylan and Lisa, feedback from Gladys, and oversight from Karen, Drew and Vicky are best positioned to identify the primary purpose and functionality of each of the different tools.
 
 Lisa and Dylan will first understand the core components of each tool and describe:
