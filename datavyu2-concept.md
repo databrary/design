@@ -2,11 +2,11 @@
 
 ## Databrary contacts
 
-*PI*: Karen Adolph, Departments of Psychology and Neural Science, NYU (karen.adolph@nyu.edu)
-*Co-PI*: Rick Gilmore, Department of Psychology, Penn State (rogilmore@psu.edu)
-*Co-I*: David Millman, NYU Libraries (dsm@nyu.edu)
-*Project Manager*: Lisa Steiger, NYU (lisa@databrary.or)
-*Technical Director*: Dylan Simon, NYU (dylan@databrary.org)
+- *PI*: Karen Adolph, Departments of Psychology and Neural Science, NYU (karen.adolph@nyu.edu)
+- *Co-PI*: Rick Gilmore, Department of Psychology, Penn State (rogilmore@psu.edu)
+- *Co-I*: David Millman, NYU Libraries (dsm@nyu.edu)
+- *Project Manager*: Lisa Steiger, NYU (lisa@databrary.or)
+- *Technical Director*: Dylan Simon, NYU (dylan@databrary.org)
 
 ## Databrary project
 
