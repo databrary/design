@@ -138,29 +138,38 @@
 ## Tools
 
 ### Video/audio coding and visualization tools
-- [ELAN](http://tla.mpi.nl/tools/tla-tools/elan/) 
-- [Transana](http://www.transana.org/). Has cloud storage service. University of Wisconsin.
-- [Noldus Observer](http://www.noldus.com/human-behavior-research/products/the-observer-xt)
-- [Mangold Interact](http://www.mangold-international.com/software/interact/what-is-interact.html)
-- [LENA](http://www.lenafoundation.org/)
-- [ITS](http://www.lenafoundation.org/wp-content/uploads/2014/10/LTR-04-2_ITS_File.pdf) LENA Interpreted Time Segments minimal documentation.
-- [StudioCode](http://www.studiocodegroup.com/)
-- [ChronoViz](http://chronoviz.com/) from UCSD.
-- [DIVER: Digital Interactive Video Exploration and Reflection](http://diver.stanford.edu/)
-- [Zaption](http://www.zaption.com/) educational video tagging & lesson creation tool.
-- [Chen Yu lab](http://www.indiana.edu/~dll/research.html)
-- [Video Annotation Tool from Irvine California - VATIC](http://web.mit.edu/vondrick/vatic/)
-- [Sony's web-based video editor](https://www.sonymcs.com/landing-page/editing-free-5gb/?gclid=CNSWkajCn70CFeMSOgodzx4APA)
-- [MaxQDA](http://www.maxqda.com/)
+- [Anvil](http://www.anvil-software.org/)
 - [atlas.ti](http://atlasti.com/)
+- [Chen Yu lab](http://www.indiana.edu/~dll/research.html)
+- [ChronoViz](http://chronoviz.com/) from UCSD.
+- [Dedoose](http://www.dedoose.com/), qualitative data research tool
+- [DIVER: Digital Interactive Video Exploration and Reflection](http://diver.stanford.edu/)
+- [ELAN](http://tla.mpi.nl/tools/tla-tools/elan/) 
+- [Emotient](http://emotient.com/), real-time facial emotion analysis of video.
+- [InqScribe](https://www.inqscribe.com/), video coding tool
+- [ITS](http://www.lenafoundation.org/wp-content/uploads/2014/10/LTR-04-2_ITS_File.pdf) LENA Interpreted Time Segments minimal documentation.
+- [LabelMe](http://labelme.csail.mit.edu/Release3.0/), Online annotation tool to build image databases for computer vision research.
+- [labstreaminglayer](https://github.com/sccn/labstreaminglayer), open source software library for "unified collection of measurement time series in research experiments that handles both the networking, time-synchronization, (near-) real-time access as well as optionally the centralized collection, viewing and disk recording of the data."
+- [LENA](http://www.lenafoundation.org/)
+- [Mangold Interact](http://www.mangold-international.com/software/interact/what-is-interact.html)
+- [MaxQDA](http://www.maxqda.com/)
+- [Multimedia Annotator](http://engage.wisc.edu/accomplishments/mma.php)
+- [Noldus Observer](http://www.noldus.com/human-behavior-research/products/the-observer-xt)
 - [Nvivo](http://www.qsrinternational.com/products_nvivo.aspx)
 - [OVA](http://openvideoannotation.org/) vaporware? oss? web-based, screenshots look like our timeline
 - [Popcorn](https://github.com/mozilla/popcorn.webmaker.org). Mozilla tool for making/editing web-videos. Appears retired.
-- [Dedoose](http://www.dedoose.com/), qualitative data research tool
-- [InqScribe](https://www.inqscribe.com/), video coding tool
-- [LabelMe](http://labelme.csail.mit.edu/Release3.0/), Online annotation tool to build image databases for computer vision research.
-- [labstreaminglayer](https://github.com/sccn/labstreaminglayer), open source software library for "unified collection of measurement time series in research experiments that handles both the networking, time-synchronization, (near-) real-time access as well as optionally the centralized collection, viewing and disk recording of the data."
-- [Emotient](http://emotient.com/), real-time facial emotion analysis of video.
+- [Sony's web-based video editor](https://www.sonymcs.com/landing-page/editing-free-5gb/?gclid=CNSWkajCn70CFeMSOgodzx4APA)
+- [StudioCode](http://www.studiocodegroup.com/)
+- [Transana](http://www.transana.org/). Has cloud storage service. University of Wisconsin.
+- [Video Annotation Tool from Irvine California - VATIC](http://web.mit.edu/vondrick/vatic/)
+- [Zaption](http://www.zaption.com/) educational video tagging & lesson creation tool.
+
+
+### Online Video Annotation
+- [Annotations at Harvard](http://www.annotations.harvard.edu/icb/icb.do?keyword=k80243&pageid=icb.page466612)
+- [Open Annotation Community Group](https://www.w3.org/community/openannotation/)
+- [annotation-ontology](https://code.google.com/p/annotation-ontology/)
+- [Open Annotation Data Model](http://www.openannotation.org/spec/core/)
 
 ### Sports video coding, sharing tools
 - [DataProject](http://www.dataproject.com/Products/IT/en/Volleyball/VideoSharing). Commercial sports video sharing service.
