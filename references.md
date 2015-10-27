@@ -161,7 +161,10 @@
 - [Sony's web-based video editor](https://www.sonymcs.com/landing-page/editing-free-5gb/?gclid=CNSWkajCn70CFeMSOgodzx4APA)
 - [StudioCode](http://www.studiocodegroup.com/)
 - [Transana](http://www.transana.org/). Has cloud storage service. University of Wisconsin.
+- [VARS - MBARI's Video Annotation and Reference System](https://hohonuuli.github.io/vars/) - originally developed for annotating video of underwater video, has been developed further to annotate any dataset that "requires contstrained, searchable annotations."
+- [VCode & VData](http://social.cs.uiuc.edu/projects/vcode.html) - U Illinois UC - mac only
 - [Video Annotation Tool from Irvine California - VATIC](http://web.mit.edu/vondrick/vatic/)
+- [VideoAnt - UMN College of Education and Human Development](https://ant.umn.edu/), web-based, add annotations to web hosted videos. Seems to only allow youtube videos.
 - [Zaption](http://www.zaption.com/) educational video tagging & lesson creation tool.
 
 
