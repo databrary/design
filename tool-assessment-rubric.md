@@ -6,7 +6,7 @@
 - Has the ability to export codes
 - Evidence that research community is currently using for their coding and analysis
 - Video or Video & Audio
-- 
+
 ### Preferred features
 
 - Designed initially to support video coding for learning or behavioral sciences, or related 
