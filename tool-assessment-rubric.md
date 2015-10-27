@@ -5,11 +5,11 @@
 - Supports creation of a coding schema
 - Has the ability to export codes
 - Evidence that research community is currently using for their coding and analysis
-
+- Video or Video & Audio
+- 
 ### Preferred features
 
 - Designed initially to support video coding for learning or behavioral sciences, or related 
-- Video or Video & Audio
 - Open Source Software with standard or transparent exports
 - Actively developed and supported
 - Ability to import from other tools
