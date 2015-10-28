@@ -158,6 +158,7 @@
 - [Nvivo](http://www.qsrinternational.com/products_nvivo.aspx)
 - [OVA](http://openvideoannotation.org/) vaporware? oss? web-based, screenshots look like our timeline
 - [Popcorn](https://github.com/mozilla/popcorn.webmaker.org). Mozilla tool for making/editing web-videos. Appears retired.
+- [Preferential Looking Coder (Pref Coder)](http://cogdevsoc.org/cds-tools/preferential-looking-coder-pref-coder) volume/65 - http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2966022/#R13 - designed to quickly code gaze direction of participants in looking paradigms
 - [Sony's web-based video editor](https://www.sonymcs.com/landing-page/editing-free-5gb/?gclid=CNSWkajCn70CFeMSOgodzx4APA)
 - [StudioCode](http://www.studiocodegroup.com/)
 - [Transana](http://www.transana.org/). Has cloud storage service. University of Wisconsin.
