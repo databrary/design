@@ -143,7 +143,7 @@
 - [Chen Yu lab](http://www.indiana.edu/~dll/research.html)
 - [ChronoViz](http://chronoviz.com/) from UCSD.
 - [Dedoose](http://www.dedoose.com/), qualitative data research tool
-- [DIVER: Digital Interactive Video Exploration and Reflection](http://diver.stanford.edu/)
+- [DIVER: Digital Interactive Video Exploration and Reflection](http://diver.stanford.edu/) - not annotation and coding entirely, more for directing focus on parts of videos and sharing that.
 - [ELAN](http://tla.mpi.nl/tools/tla-tools/elan/) 
 - [Emotient](http://emotient.com/), real-time facial emotion analysis of video.
 - [InqScribe](https://www.inqscribe.com/), video coding tool
@@ -159,6 +159,7 @@
 - [OVA](http://openvideoannotation.org/) vaporware? oss? web-based, screenshots look like our timeline
 - [Popcorn](https://github.com/mozilla/popcorn.webmaker.org). Mozilla tool for making/editing web-videos. Appears retired.
 - [Preferential Looking Coder (Pref Coder)](http://cogdevsoc.org/cds-tools/preferential-looking-coder-pref-coder) volume/65 - http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2966022/#R13 - designed to quickly code gaze direction of participants in looking paradigms
+- [ProCoder3](http://www.bhphotovideo.com/c/product/497234-REG/Grass_Valley_606195_ProCoder_3_Encoding_Software.html) - has been around a while, referenced in Sanderson, 1994. Seems to still be available but is essentially advertised as a media conversion and encoding tool, so may not be relevant anymore.
 - [Sony's web-based video editor](https://www.sonymcs.com/landing-page/editing-free-5gb/?gclid=CNSWkajCn70CFeMSOgodzx4APA)
 - [StudioCode](http://www.studiocodegroup.com/)
 - [Transana](http://www.transana.org/). Has cloud storage service. University of Wisconsin.
