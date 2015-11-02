@@ -157,6 +157,7 @@
 - [Multimedia Annotator](http://engage.wisc.edu/accomplishments/mma.php)
 - [Noldus Observer](http://www.noldus.com/human-behavior-research/products/the-observer-xt)
 - [Nvivo](http://www.qsrinternational.com/products_nvivo.aspx)
+- [Observational Data Coding System](http://www.uni.edu/~maclino/software/odcs/) Windows only - "The project began out of the need for a program to analyze Kim's dissertation data which examined communication between Dyads. The program has been developed further and in it present form has been used to analyze data from talk aloud procedures to jury decision making."
 - [OVA](http://openvideoannotation.org/) vaporware? oss? web-based, screenshots look like our timeline
 - [Popcorn](https://github.com/mozilla/popcorn.webmaker.org). Mozilla tool for making/editing web-videos. Appears retired.
 - [Preferential Looking Coder (Pref Coder)](http://cogdevsoc.org/cds-tools/preferential-looking-coder-pref-coder) volume/65 - http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2966022/#R13 - designed to quickly code gaze direction of participants in looking paradigms

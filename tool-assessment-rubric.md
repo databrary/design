@@ -2,7 +2,7 @@
 
 ### Required features
 
-- Supports creation of a coding schema
+- Supports creation of a coding schema allowing user-defined control over coding parameters
 - Has the ability to export codes
 - Evidence that research community is currently using for their coding and analysis
 - Video or Video & Audio
@@ -14,6 +14,8 @@
 - Actively developed and supported
 - Ability to import from other tools
 - Ability to export in many different formats
+- Cross-OS installation
+- Non-proprietary
 
 ### Disqualifying features
 
