@@ -142,6 +142,7 @@
 - [atlas.ti](http://atlasti.com/)
 - [Chen Yu lab](http://www.indiana.edu/~dll/research.html)
 - [ChronoViz](http://chronoviz.com/) from UCSD.
+- [CowLog](http://cowlog.org/) desktop and web-based video coding tools...for cows (and not-cows).
 - [Dedoose](http://www.dedoose.com/), qualitative data research tool
 - [DIVER: Digital Interactive Video Exploration and Reflection](http://diver.stanford.edu/) - not annotation and coding entirely, more for directing focus on parts of videos and sharing that.
 - [ELAN](http://tla.mpi.nl/tools/tla-tools/elan/) 
