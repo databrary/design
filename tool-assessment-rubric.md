@@ -35,3 +35,6 @@
 - Rough idea of how many people are using
 - What operating systems it is available for and which versions
 - Features supported for video coding
+- What file formats are supported
+- How are codes saved during a study
+- Language and vocabulary used in tool
