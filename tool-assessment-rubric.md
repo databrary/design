@@ -1,5 +1,7 @@
 # Video annotation tool assessment Rubric
 
+##What to evaluate
+
 ### Required features
 
 - Supports creation of a coding schema allowing user-defined control over coding parameters
@@ -21,4 +23,15 @@
 
 - Only annotation of YouTube videos (for example)
 - No export of annotations/codes or potentially restrictive, proprietary export 
-- No evidence of tool being used by research community
+- No evidence of tool being used by research community or completely obsolete
+
+
+##How to evaluate
+
+- Cost
+- License
+- If licensed, how many users per license
+- Rough idea of who is using (existing community)
+- Rough idea of how many people are using
+- What operating systems it is available for and which versions
+- Features supported for video coding
