@@ -36,5 +36,7 @@
 - What operating systems it is available for and which versions
 - Features supported for video coding
 - What file formats are supported
-- How are codes saved during a study
+- How are codes saved during a study (coding schemes)
 - Language and vocabulary used in tool
+- Offers recording and lab equipment 
+- Flexibility in video playback
