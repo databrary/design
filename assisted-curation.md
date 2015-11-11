@@ -25,3 +25,4 @@ Assisted Curation Requirements
 - Might need to create more guidance for users to tell us more about their data (i.e., a single textarea might not be enough of a prompt).
 - Users might not conceive of their data as sessions yet.
 - Want to make sure that we get a contact for the most viable person to follow up with, may or may not be the person uploading to assisted curation.
+- When do we have the conversation about consensts and whether the data will be shared or not?
