@@ -1,4 +1,4 @@
-Databrary background for UX Dept. Heuristic evaluation
+Databrary background for UX Department heuristic evaluation
 
 # Description of typical user
 
@@ -20,20 +20,31 @@ Role, activities, responsibilities, access.
 
 To encourage deeper, more meaningful engagement by targeted audience rather than broader engagement from serendipitous users. "Engagement" here is defined as users who actively use Databrary for their digital asset management or for the discovery of new material that bolsters their own work.
 
-## Entry
+## Onboarding
 
-- Registration
-- Profile management
+- Register
+- Request authorization
+	- PIs from institutions
+	- Affiliates from PIs
+- Personalize profile
+	- Add websites, affiliation
 
-### Dashboard
+## PI dashboard
 
 - Managing affiliates
-- Managing volumes
-- Review changes 
+- Review volumes
+- Review changes to authorizations and access
+
+## Affiliate dashboard
+
+- View authorization(s)
+- Find studies you have lab access to
+	- Understand what level of access you have
 
 ## Data management
 
-** getting labs to provide complete metadata and to do it correctly **
+** Our goal: getting labs to provide complete metadata and to do it correctly **
+** How easy is it switch between edit and view mode to review volume/session **
 
 - Create volume and complete basic information
 - Manage access	
@@ -41,11 +52,11 @@ To encourage deeper, more meaningful engagement by targeted audience rather than
 - Create new session, enter metadata
 - Upload files
 - Position files and records
-- File history
+- File history:
 	- Access a previous version
 	- Move a file between sessions
 	- Undelete a file
-- Volume history
+- Volume history:
 	- Track changes in basic information
 	- Review changes in access
 
@@ -53,25 +64,36 @@ To encourage deeper, more meaningful engagement by targeted audience rather than
 
 - Clearly communicate that users have the option to bulk upload
 - Mark that you want to share a large amount of existing data
-- Share basic descriptive information about the study
+- Share basic descriptive information about the study:
 	- Products/papers
 	- Any existing spreadsheet data
 	- Coding manuals
-- Simple bulk file upload
+- Easily (and quickly) upload files in bulk without organizing them
 
 ## Improving representation of content
 
-- Adding as much useful information to volumes as possible
-- Creating highlights
-- Tags and keywords
+- Add as much useful information to volumes as possible
+- Create highlights
+- Add tags and keywords
 	- Volume
 	- Session
 
-## Search
+## Search and discovery
 
-- Finding useful clips for teaching
-- Finding studies that are good for reuse
-
+- Find useful clips for teaching
+- Find studies that are good for reuse
+- Search by top tags
+- Interpret volume view page
+- Explore data in a volume:
+	- Spreadsheet filtering
+		- Reports
+	- Highlights
+		- Release levels
+		- Use permissions
+- Download interesting content
+	- Highlights (individually or all)
+	- Volume zip (whole or partial)
+	- Volume spreadsheet (CSV)
 
 # Useful links
 
