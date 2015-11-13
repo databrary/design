@@ -138,29 +138,45 @@
 ## Tools
 
 ### Video/audio coding and visualization tools
-- [ELAN](http://tla.mpi.nl/tools/tla-tools/elan/) 
-- [Transana](http://www.transana.org/). Has cloud storage service. University of Wisconsin.
-- [Noldus Observer](http://www.noldus.com/human-behavior-research/products/the-observer-xt)
-- [Mangold Interact](http://www.mangold-international.com/software/interact/what-is-interact.html)
-- [LENA](http://www.lenafoundation.org/)
-- [ITS](http://www.lenafoundation.org/wp-content/uploads/2014/10/LTR-04-2_ITS_File.pdf) LENA Interpreted Time Segments minimal documentation.
-- [StudioCode](http://www.studiocodegroup.com/)
-- [ChronoViz](http://chronoviz.com/) from UCSD.
-- [DIVER: Digital Interactive Video Exploration and Reflection](http://diver.stanford.edu/)
-- [Zaption](http://www.zaption.com/) educational video tagging & lesson creation tool.
-- [Chen Yu lab](http://www.indiana.edu/~dll/research.html)
-- [Video Annotation Tool from Irvine California - VATIC](http://web.mit.edu/vondrick/vatic/)
-- [Sony's web-based video editor](https://www.sonymcs.com/landing-page/editing-free-5gb/?gclid=CNSWkajCn70CFeMSOgodzx4APA)
-- [MaxQDA](http://www.maxqdq.com)
+- [Anvil](http://www.anvil-software.org/)
 - [atlas.ti](http://atlasti.com/)
-- [Nvivo](http://www.qsrinternational.com/products_nvivo.aspx)
-- [OVA](http://openvideoannotation.org/) vaporware? oss? web-based, screenshots look like our timeline
-- [Popcorn](https://popcorn.webmaker.org/). Mozilla tool for making/editing web-videos.
+- [Chen Yu lab](http://www.indiana.edu/~dll/research.html)
+- [ChronoViz](http://chronoviz.com/) from UCSD.
+- [CowLog](http://cowlog.org/) desktop and web-based video coding tools...for cows (and not-cows).
 - [Dedoose](http://www.dedoose.com/), qualitative data research tool
+- [DIVER: Digital Interactive Video Exploration and Reflection](http://diver.stanford.edu/) - not annotation and coding entirely, more for directing focus on parts of videos and sharing that.
+- [ELAN](http://tla.mpi.nl/tools/tla-tools/elan/) 
+- [Emotient](http://emotient.com/), real-time facial emotion analysis of video.
 - [InqScribe](https://www.inqscribe.com/), video coding tool
+- [ITS](http://www.lenafoundation.org/wp-content/uploads/2014/10/LTR-04-2_ITS_File.pdf) LENA Interpreted Time Segments minimal documentation.
 - [LabelMe](http://labelme.csail.mit.edu/Release3.0/), Online annotation tool to build image databases for computer vision research.
 - [labstreaminglayer](https://github.com/sccn/labstreaminglayer), open source software library for "unified collection of measurement time series in research experiments that handles both the networking, time-synchronization, (near-) real-time access as well as optionally the centralized collection, viewing and disk recording of the data."
-- [Emotient](http://emotient.com/), real-time facial emotion analysis of video.
+- [LENA](http://www.lenafoundation.org/)
+- [Mangold Interact](http://www.mangold-international.com/software/interact/what-is-interact.html)
+- [MaxQDA](http://www.maxqda.com/)
+- [Multimedia Annotator](http://engage.wisc.edu/accomplishments/mma.php)
+- [Noldus Observer](http://www.noldus.com/human-behavior-research/products/the-observer-xt)
+- [Nvivo](http://www.qsrinternational.com/products_nvivo.aspx)
+- [Observational Data Coding System](http://www.uni.edu/~maclino/software/odcs/) Windows only - "The project began out of the need for a program to analyze Kim's dissertation data which examined communication between Dyads. The program has been developed further and in it present form has been used to analyze data from talk aloud procedures to jury decision making."
+- [OVA](http://openvideoannotation.org/) vaporware? oss? web-based, screenshots look like our timeline
+- [Popcorn](https://github.com/mozilla/popcorn.webmaker.org). Mozilla tool for making/editing web-videos. Appears retired.
+- [Preferential Looking Coder (Pref Coder)](http://cogdevsoc.org/cds-tools/preferential-looking-coder-pref-coder) volume/65 - http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2966022/#R13 - designed to quickly code gaze direction of participants in looking paradigms
+- [ProCoder3](http://www.bhphotovideo.com/c/product/497234-REG/Grass_Valley_606195_ProCoder_3_Encoding_Software.html) - has been around a while, referenced in Sanderson, 1994. Seems to still be available but is essentially advertised as a media conversion and encoding tool, so may not be relevant anymore.
+- [Sony's web-based video editor](https://www.sonymcs.com/landing-page/editing-free-5gb/?gclid=CNSWkajCn70CFeMSOgodzx4APA)
+- [StudioCode](http://www.studiocodegroup.com/)
+- [Transana](http://www.transana.org/). Has cloud storage service. University of Wisconsin.
+- [VARS - MBARI's Video Annotation and Reference System](https://hohonuuli.github.io/vars/) - originally developed for annotating video of underwater video, has been developed further to annotate any dataset that "requires contstrained, searchable annotations."
+- [VCode & VData](http://social.cs.uiuc.edu/projects/vcode.html) - U Illinois UC - mac only
+- [Video Annotation Tool from Irvine California - VATIC](http://web.mit.edu/vondrick/vatic/)
+- [VideoAnt - UMN College of Education and Human Development](https://ant.umn.edu/), web-based, add annotations to web hosted videos. Seems to only allow youtube videos.
+- [Zaption](http://www.zaption.com/) educational video tagging & lesson creation tool.
+
+
+### Online Video Annotation
+- [Annotations at Harvard](http://www.annotations.harvard.edu/icb/icb.do?keyword=k80243&pageid=icb.page466612)
+- [Open Annotation Community Group](https://www.w3.org/community/openannotation/)
+- [annotation-ontology](https://code.google.com/p/annotation-ontology/)
+- [Open Annotation Data Model](http://www.openannotation.org/spec/core/)
 
 ### Sports video coding, sharing tools
 - [DataProject](http://www.dataproject.com/Products/IT/en/Volleyball/VideoSharing). Commercial sports video sharing service.
