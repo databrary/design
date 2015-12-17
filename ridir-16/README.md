@@ -1,0 +1,1 @@
+- Resource Implementations for Data Intensive Research in the Social Behavioral and Economic Sciences (RIDIR), <http://www.nsf.gov/pubs/2015/nsf15602/nsf15602.htm>
