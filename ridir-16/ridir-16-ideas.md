@@ -11,11 +11,7 @@
 
 ### Project Aims
 
-1. Expand and extend Databrary's system for entering and visualizing user-defined video tags. Searching within videos for tags/codes.
-
-**extends Databrary**, **user interface for use of analytic tools**, **enables data-intensive research by substantial number of investigators**, **enables research not otherwise possible**, **linkages with other areas of science**, **tools can be made readily available to research community**
-
-2. Enable codes from some existing video coding tools to be imported into and visualized within Databrary.
+1. Enable codes from some existing video coding tools to be imported into and visualized within Databrary. Enable Databrary codes to be exported along with videos.
 
 a. Datavyu
 b. ELAN
@@ -24,15 +20,19 @@ d. Transana
 
 Discuss feasibility with commercial providers (Noldus, Mangold).
 
-3. Enable Databrary codes to be exported along with videos.
+2. Searching within videos for tags/codes. Expand and extend Databrary's system for visualizing user-defined video codes. 
 
-4. Develop data format for importing, representing, visualizing other temporally dense data streams.
+**extends Databrary**, **user interface for use of analytic tools**, **enables data-intensive research by substantial number of investigators**, **enables research not otherwise possible**, **linkages with other areas of science**, **tools can be made readily available to research community**
 
-5. Build tools for creating electronic code manuals within Databrary that link text-based tags to richer descriptions of code definitions, including video snippets, exemplars.
+3. Collaborative coding, sharing, version control.
+
+4. Build tools for creating electronic code manuals within Databrary that link text-based tags to richer descriptions of code definitions, including video snippets, exemplars.
 
 Steps toward community-defined ontologies.
 
-6. Collaborative coding, sharing, version control.
+5. Develop data format for importing, representing, visualizing other temporally dense data streams.
+
+Build on Datavyu.
 
 ### Background and Rationale
 
