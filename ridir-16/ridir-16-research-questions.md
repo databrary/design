@@ -14,7 +14,7 @@
 
 4. How do the leading tools export files?
 
-- Can the files be put into a simple format like <timestamp>, <code>?
+- Can the files be put into a simple format like timestamp, code?
 
 ## Implementation strategy
 
