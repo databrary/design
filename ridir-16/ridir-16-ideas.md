@@ -9,82 +9,164 @@
 
 ## PROJECT DESCRIPTION
 
+- Big data and the "age of search"
+
 ### Project Aims
 
-1. Enable codes from some existing video coding tools to be imported into and visualized within Databrary. Enable Databrary codes to be exported along with videos.
+1. Design and implement a user interface and database structure that empowers authorized Databrary users to search for specific segments of video based on codes, tags, or keywords linked to those segments. Expand and extend Databrary's system for visualizing user-defined video codes.
 
-a. Datavyu
-b. ELAN
-c. CLAN
-d. Transana
+Acknowledges growth in text-based data mining and analysis procedures.
+Without access to text-based annotations of video segments, these tools can't yet be readily applied to video.
 
-Discuss feasibility with commercial providers (Noldus, Mangold).
+2. Enable codes and annotations from several existing video and audio coding tools to be imported into and visualized within the Databrary digital library. Enable Databrary codes to be exported along with videos in an open format that may be imported back into existing coding tools.
 
-2. Searching within videos for tags/codes. Expand and extend Databrary's system for visualizing user-defined video codes. 
-
-**extends Databrary**, **user interface for use of analytic tools**, **enables data-intensive research by substantial number of investigators**, **enables research not otherwise possible**, **linkages with other areas of science**, **tools can be made readily available to research community**
-
-3. Collaborative coding, sharing, version control.
-
-4. Build tools for creating electronic code manuals within Databrary that link text-based tags to richer descriptions of code definitions, including video snippets, exemplars.
+3. Design and implement ways for authorized Databrary users to create electronic code manuals that link text-based or numeric tags to richer descriptions of code definitions, including video snippets or exemplars.
 
 Steps toward community-defined ontologies.
+Text associated with coding manuals becomes searchable under the Databrary search engine.
+More text available to Databrary search engine, the more relevant and powerful the searches can become.
+Establishes framework for future extensions that would link to online (HTML-based) versions of published papers for data mining (e.g., neurosynth.org).
 
-5. Develop data format for importing, representing, visualizing other temporally dense data streams.
-
-Build on Datavyu.
+4. Design interfaces for Databrary that enable users to collaborate on coding video or audio recordings, share coding spreadsheets, and maintain version control over coding information.
 
 ### Background and Rationale
 
-#### Why video?
+#### Why Video?
 
 - uniquely captures complexity of behavior
 - cheap to collect, largely self-documenting
 - widely used
 - flexible, can be used in many contexts
+- high reuse potential
 
-#### How video enables behavioral science research
+#### How Video Enables Behavioral Science Research
 
-#### The Databrary digital library
+#### The Databrary Digital Library
 
-#### Tools for analyzing video
+#### Tools for Analyzing Video
 
 - Tools allow text or numeric tags to be applied to segments of video by human observers.
 - Transana as a model for free-form comments ...
-- CLAN as a model for highly structured, strong regularized conceptual ontologies
+- CLAN as a model for highly structured, strong regularized conceptual ontologies.
+- Datavyu as a model for highly flexible tool, scripting capability (Mangold has scripting, as well), free and open source software.
 
-#### Policy framework for sharing identifiable data
+#### Policy Framework for sharing identifiable data
+
+- Video and audio recordings contain identifiable information -- faces, voices, etc.
+- Databrary has developed a policy framework that builds on the principles of informed consent.
+- The framework allows research participants to give permission for their identifiable information to be shared with other researchers.
+- The framework also allows research participants to give permission for excerpts or clips from their recordings to be shown for research or educational purposes.
+- In turn, the framework limits access to the bulk of Databrary's materials to researchers who are specifically authorized by their institutions to have access to the library and to conduct research and non-research activities using these materials.
+- The framework, with minimal modification, has been agreed to by more than X institutions in North and South America, Europe, Asia, and Australia.
 
 #### Gaps this project will fill
 
+##### Enable search within videos, not just across them.
+
+- Make Databrary more useful for a wider range of researchers.
+- Enable search within videos, not just across them.
+
+#### Enable interoperability among geographically dispersed researchers
+
+- Databrary serves as cloud storage. Coders can be located anywhere.
+- Version control over codes, coding manuals.
+
+##### Enable interoperability among coding tools
+
 - Existing video coding tools are not interoperable with one another.
+- Existing tools capture project/dataset/volume metadata in different ways (e.g., Mangold) or do not capture it at all (e.g., Datavyu).
+- Existing tools capture session-level metadata (e.g., Mangold) in different or non-systematic (e.g., KEA lab's use of session-level metadata in Datavyu spreadsheets).
+
+##### Enable interoperability among codes
+
 - Codes used by one research group cannot be compared to or built upon by other groups.
 - Codes used by different research groups are poorly or inconsistently documented.
   - For example, some Databrary users upload detailed coding manuals, but not all, and formats are not readily searchable by others.
-- Make Databrary more useful for a wider range of researchers.
-- Enable search within videos, not just across them.
+
+##### Transcoding videos into common format via Databrary
+
+- There are a huge number of video formats; most coding tools struggle to support all of them. The increasing use of HD video poses additional problems for tools that offer forward/backward video playback at high speeds. A common complaint is that the timestamping provided by a coding tool can change depending on the format of the video. By transcoding videos into a common, web-compatible format on Databrary, we will make it easier for users to choose the coding tool that suits their research requirements.
+
+#### Enhance reproducibility and transparency of video-based analyses
+
+- By creating version control of coding manuals and spreadsheets.
+- By creating electronic coding manuals.
+- Have electronic coding manuals linked to scripts (e.g., Datavyu's Ruby or Mangold's scripting interface; Noldus?; ELAN?)
+
+#### Create infrastructure that embodies best-practices in video coding
+
+- Builds on Adolph's manuscript on best-practices.
+
+#### Responds to identified needs among video-using developmental scientists
+
+- Collect data about those needs.
+- How justify/document?
 
 #### Research this project will enable
 
 - Cross-disciplinary research where tags from one domain can inform research in others.
   - Example: Researcher interested in cognitive development can build upon tags provided by language researchers.
 - Research that involves video + other temporally dense data streams (eye tracking, kinematics, physiology)
-- Enhances value of existing resources on Databrary
-- Illustration of dynamic modeling of time series a la Nilam Ram and the stillface group.
+- Enhances value of existing resources on Databrary; makes contributing to, using data from Databrary more attractive.
+- Illustration of dynamic modeling of time series a la Nilam Ram and the stillface group at PSU.
 
 ### Project Plan
 
-#### Project 1
+#### Project 1: Search interface and functionality.
 
-#### Project 2
+##### Project 1.1: Design search interface
 
-#### Project 3
+- Gather requirements, design ideas from user community.
 
-#### Project 4
+##### Project 1.2: Adapt Databrary search functionality.
+
+##### Project 1.3: Develop mechanisms for extracting and delivering tagged segments of video.
+
+- How to deliver to researcher for reuse.
+- How to maintain data provenance -- segment HH:MM:SSS.mmm-HH:MM:SSS.mmm from video nnn from volume vvv and user uuu.
+
+#### Project 2: Code import and export
+
+##### Project 2.1: Import and export Datavyu spreadsheets.
+
+##### Project 2.2: Import and export CLAN files.
+
+##### Project 2.3: Import ELAN spreadsheets.
+
+##### Project 2.x: Import Transana files.
+
+##### Project 2.x: Import Mangold Interact files
+
+- Stores volume/study/project information separately from session-specific data.
+
+##### Project 2.x: Import Noldus Observer files
+
+##### Project 2.x: Export files from A, B, C, D
+
+#### Project 3: Web-based coding manuals.
+
+##### Project 3.1: Design coding manual specification
+
+- Get user input on minimum requirements, ideal designs.
+- How fit within the framework of existing coding tools, user workflows?
+- When/how does coding manual data get entered?
+  - Could users cut and paste info from existing desktop documents?
+  - Could users cut and paste from HTML-format versions of published papers associated with a Databrary volume?
+
+##### Project 3.2: Implement, test, and refine coding manual functionality.
+
+##### Project 3.3: Incorporate coding manuals into Databrary search features.
+
+#### Project 4: Sharing codes, documenting the history of changes.
 
 ### Coordination and Management Plan
 
 #### Governance
+
+- Databrary advisory board
+  - Internal (NYU)
+  - Internal (PSU)
+  - External
 
 #### User and Contributor Community
 
@@ -94,7 +176,7 @@ Build on Datavyu.
 
 #### Evaluation and Assessment
 
-#### Future Directions and sustainability
+#### Future Directions and Sustainability
 
 ### Summary
 
