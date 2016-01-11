@@ -21,4 +21,4 @@
 - Start with Databrary users.
 - Post request on Datavyu help forum for people to give us emails.
 - Commercial providers could provide lists of users, access to lists?
-- Could send email to icis list, cds list. Ask respondents to provide email for more detailed survey later.
+- Could send email to icis list, cds list.

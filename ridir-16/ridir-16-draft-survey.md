@@ -43,6 +43,7 @@ Karen Adolph & Rick Gilmore
   - Email
   - Lab/Department/University file server
   - Flash/hard drive/CD or DVD
+  - Other
 
  - Do you create coding manuals that contain definitions of codes used in analyzing your video?
   - Always
