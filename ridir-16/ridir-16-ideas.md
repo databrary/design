@@ -101,6 +101,7 @@ Establishes framework for future extensions that would link to online (HTML-base
 
 - Collect data about those needs.
 - How justify/document?
+- Existing projects that have intensive video foci are beginning to plan for similar sorts of infrastructure (ICSPR with the MET data; U Chicago gesture group).
 
 #### Research this project will enable
 
@@ -129,9 +130,9 @@ Establishes framework for future extensions that would link to online (HTML-base
 
 ##### Project 2.1: Import and export Datavyu spreadsheets.
 
-##### Project 2.2: Import and export CLAN files.
-
 ##### Project 2.3: Import ELAN spreadsheets.
+
+##### Project 2.2: Import and export CLAN files.
 
 ##### Project 2.x: Import Transana files.
 

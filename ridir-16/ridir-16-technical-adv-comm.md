@@ -1,15 +1,33 @@
 # Technical advisory committee (possible invites)
 
-## Coding tools
+## Coding tools or repositories
 
-- Datavyu
-- ELAN,
-- CLAN, Brian MacWhinney
-- Transana, David Woods, dwoods@wcer.wisc.edu
-- Mangold Interact, <http://www.mangold-international.com/en/software/interact>
-  - Mike Anzalone, <anzalone.mike@gmail.com>
-- Noldus Observer, <http://www.noldus.com/human-behavior-research/products/the-observer-xt>
-  - Michael Guidi, <michaelg@noldus.com>
+- **Datavyu**
+  - Clinton Freeman, clinton.freeman@gmail.com
+  - Jesse Lingeman,
+- **ELAN**,
+  - Dylan to identify person to contact.
+- **CLAN**, Brian MacWhinney or his programmer
+  - Discuss approach with KEA
+- **Transana**, David Woods, dwoods@wcer.wisc.edu
+  - Vicky/Dylan to install Transana, review feasibility before we talk with David Woods.
+- **Mangold Interact**, <http://www.mangold-international.com/en/software/interact>
+  - Mike Anzalone, anzalone.mike@gmail.com
+    - ROG speaking with 2016-01-11.
+- **Noldus Observer**, <http://www.noldus.com/human-behavior-research/products/the-observer-xt>
+  - Michael Guidi, michaelg@noldus.com>.
+  - Niek Wilmink, N.Wilmink@noldus.nl, Product Portfolio Manager, emailed 2016-01-05 with more info. ROG suggested a phone/Skype conference.
+- **ICSPR**
+  - Tom Murphy, tomurphy@umich.edu
+
+### Consider/alternates
+
+- V-Note, <http://v-note.org>
+  - Brandon Emig
+- MaxQDA
+- Nvivo
+- VATIC
+- InqScribe
 
 ## Eye tracking
 

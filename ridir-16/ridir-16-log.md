@@ -1,5 +1,11 @@
 # nsf-ridir-2016-log
 
+## 2016-01-11
+
+- ROG drafted [survey](ridir-16-draft-survey.md) and sent to Drew, Dylan, Carmen, and Karen for comments.
+- ROG modified list of possible [technical advisory members](ridir-16-technical-adv-com.md). For this round, we will drop the eye tracking, EEG, and other experts to focus on video annotation. 
+- On 2016-01-08, ROG and DS met. Agreed we need to evaluate Transana further before talking with developer.
+
 ## 2016-01-08
 
 - ROG added to [proposal draft](ridr-16-ideas.md) some notes/thoughts.
