@@ -169,6 +169,7 @@
 - [VCode & VData](http://social.cs.uiuc.edu/projects/vcode.html) - U Illinois UC - mac only
 - [Video Annotation Tool from Irvine California - VATIC](http://web.mit.edu/vondrick/vatic/)
 - [VideoAnt - UMN College of Education and Human Development](https://ant.umn.edu/), web-based, add annotations to web hosted videos. Seems to only allow youtube videos.
+- [V-Note](https://v-note.org). Developed by PSU College of Education Ph.D., Brandon Emig.
 - [Zaption](http://www.zaption.com/) educational video tagging & lesson creation tool.
 
 
