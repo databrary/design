@@ -21,6 +21,7 @@ Assisted Curation Requirements
 ###Things to keep in mind
 
 - Need to be careful that only the user who really need it will use it (risk that because it's an early option, many users will opt for this approach).
+  - we can present it as something that we offer if you already, at the moment, have more than 10 sessions collected?
 - What to do about damaged, corrupt, or odd formats that do not transcode?
 - Might need to create more guidance for users to tell us more about their data (i.e., a single textarea might not be enough of a prompt).
 - Users might not conceive of their data as sessions yet.
