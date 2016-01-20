@@ -23,7 +23,12 @@ Assisted Curation Requirements
 - Need to be careful that only the user who really need it will use it (risk that because it's an early option, many users will opt for this approach).
   - we can present it as something that we offer if you already, at the moment, have more than 10 sessions collected?
 - What to do about damaged, corrupt, or odd formats that do not transcode?
+  - provide a record of these files (as well as successfully uploaded files, for the user to address)
 - Might need to create more guidance for users to tell us more about their data (i.e., a single textarea might not be enough of a prompt).
+  - might be able to add a link to template ingest spreadsheet for reference. Though this might increase friction
 - Users might not conceive of their data as sessions yet.
 - Want to make sure that we get a contact for the most viable person to follow up with, may or may not be the person uploading to assisted curation.
-- When do we have the conversation about consensts and whether the data will be shared or not?
+- When do we have the conversation about consents and whether the data will be shared or not?
+  - Make it clear to user that this is the start of a process, after upload, we will be in touch to get more details and schedule ingest
+- Make sure that users know that they cannot close the browser window during upload
+  - Like dropbox, generate a dialog that leaving that page (can we also do this with closing the browser) will interuppt the upload.
