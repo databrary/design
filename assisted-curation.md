@@ -13,6 +13,7 @@ Assisted Curation Requirements
 - Files do get transcoded upon mass upload.
 - Allow users to upload a spreadsheet of metadata that describes their sessions.
 - Gathers the best person to contact for following up.
+  - at point of contact, probably if there's a person change they can let you know at that point
 
 ###Views
 
@@ -38,4 +39,5 @@ Assisted Curation Requirements
 - When do we have the conversation about consents and whether the data will be shared or not?
   - Make it clear to user that this is the start of a process, after upload, we will be in touch to get more details and schedule ingest
 - Make sure that users know that they cannot close the browser window during upload
-  - Like dropbox, generate a dialog that leaving that page (can we also do this with closing the browser) will interuppt the upload.
+  - pop up dialog 'navigating away from the page will cancel all ongoing uploads' when users try to close the browser
+  - also a text warning somewhere near the upload section
