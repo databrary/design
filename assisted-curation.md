@@ -1,6 +1,13 @@
 Assisted Curation Requirements
 ==============================
 
+## Simple staff review
+
+- I wish Databrary staff to review and assist with my data (which I may upload own my own or get help with, below).
+- I understand that Databrary staff may contact me with questions and/or reorganize my data for better presentation and sharing.
+
+## Bulk upload
+
 - "I already have data and I'd like to upload it all now and tell you a little bit about it so that you can help me."
 - One place to drop a large number of files.
 - Files do get transcoded upon mass upload.
