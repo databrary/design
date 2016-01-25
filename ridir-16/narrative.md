@@ -7,38 +7,38 @@
 ## PROJECT DESCRIPTION
 
 The widespread capacity to search databases connected to the internet has begun to transform scholarship in multiple domains.
-Researchers may search Google Scholar with just a few snippets of information about an author or topic and within seconds have returned to them a clickable list of publications that match the terms.
-Clicking on one of the links brings the searcher to a specific journal article, where depending on one's institutional affiliation and the type of journal, that person might begin to read the full paper and examine high quality electronic versions of the figures and tables.
-Search empowers scholars with similar powers when seeking specific images or videos for teaching or demonstration purposes.
-Indeed, the development and application of new image analysis techniques from computer vision focused on the automated tagging of large datasets of static images have become a significant priority for the providers of large scale image and video databases (Google, Microsoft, Facebook).
-The profound changes that search engines have brought to literature research and teaching have not extended to other facets of scholarship such as data gathering.
-With few exceptions (Gilmore, in press), a behavioral scientist who searches for scientific datasets to analyze or extend upon will find little material to work with.
-That is, despite significant growth in repositories (OSF, Databrary, Dataverse, ICSPR, FigShare) for sharing data and increased interest in open, transparent, and reproducible scientific practices in psychology (Science, 2015), data remains hard to find, and thus, hard to reuse.
+Researchers may search Google Scholar with just a few snippets of information about an author or topic and within seconds have returned to them a list of links to publications that match the terms.
+Each of the links targets a specific journal article, where, depending on one's institutional affiliation and the type of journal, the user might begin to read the full paper and examine the figures and tables.
+Other types of search allow scholars to seek specific images or videos for teaching or demonstration purposes.
+Indeed, the development and application of new image analysis techniques from computer vision, focused on the automated indexing of large datasets of static images, have become a priority for the providers of large scale image and video databases (Google, Microsoft, Facebook).
+These profound changes that search engines have brought to literature research and teaching have largely not yet extended to other facets of scholarship such as data gathering (*with a number of notable exceptions in sociology, GIS, biology, genetics, literature, etc.*).
+With few exceptions (Gilmore, in press), a behavioral scientist who searches for scientific datasets to analyze or extend upon will find little material to work with (*aside from things like NDAR, neuroimaging databases, a few large-scale surveys*).
+That is, despite significant growth in repositories (OSF, Databrary, Dataverse, ICSPR, FigShare) for sharing data and increased interest in open, transparent, and reproducible scientific practices in psychology (Science, 2015), data remains hard to find, and thus, hard to reuse (*doesn't this oversell what we're offering -- it's still a very restricted type of search?*).
 
 A recent survey of the developmental and learning science community (Gilmore & Adolph, 2016) shows that most researchers collect video as raw data, 5-15 hours per week.
-Video powerfully depicts the ways that behavior unfolds in real time and how it changes cross development.
+Video powerfully depicts the ways that behavior unfolds in real time and how it changes across development.
 Video collected for one purpose can be readily re-used for other purposes beyond those envisioned by the original researchers (e.g., Raudies et al. 2012; Gilmore et al. 2015; others).
 
 To characterize and quantify behavioral patterns, developmental scientists apply text or numeric codes to segments of video using specialized software tools and carefully trained cadres of research assistants.
-X% of survey respondents code video using a specialized commerical (Mangold Interact; Noldus Observer) or academic tool (Datavyu; ELAN; Transana).
-The coded data files contain information about what happened in the videos and when or how long it occurred.
-Some labs make multiple passes through the same videos, extracting new information with each pass, and adding new columns to the spreadsheets.
-The spreadsheets form the basis of quantitative and qualitative analyses researchers report in journal articles, talks, and presentations.
-Beyond this, the spreadsheets contain invaluable, expensive-to-acquire, human-validated text-based information about the contents of the raw video recordings.
-As such, the spreadsheets provide the basis for searching *within* videos for specific codes or behaviors.
+X% of survey respondents code video using a specialized commercial (Mangold Interact; Noldus Observer) or academic tool (Datavyu; ELAN; Transana).
+The coded data files contain information about what happened in the videos and often when and for how long it occurred.
+Some labs make multiple passes through the same videos, extracting new information with each pass, which may be represented as new columns in special-purpose spreadsheets or new timelines or tiers of annotations.
+These codes form the basis of quantitative and qualitative analyses that researchers report in journal articles, talks, and presentations.
+As a result, these codes contain invaluable, expensive-to-acquire, human-validated text-based information about the contents of the raw video recordings.
+As such, they can provide the basis for searching *within* videos for specific codes or behaviors.
 That functionality, offered by most of the specialized coding tools, works well for researchers who share the same laboratory and use the same tools.
 But, the coding tools store data in incompatible native formats that are not readily interoperable, and so the hard-won information contained within the spreadsheets remains locked away, its potential for reuse by others largely unrealized.
 
 Other barriers to sharing coded videos exist.
-Video contains identifiable information such as faces and voices.
-Special care must be taken to secure permission from research participants before sharing videos outside of a research team.
+Video contains identifiable information such as faces and voices, and so special care must be taken to secure permission from research participants before sharing videos outside of a research team.
 The sensitive nature of video recordings and large file sizes pose technical challenges related to the location and capacity of video storage.
 Varied video file formats, and the increasing availability of HD video formats pose additional challenges for storage and preservation.
-Based on our recent community survey, the video-using developmental scientists  use local file servers, cloud-based storage, and even email or snail mail to share videos and coded spreadsheets with colleagues outside their laboratories.
+Inconsistencies in representation and encoding of timing information between coding and video formats can confound interpretation, review, and collation of these codes.
+Based on our recent community survey, the video-using developmental scientists use local file servers, cloud-based storage, and even email or snail mail to share videos and coded spreadsheets with colleagues outside their laboratories.
 
 The Databrary (databrary.org) digital library, created by the applicants with support from NSF (BCS-1238599) and NICHD (U01-HD-076595) overcomes many barriers to sharing research videos collected by developmental and learning scientists, including policy/permission and technical challenges.
 See section X (pp. X-X) for more information about Databrary and its progress.
-But, while Databrary currently allows users to search across the library for studies matching specific characteristics or terms, the system cannot return results based on information within the videos themselves.
+But, while Databrary currently allows users to search across the library for datasets matching specific characteristics or terms, the system cannot return results based on information within the videos themselves.
 Thus, even while a video might contain examples of child speech and mother speech, and Databrary might contain a coded spreadsheet that marks those segments time-locked to the video, a user cannot search for the segments.
 
 The applicants contend that expanding the Databrary digital library's capabilities to enable search within videos will lead to substantial new research opportunities and accelerated discovery.
@@ -48,17 +48,18 @@ As such, the project has four aims.
 
 1. Design and implement a user interface and database structure that empowers authorized Databrary users to search for specific segments of video based on codes, tags, or keywords linked to those segments. Expand and extend Databrary's system for visualizing user-defined video codes.
 
-Databrary currently allows users to search across videos or collections of videos for selected terms.
-We will design, implement, test, and refine back-end technologies and and user interfaces that return within-video search results in ways that makes it easy for users to click on and preview video segments the search engine finds. The interface will allow users to select and copy to their own Databrary workspace selected segments for future reanalysis.
-Databrary will keep track of the source(s) of the selected videos and generate electronic "reference lists" of the materials a user searches for and copies.
-Databrary's existing "timeline" interface for depicting tagged video segments will be modified to allow users to select the sets of tags that have been applied to shared videos.
+Databrary currently allows users to search across collections of videos for selected terms.
+We will design, implement, test, and refine back-end technologies and user interfaces that return within-video search results in ways that makes it easy for users to click on and preview video segments the search engine finds.
+The interface will allow users to select and copy to their own Databrary workspace selected segments for future reanalysis (*not sure this is in scope, and could be handled simpler with tagging*).
+Databrary will keep track of the source(s) of the selected videos and generate electronic "reference lists" of the materials a user searches for and copies (*maybe just for search results?*).
+Databrary's existing "timeline" interface for depicting tagged video segments will be modified to allow users to display the sets of tags that have been applied to shared video sessions.
 These features will make it easy for Databrary users to discover, preview, copy, and reanalyze video datasets that meet the specific requirements of their research question while keeping careful track of data sources and provenance.
 
 2. Enable codes and annotations from selected existing video and audio coding tools to be imported into, visualized within, and searched across the Databrary digital library. Enable Databrary codes to be exported along with videos in an open format that may be imported back into existing coding tools.
 
 Databrary currently stores spreadsheet files in a small number number of formats, but even if the files are well-structured, the information within them is not searchable.
 Working closely with a technical advisory group from a selected subset of coding tool developers (see pp. X-X) commonly used by developmental researchers, Databrary will develop ways for users to upload coding spreadsheets linked to videos and make the codes available for visualization and search across the library.
-Databrary will build the capacity to export imported codes in an open, text-based file format (probably XML, CSV, and/or JSON) that could in principle be imported back into any desktop tool that supported the format.
+Databrary will build the capacity to export imported codes in an open, text-based file format (probably XML, CSV, and/or JSON) that could in principle be imported back into any desktop tool that supported the format (*since most tools don't support import, we should probably just export to native formats where possible*).
 These features will provide information for the search capabilities described in Aim 1, and they will reduce barriers to sharing coded videos across labs that use different coding tools.
 
 3. Design and implement ways for authorized Databrary users to create electronic code manuals that link text-based or numeric tags to richer descriptions of code definitions, including video snippets or exemplars.
@@ -78,9 +79,9 @@ Databrary will become an even more powerful and attractive tool for video data s
 Most video coding will continue to occur offline using desktop tools.
 Databrary will develop ways for researchers to share coding with collaborators in different locations, by keeping track of information about different coding passes on the same videos.
 This will allow coders in one lab, for example, to carry out reliability coding on videos coded in a collaborator's lab.
-Similarly, as more users search Databrary for selected segments and reanalyze them, new or revised codes will be applied to existing shared video segments.
-Databrary will develop ways to store and represent information from coding passes added by others to shared video segments.
-Databrary will track and report version changes in coding spreadsheets and coding passes, and track and report information about data reuse.
+Similarly, as more users search Databrary for selected segments and reanalyze them, new or revised codes will be applied to existing shared video sessions.
+Databrary will develop ways to store and represent information from coding passes added by others to shared video sessions.
+Databrary will track and report version changes in coding spreadsheets and coding passes, and track and report information about data reuse (*maybe*).
 
 ### Background and Rationale
 
@@ -168,7 +169,7 @@ Databrary will track and report version changes in coding spreadsheets and codin
 
 ### Implementation Plan
 
-The implementation plan consists of four main projects aligned with the specific aims. The sections below describe the main phases in general terms, with specific technical details provided in the [Technical Plan](ridir-16-technical-plan.md) addendum. See Figure X in that addendum for a project timeline.
+The implementation plan consists of four main projects aligned with the specific aims. The sections below describe the main phases in general terms, with specific technical details provided in the [Technical Plan](technical-plan.md) addendum. See Figure X in that addendum for a project timeline.
 
 #### Project 1: Search interface and functionality.
 
@@ -177,14 +178,15 @@ This project will focus on building the capacity for Databrary's existing search
 ##### Project 1.1: Design search interface
 
 The PIs and project staff will gather requirements for the search interface, drawing upon the existing community of Databrary users by convening web-based focus groups, and UI/UX expertise available to the PIs through the Databrary project's advisory board and institutional experts (e.g., Plass, PSU's Honavar, NYU Libraries).
-A formal functional specification document with wireframes will be developed and circulated for feedback. Once finalized, the front-end developer will implement the approved design and begin testing it.
+A formal functional specification document with wireframes will be developed and circulated for feedback. Once finalized, the developers will implement the approved design.
+(*We probably want to spec out a far more iterative approach. Plass seems unlikely to help with any of this.*)
 
 ##### Project 1.2: Adapt Databrary's search functionality.
 
-Databrary's existing search architecture is based on [DESCRIBE].
+Databrary's existing search architecture is based on Apache solr targeting entire datasets as documents.
 The system has existing capabilities that enable users to add text based comments or tags to video segments selected by hand using a web-browser. Thus, Databrary already has the capacity to represent selected segments of video and to link video segments to text-based codes.
 Staff will adapt the existing comment/tag functionality to permit tags from imported coding spreadsheets to be added to the text available to the search engine.
-This will require some modifications to Databrary's back-end data model.
+This will require extensive modifications to Databrary's back-end data model and search infrastructure to allow returning video segment results.
 
 ##### Project 1.3: Develop mechanisms for extracting and delivering tagged segments of video.
 
@@ -193,10 +195,12 @@ There are several technical challenges to overcome.
 Databrary does not store or represent videos as sequences of frames or time segments.
 So, if a user searches for the term "infant speech" and the system returns 100 segments with that tag, Databrary will need to determine what information to return to the user -- a small image (thumbnail) of the first frame of the entire video, a thumbnail image of the first frame of the found segment, or something else.
 For the interface to return a thumbnail image, Databrary will need to take information about the video and compute the frame or frames that should be returned.
-Similarly, if the user interface allows the user to click on thumbnail images and preview video segments or use mouse movements to scrub through the video segments forward and backward in time, the Databrary system will need to compute and render these frames.
+Similarly, if the user interface allows the user to click on thumbnail images and preview video segments or use mouse movements to scrub through the video segments forward and backward in time, the Databrary system will need to compute and render these frames (*or just deliver the entire video and allow the client to seek, as we do now*).
 Solving these problems in ways that make the interface responsive to users will be critical for making the search capability useful.
 
 #### Project 1.4 Develop mechanisms for selecting and storing for later analysis found video segments.
+
+(*I'm not sure any of this is in scope.*)
 
 Once the search engine is able to find video segments and return them to the user in a way that enables browsing or previewing, we will need to develop a mechanism that allows users to select videos for subsequent detailed evaluation.
 From the user's point of view, we envision an interface with checkboxes or similar functionality, possibly including filters that, for example, select the top 10 or 50 hits.
@@ -220,11 +224,11 @@ This project focuses on importing coding files from a selected set of academic a
 ##### Project 2.1: Import and export Datavyu spreadsheets.
 
 We will start by making Databrary capable of importing spreadsheets generated by Datavyu (datavyu.org), the free, open-source video coding tool created by Databrary's founder, Karen Adolph.
-Some X volumes on Databrary representing X videos contain spreadsheets coded in Datavyu.
+Some 6 volumes on Databrary representing 230 video sessions contain spreadsheets coded in Datavyu.
 Our survey of the video-using developmental science community suggests that there are hundreds of laboratories using Datavyu.
 The Datavyu file format is well-known to the Databrary team, and so making Databrary capable of reading Datavyu spreadsheet files will be a test case, demonstrating the feasibility of other projects (2.2 - 2.x) focused on importing other data formats.
-Because Datavyu uses a non-proprietary format, we will also add to Databrary the capability of exporting codes in the Datavyu format.
-This is important, because at present, users who download videos from Databrary  with linked Datavyu spreadsheets have to relink the files on their desktop computers.
+Because Datavyu uses a known format, we will also add to Databrary the capability of exporting codes in the Datavyu format.
+This is important, because at present, users who download videos from Databrary with linked Datavyu spreadsheets have to relink the files on their desktop computers.
 Jesse Lingeman, lead Datavyu developer and Clinton Freeman, the original Datavyu developer, and current Databrary project consultant, will help guide the effort.
 
 ##### Project 2.2: Import ELAN spreadsheets.

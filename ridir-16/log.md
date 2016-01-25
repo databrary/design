@@ -2,13 +2,13 @@
 
 ## 2016-01-11
 
-- ROG drafted [survey](ridir-16-draft-survey.md) and sent to Drew, Dylan, Carmen, and Karen for comments.
-- ROG modified list of possible [technical advisory members](ridir-16-technical-adv-com.md). For this round, we will drop the eye tracking, EEG, and other experts to focus on video annotation. 
+- ROG drafted [survey](draft-survey.md) and sent to Drew, Dylan, Carmen, and Karen for comments.
+- ROG modified list of possible [technical advisory members](technical-adv-comm.md). For this round, we will drop the eye tracking, EEG, and other experts to focus on video annotation. 
 - On 2016-01-08, ROG and DS met. Agreed we need to evaluate Transana further before talking with developer.
 
 ## 2016-01-08
 
-- ROG added to [proposal draft](ridr-16-ideas.md) some notes/thoughts.
+- ROG added to [proposal draft](ideas.md) some notes/thoughts.
 
 ## 2015-12-29
 
@@ -26,6 +26,6 @@
 
     The other aims are more focused on search within videos.
 
-- Discussed community research strategy. See [ridir-research-questions.md](ridir-research-questions.md)
+- Discussed community research strategy. See [research-questions.md](research-questions.md)
 
 - ROG wants to ask whether data mining of (HTML-based) manuscript text linked to datasets (a la neurosynth.org) makes sense for RIDIR or future project?

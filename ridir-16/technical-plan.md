@@ -12,7 +12,7 @@ Dr. Simon, Databrary's System Architect and Technical Lead, will spearhead the t
 
 ## Databrary Architecture
 
-- Postgres, Haskell, JavaScript, SOLR
+- PostgreSQL, Haskell wai/warp, AngularJS, Apache Solr
 - Transcoding via NYU HPC to X formats.
 - Back-ups, etc.
 
