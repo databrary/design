@@ -169,7 +169,7 @@ Databrary will track and report version changes in coding spreadsheets and codin
 
 ### Implementation Plan
 
-The implementation plan consists of four main projects aligned with the specific aims. The sections below describe the main phases in general terms, with specific technical details provided in the [Technical Plan](ridir-16-technical-plan.md) addendum. See Figure X in that addendum for a project timeline.
+The implementation plan consists of four main projects aligned with the specific aims. The sections below describe the main phases in general terms, with specific technical details provided in the [Technical Plan](technical-plan.md) addendum. See Figure X in that addendum for a project timeline.
 
 #### Project 1: Search interface and functionality.
 
