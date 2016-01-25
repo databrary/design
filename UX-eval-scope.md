@@ -46,6 +46,7 @@ To encourage deeper, more meaningful engagement by targeted audience rather than
 ** Our goal: getting labs to provide complete metadata and to do it correctly **
 ** How easy is it switch between edit and view mode to review volume/session **
 
+- "Volume completion meter" 
 - Create volume and complete basic information
 - Manage access	
 - Set up spreadsheet
@@ -59,16 +60,6 @@ To encourage deeper, more meaningful engagement by targeted audience rather than
 - Volume history:
 	- Track changes in basic information
 	- Review changes in access
-
-## Assisted curation
-
-- Clearly communicate that users have the option to bulk upload
-- Mark that you want to share a large amount of existing data
-- Share basic descriptive information about the study:
-	- Products/papers
-	- Any existing spreadsheet data
-	- Coding manuals
-- Easily (and quickly) upload files in bulk without organizing them
 
 ## Improving representation of content
 
