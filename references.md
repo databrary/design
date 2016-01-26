@@ -33,6 +33,7 @@
 - [DataBib -- tool for finding online data repositories](http://databib.org/index_subjects.php)
 - [re3data - registry of research data repositories from the German Research Foundation](http://www.re3data.org/)
 - [DOAR - directory of open access repositories](http://opendoar.org/)
+- [DIA2](http://www.dia2.org/) - directory of NSF grants
 
 ### Domain General
 - [MyOpenArchive](http://myopenarchive.org/), @myopenarchive, **shut down as of 2013-11-24**
