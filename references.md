@@ -138,9 +138,15 @@
 
 ## Tools
 
+### Metacollections
+
+- [Video Analysis Software Review](http://www.theeminentcodfish.com/video-software-review/) includes many of the below
+
 ### Video/audio coding and visualization tools
+
 - [Anvil](http://www.anvil-software.org/)
 - [atlas.ti](http://atlasti.com/)
+- [BORIS](http://penelope.unito.it/boris) (Behavioral Observation Research Interactive Software) desktop coding tool with many of the same features as ELAN and Datavyu combined
 - [Chen Yu lab](http://www.indiana.edu/~dll/research.html)
 - [ChronoViz](http://chronoviz.com/) from UCSD.
 - [CowLog](http://cowlog.org/) desktop and web-based video coding tools...for cows (and not-cows).
