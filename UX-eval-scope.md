@@ -1,8 +1,8 @@
 Databrary background for UX Department heuristic evaluation
 
-# Description of typical user
+# Typical users
 
-Role, activities, responsibilities, access.
+Activities, responsibilities, access varies by role.
 
 ## PIs (Authorized Investigators)
 
@@ -16,11 +16,11 @@ Role, activities, responsibilities, access.
 - Post-docs
 - Full-time staff members/lab managers
 
-# Scope 
+# Scope for evaluation tasks
 
-To encourage deeper, more meaningful engagement by targeted audience rather than broader engagement from serendipitous users. "Engagement" here is defined as users who actively use Databrary for their digital asset management or for the discovery of new material that bolsters their own work.
+To encourage deeper, more meaningful engagement by our targeted audience rather than broader engagement from serendipitous users. "Engagement" here is defined as users who actively use Databrary for their digital asset management or for the discovery of new material that bolsters their own work.
 
-## Onboarding
+## Onboarding new users
 
 - Register
 - Request authorization
@@ -29,10 +29,54 @@ To encourage deeper, more meaningful engagement by targeted audience rather than
 - Personalize profile
 	- Add websites, affiliation
 
+## Search and discovery
+
+- Find a clip of a child exploring objects that can be used to demonstrate object play in a talk or a lecture
+	- The clip must be released for 'excerpts"
+- Find a volume with session data that could be reused for a new study
+- Search for data with a specific tag
+- For each of the volumes found above
+	- Find components (e.g original citation, databrary citation (and download), funding, description, highlights)
+- Explore the data from the reusable volume:
+	- Go to a session and watch a video or videos
+		- Add a tag to part of a video
+	- Add volume tags and comments
+	- Note volume highlights and release levels
+	- Explore spreadsheet data by filtering
+		- Filter by at least two fields (e.g. age, gender, race, condition)
+		- Access NIH enrollment report
+- Download interesting content
+	- Highlights (individually or all)
+	- Volume zip (whole or partial)
+	- Volume spreadsheet (CSV)
+
+## Data management
+
+** Our goal: getting labs to provide complete metadata and to do it correctly **
+** How easy is it switch between edit and view mode to review volume/session **
+
+- Create volume and complete overview tab with basic information
+	- Add volume keywords
+- Manage access	
+	- Add collaborators *how to tell them who to add?*
+- Set up spreadsheet
+- Create new session, enter metadata
+- Upload files to a session
+- Position files and records in a session
+- Add keywords to a session
+- Delete and undelete a file
+- File history:
+	- Access a previous version
+- Volume history:
+	- Track changes in basic information
+	- Review changes in access
+- Review the "volume completion meter" tab for anything else you can do on the volume
+	- Follow instruction for creating highlight from session video file
+
 ## PI dashboard
 
-- Managing affiliates
-- Review volumes
+- Manage affiliates
+- Review existing volumes
 - Review changes to authorizations and access
 
 ## Affiliate dashboard
@@ -40,60 +84,6 @@ To encourage deeper, more meaningful engagement by targeted audience rather than
 - View authorization(s)
 - Find studies you have lab access to
 	- Understand what level of access you have
-
-## Data management
-
-** Our goal: getting labs to provide complete metadata and to do it correctly **
-** How easy is it switch between edit and view mode to review volume/session **
-
-- Create volume and complete basic information
-- Manage access	
-- Set up spreadsheet
-- Create new session, enter metadata
-- Upload files
-- Position files and records
-- File history:
-	- Access a previous version
-	- Move a file between sessions
-	- Undelete a file
-- Volume history:
-	- Track changes in basic information
-	- Review changes in access
-
-## Assisted curation
-
-- Clearly communicate that users have the option to bulk upload
-- Mark that you want to share a large amount of existing data
-- Share basic descriptive information about the study:
-	- Products/papers
-	- Any existing spreadsheet data
-	- Coding manuals
-- Easily (and quickly) upload files in bulk without organizing them
-
-## Improving representation of content
-
-- Add as much useful information to volumes as possible
-- Create highlights
-- Add tags and keywords
-	- Volume
-	- Session
-
-## Search and discovery
-
-- Find useful clips for teaching
-- Find studies that are good for reuse
-- Search by top tags
-- Interpret volume view page
-- Explore data in a volume:
-	- Spreadsheet filtering
-		- Reports
-	- Highlights
-		- Release levels
-		- Use permissions
-- Download interesting content
-	- Highlights (individually or all)
-	- Volume zip (whole or partial)
-	- Volume spreadsheet (CSV)
 
 # Useful links
 
