@@ -58,7 +58,7 @@ These features will make it easy for Databrary users to discover, preview, copy,
 
 Databrary currently stores spreadsheet files in a small number number of formats, but even if the files are well-structured, the information within them is not searchable.
 Working closely with a technical advisory group from a selected subset of coding tool developers (see pp. X-X) commonly used by developmental researchers, Databrary will develop ways for users to upload coding spreadsheets linked to videos and make the codes available for visualization and search across the library.
-Databrary will build the capacity to export imported codes in an open, text-based file format (probably XML, CSV, and/or JSON) that could in principle be imported back into any desktop tool that supported the format.
+Databrary will build the capacity to export imported codes in an open, text-based file format (probably XML, CSV, and/or JSON) that can be imported back into any desktop tool that supports the format.
 These features will provide information for the search capabilities described in Aim 1, and they will reduce barriers to sharing coded videos across labs that use different coding tools.
 
 3. Design and implement ways for authorized Databrary users to create electronic code manuals that link text-based or numeric tags to richer descriptions of code definitions, including video snippets or exemplars.
@@ -84,28 +84,105 @@ Databrary will track and report version changes in coding spreadsheets and codin
 
 ### Background and Rationale
 
-#### Why Video?
+Open data sharing has become a scientific imperative across disciplines.
+Open data sharing is common practice in many areas of biomedical (Kaye, 2009), physical (Young, 2010), biological (Reichman, Jones, & Schildhauer, 2011) and earth sciences (Kleiner, 2011), and it is an emerging priority in areas like neuroscience (Poldrack & Gorgolewski, 2014; Poline et al., 2012).  
+Open data sharing can help to translate insights from scientific research into applications that serve essential human needs.
+Open data sharing bolsters transparency and peer oversight (Miguel et al., 2014), encourages diversity of analysis and opinion, accelerates the education of new researchers, and stimulates the exploration of new topics not envisioned by the original investigators.
+Data sharing and reuse increases the impact of public and private investments in research and promises to lead to more effective public policy.
+The value of open data sharing has been known for decades (Perneger, 2011), but a vigorous open science movement has gained momentum only in recent years.
+Open access journals now address general scientific topics (e.g., PeerJ -- https://peerj.com, PLOSOne -- http://www.plosone.org, and; GigaScience -- http://www.gigasciencejournal.com), specific domains (e.g., Advances in Engineering Education -- http://advances.asee.org and BMJ Open -- http://bmjopen.bmj.com/), and even raw data (e.g., Nature Scientific Data -- http://www.nature.com/sdata/).
 
-- uniquely captures complexity of behavior
-- cheap to collect, largely self-documenting
-- widely used
-- flexible, can be used in many contexts
-- high reuse potential
+Data repositories from diverse areas of scholarly inquiry have begun to communicate with one another through groups such as the Research Data Alliance (https://www.rd-alliance.org/groups/domain-repositories-interest-group.html) and work jointly to achieve common goals such as publishing author guidelines for transparent and open research (Nosek et al., 2015). New web-based platforms now enable open sharing of slides from talks (SlideShare -- http://www.slideshare.net), data, and materials (Figshare -- http://figshare.com; Open Science Framework -- http://osf.io; F1000 Research -- http://f1000research.com). The emergence of greater interest in open data sharing has coincided with the increasing popularity of web-based software sharing and version control systems such as GitHub (http://github.com), open source data analysis languages such as R (http://cran.r-project.org) and Python (https://www.python.org), and with the initiation of training programs such as Software Carpentry (https://software-carpentry.org) that help working scientists acquire state-of-the-art data management skills. These initiatives seek to speed research progress, improve research practice, and foster greater scientific transparency.
 
-#### How Video Enables Behavioral Science Research
+Unfortunately, despite efforts to make data sharing a norm in the social and educational sciences (AERA Code of Ethics, 2011; Nosek & Bar-Anon, 2011) most research on human learning and development remains shrouded in a culture of isolation (Adolph, Gilmore, Freeman, Sanderson, & Millman, 2012).
+Researchers share interpretations of distilled, not raw data, almost exclusively through publications and presentations.
+The path from raw data to research findings to conclusions cannot be traced or validated by others.
+Other researchers cannot easily pose new questions that build on the same raw materials.
 
-#### The Databrary Digital Library
+The Databrary (databrary.org) data library has, with prior support from NSF (BCS-1238599) and NICHD (U01-HD-076595), overcome barriers to sharing video, a type of raw data collected by hundreds of researchers who study learning and development in classroom, museum, laboratory, and home contexts.
+Video is a medium with unique potential for reuse by others, and this makes it critical to overcome barriers to open video data sharing in order to advance discovery in the behavioral sciences.
+The success of the Databrary project to-date illustrates how open sharing of video data can improve scientific practice and advance research on learning and development.
+The current proposal seeks to extend and enhance Databrary in ways that will make it even more powerful and useful to researchers who wish to share findings and build upon the prior work of others.
+The proposed enhancements will make sharing video data more attractive to researchers and make substantially easier the reuse and repuposing of previously shared video.
 
+#### The growth of video
 
+More than 1 billion users worldwide upload more than 300 hours of video to YouTube every minute (https://www.youtube.com/yt/press/statistics.html).
+Google, the owner of YouTube, has built an immense data infrastructure to upload, store, convert, tag, and stream video.
+The current scale of video collection in research contexts is much smaller of course and more focused in purpose, but it is large and growing.
+For example, the Measures of Effective Teaching Project (http://www.metproject.org/) funded by the Gates Foundation generated more than 1,000 videos from K-12 classrooms, covering core subjects such as mathematics and language arts from multiple camera angles.
+The data, constituting tens of terabytes of storage, are hosted at the University of Michigan (http://soe.mivideo.it.umich.edu/) and streamed to registered viewers across the country.
+A recent survey of researchers who study infant and child development carried out by the applicants (Gilmore & Adolph, 2016) suggests that there are hundreds of scientists who use video in their research programs, most collecting 5-10 hours per week per research group.
+Beyond research on classroom practices, video recordings are becoming critical for teacher observation, evaluation and certification through tools such as Edthena (http://www.edthena.com) and the National Board for Professional Teaching Standards ATLAS initiative (http://www.nbpts.org/atlas).
+The widespread availability of low-cost, high resolution video cameras has made video a rapidly growing source of information about human behavior with untapped potential for the sciences of human behavior.
 
-#### Tools for Analyzing Video
+#### Video enables behavioral science research
 
-- Tools allow text or numeric tags to be applied to segments of video by human observers.
-- Transana as a model for free-form comments ...
-- CLAN as a model for highly structured, strong regularized conceptual ontologies.
-- Datavyu as a model for highly flexible tool, scripting capability (Mangold has scripting, as well), free and open source software.
+Video data are unique because video captures the richness and complexity of human behavior—-the interactions between people and their environment -- unlike any other form of measurement.
+Video captures what people say and what they do.
+It captures when, where, and how they look, gesture, move, and communicate, and how their looking, gesturing, moving, and communicating correspond to what others are doing.
+Because of these characteristics, video —- and before that, film -— has a long history (Goldman et al., 2014; Curtis, 2011) in the study of learning and development.
+Educators, teacher trainers and evaluators use video to record what teachers do to help improve teaching practices or to evaluate performance (Bakken & Pierroux, 2015; Blomberg et al., 2013; Masats & Dooly, 2011; Baecher, Kung, Jewkes, & Rosalia, 2013).
+Researchers use video in home and laboratory contexts to study how infants, children, and adults behave in natural or experimenter-imposed tasks (Karasik, Tamis-LeMonda, & Adolph, 2014).
+Researchers record videos of students in classrooms (Alibali & Nathan, 2012) to understand what teachers do and how students respond.
+Because video closely mimics the multisensory experiences of live human observers, recordings collected by one person for a particular purpose may be readily understood by another person and reused for a different purpose. Moreover, the success of YouTube and other video-based social media demonstrates that web-based video storage and streaming systems are now sufficiently well developed to satisfy large-scale demand.
+
+However, capitalizing on the unique potential of large scale video data collections requires overcoming technical, ethical, practical, and cultural challenges to sharing research video.
+
+#### Meeting video's potential requires overcoming special challenges
+
+Large file sizes and diverse formats present special technical challenges for sharing.
+Video files are large (one hour of HD video can consume 10+ GB of storage) and come in varied formats (from cell phones to high-speed video).
+Many studies require multiple camera views to capture desired behaviors.
+Thus, sharing videos requires substantial storage capacity and significant computational resources for transcoding videos into common formats that can be preserved over the long term.
+
+Open video sharing must overcome ethical challenges linked to sharing personally identifiable data.
+Although policies exist for sharing de-identified data, video contains easily identifiable data: faces, voices, names, interiors of homes and classrooms, and so on.
+Removing identifiable information from video severely diminishes its value for reuse and puts additional burdens on researchers.
+So, open video sharing requires new policies that protect the privacy of research participants while preserving the integrity of raw video for reuse by others.
+Open video sharing faces practical challenges of data management. Developmental and educational research is inundated by an explosion of data, most of which is inaccessible to other researchers.
+Research video creates a data explosion: A typical lab studying infant or child development collects 8-12 hours of video/week (Gilmore & Adolph, 2012).  Researchers lack time to find, label, clean, organize, and copy their files into formats that can be used and understood by others (Ascoli, 2006a).
+Study designs vary widely, and no two labs manage data in the same way. Idiosyncratic terminology, record-keeping, and data management practices are the norm. Few researchers document workflows or data provenance.
+Although video requires minimal metadata to be useful, video files must be electronically linked to what relevant metadata exist including information about whether participants have given permission to share.
+
+Perhaps the most important challenge is cultural.
+Community practices must change. Most researchers in the education, learning, and developmental sciences do not reuse their own videos or videos collected by other researchers; they neither recognize nor endorse the value of open sharing.
+Contributing data is anathema and justifications against sharing are many. Researchers cite intellectual property and privacy issues, the lack of data sharing requirements from funding agencies, and fears about the misuse, misinterpretation, or professional harm that might come from sharing (Ascoli, 2006b; Ferguson, 2014).
+Data sharing diverts energy and resources from scholarly activities that are more heavily and frequently rewarded. These barriers must be overcome to make video data sharing a scientific norm.
+
+Technical challenges involved in searching the contents of videos present barriers to sharing.
+Videos contain rich and diverse information that requires significant effort by human observers to extract.
+Researchers make use of videos by watching them and, using paper and pencil or more automated computerized coding software, translating observations into ideas and numbers.
+In many cases, researchers assign codes to particular portions of videos.
+In principle, these codes make the contents of videos searchable by others. However, researchers focus on different questions from varied theoretical perspectives and lack consensus on conceptual ontologies.
+So, in practice, most coded data are not easily shared. Although human-centered video coding capitalizes on the unique abilities of trained observers to capture important dimensions of behavior, machine learning and computer vision tools may provide new avenues for tagging the contents of videos for educational and developmental research (Amso, Haas, Tenenbaum, Markant, & Sheinkopf, 2014; Yu & Smith, 2013; Fathi, Hodgins, & Rehg, 2012; Google Research, 2014; Raudies & Gilmore, 2014).
+
+#### The Databrary digital library overcomes these barriers
+
+With support from NSF (BCS-1238599) and NICHD (U01-HD-076595), PIs Adolph and Gilmore and Co-I Simon established Databrary.org, the first-of-its-kind library for storing and sharing video data and associated metadata.
+From the beginning, Databrary sought to create a secure home for research videos in the developmental and learning sciences in order to foster widespread data reuse and enhance transparency in research.
+
+Databrary began public operation in the spring of 2014.
+The library has since grown to encompass 253 authorized investigators and 143 affiliate investigators from 157 institutions around the world.
+These investigators have contributed more than 3,600 hours of video or audio recordings, representing some 3,300 participants ranging in age from 6 weeks to middle age.
+The system supports 162 volumes or datasets, of which 55 are currently shared with the community of authorized researchers or with the public.
+
+Databrary permits users to search for, browse, view, and download videos stored on the site.
+Users may seek out videos with specific characteristics such participant ages or recording context (home, lab, or school) for recoding and reanalysis.
+Databrary empowers users to search for and stream or download video highlights -- clips that may be shown in public settings for educational or research purposes like lectures or talks.
+
+In addition, Databrary sought to overcome two critical barriers standing in the way of widespread open data sharing.
 
 #### Policy Framework for sharing identifiable data
+
+Video and audio recordings usually contain identifiable information -- faces and voices of research participants or others -- and may contain sensitive information -- images of participants' homes or behaviors that could cause embarrassment or harm if revealed outside a research context.
+Video and audio recordings cannot be easily or inexpensively de-identified without reducing the value of the recordings to other researchers.
+So, the Databrary team created a policy framework that allows identifiable data to be safely and securely shared for research purposes.
+
+Policies for openly sharing identifiable data in ways that securely preserve participant privacy are essential for sharing research video. Databrary does not attempt to de-identify videos. Instead, Databrary maximizes the potential for video reuse by keeping recordings in their original unaltered form. To make unaltered raw videos available to others for reuse, Databrary has developed a two-pronged access model that (a) restricts access to authorized researchers, and (b) enables access to identifiable data only with the explicit permission of the participants.
+To gain access to Databrary, a person must register (http://databrary.org/register) on the site. Applicants agree to uphold Databrary’s ethical principles and to follow accepted practices concerning the responsible use of sensitive data. Each applicant’s institution must co-sign an access agreement (https://databrary.org/access/policies/agreement.html). Full privileges are granted only to those applicants with independent researcher status at their institutions. Others may be granted privileges if they are affiliated with a researcher who agrees to sponsor their application and to supervise their use. Ethics board or IRB approval is not required to gain access to Databrary because many use cases do not involve research. IRB approval is required to contribute data and for research uses. Once authorized, a user has full access to shared data on the site, and may browse, tag, download for later viewing, and conduct non- or pre-research activities. These policies are spelled out fully in an online user guide (https://databrary.org/access/policies.html).
+Unique among data repositories, the Databrary access agreement authorizes both data use and contribution. However, users agree to store on Databrary only materials for which they have ethics board or IRB approval. Data may be stored on Databrary for the contributing researcher’s use regardless of whether the records are shared with others or not. When a researcher chooses to share, Databrary makes the data openly available to the community of authorized researchers.
+In addition to restricting access to authorized researchers, Databrary has extended the principle of informed consent to participate in research to encompass permission to share data with other researchers. To formalize the process of acquiring permission, Databrary has developed a Participant Release Template (https://databrary.org/access/policies/release-template.html) with standard language recommended for use with study participants. This language helps participants to understand what is involved in sharing video data, with whom the data will be shared, and the potential risks of releasing video and other identifiable data to other researchers.
 
 - Video and audio recordings contain identifiable information -- faces, voices, etc.
 - Databrary has developed a policy framework that builds on the principles of informed consent.
@@ -113,6 +190,27 @@ Databrary will track and report version changes in coding spreadsheets and codin
 - The framework also allows research participants to give permission for excerpts or clips from their recordings to be shown for research or educational purposes.
 - In turn, the framework limits access to the bulk of Databrary's materials to researchers who are specifically authorized by their institutions to have access to the library and to conduct research and non-research activities using these materials.
 - The framework, with minimal modification, has been agreed to by more than X institutions in North and South America, Europe, Asia, and Australia.
+
+#### Data management tools
+
+The project team sought to lower barriers to data sharing by creating data management functions that make it easy for researchers to organize data for subsequent sharing,
+
+When researchers do share, standard practice involves organizing data after a project is finished, perhaps when a paper goes to press. This “preparing for sharing” after the fact presents a difficult and unrewarding chore for investigators. It makes curating and ingesting datasets challenging for repositories, as well. Databrary has created a different route to curation that reduces these barriers.
+Databrary has developed a data management system that empowers researchers to upload and organize data as it is collected. Immediate uploading reduces the workload on investigators, minimizes the risk of data loss and corruption, and accelerates the speed with which materials become openly available. The system employs familiar, easy-to-use spreadsheet and timeline-based interfaces (Figures 2-3, and 5) that allow users to upload videos, add metadata about tasks, settings, and participants, link related files, and assign appropriate permission levels for sharing. To encourage immediate uploading, Databrary provides a complete set of controls so that researchers can restrict access to their own labs or to other users of their choosing. Datasets can be openly shared with the broader research community at a later point when data collection and ancillary materials are complete, whenever the contributor is comfortable sharing, or when journals or funders require it.
+
+Databrary has developed a novel active-curation framework. Researchers are encouraged to upload videos (and, if desired, files in other formats) after each session of data collection and to fill relevant metadata fields in a flexible, modifiable spreadsheet to aid in data management and to facilitate search and reuse. With this active-curation framework, the cost in time and labor to researchers is equivalent to current lab practices of storing a copy of the video on a hard drive and entering the associated metadata into a spreadsheet. Moreover, with this method, Databrary acts as the researcher’s personal lab file server and cloud storage, enabling web-based sharing among members of the protocol and ensuring secure backup.
+
+#### Building a Community
+
+Data sharing works only when the scientific community embraces it. From the beginning, Databrary has sought to cultivate a community of researchers who support data sharing and commit to making sharing and reuse part of their work flows. Databrary's community building efforts involve many interacting components. These include active engagement with professional associations, conference-based exhibits and training workshops, communications with research ethics and administration staff, talks and presentations to diverse audiences, and one-on-one consultations with individual researchers and research teams. These activities are time and labor-intensive, they are critical to changing community attitudes toward data sharing in the educational and learning sciences. Looking ahead, it will be critical to engage funders, journals, and professional organizations in the effort to forge community consensus about the importance, feasibility, and potential of open video data sharing.
+As it stands now, Databrary serves the community of researchers who study infant, child, and adolescent development, and the library is beginning to serve the needs of researchers who study K-12 education. However, the software is free and open source (http://github.com/databrary) and could readily be adapted for use by investigators interested in studying and sharing findings from research into best practices in engineering education or other fields.
+
+#### Tools for Analyzing Video
+
+- Tools allow text or numeric tags to be applied to segments of video by human observers.
+- Transana as a model for free-form comments ...
+- CLAN as a model for highly structured, strong regularized conceptual ontologies.
+- Datavyu as a model for highly flexible tool, scripting capability (Mangold has scripting, as well), free and open source software.
 
 #### Gaps this project will fill
 
@@ -271,18 +369,20 @@ Databrary serves as a consultant on the HomeBank project, and works closely with
 
 ### Coordination and Management Plan
 
-#### Governance
+#### Leadership and governance
 
-- Databrary advisory board
-  - Internal (NYU)
-  - Internal (PSU)
-  - External
+The project will be coordinated and managed by the PIs, Gilmore and Adolph, with guidance from the Co-Is, Simon and Millman.
+Gilmore and Adolph currently meet via phone or video conference several times each week to discuss Databrary project-related business matters with the Co-Is and with project staff.
+That practice will continue under the proposed project.
+Adolph and Gilmore collaborate on most decisions and regularly seek input from the Co-Is, but as overall Project Director, Adolph has the final say.
 
-#### User and Contributor Community
+In addition, the Databrary project as a whole has input from an advisory board.
+The board (see Appendix X) consists of experts internal to PSU and NYU and external advisers who bring expertise in data sharing and developmental science.
+The Databrary advisory board meets annually to hear project updates and provide guidance about policy and technical matters.
 
-#### Coding tool advisors
-
-- Get letters of commitment from tool providers
+Because of the unique nature of this proposal, we have assembled a technical advisory committee consisting of representatives from the leading video data coding software tools used by the developmental and learning sciences research communities (See Appendix X - <ridr-16-technical-advisory-comm-members.md>).
+These advisors have agreed to provide technical assistance to the project staff via email, phone, or video conference for up to 1 hour per month.
+The advisors have agreed to participate in a half-day webinar meeting held annually in each of the three years of the proposed project period.
 
 #### Evaluation and Assessment
 
@@ -330,3 +430,13 @@ More text available to Databrary search engine, the more relevant and powerful t
 Establishes framework for future extensions that would link to online (HTML-based) versions of published papers for data mining (e.g., neurosynth.org).
 Further, Acknowledges growth in text-based data mining and analysis procedures.
 Without access to text-based annotations of video segments, these tools can't yet be readily applied to video.
+
+Behavior, thought, feeling, and communication unfold in real time.
+No other measure captures the dynamics of behavior like video.
+Video and before it, film, has formed the core of research in human development for decades.
+
+- uniquely captures complexity of behavior
+- cheap to collect, largely self-documenting
+- widely used
+- flexible, can be used in many contexts
+- high reuse potential

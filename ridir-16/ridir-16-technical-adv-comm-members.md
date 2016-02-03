@@ -1,3 +1,12 @@
+Brian MacWhinney, Ph.D.
+Professor of Psychology and Modern Languages
+Carnegie Mellon University
+Department of Psychology
+Carnegie Mellon University
+Pittsburgh, PA 15213
+http://psyling.psy.cmu.edu/
+macw@cmu.edu
+
 Pascal T. Mangold
 Founder & CEO Mangold International
 Mangold International GmbH
