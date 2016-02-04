@@ -32,13 +32,13 @@ Other users might be researchers who would like access to Databrary materials wi
 
 Databrary has defined a set of terminology for navigating and using the service. Some of these terms may be found in our [glossary](https://databrary.org/access/definitions.html) and we do not assume that users will know the specific meaning of these terms ahead of time.
 
-* *Volume:* A volume marks a complete dataset in databrary.
-* *Session:* A session is a unit within a volume which consists of a set of videos and records. A session most often represents a single visit by a participant or set of particapants interacting together in a study.
-* *Spreadsheet:* Refers to the user interface on a volume's homepage that allows users to quickly view and edit metadata across multiple volume sessions.
-* *Timeline:* Refers to the user interface on a single session in a volume. It is designed to look like video editing software and allows users to upload and manage files associated with a session.
-* *Metadata field:* A single metric that describes something about the participant or session such as participant birthdate or session recording date. 
-* *Metadata category:* A category is a grouping of fields such as participant, session tasks, or session context. 
-* *Highlights:* Assets or parts of an asset (video clip) highlighted by the investigator to feature on the volume page. Depending on the release level specified by the volume owner, some highlights may be used in talks and lectures.
+* **Volume:** A volume marks a complete dataset in databrary.
+* **Session:** A session is a unit within a volume which consists of a set of videos and records. A session most often represents a single visit by a participant or set of particapants interacting together in a study.
+* **Spreadsheet:** Refers to the user interface on a volume's homepage that allows users to quickly view and edit metadata across multiple volume sessions.
+* **Timeline:** Refers to the user interface on a single session in a volume. It is designed to look like video editing software and allows users to upload and manage files associated with a session.
+* **Metadata field:** A single metric that describes something about the participant or session such as participant birthdate or session recording date. 
+* **Metadata category:** A category is a grouping of fields such as participant, session tasks, or session context. 
+* **Highlights:** Assets or parts of an asset (video clip) highlighted by the investigator to feature on the volume page. Depending on the release level specified by the volume owner, some highlights may be used in talks and lectures.
 
  
 
