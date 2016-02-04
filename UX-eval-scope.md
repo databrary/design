@@ -22,22 +22,19 @@ To encourage deeper, more meaningful engagement by our targeted audience rather 
 
 ## Onboarding new users
 
-- Register
-- Request authorization
-	- PIs from institutions
-	- Affiliates from PIs
-- Personalize profile
-	- Add websites, affiliation
+- Task: Register
+- Task: Request authorization (part of registration)
+	- PIs request from institutions and affiliates request from PIs, but it's the same interface and the same process
+- Task: Personalize profile
+	- Add websites, affiliation, profile picture
 
 ## Search and discovery
 
-- Find a clip of a child exploring objects that can be used to demonstrate object play in a talk or a lecture
-	- The clip must be released for 'excerpts"
-- Find a volume with session data that could be reused for a new study
-- Search for data with a specific tag
-- For each of the volumes found above
-	- Find components (e.g original citation, databrary citation (and download), funding, description, highlights)
-- Explore the data from the reusable volume:
+- Task: Find a video clip of a child exploring objects that can be used in a talk or a lecture (i.e. the clip must be released for 'excerpts')
+- Task: Find a volume with session data that could be reused for a new study
+- Task: Search for volumes with a specific tag
+- Task: For each of the volumes found above, note the original citation, funding source, volume description, and look at highlights. Download the Databrary citation in one of the formats. 
+- Task: Exploring data from the reusable volume:
 	- Go to a session and watch a video or videos
 		- Add a tag to part of a video
 	- Add volume tags and comments
@@ -45,48 +42,44 @@ To encourage deeper, more meaningful engagement by our targeted audience rather 
 	- Explore spreadsheet data by filtering
 		- Filter by at least two fields (e.g. age, gender, race, condition)
 		- Access NIH enrollment report
-- Download interesting content
-	- Highlights (individually or all)
-	- Volume zip (whole or partial)
+- Task: Download the following types of content
+	- A single highlight
+	- A session zip
+	- Whole volume zip 
 	- Volume spreadsheet (CSV)
 
 ## Data management
 
-** Our goal: getting labs to provide complete metadata and to do it correctly **
-** How easy is it switch between edit and view mode to review volume/session **
+** Our goal: getting labs to provide as much metadata as possible and to do it correctly **
+** How easy is it switching between edit and view mode to review volume/session **
 
-- Create volume and complete overview tab with basic information
+- Task: Create volume and complete overview tab with basic information
 	- Add volume keywords
-- Manage access	
-	- Add collaborators *how to tell them who to add?*
-- Set up spreadsheet
-- Create new session, enter metadata
-- Upload files to a session
-- Position files and records in a session
-- Add keywords to a session
-- Delete and undelete a file
-- File history:
-	- Access a previous version
-- Volume history:
-	- Track changes in basic information
-	- Review changes in access
-- Review the "volume completion meter" tab for anything else you can do on the volume
+- Task: Manage access	
+	- Add collaborators ("Gladys Chan" "Vicky Foo")
+	- Give them read access and read-write access respectively.
+- Task: Set up how your study would be presented, based on the provided spreadsheet
+- Task: Find more information about organizing data in Databrary from the User guide
+- Task: Create new session in spreadsheet, enter metadata
+- Task: Upload files (provided) to a session
+- Task: Position files in chronological order, and records accordingly in a session
+- Task: Add keywords to a session
+- Task: Delete and undelete a file
+- Task: Replace a file
+- Task: Session history: Download the previous version of the file you just replaced
+- Task: Volume history
+	- Review the changes you've made in basic information
+	- Review the changes you've made in access
+- Task: Review the "volume completion meter" tab for anything else you can do on the volume
 	- Follow instruction for creating highlight from session video file
+- Task: Share the volume with the Databrary community
 
-## PI dashboard
+## Dashboard
 
-- Manage affiliates
-- Review existing volumes
-- Review changes to authorizations and access
+- Affiliate Task: View authorization(s) - who has sponsored you
+- Affiliate Task: Find out what studies you have access to through your sponsor, and what level of access you have
+- PI Task: Manage affiliates
+	- Find out which affiliate is set to expire the soonest.
+	- Change the expiration to a month later.
+- PI Task: Review the volume you just created, note that it is shared, note your access level to the volume
 
-## Affiliate dashboard
-
-- View authorization(s)
-- Find studies you have lab access to
-	- Understand what level of access you have
-
-# Useful links
-
-- User guide
-- FAQs
-- Use cases
