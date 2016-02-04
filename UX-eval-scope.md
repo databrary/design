@@ -4,8 +4,8 @@ To encourage deeper, more meaningful engagement by our primary users rather than
 
 ## Onboarding new users
 
-** User goal: Register on Databrary, request authorization, and fill out personal profile in order to participate in the community more fully.**
-* Note: the timing needs to be arranged such that someone from Databrary can approve the authorization instantly during the evaluation *
+**User goal: Register on Databrary, request authorization, and fill out personal profile in order to participate in the community more fully.**
+*Note: the timing needs to be arranged such that someone from Databrary can approve the authorization instantly during the evaluation*
 
 - Task: Register
 	- Follow tabs on registration page to complete registration
@@ -16,7 +16,7 @@ To encourage deeper, more meaningful engagement by our primary users rather than
 
 ## Search and discovery
 
-** User goal: Find data on Databrary that are relevant to my needs as a researcher **
+**User goal: Find data on Databrary that are relevant to my needs as a researcher**
 
 - Task: Find a video clip of a child exhibiting 'scale error' that can be used in a talk or a lecture (i.e., the clip must be released for 'excerpts')
 - Task: Search for volumes by a specific tag 
@@ -37,9 +37,9 @@ To encourage deeper, more meaningful engagement by our primary users rather than
 
 ## Data management
 
-** User goal: provide as much accurate metadata as possible and to do it so that other users can find and reuse data. **
-* Note to evaluators: What is the experience switching between edit and view mode to review volume/session *
-* Note: We will provide sample (dummy) data and files for these tasks of filling in volume and session metadata, including keywords *
+**User goal: provide as much accurate metadata as possible and to do it so that other users can find and reuse data.**
+*Note to evaluators: What is the experience switching between edit and view mode to review volume/session*
+*Note: We will provide sample (dummy) data and files for these tasks of filling in volume and session metadata, including keywords*
 
 - Task: Create volume and complete overview tab with basic information
 	- Add volume keywords
