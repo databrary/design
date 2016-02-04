@@ -221,55 +221,32 @@ As it stands now, Databrary serves the community of researchers who study infant
 
 #### Gaps this project will fill
 
-##### Enable search within videos, not just across them.
+This project will fill numerous gaps in current research workflows and reduce barriers that make open sharing of video data harder than it needs to be.
+The project will expand upon Databrary's current search capabilities to enable
+search within videos, not just across them.
+This will make Databrary more useful to a wider range of researchers, and it will leverage the existing investments NSF and NICHD have made in creating the data library.
+Within-video search depends upon enabling Databrary to import, store, and share coding files from the leading video coding tools used by researchers in the developmental and learning sciences.
+This will contribute to the within-video search capability, and should lead to greater numbers of researchers registering for and using Databrary to share and reuse video data.
+The project will make the leading video coding tools more readily interoperable with one another.
+This will make it substantially easier for geographically dispersed researchers to share the burden of coding video and to collaborate on projects.
+Since Databrary serves as cloud storage for videos and as the "lingua franca" that connects coding files, video coders can be located anywhere.
+The existing video coding tools capture project/dataset and video-level data and metadata in different ways.
+Developing the capacity to import and export coding files in the major tool formats will reduce the barriers to sharing and reuse posed by incompatible formats.
+The project will enable interoperability among coding schemes used by different research groups to study the same phenomena.
+This will move to standardize documentation practices and documentation formats for coding definitions, and as a result will make it possible for codes used by one research group to be compared with or built upon by other groups.
 
-- Make Databrary more useful for a wider range of researchers.
-- Enable search within videos, not just across them.
+This project will facilitate long-term video data reuse and preservation by using Databrary's existing technology pipeline to transcode videos into common and presevable formats.
+There are a huge number of video formats; most coding tools struggle to support all of them.
+The increasing use of HD video poses additional problems for tools that offer forward/backward video playback at high speeds.
+A common complaint is that the timestamping provided by a coding tool can change depending on the format of the video.
+By transcoding videos into a common, web-compatible format on Databrary, we will make it easier for users to choose the coding tool that suits their research requirements.
 
-#### Enable interoperability among geographically dispersed researchers
+The project will enhance the reproducibility and transparency of video-based analyses of human behavior, create infrastructure that embodies best-practices in video coding (Adolph XXX), and responds to identified needs among video-using developmental scientists (Results from follow-up survey; letters of support).
 
-- Databrary serves as cloud storage. Coders can be located anywhere.
-- Version control over codes, coding manuals.
-
-##### Enable interoperability among coding tools
-
-- Existing video coding tools are not interoperable with one another.
-- Existing tools capture project/dataset/volume metadata in different ways (e.g., Mangold) or do not capture it at all (e.g., Datavyu).
-- Existing tools capture session-level metadata (e.g., Mangold) in different or non-systematic (e.g., KEA lab's use of session-level metadata in Datavyu spreadsheets).
-
-##### Enable interoperability among codes
-
-- Codes used by one research group cannot be compared to or built upon by other groups.
-- Codes used by different research groups are poorly or inconsistently documented.
-  - For example, some Databrary users upload detailed coding manuals, but not all, and formats are not readily searchable by others.
-
-##### Transcoding videos into common format via Databrary
-
-- There are a huge number of video formats; most coding tools struggle to support all of them. The increasing use of HD video poses additional problems for tools that offer forward/backward video playback at high speeds. A common complaint is that the timestamping provided by a coding tool can change depending on the format of the video. By transcoding videos into a common, web-compatible format on Databrary, we will make it easier for users to choose the coding tool that suits their research requirements.
-
-#### Enhance reproducibility and transparency of video-based analyses
-
-- By creating version control of coding manuals and spreadsheets.
-- By creating electronic coding manuals.
-- Have electronic coding manuals linked to scripts (e.g., Datavyu's Ruby or Mangold's scripting interface; Noldus?; ELAN?)
-
-#### Create infrastructure that embodies best-practices in video coding
-
-- Builds on Adolph's manuscript on best-practices.
-
-#### Responds to identified needs among video-using developmental scientists
-
-- Collect data about those needs.
-- How justify/document?
-- Existing projects that have intensive video foci are beginning to plan for similar sorts of infrastructure (ICSPR with the MET data; U Chicago gesture group).
-
-#### Research this project will enable
-
-- Cross-disciplinary research where tags from one domain can inform research in others.
-  - Example: Researcher interested in cognitive development can build upon tags provided by language researchers.
-- Research that involves video + other temporally dense data streams (eye tracking, kinematics, physiology)
-- Enhances value of existing resources on Databrary; makes contributing to, using data from Databrary more attractive.
-- Illustration of dynamic modeling of time series a la Nilam Ram and the stillface group at PSU.
+In turn, this project will enable new, integrative, multidisciplinary research that is at present difficult, time consuming, and prohibitively expensive to conduct.
+(*Illustrative use case combining transcripts with annotations of emotion, action...*)
+It lays the groundwork for future enhancements to Databrary that involve the integration and synchronization with video of other temporally dense data streams that are increasingly common in developmental research such as eye tracking, physiological measurements, kinematics.
+The project also positions Databrary to take advantage of rapid developments in computer vision that focus on the automated or semi-automated tagging of static images or video segments.
 
 ### Implementation Plan
 
@@ -277,13 +254,16 @@ The implementation plan consists of four main projects aligned with the specific
 
 #### Project 1: Search interface and functionality.
 
-This project will focus on building the capacity for Databrary's existing search engine to return results from within video segments and on designing and testing the interface for returning the results in a powerful and flexible way.
+This project will focus on designing and testing the user interface that that returns within and across video search results in powerful, flexible, and informative ways.
+Project 1 will also focus on building the back-end capacity for Databrary's existing Apache solr-based search engine (see <technical-plan.md>) to return results from within video segments based on the information contained in imported coding files and coding manuals.
+Finally, the project will develop both the back-end and user interface components that allow users to use the videos they have found through search.
 
 ##### Project 1.1: Design search interface
 
-The PIs and project staff will gather requirements for the search interface, drawing upon the existing community of Databrary users by convening web-based focus groups, and UI/UX expertise available to the PIs through the Databrary project's advisory board and institutional experts (e.g., Plass, PSU's Honavar, NYU Libraries).
-A formal functional specification document with wireframes will be developed and circulated for feedback. Once finalized, the developers will implement the approved design.
-(*We probably want to spec out a far more iterative approach. Plass seems unlikely to help with any of this.*)
+The PIs and project staff will gather requirements for the search interface, drawing upon the existing community of Databrary users by convening web-based focus groups, and UI/UX expertise available to the PIs through the Databrary project's advisory board.
+A formal functional specification document with wireframes will be developed and circulated for feedback.
+Working template versions will be developed and tested by staff and external advisers.
+Once finalized, the developers will implement the approved design.
 
 ##### Project 1.2: Adapt Databrary's search functionality.
 
@@ -304,45 +284,61 @@ Solving these problems in ways that make the interface responsive to users will 
 
 #### Project 2: Code import, representation/visualization, and export
 
-This project focuses on importing coding files from a selected set of academic and commercial tools, representing and visualizing them within Databrary, and exporting them in an open format.
+This project focuses on importing coding files from a selected set of academic and commercial tools, representing and visualizing them within Databrary, and exporting them in both in their native formats and an open, non-proprietary format.
 
-##### Project 2.1: Import and export Datavyu spreadsheets.
+##### Project 2.1: Import and export Datavyu coding files.
 
-We will start by making Databrary capable of importing spreadsheets generated by Datavyu (datavyu.org), the free, open-source video coding tool created by Databrary's founder, Karen Adolph.
+We will start by making Databrary capable of importing spreadsheets generated by Datavyu (datavyu.org), the free, Java-based, open-source video coding tool created by Databrary and Project PI, Adolph.
 Some 6 volumes on Databrary representing 230 video sessions contain spreadsheets coded in Datavyu.
-Our survey of the video-using developmental science community suggests that there are hundreds of laboratories using Datavyu.
-The Datavyu file format is well-known to the Databrary team, and so making Databrary capable of reading Datavyu spreadsheet files will be a test case, demonstrating the feasibility of other projects (2.2 - 2.x) focused on importing other data formats.
+Internal download data, support forum comments, and our survey of the video-using developmental science community (Gilmore & Adolph, 2016) suggests that there are hundreds of laboratories using Datavyu.
+The Datavyu file format is well-known to the Databrary team, and so making Databrary capable of reading Datavyu spreadsheet files will be a test case, demonstrating the feasibility of other projects (2.2 - 2.x) focused on other data formats.
 Because Datavyu uses a known format, we will also add to Databrary the capability of exporting codes in the Datavyu format.
 This is important, because at present, users who download videos from Databrary with linked Datavyu spreadsheets have to relink the files on their desktop computers.
 Jesse Lingeman, lead Datavyu developer and Clinton Freeman, the original Datavyu developer, and current Databrary project consultant, will help guide the effort.
 
-##### Project 2.2: Import ELAN spreadsheets.
+##### Project 2.2: Import ELAN coding files.
 
 ELAN (https://tla.mpi.nl/tools/tla-tools/elan/) is a free video and audio annotation tool developed by researchers at the Max Planck Institute for Psycholinguistics in the Netherlands.
-It is widely used in the psycholinguistics community, and has special features for language researchers.
+It is widely used in the psycholinguistics community, including respondents in our recent survey (Gilmore & Adolph, 2016), and has special features for language researchers who often use it to study language features from phonetics to pragmatics.
+Han Sloetjes, Lead Developer on ELAN, has agreed to serve on the technical advisory team and assist the project team to overcome hurdles involved in importing and exporting ELAN formatted files.
+ELAN is built in Java, like Datavyu, and the ELAN team has already consulted with the Databrary and Datavyu staff on challenges both tools face in importing and playing diverse video formats.
+Import/export tools currently exist for converting ELAN files to and from the CHAT format used in CHILDES, TalkBank, and HomeBank (see Project 2.3 below).
+Project staff will build on these existing links in developing ELAN import/export features for Databrary.
 
 ##### Project 2.3: Import and export CHAT files.
 
 TalkBank (talkbank.org) is a collection of language-related databases that include transcripts, audio, and video data from children and adults.
 Many of TalkBank's audio or video files are linked to text-based transcripts in the CHAT format, developed for the Child Language Data Exchange System (CHILDES) Project.
 CHAT files can be used with the Computerized Language ANalysis (CLAN) suite of software tools, a recognized standard in the language community.
-TalkBank's founder and coordinator, Dr. Brian MacWhinney, serves on the Databrary advisory board.
-X will work with the project staff and PIs to allow CHAT-format transcripts linked with video or audio recordings to be imported into Databrary.
-CHAT files are well-structured; the file specification is open and known; and Databrary staff have done some preliminary work with CHAT-format transcripts.
+TalkBank's founder and coordinator, Dr. Brian MacWhinney, serves on the Databrary advisory board and has agreed to serve on the technical advisory committee for the current proposal.
+Professor MacWhinney will work with the project staff and PIs to allow CHAT-format transcripts linked with video or audio recordings to be imported into Databrary.
+CHAT files are well-structured; the file specification is open and known; and Databrary staff have already done some preliminary work with CHAT-format transcripts.
 For these reasons, we believe that it will be relatively straightforward to allow Databrary to import and export CHAT-formatted annotations.  
-Support for CHAT-formatted transcripts is important for interoperability with the NSF-funded HomeBank data archive project that focuses on collecting a large corpus of natural speech using the LENA (http://www.lenafoundation.org) recording device, linked with CHAT-formatted transcripts.
-Databrary serves as a consultant on the HomeBank project, and works closely with its PIs, Anne Warlaumont (UC Merced), X, and Brian MacWhinney.
+Support for CHAT-formatted transcripts is essential for interoperability with the NSF-funded HomeBank data archive project that focuses on collecting a large corpus of natural speech using the LENA (http://www.lenafoundation.org) recording device, linked with CHAT-formatted transcripts.
+Databrary serves as a consultant on the HomeBank project, and works closely with its PIs, Anne Warlaumont (UC Merced), X, and Brian MacWhinney, and the leadership of both projects has determined that interoperability is an important priority for both efforts.
+The TalkBank technical staff have already developed a tool that converts the native LENA files into an XML format.
+Databrary staff plan to adapt that tool for use with Databrary.
 
-##### Project 2.x: Import Mangold Interact files
+##### Project 2.4: Import and export files from Transana
 
-- Stores volume/study/project information separately from session-specific data.
-- Idea: Take Cathie T-L's data since we already have her videos and she uses Mangold.
+##### Project 2.5: Import and export Mangold Interact files
 
-##### Project 2.x: Import Noldus Observer files
+Mangold Interact (http://www.mangold-international.com/en/software/interact) is a Windows-based commercial video annotation tool used by a significant fraction of developmental researchers (Gilmore & Adolph, 2016).
+Pascal Mangold, founder of Mangold International, has agreed to serve on the project's technical advisory committee.
+Mangold Interact has several features the project team hopes to exploit in developing the import and export functionality for Databrary.
+The software has a user-scripting function that enables coding files to be exported in a variety of formats for subsequent data analysis.
+It stores study/project-level information separately from session-specific data, and allows users to create coding templates that contain structured representations of some of the information users now store in separate coding manuals.
+Beyond our desire to serve this important segment of the developmental and learning sciences research community, Databrary staff believe that import/export functionality for Mangold Interact is important for another reason.
+One of the largest (n=344 participants, 1,344 sessions) and most diverse video datasets currently stored and shared on Databrary comes from an NSF-funded longitudinal study (http://doi.org/10.17910/B7CC74) led by Catherine Tamis-LeMonda.
+Professor Tamis-LeMonda has available Mangold Interact format coding files, but has not yet shared these with Databrary.
+Successful implementation of Mangold Interact import functionality will make it possible to store and share these coded spreadsheets with Databrary alongside the already-shared videos, thus augmenting the current value of the shared data.
+(*Mention technical challenge of aligning video segments with coding files? What about staff time for curation?*)
 
-##### Project 2.x: Export files from A, B, C, D
+##### Project 2.6: Import Noldus Observer files
 
 #### Project 3: Web-based coding manuals.
+
+<Possible image of coding manual>
 
 ##### Project 3.1: Design coding manual specification
 
@@ -351,6 +347,7 @@ Databrary serves as a consultant on the HomeBank project, and works closely with
 - When/how does coding manual data get entered?
   - Could users cut and paste info from existing desktop documents?
   - Could users cut and paste from HTML-format versions of published papers associated with a Databrary volume?
+- Enable search within volumes across sessions for specific codes. Don't need coding manual.
 
 ##### Project 3.2: Implement, test, and refine coding manual functionality.
 

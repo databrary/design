@@ -15,5 +15,6 @@ Dr. Simon, Databrary's System Architect and Technical Lead, will spearhead the t
 - PostgreSQL, Haskell wai/warp, AngularJS, Apache Solr
 - Transcoding via NYU HPC to X formats.
 - Back-ups, etc.
+- Representation of time series.
 
 ## Schedule and timeline

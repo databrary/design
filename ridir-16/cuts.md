@@ -38,3 +38,11 @@ Also, users will be able to discard specific videos from a workspace or to delet
 Databrary's existing volume audit/tracking tools will be modified to allow users to review the history of their own workspaces/volumes.
 
 Project 4.1 will focus on creating mechanisms that track data provenance -- segment HH:MM:SSS.mmm-HH:MM:SSS.mmm from video nnn from volume vvv and user uuu.
+
+Other barriers to sharing coded videos exist.
+Video contains identifiable information such as faces and voices, and so special care must be taken to secure permission from research participants before sharing videos outside of a research team.
+The sensitive nature of video recordings and large file sizes pose technical challenges related to the location and capacity of video storage.
+Varied video file formats, and the increasing availability of HD video formats pose additional challenges for storage and preservation.
+Inconsistencies in representation and encoding of timing information between coding and video formats can confound interpretation, review, and collation of these codes.
+Based on our recent community survey, the video-using developmental scientists use local file servers, cloud-based storage, and even email or snail mail to share videos and coded spreadsheets with colleagues outside their laboratories.
+and the vast majority of researchers in these fields collect 5 to 10 or more hours of video per week (Gilmore & Adolph, 2016).
