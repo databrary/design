@@ -285,8 +285,10 @@ Solving these problems in ways that make the interface responsive to users will 
 #### Project 2: Code import, representation/visualization, and export
 
 This project focuses on importing coding files from a selected set of academic and commercial tools, representing and visualizing them within Databrary, and exporting them in both in their native formats and an open, non-proprietary format.
-
-(*Mention Databrary already has an internal representation that allows tags to be linked to temporal segments on specific videos. This will be the basis of code imports*)
+Despite significant variation across coding tool platforms, at one level, all of the codes we intend to import are relatively simple data structures.
+Each code consists of a start time, an optional end time, and an associated set of alphanumeric characters.
+Coding files consist of arrays of these codes.
+Databrary's existing data model includes an internal representation that allows users to apply simple text-based tags to temporal segments of specific videos. We will build upon this foundation in building the coding file import capabilities that are part of Project 2.
 
 ##### Project 2.1: Import and export Datavyu coding files.
 
@@ -371,9 +373,17 @@ Project 3.1 involves the design of the back-end representation of coding manual 
 Project 3.2 involves the design of user interfaces for uploading coding manual information and for visualizing it within Databrary.
 Project 3.3 involves developing a way of exporting coding manual information in an open format (CSV, XML, or JSON).
 
-##### Project 3.1: Design back-end representation of coding manual information
+##### Project 3.1 Make existing Databrary functionality for storing coding manuals more salient to users
 
-The first task is to enhance Databrary's back-end data model in ways that allow information about specific codes.
+Databrary currently allows users to upload word processing, spreadsheet, PDF and other documents as Materials.
+Relatively few researchers use this capability now to upload coding manuals.
+So, the project team will explore design and styling changes to the site that make coding manuals visually distinctive when they are uploaded.
+The team will also explore changes to the site's documentation, especially in the study design and active/self-curation portions, so that users are encouraged to upload coding manuals early on in the research process.
+In turn, the project team will enable version control features on coding manuals, and possibly other documents stored as Materials so that users can revise and update coding manuals, but retain access to prior versions.
+
+##### Project 3.2: Design back-end representation of coding manual information
+
+To make shared coding manuals even more valuable, project staff must enhance Databrary's back-end data model in ways that allow information about specific codes contained in the manuals to be linked to information about the codes.
 As mentioned in the context of Project 2, Databrary already has the capacity to associate text-based tags with temporal segments of video.
 Project staff will need to modify the data model to allow the additional text available in the coding manuals to be associated with specific codes *across* a video and *across* an entire dataset.
 These links are crucial because most *coding files* contain single alphanumeric characters.
@@ -381,22 +391,55 @@ Thus, in one context 'm' might mean 'mother is speaking' and in another 'm' migh
 Only by linking richer, text-based descriptions to the specific codes can the search engine return meaningful results to a user who enters 'mother speaking' into a search box.
 (*Do we need a conceptual figure here to show how this will likely work?*)
 
-##### Project 3.2: Design user interfaces for uploading and visualizing coding manual information.
+##### Project 3.3: Design user interfaces for uploading and visualizing coding manual information.
 
-##### Project 3.4: Incorporate coding manuals into Databrary search features.
+The target coding tools vary in the extent to which they capture and store code definitions.
+Datavyu does not store code definition information at all.
+CHAT-formatted files employ a structured set of well-defined keywords that describe the content of speech transcripts and other metadata such as the speaker, context, etc., and user-defined codes are usually tagged as comments.
+Transana, Mangold Interact, and Noldus Observer XT allow code definition information to be stored within the coding files or in linked files, but there are often size limits on the amount of text that may be inserted into the code description or definition fields.
+As a result, researchers who use these tools regularly augment the information about specific codes or coding schemes in external word processing or spreadsheet documents (Gilmore & Adolph, 2016).
 
-#####
+For tools that store code-specific definitions in the coding files, the project team will build upon the import functions developed as part of Project 2.
+Developing an interface for users to enter code-specific information stored in coding manuals poses a somewhat bigger challenge.
+The team has already begun to collect coding manuals from volunteers who responded to our community survey.
+Based on our initial assessment of these materials, we envision developing an interface that will sequentially display the codes imported into Databrary in one panel and the MS Word/text-file/spreadsheet coding manual in another panel. Users would then use cut and paste functions to populate the fields specific to each code.
+This semi-automated solution is necessary because coding manual formats vary so widely in format and detail across research groups.
+We will also consider the viability and utility of creating and encouraging the use of template coding manuals, as we have done for Data Management Plans (https://databrary.org/access/policies/dmp-template.html) and for Video Data Sharing Releases (https://databrary.org/access/policies/release-template.html).
+
+Once code-specific information has been entered into Databrary, we will need to make available interfaces that allow users to view and edit the information.
+One interface will need to allow users to view and edit the code definitions in a document-like form similar to a coding manual.
+The interface will also allow users to export the coding manual definitions in open, interoperable formats (CSV, XML/HTML, JSON, or Markdown).
+It will be easier to provide users ways to edit information stored in coding manuals than to enable users to edit code definition fields that are part of the data package associated with specific coding files in tools like Transana, Noldus Observer XT, and Mangold.
+So, the extent to which users can edit or export information normally contained in these coding files or code templates will depend on the extent to which we are able to read from and write to native (or importable) file formats.
+
+A second type of interface will be needed that allows users who are viewing a particular video in a specific session to view what codes have been applied to what segments of video.
+Project 4 describes how we intend to tackle the problem of displaying the *sources* of the codes (coding file type, contributor, etc.).
+This interface will likely build upon Databrary's existing video segment tagging feature, but it will have to include the ability to toggle on or off the visibility of individual code definitions, or the visibility of a separate "code definition" panel.
+Consistent with other UI components of Databrary and this proposal, we will proceed iteratively in developing and testing these designs, guided by input from the Databrary advisory board, our technical advisory committee, and user feedback.
 
 #### Project 4: Sharing codes, documenting the history of changes.
 
-##### Project 4.1 User interface for displaying codes
+Project 4 focuses on improvements to Databrary that make it easier for users to visualize what codes have been applied by others to shared video, to share codes with other users, to distribute in time and space the burden of labor involved in human tagging of video, and to do so with mechanisms in place that provide version control over coding files and coding manuals/definitions.
 
-- Databrary already has a timeline interface.
-- Augment it to allow the user to visualize the different types of codes that have been applied to a video; indicate the source of the codes; learn more about the code definitions, etc; select or de-select codes for visualization.
+##### Project 4.1 User interface for displaying data about code sources
+
+Databrary has already implemented a timeline interface (*FIGURE*) that allows users to visualize temporal relationships among multiple phases of a data collection or data streams such as multiple camera views.
+Project staff will augment this interface to allow users to visualize the different types of codes that have been applied to a particular video segment the source(s) of the codes (linked to specific users or Databrary volumes; provided using what coding tool), and perhaps information about the when the codes were last shared/revised (see Project 4.2).
+In addition, the interface will allow users to select or deselect specific codes so only those codes of interest are displayed.
+We will explore allowing users to change the display styling (color, font, size) and relative spatial position of the depicted codes to make visualization of the temporal relationships across codes more informative.
+
+The same iterative UI/UX design approach adopted in other parts of the project (1.3, 2.x, 3.1, 3.3) will be employed here.
 
 ##### Project 4.2 Back-end modifications to track changes to uploaded coding files
 
-- Build upon existing session-level auditing features within Databrary.
+We aim to make Databrary the home for ongoing video coding projects to reduce the burdens of uploading and curating data for sharing after a project is complete.
+This requires that we modify Databrary so that it can track when new or modified coding files or coding manuals (Project 3.3) are uploaded and by whom.
+Project staff will implement a form of coding file-level version control comparable to the dataset-level coding manual version control described in Project 3.3.
+To do so, staff will modify Databrary's existing back-end auditing/event-reporting features and will develop ways to display version information to users.
+
+A particular challenge this raises is how to track codes applied by Databrary users as part of a study that reuses or repurposes data collected and shared by another investigator.
+We are in the early phases of designing back-end and UI/UX components that enable Databrary users to create their own studies from shared videos, but those details are not yet fully worked out.
+So, at a minimum, we will provide and display version control information about coding files if those files were uploaded and shared by a researcher with write privileges on a dataset, in other words, the original data owner.
 
 ### Coordination and Management Plan
 
