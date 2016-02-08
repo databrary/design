@@ -217,7 +217,7 @@ Our survey (Gilmore & Adolph, 2016) shows that most developmental and learning s
 Almost all researchers augment information stored in the coding tools with text or image-based information about specific codes stored in coding manuals.
 The tools vary in their strengths, weaknesses, cost, customizability, and optimal use cases, but with few exceptions remain largely unable to talk to one another.
 So, we think it is critical to enhance Databrary so that the information contained in coding files and coding manuals can be uploaded and stored on Databrary.
-These enhancements will yield the following:
+These enhancements will result in the following outcomes:
 
 - Enabling Databrary to import, store, and share coding files from the leading video coding tools used by researchers in the developmental and learning sciences.
 - Enabling search within videos.
@@ -225,21 +225,32 @@ These enhancements will yield the following:
 - Making it substantially easier for geographically dispersed researchers to share the burden of coding video and to collaborate on projects.
 - Making it easier for researchers who use incompatible video coding tools to collaborate and build upon one another's findings.
 - Capturing currently "hidden-to-outsiders" code definitions and related metadata vital for understanding and building upon a shared project's analyses.
-- Encourage standardization of documentation practices and documentation formats for coding definitions, and as a result will make it possible for codes used by one research group to be compared with or built upon by other groups.
-- Enable interoperability among coding schemes used by different research groups to study the same phenomena.
-- Empower communities of researchers to collaborate in the creation of conceptual ontologies in fields where no consensus has emerged.
-- Create infrastructure that embodies recognized best-practices in video coding (Adolph XXX) and data management.
-- Reduce the barrier posed by incompatible video formats by exploiting Databrary's existing infrastructure for transcoding.
-- Fill gaps in current research workflows and reduce barriers that make open sharing and reuse of video data harder than it needs to be.
-- Enhance the reproducibility and transparency of video-based analyses of human behavior.
-- Lays the groundwork for future enhancements that involve the integration of other temporally dense data streams, such as eye tracking, physiological measurements, kinematics.
-- Position Databrary to take advantage of rapid developments in computer vision that focus on the automated or semi-automated tagging of static images or video segments.
-- Make Databrary more useful to an even wider range of researchers across the behavioral sciences.
-- Leverage the existing investments that NSF and NICHD have made in creating Databrary.
+- encouraging standardization of documentation practices and documentation formats for coding definitions, and as a result will make it possible for codes used by one research group to be compared with or built upon by other groups.
+- Enabling interoperability among coding schemes used by different research groups to study the same phenomena.
+- Empowering communities of researchers to collaborate in the creation of conceptual ontologies in fields where no consensus has emerged.
+- Creating infrastructure that embodies recognized best-practices in video coding (Adolph XXX) and data management.
+- Reducing the barrier posed by incompatible video formats by exploiting Databrary's existing infrastructure for transcoding.
+- Filling gaps in current research workflows and reduce barriers that make open sharing and reuse of video data harder than it needs to be.
+- Enhancing the reproducibility and transparency of video-based analyses of human behavior.
+- Laying the groundwork for future enhancements that involve the integration of other temporally dense data streams, such as eye tracking, physiological measurements, kinematics.
+- Positioning Databrary to take advantage of rapid developments in computer vision that focus on the automated or semi-automated tagging of static images or video segments.
+- Making Databrary more useful and attractive to an even wider range of researchers across the behavioral sciences.
+- Leveraging the existing investments that NSF and NICHD have made in creating Databrary.
+(*Talk about Project 4 benefits -- provenance, sharing*)
 
 In turn, the project will enable new, integrative, multidisciplinary research that is at present difficult, time consuming, and prohibitively expensive to conduct.
+It will soon be possible for researchers who are interested in, for example, children's laughter, to search across the library for examples of children laughing.
+From the returned videos, the researcher may select only those with coded language transcripts or which show the children's face so that facial expressions can be coded.
+Based on summary, participant- and dataset-level metadata stored in Databrary, the researcher can evaluate the geographic (region of origin) and demographic (race, ethnicity, languages spoken, sex/gender) characteristics of the sample to ensure that it suits her needs.
+She notes that the sample includes many children from bilingual homes, and she makes a note to talk with the cultural anthropologist colleague she has been wanting to collaborate with.
+The researcher can compare code definitions from the set of shared coding manuals to determine whether she agrees with other researchers' definitions of what constitutes child laughter.
+In browsing the videos found in the search, the researcher discovers that one dataset includes codes related to children's gestures.
+The researcher hadn't considered coding motor behavior, but since a detailed coding manual was shared, she decides to select those materials, as well.
+Satisfied that the search has yielded useful data for her project, the researcher downloads a package consisting of the videos, coding files in the format of her choice, coding manuals, and other materials.
+The researcher begins annotating the downloaded videos using her own coding scheme and since it is easy to do, the researcher shares the in-process coding files back to Databrary where the system keeps track of each update.
+When the researcher is ready to share, her layer of codes will be linked to the videos "borrowed" from the data library so that others can build upon these efforts.
 
-(*Illustrative use case combining transcripts with annotations of emotion, action...*)
+We describe how this scenario can be realized in the Implementation Plan.
 
 ### Implementation Plan
 
