@@ -262,25 +262,27 @@ We describe how this scenario can be realized in the Implementation Plan.
 
 ### Implementation Plan
 
-The implementation plan consists of four main projects aligned with the specific aims. The sections below describe the main phases in general terms, with specific technical details provided in the [Technical Plan](technical-plan.md) addendum. See Figure X in that addendum for a project timeline.
+The implementation plan consists of four main projects aligned with the specific aims.
+The sections below describe the main phases in general terms, with specific technical details provided in the [Technical Plan](technical-plan.md) addendum.
+See Figure X in that addendum for a project timeline.
 
 #### Project 1: Search interface and functionality.
 
-This project will focus on designing and testing the user interface that that returns within and across video search results in powerful, flexible, and informative ways.
+This project will focus on designing, implementing, and verifying the user interface that returns within and across video search results in powerful, flexible, and informative ways.
 Project 1 will also focus on building the back-end capacity for Databrary's existing Apache solr-based search engine (see <technical-plan.md>) to return results from within video segments based on the information contained in imported coding files and coding manuals.
 Finally, the project will develop both the back-end and user interface components that allow users to use the videos they have found through search.
 
 ##### Project 1.1: Design search interface
 
-The PIs and project staff will gather requirements for the search interface, drawing upon the existing community of Databrary users by convening web-based focus groups, and UI/UX expertise available to the PIs through the Databrary project's advisory board.
-A formal functional specification document with wireframes will be developed and circulated for feedback.
-Working template versions will be developed and tested by staff and external advisers.
+The PIs and project staff will gather requirements for the search interface.
+A functional specification document with wireframes will be developed and circulated for feedback.
 Once finalized, the developers will implement the approved design.
 
 ##### Project 1.2: Adapt Databrary's search functionality.
 
 Databrary's existing search architecture is based on Apache solr targeting entire datasets as documents.
-The system has existing capabilities that enable users to add text based comments or tags to video segments selected by hand using a web-browser. Thus, Databrary already has the capacity to represent selected segments of video and to link video segments to text-based codes.
+The system has existing capabilities that enable users to add text based comments or tags to video segments selected by hand using a web-browser.
+Thus, Databrary already has the capacity to represent selected segments of video and to link video segments to text-based codes.
 Staff will adapt the existing comment/tag functionality to permit tags from imported coding spreadsheets to be added to the text available to the search engine.
 This will require extensive modifications to Databrary's back-end data model and search infrastructure to allow returning video segment results.
 
@@ -291,26 +293,28 @@ There are several technical challenges to overcome.
 Databrary does not store or represent videos as sequences of frames or time segments.
 So, if a user searches for the term "infant speech" and the system returns 100 segments with that tag, Databrary will need to determine what information to return to the user -- a small image (thumbnail) of the first frame of the entire video, a thumbnail image of the first frame of the found segment, or something else.
 For the interface to return a thumbnail image, Databrary will need to take information about the video and compute the frame or frames that should be returned.
-Similarly, if the user interface allows the user to click on thumbnail images and preview video segments or use mouse movements to scrub through the video segments forward and backward in time, the Databrary system will need to compute and render these frames (*or just deliver the entire video and allow the client to seek, as we do now*).
+Similarly, if the user interface allows the user to click on thumbnail images and preview video segments or use mouse movements to scrub through the video segments forward and backward in time, the Databrary system may need to compute and re-encode these frames in cases that the entire video cannot be delivered to the user.
 Solving these problems in ways that make the interface responsive to users will be critical for making the search capability useful.
+
+#### Project 1b: Timeline interface for viewing/selecting coding passes
 
 #### Project 2: Code import, representation/visualization, and export
 
-This project focuses on importing coding files from a selected set of academic and commercial tools, representing and visualizing them within Databrary, and exporting them in both in their native formats and an open, non-proprietary format.
-Despite significant variation across coding tool platforms, at one level, all of the codes we intend to import are relatively simple data structures.
-Each code consists of a start time, an optional end time, and an associated set of alphanumeric characters.
-Coding files consist of arrays of these codes.
-Databrary's existing data model includes an internal representation that allows users to apply simple text-based tags to temporal segments of specific videos. We will build upon this foundation in building the coding file import capabilities that are part of Project 2.
+This project focuses on importing coding files from a selected set of academic and commercial tools, representing and visualizing them within Databrary, and exporting in their native formats.
+Despite significant variation across coding tool platforms, at one level, all of the codes we intend to import are usually simple data structures.
+Each code consists of a start time, an optional end time, and an associated set of alphanumeric characters or data structures.
+Coding files consist of one or more arrays of these codes, organized into separate, possibly hierarchical or nested "passes".
+Databrary's existing data model includes an internal representation that allows users to apply simple text-based tags to temporal segments of specific videos.
+We will build upon this foundation in building the coding file import capabilities that are part of Project 2.
 
 ##### Project 2.1: Import and export Datavyu coding files.
 
-We will start by making Databrary capable of importing spreadsheets generated by Datavyu (datavyu.org), the free, Java-based, open-source video coding tool created by Databrary and Project PI, Adolph.
+We will start by making Databrary capable of importing spreadsheets generated by Datavyu (datavyu.org), the free, Java-based, open-source video coding tool maintained by Databrary and Project PI, Adolph.
 Some 6 volumes on Databrary representing 230 video sessions contain spreadsheets coded in Datavyu.
 Internal download data, support forum comments, and our survey of the video-using developmental science community (Gilmore & Adolph, 2016) suggests that there are hundreds of laboratories using Datavyu.
 The Datavyu file format is well-known to the Databrary team, and so making Databrary capable of reading Datavyu spreadsheet files will be a test case, demonstrating the feasibility of other projects (2.2 - 2.x) focused on other data formats.
 Because Datavyu uses a known format, we will also add to Databrary the capability of exporting codes in the Datavyu format.
-This is important, because at present, users who download videos from Databrary with linked Datavyu spreadsheets have to relink the files on their desktop computers.
-Jesse Lingeman, lead Datavyu developer and Clinton Freeman, the original Datavyu developer, and current Databrary project consultant, will help guide the effort.
+Jesse Lingeman, lead Datavyu developer and Clinton Freeman, a previous Datavyu developer, and current Databrary project consultant, will help guide the effort.
 
 ##### Project 2.2: Import ELAN coding files.
 
@@ -319,6 +323,7 @@ It is widely used in the psycholinguistics community, including respondents in o
 Han Sloetjes, Lead Developer on ELAN, has agreed to serve on the technical advisory team and assist the project team to overcome hurdles involved in importing and exporting ELAN formatted files.
 ELAN is built in Java, like Datavyu, and the ELAN team has already consulted with the Databrary and Datavyu staff on challenges both tools face in importing and playing diverse video formats.
 Import/export tools currently exist for converting ELAN files to and from the CHAT format used in CHILDES, TalkBank, and HomeBank (see Project 2.3 below).
+ELAN coding data includes significantly more structure than Datavyu, including hierarchical and linked coding passes (called tiers), but we expect the basic coding information from ELAN files to be extractable, and simple versions to be exportable.
 Project staff will build on these existing links in developing ELAN import/export features for Databrary.
 
 ##### Project 2.3: Import and export CHAT files.
@@ -329,11 +334,12 @@ CHAT files can be used with the Computerized Language ANalysis (CLAN) suite of s
 TalkBank's founder and coordinator, Dr. Brian MacWhinney, serves on the Databrary advisory board and has agreed to serve on the technical advisory committee for the current proposal.
 Professor MacWhinney will work with the project staff and PIs to allow CHAT-format transcripts linked with video or audio recordings to be imported into Databrary.
 CHAT files are well-structured; the file specification is open and known; and Databrary staff have already done some preliminary work with CHAT-format transcripts.
-For these reasons, we believe that it will be relatively straightforward to allow Databrary to import and export CHAT-formatted annotations.  
+However, CHAT files are unique in that transcription data is not directly linked to specific temporal codes, but instead specific points in the transcription text can be associated with points in the video or audio timestream.
+For this reason, this format may have unique restrictions on which files can be imported and exported.
+
 Support for CHAT-formatted transcripts is essential for interoperability with the NSF-funded HomeBank data archive project that focuses on collecting a large corpus of natural speech using the LENA (http://www.lenafoundation.org) recording device, linked with CHAT-formatted transcripts.
 Databrary serves as a consultant on the HomeBank project, and works closely with its PIs, Anne Warlaumont (UC Merced), X, and Brian MacWhinney, and the leadership of both projects has determined that interoperability is an important priority for both efforts.
-The TalkBank technical staff have already developed a tool that converts the native LENA files into an XML format.
-Databrary staff plan to adapt that tool for use with Databrary.
+LENA files are stored in a fairly well documented XML format, so Databrary staff will also investigated importing LENA data directly into Databrary.
 
 ##### Project 2.4: Import and export files from Transana
 
@@ -352,14 +358,13 @@ Mangold Interact has several features the project team hopes to exploit in devel
 The software has a user-scripting function that enables coding files to be exported in a variety of formats for subsequent data analysis.
 It stores study/project-level information separately from session-specific data, and allows users to create coding templates that contain structured representations of some of the information users now store in separate coding manuals.
 Project staff will work with Mr. Mangold and his experts first to enable uploading and downloading of Mangold Interact files.
-We will then develop tools that import coding files that have been exported by the Mangold software into an open, text-based (CSV or XML) format.
-Last, we will work with Mangold to explore the feasibility of importing and exporting Mangold Interact files in their native, proprietary formats.
+We will then strive to develop tools that import and export these coding files in their native format, or, in the worst case import files that have been exported by the Mangold software into an open, text-based (CSV or XML) format.
 
 Beyond the project team's desire to serve this important segment of the developmental and learning sciences research community, Databrary staff believe that import/export functionality for Mangold Interact is important for another reason.
 One of the largest (n=344 participants, 1,344 sessions) and most diverse video datasets currently stored and shared on Databrary comes from an NSF-funded longitudinal study (http://doi.org/10.17910/B7CC74) led by Catherine Tamis-LeMonda.
 Professor Tamis-LeMonda has available Mangold Interact format coding files, but has not yet shared these with Databrary.
-Successful implementation of Mangold Interact import functionality will make it possible to store and share these coded spreadsheets with Databrary alongside the already-shared videos, thus augmenting the current value of the shared data.
-(*Mention technical challenge of aligning video segments with coding files? What about staff time for curation?*)
+Successful implementation of Mangold Interact import functionality may make it eventually possible to store and share these coded spreadsheets with Databrary alongside the already-shared videos, thus augmenting the current value of the shared data.
+Unfortunately, some intermediate data from coding these videos that would allow the codes to be linked with the videos on Databrary has been lost, so this process may require significant additional effort, if it is indeed feasible.
 
 ##### Project 2.6: Import Noldus Observer XT files
 
@@ -369,8 +374,8 @@ Niek Wilmink, Product Portfolio Manager at Noldus, has agreed to serve on the pr
 
 Noldus Observer XT files are in a proprietary format, but the software has the capability of exporting codes and short code definitions stored in coding template files into a spreadsheet (Microsoft Excel) format.
 Project staff will work with Mr. Wilmink and the Noldus team to build support within Databrary for uploading and downloading coding files.
-The next step will involve building the capacity for Databrary to import files that are exported by the Noldus software into an open or easy-to-read format, like the Excel spreadsheet format used by the coding template export function.
-Then, with support from our Noldus partners, project staff will build functionality that allows Databrary to import Noldus files from their native formats into the Databrary back-end.
+With support from our Noldus partners, project staff will investigate the possibility of functionality that allows Databrary to import Noldus files from their native formats into the Databrary back-end.
+In the worst case, Databrary will build functionality to import files that are exported by the Noldus software into an open or easy-to-read format, like the Excel spreadsheet format used by the coding template export function.
 
 #### Project 3: Importing rich, text-based code definitions
 
