@@ -411,7 +411,7 @@ So, the extent to which users can edit or export information normally contained 
 A second type of interface will be needed that allows users who are viewing a particular video in a specific session to view what codes have been applied to what segments of video.
 Project 4 describes how we intend to tackle the problem of displaying the *sources* of the codes (coding file type, contributor, etc.).
 This interface will likely build upon Databrary's existing video segment tagging feature, but it will have to include the ability to toggle on or off the visibility of individual code definitions, or the visibility of a separate "code definition" panel.
-Consistent with other UI components of Databrary and this proposal, we will proceed iteratively in developing and testing these designs, guided by input from the Databrary advisory board, our technical advisory committee, and user feedback.
+Consistent with other UI components of Databrary and this proposal, we will proceed iteratively in developing and validating these designs, guided by input from the Databrary advisory board, our technical advisory committee, and user feedback.
 
 #### Project 4: Timeline interface for viewing/selecting coding passes
 
@@ -441,10 +441,12 @@ So, at a minimum, we will provide and display version control information about 
 
 #### Leadership and governance
 
-The project will be coordinated and managed by the PIs, Gilmore and Adolph, with guidance from the Co-Is, Simon and Millman.
+The project will be overseen by the PIs, Gilmore and Adolph, with guidance from the Co-Is, Simon and Millman.
 Gilmore and Adolph currently meet via phone or video conference several times each week to discuss Databrary project-related business matters with the Co-Is and with project staff.
-That practice will continue under the proposed project.
 Adolph and Gilmore collaborate on most decisions and regularly seek input from the Co-Is, but as overall Project Director, Adolph has the final say.
+The project will be managed by Lisa Steiger, including coordinating and scheduling development tasks, managing developers and other staff, integrating feedback from users and other external reviewers, and coordinating outreach, support, and documentation efforts.
+Steiger currently manages the Databrary project as a whole, coordinating staff meetings and other internal decision processes, and reporting progress and getting feedback from the PIs.
+These practices will continue under the proposed project.
 
 In addition, the Databrary project as a whole has input from an advisory board.
 The board (see Appendix X) consists of experts internal to PSU and NYU and external advisers who bring expertise in data sharing and developmental science.
@@ -463,7 +465,6 @@ We will also develop measures of data reuse based on download statistics.
 The team will send out surveys to Databrary users once a year to solicit feedback about system operations, focusing on new features, and asking users the extent to which the new features change their willingness to share data, the ease of doing so, and the attractiveness of reusing others' data.
 With the cooperation of our technical advisory team members, we will explore the possibility of surveying the community of video coding tool users to ask similar questions.
 The results of those surveys will be summarized in the annual NSF report and discussed at the annual Databrary advisory board meetings.
-Finally, project staff will ask for an independent evaluation of our user interfaces from a group of UI/UX experts at the NYU Libraries who conduct these evaluations for others on a regular basis.
 
 #### Future Directions and Sustainability
 
@@ -495,10 +496,10 @@ This project will enhance the Databrary digital library, a "user-friendly large-
 The contribution of a particular dataset will no longer depend on the private analytic and interpretive activities of researchers from one laboratory or the specific resources available to them, but instead benefit from the critique of many researchers with different viewpoints.
 This will strengthen the credibility of the behavioral science research enterprise as a whole.
 The enhancements to Databrary will enable new research questions to be asked based on existing, already collected and shared video data.
-The project will make it possible for researchers to readily assess the feasibiilty of asking new questions by searching for relevant shared data, and evaluating the prospects of a new analysis without undergoing expensive pilot testing.
+The project will make it possible for researchers to readily assess the feasibility of asking new questions by searching for relevant shared data, and evaluating the prospects of a new analysis without undergoing expensive pilot testing.
 The project extends to the domain of video data the demonstrated power and utility of text-based search.
-It lays the groundwork for reseach using analytical techniques that evaluate the temporal relationships between multiple time series measurements.
-Finally, In order to deliver actionable information to users, the project will develop, test, and deploy new interfaces that allow complex data patterns to be visualized and manipulated.
+It lays the groundwork for research using analytical techniques that evaluate the temporal relationships between multiple time series measurements.
+Finally, In order to deliver actionable information to users, the project will develop, validate, and deploy new interfaces that allow complex data patterns to be visualized and manipulated.
 
 #### Broader Impacts
 
@@ -508,6 +509,6 @@ Video and audio recordings are used by researchers in linguistics, anthropology,
 Therefore, the project has wide-ranging potential to lead to new research within and across fields, including those in the social, behavioral, and economic sciences.
 Databrary is currently open to all qualified investigators without cost.
 That includes researchers at institutions with few resources to support research.
-The proposed enhancements will make it substantially easier for these scientists to contribute to the body of knowlege about human behavior by building on the expensive-to-collect data gathered by others.
+The proposed enhancements will make it substantially easier for these scientists to contribute to the body of knowledge about human behavior by building on the expensive-to-collect data gathered by others.
 The enhancements to Databrary will benefit all researchers by making data sharing more appealing, and these incentives will increase the number of researchers who share, the diversity of the data sets they share, and the pace of data sharing.
-Finally, since some datasets will be available for public viewing, we will raise the profile of video-based research and bolster interest in and support for science in the behavioral sciences among the public at large.
+Finally, since some dataset metadata and possibly entire datasets will be available for public viewing, we will raise the profile of video-based research and bolster interest in and support for science in the behavioral sciences among the public at large.
