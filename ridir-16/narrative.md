@@ -169,7 +169,7 @@ Machine learning and computer vision tools may one day provide new avenues for t
 
 #### The Databrary digital library overcomes many of these barriers
 
-Mindful of these challenges but motivated by the scientific promise of open video data sharing, PIs established Databrary.org, the first-of-its-kind library for storing and sharing video data and associated metadata with support from NSF (BCS-1238599) and NICHD (U01-HD-076595).
+Mindful of these challenges but motivated by the scientific promise of open video data sharing, PIs established databrary.org, the first-of-its-kind library for storing and sharing video data and associated metadata with support from NSF (BCS-1238599) and NICHD (U01-HD-076595).
 From the beginning, Databrary sought to create a secure home for research videos in the developmental and learning sciences in order to foster widespread data reuse and enhance transparency.
 Databrary began public operation in the spring of 2014.
 The library has since grown to encompass 259 authorized investigators and 145 affiliate investigators from 160 institutions around the world.
@@ -178,12 +178,14 @@ The system supports 162 volumes or datasets, of which 55 are currently shared wi
 
 Databrary permits users to upload, store, organize, and share data with collaborators, the full community of authorized Databrary users, or the public.
 Users may also search for, browse, view, and download videos stored on the site.
-Users may seek out videos with specific characteristics such participant ages or recording context (home, lab, or school) for recoding and reanalysis.
-Databrary empowers users to search for and stream in the browser or download video highlights -- clips that may be shown in public settings for educational or research purposes like lectures or talks.
+Users may view specific characteristics of videos such participant ages or recording context (home, lab, or school) for recoding and reanalysis.
+Databrary empowers users to stream in the browser or download videos or video highlights -- clips that may be shown for educational or research purposes like lectures or talks.
 Thus, Databrary supports data sharing, data reuse, and pre/non-research uses of shared videos and associated materials.
 The system does so while solving the thorniest problems associated with sharing video.
 
 ##### Databrary's policies enable the sharing of identifiable data
+
+(*Need Lisa's review here (and probably elsewhere).*)
 
 Policies for openly sharing identifiable data in ways that securely preserve participant privacy are essential for sharing research video.
 Databrary does not attempt to de-identify videos.
@@ -193,29 +195,29 @@ These policies are spelled out fully in an online user guide (https://databrary.
 
 Unique among data repositories, the Databrary access agreement authorizes both data use and contribution.
 However, users agree to store on Databrary only materials for which they have ethics board or IRB approval.
-Data may be stored on Databrary for the contributing researcher’s use regardless of whether the records are shared with others or not.
-When a researcher chooses to share, Databrary makes the data openly available to the community of authorized researchers.
+Data may be stored on Databrary for the contributing researcher's use regardless of whether the records are shared with others or not.
+When a researcher chooses to share, Databrary makes the data available to the community of authorized researchers.
 
 The framework, with minimal modification, has been agreed to by more than 160 institutions in North and South America, Europe, Asia, and Australia (https://nyu.databrary.org/search?volume=false&f.party_authorization=5&f.party_is_institution=true), and the number grows daily.
 
 ##### Databrary's technology overcomes technical barriers to video data sharing
 
-To address the problem of diverse video formats, Databrary automatically transcodes each recording using NYU's high performance computing services into a common format suitable both for preservation and web-based streaming (currently H.265...).
+To address the problem of diverse video formats, Databrary automatically transcodes each recording using NYU's high performance computing services into a common format suitable for web-based streaming (currently H.264+AAC in MP4 for video).
 The system maintains a copy in the original format for long-term preservation.
 To address file storage limitations, Databrary does not currently place limits on the number or size of files that can be uploaded.
-Databrary's current assets are stored and served on NYU's...(*Talk about amount, quality of storage, bandwidth for upload/download/streaming*).
+Databrary's current assets total 17TB and are stored on NYU's central IT storage which provides one off-site mirror and regular long-term tape backups.
 
 ##### Databrary's design overcomes practical barriers to sharing
 
 Databrary has developed a novel active-curation framework that reduces the burden of post hoc data sharing.
 The system empowers researchers to upload and organize data as it is collected.
-Immediate uploading reduces the workload on investigators, minimizes the risk of data loss and corruption, and accelerates the speed with which materials become openly available.
+Immediate uploading reduces the workload on investigators, minimizes the risk of data loss and corruption, and accelerates the speed with which materials become available.
 Databrary employs familiar, easy-to-use spreadsheet and timeline-based interfaces that allow users to upload videos, add metadata about tasks, settings, and participants, link related files, and assign appropriate permission levels for sharing.
 To encourage immediate uploading, Databrary provides a complete set of controls so that researchers can restrict access to their own labs or to other users of their choosing.
-Datasets can be openly shared with the broader research community at a later point when data collection and ancillary materials are complete, whenever the contributor is comfortable sharing, or when journals or funders require it.
+Datasets can be shared with the broader research community at a later point when data collection and ancillary materials are complete, whenever the contributor is comfortable sharing, or when journals or funders require it.
 
 With this active-curation framework, the cost in time and labor to researchers is equivalent to current lab practices of storing a copy of the video on a hard drive and entering the associated metadata into a spreadsheet.
-Moreover, with this method, Databrary acts as the researcher’s personal lab file server and cloud storage, enabling web-based sharing among members of the protocol and ensuring secure off-site backup.
+Moreover, with this method, Databrary acts as the researcher's personal lab file server and cloud storage, enabling web-based sharing among members of the protocol and ensuring secure off-site backup.
 
 #### Remaining gaps this project will fill
 
