@@ -57,7 +57,7 @@ The project will make possible new, cross-disciplinary, multi-level, and integra
 
 ### Project Aims
 
-The project is organized around five aims.
+The project is organized around four aims.
 
 1.  Design and implement a user interface and database structure that empowers authorized Databrary users to search for specific segments of video based on codes, tags, or keywords linked to those segments.
 
@@ -65,10 +65,6 @@ The project is organized around five aims.
     We will design, implement, test, and refine back-end technologies and user interfaces that return within-video search results in ways that makes it easy for users to click on and preview video segments the search engine finds.
     The interface will allow users to select and download selected segments for future reanalysis using the desktop video coding tools that are part of a user's current workflow.
     These features will make it easy for Databrary users to discover, preview, copy, and reanalyze video datasets that meet the specific requirements of their research question while keeping careful track of data sources and provenance.
-
-1.  Expand and extend Databrary's system for visualizing user-defined video codes.
-
-    Databrary's existing "timeline" interface for depicting tagged video segments will be modified to allow users to display, filter, and download the sets of tags that have been applied to shared video sessions.
 
 2.  Enable codes and annotations from selected existing video and audio coding tools with large user bases to be uploaded to, imported into, visualized within, searched across, and downloaded from the Databrary digital library.
     Enable Databrary codes from one tool to be exported along with videos to other tools in native file formats.
@@ -97,16 +93,10 @@ The project is organized around five aims.
     The code definitions will thereby become indexable and searchable.
     This will help the search engine return more relevant and useful information to users than the simple single-character codes, and it will provide better, more human-readble information for visualizing the codes while previewing recordings.
 
-4.  Design interfaces for Databrary that enable users to collaborate on coding video or audio recordings, share coding spreadsheets, maintain version control over coding information, and track data provenance.
+4.  Expand and extend Databrary's system for visualizing user-defined video codes.
 
-    (*Reconcile this with Project 4 text--Rick's newest visioning doesn't quite fit this. We may want to drop it entirely.*)
-
-    Databrary will become an even more powerful and attractive tool for video data storage and sharing if it can be used by researchers to facilitate coding in geographically separate locations.
-    Bandwidth and browser performance constraints mean that most video coding will continue to occur offline using desktop tools for the foreseeable future.
-    Databrary will develop ways for researchers to share coding with collaborators in different locations, by keeping track of information about different coding passes on the same videos.
-    This will allow coders in one lab, for example, to carry out reliability coding on videos coded in a collaborator's lab.
-    Similarly, as more users search Databrary for selected segments and reanalyze them, new or revised codes will be applied to existing shared video sessions.
-    Databrary will develop ways to store and represent information from coding passes added by others to shared video sessions.
+    Databrary's existing "timeline" interface for depicting tagged video segments will be modified to allow users to display, filter, and download the sets of tags that have been applied to shared video sessions.
+    Databrary will develop ways to store and represent information from coding passes added to shared video sessions.
     Databrary will track and report version changes in coding spreadsheets and coding passes.
 
 ### Background and Rationale
@@ -295,11 +285,6 @@ For the interface to return a thumbnail image, Databrary will need to take infor
 Similarly, if the user interface allows the user to click on thumbnail images and preview video segments or use mouse movements to scrub through the video segments forward and backward in time, the Databrary system may need to compute and re-encode these frames in cases that the entire video cannot be delivered to the user.
 Solving these problems in ways that make the interface responsive to users will be critical for making the search capability useful.
 
-#### Project 1b: Timeline interface for viewing/selecting coding passes
-
-Once the user has identified a particular session of interest, we need to enable visualization of existing coding passes uploaded with this session.
-Databrary needs to allow basic visualization and manipulation of these passes, so that users can preview the codes, select a subset of passes for download, and potentially upload newer versions of the coding passes.
-
 #### Project 2: Code import, representation/visualization, and export
 
 This project focuses on importing coding files from a selected set of academic and commercial tools, representing and visualizing them within Databrary, and exporting in their native formats.
@@ -424,33 +409,33 @@ It will be easier to provide users ways to edit information stored in coding man
 So, the extent to which users can edit or export information normally contained in these coding files or code templates will depend on the extent to which we are able to read from and write to native (or importable) file formats.
 
 A second type of interface will be needed that allows users who are viewing a particular video in a specific session to view what codes have been applied to what segments of video.
-Project 1b describes how we intend to tackle the problem of displaying the *sources* of the codes (coding file type, contributor, etc.).
+Project 4 describes how we intend to tackle the problem of displaying the *sources* of the codes (coding file type, contributor, etc.).
 This interface will likely build upon Databrary's existing video segment tagging feature, but it will have to include the ability to toggle on or off the visibility of individual code definitions, or the visibility of a separate "code definition" panel.
 Consistent with other UI components of Databrary and this proposal, we will proceed iteratively in developing and testing these designs, guided by input from the Databrary advisory board, our technical advisory committee, and user feedback.
 
-#### Project 4: Sharing codes, documenting the history of changes.
+#### Project 4: Timeline interface for viewing/selecting coding passes
 
-Project 4 focuses on improvements to Databrary that make it easier for users to visualize what codes have been applied by others to shared video, to share codes with other users, to distribute in time and space the burden of labor involved in human tagging of video, and to do so with mechanisms in place that provide version control over coding files and coding manuals/definitions.
+Project 4 focuses on improvements to Databrary that make it easier for users to visualize what codes have been applied to shared video, to upload new coding passes to their own videos, and to do so with mechanisms in place that provide version control over coding files and coding manuals/definitions.
+Once the user has identified a particular session of interest, we need to enable visualization of existing coding passes uploaded with this session.
+Databrary needs to allow basic visualization and manipulation of these passes, so that users can preview the codes, select a subset of passes for download, and potentially upload newer versions of the coding passes.
 
 ##### Project 4.1 User interface for displaying data about code sources
 
 Databrary has already implemented a timeline interface (*FIGURE*) that allows users to visualize temporal relationships among multiple phases of a data collection or data streams such as multiple camera views.
-Project staff will augment this interface to allow users to visualize the different types of codes that have been applied to a particular video segment the source(s) of the codes (linked to specific users or Databrary volumes; provided using what coding tool), and perhaps information about the when the codes were last shared/revised (see Project 4.2).
+Project staff will augment this interface to allow users to visualize the different types of codes that have been applied to a particular video segment.
 In addition, the interface will allow users to select or deselect specific codes so only those codes of interest are displayed.
-We will explore allowing users to change the display styling (color, font, size) and relative spatial position of the depicted codes to make visualization of the temporal relationships across codes more informative.
 
 The same iterative UI/UX design approach adopted in other parts of the project (1.3, 2.x, 3.1, 3.3) will be employed here.
 
 ##### Project 4.2 Back-end modifications to track changes to uploaded coding files
 
 We aim to make Databrary the home for ongoing video coding projects to reduce the burdens of uploading and curating data for sharing after a project is complete.
-This requires that we modify Databrary so that it can track when new or modified coding files or coding manuals (Project 3.3) are uploaded and by whom.
-Project staff will implement a form of coding file-level version control comparable to the dataset-level coding manual version control described in Project 3.3.
-To do so, staff will modify Databrary's existing back-end auditing/event-reporting features and will develop ways to display version information to users.
+Databrary already tracks when new or modified files are uploaded and by whom.
+Staff will modify Databrary's existing back-end auditing/event-reporting features and will enhance existing ways of displaying version information to users.
 
 A particular challenge this raises is how to track codes applied by Databrary users as part of a study that reuses or repurposes data collected and shared by another investigator.
 We are in the early phases of designing back-end and UI/UX components that enable Databrary users to create their own studies from shared videos, but those details are not yet fully worked out.
-So, at a minimum, we will provide and display version control information about coding files if those files were uploaded and shared by a researcher with write privileges on a dataset, in other words, the original data owner.
+So, at a minimum, we will provide and display version control information about coding files if those files were uploaded and shared by a researcher with write privileges on a dataset, in other words, the original data owner, their lab, and other collaborators.
 
 ### Coordination and Management Plan
 
