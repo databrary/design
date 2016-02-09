@@ -256,7 +256,6 @@ In browsing the videos found in the search, the researcher discovers that one da
 The researcher hadn't considered coding motor behavior, but since a detailed coding manual was shared, she decides to select those materials, as well.
 Satisfied that the search has yielded useful data for her project, the researcher downloads the relevant videos, coding files in the format of her choice, coding manuals, and other materials.
 The researcher begins annotating the downloaded videos using her own coding scheme and, since it is easy to do, the researcher shares the resulting coding files back to Databrary.
-When the researcher is ready to share, her layer of codes can be linked to the videos "borrowed" from the data library so that others can build upon these efforts.
 
 We describe how this scenario can be realized in the Implementation Plan.
 
@@ -297,6 +296,9 @@ Similarly, if the user interface allows the user to click on thumbnail images an
 Solving these problems in ways that make the interface responsive to users will be critical for making the search capability useful.
 
 #### Project 1b: Timeline interface for viewing/selecting coding passes
+
+Once the user has identified a particular session of interest, we need to enable visualization of existing coding passes uploaded with this session.
+Databrary needs to allow basic visualization and manipulation of these passes, so that users can preview the codes, select a subset of passes for download, and potentially upload newer versions of the coding passes.
 
 #### Project 2: Code import, representation/visualization, and export
 
@@ -386,27 +388,22 @@ The vast majority of developmental researchers who responded to our survey (Gilm
 Respondents most often report creating these manuals using word processing or spreadsheet software.
 Consequently, we know that coding manual information about videos is available; we just need ways to capture it systematically.
 
-Project 3.1 involves the design of the back-end representation of coding manual information.
-Project 3.2 involves the design of user interfaces for uploading coding manual information and for visualizing it within Databrary.
-Project 3.3 involves developing a way of exporting coding manual information in an open format (CSV, XML, or JSON).
-
 ##### Project 3.1 Make existing Databrary functionality for storing coding manuals more salient to users
 
-Databrary currently allows users to upload word processing, spreadsheet, PDF and other documents as Materials.
+Databrary currently allows users to upload word processing, spreadsheet, PDF and other materials.
 Relatively few researchers use this capability now to upload coding manuals.
 So, the project team will explore design and styling changes to the site that make coding manuals visually distinctive when they are uploaded.
 The team will also explore changes to the site's documentation, especially in the study design and active/self-curation portions, so that users are encouraged to upload coding manuals early on in the research process.
-In turn, the project team will enable version control features on coding manuals, and possibly other documents stored as Materials so that users can revise and update coding manuals, but retain access to prior versions.
 
 ##### Project 3.2: Design back-end representation of coding manual information
 
-To make shared coding manuals even more valuable, project staff must enhance Databrary's back-end data model in ways that allow information about specific codes contained in the manuals to be linked to information about the codes.
-As mentioned in the context of Project 2, Databrary already has the capacity to associate text-based tags with temporal segments of video.
+While textual coding manuals are useful, unless the information contained therein can be associated with specific coding data, they cannot be used to enhance searching within videos.
+Accordingly, project staff must enhance Databrary's back-end data model and front-end interface to allow new coding manuals to be entered directly on the web.
 Project staff will need to modify the data model to allow the additional text available in the coding manuals to be associated with specific codes *across* a video and *across* an entire dataset.
 These links are crucial because most *coding files* contain single alphanumeric characters.
 Thus, in one context 'm' might mean 'mother is speaking' and in another 'm' might mean 'participant is manipulating an object'.
 Only by linking richer, text-based descriptions to the specific codes can the search engine return meaningful results to a user who enters 'mother speaking' into a search box.
-(*Do we need a conceptual figure here to show how this will likely work? Discuss allowing Databrary coding manuals to include links to other assets stored on databrary, like videos or images?*)
+In this way, if users enter their coding manuals online directly on Databrary, rather than uploading them as separate files, we can further enhance videa search.
 
 ##### Project 3.3: Design user interfaces for uploading and visualizing coding manual information.
 
@@ -419,18 +416,15 @@ As a result, researchers who use these tools regularly augment the information a
 For tools that store code-specific definitions in the coding files, the project team will build upon the import functions developed as part of Project 2.
 Developing an interface for users to enter code-specific information stored in coding manuals poses a somewhat bigger challenge.
 The team has already begun to collect coding manuals from volunteers who responded to our community survey.
-Based on our initial assessment of these materials, we envision developing an interface that will sequentially display the codes imported into Databrary in one panel and the MS Word/text-file/spreadsheet coding manual in another panel. Users would then use cut and paste functions to populate the fields specific to each code.
-This semi-automated solution is necessary because coding manual formats vary so widely in format and detail across research groups.
 We will also consider the viability and utility of creating and encouraging the use of template coding manuals, as we have done for Data Management Plans (https://databrary.org/access/policies/dmp-template.html) and for Video Data Sharing Releases (https://databrary.org/access/policies/release-template.html).
 
 Once code-specific information has been entered into Databrary, we will need to make available interfaces that allow users to view and edit the information.
 One interface will need to allow users to view and edit the code definitions in a document-like form similar to a coding manual.
-The interface will also allow users to export the coding manual definitions in open, interoperable formats (CSV, XML/HTML, JSON, or Markdown).
 It will be easier to provide users ways to edit information stored in coding manuals than to enable users to edit code definition fields that are part of the data package associated with specific coding files in tools like Transana, Noldus Observer XT, and Mangold.
 So, the extent to which users can edit or export information normally contained in these coding files or code templates will depend on the extent to which we are able to read from and write to native (or importable) file formats.
 
 A second type of interface will be needed that allows users who are viewing a particular video in a specific session to view what codes have been applied to what segments of video.
-Project 4 describes how we intend to tackle the problem of displaying the *sources* of the codes (coding file type, contributor, etc.).
+Project 1b describes how we intend to tackle the problem of displaying the *sources* of the codes (coding file type, contributor, etc.).
 This interface will likely build upon Databrary's existing video segment tagging feature, but it will have to include the ability to toggle on or off the visibility of individual code definitions, or the visibility of a separate "code definition" panel.
 Consistent with other UI components of Databrary and this proposal, we will proceed iteratively in developing and testing these designs, guided by input from the Databrary advisory board, our technical advisory committee, and user feedback.
 
