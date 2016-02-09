@@ -120,53 +120,52 @@ Clearly, strengthening infrastructure that makes data sharing common practice in
 
 #### The growth and potential of video as data
 
-Hundreds of researchers (Gilmore & Adolph, 2016) who study learning and development collect video recordings in home, laboratory, classroom, and museum  contexts.
+Hundreds of researchers (Gilmore & Adolph, 2016) who study learning and development collect video recordings in home, laboratory, classroom, and museum contexts.
 The scale of data collection varies -- most individual labs collect 5-10 hours of video per week, but substantial numbers, especially large-scale collaborations, collect even more (Gilmore & Adolph, 2016).
-The Measures of Effective Teaching Project (http://www.metproject.org/) funded by the Gates Foundation generated more than 1,000 videos from K-12 classrooms, covering core subjects such as mathematics and language arts from multiple camera angles.
+The Measures of Effective Teaching Project (http://www.metproject.org/), funded by the Gates Foundation, generated more than 1,000 videos from K-12 classrooms, covering core subjects such as mathematics and language arts from multiple camera angles.
 The data, constituting tens of terabytes of storage, are hosted at the University of Michigan (http://soe.mivideo.it.umich.edu/) and streamed to registered viewers across the country.
 The NSF-funded HomeBank project, affiliated with the TalkBank/CHILDES archive, is collecting and sharing hundreds of hours of naturalistic audio recordings of children's speech, some of which will be accompanied by video.
-Of course, the 300 hours of video YouTube's 1 billion users upload every minute (https://www.youtube.com/yt/press/statistics.html) dwarfs the scale of video collection in research contexts.
-But, the widespread availability of low-cost, high resolution cameras has made video a large and rapidly growing source of information about human behavior.
+The widespread availability of low-cost, high resolution cameras has made video a large and rapidly growing source of information about human behavior.
 
 #### Video enables behavioral science research, but poses special challenges
 
-Video documents the richness and complexity of human behavior—-the interactions between people and their environment -- unlike any other form of measurement.
+Video documents the richness and complexity of human behavior -- the interactions between people and their environment -- unlike any other form of measurement.
 Video records what people say and what they do.
 It captures when, where, and how they look, gesture, move, and communicate, and how their looking, gesturing, moving, and communicating correspond to what others are doing.
-Because of these characteristics, video —- and before that, film -— has a long history (Goldman et al., 2014; Curtis, 2011) in the study of learning and development.
-Because video closely mimics the multisensory experiences of live human observers, recordings collected by one person for a particular purpose may be readily understood by another person and reused for a different purpose. Moreover, the success of YouTube and other video-based social media demonstrates that web-based video storage and streaming systems are now sufficiently well developed to satisfy large-scale demand.
-
-Capitalizing on the unique potential of large scale video data collections, however, requires overcoming a set of challenges associated with sharing video data.
+Because of these characteristics, video -- and before that, film -- has a long history (Goldman et al., 2014; Curtis, 2011) in the study of learning and development.
+Because video closely mimics the visual and audio experiences of live human observers, recordings collected by one person for a particular purpose may be readily understood by another person and reused for a different purpose.
+Capitalizing on the unique potential of large-scale video data collections, however, requires overcoming a set of challenges associated with sharing video data.
 
 **Videos contain personally identifiable information; this poses problems for the protection of participant privacy**.
-Although policies exist for sharing de-identified text-based data, video contains easily identifiable information: faces, voices, names, interiors of homes and classrooms, and so on.
+Although policies exist for sharing de-identified text-based data, video contains easily identifiable information: faces, voices, spoken names, interiors of homes and classrooms, and so on.
 Removing identifiable information from video severely diminishes its value for reuse and puts additional burdens on researchers.
 So, open video sharing requires policies that protect the privacy of research participants while preserving the integrity of raw video for reuse by others (see pp. X-X).
 
 **Large file sizes and diverse formats present technical challenges**.
-Video files are large (one hour of HD video can consume 10+ GB of storage) and come in varied formats (from cell phones to high-speed video).
+Video files are large (one hour of HD video can consume 10 GB of storage) and come in varied formats (from cell phones to high-speed video).
 Many studies require multiple camera views to capture desired behaviors from different angles.
 The cameras and other data streams must be synchronized for detailed analysis.
 Thus, sharing videos requires substantial storage capacity and significant computational resources for transcoding videos into common formats that can be preserved over the long term and for synchronizing multiple streams.
 
 **Open video sharing poses practical challenges of data management**.
 Researchers lack time to find, label, clean, organize, and copy their files into formats that can be used and understood by others (Ascoli, 2006a), and most lack training or expertise in standard practices of data curation.
-Study designs vary widely, and no two labs manage data in the same way. Idiosyncratic terminology, record-keeping, and data management practices are the norm.
+Study designs vary widely, and no two labs manage data in the same way.
+Idiosyncratic terminology, record-keeping, and data management practices are the norm.
 Few researchers reliably document workflows or data provenance.
 Although video requires minimal metadata to be useful, video files must be electronically linked to what relevant metadata exist including information about whether participants have given permission to share.
 When researchers do share, standard practice involves organizing data after a project is finished, perhaps when a paper goes to press.
-This “preparing for sharing” after the fact presents a difficult and unrewarding chore for investigators.
+This "preparing for sharing" after the fact presents a difficult and unrewarding chore for investigators.
 It makes curating and ingesting datasets challenging for repositories, as well.
 
 **Technical and practical challenges involved in extracting behavioral patterns from videos present barriers**.
 Videos contain rich and diverse information that requires time consuming work by human observers to extract.
 Researchers make use of videos by watching them and, using paper and pencil or more automated computerized coding software, translating observations into ideas and numbers.
-In principle, human applied codes and annotations could make the contents of videos searchable by others.
+In principle, human-applied codes and annotations could make the contents of videos searchable by others.
 However, researchers focus on different questions from varied theoretical perspectives and lack consensus on conceptual ontologies.
 The software coding tools many researchers use to put annotations in a digital form employ incompatible data formats.
 So, in practice, most coded video data are not easily shared.
 Moreover, human-centered video coding capitalizes on the unique abilities of trained observers to capture important dimensions of behavior.
-Machine learning and computer vision tools may one day provide new avenues for tagging the contents of videos for educational and developmental research (Amso, Haas, Tenenbaum, Markant, & Sheinkopf, 2014; Yu & Smith, 2013; Fathi, Hodgins, & Rehg, 2012; Google Research, 2014; Raudies & Gilmore, 2014), but these tools are not yet capable of replacing the judgments of trained human coders.
+Machine learning and computer vision tools may one day provide new avenues for tagging the contents of videos for educational and developmental research (Amso, Haas, Tenenbaum, Markant, & Sheinkopf, 2014; Yu & Smith, 2013; Fathi, Hodgins, & Rehg, 2012; Google Research, 2014; Raudies & Gilmore, 2014), but these tools are not yet capable of efficiently replacing the judgments of trained human coders.
 
 #### The Databrary digital library overcomes many of these barriers
 
