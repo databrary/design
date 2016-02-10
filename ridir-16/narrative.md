@@ -102,7 +102,7 @@ The project is organized around four aims.
 2.  Enable codes and annotations from selected existing video and audio coding tools with large user bases to be uploaded to, imported into, visualized within, searched across, and downloaded from the Databrary digital library.
 
     Databrary currently supports uploading, storing, and sharing coding files from only one of the tools used by the majority of developmental and learning scientists who use video [@gilmore_video_2016].
-    Working closely with a technical advisory group representing the leading academic and commercial video coding software tools (see Appendix A) commonly used by the majority of developmental researcher, Databrary will develop ways for users to upload and download coding files linked to videos.
+    Working closely with a technical advisory committee (TAC) representing the leading academic and commercial video coding software tools (see Appendix A) commonly used by the majority of developmental researcher, Databrary will develop ways for users to upload and download coding files linked to videos.
     Import functionality will bring the codes into the Databrary system and make the codes available for visualization and search within a dataset and across the library.
 
     Databrary will also build the capacity to export imported codes back into their native formats wherever possible, as well as exported to more open, interoperable, and user-consumable formats (e.g., CSV).
@@ -141,7 +141,7 @@ Of the 259 respondents, 100 reported collecting more than 5 hours of video per w
 The scale of some large collaborative projects is even larger.
 The Measures of Effective Teaching Project [@met_project], funded by the Gates Foundation, generated more than 1,000 videos from K-12 classrooms, covering core subjects such as mathematics and language arts from multiple camera angles.
 The data, constituting tens of terabytes of storage, are hosted at the University of Michigan [@met_data_icspr] and streamed to registered viewers across the country.
-The NSF-funded HomeBank project [@homebank], affiliated with the TalkBank/CHILDES archive [@talkbank], is collecting and sharing hundreds of hours of naturalistic audio recordings of children's speech, some of which will be accompanied by video [@talkbank_video_exemplar].
+The NSF-funded HomeBank project [@homebank], affiliated with the TalkBank/CHILDES archive [@talkbank_site], is collecting and sharing hundreds of hours of naturalistic audio recordings of children's speech, some of which will be accompanied by video [@talkbank_video_exemplar].
 The Autism and Beyond Project at Duke University [@autism_beyond] has deployed an iPhone application that will collect video images of children's facial expressions in order to evaluate the feasibility of using computer vision techniques to screen children in their homes for developmental disorders and risk of mental illness.
 These examples illustrate how the widespread availability of low-cost, high resolution cameras has made video a large and rapidly growing source of information about human behavior.
 
@@ -300,7 +300,7 @@ See Figure X in that addendum for a project timeline.
 
 #### Project 1: Search interface and functionality.
 
-This project will focus on designing, implementing, and verifying the user interface that returns within and across video search results in powerful, flexible, and informative ways.
+Project 1 will focus on designing, implementing, and verifying the user interface that returns within and across video search results in powerful, flexible, and informative ways.
 Project 1 will also focus on building the back-end capacity for Databrary's existing Apache solr-based search engine (see <technical-plan.md>) to return results from within video segments based on the information contained in imported coding files and coding manuals.
 Finally, the project will develop both the back-end and user interface components that allow users to use the videos they have found through search.
 
@@ -309,6 +309,7 @@ Finally, the project will develop both the back-end and user interface component
 The PIs and project staff will gather requirements for the search interface.
 A functional specification document with wireframes will be developed and circulated for feedback.
 Once finalized, the developers will implement the approved design.
+The project team will seek input from the TAC (Appendix A) and from the Databrary Advisory Board in designing and implementing the search interface.
 
 ##### Project 1.2: Adapt Databrary's search functionality.
 
@@ -317,6 +318,8 @@ The system has existing capabilities that enable users to add text based comment
 Thus, Databrary already has the capacity to represent selected segments of video and to link video segments to text-based codes.
 Staff will adapt the existing comment/tag functionality to permit tags from imported coding spreadsheets to be added to the text available to the search engine.
 This will require extensive modifications to Databrary's back-end data model and search infrastructure to allow returning video segment results.
+As described in the technical plan, Co-I and Databrary Systems Architect, Dr. Dylan Simon, has extensive experience developing and deploying databases of the sort required to implement these features.
+Simon also has available to him the resources of NYU's Digital Libraries staff through the contributions of Co-I Millman.
 
 ##### Project 1.3: Develop mechanisms for extracting and delivering tagged segments of video.
 
@@ -327,63 +330,70 @@ So, if a user searches for the term "infant speech" and the system returns 100 s
 For the interface to return a thumbnail image, Databrary will need to take information about the video and compute the frame or frames that should be returned.
 Similarly, if the user interface allows the user to click on thumbnail images and preview video segments or use mouse movements to scrub through the video segments forward and backward in time, the Databrary system may need to compute and re-encode these frames in cases that the entire video cannot be delivered to the user.
 Solving these problems in ways that make the interface responsive to users will be critical for making the search capability useful.
+Databrary's current timeline and highlights interfaces support video streaming, but the proposed new features will require extensive new work.
 
 #### Project 2: Code import, representation/visualization, and export
 
-This project focuses on importing coding files from a selected set of academic and commercial tools, representing and visualizing them within Databrary, and exporting in their native formats.
+Project 2 focuses on importing coding files from the leading software coding tools used by developmental scientists, representing and visualizing codes within Databrary, and exporting coding files in their native formats.
 Despite significant variation across coding tool platforms, at one level, all of the codes we intend to import are usually simple data structures.
 Each code consists of a start time, an optional end time, and an associated set of alphanumeric characters or data structures.
 Coding files consist of one or more arrays of these codes, organized into separate, possibly hierarchical or nested "passes".
 Databrary's existing data model includes an internal representation that allows users to apply simple text-based tags to temporal segments of specific videos.
-We will build upon this foundation in building the coding file import capabilities that are part of Project 2.
+We will extend this foundation in building the coding file import capabilities that are part of Project 2.
 
 ##### Project 2.1: Import and export Datavyu coding files.
 
 We will start by making Databrary capable of importing spreadsheets generated by Datavyu (datavyu.org), the free, Java-based, open-source video coding tool maintained by Databrary and Project PI, Adolph.
 Some 6 volumes on Databrary representing 230 video sessions contain spreadsheets coded in Datavyu.
-Internal download data, support forum comments, and our survey of the video-using developmental science community (Gilmore & Adolph, 2016) suggests that there are hundreds of laboratories using Datavyu.
-The Datavyu file format is well-known to the Databrary team, and so making Databrary capable of reading Datavyu spreadsheet files will be a test case, demonstrating the feasibility of other projects (2.2 - 2.x) focused on other data formats.
+Internal download data, support forum comments, and our survey of the video-using developmental science community suggest that there are hundreds of laboratories using Datavyu [@gilmore_video_2016].
+The Datavyu file format is well-known to the Databrary team, so making Databrary capable of reading Datavyu spreadsheet files will be a test case, demonstrating the feasibility of other projects (2.2 - 2.6) focused on other data formats.
 Because Datavyu uses a known format, we will also add to Databrary the capability of exporting codes in the Datavyu format.
-Jesse Lingeman, lead Datavyu developer and Clinton Freeman, a previous Datavyu developer, and current Databrary project consultant, will help guide the effort.
+At present, a user who exports from Databrary videos with linked Datavyu files must re-link the video files to the coding spreadsheet after downloading.
+By developing capabilities within Databrary to read and write information to Datavyu files, we will eliminate this time-consuming step.
+Co-I Simon will have available for consultation the current part-time Datavyu developer, Jesse Lingeman.
 
 ##### Project 2.2: Import ELAN coding files.
 
-ELAN (https://tla.mpi.nl/tools/tla-tools/elan/) is a free video and audio annotation tool developed by researchers at the Max Planck Institute for Psycholinguistics in the Netherlands.
-It is widely used in the psycholinguistics community, including respondents in our recent survey (Gilmore & Adolph, 2016), and has special features for language researchers who often use it to study language features from phonetics to pragmatics.
-Han Sloetjes, Lead Developer on ELAN, has agreed to serve on the technical advisory team and assist the project team to overcome hurdles involved in importing and exporting ELAN formatted files.
+ELAN [@ELAN_2016] is a free video and audio annotation tool developed by researchers at the Max Planck Institute for Psycholinguistics in the Netherlands.
+It is widely used in the psycholinguistics community and among respondents to our recent survey [@gilmore_video_2016].
+It has special features for language researchers who use it to study language features from phonetics to pragmatics.
+Han Sloetjes, one of the lead developerers on ELAN, has agreed to serve on the TAC and assist the project team to overcome hurdles involved in importing and exporting ELAN files (Appendix A).
 ELAN is built in Java, like Datavyu, and the ELAN team has already consulted with the Databrary and Datavyu staff on challenges both tools face in importing and playing diverse video formats.
 Import/export tools currently exist for converting ELAN files to and from the CHAT format used in CHILDES, TalkBank, and HomeBank (see Project 2.3 below).
 ELAN coding data includes significantly more structure than Datavyu, including hierarchical and linked coding passes (called tiers), but we expect the basic coding information from ELAN files to be extractable, and simple versions to be exportable.
-Project staff will build on these existing links in developing ELAN import/export features for Databrary.
+Project staff will build on these existing relationships in developing ELAN import/export features for Databrary.
 
 ##### Project 2.3: Import and export CHAT files.
 
-TalkBank (talkbank.org) is a collection of language-related databases that include transcripts, audio, and video data from children and adults.
-Many of TalkBank's audio or video files are linked to text-based transcripts in the CHAT format, developed for the Child Language Data Exchange System (CHILDES) Project.
-CHAT files can be used with the Computerized Language ANalysis (CLAN) suite of software tools, a recognized standard in the language community.
-TalkBank's founder and coordinator, Dr. Brian MacWhinney, serves on the Databrary advisory board and has agreed to serve on the technical advisory committee for the current proposal.
+TalkBank [@talkbank_site] is a collection of language-related databases that include transcripts, audio, and video data from children and adults.
+Many of TalkBank's audio or video files are linked to text-based transcripts in the CHAT format [@CHAT_files_2015], developed for the Child Language Data Exchange System (CHILDES) Project.
+CHAT files can be used with the Computerized Language ANalysis (CLAN) [@CLAN_2016] suite of software tools, a recognized standard in the language community.
+TalkBank's founder and coordinator, Dr. Brian MacWhinney, serves on the Databrary advisory board and has agreed to serve on the TAC for the current proposal.
 Professor MacWhinney will work with the project staff and PIs to allow CHAT-format transcripts linked with video or audio recordings to be imported into Databrary.
 CHAT files are well-structured; the file specification is open and known; and Databrary staff have already done some preliminary work with CHAT-format transcripts.
 However, CHAT files are unique in that transcription data is not directly linked to specific temporal codes, but instead specific points in the transcription text can be associated with points in the video or audio timestream.
 For this reason, this format may have unique restrictions on which files can be imported and exported.
 
-Support for CHAT-formatted transcripts is essential for interoperability with the NSF-funded HomeBank data archive project that focuses on collecting a large corpus of natural speech using the LENA (http://www.lenafoundation.org) recording device, linked with CHAT-formatted transcripts.
-Databrary serves as a consultant on the HomeBank project, and works closely with its PIs, Anne Warlaumont (UC Merced), X, and Brian MacWhinney, and the leadership of both projects has determined that interoperability is an important priority for both efforts.
-LENA files are stored in a fairly well documented XML format, so Databrary staff will also investigated importing LENA data directly into Databrary.
+Support for CHAT-formatted transcripts is essential for interoperability with the NSF-funded HomeBank data archive project that focuses on collecting a large corpus of natural speech using the LENA [@LENA_foundation] recording device, linked with CHAT-formatted transcripts.
+Databrary serves as a consultant on the HomeBank project, and works closely with its PIs, Dr. Anne Warlaumont (UC Merced), Dr. Mark VanDam (Washington State University), and Dr. Brian MacWhinney.
+The leadership of both projects has determined that interoperability is an important priority for both projects given the considerable overlap in our research communities.
+LENA files are stored in a fairly well documented XML format that our HomeBank colleagues have already gained working familiarity with.
+Databrary staff will build on our colleagues' expertise and contacts in developing features for Databrary.
 
 ##### Project 2.4: Import and export files from Transana
 
 Transana (http://www.transana.org/) is an open source software package that is used by researchers in the educational, learning, and developmental sciences to analyze digital video and audio.
-Earlier phases of the project have received support from both NSF and the TalkBank project at Carnegie Mellon.
-Transana's lead developer, David Woods, has agreed to serve on the project's technical advisory committee (see Appendix X).
+Earlier phases of the project received support from both NSF and the TalkBank project at Carnegie Mellon.
+Transana's lead developer, Dr. David Woods, has agreed to serve on the project's technical advisory committee (see Appendix A).
 Transana already enables the full export of project codes and related metadata into an open XML format.
 Transana also offers multi-user versions for lab groups who want to share and collaborate on coding audio or video files and a fee-for-service cloud storage feature.
+Transana's capabilities extend well beyond video coding, but these facts give the project team confidence that some form of restricted Transana file import and export features can be added to Databrary.
 
 ##### Project 2.5: Import and export Mangold Interact files
 
-Mangold Interact (http://www.mangold-international.com/en/software/interact) is a commercial video annotation tool used by a significant fraction of developmental researchers (Gilmore & Adolph, 2016).
+Mangold Interact ([@mangold_interact] is a commercial video annotation tool used by more than 20% of respondents in our recent survey [@gilmore_video_2016].
 Alongside its video collection, coding, and analysis software Mangold develops, sells, and supports integrated hardware and software laboratories for video and audio-based behavioral analyses.
-Pascal Mangold, founder of Mangold International, has agreed to serve on the project's technical advisory committee.
+Pascal Mangold, founder of Mangold International, has agreed to serve on the project's technical advisory committee (Appendix A).
 Mangold Interact has several features the project team hopes to exploit in developing the import and export functionality for Databrary.
 The software has a user-scripting function that enables coding files to be exported in a variety of formats for subsequent data analysis.
 It stores study/project-level information separately from session-specific data, and allows users to create coding templates that contain structured representations of some of the information users now store in separate coding manuals.
@@ -391,19 +401,19 @@ Project staff will work with Mr. Mangold and his experts first to enable uploadi
 We will then strive to develop tools that import and export these coding files in their native format, or, in the worst case import files that have been exported by the Mangold software into an open, text-based (CSV or XML) format.
 
 Beyond the project team's desire to serve this important segment of the developmental and learning sciences research community, Databrary staff believe that import/export functionality for Mangold Interact is important for another reason.
-One of the largest (n=344 participants, 1,344 sessions) and most diverse video datasets currently stored and shared on Databrary comes from an NSF-funded longitudinal study (http://doi.org/10.17910/B7CC74) led by Catherine Tamis-LeMonda.
+One of the largest (n=344 participants, 1,344 sessions) and most diverse video datasets currently stored and shared on Databrary comes from an NSF-funded longitudinal study led by Catherine Tamis-LeMonda [@Tamis-LeMonda_data].
 Professor Tamis-LeMonda has available Mangold Interact format coding files, but has not yet shared these with Databrary.
 Successful implementation of Mangold Interact import functionality may make it eventually possible to store and share these coded spreadsheets with Databrary alongside the already-shared videos, thus augmenting the current value of the shared data.
-Unfortunately, some intermediate data from coding these videos that would allow the codes to be linked with the videos on Databrary has been lost, so this process may require significant additional effort, if it is indeed feasible.
+Unfortunately, some intermediate data from coding these videos that would allow the codes to be linked with the videos on Databrary has been lost, so this process may require significant effort and will require the project team to assess cost and feasibility prior to starting work.
 
 ##### Project 2.6: Import Noldus Observer XT files
 
-Noldus Observer XT (http://www.noldus.com/human-behavior-research/products/the-observer-xt) is a commercial software package produced by Noldus Information Technology that is specialized for the collection, coding, and analysis of audio, video, eye tracking and physiological data streams.
-Noldus also develops, sells, and supports complete integrated hardware and software packages for multi-measure behavioral analyses.
-Niek Wilmink, Product Portfolio Manager at Noldus, has agreed to serve on the project's technical advisory committee (see Appendix X).
+Noldus Observer XT [@noldus_observer_XT] is a commercial software package produced by Noldus Information Technology that is specialized for the collection, coding, and analysis of audio, video, eye tracking and physiological data streams.
+Noldus, like Mangold, develops, sells, and supports complete integrated hardware and software packages for multi-measure behavioral analyses.
+Niek Wilmink, Product Portfolio Manager at Noldus, has agreed to serve on the project's technical advisory committee (see Appendix A).
 
 Noldus Observer XT files are in a proprietary format, but the software has the capability of exporting codes and short code definitions stored in coding template files into a spreadsheet (Microsoft Excel) format.
-Project staff will work with Mr. Wilmink and the Noldus team to build support within Databrary for uploading and downloading coding files.
+Project staff will work with Mr. Wilmink and the Noldus team to build support within Databrary for uploading and downloading coding templates and files.
 With support from our Noldus partners, project staff will investigate the possibility of functionality that allows Databrary to import Noldus files from their native formats into the Databrary back-end.
 In the worst case, Databrary will build functionality to import files that are exported by the Noldus software into an open or easy-to-read format, like the Excel spreadsheet format used by the coding template export function.
 
@@ -412,7 +422,7 @@ In the worst case, Databrary will build functionality to import files that are e
 This project involves enhancing the capacity of Databrary so that the rich, text-based descriptions of behavioral codes, formalized in coding manuals often (but not always) stored separately from coding files, can be imported into Databrary.
 The text in the manuals will be indexed by the Databrary search engine, and thus become searchable metadata.
 
-The vast majority of developmental researchers who responded to our survey (Gilmore & Adolph, 2016) regularly create detailed coding manuals that define behavioral codes associated with a particular study's set of analyses.
+Sixty-three percent of developmental researchers who responded to our survey [@gilmore_video_2016] report they "always" create detailed coding manuals that define behavioral codes associated with a particular study's set of analyses.
 Respondents most often report creating these manuals using word processing or spreadsheet software.
 Consequently, we know that coding manual information about videos is available; we just need ways to capture it systematically.
 
@@ -431,7 +441,8 @@ Project staff will need to modify the data model to allow the additional text av
 These links are crucial because most *coding files* contain single alphanumeric characters.
 Thus, in one context 'm' might mean 'mother is speaking' and in another 'm' might mean 'participant is manipulating an object'.
 Only by linking richer, text-based descriptions to the specific codes can the search engine return meaningful results to a user who enters 'mother speaking' into a search box.
-In this way, if users enter their coding manuals online directly on Databrary, rather than uploading them as separate files, we can further enhance videa search.
+In this way, if users enter their coding manuals online directly on Databrary, rather than uploading them as separate files, we can further enhance video search.
+This project, like Projects 2.1-6 builds on the Apache solr-based search engine already implemented in Databrary.
 
 ##### Project 3.3: Design user interfaces for uploading and visualizing coding manual information.
 
@@ -439,7 +450,7 @@ The target coding tools vary in the extent to which they capture and store code 
 Datavyu does not store code definition information at all.
 CHAT-formatted files employ a structured set of well-defined keywords that describe the content of speech transcripts and other metadata such as the speaker, context, etc., and user-defined codes are usually tagged as comments.
 Transana, Mangold Interact, and Noldus Observer XT allow code definition information to be stored within the coding files or in linked files, but there are often size limits on the amount of text that may be inserted into the code description or definition fields.
-As a result, researchers who use these tools regularly augment the information about specific codes or coding schemes in external word processing or spreadsheet documents (Gilmore & Adolph, 2016).
+As a result, researchers who use these tools regularly augment the information about specific codes or coding schemes in external word processing or spreadsheet documents.
 
 For tools that store code-specific definitions in the coding files, the project team will build upon the import functions developed as part of Project 2.
 Developing an interface for users to enter code-specific information stored in coding manuals poses a somewhat bigger challenge.
