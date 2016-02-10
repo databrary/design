@@ -2,6 +2,33 @@
 
 ## PROJECT SUMMARY (1 p)
 
+The widespread capacity to search databases connected to the internet has transformed scholarship.
+But, the profound changes that search engines have brought to literature research and teaching have have left largely untouched the process of gathering data for researchers in many fields of behavioral science.
+This proposal seeks support for specific enhancements to the NSF- and NICHD-supported Databrary (databrary.org) digital library that will make it easier for behavioral scientists who use video and audio recordings to find, access, and reuse recordings and related data that meet the specific needs of their research question.
+
+Video constitutes a primary means of recording behavior in home, lab, classroom and museum settings for hundreds of researchers across the behavioral sciences.
+Video powerfully captures behavior unfolding in real time and depicts how behavior changes across development.
+Video collected for one purpose can be readily reused for other purposes beyond those envisioned by the original researchers.
+With the creation of Databrary, the number of researchers actively sharing video and reusing shared video has grown, but technical barriers remain.
+
+This project proposes to enhance Databrary so that
+1. Researchers can search for specific segments of video based on codes, tags, or keywords.
+2. Transcripts, annotations, and codes researchers apply to video using specialized, but incompatible, software tools can be uploaded, imported, visualized, searched, and downloaded from Databrary.
+3. Information about annotations and codes contained in coding manuals or other files can be uploaded, imported, indexed, visualized, searched, and downloaded from Databrary.
+4. Researchers can browse codes produced by others, share coding files across geographically distant locations, and build upon codes contributed by others while Databrary keeps track of file changes, thereby promoting transparency and reproducibility in research.
+
+The project's intellectual merit arises from the fact that the enhancements will enable new interdisciplinary, multi-level research questions to be asked based on existing, already collected and shared video data.
+The project extends to the domain of video data the demonstrated power and utility of text-based search.
+The project lays the groundwork for research using powerful analytical techniques that evaluate the temporal relationships between multiple time series measurements.
+
+The project's broader impacts stem from the fact that the enhancements will make resources on Databrary, many of them funded by NSF and NIH, more findable, accessible, interoperable, and reusable.
+The project will make it substantially easier for scientists at institutions that lack substantial resources to contribute to the body of knowledge about human behavior by building on the expensive-to-collect data gathered by others.
+Video and audio recordings are used by researchers in many fields.
+So, the infrastructure will have impacts beyond the developmental science community.
+The enhancements will benefit all researchers by making video data sharing more appealing.
+These incentives will increase the number of researchers who share, the diversity of the data sets they share, and the pace of data sharing.
+Finally, since some datasets will be available for public viewing, the project will raise the profile of video-based research and bolster interest in and support for science in the behavioral sciences among the public at large.
+
 ## PROJECT DESCRIPTION (15 pp)
 
 The widespread capacity to search databases connected to the internet has transformed scholarship.
@@ -89,7 +116,7 @@ The project is organized around four aims.
     We will also develop ways to extract code definitions from those coding tools whose files store them.
     This will help the search engine return more relevant and useful information to users, and it will provide better, more human-readble information for visualizing the codes while previewing recordings.
 
-4.  Expand and extend Databrary's system for visualizing user-defined video codes.
+4.  Expand and extend Databrary's system for visualizing user-defined video codes and tracking changes to them.
 
     Many researchers apply layers of codes derived from multiple coding passes through the same videos, following established best-practices in video data coding [@best_practices].
     Databrary's existing "timeline" interface for depicting tagged video segments will be modified to allow users to display, filter, and download the codes or passes that have been applied to shared video sessions.
