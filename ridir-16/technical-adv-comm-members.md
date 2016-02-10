@@ -1,3 +1,5 @@
+# Technical Advisory Committee Roster
+
 Brian MacWhinney, Ph.D.
 Professor of Psychology and Modern Languages
 Carnegie Mellon University
@@ -6,6 +8,18 @@ Carnegie Mellon University
 Pittsburgh, PA 15213
 http://psyling.psy.cmu.edu/
 macw@cmu.edu
+
+Vasant Honavar, Ph.D.
+Professor and Edward Frymoyer Chair of Information Sciences and Technology
+Director, Center for Big Data Analytics and Discovery Informatics
+Associate Director, Institute for Cyberscience
+Professor of Genomics and Bioinformatics and of Neuroscience
+301A Info Sci. and Tech. Building
+Penn State University
+University Park, PA 16802
+http://vhonavar.ist.psu.edu
+http://ailab.ist.psu.edu 
+vhonavar@ist.psu.edu 
 
 Pascal T. Mangold
 Founder & CEO Mangold International

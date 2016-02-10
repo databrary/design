@@ -9,51 +9,57 @@ Researchers may search Google Scholar with just a few snippets of information ab
 Each of the links targets a specific journal article.
 Most academic users may begin to read the full paper and examine the figures and tables by clicking on the relevant link.
 Other types of search empower scholars to seek specific images or videos for teaching or demonstration purposes.
-These profound changes that search engines have brought to literature research and teaching have have left largely untouched the process of gathering data for researchers in many fields.
-With few exceptions (Gilmore, 2016), a behavioral scientist who searches for previously collected datasets to analyze or build upon will rarely encounter data that are Findable, Accessible, Interoperable, and Reuseable (FAIR) (reference FAIR data principles).
-That is, despite significant growth in the number and diversity of repositories (OSF, Databrary, Dataverse, ICSPR, FigShare) devoted to sharing data and increased interest in and focus on promoting open, transparent, and reproducible scientific practices in the behavioral sciences (Science, 2015), data about human behavior remains hard to find, access, use without proprietary software or knowledge, and repurpose to answer new questions.
-This proposal seeks support for specific enhancements to the Databrary (databrary.org) digital library that will make it easier for researchers who use video and audio recordings to study behavior to find, access and reuse relevant segments.
-We will do so by making the library interoperable with the dominant software tools used today by human coders for annotating video and by electronically capturing and indexing these data and other metadata researchers already have at hand.
+The profound changes that search engines have brought to literature research and teaching have have left largely untouched the process of gathering data for researchers in many fields.
+With few exceptions [@gilmore_big_2016], a behavioral scientist who searches for previously collected datasets to analyze or build upon will rarely encounter data that are Findable, Accessible, Interoperable, and Reuseable [@_fair_2014].
+That is, despite significant growth in the number and diversity of repositories devoted to sharing data and increased interest in and focus on promoting open, transparent, and reproducible scientific practices in the behavioral sciences [@collaboration_estimating_2015], data about human behavior remains hard to find, access, use without proprietary software or knowledge, and repurpose to answer new questions.
+This proposal seeks support for specific enhancements to the Databrary (databrary.org) digital library that will make it easier for researchers who use video and audio recordings to study behavior to find, access, and reuse recordings and related data that meet the specific needs of their research question.
 
 (*I still feel like the above is setting up a big problem (discoverability of datasets) and then not doing anything to actually address it, but instead proposing something that makes the problem worse (increasing fragmentation) without actually mentioning existing solutions (re3data.org).  If we're going to try to sell this as a discoverability problem, we need to build other things to try to address it.*)
 
-Video constitutes a primary means of recording behavior in home, lab, classroom and museum settings for hundreds of researchers in the developmental and learning sciences and in other fields from anthropology to linguistics, ethology to human-computer interaction.
-Video is popular largely because it powerfully captures behavior unfolding in real time and can depict how it changes across development.
+(*I hear what you are saying, but I think we specify what we're about in later paragraphs.*)
+
+Video constitutes a primary means of recording behavior in home, lab, classroom and museum settings for hundreds of researchers in the developmental and learning sciences [@gilmore_video_2016] and in other fields from anthropology to linguistics, ethology to human-computer interaction.
+Video is popular largely because it powerfully captures behavior unfolding in real time and depicts how behavior changes across development.
 High quality video can be collected with inexpensive devices available to most researchers, including those who lack substantial research resources.
-Further, video collected for one purpose can be readily re-used for other purposes beyond those envisioned by the original researchers (e.g., Raudies et al. 2012; Gilmore et al. 2015; others), usually without the need for extensive metadata.
+Further, video collected for one purpose can be readily reused for other purposes beyond those envisioned by the original researchers, usually without the need for extensive metadata.
 
-(*Doesn't it look bad only to be citing the PI's own papers? Or will a more thourough lit review follow?*)
-
-To characterize and quantify behavioral patterns in video requires that researchers apply text or numeric codes to time-delimited segments of video.
-Most researchers use paper and pencil, spreadsheet software, or tools specialized for coding video (Gilmore & Adolph, 2016) for this purpose.
-A recent survey of the developmental science community by the applicants (Gilmore & Adolph, 2016 (*which publication are these referencing?*)) suggests that the majority of researchers collecting video use or have used one or more specialized video coding tools (Datavyu, ELAN, Mangold Interact, Noldus Observer, Transana) (*needs integrating with previous sentence*).
-These tools enable specially trained cadres of research assistants to move backwards and forwards through digital videos at varied speeds of playback and apply annotations or codes to selected points or segments in time.
-The annotations are saved electronically, time-locked to the video segments to which they apply.
-Thus coded, the data files contain information about the behaviors of participants, including who was involved, what happened, when, and sometimes for how long.
+To characterize and quantify behavioral patterns in video requires researchers to apply text or numeric codes to time-delimited segments of video.
+Most use paper and pencil, spreadsheets, or tools specialized for transcribing and annotating video [@gilmore_video_2016] -- CLAN [@CLAN_2016], Datavyu [@datavyu_2016], ELAN [@ELAN_2016], Mangold Interact [@_mangold_2016], Noldus Observer XT [@_noldus_2016], and Transana [@_transana_2016].
+These tools enable analysts to move backwards and forwards through digital videos at varied speeds of playback.
+The tools make it easy to apply speech transcriptions, annotations, or codes to selected points or segments in time.
+The annotations are saved electronically, time-locked to the video segments.
+Thus coded, the data files contain valuable information about the behaviors of participants, including who was involved or spoke, what happened or was said, when, where, and for how long.
 
 Some labs make multiple passes through the same videos, extracting new information with each pass.
 The passes may be represented as new columns in special-purpose spreadsheets or new timelines or tiers of annotations.
-These codes form the basis of subsequent quantitative and qualitative analyses that researchers later report in journal articles, talks, and presentations.
-To ensure reliability, reproducibility, and robustness of results, most researchers (Gilmore & Adolph, 2016) augment the codes with rich, textual descriptions of the behaviors of interest, codified in formal coding manuals that are usually saved in word processing or spreadsheet formats.
+The codes form the basis of quantitative and qualitative analyses that researchers report in journal articles, talks, and presentations.
+To ensure reliable, reproducible, and robust results, most researchers augment the codes with rich, textual descriptions of the behaviors of interest, codified in separate coding manuals saved in word processing or spreadsheet formats [@gilmore_video_2016].
 Taken together, the coding files and coding manuals contain invaluable, expensive-to-acquire, human-validated, text-based information about the contents of raw video recordings.
-More important, they provide the foundation for searching *within* videos for specific codes or behaviors.
 
-Clearly, behavioral science research across multiple fields would be substantially advanced if researchers shared their raw videos, coding files, and coding manuals with others (*is this clear?*).
-The Databrary (databrary.org) digital library was created by the applicants with support from NSF (BCS-1238599) and NICHD (U01-HD-076595) to make this ideal a reality.
-We describe our progress to-date below (pp. X-X), but note that several unresolved barriers stand in the way of widespread video data sharing.
+The research videos, coding files and manuals curated by researchers across the behavioral sciences constitute a substantial resource for new discovery if the materials can be shared openly with the research community.
+The Databrary (databrary.org) digital library was created by the applicants with support from NSF (BCS-1238599) and NICHD (U01-HD-076595) to capitalize on this potential.
+We describe Databrary's substantial progress in building the library, attracting users, developing policies to ensure privacy, and curating video datasets below (pp. X-X).
+Video data sharing remains the exception, but Databrary has demonstrated that that substantial numbers of researchers will embrace the practice if barriers to sharing video are reduced.
+At the moment, the most salient *technical* barriers relate to whether relevant video data can be sought, found, accessed, and reused, and the interoperability of data and metadata associated with the videos.
 
-The ability to search across a coded video for specific codes is offered by most of the specialized tools (*except Datavyu? I'm not even sure others do, either*) and works well for researchers who share the same laboratory and use the same tool.
-But, the coding tools store data in incompatible formats so the hard-won information contained within the files remains locked away, its potential for reuse by others largely unrealized.
-Databrary allows users to upload and share coding files, but cannot extract the information contained within these files, making those codes inaccessible without downloading both video and coding file, and having the appropriate coding tool.
-Databrary allows users to upload and share coding manuals in Microsoft Word, Excel, PDF, or text-based formats, but lacks the capacity to search within those coding manuals for key terms or code definitions.
-Databrary currently allows users to search across the library for datasets matching specific characteristics or terms, but the system cannot return results based on information within the videos themselves.
+Databrary currently allows users to search across the library for datasets matching specific characteristics or search terms.
+The system stores data about individual participant characteristics, testing settings, and tasks in ways convenient for researchers to enter.
+This underpins Databrary's capacity to search on these variables.
+Databrary currently allows users to upload and share coding files from one of the coding tool formats (Datavyu), and the system allows users to upload and share coding manuals in Microsoft Word, Excel, PDF, or text-based formats.
+
+Nevertheless, few researchers currently share Datavyu coding files, and Databrary cannot extract the information contained within the files.
+Users of other coding tools cannot currently share coding files at all.
+Some researchers share coding manuals, but Databrary lacks the capacity to extract information within coding manuals, making it impossible to search for key terms or code definitions.
 Thus, even while a video might contain examples of child speech and mother speech, and Databrary might contain a Datavyu coding file that marks those segments time-locked to the video along with text-based transcripts, a user cannot efficiently find the segments.
+Furthermore, even if Databrary supported storage of a wide range of coding tool file formats, the tools store data in incompatible formats, so the hard-won information contained within the files would remain locked away, its potential for reuse by others largely unrealized.
 
-Accordingly, we propose to expand the Databrary digital library's capabilities to enable search within videos.
-To do so, we must enhance the library to allow it to import and index data and metadata about videos that is already collected and coded by researchers, and encourage users to share these files.
-This will accelerate the pace of video data sharing and reuse in the developmental and learning sciences, a field where there is a well-identified, substantial community of researchers who use video as a primary means of data collection.
+Accordingly, we propose to expand Databrary's capabilities to import and index data and metadata about videos that is already collected and coded by researchers, but not easily or readily shared.
+We will make codes and code definitions currently stored in incompatible file formats interoperable with one another and thereby make the transcripts, annotations, codes, and definitions available for search.
+This will allow users to find specific videos that contain segments with exactly the characteristics they seek, and to access the videos and codes in an open, interoperable format that can be readily reused.
+
+We believe that these enhancements will accelerate the pace of video data sharing and reuse in the developmental and learning sciences, a field where there is a well-identified community of hundreds of researchers who use video as a primary means of data collection.
 It will leverage and increase the value of NSF's prior investments in Databrary and create opportunities for new research in other areas of behavioral sciences that use video or audio recordings as raw data.
-The project will make possible new, cross-disciplinary, multi-level, and integrative research on human behavior that is currently prohibitively expensive, if not impossible.
+Ultimately, the project will make possible new, cross-disciplinary, multi-level, and integrative research on human behavior that is currently prohibitively expensive, if not impossible.
 
 ### Project Aims
 
