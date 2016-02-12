@@ -11,15 +11,15 @@ Video powerfully captures behavior unfolding in real time and depicts how behavi
 Video collected for one purpose can be readily reused for other purposes beyond those envisioned by the original researchers.
 With the creation of Databrary, the number of researchers actively sharing video and reusing shared video has grown, but technical barriers remain.
 
-This project proposes to enhance Databrary so that
+This project proposes to enhance Databrary so that:
 1. Transcripts, annotations, and codes researchers apply to video using specialized, but incompatible, software tools can be uploaded, imported, visualized, searched, and downloaded from Databrary.
 2. Researchers can browse codes produced by others, share coding files across geographically distant locations, and build upon codes contributed by others while Databrary keeps track of file changes, thereby promoting transparency and reproducibility in research.
 3. Information about annotations and codes contained in coding manuals or other files can be uploaded, imported, indexed, visualized, searched, and downloaded from Databrary.
 4. Researchers can search for specific segments of video based on codes, tags, or keywords.
 
-The project's intellectual merit arises from the fact that the enhancements will enable new interdisciplinary, multi-level research questions to be asked based on existing, already collected and shared video data.
-The project extends to the domain of video data the demonstrated power and utility of text-based search.
-The project lays the groundwork for research using powerful analytical techniques that evaluate the temporal relationships between multiple time series measurements.
+The project's intellectual merit arises from enabling new interdisciplinary, multi-level research questions to be asked based on existing, already collected, coded, and shared video data.
+The project will allow new integrative analyses on existing video data by providing easy, direct access to existing annotations from a varitey of analysis tools.
+By adding additional data sources to existing analyses within whatever environment each researcher is used to, new questions can be asked, for example by collating and comparing a transciption pass with behavioral coding data.
 
 The project's broader impacts stem from the fact that the enhancements will make resources on Databrary, many of them funded by NSF and NIH, more findable, accessible, interoperable, and reusable.
 The project will make it substantially easier for scientists at institutions that lack substantial resources to contribute to the body of knowledge about human behavior by building on the expensive-to-collect data gathered by others.
