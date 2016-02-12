@@ -1,15 +1,17 @@
 # Making the Hidden Visible: Searching Within Video Data
+<!--may need more suited title to import/export and interoperability of codes-->
 
 ## PROJECT SUMMARY (1 p)
 
 The widespread capacity to share and exchange data over the internet has transformed scholarship, but technical problems with incompatible formats, applications, and specialized proprietary environments hinder the free exchange of data.
-Video recordings rely on myriad established industry format and codec standards such than almost any video can be easily converted for any use, but the various annotation metadata that researchers laboriously generate in the process of their research largely remain locked in proprietary, incompatible formats.
-This project seeks support for specific enhancements to the NSF- and NICHD-supported Databrary (databrary.org) digital library that will make it easier for behavioral scientists who annotate or code video data to exchange, share, convert, access, and reuse these coding data, in order to increase the value and discoverability of associated shared videos.
+Video recordings rely on myriad established industry format and codec standards such than almost any video can be easily converted for any use, but the various annotation metadata that researchers laboriously generate in the process of their research largely remain locked in incompatible, often proprietary formats.
+This project proposes to extend the success that the NSF- and NICHD-supported Databrary (databrary.org) digital library has had with increasing video sharing to promote sharing, accessibilty, and reusability of video coding data as well.
+This will make it easier for behavioral scientists who annotate or code video data to exchange, share, convert, access, and reuse their coding data, in order to increase the value and discoverability of the associated shared videos.
 
 Video constitutes a primary means of recording behavior in home, lab, classroom and museum settings for hundreds (*really only hundreds? isn't it more in the thousands and wouldn't that make it more compelling?*) of researchers across the behavioral sciences.
-Video powerfully captures behavior unfolding in real time and depicts how behavior changes across development.
-Video data collected for one purpose can be readily reused for other purposes beyond those envisioned by the original researchers.
-With the creation of Databrary, the number of researchers actively sharing video and reusing shared video has grown, but technical barriers remain.
+Video powerfully captures behavior unfolding in real time and depicts how behavior changes across development, and researchers already spend many hours using specialized tools to meticulously code the subset of these behaviors relevant to their research.
+Video data collected for one purpose can be readily reused for other purposes beyond those envisioned by the original researchers, and in doing so these new analyses can leverage the original coding data, but only if they are shared and readable.
+With the creation of Databrary, the number of researchers actively sharing video and reusing shared video has grown, and we now aim to similarly increase the range and value of coding data as well. 
 
 This project proposes to enhance Databrary so that:
 1. Transcripts, annotations, and codes researchers apply to video using specialized, but incompatible, software tools can be uploaded, imported, visualized, searched, and downloaded from Databrary.
@@ -22,18 +24,14 @@ These annotations will come from the time-consuming, labor intensive coding proc
 These data will be accessible in a variety of formats for reuse by other researchers, allowing researchers to work in the tools with which they are most familiar and are best suited to their research questions and analyses.
 These shared coding data will allow researchers to ask a potentially unlimited number of new interdisciplinary, multi-level research questions on existing video data by providing easy, direct access to existing annotations from a variety of analysis tools.
 This will provide new ways of exploring existing video data on Databrary in order to discover and identify interesting datasets.
-<!-- more should be added here on the value of increasing accessibility to coding data-->
+<!-- focus on the value added of increasing accessibility to coding data-->
 
 **Broader Impacts.** By opening up coding data that is linked with shared videos, this project stands to speed the pace of discovery in behavioral research.
-
-- combining expertise of various people, content expertise on coding used to be impediment
-- allowing collaboration between geographically and technically disparate researchers
-- provide new perspectives and allow new ways of looking at coding data by increasing transferability of coding data to other tools
-- The project will make it substantially easier for scientists that lack resources to participate in scientific discourse on human behavior by exploring and analyzing the coding data shared by other researchers.
-- increased transparency and scientific integrity
-
-
-Finally, since some datasets will be available for public viewing, the project will raise the profile of video-based research and bolster interest in and support for science in the behavioral sciences among the public at large.
+By increasing transferability of coding data between different tools with different affordances, this project will provide new perspectives and provide researchers new ways of engaging with coding data. 
+This new coding platform will allow collaboration between geographically and technically disparate researchers, allowing annotations to be moved seamlessly between different technologies and physical locations.
+Once researchers can reuse coding data created by experts in other areas, they can combine their own abilities and specific expertise to generate new findings beyond their existing collaborations.
+The project will make it substantially easier for scientists that lack resources to participate in scientific discourse on human behavior by exploring and analyzing the coding data shared by other researchers.
+Finally, through capturing additional stages of the research process, we will increase transparency and scientific integrity.
 <!--impacts about expanding sharing of coding data by solving problems of interoperability-->
 
 - coding is very time consuming
