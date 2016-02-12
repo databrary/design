@@ -46,6 +46,10 @@ To encourage deeper, more meaningful engagement by our primary users rather than
 - Task: Manage volume access	
 	- Add collaborators (can use "Gladys Chan" and "Vicky Foo")
 	- Give them read access and read-write access, respectively
+- Task: Upload Assistance
+	- note: the goal is to make the options of batch upload and requesting help for a volume more discoverable, and the process more intuitive
+	- Use the Upload Assistance tab to bulk upload appropriate data from a provided study folder.
+	- Fill in and submit a help request to Databrary staff	
 - Task: Set up the study design using the preview spreadsheet as a guide
 - Task: Find more information about organizing data on Databrary in the User guide
 - Task: Create new session in spreadsheet and enter metadata
