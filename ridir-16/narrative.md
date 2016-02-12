@@ -3,12 +3,12 @@
 ## PROJECT SUMMARY (1 p)
 
 The widespread capacity to share and exchange data over the internet has transformed scholarship, but technical problems with incompatible formats, applications, and specialized proprietary environments hinder the free exchange of data.
-Video recordings rely on myriad established industry format and codec standards such than almost any video can be easily converted for any use, but the various annotation metadata that researchers laboriously generate in the process of their research remain locked in propiretary, incompatible formats.
-This proposal seeks support for specific enhancements to the NSF- and NICHD-supported Databrary (databrary.org) digital library that will make it easier for behavioral scientists who annotate or code video data to exchange, share, convert, access, and reuse these coding data, in order to increase the value and discoverability of associated shared videos.
+Video recordings rely on myriad established industry format and codec standards such than almost any video can be easily converted for any use, but the various annotation metadata that researchers laboriously generate in the process of their research largely remain locked in proprietary, incompatible formats.
+This project seeks support for specific enhancements to the NSF- and NICHD-supported Databrary (databrary.org) digital library that will make it easier for behavioral scientists who annotate or code video data to exchange, share, convert, access, and reuse these coding data, in order to increase the value and discoverability of associated shared videos.
 
-Video constitutes a primary means of recording behavior in home, lab, classroom and museum settings for hundreds of researchers across the behavioral sciences.
+Video constitutes a primary means of recording behavior in home, lab, classroom and museum settings for hundreds (*really only hundreds? isn't it more in the thousands and wouldn't that make it more compelling?*) of researchers across the behavioral sciences.
 Video powerfully captures behavior unfolding in real time and depicts how behavior changes across development.
-Video collected for one purpose can be readily reused for other purposes beyond those envisioned by the original researchers.
+Video data collected for one purpose can be readily reused for other purposes beyond those envisioned by the original researchers.
 With the creation of Databrary, the number of researchers actively sharing video and reusing shared video has grown, but technical barriers remain.
 
 This project proposes to enhance Databrary so that:
@@ -17,17 +17,19 @@ This project proposes to enhance Databrary so that:
 3. Information about annotations and codes contained in coding manuals or other files can be uploaded, imported, indexed, visualized, searched, and downloaded from Databrary.
 4. Researchers can search for specific segments of video based on codes, tags, or keywords.
 
-The project's intellectual merit arises from enabling new interdisciplinary, multi-level research questions to be asked based on existing, already collected, coded, and shared video data.
-The project will allow new integrative analyses on existing video data by providing easy, direct access to existing annotations from a varitey of analysis tools.
-By adding additional data sources to existing analyses within whatever environment each researcher is used to, new questions can be asked, for example by collating and comparing a transciption pass with behavioral coding data.
+**Intellectual Merit.** The project will enable new interdisciplinary, multi-level research questions to be asked based on already collected, coded, and shared video data.
+The project will allow new integrative analyses on existing video data by providing easy, direct access to existing annotations from a variety of analysis tools.
+By adding additional data sources to existing analyses within whatever environment each researcher is used to, new questions can be asked, for example by collating and comparing a transcription pass with behavioral coding data.
+<!-- more should be added here on the value of increasing accessibility to coding data-->
 
-The project's broader impacts stem from the fact that the enhancements will make resources on Databrary, many of them funded by NSF and NIH, more findable, accessible, interoperable, and reusable.
+**Broader Impacts.** The project's broader impacts stem from the fact that the enhancements will make resources on Databrary, many of them funded by NSF and NIH, more findable, accessible, interoperable, and reusable.
 The project will make it substantially easier for scientists at institutions that lack substantial resources to contribute to the body of knowledge about human behavior by building on the expensive-to-collect data gathered by others.
 Video and audio recordings are used by researchers in many fields.
 So, the infrastructure will have impacts beyond the developmental science community.
 The enhancements will benefit all researchers by making video data sharing more appealing.
 These incentives will increase the number of researchers who share, the diversity of the data sets they share, and the pace of data sharing.
 Finally, since some datasets will be available for public viewing, the project will raise the profile of video-based research and bolster interest in and support for science in the behavioral sciences among the public at large.
+<!--impacts about expanding sharing of coding data by solving problems of interoperability-->
 
 ## PROJECT DESCRIPTION (15 pp)
 
