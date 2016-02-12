@@ -2,9 +2,9 @@
 
 ## PROJECT SUMMARY (1 p)
 
-The widespread capacity to search databases connected to the internet has transformed scholarship.
-But, the profound changes that search engines have brought to literature research and teaching have have left largely untouched the process of gathering data for researchers in many fields of behavioral science.
-This proposal seeks support for specific enhancements to the NSF- and NICHD-supported Databrary (databrary.org) digital library that will make it easier for behavioral scientists who use video and audio recordings to find, access, and reuse recordings and related data that meet the specific needs of their research question.
+The widespread capacity to share and exchange data over the internet has transformed scholarship, but technical problems with incompatible formats, applications, and specialized proprietary environments hinder the free exchange of data.
+Video recordings rely on myriad established industry format and codec standards such than almost any video can be easily converted for any use, but the various annotation metadata that researchers laboriously generate in the process of their research remain locked in propiretary, incompatible formats.
+This proposal seeks support for specific enhancements to the NSF- and NICHD-supported Databrary (databrary.org) digital library that will make it easier for behavioral scientists who annotate or code video data to exchange, share, convert, access, and reuse these coding data, in order to increase the value and discoverability of associated shared videos.
 
 Video constitutes a primary means of recording behavior in home, lab, classroom and museum settings for hundreds of researchers across the behavioral sciences.
 Video powerfully captures behavior unfolding in real time and depicts how behavior changes across development.
@@ -16,7 +16,6 @@ This project proposes to enhance Databrary so that
 2. Researchers can browse codes produced by others, share coding files across geographically distant locations, and build upon codes contributed by others while Databrary keeps track of file changes, thereby promoting transparency and reproducibility in research.
 3. Information about annotations and codes contained in coding manuals or other files can be uploaded, imported, indexed, visualized, searched, and downloaded from Databrary.
 4. Researchers can search for specific segments of video based on codes, tags, or keywords.
-
 
 The project's intellectual merit arises from the fact that the enhancements will enable new interdisciplinary, multi-level research questions to be asked based on existing, already collected and shared video data.
 The project extends to the domain of video data the demonstrated power and utility of text-based search.
