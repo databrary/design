@@ -17,19 +17,27 @@ This project proposes to enhance Databrary so that:
 3. Information about annotations and codes contained in coding manuals or other files can be uploaded, imported, indexed, visualized, searched, and downloaded from Databrary.
 4. Researchers can search for specific segments of video based on codes, tags, or keywords.
 
-**Intellectual Merit.** The project will enable new interdisciplinary, multi-level research questions to be asked based on already collected, coded, and shared video data.
-The project will allow new integrative analyses on existing video data by providing easy, direct access to existing annotations from a variety of analysis tools.
-By adding additional data sources to existing analyses within whatever environment each researcher is used to, new questions can be asked, for example by collating and comparing a transcription pass with behavioral coding data.
+**Intellectual Merit.** This project will add significant value to Databrary's extensive existing library of reusable video data by integrating a previously inaccessible and invaluable set of expertly coded and micro-detailed annotations describing and enriching those videos.
+These annotations will come from the time-consuming, labor intensive coding processes already taking place in labs that, while a critical and necessary part of research practice, are currently going largely unused beyond their original study.
+These data will be accessible in a variety of formats for reuse by other researchers, allowing researchers to work in the tools with which they are most familiar and are best suited to their research questions and analyses.
+These shared coding data will allow researchers to ask a potentially unlimited number of new interdisciplinary, multi-level research questions on existing video data by providing easy, direct access to existing annotations from a variety of analysis tools.
+This will provide new ways of exploring existing video data on Databrary in order to discover and identify interesting datasets.
 <!-- more should be added here on the value of increasing accessibility to coding data-->
 
-**Broader Impacts.** The project's broader impacts stem from the fact that the enhancements will make resources on Databrary, many of them funded by NSF and NIH, more findable, accessible, interoperable, and reusable.
-The project will make it substantially easier for scientists at institutions that lack substantial resources to contribute to the body of knowledge about human behavior by building on the expensive-to-collect data gathered by others.
-Video and audio recordings are used by researchers in many fields.
-So, the infrastructure will have impacts beyond the developmental science community.
-The enhancements will benefit all researchers by making video data sharing more appealing.
-These incentives will increase the number of researchers who share, the diversity of the data sets they share, and the pace of data sharing.
+**Broader Impacts.** By opening up coding data that is linked with shared videos, this project stands to speed the pace of discovery in behavioral research.
+
+- combining expertise of various people, content expertise on coding used to be impediment
+- allowing collaboration between geographically and technically disparate researchers
+- provide new perspectives and allow new ways of looking at coding data by increasing transferability of coding data to other tools
+- The project will make it substantially easier for scientists that lack resources to participate in scientific discourse on human behavior by exploring and analyzing the coding data shared by other researchers.
+- increased transparency and scientific integrity
+
+
 Finally, since some datasets will be available for public viewing, the project will raise the profile of video-based research and bolster interest in and support for science in the behavioral sciences among the public at large.
 <!--impacts about expanding sharing of coding data by solving problems of interoperability-->
+
+- coding is very time consuming
+- forced to hire technical programming people to get data out of coding tool and into other coding tool, this project will provide easier ways to export and transform these data
 
 ## PROJECT DESCRIPTION (15 pp)
 
