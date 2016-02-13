@@ -1,3 +1,9 @@
+---
+output: word_document
+bibliography: ridir-16.bib
+csl: pnas.csl
+---
+
 # Making the Hidden Visible
 
 ## PROJECT SUMMARY (1 p)
@@ -7,7 +13,7 @@ Video recordings rely on myriad established industry format and codec standards 
 This project proposes to extend the success that the NSF- and NICHD-supported Databrary (databrary.org) digital library has had with increasing video sharing to promote sharing, accessibilty, and reusability of video coding data as well.
 This will make it easier for behavioral scientists who annotate or code video data to exchange, share, convert, access, and reuse their coding data, in order to increase the value and discoverability of the associated shared videos.
 
-Video constitutes a primary means of recording behavior in home, lab, classroom and museum settings for researchers in the developmental and learning sciences and in other fields from anthropology to linguistics, ethology to human-computer interaction <!--look for Derry, S., Pea, R. and other similar citations to include here-->.
+Video constitutes a primary means of recording behavior in home, lab, classroom and museum settings for researchers in the developmental sciences and in other fields from anthropology to linguistics, ethology to human-computer interaction (@derry_conducting_2010, @goldman_video_2014, @alibali_embodiment_2012, @masats_rethinking_2011, @pasqualino_filming_2007, @qualitative_data_repo, @cmdbase_ethology_video_archive, @chaquet_survey_2013, @rautaray_vision_2012).
 Video powerfully captures behavior unfolding in real time and depicts how behavior changes across development, and researchers already spend many hours using specialized tools to meticulously code the subset of these behaviors relevant to their research.
 Video data collected for one purpose can be readily reused for other purposes beyond those envisioned by the original researchers, and in doing so these new analyses can leverage the original coding data, but only if they are shared and readable.
 With the creation of Databrary, the number of researchers actively sharing video and reusing shared video has grown, and we now aim to similarly increase the range and value of coding data as well.
@@ -36,7 +42,6 @@ Since some dataset metadata and possibly entire datasets will be available for p
 
 ## PROJECT DESCRIPTION
 
-### Challenge
 <!--Video exists and people code it to analyze behavior-->
 Video constitutes a primary means of recording behavior in home, lab, classroom and museum settings for researchers in the developmental and learning sciences and in other fields from anthropology to linguistics, ethology to human-computer interaction <!--look for Derry, S., Pea, R. and other similar citations to include here-->.
 Video powerfully captures how behavior unfolds in real time and depicts how it changes in different contexts and across development.
@@ -47,6 +52,7 @@ New analyses can build upon the codes, but only if these are shared and stored i
 With the creation of Databrary, the number of researchers committed to sharing and reusing video has grown.
 We now aim to expand the kind and depth of analyses they can conduct by enabling Databrary to store and share coding data files that are linked to shared videos.
 
+### Challenge
 <!--What tools are used and what the process is like-->
 Most researchers who code video use paper and pencil, spreadsheets, or tools specialized for entering speech transcriptions or applying annotations or codes to selected points or segments in time.
 The specialized tools most commonly used by developmental researchers [@gilmore_video_2016] -- CLAN [@CLAN_2016], Datavyu [@datavyu_2016], ELAN [@ELAN_2016], Mangold Interact [@_mangold_2016], Noldus Observer XT [@_noldus_2016], and Transana [@_transana_2016] -- enable analysts to move backwards and forwards through digital videos at varied speeds.
@@ -517,21 +523,7 @@ The team will send out surveys to Databrary users once a year to solicit feedbac
 With the cooperation of our technical advisory team members, we will explore the possibility of surveying the community of video coding tool users to ask similar questions.
 The results of those surveys will be summarized in the annual NSF report and discussed at the annual Databrary advisory board meetings.
 
-#### Future Directions and Sustainability
-
-The first Databrary grant was funded by NSF in 2012, and our current NIH funding runs through the spring of 2018.
-NYU libraries have committed to preserving the data stored on Databrary indefinitely beyond the end of grant-related funding for the project.
-We note that TalkBank, one of the most successful data repositories in the behavioral sciences, has been funded by competitive NIH and NSF grants for more than 30 years.
-Accordingly, we see that grant-seeking remains the most viable and promising means of sustaining and building the Databrary library over the short to medium term.
-
-The current proposal, if funded, would sustain Databrary through the fall of 2019.
-We are planning new grant submissions to NICHD and to the Sloan and Gates Foundations, and we have other ideas about ways to engage other units at NSF, NIH, and other Federal agencies.
-The PIs have successful track records of seeking NSF and NIH funding, so we are optimistic about these prospects.
-
-In the long-term, we are working with NYU development staff to seek a private endowment fund for Databrary that would ensure there are resources for storage, maintenance, and development staff for an indefinite period.
-We continue to work with entities like ICSPR, TalkBank, and others to advocate for long-term, stable funding sources for data repositories.
-Databrary is very early in its development, so we think that charging institutional or researcher-specific subscription fees is premature, nor do we think that advertising is appropriate to our mission.
-But, we will continue to monitor the changing landscape of data repository funding, and make adjustments accordingly.
+#### Future Directions
 
 ### Summary
 
