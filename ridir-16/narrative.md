@@ -434,8 +434,8 @@ The project will be overseen by the PIs, Gilmore and Adolph, with guidance from 
 Simon also serves as Technical Director (see Appendix X: Technical Plan).
 Gilmore and Adolph currently meet via phone or video conference several times each week to discuss Databrary project-related business matters with the Co-Is and with project staff.
 Adolph and Gilmore collaborate on most decisions and regularly seek input from the Co-Is, but as overall Project Director, Adolph has the final say.
-Adolph and Gilmore also meet several times a week with various members of the development team to plan formulate long- and short-term plans, get updates about progress, and to provide input and guidance.
-A project manager handles daily coordination and scheduling of software development tasks among the staff, helps to integrate feedback from users and other external reviewers, and assists with coordinating outreach, support, and documentation efforts.
+The Databrary project as a whole is and will be managed by a project manager, responsible for coordinating staff meetings and other internal decision processes, and reporting progress and getting feedback from the PIs.
+This individual also is responsible for including coordinating and scheduling tasks, managing staff, integrating feedback from users and other external reviewers, and coordinating outreach, support, and documentation efforts.
 
 In addition, the Databrary project as a whole has input from an advisory board.
 The board (see Appendix X) consists of experts internal to PSU and NYU and external advisers who bring expertise in data sharing and developmental science.
