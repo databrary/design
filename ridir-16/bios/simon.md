@@ -7,7 +7,8 @@
 
 ## Appointments
 
-- 2012--present, Databrary Systems Architect
+- 2012--present, Systems Architect, Databrary, NYU
+- 2003--2007, Senior Software Engineer, Rainfinity/EMC
 
 ## Publications
 
