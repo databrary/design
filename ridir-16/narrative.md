@@ -138,21 +138,21 @@ The widespread availability of low-cost, high-resolution cameras has made video 
 
 #### Video enables behavioral science research, but poses special challenges
 
+<!-- is this whole section about video only relevant and needed? shouldn't we be moving more quickly to talking about coding data? the problems described here are either already solved by databrary or not being addressed by this grant. -->
+
 Video documents the interactions between people and their environment unlike any other form of measurement.
-Video records what people say and what they do.
-It captures when, where, and how they look, gesture, move, and communicate, and how their looking, gesturing, moving, and communicating correspond to what others are doing.
-Because of these characteristics, video--and before that, film-- has a long history in the study of learning and development [@goldman_video_2014; @curtis_tangible_2011; @adolph_observer_2016].
-Video closely mimics the visual and auditory experiences of live human observers, so recordings collected by one person for a particular purpose may be readily understood by another person and reused for a different purpose.
+It captures when, where, and how they look, gesture, move, and communicate, and interact.
+Because of these characteristics, video--and before that, film--has a long history in the study of learning and development [@goldman_video_2014; @curtis_tangible_2011; @adolph_observer_2016].
+Video closely mimics the visual and auditory experiences of live human observers, so recordings collected by one person for a particular purpose may be readily understood and reused for a different purpose.
 Capitalizing on the unique potential of large-scale video data collections, however, requires overcoming a set of challenges associated with sharing video data.
 
 **Videos contain personally identifiable information; this poses problems for the protection of participant privacy**.
-
 For many years, policies have existed for sharing de-identified text-based data that if disclosed would pose risks to participants or violate their privacy [@NIH_HIPAA].
-Video contains easily identifiable information: faces, voices, spoken names, interiors of homes and classrooms, and removing identifiable information from video severely diminishes its value for reuse and puts additional burdens and costs on researchers.
+Video inherently contains identifiable information--faces, voices, spoken names, interiors of homes and classrooms--and removing identifiable information from video severely diminishes its value for reuse and puts additional burdens and costs on researchers.
 Therefore, video sharing requires policies that protect the privacy of research participants while preserving the integrity of raw video for reuse by others (see pp. X-X).
 
 **Large file sizes and diverse formats present technical challenges**.
-Video files are large (one hour of HD video can consume 10 GB of storage) and come in varied formats (from cell phones to high-speed video).
+Video files are large (one hour of HD video can consume 10 GB of storage) and come in various formats and sources (from cell phones to high-speed video).
 Many studies require multiple camera views to capture desired behaviors from different angles.
 The cameras and other data streams must be synchronized for detailed analysis.
 Thus, sharing videos requires substantial storage capacity and significant computational resources for transcoding videos into common formats that can be preserved over the long term and for synchronizing multiple data streams.
@@ -169,12 +169,11 @@ It also makes curating datasets a challenge for repositories [@gordon_researcher
 
 **Technical and practical challenges involved in extracting behavioral patterns from videos present barriers**.
 Videos contain rich and diverse information that requires time-consuming work by human observers to extract.
-Researchers capture patterns in video by using paper and pencil or computerized coding software that helps translate observations into ideas and numbers.
-In principle, human-applied codes could be built upon by other researchers.
+Researchers capture patterns in video by using paper and pencil or computerized coding software that helps translate observations into quantitative data.
+In principle, these human-applied codes could be reviewed and built upon by other researchers.
 In practice, video-coding tools employ largely incompatible data formats.
-The coding files are rarely and not easily shared with other researchers outside the original team.
-Researchers focus on different questions from varied theoretical perspectives and lack consensus on conceptual ontologies.
-As a result, the hard-won, expensive-to-acquire human insights about research videos remain hidden to scientists outside the original investigative team.
+The coding files are not easily and rarely shared with other researchers outside the original team.
+As a result, the hard-won, expensive-to-acquire human insights about research videos remain largely hidden to the greater scientific community.
 
 #### Progress to-date/Results from prior support
 
@@ -442,25 +441,6 @@ We will also develop estimates of data reuse based on download statistics.
 The team will send out surveys to Databrary users once a year to solicit feedback about system operations, focusing on new features, and asking users the extent to which the new features change their willingness to share data, the ease of doing so, and the attractiveness of reusing others' data.
 With the cooperation of our technical advisory team members, we will surveying the community of video coding tool users to ask similar questions.
 The results of those surveys will be summarized in the annual NSF report and discussed at the annual Databrary advisory board meetings.
-
-#### RESULTS OF PRIOR NSF SUPPORT
-(*I presume we plan on adding a section for prior NSF support*)
-<!-- GUIDELINES FROM the GPG:
-If any PI or co-PI identified on the project has received NSF funding (including any current funding) in the past five years, information on the award(s) is required, irrespective of whether the support was directly related to the proposal or not. Funding includes not just salary support, but any funding awarded by NSF. Each PI and co-PI who has received more than one award (excluding amendments) must report on the award most closely related to the proposal. The following information must be provided:
-
-(a)	the NSF award number, amount and period of support;
-
-(b)	the title of the project;
-
-(c)	a summary of the results of the completed work, including accomplishments, described in two separate sections, related to the Intellectual Merit and Broader Impact activities supported by the award
-
-(d)	publications resulting from the NSF award;
-
-(e)	evidence of research products and their availability, including, but not limited to: data, publications, samples, physical collections, software, and models, as described in any Data Management Plan; and
-
-(f)	if the proposal is for renewed support, a description of the relation of the completed work to the proposed work.
-
-Reviewers will be asked to comment on the quality of the prior work described in this section of the proposal. Please note that the proposal may contain up to five pages to describe the results. Results may be summarized in fewer than five pages, which would give the balance of the 15 pages for the Project Description.-->
 
 ### Summary
 
