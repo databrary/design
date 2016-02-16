@@ -57,7 +57,7 @@ Others use specialized tools [@gilmore_video_2016] -- CLAN [@CLAN_2016], Datavyu
 Most tools support the application of multiple codes in separate passes that focus on different behaviors, and the data are stored in data files we call *coding files*.
 The codes form the basis of subsequent quantitative and qualitative analyses.
 To ensure reliable, reproducible, and robust results, most researchers provide rich descriptions of the behaviors of interest captured by the codes.
-*Coding manuals* saved in word processing or spreadsheet formats capture and organize the definitions [@gilmore_video_2016].
+*Coding manuals* saved in word processing or spreadsheet formats capture and organize the definitions.
 Taken together, the coding files and manuals contain invaluable, expensive-to-acquire, human-validated, text-based information about the contents of raw research videos.
 
 But, with a few notable exceptions (CHAT, ELAN, Transana), the tools store data in incompatible, proprietary, and non-interoperable formats.
@@ -128,7 +128,7 @@ The path from raw data to findings to conclusions can rarely be traced or valida
 Developmental researchers have always recognized the power of visual media to capture the richness and complexity of children’s behavior [@adolph_observer_2016].
 As video replaced film as the recording medium, and with the advent of increasingly cheap and easy-to-use video technologies, video has become the backbone of most developmental research programs.
 Video and audio recordings constitute the raw materials of research for hundreds, perhaps thousands of scientists who study learning and development.
-More than 100 of the 259 respondents to a recent survey of developmental scientists [@gilmore_video_2016] report collecting more than 5 hours of video per week [@gilmore_video_2016] in their labs.
+More than 100 of the 259 respondents to a recent survey of developmental scientists report collecting more than 5 hours of video per week [@gilmore_video_2016] in their labs.
 The scale of some large collaborative projects is even larger.
 The Measures of Effective Teaching Project [@met_project], funded by the Gates Foundation, generated more than 1,000 videos from 3,000 K-12 classrooms over a 3-year period, covering core subjects such as mathematics and language arts from multiple camera angles.
 The data, constituting tens of terabytes of storage, are hosted at the University of Michigan [@met_data_icspr] and streamed to registered viewers across the country.
