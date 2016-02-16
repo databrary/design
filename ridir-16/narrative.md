@@ -46,7 +46,7 @@ We now aim to expand the kind, depth, and diversity of analyses that researchers
 
 ### Challenge
 
-Many behavioral researchers still use paper-and-pencil or make-shift programs such as Excel to extract information from video. Others use specialized tools [@gilmore_video_2016] -- CLAN [@CLAN_2016], Datavyu [@datavyu_2016], ELAN [@ELAN_2016], Mangold Interact [@_mangold_2016], Noldus Observer XT [@_noldus_2016], and Transana [@transana_2016] -- that enable analysts to move backwards and forwards through digital videos at varied speeds and apply *codes* -- speech transcripts, comments, numeric ratings, single words or letters -- time-locked to particular video segments.
+Many behavioral researchers still use paper-and-pencil or make-shift programs such as Excel to extract information from video. Others use specialized tools [@gilmore_video_2016] -- CLAN [@CLAN_2016], Datavyu [@datavyu_2016], ELAN [@ELAN_2016], Mangold Interact [@_mangold_2016], Noldus Observer XT [@noldus_2016], and Transana [@transana_2016] -- that enable analysts to move backwards and forwards through digital videos at varied speeds and apply *codes* -- speech transcripts, comments, numeric ratings, single words or letters -- time-locked to particular video segments.
 Most tools support the application of multiple codes in separate passes that focus on different behaviors, and the data are stored in spreadsheet-like data files we call *coding spreadsheets*.
 The codes form the basis of subsequent quantitative and qualitative analyses.
 To ensure reliable, reproducible, and robust results, most researchers provide rich descriptions of the behaviors of interest captured by the codes.
