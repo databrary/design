@@ -35,6 +35,8 @@ By making data sharing more attractive to scientists, the project will increase 
 By making coding files and manuals more readily sharable, the project will improve transparency and boost reproducibility.
 Finally, the project will raise the profile of video-based research and bolster interest in and support for the behavioral sciences among the public.
 
+<!--Broader impacts may be accomplished through the research itself, through the activities that are directly related to specific research projects, or through activities that are supported by, but are complementary to the project. NSF values the advancement of scientific knowledge and activities that contribute to the achievement of societally relevant outcomes. Such outcomes include, but are not limited to: full participation of women, persons with disabilities, and underrepresented minorities in science, technology, engineering, and mathematics (STEM); improved STEM education and educator development at any level; increased public scientific literacy and public engagement with science and technology; improved well-being of individuals in society; development of a diverse, globally competitive STEM workforce; increased partnerships between academia, industry, and others; improved national security; increased economic competitiveness of the United States; and enhanced infrastructure for research and education.-->
+
 ## PROJECT DESCRIPTION
 
 Video constitutes a primary means of recording behavior in home, lab, classroom and museum settings for researchers in the behavioral sciences and related fields [@derry_conducting_2010; @goldman_video_2014; @alibali_embodiment_2012; @masats_rethinking_2011; @pasqualino_filming_2007; @qualitative_data_repo; @cmdbase_ethology_video_archive; @chaquet_survey_2013; @rautaray_vision_2012].
@@ -441,6 +443,25 @@ We will also develop estimates of data reuse based on download statistics.
 The team will send out surveys to Databrary users once a year to solicit feedback about system operations, focusing on new features, and asking users the extent to which the new features change their willingness to share data, the ease of doing so, and the attractiveness of reusing others' data.
 With the cooperation of our technical advisory team members, we will surveying the community of video coding tool users to ask similar questions.
 The results of those surveys will be summarized in the annual NSF report and discussed at the annual Databrary advisory board meetings.
+
+#### RESULTS OF PRIOR NSF SUPPORT
+(*I presume we plan on adding a section for prior NSF support*)
+<!-- GUIDELINES FROM the GPG:
+If any PI or co-PI identified on the project has received NSF funding (including any current funding) in the past five years, information on the award(s) is required, irrespective of whether the support was directly related to the proposal or not. Funding includes not just salary support, but any funding awarded by NSF. Each PI and co-PI who has received more than one award (excluding amendments) must report on the award most closely related to the proposal. The following information must be provided:
+
+(a)	the NSF award number, amount and period of support;
+
+(b)	the title of the project;
+
+(c)	a summary of the results of the completed work, including accomplishments, described in two separate sections, related to the Intellectual Merit and Broader Impact activities supported by the award
+
+(d)	publications resulting from the NSF award;
+
+(e)	evidence of research products and their availability, including, but not limited to: data, publications, samples, physical collections, software, and models, as described in any Data Management Plan; and
+
+(f)	if the proposal is for renewed support, a description of the relation of the completed work to the proposed work.
+
+Reviewers will be asked to comment on the quality of the prior work described in this section of the proposal. Please note that the proposal may contain up to five pages to describe the results. Results may be summarized in fewer than five pages, which would give the balance of the 15 pages for the Project Description.-->
 
 ### Summary
 
