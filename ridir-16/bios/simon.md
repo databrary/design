@@ -13,7 +13,7 @@
 
 ### Closely related to the proposed project
 
-*none*
+- Dylan A Simon, Andrew S Gordon, Lisa Steiger, and Rick O Gilmore. (2015). Databrary: Enabling Sharing and Reuse of Research Video. In *Proceedings of the 15th ACM/IEEE-CS Joint Conference on Digital Libraries (JCDL '15)*, ACM 279-280.
 
 ### Other significant publications
 
