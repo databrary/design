@@ -442,25 +442,6 @@ The team will send out surveys to Databrary users once a year to solicit feedbac
 With the cooperation of our technical advisory team members, we will surveying the community of video coding tool users to ask similar questions.
 The results of those surveys will be summarized in the annual NSF report and discussed at the annual Databrary advisory board meetings.
 
-#### RESULTS OF PRIOR NSF SUPPORT
-(*I presume we plan on adding a section for prior NSF support*)
-<!-- GUIDELINES FROM the GPG:
-If any PI or co-PI identified on the project has received NSF funding (including any current funding) in the past five years, information on the award(s) is required, irrespective of whether the support was directly related to the proposal or not. Funding includes not just salary support, but any funding awarded by NSF. Each PI and co-PI who has received more than one award (excluding amendments) must report on the award most closely related to the proposal. The following information must be provided:
-
-(a)	the NSF award number, amount and period of support;
-
-(b)	the title of the project;
-
-(c)	a summary of the results of the completed work, including accomplishments, described in two separate sections, related to the Intellectual Merit and Broader Impact activities supported by the award
-
-(d)	publications resulting from the NSF award;
-
-(e)	evidence of research products and their availability, including, but not limited to: data, publications, samples, physical collections, software, and models, as described in any Data Management Plan; and
-
-(f)	if the proposal is for renewed support, a description of the relation of the completed work to the proposed work.
-
-Reviewers will be asked to comment on the quality of the prior work described in this section of the proposal. Please note that the proposal may contain up to five pages to describe the results. Results may be summarized in fewer than five pages, which would give the balance of the 15 pages for the Project Description.-->
-
 ### Summary
 
 Multiple barriers limit the adoption of video data sharing in the developmental and learning sciences.
