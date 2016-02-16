@@ -2,7 +2,7 @@
 
 ## Professional Preparation
 
-- California Institute of Technology, Engineering & Applied Science, M.S. 2003
+- California Institute of Technology, Engineering & Applied Science, B.S. 2003
 - New York University, Psychology, Ph.D. 2012
 
 ## Appointments
