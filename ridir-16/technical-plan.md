@@ -15,6 +15,7 @@ Dr. Simon will devote 50% of his effort to building the proposed new features, a
 ### Front-end Developer (TBN)
 
 <!-- why not gladys? do we have the budget for an entire new hire? if so, with Gladys I wouldn't recommend a pure front-end developer. -->
+<!-- Gladys is fantastic, and we hope and expect that this line will support her work, not a new hire. But, the grant narrative, budget, and justification distinguish between Key Personnel, who are specifically named in the grant, and other personnel who are not. That's why we're not naming Lisa, either. For better or worse, it is the qualifications of the PIs and Co-Is that will be evaluated. -->
 
 A front-end developer, not yet identified, will be hired.
 The developer must have extensive experience with JavaScript (CoffeeScript), HTML5 (audio/video API), and CSS3 (Stylus), practice with AngularJS or other modern client-side MVC framework, familiarity with git and standard UNIX development tools, and an understanding of security and ethical concerns around sensitive data.
@@ -49,4 +50,5 @@ Staff will demonstrate new features at training workshops, supported by NSF and 
 
 ## Schedule and timeline
 
+<!-- I found an R package that makes timelines. I made a first stab at timing and duration for the sub-projects, but either edit to suit or let's talk. -->
 <img src="timeline.png"/>

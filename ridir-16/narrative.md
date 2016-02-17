@@ -115,6 +115,28 @@ We will design, implement, and validate back-end technologies and user interface
 The interface will allow users to discover relevant datasets for browsing or download for future reanalysis.
 These features will make it easy for Databrary users to discover, explore, and reanalyze video datasets that meet the specific requirements of their research question.
 
+### Results from prior NSF support
+
+PIs Adolph and Gilmore and Co-I Millman received funding from NSF (NSF BCS#1238599, funding period 2012-2014, no cost extension; NSF, BCS-139044, funding period 2015-2016; $2,665,719.00) to support the Databrary project for video data sharing and reuse.
+Building research infrastructure was the primary focus of the prior award, but the team has published several articles that describe Databrary  [@adolph_observer_2016; @adolph_toward_2012;  @gordon_researcher-library_2015] and how it relates to other "big data" initiatives in developmental science [@gilmore_big_2016].
+The current proposal builds upon and extends Databrary as described in detail below.
+*Intellectual Merit*. The investigators created infrastructure to enable the  sharing and reuse of research videos in an open-source [@databrary_github] web-based repository, Databrary [@databrary_site]; developed the Datavyu [@datavyu_2016] video coding tool; and fostered a growing community researchers committed to video data sharing and reuse. Databrary and Datavyu deepen and accelerate the pace of discovery in developmental science by enabling researchers to view one another’s datasets, reanalyze them to test competing hypotheses, and address new questions beyond the scope of the original study.
+*Broader Impacts*. Databrary empowers developmental scientists especially from institutions with limited resources to support research, improves data management practices, and increases transparency in behavioral research. Publications, regional and preconference workshops, and other venues with visibility are bringing this new, more communal view of developmental science to a larger audience.
+<!--I think there are more specific things we have to say here, as required by the GPG for grantees that have had prior nsf funding in the past five years.
+
+(iii)	Results from Prior NSF Support
+http://www.nsf.gov/pubs/policydocs/pappguide/nsf13001/gpg_2.jsp
+If any PI or co-PI identified on the project has received NSF funding (including any current funding) in the past five years, information on the award(s) is required, irrespective of whether the support was directly related to the proposal or not. Funding includes not just salary support, but any funding awarded by NSF. Each PI and co-PI who has received more than one award (excluding amendments) must report on the award most closely related to the proposal. The following information must be provided:
+
+(a)	the NSF award number, amount and period of support;
+(b)	the title of the project;
+(c)	a summary of the results of the completed work, including accomplishments, described in two separate sections, related to the Intellectual Merit and Broader Impact activities supported by the award
+(d)	publications resulting from the NSF award;
+(e)	evidence of research products and their availability, including, but not limited to: data, publications, samples, physical collections, software, and models, as described in any Data Management Plan; and
+(f)	if the proposal is for renewed support, a description of the relation of the completed work to the proposed work.
+
+Reviewers will be asked to comment on the quality of the prior work described in this section of the proposal. Please note that the proposal may contain up to five pages to describe the results. Results may be summarized in fewer than five pages, which would give the balance of the 15 pages for the Project Description.-->
+
 ### Background and Rationale
 
 Open data sharing has become a scientific imperative across disciplines and a mandate from research funders [@nsf_data_sharing].
@@ -127,10 +149,12 @@ The path from raw data to findings to conclusions can rarely be traced or valida
 
 <!-- is this whole section about video relevant and needed? shouldn't we be moving more quickly to talking about coding data, how people code, and the barriers they face with sharing coding data? the problems described here are either already solved by databrary or not being addressed by this grant. -->
 
+<!-- Most of the reviewers will have little understanding about the scale or breadth of video data collection. So, Karen and I think we need a paragraph to show this. -->
+
 Developmental researchers have always recognized the power of visual media to capture the richness and complexity of children’s behavior [@adolph_observer_2016].
 As video replaced film as the recording medium, and with the advent of increasingly cheap and easy-to-use video technologies, video has become the backbone of most developmental research programs.
 Video and audio recordings constitute the raw materials of research for hundreds, perhaps thousands of scientists who study learning and development.
-More than 100 of the 259 respondents to a recent survey of developmental scientists report collecting more than 5 hours of video per week [@gilmore_video_2016] in their labs.
+More than 100 of the 270 respondents to a recent survey of developmental scientists report collecting more than 5 hours of video per week [@gilmore_video_2016] in their labs.
 The scale of some large collaborative projects is even larger.
 The Measures of Effective Teaching Project [@met_project], funded by the Gates Foundation, generated more than 1,000 videos from 3,000 K-12 classrooms over a 3-year period, covering core subjects such as mathematics and language arts from multiple camera angles.
 The data, constituting tens of terabytes of storage, are hosted at the University of Michigan [@met_data_icspr] and streamed to registered viewers across the country.
@@ -175,21 +199,7 @@ In practice, video-coding tools employ largely incompatible data formats.
 The coding files are not easily and rarely shared with other researchers outside the original team.
 As a result, the hard-won, expensive-to-acquire human insights about research videos remain largely hidden to the greater scientific community.
 
-#### Results from prior NSF support
-<!--I think there are more specific things we have to say here, as required by the GPG for grantees that have had prior nsf funding in the past five years.
-
-(iii)	Results from Prior NSF Support
-http://www.nsf.gov/pubs/policydocs/pappguide/nsf13001/gpg_2.jsp
-If any PI or co-PI identified on the project has received NSF funding (including any current funding) in the past five years, information on the award(s) is required, irrespective of whether the support was directly related to the proposal or not. Funding includes not just salary support, but any funding awarded by NSF. Each PI and co-PI who has received more than one award (excluding amendments) must report on the award most closely related to the proposal. The following information must be provided:
-
-(a)	the NSF award number, amount and period of support;
-(b)	the title of the project;
-(c)	a summary of the results of the completed work, including accomplishments, described in two separate sections, related to the Intellectual Merit and Broader Impact activities supported by the award
-(d)	publications resulting from the NSF award;
-(e)	evidence of research products and their availability, including, but not limited to: data, publications, samples, physical collections, software, and models, as described in any Data Management Plan; and
-(f)	if the proposal is for renewed support, a description of the relation of the completed work to the proposed work.
-
-Reviewers will be asked to comment on the quality of the prior work described in this section of the proposal. Please note that the proposal may contain up to five pages to describe the results. Results may be summarized in fewer than five pages, which would give the balance of the 15 pages for the Project Description.-->
+#### Databrary overcomes most barriers to sharing video
 
 Mindful of these challenges but motivated by the scientific promise of video data sharing, the PIs established databrary.org, the first-of-its-kind library for storing and sharing video data and associated metadata.
 Databrary was created with support from NSF (BCS-1238599) and NICHD (U01-HD-076595) and has garnered additional funding from the Society for Research in Child Development.
