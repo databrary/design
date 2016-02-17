@@ -40,3 +40,5 @@ Project staff will provide email, phone, webinar, and in-person support to Datab
 Staff will demonstrate new features at training workshops, supported by NSF and SRCD, held at scientific conferences and in targeted regional locations chosen for their high concentrations of video-using researchers.
 
 ## Schedule and timeline
+
+<img src="timeline.png"/>
