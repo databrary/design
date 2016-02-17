@@ -118,10 +118,14 @@ These features will make it easy for Databrary users to discover, explore, and r
 ### Results from prior NSF support
 
 PIs Adolph and Gilmore and Co-I Millman received funding from NSF (NSF BCS#1238599, funding period 2012-2014, no cost extension; NSF, BCS-139044, funding period 2015-2016; $2,665,719.00) to support the Databrary project for video data sharing and reuse.
-Building research infrastructure was the primary focus of the prior award, but the team has published several articles that describe Databrary  [@adolph_observer_2016; @adolph_toward_2012;  @gordon_researcher-library_2015] and how it relates to other "big data" initiatives in developmental science [@gilmore_big_2016].
+Building research infrastructure was the primary focus of the prior award, but the team has published several articles that describe Databrary [@adolph_observer_2016; @adolph_toward_2012; @gordon_researcher-library_2015] and how it relates to other "big data" initiatives in developmental science [@gilmore_big_2016].
 The current proposal builds upon and extends Databrary as described in detail below.
-*Intellectual Merit*. The investigators created infrastructure to enable the  sharing and reuse of research videos in an open-source [@databrary_github] web-based repository, Databrary [@databrary_site]; developed the Datavyu [@datavyu_2016] video coding tool; and fostered a growing community researchers committed to video data sharing and reuse. Databrary and Datavyu deepen and accelerate the pace of discovery in developmental science by enabling researchers to view one another’s datasets, reanalyze them to test competing hypotheses, and address new questions beyond the scope of the original study.
-*Broader Impacts*. Databrary empowers developmental scientists especially from institutions with limited resources to support research, improves data management practices, and increases transparency in behavioral research. Publications, regional and preconference workshops, and other venues with visibility are bringing this new, more communal view of developmental science to a larger audience.
+*Intellectual Merit*.
+The investigators created infrastructure to enable the sharing and reuse of research videos in an open-source [@databrary_github] web-based repository, Databrary [@databrary_site]; maintained the Datavyu [@datavyu_2016] video coding tool; and fostered a growing community researchers committed to video data sharing and reuse.
+Databrary and Datavyu deepen and accelerate the pace of discovery in developmental science by enabling researchers to view one another's datasets, reanalyze them to test competing hypotheses, and address new questions beyond the scope of the original study.
+*Broader Impacts*.
+Databrary empowers developmental scientists especially from institutions with limited resources to support research, improves data management practices, and increases transparency in behavioral research.
+Publications, regional and pre-conference workshops, and other venues with visibility are bringing this new, more communal view of developmental science to a larger audience.
 <!--I think there are more specific things we have to say here, as required by the GPG for grantees that have had prior nsf funding in the past five years.
 
 (iii)	Results from Prior NSF Support
@@ -150,6 +154,8 @@ The path from raw data to findings to conclusions can rarely be traced or valida
 <!-- is this whole section about video relevant and needed? shouldn't we be moving more quickly to talking about coding data, how people code, and the barriers they face with sharing coding data? the problems described here are either already solved by databrary or not being addressed by this grant. -->
 
 <!-- Most of the reviewers will have little understanding about the scale or breadth of video data collection. So, Karen and I think we need a paragraph to show this. -->
+
+<!-- One paragraph would be great, but currently we have 5. -->
 
 Developmental researchers have always recognized the power of visual media to capture the richness and complexity of children’s behavior [@adolph_observer_2016].
 As video replaced film as the recording medium, and with the advent of increasingly cheap and easy-to-use video technologies, video has become the backbone of most developmental research programs.
