@@ -16,7 +16,7 @@ Dr. Simon will devote 50% of his effort to building the proposed new features, a
 
 <!-- why not gladys? do we have the budget for an entire new hire? if so, with Gladys I wouldn't recommend a pure front-end developer. -->
 <!-- Gladys is fantastic, and we hope and expect that this line will support her work, not a new hire. But, the grant narrative, budget, and justification distinguish between Key Personnel, who are specifically named in the grant, and other personnel who are not. That's why we're not naming Lisa, either. For better or worse, it is the qualifications of the PIs and Co-Is that will be evaluated. -->
-<!-- But then, "hire" and "not yet identified" are lies. -->
+<!-- But then, "hire" and "not yet identified" are lies. Why don't we just make Lisa and Gladys named personel but not senior/key? Then they don't need bios and aren't critical for the grant (though arguably Lisa is at least as critical as I am), and it sound stronger than lying that we have to find someone new. -->
 
 A front-end developer, not yet identified, will be hired.
 The developer must have extensive experience with JavaScript (CoffeeScript), HTML5 (audio/video API), and CSS3 (Stylus), practice with AngularJS or other modern client-side MVC framework, familiarity with git and standard UNIX development tools, and an understanding of security and ethical concerns around sensitive data.
