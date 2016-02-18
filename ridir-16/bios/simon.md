@@ -2,8 +2,8 @@
 
 ## Professional Preparation
 
-- California Institute of Technology, Engineering & Applied Science, B.S. 2003
-- New York University, Psychology, Ph.D. 2012
+- California Institute of Technology, Pasadena, CA, Engineering & Applied Science, B.S. 2003
+- New York University, New York, NY, Psychology, Ph.D. 2012
 
 ## Appointments
 
