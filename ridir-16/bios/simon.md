@@ -10,7 +10,7 @@
 - 2012--present, Systems Architect, Databrary, NYU
 - 2003--2007, Senior Software Engineer, Rainfinity/EMC
 
-## Publications
+## Products
 
 ### Closely related to the proposed project
 
@@ -28,17 +28,3 @@
 ## Synergistic Activities
 
 - Principal designer and developer of Databrary.
-
-## Collaborators & Other Affiliations
-
-### Collaborators and Co-Editors
-
-Nathaniel D Daw, Princeton; Bradley B Doll, NYU; Katherine D Duncan, University of Toronto; Daphna Shohamy, Columbia.
-
-### Graduate and Postdoctoral Advisors
-
-- Nathaniel D Daw, Princeton
-
-### Thesis Advisor and Postgraduate-Scholar Sponsor
-
-*none*
