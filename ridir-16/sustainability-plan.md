@@ -5,8 +5,8 @@ NYU libraries have committed to preserving the data stored on Databrary indefini
 We note that TalkBank, one of the most successful data repositories in the behavioral sciences, has been funded by competitive NIH and NSF grants for more than 30 years.
 Accordingly, we see that continued grant-seeking remains the most viable and promising means of sustaining and building the Databrary library over the short to medium term.
 
-The current proposal, if funded, would sustain Databrary through the fall of 2019.
-We are planning new grant submissions to NICHD and to the Sloan and Gates Foundations, and we have other ideas enhancements to the library and research projects based on the library's holdings that we will target to NSF, NIH, and other Federal agencies.
+The current proposal, if funded, would support Databrary through the fall of 2019.
+We are planning new grant submissions to NICHD and to the Sloan and Gates Foundations, and we have other ideas for enhancements to the library and research projects based on the library's holdings that we will target to NSF, NIH, and other Federal agencies.
 The PIs have successful track records of seeking NSF and NIH funding, so we are optimistic about these prospects.
 
 In the long term, we are working with NYU development staff to seek a private endowment fund for Databrary that would ensure resources for storage, maintenance, and development staff for an indefinite period.
