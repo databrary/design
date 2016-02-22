@@ -190,7 +190,7 @@ Thus, sharing videos requires substantial storage capacity, significant computat
 *Video sharing poses practical challenges of data management*.
 Researchers lack time and resources to find, label, clean, organize, link, and convert their files into formats that can be used and understood by others (41).
 Most researchers lack training and expertise in standard practices of data curation (20).
-Study designs and lab data management practices are wildly idiosyncratic, and different coding tools represent the correspondence between video and coding files in tool-specific ways, if at all.
+Different coding tools represent the correspondence between video and coding files in tool-specific ways, if at all.
 Few researchers reliably or reproducibly document workflows or data provenance.
 When researchers do share, standard practice involves organizing data after a project is finished, perhaps when a paper goes to press.
 This “preparing for sharing” after the fact presents a difficult and unrewarding chore for investigators, one that often exceeds the incremental cost and reasonable time frame contemplated under NSF’s Data Sharing Policy (24).
@@ -238,7 +238,8 @@ However, users agree to store on Databrary only materials for which they have et
 Data may be stored on Databrary for the contributing researcher’s use regardless of whether the records are shared with others.
 When a researcher chooses to share, Databrary makes the data available to the community of authorized researchers.
 More than 165 institutions in North and South America, Europe, Asia, and Australia have agreed to Databrary’s framework, and the number grows daily (43).
-Furthermore, any de-identified data associated with a dataset, including demographic and study metadata, stimuli, coding manuals, and often coding data, are shared openly with the public, maximally broadening the availability and use of these materials.
+Furthermore, any de-identified data associated with a dataset, including demographic and study metadata, stimuli, coding manuals, and often coding data, are shared openly with the public, maximally broadening the availability of these materials.
+To make the most use of these shared materials, though, they still need to be made available in relevant, understandable, visualizable, and searchable formats, rather than as the opaque, incompatible files they are now.
 
 #### Databrary overcomes technical barriers to video data sharing
 
