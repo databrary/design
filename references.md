@@ -164,6 +164,7 @@
 - [Multimedia Annotator](http://engage.wisc.edu/accomplishments/mma.php)
 - [Noldus Observer](http://www.noldus.com/human-behavior-research/products/the-observer-xt)
 - [Nvivo](http://www.qsrinternational.com/products_nvivo.aspx)
+- [OACVideoAnnotator](https://github.com/umd-mith/OACVideoAnnotator) - looks like an example of implementing the Open Annotation Standard in a web based video annotator. Not sure if it is still being developed.
 - [Observational Data Coding System](http://www.uni.edu/~maclino/software/odcs/) Windows only - "The project began out of the need for a program to analyze Kim's dissertation data which examined communication between Dyads. The program has been developed further and in it present form has been used to analyze data from talk aloud procedures to jury decision making."
 - [OVA](http://openvideoannotation.org/) vaporware? oss? web-based, screenshots look like our timeline
 - [Popcorn](https://github.com/mozilla/popcorn.webmaker.org). Mozilla tool for making/editing web-videos. Appears retired.
