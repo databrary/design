@@ -2,12 +2,12 @@
 Profile,,,,,,
 ,"Email or password have been changed",On,async,"Always on",async,
 "Your authorization",,,,,,
-,"You submitted request",Off,async,Off,async,parent
+,"You submitted request",Off,state,Off,async,parent
 ,"Your request was approved","Always on",async,On,async,"parent, level"
 ,"Your authorization is about to expire in 1 week","Always on",state,On,daily,parent
 ,"Your authorization is expired",On,state,On,daily,parent
 "Affiliate authorizations",,,,,,
-,"Request submitted to you","Always on",async,"Always on",async,child
+,"Request submitted to you","Always on",state,"Always on",async,child
 ,"You approved someone else's request",Off,async,Off,async,"child, level"
 ,"Your affiliate's authorization is about to expire",On,state,On,daily,child
 ,"Your affiliate's authorization is expired",On,state,On,daily,child
