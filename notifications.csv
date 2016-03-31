@@ -1,40 +1,28 @@
-,,Site,Sync/Transient,Email,Sync,Params
-Profile,,,,,,
-,"Email or password have been changed",On,async,"Always on",async,
-"Your authorization",,,,,,
-,"You submitted request",On,state,Off,async,parent
-,"Your request was approved","Always on",async,On,async,"parent, level"
-,"Your authorization is about to expire in 1 week","Always on",state,On,daily,parent
-,"Your authorization is expired",On,state,On,daily,parent
-"Affiliate authorizations",,,,,,
-,"Request submitted to you","Always on",state,"Always on",async,child
-,"You approved someone else's request",Off,async,Off,async,"child, level"
-,"Your affiliate's authorization is about to expire",On,state,On,daily,child
-,"Your affiliate's authorization is expired",On,state,On,daily,child
-"Volume assistance",,,,,,
-,"Another editor on the Volume has submitted an assistance request",Off,async,Off,async,"user, volume"
-"Volume creation",,,,,,
-,"Affiliate creates volume on Authorized Investigator's behalf","Always on",async,Off,async/digest,"user, volume"
-"Volume access (all options collapsed into one)",,,,,,
-,"Someone changed the sharing level of a volume that you are an investigator on",On,async,Off,async/digest,"user, volume, level"
-,"Someone added/removed/changed a collaborator on a volume that you are an investigator on",On,async,Off,async/digest,"user, volume, party, level"
-,"Someone changed your access level on a volume",On,async,Off,async/digest,"user, volume, level"
-"File uploads (group all public changes)",,,,,,
-,"Session set to public",On,async,Off,async/digest,"user, volume, slot"
-,"File set to public",On,async,Off,async/digest,"user, volume, asset"
-,"Highlight set to public",On,async,Off,async/digest,"user, volume, excerpt"
-,"A highlight was created on your volume",Off,async,Off,async/digest,"user, volume, excerpt"
-Community,,,,,,
-,"Someone commented on or replied to a comment on your volume/session",On,async,Off,async/digest,"user, volume, slot, comment"
-,"Someone added a tag on your volume/session",Off,async,Off,async/digest,"user, volume, slot, tag"
-,"A volume has been shared",Off,async,Off,async/digest,volume
-"User communications",,,,,,
-,"Newsletter subscription opt-out","Always off",none,On,export,
-FUTURE,,,,,,
-"Following content or users",,,,,,
-,"A tag that I want to follow was added to a volume or session (assuming it's shared)",Off,,Off,,
-,"A user that I want to follow has shared a volume",Off,,Off,,
-"Volume sharing",,,,,,
-,"Affiliate requests that Authorized Investigator share a volume that they think is ready",On,,Off,,
-,,,,,,
-,,,,,"digest only on weekly basis",
+Type,Description,Group,Type,Name,Default,"Options [none,site,weekly,daily,async]",Params
+Profile,"Email or password have been changed",,async,account_change,async,async,
+"Your authorization","You submitted request",,state,authorize_request,site,"site,async",parent
+"Your authorization","Your request was approved",,async,authorize_granted,async,>=site,"parent, level"
+"Your authorization","Your authorization is about to expire in 1 week",expire,state,authorize_expiring,daily,"site,daily",parent
+"Your authorization","Your authorization is expired",expire,state,authorize_expired,daily,"none,site,daily",parent
+"Affiliate authorizations","Request submitted to you",,state,authorize_child_request,async,async,child
+"Affiliate authorizations","You approved someone else's request",,async,authorize_child_granted,none,,"child, level"
+"Affiliate authorizations","Your affiliate's authorization is about to expire",expire_child,state,authorize_child_expiring,daily,<=daily,child
+"Affiliate authorizations","Your affiliate's authorization is expired",expire_child,state,authorize_child_expired,daily,<=daily,child
+"Volume assistance","Another editor on the Volume has submitted an assistance request",,async,volume_assist,none,,volume
+"Volume creation","Affiliate creates volume on Authorized Investigator's behalf",,async,volume_created,daily,,volume
+"Volume access","Someone changed the sharing level of a volume that you are an investigator on",access,async,volume_sharing,daily,,"volume, level"
+"Volume access","Someone added/removed/changed a collaborator on a volume that you are an investigator on",access,async,volume_access_other,daily,,"volume, party, level"
+"Volume access","Someone changed your access level on a volume",access,async,volume_access,daily,,"volume, level"
+"File uploads","Session set to public",public,async,public_slot,daily,,"volume, slot"
+"File uploads","File set to public",public,async,public_asset,daily,,"volume, asset"
+"File uploads","Highlight set to public",public,async,public_excerpt,daily,,"volume, excerpt"
+"File uploads","A highlight was created on your volume",,async,excerpt,none,,"volume, excerpt"
+Community,"Someone commented on your volume/session",comment,async,comment_volume,site,,"volume, comment"
+Community,"Someone replied to your comment",comment,async,comment_reply,site,,"volume, comment"
+Community,"Someone added a tag on your volume/session",,async,tag_volume,none,,"volume, slot, tag"
+Community,"A volume has been shared",,async,volume_shared,none,,volume
+"User communications","Newsletter subscription opt-out",,export,newsletter,async,"none,async",
+FUTURE,,,,,,,
+"Following content or users","A tag that I want to follow was added to a volume or session (assuming it's shared)",,,,,,
+"Following content or users","A user that I want to follow has shared a volume",,,,,,
+"Volume sharing","Affiliate requests that Authorized Investigator share a volume that they think is ready",,,,,,
