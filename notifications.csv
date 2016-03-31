@@ -15,12 +15,12 @@ Profile,"Email or password have been changed",,async,account_change,async,async,
 "Volume access","Someone changed your access level on a volume",access,async,volume_access,daily,,"volume, level"
 "File uploads","Session set to public",public,async,public_slot,daily,,"volume, slot"
 "File uploads","File set to public",public,async,public_asset,daily,,"volume, asset"
-"File uploads","Highlight set to public",public,async,public_excerpt,daily,,"volume, excerpt"
-"File uploads","A highlight was created on your volume",,async,excerpt,none,,"volume, excerpt"
+"File uploads","Highlight set to greater release than file",public,async,public_excerpt,daily,,"volume, excerpt"
+"File uploads","A highlight was created on your volume",,async,excerpt_volume,none,,"volume, excerpt"
 Community,"Someone commented on your volume/session",comment,async,comment_volume,site,,"volume, comment"
 Community,"Someone replied to your comment",comment,async,comment_reply,site,,"volume, comment"
 Community,"Someone added a tag on your volume/session",,async,tag_volume,none,,"volume, slot, tag"
-Community,"A volume has been shared",,async,volume_shared,none,,volume
+Community,"A volume has been shared",,async,shared_volume,none,,volume
 "User communications","Newsletter subscription opt-out",,export,newsletter,async,"none,async",
 FUTURE,,,,,,,
 "Following content or users","A tag that I want to follow was added to a volume or session (assuming it's shared)",,,,,,
