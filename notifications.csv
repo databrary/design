@@ -3,7 +3,7 @@ Profile,"Email or password have been changed",,async,account_change,async,async,
 "Your authorization","You submitted request",,state,authorize_request,site,"site,async",parent
 "Your authorization","Your request was approved",,async,authorize_granted,async,>=site,"parent, level"
 "Your authorization","Your authorization is about to expire in 1 week",expire,state,authorize_expiring,daily,"site,daily",parent
-"Your authorization","Your authorization is expired",expire,state,authorize_expired,daily,"none,site,daily",parent
+"Your authorization","Your authorization is expired",expire,state,authorize_expired,daily,"site,daily",parent
 "Affiliate authorizations","Request submitted to you",,state,authorize_child_request,async,async,child
 "Affiliate authorizations","You approved someone else's request",,async,authorize_child_granted,none,,"child, level"
 "Affiliate authorizations","Your affiliate's authorization is about to expire",expire_child,state,authorize_child_expiring,daily,<=daily,child
