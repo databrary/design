@@ -1,7 +1,7 @@
 Notifications requirements
 
-User panel/page for controlling notifications and the format they are received. 
-Some will be required and cannot be turned off. 
+User panel/page for controlling notifications and the format they are received.
+Some will be required and cannot be turned off.
 Some email notifications can be turned off.
 
 Notifications will be displayed sitewide, potentially in a different way than we currently handle messages.
@@ -63,13 +63,13 @@ If revoked:
 
 > Your [authorization](/profile/edit?page=apply) through `PARTY` will expire soon.
 
-> Your authorization under `PARTY` will expire soon. Please contact _____ and request that they renew your authorization.
+> Your authorization under `PARTY` will expire soon. Please contact `PARTY` and request that they renew your authorization.
 
 ### AuthorizeExpired
 
 > Your [authorization](/profile/edit?page=apply) through `PARTY` is expired.
 
-> Your authorization under `PARTY` has expired. Please contact _____ and request that they renew your authorization.
+> Your authorization under `PARTY` has expired. Please contact `PARTY` and request that they renew your authorization.
 
 ### AuthorizeChildRequest
 
@@ -87,13 +87,13 @@ If revoked:
 
 > `PARTY`'s [authorization](/profile/edit?page=grant) will expire soon.
 
-> `PARTY`'s authorization will expire soon. If you would like to renew their authorization go to: profile/edit?page=grant 
+> `PARTY`'s authorization will expire soon. If you would like to renew their authorization go to: /profile/edit?page=grant
 
 ### AuthorizeChildExpired
 
 > `PARTY`'s [authorization](/profile/edit?page=grant) is expired.
 
-> `PARTY`'s authorization will expire soon. If you would like to renew their authorization go to: profile/edit?page=grant 
+> `PARTY`'s authorization will expire soon. If you would like to renew their authorization go to: /profile/edit?page=grant
 
 ### VolumeAssist
 
@@ -106,43 +106,43 @@ If revoked:
 
 > `USER` created `VOLUME` on `PARTY`'s behalf.,
 
-> `USER` created `VOLUME` on `PARTY`'s behalf. To review this volume, go to: /volume/`VOLUME`
+> `USER` created `VOLUME` on `PARTY`'s behalf. To review this volume, go to: /volume/1
 
 ### VolumeSharing
 
-> `USER` changed access on `VOLUME` (from ___?) to [`LEVEL`](/volume/1/edit?page=access).
+> `USER` changed access on `VOLUME` to [`LEVEL`](/volume/1/edit?page=access).
 
-> `USER` changed access on `VOLUME` (from ___?) to `LEVEL`. To review go to: /volume/1/edit?page=access.
+> `USER` changed access on `VOLUME` to `LEVEL`. To review go to: /volume/1/edit?page=access.
 
 ### VolumeAccessOther
 
 > `USER` set `PARTY`'s [access to `LEVEL`](/volume/1/edit?page=access) on `VOLUME`.
 
-> `USER` set `PARTY`'s access (from ____?) to `LEVEL` on `VOLUME`. To review, go to: /volume/1/edit?page=access 
+> `USER` set `PARTY`'s access to `LEVEL` on `VOLUME`. To review, go to: /volume/1/edit?page=access
 
 ### VolumeAccess
 
 > `USER` set `PARTY`'s [access to `LEVEL`](/volume/1/edit?page=access) on `VOLUME`.
 
-> `USER` set `PARTY`'s access (from ____?) to `LEVEL` on `VOLUME`. To review, go to: /volume/1/edit?page=access
+> `USER` set `PARTY`'s access to `LEVEL` on `VOLUME`. To review, go to: /volume/1/edit?page=access
 
 ### ReleaseSlot
 
 > `USER` set a [folder](/volume/1/slot/1) in `VOLUME` to `LEVEL`.
 
-> `USER` set a folder in `VOLUME` (from ____?) to `LEVEL`. To review, go to: /volume/1/slot/1
+> `USER` set a folder in `VOLUME` to `LEVEL`. To review, go to: /volume/1/slot/1
 
 ### ReleaseAsset
 
 > `USER` set a [file](/volume/1/slot/1?asset=1) in `VOLUME` to `LEVEL`.
 
-> `USER` set a file (`FILE`?) in `VOLUME` (from ____?) to `LEVEL`. To review, go to: /volume/1/slot/1?asset=1
+> `USER` set a file  in `VOLUME` to `LEVEL`. To review, go to: /volume/1/slot/1?asset=1
 
 ### ReleaseExcerpt
 
 > `USER` set a [highlight](/volume/1/slot/1?asset=1) in `VOLUME` to `LEVEL`.
 
-> `USER` set a higlight in `VOLUME` (from ____?) to `LEVEL`. To review, go to: /volume/1/slot/1?asset=1
+> `USER` set a higlight in `VOLUME` to `LEVEL`. To review, go to: /volume/1/slot/1?asset=1
 
 ### ExcerptVolume
 
@@ -172,4 +172,4 @@ If revoked:
 
 > `USER` shared `VOLUME`.
 
-> `USER` shared `VOLUME`. To review, go to: volume/1/edit?page=access
+> `USER` shared `VOLUME`. To review, go to: /volume/1
