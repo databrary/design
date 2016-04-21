@@ -31,8 +31,7 @@ Template:
 
 > `USER` changed `PARTY`'s [account information](/profile/edit?page=account).
 
-> `PARTY`'s email or password has been changed. To review or update your account information, go to: /profile/edit?page=account.
-> If you did not make this change, please contact us immediately.
+> `PARTY`'s email or password has been changed. If you are aware of this change, you may ignore this email. To review or update your account information, go to: /profile/edit?page=account. If you did not make this change, please contact us immediately.
 
 ### AuthorizeRequest
 
@@ -64,19 +63,19 @@ If revoked:
 
 > Your [authorization](/profile/edit?page=apply) through `PARTY` will expire soon.
 
->
+> Your authorization under `PARTY` will expire soon. Please contact _____ and request that they renew your authorization.
 
 ### AuthorizeExpired
 
 > Your [authorization](/profile/edit?page=apply) through `PARTY` is expired.
 
->
+> Your authorization under `PARTY` has expired. Please contact _____ and request that they renew your authorization.
 
 ### AuthorizeChildRequest
 
 > `USER` requested [authorization](/profile/edit?page=grant) for `PARTY`.
 
-> `PARTY` requested to be authorized. To approve or reject this authorization request, go to: /profile/edit?page=grant
+> `PARTY` requested to be authorized through you. To approve or reject this authorization request, go to: /profile/edit?page=grant
 
 ### AuthorizeChildGranted
 
@@ -88,13 +87,13 @@ If revoked:
 
 > `PARTY`'s [authorization](/profile/edit?page=grant) will expire soon.
 
->
+> `PARTY`'s authorization will expire soon. If you would like to renew their authorization go to: profile/edit?page=grant 
 
 ### AuthorizeChildExpired
 
 > `PARTY`'s [authorization](/profile/edit?page=grant) is expired.
 
->
+> `PARTY`'s authorization will expire soon. If you would like to renew their authorization go to: profile/edit?page=grant 
 
 ### VolumeAssist
 
@@ -107,70 +106,70 @@ If revoked:
 
 > `USER` created `VOLUME` on `PARTY`'s behalf.,
 
->
+> `USER` created `VOLUME` on `PARTY`'s behalf. To review this volume, go to: /volume/`VOLUME`
 
 ### VolumeSharing
 
-> `USER` changed `VOLUME` to [`LEVEL`](/volume/1/edit?page=access).
+> `USER` changed access on `VOLUME` (from ___?) to [`LEVEL`](/volume/1/edit?page=access).
 
->
+> `USER` changed access on `VOLUME` (from ___?) to `LEVEL`. To review go to: /volume/1/edit?page=access.
 
 ### VolumeAccessOther
 
 > `USER` set `PARTY`'s [access to `LEVEL`](/volume/1/edit?page=access) on `VOLUME`.
 
->
+> `USER` set `PARTY`'s access (from ____?) to `LEVEL` on `VOLUME`. To review, go to: /volume/1/edit?page=access 
 
 ### VolumeAccess
 
 > `USER` set `PARTY`'s [access to `LEVEL`](/volume/1/edit?page=access) on `VOLUME`.
 
->
+> `USER` set `PARTY`'s access (from ____?) to `LEVEL` on `VOLUME`. To review, go to: /volume/1/edit?page=access
 
 ### ReleaseSlot
 
 > `USER` set a [folder](/volume/1/slot/1) in `VOLUME` to `LEVEL`.
 
->
+> `USER` set a folder in `VOLUME` (from ____?) to `LEVEL`. To review, go to: /volume/1/slot/1
 
 ### ReleaseAsset
 
 > `USER` set a [file](/volume/1/slot/1?asset=1) in `VOLUME` to `LEVEL`.
 
->
+> `USER` set a file (`FILE`?) in `VOLUME` (from ____?) to `LEVEL`. To review, go to: /volume/1/slot/1?asset=1
 
 ### ReleaseExcerpt
 
 > `USER` set a [highlight](/volume/1/slot/1?asset=1) in `VOLUME` to `LEVEL`.
 
->
+> `USER` set a higlight in `VOLUME` (from ____?) to `LEVEL`. To review, go to: /volume/1/slot/1?asset=1
 
 ### ExcerptVolume
 
 > `USER` created a [highlight](/volume/1/slot/1?asset=1) in `VOLUME`.
 
->
+> `USER` created a higlight in `VOLUME`. To review, go to: /volume/1/slot/1?asset=1
 
 ### CommentVolume
 
 > `USER` [commented](/volume/1/slot/1?comment=1) on `VOLUME`.
 
->
+> `USER` commented on `VOLUME`. To review, go to: /volume/1/slot/1?comment=1
 
 ### CommentReply
 
 > `USER` [replied](/volume/1/slot/1?comment=1) to your comment on `VOLUME`.
 
->
+> `USER` replied to your comment on `VOLUME`. To review, go to /volume/1/slot/1?comment=1
 
 ### TagVolume
 
 > `USER` [tagged](/volume/1/slot/1?tag) `VOLUME` with `TAG`.
 
->
+> `USER` tagged `VOLUME` with `TAG`. To review tags on `VOLUME`, go to: /volume/1/slot/1?tag
 
 ### SharedVolume
 
 > `USER` shared `VOLUME`.
 
->
+> `USER` shared `VOLUME`. To review, go to: volume/1/edit?page=access
