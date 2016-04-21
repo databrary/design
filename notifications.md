@@ -99,77 +99,78 @@ If revoked:
 
 > `USER` requested [assistance](/volume/1/edit?page=assist) with `VOLUME`.
 
-> `USER` requested curation assistance with `VOLUME`.
+> `USER` requested curation assistance with your volume, `VOLUME`.
 > `INFO...`
 
 ### VolumeCreated
 
-> `USER` created `VOLUME` on `PARTY`'s behalf.,
+> `USER` created a volume, `VOLUME`, on `PARTY`'s behalf.,
 
-> `USER` created `VOLUME` on `PARTY`'s behalf. To review this volume, go to: /volume/1
+> `USER` created a volume, `VOLUME`, on `PARTY`'s behalf. To review this volume, go to: /volume/1
 
 ### VolumeSharing
 
-> `USER` changed access on `VOLUME` to [`LEVEL`](/volume/1/edit?page=access).
+> `USER` changed your volume, `VOLUME`, to [`LEVEL`](/volume/1/edit?page=access).
 
-> `USER` changed access on `VOLUME` to `LEVEL`. To review go to: /volume/1/edit?page=access.
+> `USER` changed your volume, `VOLUME`, to `LEVEL`. To review, go to: /volume/1/edit?page=access.
 
 ### VolumeAccessOther
 
 > `USER` set `PARTY`'s [access to `LEVEL`](/volume/1/edit?page=access) on `VOLUME`.
 
-> `USER` set `PARTY`'s access to `LEVEL` on `VOLUME`. To review, go to: /volume/1/edit?page=access
+> `USER` set `PARTY`'s access to `LEVEL` on your volume, `VOLUME`. To review, go to: /volume/1/edit?page=access
 
 ### VolumeAccess
 
 > `USER` set `PARTY`'s [access to `LEVEL`](/volume/1/edit?page=access) on `VOLUME`.
 
-> `USER` set `PARTY`'s access to `LEVEL` on `VOLUME`. To review, go to: /volume/1/edit?page=access
+> `USER` set `PARTY`'s access to `LEVEL` on your volume, `VOLUME`. To review, go to: /volume/1/edit?page=access
 
 ### ReleaseSlot
 
 > `USER` set a [folder](/volume/1/slot/1) in `VOLUME` to `LEVEL`.
 
-> `USER` set a folder in `VOLUME` to `LEVEL`. To review, go to: /volume/1/slot/1
+> `USER` set the release level of a folder in `VOLUME` to `LEVEL`. To review, go to: /volume/1/slot/1
 
 ### ReleaseAsset
 
 > `USER` set a [file](/volume/1/slot/1?asset=1) in `VOLUME` to `LEVEL`.
 
-> `USER` set a file  in `VOLUME` to `LEVEL`. To review, go to: /volume/1/slot/1?asset=1
+> `USER` set the release level of a file in your volume (`VOLUME`) to `LEVEL`. To review, go to: /volume/1/slot/1?asset=1
 
 ### ReleaseExcerpt
 
 > `USER` set a [highlight](/volume/1/slot/1?asset=1) in `VOLUME` to `LEVEL`.
 
-> `USER` set a higlight in `VOLUME` to `LEVEL`. To review, go to: /volume/1/slot/1?asset=1
+> `USER` set the release level of a higlight in your volume (`VOLUME`) to `LEVEL`. To review, go to: /volume/1/slot/1?asset=1
 
 ### ExcerptVolume
 
 > `USER` created a [highlight](/volume/1/slot/1?asset=1) in `VOLUME`.
 
-> `USER` created a higlight in `VOLUME`. To review, go to: /volume/1/slot/1?asset=1
+> `USER` created a higlight in your volume (`VOLUME`). To review, go to: /volume/1/slot/1?asset=1
 
 ### CommentVolume
 
 > `USER` [commented](/volume/1/slot/1?comment=1) on `VOLUME`.
 
-> `USER` commented on `VOLUME`. To review, go to: /volume/1/slot/1?comment=1
+> `USER` commented on your volume (`VOLUME`). To review or reply, go to: /volume/1/slot/1?comment=1
 
 ### CommentReply
 
 > `USER` [replied](/volume/1/slot/1?comment=1) to your comment on `VOLUME`.
 
-> `USER` replied to your comment on `VOLUME`. To review, go to /volume/1/slot/1?comment=1
+> `USER` replied to your comment on the volume, `VOLUME`. To review or reply, go to /volume/1/slot/1?comment=1
 
 ### TagVolume
 
 > `USER` [tagged](/volume/1/slot/1?tag) `VOLUME` with `TAG`.
 
-> `USER` tagged `VOLUME` with `TAG`. To review tags on `VOLUME`, go to: /volume/1/slot/1?tag
+> `USER` tagged the volume, `VOLUME`, with `TAG`. To review tags, go to: /volume/1/slot/1?tag
 
 ### SharedVolume
 
 > `USER` shared `VOLUME`.
 
-> `USER` shared `VOLUME`. To review, go to: /volume/1
+> `USER` shared the following volume, `VOLUME`, on Databrary. To review, go to: /volume/1
+
