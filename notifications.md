@@ -23,8 +23,6 @@ Notifications will be displayed sitewide, potentially in a different way than we
 
 ### AuthorizeGranted
 
-Your request was granted
-
 > `USER` granted/revoked your [authorization](/profile/edit?page=apply) under `PARTY`.
 
 If granted:
