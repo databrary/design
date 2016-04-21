@@ -8,6 +8,25 @@ Notifications will be displayed sitewide, potentially in a different way than we
 
 ## Notifications
 
+Template:
+
+> Subject: Databrary notifications
+>
+> Dear `USER`,
+>
+> `NOTIFICATIONS`
+>
+> You can change your notification settings or unsubscribe here: /profile/edit?page=notifications
+>
+> Sincerely,
+> The Databrary Team
+> --
+> Databrary
+> 196 Mercer Street, Suite 807
+> 212-998-5536
+> contact@databrary.org
+> databrary.org
+
 ### AccountChange
 
 > `USER` changed `PARTY`'s [account information](/profile/edit?page=account).
