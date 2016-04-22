@@ -29,17 +29,23 @@ Template:
 
 ### AccountChange
 
+Your email or password changed
+
 > `USER` changed `PARTY`'s [account information](/profile/edit?page=account).
 
 > `PARTY`'s email or password has been changed. If you are aware of this change, you may ignore this email. To review or update your account information, go to: /profile/edit?page=account. If you did not make this change, please contact us immediately.
 
 ### AuthorizeRequest
 
+You submitted an authorization request
+
 > `USER` requested [authorization](/profile/edit?page=apply) from `PARTY`.
 
 > You have requested authorization from `PARTY`. ... To review the status of this request, go to: /profile/edit?page=apply
 
 ### AuthorizeGranted
+
+You were authorized
 
 > `USER` granted/revoked your [authorization](/profile/edit?page=apply) under `PARTY`.
 
@@ -59,13 +65,17 @@ If revoked:
 
 > Your authorization under `PARTY` has been revoked. To review and apply for authorizations, go to: /profile/edit?page=apply
 
-### AuthorizeExpiring
+### AuthorizeExpire
+
+Your authorization is expiring
+
+#### AuthorizeExpiring
 
 > Your [authorization](/profile/edit?page=apply) through `PARTY` will expire soon.
 
 > Your authorization under `PARTY` will expire soon. Please contact `PARTY` and request that they renew your authorization.
 
-### AuthorizeExpired
+#### AuthorizeExpired
 
 > Your [authorization](/profile/edit?page=apply) through `PARTY` is expired.
 
@@ -73,29 +83,39 @@ If revoked:
 
 ### AuthorizeChildRequest
 
+Someone requested authorization
+
 > `USER` requested [authorization](/profile/edit?page=grant) for `PARTY`.
 
 > `PARTY` requested to be authorized through you. To approve or reject this authorization request, go to: /profile/edit?page=grant
 
 ### AuthorizeChildGranted
 
+You authorized someone
+
 > `USER` granted/revoked [authorization](/profile/edit?page=grant) to `PARTY`.
 
 > `USER` granted/revoked authorization to `PARTY`.
 
-### AuthorizeChildExpiring
+### AuthorizeChildExpire
+
+Your affiliate's authorization is expiring
+
+#### AuthorizeChildExpiring
 
 > `PARTY`'s [authorization](/profile/edit?page=grant) will expire soon.
 
 > `PARTY`'s authorization will expire soon. If you would like to renew their authorization go to: /profile/edit?page=grant
 
-### AuthorizeChildExpired
+#### AuthorizeChildExpired
 
 > `PARTY`'s [authorization](/profile/edit?page=grant) is expired.
 
 > `PARTY`'s authorization will expire soon. If you would like to renew their authorization go to: /profile/edit?page=grant
 
 ### VolumeAssist
+
+An assistance request was submitted for your volume
 
 > `USER` requested [assistance](/volume/1/edit?page=assist) with `VOLUME`.
 
@@ -104,41 +124,51 @@ If revoked:
 
 ### VolumeCreated
 
+Someone created a volume on your behalf
+
 > `USER` created a volume, `VOLUME`, on `PARTY`'s behalf.,
 
 > `USER` created a volume, `VOLUME`, on `PARTY`'s behalf. To review this volume, go to: /volume/1
 
-### VolumeSharing
+### VolumeAccessSharing
+
+Someone changed the access permissions on your volume
+
+#### VolumeSharing
 
 > `USER` changed your volume, `VOLUME`, to [`LEVEL`](/volume/1/edit?page=access).
 
 > `USER` changed your volume, `VOLUME`, to `LEVEL`. To review, go to: /volume/1/edit?page=access.
 
-### VolumeAccessOther
+#### VolumeAccessOther
 
 > `USER` set `PARTY`'s [access to `LEVEL`](/volume/1/edit?page=access) on `VOLUME`.
 
 > `USER` set `PARTY`'s access to `LEVEL` on your volume, `VOLUME`. To review, go to: /volume/1/edit?page=access
 
-### VolumeAccess
+#### VolumeAccess
 
 > `USER` set `PARTY`'s [access to `LEVEL`](/volume/1/edit?page=access) on `VOLUME`.
 
 > `USER` set `PARTY`'s access to `LEVEL` on your volume, `VOLUME`. To review, go to: /volume/1/edit?page=access
 
-### ReleaseSlot
+### Release
+
+Someone marked data on your volume publicly releasable
+
+#### ReleaseSlot
 
 > `USER` set a [folder](/volume/1/slot/1) in `VOLUME` to `LEVEL`.
 
 > `USER` set the release level of a folder in `VOLUME` to `LEVEL`. To review, go to: /volume/1/slot/1
 
-### ReleaseAsset
+#### ReleaseAsset
 
 > `USER` set a [file](/volume/1/slot/1?asset=1) in `VOLUME` to `LEVEL`.
 
 > `USER` set the release level of a file in your volume (`VOLUME`) to `LEVEL`. To review, go to: /volume/1/slot/1?asset=1
 
-### ReleaseExcerpt
+#### ReleaseExcerpt
 
 > `USER` set a [highlight](/volume/1/slot/1?asset=1) in `VOLUME` to `LEVEL`.
 
@@ -146,17 +176,23 @@ If revoked:
 
 ### ExcerptVolume
 
+Someone created a highlight on your volume
+
 > `USER` created a [highlight](/volume/1/slot/1?asset=1) in `VOLUME`.
 
 > `USER` created a higlight in your volume (`VOLUME`). To review, go to: /volume/1/slot/1?asset=1
 
-### CommentVolume
+### Comment
+
+Someone commented on your volume or replied to your comment
+
+#### CommentVolume
 
 > `USER` [commented](/volume/1/slot/1?comment=1) on `VOLUME`.
 
 > `USER` commented on your volume (`VOLUME`). To review or reply, go to: /volume/1/slot/1?comment=1
 
-### CommentReply
+#### CommentReply
 
 > `USER` [replied](/volume/1/slot/1?comment=1) to your comment on `VOLUME`.
 
@@ -164,13 +200,20 @@ If revoked:
 
 ### TagVolume
 
+Someone added a tag on your volume
+
 > `USER` [tagged](/volume/1/slot/1?tag) `VOLUME` with `TAG`.
 
 > `USER` tagged the volume, `VOLUME`, with `TAG`. To review tags, go to: /volume/1/slot/1?tag
 
 ### SharedVolume
 
+A new volume was shared
+
 > `USER` shared `VOLUME`.
 
 > `USER` shared the following volume, `VOLUME`, on Databrary. To review, go to: /volume/1
 
+### Newsletter
+
+Subscribe to the newsletter
