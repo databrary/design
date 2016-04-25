@@ -8,7 +8,13 @@ Notifications will be displayed sitewide, potentially in a different way than we
 
 ## Notifications
 
-Template:
+Description on preferences page.
+
+> Site message.
+
+> Email message.
+
+Template for email:
 
 > Subject: Databrary notifications
 >
