@@ -119,8 +119,7 @@ An assistance request was submitted for your volume
 
 > `USER` requested [assistance](/volume/1/edit?page=assist) with `VOLUME`.
 
-> `USER` requested curation assistance with your volume, `VOLUME`.
-> `INFO...`
+> `USER` requested assistance with your volume, `VOLUME`.
 
 ### VolumeCreated
 
