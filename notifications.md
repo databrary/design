@@ -125,7 +125,7 @@ An assistance request was submitted for your volume
 
 Someone created a volume on your behalf
 
-> `USER` created a volume, `VOLUME`, on `PARTY`'s behalf.,
+> `USER` created `VOLUME` on `PARTY`'s behalf.
 
 > `USER` created a volume, `VOLUME`, on `PARTY`'s behalf. To review this volume, go to: /volume/1
 
