@@ -135,7 +135,7 @@ Someone changed the access permissions on your volume
 
 #### VolumeSharing
 
-> `USER` changed your volume, `VOLUME`, to [`LEVEL`](/volume/1/edit?page=access).
+> `USER` changed `VOLUME` to [`LEVEL`](/volume/1/edit?page=access).
 
 > `USER` changed your volume, `VOLUME`, to `LEVEL`. To review, go to: /volume/1/edit?page=access.
 
