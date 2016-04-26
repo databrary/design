@@ -177,7 +177,7 @@ Someone marked data on your volume publicly releasable
 
 > `USER` set a [highlight](/volume/1/slot/1?asset=1) in `VOLUME` to `LEVEL`.
 
-> `USER` set the release level of a higlight in your volume (`VOLUME`) to `LEVEL`. To review, go to: /volume/1/slot/1?asset=1
+> `USER` set the release level of a highlight in your volume (`VOLUME`) to `LEVEL`. To review, go to: /volume/1/slot/1?asset=1
 
 ### ExcerptVolume
 
