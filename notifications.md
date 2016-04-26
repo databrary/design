@@ -185,7 +185,7 @@ Someone created a highlight on your volume
 
 > `USER` created a [highlight](/volume/1/slot/1?asset=1) in `VOLUME`.
 
-> `USER` created a higlight in your volume (`VOLUME`). To review, go to: /volume/1/slot/1?asset=1
+> `USER` created a highlight in your volume (`VOLUME`). To review, go to: /volume/1/slot/1?asset=1
 
 ### Comment
 
