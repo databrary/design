@@ -39,7 +39,7 @@ Your email or password changed
 
 > `USER` changed `PARTY`'s [account information](/profile/edit?page=account).
 
-> `PARTY`'s email or password has been changed. If you are aware of this change, you may ignore this email. To review or update your account information, go to: /profile/edit?page=account. If you did not make this change, please contact us immediately.
+> `PARTY`'s email or password has been changed. If you made this change, you may ignore this email. To review or update your account information, go to: /profile/edit?page=account. If you did not make this change, please contact us immediately.
 
 ### AuthorizeRequest
 
@@ -47,7 +47,7 @@ You submitted an authorization request
 
 > `USER` requested [authorization](/profile/edit?page=apply) from `PARTY`.
 
-> You have requested authorization from `PARTY`. ... To review the status of this request, go to: /profile/edit?page=apply
+> `USER` requested authorization from `PARTY`. To review the status of this request, go to: /profile/edit?page=apply
 
 ### AuthorizeGranted
 
