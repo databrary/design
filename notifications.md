@@ -111,13 +111,13 @@ Your affiliate's authorization is expiring
 
 > `PARTY`'s [authorization](/profile/edit?page=grant) will expire soon. <!-- Same comment about reporting expiration date. -->
 
-> `PARTY`'s authorization will expire soon. If you would like to renew their authorization go to: /profile/edit?page=grant
+> `PARTY`'s authorization will expire soon. If you would like to renew their authorization, go to: /profile/edit?page=grant
 
 #### AuthorizeChildExpired
 
 > `PARTY`'s [authorization](/profile/edit?page=grant) is expired.
 
-> `PARTY`'s authorization has expired. If you would like to renew their authorization go to: /profile/edit?page=grant
+> `PARTY`'s authorization has expired. If you would like to renew their authorization, go to: /profile/edit?page=grant
 
 ### VolumeAssist
 
