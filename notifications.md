@@ -117,7 +117,7 @@ Your affiliate's authorization is expiring
 
 > `PARTY`'s [authorization](/profile/edit?page=grant) is expired.
 
-> `PARTY`'s authorization will expire soon. If you would like to renew their authorization go to: /profile/edit?page=grant
+> `PARTY`'s authorization has expired. If you would like to renew their authorization go to: /profile/edit?page=grant
 
 ### VolumeAssist
 
