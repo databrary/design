@@ -33,6 +33,11 @@ Template for email:
 > contact@databrary.org
 > databrary.org
 
+Open questions:
+
+* Should email notifications include timestamps (if so, how and in what format)?
+* Should there be more information in AuthorizeRequest about "This may take some time for your school or PI to approve here's what to expect..."
+
 ### AccountChange
 
 Your email or password changed
