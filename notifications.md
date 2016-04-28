@@ -87,7 +87,9 @@ Your authorization is expiring
 
 #### AuthorizeExpiring
 
-> Your [authorization](/profile/edit?page=apply) through `PARTY` will expire soon. <!-- Use specific date rather than soon? -->
+Note that site messages all already have dates (in this case expiration date).
+
+> Your [authorization](/profile/edit?page=apply) through `PARTY` will expire soon.
 
 > Your authorization under `PARTY` will expire soon. Please contact `PARTY` and request that they renew your authorization.
 
@@ -119,7 +121,7 @@ Your affiliate's authorization is expiring
 
 #### AuthorizeChildExpiring
 
-> `PARTY`'s [authorization](/profile/edit?page=grant) will expire soon. <!-- Same comment about reporting expiration date. -->
+> `PARTY`'s [authorization](/profile/edit?page=grant) will expire soon.
 
 > `PARTY`'s authorization will expire soon. If you would like to renew `PARTY`'s authorization, go to: /profile/edit?page=grant
 
