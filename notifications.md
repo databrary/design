@@ -37,6 +37,8 @@ Open questions:
 
 * Should email notifications include timestamps (if so, how and in what format)?
 * Should there be more information in AuthorizeRequest about "This may take some time for your school or PI to approve here's what to expect..."
+* Currently both are ordered by time.  Emails could be grouped by something like volume, but it's hard to make formatting that makes sense.  Suggestions.
+* Should we switch AuthorizeChildRequest include the name of the parent rather than the child (for institution authorization emails)?
 
 ### AccountChange
 
