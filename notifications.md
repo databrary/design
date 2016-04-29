@@ -40,6 +40,7 @@ Open questions:
 * Should there be more information in AuthorizeRequest about "This may take some time for your school or PI to approve here's what to expect..."
 ** Yes, LS can help you finalize it
 * Currently both are ordered by time.  Emails could be grouped by something like volume, but it's hard to make formatting that makes sense.  Suggestions.
+** Not sure what this is referring to, you mean should there be a place to see all notifications for a volume? a new tab in volume edit?
 * Should we switch AuthorizeChildRequest include the name of the parent rather than the child (for institution authorization emails)?
 ** Yes
 
@@ -67,12 +68,12 @@ You were authorized
 
 If granted:
 
-> You have been authorized by `PARTY`, as a Databrary Authorized Investigator/Affiliate.  *If databrary access:* Your authorization allows you to access all the shared data in Databrary. Our primary goal is to inspire you to reuse shared videos on Databrary to ask new questions outside the scope of the original study. You will also find illustrative video excerpts that you can use for teaching and to learn about researchers' methods and procedures.
+> You have been authorized by `PARTY`, as a Databrary Authorized Investigator/Affiliate. *If databrary access:* Your authorization allows you to access all the shared data in Databrary. Our goal is to inspire you to reuse shared videos on Databrary to ask new questions outside the scope of the original study. You will also find illustrative video excerpts that you can use for teaching and to learn about other researchers' methods and procedures.
 >
-> *If databrary access:* Databrary's unique "active curation" functionality allows you to upload your videos as you collect them so that your data are backed up and preserved in our free, secure library, your videos are immediately available to you and your collaborators offsite, and your data are organized and ready for sharing.  Your data will remain private and accessible only to your lab members and collaborators until you are ready to share with the Databrary community.  When you are ready, sharing is as easy as clicking a button!
+> *If databrary access:* Databrary's unique "active curation" functionality allows you to upload your videos as you collect them so that your data are backed up and preserved in our free, secure library, your videos are immediately available to you and your collaborators offsite, and your data are organized and ready for sharing. Your data will remain private and accessible only to your lab members and collaborators until you are ready to share with the Databrary community. When you are ready, sharing is as easy as clicking a button!
 >
-> *If databrary access:* To share your data, you can use our template Databrary release form for obtaining permission for sharing from your participants, which can be found here: http://databrary.org/access/policies/release-template.html
-> The release form can be added to new or existing IRB protocols. It is completely adaptable and can be customized to suit your needs. We also have lots of information and helpful tips about managing and sharing your video data in our User Guide: http://databrary.org/access/guide
+> *If databrary access:* You can use our template Databrary release form to obtain permission for sharing the data you collect from your participants, which can be found here: http://databrary.org/access/policies/release-template.html
+> The release form can be added to new or existing IRB protocols. It is completely adaptable and can be customized to suit your needs. We also offer additional information and helpful tips about managing and sharing your video data in our User Guide: http://databrary.org/access/guide
 > As soon as your protocol is amended to allow you to share data, you can start uploading your data from each new session. Don't wait until your study is complete to upload your videos. It's much easier to upload data after each data collection while your study is in progress!
 >
 > *If databrary access:* We are dedicated to providing assistance to the Databrary community. Please contact us at support@databrary.org with questions or for help getting started.
@@ -113,7 +114,7 @@ You authorized someone
 
 > `USER` granted/revoked [authorization](/profile/edit?page=grant) to `PARTY`.
 
-> `USER` granted/revoked authorization to `PARTY`.
+> `USER` granted/revoked authorization to `PARTY`. To review this authorization, go to: /profile/edit?page=grant
 
 ### AuthorizeChildExpire
 
@@ -137,7 +138,7 @@ An assistance request was submitted for your volume
 
 > `USER` requested [assistance](/volume/1/edit?page=assist) with `VOLUME`.
 
-> `USER` requested assistance with your volume, `VOLUME`.
+> `USER` requested assistance with your volume, `VOLUME`. To review this request, go to: /volume/1/edit?page=assist
 
 ### VolumeCreated
 
@@ -155,19 +156,19 @@ Someone changed the access permissions on your volume
 
 > `USER` changed `VOLUME` to [`LEVEL`](/volume/1/edit?page=access).
 
-> `USER` changed your volume, `VOLUME`, to `LEVEL`. To review, go to: /volume/1/edit?page=access.
+> `USER` changed your volume, `VOLUME`, to `LEVEL`. To review this change, go to: /volume/1/edit?page=access.
 
 #### VolumeAccessOther
 
 > `USER` set `PARTY`'s [access to `LEVEL`](/volume/1/edit?page=access) on `VOLUME`.
 
-> `USER` set `PARTY`'s access to `LEVEL` on your volume, `VOLUME`. To review, go to: /volume/1/edit?page=access
+> `USER` set `PARTY`'s access to `LEVEL` on your volume, `VOLUME`. To review this change, go to: /volume/1/edit?page=access
 
 #### VolumeAccess
 
 > `USER` set `PARTY`'s [access to `LEVEL`](/volume/1/edit?page=access) on `VOLUME`.
 
-> `USER` set `PARTY`'s access to `LEVEL` on your volume, `VOLUME`. To review, go to: /volume/1/edit?page=access
+> `USER` set `PARTY`'s access to `LEVEL` on your volume, `VOLUME`. To review this change, go to: /volume/1/edit?page=access
 
 ### Release
 
@@ -177,19 +178,19 @@ Someone marked data on your volume publicly releasable
 
 > `USER` set a [folder](/volume/1/slot/1) in `VOLUME` to `LEVEL`.
 
-> `USER` set the release level of a folder in `VOLUME` to `LEVEL`. To review, go to: /volume/1/slot/1
+> `USER` set the release level of a folder in `VOLUME` to `LEVEL`. To review this change, go to: /volume/1/slot/1
 
 #### ReleaseAsset
 
 > `USER` set a [file](/volume/1/slot/1?asset=1) in `VOLUME` to `LEVEL`.
 
-> `USER` set the release level of a file in your volume (`VOLUME`) to `LEVEL`. To review, go to: /volume/1/slot/1?asset=1
+> `USER` set the release level of a file in your volume (`VOLUME`) to `LEVEL`. To review this change, go to: /volume/1/slot/1?asset=1
 
 #### ReleaseExcerpt
 
 > `USER` set a [highlight](/volume/1/slot/1?asset=1) in `VOLUME` to `LEVEL`.
 
-> `USER` set the release level of a highlight in your volume (`VOLUME`) to `LEVEL`. To review, go to: /volume/1/slot/1?asset=1
+> `USER` set the release level of a highlight in your volume (`VOLUME`) to `LEVEL`. To review this change, go to: /volume/1/slot/1?asset=1
 
 ### ExcerptVolume
 
@@ -197,7 +198,7 @@ Someone created a highlight on your volume
 
 > `USER` created a [highlight](/volume/1/slot/1?asset=1) in `VOLUME`.
 
-> `USER` created a highlight in your volume (`VOLUME`). To review, go to: /volume/1/slot/1?asset=1
+> `USER` created a highlight in your volume (`VOLUME`). To review this highlight, go to: /volume/1/slot/1?asset=1
 
 ### Comment
 
