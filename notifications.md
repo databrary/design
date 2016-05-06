@@ -58,7 +58,7 @@ You submitted an authorization request
 
 > `USER` requested [authorization](/profile/edit?page=apply) from `PARTY`.
 
-> `USER` requested authorization from `PARTY`. To review the status of this request, go to: /profile/edit?page=apply
+> `USER` requested authorization from `PARTY`. To check if this request has been approved or if it is still pending, go to: /profile/edit?page=apply
 
 ### AuthorizeGranted
 
