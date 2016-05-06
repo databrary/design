@@ -64,7 +64,7 @@ You submitted an authorization request
 
 You were authorized
 
-> `USER` granted/revoked your [authorization](/profile/edit?page=apply) under `PARTY`.
+> Your [authorization](/profile/edit?page=apply) under `PARTY` has been granted/revoked.
 
 If granted:
 
@@ -104,9 +104,9 @@ Note that site messages all already have dates (in this case expiration date).
 
 Someone requested authorization
 
-> `USER` requested [authorization](/profile/edit?page=grant) for `PARTY`.
+> `USER` requested [authorization](/profile/edit?page=grant) from `PARTY`.
 
-> `PARTY` requested to be authorized through you. To approve or reject this authorization request, go to: /profile/edit?page=grant
+> `USER` requested to be authorized through `PARTY`. To approve or reject this authorization request, go to: /profile/edit?page=grant
 
 ### AuthorizeChildGranted
 
