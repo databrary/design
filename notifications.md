@@ -68,7 +68,9 @@ You were authorized
 
 If granted:
 
-> You have been authorized by `PARTY`, as a Databrary Authorized Investigator/Affiliate. *If databrary access:* Your authorization allows you to access all the shared data in Databrary. Our goal is to inspire you to reuse shared videos on Databrary to ask new questions outside the scope of the original study. You will also find illustrative video excerpts that you can use for teaching and to learn about other researchers' methods and procedures.
+> You have been authorized under `PARTY`,
+> *If no databrary acces:* for group/lab-only access.
+> *If databrary access:* as a Databrary Authorized Investigator/Affiliate. Your authorization allows you to access all the shared data in Databrary. Our goal is to inspire you to reuse shared videos on Databrary to ask new questions outside the scope of the original study. You will also find illustrative video excerpts that you can use for teaching and to learn about other researchers' methods and procedures.
 >
 > *If databrary access:* Databrary's unique "active curation" functionality allows you to upload your videos as you collect them so that your data are backed up and preserved in our free, secure library, your videos are immediately available to you and your collaborators offsite, and your data are organized and ready for sharing. Your data will remain private and accessible only to your lab members and collaborators until you are ready to share with the Databrary community. When you are ready, sharing is as easy as clicking a button!
 >
