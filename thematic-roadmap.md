@@ -24,9 +24,9 @@
 * Better support for custom CSV exporting
 * Spreadsheet “participant” views [3 weeks]
 * Improved upload interface
-** Drag-and-drop moving between sessions (on spreadsheet?) [3 weeks]
-** Resumable uploads [3 weeks]
-** File movement between volumes: need specification [2 weeks]
+	* Drag-and-drop moving between sessions (on spreadsheet?) [3 weeks]
+	* Resumable uploads [3 weeks]
+	* File movement between volumes: need specification [2 weeks]
 
 ### Improved timeline operations
 * Variable session release (different release levels on different segments of the session): need requirements, use cases, design [1 month]
@@ -41,23 +41,23 @@
 ## PLAY
 
 * Repackaging datasets into studies: need user stories, design proposals [3-6 months]
-** Study/dataset distinction
-** Data reuse/creating “views” of other volumes
+	* Study/dataset distinction
+	* Data reuse/creating “views” of other volumes
 * Group management 
-** Lab groups
-** PLAY style group sharing
+	* Lab groups
+	* PLAY style group sharing
 
 ## Other
 * Sharing only volume-level metadata and highlights [1 month] 
 	_"I want to only share descriptive information about a volume to help me fulfill NSF mandates for sharing and to showcase excerpts of the data that are being collected before I'm ready to share my entire dataset by treating all my sessions as private OR only displaying the top half of the volume"_
 * Study design "wizard": need design proposals [3 weeks] 
-** Encouraging users to collect/enter most useful fields: need decisions on which fields are actually useful; design proposals for encouraging them; possibly multiple components affected [1+ month?]
+	* Encouraging users to collect/enter most useful fields: need decisions on which fields are actually useful; design proposals for encouraging them; possibly multiple components affected [1+ month?]
 * Refining search, improving results [2 months]
 * Authorization email improvements, context sensitive emails: need clear requirements, HTML email plan [1 month]
 * Authorization status display/reporting: need requirements, approval [2 weeks]
 	_"I want to see information about what's going on with my authorization"_
 * Volume meter: need proposals and approvals for new items to be added to count towards "completeness" [3-5 weeks?]
-** New title/sidebar display proposals, not showing percentage
+	* New title/sidebar display proposals, not showing percentage
 * Improving front page news feed with more information (funding, new sessions etc) [2 weeks]
 * New auditing features: need requirements around records, funding, links, sorting, filtering [2-3 weeks]
 * Better funding reporting/linking to agency award reporting [1-2 weeks]
