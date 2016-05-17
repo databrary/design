@@ -21,8 +21,14 @@
 * Sharing only volume-level metadata and highlights [1 month] 
 	_"I want to only share descriptive information about a volume to help me fulfill NSF mandates for sharing and to showcase excerpts of the data that are being collected before I'm ready to share my entire dataset by treating all my sessions as private OR only displaying the top half of the volume"_
 * Allow browsing of tags within a volume
-* Redesign separate excerpt volume creation workflow
-* Tag collections 
+* Redesign separate/old-style excerpt upload workflow
+	* Excerpt volume creation "wizard"
+* Improve excerpt search result display
+	* Implicit tag collections
+        * Only show matching clips with no context?
+* Explicitly curated excerpt collectons
+	* Transana-style combining clips and text
+	* Special volumes or alternative structures
 
 ## UAYG improvements
 
@@ -38,10 +44,13 @@
 	* File movement between volumes: need specification [2 weeks]
 
 ### Improved timeline operations
+
+* Better repositioning of aligning files vs. reordering segments
 * Variable session release (different release levels on different segments of the session): need requirements, use cases, design [1 month]
 * Video file/track modification (seaming videos together, clipping videos) [months]
 * Multi-video playback [1 month]
 * Better positioning behavior for files
+	* (Re-)sort by name
 
 ## RIDIR
 * Import/export of Datavyu files [3 months] 
@@ -54,11 +63,12 @@
 	* Data reuse/creating “views” of other volumes
 * Group management 
 	* Lab groups
-	* PLAY style group sharing
+	* PLAY style group sharing [needs clear permission requirements]
 * QA workflow
 	* [NEEDS TO BE MORE CLEARLY DEFINED]
 
 ## Other improvements
+
 * Study design "wizard": need design proposals [3 weeks] 
 	* Encouraging users to collect/enter most useful fields: need decisions on which fields are actually useful; design proposals for encouraging them; possibly multiple components affected [1+ month?]
 * Refining search, improving results [2 months]
@@ -74,4 +84,5 @@
 * Site-wide navigation improvements: need design, approval for breadcrumbs, display standardization, etc. [2 weeks]
 * "Dropbox"-style access: need requirements, plan [months]
 * OSF integration: need approval, meetings, plans [unclear]
-* Expose users download history to themselves
+* Expose users' download history to themselves
+
