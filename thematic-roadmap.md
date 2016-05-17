@@ -48,6 +48,7 @@ Lower priority:
 
 ### Improved timeline operations
 
+* Usability refinements to timeline interface
 * Better repositioning of aligning files vs. reordering segments
 * Variable session release (different release levels on different segments of the session): need requirements, use cases, design [1 month]
 * Video file/track modification (seaming videos together, clipping videos) [months]
