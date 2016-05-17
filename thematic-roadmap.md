@@ -18,6 +18,7 @@
 ## Excerpts improvements
 
 * Clarify highlight creation instructions (text)
+* Documentation around uploading excerpts and creating highlights (user guide, static site content)
 * Sharing only volume-level metadata and highlights [1 month] 
 	_"I want to only share descriptive information about a volume to help me fulfill NSF mandates for sharing and to showcase excerpts of the data that are being collected before I'm ready to share my entire dataset by treating all my sessions as private OR only displaying the top half of the volume"_
 * Allow browsing of tags within a volume
