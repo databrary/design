@@ -15,6 +15,15 @@
 
 # Feature backlog (not prioritized):
 
+## Excerpts improvements
+
+* Clarify highlight creation instructions (text)
+* Sharing only volume-level metadata and highlights [1 month] 
+	_"I want to only share descriptive information about a volume to help me fulfill NSF mandates for sharing and to showcase excerpts of the data that are being collected before I'm ready to share my entire dataset by treating all my sessions as private OR only displaying the top half of the volume"_
+* Allow browsing of tags within a volume
+* Redesign separate excerpt volume creation workflow
+* Tag collections 
+
 ## UAYG improvements
 
 ### Data entry
@@ -46,10 +55,10 @@
 * Group management 
 	* Lab groups
 	* PLAY style group sharing
+* QA workflow
+	* [NEEDS TO BE MORE CLEARLY DEFINED]
 
-## Other
-* Sharing only volume-level metadata and highlights [1 month] 
-	_"I want to only share descriptive information about a volume to help me fulfill NSF mandates for sharing and to showcase excerpts of the data that are being collected before I'm ready to share my entire dataset by treating all my sessions as private OR only displaying the top half of the volume"_
+## Other improvements
 * Study design "wizard": need design proposals [3 weeks] 
 	* Encouraging users to collect/enter most useful fields: need decisions on which fields are actually useful; design proposals for encouraging them; possibly multiple components affected [1+ month?]
 * Refining search, improving results [2 months]
@@ -63,9 +72,6 @@
 * Better funding reporting/linking to agency award reporting [1-2 weeks]
 * Pre-authorization permission level: need requirements, approval [2 weeks]
 * Site-wide navigation improvements: need design, approval for breadcrumbs, display standardization, etc. [2 weeks]
-* Tag collections 
 * "Dropbox"-style access: need requirements, plan [months]
 * OSF integration: need approval, meetings, plans [unclear]
-* Allow browsing of tags within a volume
 * Expose users download history to themselves
-* Age in CSV export
