@@ -37,12 +37,12 @@ Lower priority:
 
 ### Data entry
 
-* Constant columns
-* Custom fields/categories: need requirements, design [2 months]
+* Constant columns*
+* Custom fields/categories: need requirements, design [2 months]*
 * Better support for custom CSV exporting
-* Spreadsheet “participant” views [3 weeks]
+* Spreadsheet “participant” views [3 weeks]*
 * Improved upload interface
-	* Drag-and-drop moving between sessions (on spreadsheet?) [3 weeks]
+	* Drag-and-drop moving between sessions (on spreadsheet?) [3 weeks]*
 	* Resumable uploads [3 weeks]
 	* File movement between volumes: need specification [2 weeks]
 
@@ -89,3 +89,4 @@ Lower priority:
 * OSF integration: need approval, meetings, plans [unclear]
 * Expose users' download history to themselves
 
+* Indicates potentially higher priority
