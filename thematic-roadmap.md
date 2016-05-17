@@ -76,18 +76,20 @@ Lower priority:
 * Study design "wizard": need design proposals [3 weeks] 
 	* Encouraging users to collect/enter most useful fields: need decisions on which fields are actually useful; design proposals for encouraging them; possibly multiple components affected [1+ month?]
 * Refining search, improving results [2 months]
-* Authorization email improvements, context sensitive emails: need clear requirements, HTML email plan [1 month]
+* Authorization email improvements, context sensitive emails: need clear requirements, HTML email plan [1 month]*
 * Authorization status display/reporting: need requirements, approval [2 weeks]
 	_"I want to see information about what's going on with my authorization"_
-* Volume meter: need proposals and approvals for new items to be added to count towards "completeness" [3-5 weeks?]
+* Volume meter: need proposals and approvals for new items to be added to count towards "completeness" [3-5 weeks?]*
 	* New title/sidebar display proposals, not showing percentage
+* Site-wide stylistic improvements: need design, approval for breadcrumbs, display standardization, etc. [2 weeks]*
+	* Merged with static site
+* Static site update/review of content*
 * Improving front page news feed with more information (funding, new sessions etc) [2 weeks]
 * New auditing features: need requirements around records, funding, links, sorting, filtering [2-3 weeks]
 * Better funding reporting/linking to agency award reporting [1-2 weeks]
 * Pre-authorization permission level: need requirements, approval [2 weeks]
-* Site-wide navigation improvements: need design, approval for breadcrumbs, display standardization, etc. [2 weeks]
 * "Dropbox"-style access: need requirements, plan [months]
 * OSF integration: need approval, meetings, plans [unclear]
 * Expose users' download history to themselves
 
-* Indicates potentially higher priority
+* '*' Indicates potentially higher priority
