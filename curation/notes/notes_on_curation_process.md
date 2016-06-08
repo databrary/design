@@ -65,7 +65,7 @@
   * Keywords at the dataset and study levels
 * Balance the need for standard tags for searching against the desire to repurpose data
 * APA
-	* Field Guide http://www.apa.org/pubs/databases/training/field-guide.asp
+	* Field Guide http://www.apa.org/pubs/databases/training/field-guide.aspx
 	* Methodology Fields http://www.apa.org/pubs/databases/training/method-values.aspx
 	* Record Structure http://www.apa.org/pubs/databases/training/record-structure.pdf 	
 	* Controlled vocabulary http://psycnet.apa.org/index.cfm?fa=termfinder.displayTerms&id=B45C31BC-AAA6-7D6E-2F25-BE2894D50CAA
