@@ -41,9 +41,11 @@ from Upload-As-You-Go. This set of procedures only takes place after we have con
 
 [Assess Data](#assess_data)
 
-[Gather Data](#gather_data)
+[Pre-assisted Curation -- Gather Data](#gather_data)
 
-[Process and Load Data](#process_data)
+[Pre-assisted Curation -- Process and Load Data](#process_data)
+
+[Assisted Curation](#assisted_curation)
 
 [Tracking Ingestion Progress and file sharing](#protocols)
 
@@ -73,6 +75,8 @@ from Upload-As-You-Go. This set of procedures only takes place after we have con
 
 ## <a name="gather_data">Gather and estimate data ingest</a>
 
+_this process, while still in use, might be deprecated for most cases where [assisted curation](#assisted_curation) (bulk uploading files and metadata in the browser) is a more preferable process to get data into Databrary many sessions at a time_
+
 1. Have data provider upload data to shared server via rsync, or alternatively ftp or sftp where necessary.
 
 2. Criteria for estimating priority (as well as time to full ingestion) will be based on the following:
@@ -88,6 +92,8 @@ from Upload-As-You-Go. This set of procedures only takes place after we have con
 
 
 ## <a name="process_data">Processing and loading data</a>
+
+_this process, while still in use, might be deprecated for most cases where [assisted curation](#assisted_curation) (bulk uploading files and metadata in the browser) is a more preferable process to get data into Databrary many sessions at a time_
 
 Once a dataset has been approved for starting the ingestion process, the curator will:
 
@@ -107,6 +113,20 @@ Once a dataset has been prepared:
 * Staff will then review materials as they appear on the site and correct any errors that occurred during the ingest process.
 * Ensure that data has correct permissions applied to them.
 * Reach out to contributor to set schedule a date and time to have a tour for their data, this will also give them a chance to ask questions about taking over the volume on Databrary and suggest any changes they would like to be made before everything is shared.
+
+## <a name="assisted_curation">Assisted Curation</a>
+
+* Users can submit a batch of videos to be organized on their volume by going to `/edit?page=assist` on their volume. There they can **1)** select the checkbox for assisted curation. **2)** Upload any files they want on their volume along with a spreadsheet that gives information about where the files should go (see ([Databrary Ingest Template Spreadsheet](https://github.com/databrary/curation/blob/master/spec/templates/ingest_template.xlsx)) and **3)** provide details and further information about the upload and click submit. This will send the curator a notification that someone has requested help with their contribution.
+
+* Curator can then pull all uploaded content from the `top` folder with the following query:
+
+    \copy (select a.*, c.id as container_id from asset a left join slot_asset sa on a.id = sa.asset left join container c on sa.container = c.id where a.volume = <volid> and c.top = true) to <csv_file_.csv> With CSV HEADER;
+
+  Or by using the script `assisted.py` in `curation/tools/scripts`
+
+* Clean up and standardize provided spreadsheet ([INGEST SPREADSHEET CONVENTIONS](http://example.com/pending)) (e.g. ISO 8601 for dates, a key for Identifying the session, ETC.)
+
+* Join the output of the top folder asset dump with the spreadsheet such that the filename provided matches to the asset id using [csvkit](https://github.com/wireservice/csvkit): `csvjoin -c name metadata_provided_by_lab.csv asset_metadata_pulled_from_db.csv > joine_metadata.csv` to create the file that will be used to run the ingest script (see: _Once a dataset has been prepared_) above. The asset id, in this case, will be the asset id for the ingest JSON (rather than the path to file on the staging server).
 
 
 ## <a name="protocols">Tracking ingestion progress and file sharing</a>
