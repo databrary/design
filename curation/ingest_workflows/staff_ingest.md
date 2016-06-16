@@ -122,7 +122,7 @@ Once a dataset has been prepared:
 
     \copy (select a.*, c.id as container_id from asset a left join slot_asset sa on a.id = sa.asset left join container c on sa.container = c.id where a.volume = <volid> and c.top = true) to <csv_file_.csv> With CSV HEADER;
 
-  Or by using the script `assisted.py` in `curation/tools/scripts`
+  Or by using the script `assisted.py` in [`curation/tools/scripts`](https://github.com/databrary/curation/blob/master/tools/scripts/assisted.py)
 
 * Clean up and standardize provided spreadsheet ([INGEST SPREADSHEET CONVENTIONS](http://example.com/pending)) (e.g. ISO 8601 for dates, a key for Identifying the session, ETC.)
 
