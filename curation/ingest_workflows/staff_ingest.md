@@ -101,6 +101,7 @@ Once a dataset has been approved for starting the ingestion process, the curator
 * Review video materials for content that will girequire creation of additional metadata as well as sensitive information not to be released
 * Determine and enter data into spreadsheet based on video file and time ranges that comprise a "session"
 * Enter and/or shape participant metadata into the established spreadsheet template ([current copy is here](https://github.com/databrary/curation/blob/master/spec/templates/ingest_template.xlsx))
+* **TODO: Need to add additional requirements for ingest templates to process properly** 
 * Ensure that participant metadata is assigned accurately with session metadata
 * Flag any metadata that might need special attention for the ingest process (i.e. needs additional processing or could benefit from automated transformation)
 * Arrange assets (videos and other materials) on the server as per asset directory template ([located here](https://github.com/databrary/curation/blob/master/spec/templates/asset_directory_template.md))
@@ -108,7 +109,9 @@ Once a dataset has been approved for starting the ingestion process, the curator
 
 Once a dataset has been prepared:
 
-* Transform spreadsheet metadata into ingestible JSON format via script and validate against [JSON schema](http://github.com/databrary/curation/spec/volume.json).
+* Transform spreadsheet metadata into ingestible JSON format via script `csv2json.py` found [here](https://github.com/databrary/curation/blob/master/tools/scripts/csv2json.py) and validate against [JSON schema](http://github.com/databrary/curation/spec/volume.json)(the latter is already built intot he databrary online ingest form). 
+  - Example usage of `csv2json.py` for non-assisted curation: 
+    python csv2json.py -s <PATH TO SESSION .CSV FILE> -p <PATH TO PARTICIPANT .CSV FILE> -f <FILENAME FOR OUTPUT> -n "<NAME OF VOLUME AS APPEARS ON DATABRARY>"
 * Ingest and transcode metadata and asset data via server scripts ([located here](https://github.com/databrary/curation/tree/master/tools/scripts)).
 * Staff will then review materials as they appear on the site and correct any errors that occurred during the ingest process.
 * Ensure that data has correct permissions applied to them.
@@ -127,6 +130,10 @@ Once a dataset has been prepared:
 * Clean up and standardize provided spreadsheet ([INGEST SPREADSHEET CONVENTIONS](http://example.com/pending)) (e.g. ISO 8601 for dates, a key for Identifying the session, ETC.)
 
 * Join the output of the top folder asset dump with the spreadsheet such that the filename provided matches to the asset id using [csvkit](https://github.com/wireservice/csvkit): `csvjoin -c name metadata_provided_by_lab.csv asset_metadata_pulled_from_db.csv > joine_metadata.csv` to create the file that will be used to run the ingest script (see: _Once a dataset has been prepared_) above. The asset id, in this case, will be the asset id for the ingest JSON (rather than the path to file on the staging server).
+
+* Create ingest JSON file using `csv2json.py` as explained above. Add the `-a` flag for assisted curation:
+
+    python csv2json.py -a -s <PATH TO SESSION .CSV FILE> -p <PATH TO PARTICIPANT .CSV FILE> -f <FILENAME FOR OUTPUT> -n "<NAME OF VOLUME AS APPEARS ON DATABRARY>"
 
 
 ## <a name="protocols">Tracking ingestion progress and file sharing</a>
