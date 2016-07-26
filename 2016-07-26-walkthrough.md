@@ -2,29 +2,35 @@
 
 ## Agenda
 
+- Build system
+  - Cabal
+  - Dockerfile
 - Database schema
-	- Migrations
-	- dbranges
+  - Migrations
+  - dbranges
+  - runsql
 - Configuration
-	- Filesystem layout
+  - databrary.conf
+  - Filesystem layout
 - Application startup
-	- Schema updates
-	- Web file generation
-	- wai/warp overview
-- Services (Background processes)
-	- Solr
-	- Transcoding
-	- frame/image caching
-	- Periodic
-	- Notifications
+  - Schema updates
+  - Web file generation
+  - wai/warp overview
+- Services
+  - Background processes
+    - Solr
+    - Periodic
+    - Notifications
+  - Transcoding
+  - frame/image caching
 - Models
-	- Postgresql interface
-	- Security philosophy
+  - Postgresql interface
+  - Security philosophy
 - Controllers
-	- Routing
-	- Authentication
-	- Form processing
-	- JSON
-	- Asset retrieval
+  - Routing
+  - Authentication
+  - Form processing
+  - JSON
+  - Asset retrieval
 - Frontend
-	- Angular overview
+  - Angular overview
