@@ -104,7 +104,6 @@ Once a dataset has been approved for starting the ingestion process, the curator
 * Ensure that participant metadata is assigned accurately with session metadata
 * Flag any metadata that might need special attention for the ingest process (i.e. needs additional processing or could benefit from automated transformation)
 * Arrange assets (videos and other materials) on the server as per asset directory template ([located here](https://github.com/databrary/curation/blob/master/spec/templates/asset_directory_template.md))
-* Ensure that files are named according to file naming conventions (*PENDING*)
 
 Once a dataset has been prepared:
 
@@ -125,6 +124,8 @@ Once a dataset has been prepared:
     \copy (select a.*, c.id as container_id from asset a left join slot_asset sa on a.id = sa.asset left join container c on sa.container = c.id where a.volume = <volid> and c.top = true) to <csv_file_.csv> With CSV HEADER;
 
   Or by using the script `assisted.py` in [`curation/tools/scripts`](https://github.com/databrary/curation/blob/master/tools/scripts/assisted.py)
+
+  **IMPORTANT**: ensure that data contributor has filenames that will allow you to connect which files go with which session. Usually this is made possible with a participant ID in the file name. 
 
 * Clean up and standardize provided spreadsheet ([see Databrary Ingest Metadata Schema for requirements and formats](https://github.com/databrary/curation/blob/master/spec/metadata.md)) 
 
