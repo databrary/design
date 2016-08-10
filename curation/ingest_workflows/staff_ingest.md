@@ -36,8 +36,7 @@ This guide provides criteria and minimal requirements that a potential data cont
 
 # Internal Workflow
 
-This section outlines the procedures for taking in already completed datasets should be ingested separately 
-from Upload-As-You-Go. This set of procedures only takes place after we have conducted the contributor preparedness survey [see: Databrary Contributor Preparedness Survey](https://github.com/databrary/teamdocs/blob/master/curation/databrary_contributor_survey.md)
+This section outlines the procedures for taking in already completed datasets or bulk uploads of video data and metadata that should be ingested separately from Upload-As-You-Go.
 
 [Assess Data](#assess_data)
 
@@ -111,7 +110,7 @@ Once a dataset has been prepared:
 
 * Transform spreadsheet metadata into ingestible JSON format via script `csv2json.py` found [here](https://github.com/databrary/curation/blob/master/tools/scripts/csv2json.py) and validate against [JSON schema](http://github.com/databrary/curation/spec/volume.json)(the latter is already built intot he databrary online ingest form). 
   - Example usage of `csv2json.py` for non-assisted curation: 
-    python csv2json.py -s *PATH TO SESSION .CSV FILE* -p *PATH TO PARTICIPANT .CSV FILE* -f *FILENAME FOR OUTPUT* -n "*NAME OF VOLUME AS APPEARS ON DATABRARY*"
+    `python csv2json.py -s [PATH TO SESSION .CSV FILE] -p [PATH TO PARTICIPANT .CSV FILE] -f [FILENAME FOR OUTPUT] -n ["FULL NAME OF VOLUME AS APPEARS ON DATABRARY"]`
 * Ingest and transcode metadata and asset data via server scripts ([located here](https://github.com/databrary/curation/tree/master/tools/scripts)).
 * Staff will then review materials as they appear on the site and correct any errors that occurred during the ingest process.
 * Ensure that data has correct permissions applied to them.
@@ -127,13 +126,13 @@ Once a dataset has been prepared:
 
   Or by using the script `assisted.py` in [`curation/tools/scripts`](https://github.com/databrary/curation/blob/master/tools/scripts/assisted.py)
 
-* Clean up and standardize provided spreadsheet ([INGEST SPREADSHEET CONVENTIONS](http://example.com/pending)) (e.g. ISO 8601 for dates, a key for Identifying the session, ETC.)
+* Clean up and standardize provided spreadsheet ([see Databrary Ingest Metadata Schema for requirements and formats](https://github.com/databrary/curation/blob/master/spec/metadata.md)) 
 
 * Join the output of the top folder asset dump with the spreadsheet such that the filename provided matches to the asset id using [csvkit](https://github.com/wireservice/csvkit): `csvjoin -c name metadata_provided_by_lab.csv asset_metadata_pulled_from_db.csv > joine_metadata.csv` to create the file that will be used to run the ingest script (see: _Once a dataset has been prepared_) above. The asset id, in this case, will be the asset id for the ingest JSON (rather than the path to file on the staging server).
 
 * Create ingest JSON file using `csv2json.py` as explained above. Add the `-a` flag for assisted curation:
 
-    python csv2json.py -a -s *PATH TO SESSION .CSV FILE* -p *PATH TO PARTICIPANT .CSV FILE* -f *FILENAME FOR OUTPUT* -n "*NAME OF VOLUME AS APPEARS ON DATABRARY*"
+    `python csv2json.py -a -s [PATH TO SESSION .CSV FILE] -p [PATH TO PARTICIPANT .CSV FILE] -f [FILENAME FOR OUTPUT] -n ["FULL NAME OF VOLUME AS APPEARS ON DATABRARY"]`
 
 
 ## <a name="protocols">Tracking ingestion progress and file sharing</a>
@@ -145,7 +144,7 @@ Metadata while in process, should be stored at a central location where members 
 
 #### Tracking datasets in curation
 
-**(In OpenProject)**
+[OpenProject](https://databrary.org/project/projects/volumes)
 
 
 
